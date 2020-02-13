@@ -34,8 +34,10 @@ MN975262,2020-01-11
 
 Such file can be obtained directly from viral resource at NCBI [Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/). The collection times are taken from GenBank `/collection_date` tag. 
 
-## The workflow
+## The history and workflow
 
-The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and insatlled on any Galaxy instance. 
+Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-mcra-timing).
+
+The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. 
 
 ![](mcra_wf.png)
