@@ -46,6 +46,6 @@ The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy publi
 
 ------
 
-## Jupyter notebook and actual MCRA
+## Jupyter notebook and the actual MCRA
 
 The notebook containing the estimate [is in this repository](MCRA_Estimation_Notebook.ipynb). 
