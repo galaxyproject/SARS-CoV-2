@@ -49,6 +49,8 @@ The [workflow](https://usegalaxy.org/u/aun1/w/ncov-pp) is available at Galaxy pu
 
 ## BioConda
 
+Tools used in this analysis are also available from BioConda:
+
 | Name | Link |
 |------|----------------|
 | `sra-tools` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/sra-tools/badges/version.svg)](https://anaconda.org/bioconda/sra-tools) |
