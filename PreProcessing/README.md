@@ -55,9 +55,9 @@ The [workflow](https://usegalaxy.org/u/aun1/w/ncov-pp) is available at Galaxy pu
 | `fastqc` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/fastqc/badges/version.svg)](https://anaconda.org/bioconda/fastqc) |
 | `multiqc` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/multiqc/badges/version.svg)](https://anaconda.org/bioconda/multiqc) |
 | `fastp` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/fastp/badges/version.svg)](https://anaconda.org/bioconda/fastp) |
-| `anoplot` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/nanoplot/badges/version.svg)](https://anaconda.org/bioconda/nanoplot) |
+| `nanoplot` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/nanoplot/badges/version.svg)](https://anaconda.org/bioconda/nanoplot) |
 | `bwa` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/bwa/badges/version.svg)](https://anaconda.org/bioconda/bwa) |
-| `Picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
+| `picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
 | `samtools` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/samtools/badges/version.svg)](https://anaconda.org/bioconda/samtools) |
 
 

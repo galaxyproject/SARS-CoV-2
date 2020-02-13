@@ -39,11 +39,11 @@ The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy publi
 
 ## BioConda
 
-The information about tools and their versions is contained within Galaxy workflow. 
+TTools used in this analysis are also available from BioConda:
 
 | Name | Link |
 |------|----------------|
-| `Picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
-| `MAFFT` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
+| `picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
+| `mafft` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
 | `iqtree` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/iqtree/badges/version.svg)](https://anaconda.org/bioconda/iqtree) |
 
