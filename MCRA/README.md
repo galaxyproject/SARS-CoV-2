@@ -13,9 +13,9 @@ It correlates an estimate of branch lengths (evolutionary rate) with isolation t
 
 This analysis consists of two components - a Galaxy workflow and Jupyter notebook. 
 
-The workflow is used to extract full length sequences of SARS-CoV-2, Bat-CoV, and SARS-CoV, tidy up their names in FASTA files, produce a multiple sequences alignemnt and compute a maximum likelyhood tree.
+The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignemnt and compute a maximum likelyhood tree.
 
-The Jupyter notebook is used to correlate branch lengths with collection dates in order to estimate the data of MCRA.
+The Jupyter notebook is used to correlate branch lengths with collection dates in order to estimate MCRA timing.
 
 --------
 
@@ -32,4 +32,8 @@ MN975262,2020-01-11
 ...
 ```
 
-Such file can be obtained directly from viral resource at NCBI [Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/). The collection times are taken from GenBank `/collection_date` tag. However, not all entries have such tag. In the case of the original SARS virus collection information had to be deducted from the submission time (e.g., see [here](https://www.ncbi.nlm.nih.gov/nucleotide/AY395003.1?report=genbank&log$=nuclalign&blast_rank=13&RID=4AX441XM016)), which may not be accurate. 
+Such file can be obtained directly from viral resource at NCBI [Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/). The collection times are taken from GenBank `/collection_date` tag. 
+
+## The workflow
+
+![](mcra_wf.png)
