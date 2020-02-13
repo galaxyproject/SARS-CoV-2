@@ -3,13 +3,13 @@
 ## The methodology
 
 To estimate the time of MCRA we use [methodology](https://doi.org/10.1093/bioinformatics/16.4.395) developed by [Andrew Rambaut](https://scholar.google.com/citations?user=JiYPDfoAAAAJ&hl=en&oi=ao).
-It correlates an estimate of branch lengths (evolutionary rate) with isolation times of sequences used to contruct the tree.
+It correlates an estimate of branch lengths (evolutionary rate) with isolation times of sequences used to construct the tree.
 
 ## The outline
 
 This analysis consists of two components - a Galaxy workflow and Jupyter notebook. 
 
-The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignemnt and compute a maximum likelyhood tree.
+The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
 The Jupyter notebook is used to correlate branch lengths with collection dates in order to estimate MCRA timing.
 
@@ -39,11 +39,11 @@ The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy publi
 
 ## BioConda
 
-Th einformation about tools and their versions is contained within Galaxy workflow 
+The information about tools and their versions is contained within Galaxy workflow 
 
-| Name | BioConda link |
+| Name | Link |
 |------|----------------|
-| Picard | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
-| MAFFT | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
-| iqtree | [![Anaconda-Server Badge](https://anaconda.org/bioconda/iqtree/badges/version.svg)](https://anaconda.org/bioconda/iqtree) |
+| `Picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
+| `MAFFT` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
+| `iqtree` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/iqtree/badges/version.svg)](https://anaconda.org/bioconda/iqtree) |
 
