@@ -43,3 +43,9 @@ Galaxy workspace (history) containing the most current analysis can be imported 
 The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. 
 
 ![](mcra_wf.png)
+
+------
+
+## Jupyter notebook and actual MCRA
+
+The notebook containing the estimate [is in this repository](MCRA_Estimation_Notebook.ipynb). 
