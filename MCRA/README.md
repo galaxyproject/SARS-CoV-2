@@ -1,6 +1,6 @@
 # Dating the most common recent ancestor (MCRA) of SARS-CoV-2
 
-## The methodology
+## The point
 
 To estimate the time of MCRA we use [methodology](https://doi.org/10.1093/bioinformatics/16.4.395) developed by [Andrew Rambaut](https://scholar.google.com/citations?user=JiYPDfoAAAAJ&hl=en&oi=ao).
 It correlates an estimate of branch lengths (evolutionary rate) with isolation times of sequences used to construct the tree.
@@ -32,14 +32,14 @@ Such file can be obtained directly from viral resource at NCBI [Viral Resource](
 
 Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-mcra-timing).
 
-The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools it contains. 
+The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 ![](mcra_wf.png)
 
 
 ## BioConda
 
-The information about tools and their versions is contained within Galaxy workflow 
+The information about tools and their versions is contained within Galaxy workflow. 
 
 | Name | Link |
 |------|----------------|
