@@ -36,4 +36,6 @@ Such file can be obtained directly from viral resource at NCBI [Viral Resource](
 
 ## The workflow
 
+The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and insatlled on any Galaxy instance. 
+
 ![](mcra_wf.png)
