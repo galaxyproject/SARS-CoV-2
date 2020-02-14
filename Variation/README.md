@@ -53,7 +53,7 @@ to understand the extent of sequence variation within these samples we performed
 The worflow produces a table of varinats that looks like this:
 
 <div>
-<table border="1" class="dataframe">
+<table>
   <thead>
     <tr style="text-align: right;">
       <th></th>
