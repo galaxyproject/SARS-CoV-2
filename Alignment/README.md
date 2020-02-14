@@ -48,6 +48,12 @@ We produced two alignments, one nucleic and one proteic, of Betacoronavirus spik
 | ![Proteic Alignment of Spike proteins](Spike_Protein_Alignment.png)|
 | **B**. Protein alignment|
 
+These alignment are visualized with the software [`AliView`](https://github.com/AliView/AliView)
+
+They can also be visualized with the `Multiple Sequence Alignment` visualization in Galaxy
+
+![Visualization of proteic alignment in Galaxy](align_galaxy_viz.png)
+
 ## Workflow
 
 The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/coronavirus-spike-proteins-alignments). The workfow for this analysis is available on the public Galaxy [usegalaxy.org](https://usegalaxy.org/u/delphinel/w/cov-alignment) and contain all information about tool versions and parameters.
