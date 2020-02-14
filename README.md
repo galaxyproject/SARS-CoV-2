@@ -25,4 +25,6 @@ It contains the following steps:
   The analyses have been performed on [Galaxy](http://galaxyproject.org) platform using open source tools from [BioConda](https://bioconda.github.io/). All tools were run on [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/).
 
   ![](img/g_logo.png)
+  ![](img/bc_logo.png)
+  ![](img/layout_set_logo.png)
 
