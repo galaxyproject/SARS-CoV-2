@@ -34,7 +34,7 @@ DQ412596.1	SARS coronavirus isolate CUHKtc14NP
 DQ412609.1	SARS coronavirus isolate CUHKtc32NP
 MN996528.1	nCov-2019
 MN996527.1	nCov-2019
-NC_045512.2   nCov-2019
+NC_045512.2	nCov-2019
 ```
 
 ## Output
@@ -55,7 +55,7 @@ The Galaxy history containing the latest analysis can be found [here](https://us
 ![Analysis Workflow](Workflow_snapshot.png)
 
 The first steps are used to sort the fasta files according to description, so that the sequence from same species are grouped together and the alignments are easier to read. This is done through the `FASTA-to-tabular` to transform the fasta file into a tabulated file containing the genome ID, the genome description, and the sequence. We then use the `Sort` tool to order the sequences alphabetically according to the genome description. The `Text reformating` tools allows us to use a `awk` command to transform the tabulated file back into a fasta file.
-The `Transeq`  file converts the CDS sequences into proteic sequences. We use `MAFFT` to align these proteic sequences. The output is fed into `tranalign` along with the nucleic sequences. `tranalign` produces a nucleic alignment coherent with the proteic alignment.  
+The `Transeq`  file converts the CDS sequences into proteic sequences. We use `MAFFT` to align these proteic sequences. The output is fed into `tranalign` along with the nucleic sequences. `tranalign` produces a nucleic alignment coherent with the proteic alignment.
 
 ## BioConda
 
