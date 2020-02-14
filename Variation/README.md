@@ -52,7 +52,7 @@ to understand the extent of sequence variation within these samples we performed
 
 ### Jupyter notebook
 
-Jupyter notebook requires GenBank file (#1 above) and the output of the workflow described below. 
+Jupyter notebook requires GenBank file (#1 from above) and the output of the workflow described below. 
 
 ## Outputs
 
