@@ -1,7 +1,6 @@
 # Initial analysis of SARS-CoV-2 data using Galaxy, BioConda and XSEDE
 
-Marius Van Den Beek https://github.com/mvdbeek<br>
-Dave Bouvier https://github.com/davebx<br>
+##### Dave Bouvier https://github.com/davebx<br>
 John Chilton https://github.com/jmchilton<br>
 Nate Coroar https://github.com/natefoo<br>
 Delphine LaRiviere https://github.com/Delphine-L<br>
