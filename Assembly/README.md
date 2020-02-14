@@ -6,7 +6,7 @@ Use a combination of Illumina and Oxford Nanopore reads to produce SARS-CoV-2 ge
 
 ## Outline
 
-We used Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`SPAdes`](http://cab.spbu.ru/software/spades/) and [`Unicycler`](https://github.com/rrwick/Unicycler). While `SPAdes` is a tool fully dedicated to assembly `Unicycler` is a "wrapper" that combines multiple existing tools. It uses `SPAdes` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`Racon`](https://github.com/isovic/racon) for assembly of long noisy reads. 
+We used Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`SPAdes`](http://cab.spbu.ru/software/spades/) and [`unicycler`](https://github.com/rrwick/Unicycler). While `spades` is a tool fully dedicated to assembly `unicycler` is a "wrapper" that combines multiple existing tools. It uses `spades` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`racon`](https://github.com/isovic/racon) for assembly of long noisy reads. 
 
 In addition to assemblies (actual sequences) the two tools produce assembly graphs that can be used for visualization of assembly with [`bandage`](https://rrwick.github.io/Bandage/).
 
@@ -16,10 +16,30 @@ Filtered Illumina and Oxford Nanopore reads produced during [pre processing step
 
 ## Outputs
 
-Each tools produces assembly (contigs) and assembly graph representations.
+Each tools produces assembly (contigs) and assembly graph representations. The following figures show visualization of assembly graphs produced with `spades` and `unicycler`:
+
+|                               |
+|-------------------------------|
+| ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5d6265148ad20e586/display/?preview=True)
+| Unicycler assembly graph |
+| ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5d6265148ad20e586/display/?preview=True)
+| SPAdes assembly graph |
 
 ## History and workflow
+
+Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-assembly).
+
+The [workflow](https://usegalaxy.org/u/aun1/w/ncov-assembly-1) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 ![](as_wf.png)
 
 
+## BioConda
+
+Tools used in this analysis are also available from BioConda:
+
+| Name | Link |
+|------|----------------|
+| `unicycler` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/unicycler/badges/version.svg)](https://anaconda.org/bioconda/unicycler) |
+| `spades` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/spades/badges/version.svg)](https://anaconda.org/bioconda/spades) |
+| `bandage` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/bandage/badges/version.svg)](https://anaconda.org/bioconda/bandage) |

@@ -43,7 +43,7 @@ The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy publi
 
 ## BioConda
 
-TTools used in this analysis are also available from BioConda:
+Tools used in this analysis are also available from BioConda:
 
 | Name | Link |
 |------|----------------|
