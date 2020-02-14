@@ -21,7 +21,7 @@ Each tools produces assembly (contigs) and assembly graph representations. The l
 The following figures show visualization of assembly graphs produced with `spades` and `unicycler`. The complexity of graphs is not surprising given metagenomic nature of underlying samples.
 
 | Assembly graphs for Unicycler (A) and SPAdes (B) |
-|-------------------------------|
+|:-------------------------------|
 | ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5d6265148ad20e586/display/?preview=True)
 | **A**. Unicycler assembly graph |
 | ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5f5dc8f4de00733be/display/?preview=True)
