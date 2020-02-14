@@ -18,12 +18,12 @@ Filtered Illumina and Oxford Nanopore reads produced during [pre processing step
 
 Each tools produces assembly (contigs) and assembly graph representations. The following figures show visualization of assembly graphs produced with `spades` and `unicycler`:
 
-|                               |
+| Assembly graphs for Unicycler (A) and SPAdes (B) |
 |-------------------------------|
 | ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5d6265148ad20e586/display/?preview=True)
-| Unicycler assembly graph |
-| ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5d6265148ad20e586/display/?preview=True)
-| SPAdes assembly graph |
+| **A**. Unicycler assembly graph |
+| ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5f5dc8f4de00733be/display/?preview=True)
+| **B**. SPAdes assembly graph |
 
 ## History and workflow
 
