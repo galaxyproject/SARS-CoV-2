@@ -1,4 +1,4 @@
- Analsys of variation within individual samples
+# Analysis of variation within individual SARS-CoV-2 samples
 
 ## What's the point?
 
