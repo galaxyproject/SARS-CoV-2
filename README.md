@@ -26,5 +26,6 @@ It contains the following steps:
 
   ![](img/g_logo.png)
   ![](img/bc_logo.png)
-  ![](img/layout_set_logo.png)
+  ![](img/xsede.png)
+  ![](img/tacc.png)
 
