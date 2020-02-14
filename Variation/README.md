@@ -175,4 +175,14 @@ The variants we identified were distributed across SARC-CoV-2 genome in the foll
 
 ![](var_map.png)
 
+The following table described variants with frequencies above 10%:
+
 ![](S_var.png)
+
+## History and workflow
+
+Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation).
+
+The [workflow](https://usegalaxy.org/u/aun1/w/ncov-variation-analysis) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+![](var_wf.png)
