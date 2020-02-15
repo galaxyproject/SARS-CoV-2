@@ -45,7 +45,7 @@ to understand the extent of sequence variation within these samples we performed
 
 ## Inputs
 
-### Worlflow
+### Workflow
 
 1. GenBank file for the reference SARS-CoV-2 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). The GenBank record is used by `snpeff` to generate a database for variant annotation.
 2. Set illumina reads (in this case a collection of unfiltered reads from `SRR10903401`, `SRR10903402`, and `SRR10971381`)
