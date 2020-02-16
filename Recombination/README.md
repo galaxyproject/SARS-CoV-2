@@ -16,7 +16,13 @@ A set of unaligned CDS sequences for the *S*-gene.
 
 ## Outputs
 
-A map of recombination hotspots
+A recombination report:
+
+![](dm_report.png)
+
+and a map of possible recombination hotspots:
+
+![](dm_chart.png)
 
 ## History and workflow
 
