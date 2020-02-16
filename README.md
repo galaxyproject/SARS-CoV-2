@@ -1,5 +1,6 @@
 # Initial analysis of SARS-CoV-2 data using Galaxy, BioConda and XSEDE
 
+[Dannon Baker](https://github.com/dannon)
 [Marius Van Den Beek](https://github.com/mvdbeek), 
 [John Chilton]( https://github.com/jmchilton), 
 [Nate Coroar](https://github.com/natefoo), 
