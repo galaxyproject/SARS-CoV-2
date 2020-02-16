@@ -6,10 +6,6 @@
 
 ## Outline
 
-We employed recombination detection algorithm developed by [Kosakovsky Pond et al.](http://mbe.oxfordjournals.org/cgi/content/full/23/10/1891) and implemented in `hyphy` package. To select a representative set of *S*-genes we performed a b 
+We employed recombination detection algorithm developed by [Kosakovsky Pond et al.](http://mbe.oxfordjournals.org/cgi/content/full/23/10/1891) and implemented in `hyphy` package. To select a representative set of *S*-genes we performed a blast search of [NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) against the `nr` database and represented results as a multiple sequence alignment:
 
-
-<iframe id="xdnjd" width="1784" src="https://www.ncbi.nlm.nih.gov/projects/msaviewer/embedded_iframe.html?iframe=xdnjd&coloring=fbd&key=12RNvctmFL-4SFq4m1lsRjzv3G6DH40agRypCr0OryA-Ehjc3OZLNKUDkFOSQI093CWBMZ8VxBCDCpcHkQGdGq8zkj2-AZQ&appname=no_appname" onload="resize_xdnjd();">
-</iframe>
-<script type="text/javascript">function resize_xdnjd(){var resize=function(e){if(e.origin=="https://www.ncbi.nlm.nih.gov" && !isNaN(e.data))document.getElementById("xdnjd").height=parseInt(e.data);};if (!window.addEventListener) window.attachEvent("onmessage",resize,false);else  window.addEventListener("message",resize,false);}
-</script>
+![](blast_msa.png)
