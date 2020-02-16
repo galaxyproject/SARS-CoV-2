@@ -36,5 +36,43 @@ COVID-19,MN975262.1,99.983,29781,5,0,1,29781,29839,59,0.0,54968
 ....
 ```
 
-the workflow extracts accession numbers (the second column) and uses them to download corresponding sequences in FASTA format.
+the workflow:
+ 
+  - extracts accession numbers (the second column) for hit table
+  - downloads all corresponding FASTA files
+  - aligned them using `lastz`
+  - selected all sequences that align over at least 75% of the reference
+  - uses these sequences to create multiple alignment and phylogenetic tree
+
+## Outputs
+
+1. A multiple alignment of sequences that align over at least 75% of the reference
+2. A maximum likelihood tree
+
+
+## History and workflow
+
+Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-comp).
+
+The [workflow](https://usegalaxy.org/u/aun1/w/comp) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+the workflow performs the following steps:
+ 
+  - extracts accession numbers (the second column) for hit table
+  - downloads all corresponding FASTA files
+  - aligned them using `lastz`
+  - selected all sequences that align over at least 75% of the reference
+  - uses these sequences to create multiple alignment and phylogenetic tree
+
+![](comp_wf.png)
+
+## BioConda
+
+Tools used in this analysis are also available from BioConda:
+
+| Name | Link |
+|------|----------------|
+| `lastz` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/lastz/badges/version.svg)](https://anaconda.org/bioconda/lastz) |
+| `mafft` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
+| `iqtree` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/iqtree/badges/version.svg)](https://anaconda.org/bioconda/iqtree) |
 
