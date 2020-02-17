@@ -11,7 +11,7 @@ This analysis consists of two components - a Galaxy workflow and a Jupyter noteb
 
 The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
-The Jupyter notebook is used to correlate branch lengths with collection dates in order to estimate MCRA timing.
+The [Jupyter notebook](./MCRA_Estimation_Notebook.ipynb) is used to correlate branch lengths with collection dates in order to estimate MCRA timing.
 
 ## Inputs
 
