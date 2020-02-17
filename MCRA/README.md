@@ -7,7 +7,7 @@ It correlates an estimate of branch lengths (evolutionary rate) with isolation t
 
 ## Outline
 
-This analysis consists of two components - a Galaxy workflow and Jupyter notebook. 
+This analysis consists of two components - a Galaxy workflow and a Jupyter notebook. 
 
 The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
@@ -26,7 +26,13 @@ MN975262,2020-01-11
 ...
 ```
 
-Such file can be obtained directly from viral resource at NCBI [Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/). The collection times are taken from GenBank `/collection_date` tag. 
+An up-to-date version of this file can be generated directly from the [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/) resource by
+
+1. searching for SARS-CoV-2 (NCBI taxid: 2697049) sequences
+2. configuring the list of results to display only the `Accession` and `Collection date` columns
+3. downloading the `Current table view result` in `CSV format`
+
+The collection dates will be taken from the corresponding GenBank record's `/collection_date` tag. 
 
 ## Outputs
 
@@ -34,9 +40,9 @@ Such file can be obtained directly from viral resource at NCBI [Viral Resource](
 
 ## History and workflow
 
-Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-mcra-timing).
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-mcra-timing).
 
-The [workflow](https://usegalaxy.org/u/aun1/w/mcra) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/mcra) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 ![](mcra_wf.png)
 
