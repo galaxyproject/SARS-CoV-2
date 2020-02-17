@@ -1,3 +1,5 @@
+[![Galaxy workflows](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb)
+
 # Analysis of variation within individual COVID-19 samples
 
 ## What's the point?
