@@ -8,46 +8,54 @@ Assess quality of reads, remove adapters and remove reads mapping to human genom
 
 ## The outline
 
-Illumina and Oxford nanopore reads are pulled from NCBI SRA (links to SRA accessions are available [here](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)). They are then processed separately as described in the workflow.
+Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA accessions are available [here](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)). They are then processed separately as described in the workflow.
 
 ## Inputs
 
-Only SRA accessions are required for this analysis. The described analysis was performed all SRA SARS-CoV accessions available as of Feb 13, 2020:
+Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 13, 2020:
 
-```
-SRR10903401
-SRR10903402
-SRR10971381
-SRR10948550
-SRR10948474
-SRR10902284
-```
+1. Illumina reads
+
+   ```
+   SRR10903401
+   SRR10903402
+   SRR10971381
+   ```
+
+2. Oxford Nanopore reads
+
+   ```
+   SRR10948550
+   SRR10948474
+   SRR10902284
+   ```
+
 ## Outputs
 
-Illumina and Oxfordnanpore reads without human contamination.
+Illumina and Oxford Nanopore reads without human contamination.
 
 
 ## The history and the workflow
 
-Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-pp).
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-pp).
 
-The [workflow](https://usegalaxy.org/u/aun1/w/ncov-pp) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. t contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-pp) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 The workflow performs the following steps:
 
 ### Illumina
 
  - Illumina reads are QC'ed and adapter sequences are removed using `fastp`
- - Quality metrics are computed and visualized using `fastqc`  and 'multiqc'
- - Reads are mapped against human genome `hg38` using `bwa mem`
+ - Quality metrics are computed and visualized using `fastqc`  and `multiqc`
+ - Reads are mapped against human genome version `hg38` using `bwa mem`
  - Reads that **do not map** to `hg38` are filtered out using `samtools view`
  - Reads are converted back to fastq format using `samtools fastx`
 
 ### Oxford nanopore
 
  - Reads are QC'ed using `nanoplot`
- - Quality metrics are computed and visualized using `fastqc`  and 'multiqc'
- - Reads are mapped against human genome `hg38` using `minimap2`
+ - Quality metrics are computed and visualized using `fastqc`  and `multiqc`
+ - Reads are mapped against human genome version `hg38` using `minimap2`
  - Reads that **do not map** to `hg38` are filtered out using `samtools view`
  - Reads are converted back to fastq format using `samtools fastx`
 
