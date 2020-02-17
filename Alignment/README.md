@@ -1,4 +1,4 @@
-# Alignment of SARS-CoV-2 Spike protein with other Coronaviruses spike proteins
+# Alignment of COVID-19 Spike protein with other Coronaviruses spike proteins
 
 ## What's the point?
 

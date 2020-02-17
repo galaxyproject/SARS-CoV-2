@@ -6,7 +6,7 @@ Use a combination of Illumina and Oxford Nanopore reads to produce SARS-CoV-2 ge
 
 ## Outline
 
-We used Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`SPAdes`](http://cab.spbu.ru/software/spades/) and [`unicycler`](https://github.com/rrwick/Unicycler). While `spades` is a tool fully dedicated to assembly `unicycler` is a "wrapper" that combines multiple existing tools. It uses `spades` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`racon`](https://github.com/isovic/racon) for assembly of long noisy reads. 
+We used Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`spades`](http://cab.spbu.ru/software/spades/) and [`unicycler`](https://github.com/rrwick/Unicycler). While `spades` is a tool fully dedicated to assembly `unicycler` is a "wrapper" that combines multiple existing tools. It uses `spades` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`racon`](https://github.com/isovic/racon) for assembly of long noisy reads. 
 
 In addition to assemblies (actual sequences) the two tools produce assembly graphs that can be used for visualization of assembly with [`bandage`](https://rrwick.github.io/Bandage/).
 
