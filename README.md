@@ -11,12 +11,12 @@
 [James Taylor](https://github.com/jxtx), 
 [Steven Weaver](https://github.com/stevenweaver)
 
-The is a companion to the manuscript describing the analysis of early SARS-CoV-2 data. It contains description of workflows and exact versions of all software used. 
+The is a companion to the manuscript describing the analysis of early COVID-19 data. It contains description of workflows and exact versions of all software used. 
 
 It contains the following steps:
 
   1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing)
-  2. [Assembly of SARS-CoV-2 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly)
+  2. [Assembly of COVID-19 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly)
   3. [Estimation of timing for most common recent ancestor (MCRA)](https://github.com/galaxyproject/SARS-CoV-2/tree/master/MCRA)
   4. [Analysis of variation within individual isolates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation)
   5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Alignment)
