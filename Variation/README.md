@@ -31,28 +31,30 @@ As of writing (2/13/2020) there were just three Illumina datasets from COVID-19 
   sra-run: SRR10971381
  ```
 
-to understand the extent of sequence variation within these samples we performed the following analysis. First we use a Galaxy workflow to perform the following steps:
+To understand the extent of sequence variation within these samples we performed the following analysis. First, we used a Galaxy workflow to perform the following steps:
 
 
  1. Mapped all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem`
  2. Filtered reads with mapping quality of at least 20, that were mapped as proper pairs
- 3. Performed realignments using `lofreq viterbi` 
+ 3. Performed realignments using `lofreq viterbi`
  4. Called variants using `lofreq call`
  5. Annotated variants using `snpeff` against database created from NC_045512.2 GenBank file
  6. Converted VCFs into tab delimited datasets
 
- Next we analyzed tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
+ Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
 
 ## Inputs
 
 ### Workflow
 
-1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). The GenBank record is used by `snpeff` to generate a database for variant annotation.
-2. Set illumina reads (in this case a collection of unfiltered reads from `SRR10903401`, `SRR10903402`, and `SRR10971381`)
+1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
+
+   The GenBank record is used by `snpeff` to generate a database for variant annotation.
+2. Set of illumina reads (in this case a collection of unfiltered reads from `SRR10903401`, `SRR10903402`, and `SRR10971381`)
 
 ### Jupyter notebook
 
-Jupyter notebook requires GenBank file (#1 from above) and the output of the workflow described below. 
+The Jupyter notebook requires the GenBank file (#1 from above) and the output of the workflow described below. 
 
 ## Outputs
 
@@ -169,21 +171,21 @@ The workflow produces a table of variants that looks like this:
 </table>
 </div>
 
-here most fields names are descriptive. **SB** = the Phred-scaled probability of strand bias as calculated by [lofreq](https://csb5.github.io/lofreq/) (0 = no strand bias); **DP4** = strand-specific depth for reference and alternative observations (Forward reference, reverse reference, forward alternative, reverse alternative).
+Here, most fields names are descriptive. **SB** = the Phred-scaled probability of strand bias as calculated by [lofreq](https://csb5.github.io/lofreq/) (0 = no strand bias); **DP4** = strand-specific depth for reference and alternate allele observations (Forward reference, reverse reference, forward alternate, reverse alternate).
 
-The variants we identified were distributed across SARC-CoV-2 genome in the following way:
+The variants we identified were distributed across the SARS-CoV-2 genome in the following way:
 
 ![](var_map.png)
 
-The following table described variants with frequencies above 10%:
+The following table describes variants with frequencies above 10%:
 
 ![](S_var.png)
 
 ## History and workflow
 
-Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation).
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation).
 
-The [workflow](https://usegalaxy.org/u/aun1/w/ncov-variation-analysis) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
 ![](var_wf.png)
 
