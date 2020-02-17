@@ -56,7 +56,7 @@ They can also be visualized with the `Multiple Sequence Alignment` visualization
 
 ## Workflow
 
-The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/coronavirus-spike-proteins-alignments). The workfow for this analysis is available on the public Galaxy [usegalaxy.org](https://usegalaxy.org/u/delphinel/w/cov-alignment) and contain all information about tool versions and parameters.
+The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/coronavirus-s-protein-alignments). The workfow for this analysis is available on the public Galaxy [usegalaxy.org](https://usegalaxy.org/u/delphinel/w/cov-alignment) and contain all information about tool versions and parameters.
 
 ![Analysis Workflow](Workflow_snapshot.png)
 
