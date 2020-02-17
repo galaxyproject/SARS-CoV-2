@@ -17,11 +17,10 @@ It contains the following steps:
 
   1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing)
   2. [Assembly of SARS-CoV-2 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly)
-  3. [Comparative analysis of SARS-CoV-2 and closely related coronaviruses](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Comp)
-  4. [Estimation of timing for most common recent ancestor (MCRA)](https://github.com/galaxyproject/SARS-CoV-2/tree/master/MCRA)
-  5. [Analysis of variation within individual isolates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation)
-  6. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Alignment)
-  7. [Analysis of recombination](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Recombination)
+  3. [Estimation of timing for most common recent ancestor (MCRA)](https://github.com/galaxyproject/SARS-CoV-2/tree/master/MCRA)
+  4. [Analysis of variation within individual isolates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation)
+  5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Alignment)
+  6. [Analysis of recombination](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Recombination)
 
   The analyses have been performed on [Galaxy](http://galaxyproject.org) platform using open source tools from [BioConda](https://bioconda.github.io/). All tools were run on [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/).
 

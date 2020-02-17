@@ -6,12 +6,12 @@ Aligning Spike protein sequences to detect structural variations and impact of p
 
 ## Outline
 
-We used [`MAFFT`](https://mafft.cbrc.jp/alignment/software/), [`Transeq`](https://www.ebi.ac.uk/Tools/st/emboss_transeq/), and [`Transalign`](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-6-156) tools to obtain a proteic alignment and a codon aware nucleic alignment. These alignments allowed us to locate a polymorphisme on a protein and its impact.
+We generated a codon alignment for a set of coronovaruses in order to track polymorphism uncovered by the analysis of v[ariation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation). 
 
 
 ## Input
 
-We downloaded CDS sequences of coronavirus Spike proteins from [NCBI](https://www.ncbi.nlm.nih.gov/). We selected related betacoronaviruses, Bat SARS-like, SARS, Murine hepatitis, and MERS, with spike proteins of different assembly of 2019-nCoV.
+We downloaded CDS sequences of coronavirus Spike proteins from [NCBI Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049) for the following coronaviruses:
 
 ```
 FJ588692.1	Bat SARS Coronavirus Rs806/2006
@@ -39,7 +39,7 @@ NC_045512.2	nCov-2019
 
 ## Output
 
-We produced two alignments, one nucleic and one proteic, of Betacoronavirus spike proteins.
+We produced two alignments, one nucleic and one amino acid, of Betacoronavirus spike proteins.
 
 | Alignments of Spike proteins |
 |:-------------------------------:|
@@ -52,7 +52,7 @@ These alignment are visualized with the software [`AliView`](https://github.com/
 
 They can also be visualized with the `Multiple Sequence Alignment` visualization in Galaxy
 
-![Visualization of proteic alignment in Galaxy](align_galaxy_viz.png)
+![Visualization of amino acid alignment in Galaxy](align_galaxy_viz.png)
 
 ## Workflow
 
