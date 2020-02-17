@@ -1,4 +1,4 @@
-# Initial analysis of SARS-CoV-2 data using Galaxy, BioConda and XSEDE
+# Initial analysis of COVID-19 data using Galaxy, BioConda and XSEDE
 
 [Dannon Baker](https://github.com/dannon),
 [Marius Van Den Beek](https://github.com/mvdbeek), 
