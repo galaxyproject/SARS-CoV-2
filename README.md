@@ -7,6 +7,7 @@
 [Delphine LaRiviere](https://github.com/Delphine-L), 
 [Nicholas Keener](https://github.com/nickeener), 
 [Sergei Kosakovsky](https://github.com/spond), 
+[Wolfgang Maier](https://github.com/wm75),
 [Anton Nekrutenko](https://github.com/nekrut), 
 [James Taylor](https://github.com/jxtx), 
 [Steven Weaver](https://github.com/stevenweaver)
