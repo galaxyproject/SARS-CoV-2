@@ -6,7 +6,7 @@ Aligning Spike protein sequences to detect structural variations and impact of p
 
 ## Outline
 
-We generated a codon alignment for a set of coronovaruses in order to track polymorphism uncovered by the analysis of v[ariation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation). 
+We generated a codon alignment for a set of coronovaruses in order to track polymorphism uncovered by the analysis of v[ariation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation).
 
 
 ## Input
@@ -43,10 +43,10 @@ We produced two alignments, one nucleic and one amino acid, of Betacoronavirus s
 
 | Alignments of Spike proteins |
 |:-------------------------------:|
-| ![Nucleic Alignment of Spike proteins](Spike_CDS_Alignment.png)|
+| ![Nucleic Alignment of Spike proteins](Spike_CDS_Alignment.png) |
 | **A**. CDS alignments |
-| ![Proteic Alignment of Spike proteins](Spike_Protein_Alignment.png)|
-| **B**. Protein alignment|
+| ![Proteic Alignment of Spike proteins](Spike_Protein_Alignment.png) |
+| **B**. Protein alignment |
 
 These alignment are visualized with the software [`AliView`](https://github.com/AliView/AliView)
 
