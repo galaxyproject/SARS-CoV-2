@@ -27,6 +27,7 @@ It contains the following steps:
 
  <p align="center">
   <a href="https://galaxyproject.org/">  <img src="img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp; 
+  <a href="https://galaxyproject.eu/">  <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp; 
   <a href="https://bioconda.org/">       <img src="img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp; 
   <a href="https://xsede.org/">          <img src="img/xsede_logo.png" width="20%" alt="XSEDE" /></a> &nbsp;
   <a href="https://www.tacc.utexas.edu/"><img src="img/tacc_logo.png" width="20%" alt="TACC" /></a> &nbsp;
