@@ -1,4 +1,4 @@
-# Alignment of COVID-19 Spike protein with other Coronaviruses spike proteins
+# Alignment of COVID-19 Spike protein with homologs from other coronaviruses
 
 ## What's the point?
 
@@ -6,12 +6,12 @@ Aligning Spike protein sequences to detect structural variations and impact of p
 
 ## Outline
 
-We generated a codon alignment for a set of coronovaruses in order to track polymorphism uncovered by the analysis of [variation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation).
+We generate a codon alignment for a set of coronaviruses in order to track polymorphisms uncovered by the analysis of [variation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation).
 
 
 ## Input
 
-We downloaded CDS sequences of coronavirus Spike proteins from [NCBI Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049) for the following coronaviruses:
+Downloaded CDS sequences of coronavirus Spike proteins from [NCBI Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049) for the following coronaviruses:
 
 ```
 FJ588692.1	Bat SARS Coronavirus Rs806/2006
@@ -42,8 +42,7 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 ## Output
 
-We produced two alignments, one nucleic and one amino acid, of Betacoronavirus spike proteins.
- The alignments can be visualized with the `Multiple Sequence Alignment` visualization in Galaxy :
+We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the `Multiple Sequence Alignment` visualization in Galaxy :
 
  ![Visualization of amino acid alignment in Galaxy](align_galaxy_viz.png)
 
@@ -61,11 +60,11 @@ Or with locally installed softwares, here [`AliView`](https://github.com/AliView
 
 ## Workflow
 
-The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The workfow for this analysis is available on the public Galaxy [usegalaxy.org](https://usegalaxy.org/u/delphinel/w/cov-alignment) and contain all information about tool versions and parameters.
+The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The publicly accessible [workflow](https://usegalaxy.org/u/delphinel/w/cov-alignment) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
 
 ![Analysis Workflow](Workflow_snapshot.png)
 
-The `Transeq`  file converts the CDS sequences into proteic sequences. We use `MAFFT` to align these proteic sequences. The output is fed into `tranalign` along with the nucleic sequences. `tranalign` produces a nucleic alignment coherent with the proteic alignment.
+The `Transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `MAFFT`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
 
 ## BioConda
 
