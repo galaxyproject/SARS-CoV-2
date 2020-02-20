@@ -12,7 +12,7 @@ Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA ac
 
 ## Inputs
 
-Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 13, 2020:
+Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 20, 2020:
 
 1. Illumina reads
 
@@ -32,7 +32,13 @@ Only SRA accessions are required for this analysis. The described analysis was p
 
 ## Outputs
 
-Illumina and Oxford Nanopore reads without human contamination.
+This workflow produces three outputs that are used in tow subsequent analyses:
+
+ 1. A combined set of adapter-free Illumina reads without human contamination &#8594; used as an input to [assembly workflow]()
+ 2. A combined set of Oxford Nanopore reads without human contamination &#8594; used as an input to assembly workflow
+ 3. A collection of adapter-free Illumina reads from which human reads *have not* been removed &#8594; used as an input to variation detection workflow
+
+Illumina and Oxford Nanopore reads without adapters and sequences mapping to human genome.
 
 
 ## The history and the workflow
