@@ -1,8 +1,11 @@
+<!--
+
 | usegalaxy.org | usegalaxy.org.au | usegalaxy.eu |
 |:--------:|:------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) |
-| [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
+| [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb)                       | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
 
+-->
 
 # Analysis of S-protein polymorphism
 
@@ -53,7 +56,6 @@ We produce two alignments, one at the nucleotide and one at the amino acid level
 
  ![Visualization of amino acid alignment in Galaxy](align_galaxy_viz.png)
 
-
 | Alignments of Spike proteins |
 |:-------------------------------:|
 | ![Nucleic Alignment of Spike proteins](Spike_CDS_Alignment.png) |
@@ -61,21 +63,19 @@ We produce two alignments, one at the nucleotide and one at the amino acid level
 | ![Proteic Alignment of Spike proteins](Spike_Protein_Alignment.png) |
 | **B**. Protein alignment |
 
-
-
 ## Workflow and history
 
 The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The publicly accessible [workflow](https://usegalaxy.org/u/delphinel/w/cov-alignment) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
 
 ![Analysis Workflow](s_wf.png)
 
-The `Transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `MAFFT`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
+The `transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `mafft`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
 
 ## BioConda
 
 Tools used in this analysis are also available from BioConda:
 
-| Name | Link |
-|------|----------------|
-| `MAFFT` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
-| `EMBOSS:transeq and tranalign` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/emboss/badges/version.svg)](https://anaconda.org/bioconda/emboss) |
+| Name     | Link |
+|----------|----------------|
+| `mafft`  | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
+| `emboss` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/emboss/badges/version.svg)](https://anaconda.org/bioconda/emboss) |
