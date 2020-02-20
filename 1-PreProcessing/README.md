@@ -1,9 +1,7 @@
-<center>
 | usegalaxy.org | usegalaxy.org.au | usegalaxy.eu |
 |:--------:|:------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) |
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() |
-</center>
 
 
 # Preprocessing of raw SARS-CoV-2 reads
