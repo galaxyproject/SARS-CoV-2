@@ -12,7 +12,7 @@ In [the previous portion](https://github.com/galaxyproject/SARS-CoV-2/tree/maste
 
 ## Outline
 
-Obtain coding sequences of S proteins from a diverse group of coronaviruses. Generate amino acid alignment to assess conservation of polymorpohic location in a set of diverse coronaviruses.
+Obtain coding sequences of S proteins from a diverse group of coronaviruses. Generate amino acid alignment to assess conservation of the polymorpohic location.
 
 ## Input
 
@@ -67,7 +67,7 @@ We produce two alignments, one at the nucleotide and one at the amino acid level
 
 The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The publicly accessible [workflow](https://usegalaxy.org/u/delphinel/w/cov-alignment) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
 
-![Analysis Workflow](Workflow_snapshot.png)
+![Analysis Workflow](s_wf.png)
 
 The `Transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `MAFFT`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
 
