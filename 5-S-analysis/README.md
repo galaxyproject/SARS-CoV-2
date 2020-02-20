@@ -12,8 +12,7 @@ In [the previous portion](https://github.com/galaxyproject/SARS-CoV-2/tree/maste
 
 ## Outline
 
-We generate a codon alignment for a set of coronavirus S-proteins in order to track polymorphisms uncovered by the analysis of [variation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation).
-
+Obtain coding sequences of S proteins from a diverse group of coronaviruses. Generate amino acid alignment to assess conservation of polymorpohic location in a set of diverse coronaviruses.
 
 ## Input
 
@@ -46,15 +45,13 @@ Downloaded [CDS sequences](Spike_cds.fasta) of coronavirus Spike proteins from [
 |NC_028806.1 | Swine enteric coronavirus strain Italy/213306/2009 |
 |NC_038861.1 | Transmissible gastroenteritis virus |
 
-These viruses were chosen based on publication by Duquerroy et al. ([2005](http://dx.doi.org/10.1016/j.virol.2005.02.022)).
+These viruses were chosen based on publication by Duquerroy et al. ([2005](http://dx.doi.org/10.1016/j.virol.2005.02.022)). The sequences were extracted manually--a painful process. We will develop a tool for parsing particular CDS sequences automatically for future analyses. 
 
 ## Output
 
 We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the `Multiple Sequence Alignment` visualization in Galaxy :
 
  ![Visualization of amino acid alignment in Galaxy](align_galaxy_viz.png)
-
-Or with locally installed softwares, here [`AliView`](https://github.com/AliView/AliView).
 
 
 | Alignments of Spike proteins |
@@ -66,7 +63,7 @@ Or with locally installed softwares, here [`AliView`](https://github.com/AliView
 
 
 
-## Workflow
+## Workflow and history
 
 The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The publicly accessible [workflow](https://usegalaxy.org/u/delphinel/w/cov-alignment) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
 

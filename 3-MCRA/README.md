@@ -20,7 +20,7 @@ The [Jupyter notebook](./MCRA_Estimation_Notebook.ipynb) is used to correlate br
 
 ## Inputs
 
-One input is required: a comma-separated [file](acc_date.txt) containing accession numbers and collection dates:
+One input is required: a comma-separated [file](acc_date.csv) containing accession numbers and collection dates:
 
 ```
 Accession,Collection_Date
@@ -41,7 +41,7 @@ The collection dates will be taken from the corresponding GenBank record's `/col
 
 ## Outputs
 
-Workflow outputs a phylogenetic tree that is used as an input to [Jupyter](MCRA_Estimation_Notebook.ipynb) notebook along with the workflow input listing [accession numbers and collection times](acc_date.txt). 
+Workflow outputs a phylogenetic tree that is used as an input to [Jupyter](MCRA_Estimation_Notebook.ipynb) notebook along with the workflow input listing [accession numbers and collection times](acc_date.csv). 
 
 ## History and workflow
 
