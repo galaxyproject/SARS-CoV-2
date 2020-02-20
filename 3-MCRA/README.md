@@ -12,7 +12,7 @@ Estimate timing of COVID-19 emergence. For this we used simple root-to-tip regre
 
 ## Outline
 
-This analysis consists of two components - a Galaxy [workflow](history-and-workflow) and a [Jupyter notebook](MCRA_Estimation_Notebook.ipynb). 
+This analysis consists of two components - a Galaxy [workflow](#history-and-workflow) and a [Jupyter notebook](MCRA_Estimation_Notebook.ipynb). 
 
 The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
