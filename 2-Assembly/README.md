@@ -1,7 +1,7 @@
 | usegalaxy.org | usegalaxy.org.au | usegalaxy.eu |
 |:--------:|:------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-assembly) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-assembly) |
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-assembly) |
 
 
 # Assembly of SARS-CoV-2 from pre-processed reads
