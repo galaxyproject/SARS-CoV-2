@@ -1,6 +1,6 @@
 # Preprocessing of raw SARS-CoV-2 reads
 
-The raw reads available so far are generated from bronchoalveolar lavage fluid (BALF) and are metagenomic in nature: they contain human reads, reads from potential bacterial co-infections as well as true SARS-CoV-2 reads.
+The raw reads available so far are generated from bronchoalveolar lavage fluid (BALF) and are metagenomic in nature: they contain human reads, reads from potential bacterial co-infections as well as true COVID-19 reads.
 
 ## The point
 
@@ -8,11 +8,11 @@ Assess quality of reads, remove adapters and remove reads mapping to human genom
 
 ## The outline
 
-Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA accessions are available [here](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)). They are then processed separately as described in the workflow.
+Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA accessions are available [here](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)). They are then processed separately as described in the [workflow section](#the-history-and-the-workflow).
 
 ## Inputs
 
-Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 13, 2020:
+Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 20, 2020:
 
 1. Illumina reads
 
@@ -32,8 +32,13 @@ Only SRA accessions are required for this analysis. The described analysis was p
 
 ## Outputs
 
-Illumina and Oxford Nanopore reads without human contamination.
+This workflow produces three outputs that are used in tow subsequent analyses:
 
+| #  | Output | Used in |
+|----|------|---------|
+| 1. | A combined set of adapter-free Illumina reads without human contamination | [assembly workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
+| 2. | A combined set of Oxford Nanopore reads without human contamination | [assembly workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
+| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [variation detection workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) |
 
 ## The history and the workflow
 
