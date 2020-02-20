@@ -4,6 +4,7 @@
 [Marius Van Den Beek](https://github.com/mvdbeek), 
 [John Chilton]( https://github.com/jmchilton), 
 [Nate Coroar](https://github.com/natefoo), 
+[Bjorn Gruning](https://github.com/bgruening),
 [Delphine LaRiviere](https://github.com/Delphine-L), 
 [Nicholas Keener](https://github.com/nickeener), 
 [Sergei Kosakovsky](https://github.com/spond), 
