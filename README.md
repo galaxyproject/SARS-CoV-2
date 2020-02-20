@@ -27,7 +27,7 @@ Our analysis was divided into six parts listred below. Each part has a dedicated
   5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/5-S-analysis)
   6. [Analysis of recombination and selection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/6-RecombinationSelection)
 
-  The analyses have been performed on [Galaxy](http://galaxyproject.org) platform using open source tools from [BioConda](https://bioconda.github.io/). All tools were run on [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/).
+ The analyses have been performed on [Galaxy](http://galaxyproject.org) platform using open source tools from [BioConda](https://bioconda.github.io/). All tools were run on [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/).
 
  <p align="center">
   <a href="https://galaxyproject.org/">  <img src="img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp; 
