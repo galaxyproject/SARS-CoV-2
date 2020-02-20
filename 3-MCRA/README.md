@@ -2,8 +2,8 @@
 
 ##  What's the point?
 
-To estimate the time of MCRA we use [methodology](https://doi.org/10.1093/bioinformatics/16.4.395) developed by [Andrew Rambaut](https://scholar.google.com/citations?user=JiYPDfoAAAAJ&hl=en&oi=ao).
-It correlates an estimate of branch lengths (evolutionary rate) with isolation times of sequences used to construct the tree.
+
+For this we used simple root-to-tip regression [Korber et al. 2000](https://www.ncbi.nlm.nih.gov/pubmed/10846155) (more complex and powerful phylodynamics methods could certainly be used, but for this data with very low levels of sequence divergence, simpler and faster methods suffice). Using a set of sequences from all COVID-19 sequences available as of Feb 16, 2020 we obtained an MCRA date of Nov 14, 2019, which is close to other existing estimates [Rambaut 2020](http://virological.org/t/phylodynamic-analysis-115-genomes-20-feb-2020/356).
 
 ## Outline
 
