@@ -65,7 +65,7 @@ We produce two alignments, one at the nucleotide and one at the amino acid level
 
 ## Workflow and history
 
-The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The publicly accessible [workflow](https://usegalaxy.org/u/delphinel/w/cov-alignment) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
+The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/aun1/h/covid-19-s-protein-aa). The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-s-gene-aa) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
 
 ![Analysis Workflow](s_wf.png)
 
