@@ -36,15 +36,15 @@ This workflow produces three outputs that are used in tow subsequent analyses:
 
 | #  | Output | Used in |
 |----|------|---------|
-| 1. | A combined set of adapter-free Illumina reads without human contamination | [assembly workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
-| 2. | A combined set of Oxford Nanopore reads without human contamination | [assembly workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
-| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [variation detection workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) |
+| 1. | A combined set of adapter-free Illumina reads without human contamination | [Assembly](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
+| 2. | A combined set of Oxford Nanopore reads without human contamination | [Assembly](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
+| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [Variation detection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) |
 
 ## The history and the workflow
 
-A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-pp).
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing).
 
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-pp) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 The workflow performs the following steps:
 
