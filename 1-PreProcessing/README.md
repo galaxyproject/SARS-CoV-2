@@ -34,9 +34,9 @@ Only SRA accessions are required for this analysis. The described analysis was p
 
 This workflow produces three outputs that are used in tow subsequent analyses:
 
- 1. A combined set of adapter-free Illumina reads without human contamination &#8594; used as an input to [assembly workflow]()
- 2. A combined set of Oxford Nanopore reads without human contamination &#8594; used as an input to assembly workflow
- 3. A collection of adapter-free Illumina reads from which human reads *have not* been removed &#8594; used as an input to variation detection workflow
+ 1. A combined set of adapter-free Illumina reads without human contamination &#8594; used as an input to [assembly workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly)
+ 2. A combined set of Oxford Nanopore reads without human contamination &#8594; used as an input to [assembly workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly)
+ 3. A collection of adapter-free Illumina reads from which human reads *have not* been removed &#8594; used as an input to [variation detection workflow](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation)
 
 Illumina and Oxford Nanopore reads without adapters and sequences mapping to human genome.
 

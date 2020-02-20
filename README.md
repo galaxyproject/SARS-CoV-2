@@ -20,12 +20,12 @@ The is a companion to our study describing the analysis of early COVID-19 data. 
 
 Our analysis was divided into six parts listred below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy insatances in [US](http://usegalaxy.org) and [Europe](http://usegalaxy.eu).
 
-  1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing)
-  2. [Assembly of COVID-19 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly)
-  3. [Estimation of timing for most common recent ancestor (MCRA)](https://github.com/galaxyproject/SARS-CoV-2/tree/master/MCRA)
-  4. [Analysis of variation within individual isolates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation)
-  5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Alignment)
-  6. [Analysis of recombination and selection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Recombination)
+  1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/1-PreProcessing)
+  2. [Assembly of COVID-19 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly)
+  3. [Estimation of timing for most common recent ancestor (MCRA)](https://github.com/galaxyproject/SARS-CoV-2/tree/master/3-MCRA)
+  4. [Analysis of variation within individual isolates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation)
+  5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/5-S-analysis)
+  6. [Analysis of recombination and selection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/6-RecombinationSelection)
 
   The analyses have been performed on [Galaxy](http://galaxyproject.org) platform using open source tools from [BioConda](https://bioconda.github.io/). All tools were run on [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/).
 
