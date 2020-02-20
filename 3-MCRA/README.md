@@ -8,12 +8,11 @@
 
 ##  What's the point?
 
-
-For this we used simple root-to-tip regression [Korber et al. 2000](https://www.ncbi.nlm.nih.gov/pubmed/10846155) (more complex and powerful phylodynamics methods could certainly be used, but for this data with very low levels of sequence divergence, simpler and faster methods suffice). Using a set of sequences from all COVID-19 sequences available as of Feb 16, 2020 we obtained an MCRA date of Nov 14, 2019, which is close to other existing estimates [Rambaut 2020](http://virological.org/t/phylodynamic-analysis-115-genomes-20-feb-2020/356).
+Estimate timing of COVID-19 emergence. For this we used simple root-to-tip regression ([Korber et al. 2000](https://www.ncbi.nlm.nih.gov/pubmed/10846155); more complex and powerful phylodynamics methods could certainly be used, but for this data with very low levels of sequence divergence, simpler and faster methods suffice). Using a set of sequences from all COVID-19 sequences available as of Feb 16, 2020 we obtained an MCRA date of Nov 14, 2019, which is close to other existing estimates [Rambaut 2020](http://virological.org/t/phylodynamic-analysis-115-genomes-20-feb-2020/356).
 
 ## Outline
 
-This analysis consists of two components - a Galaxy workflow and a Jupyter notebook. 
+This analysis consists of two components - a Galaxy [workflow](#history-and-workflow) and a [Jupyter notebook](MCRA_Estimation_Notebook.ipynb). 
 
 The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
@@ -21,7 +20,7 @@ The [Jupyter notebook](./MCRA_Estimation_Notebook.ipynb) is used to correlate br
 
 ## Inputs
 
-One input is required: a comma-separated [file](acc_date.txt) containing accession numbers and collection dates:
+One input is required: a comma-separated [file](acc_date.csv) containing accession numbers and collection dates:
 
 ```
 Accession,Collection_Date
@@ -42,7 +41,7 @@ The collection dates will be taken from the corresponding GenBank record's `/col
 
 ## Outputs
 
-
+Workflow outputs a phylogenetic tree that is used as an input to [Jupyter](MCRA_Estimation_Notebook.ipynb) notebook along with the workflow input listing [accession numbers and collection times](acc_date.csv). 
 
 ## History and workflow
 
