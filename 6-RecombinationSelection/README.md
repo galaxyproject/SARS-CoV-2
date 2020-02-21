@@ -24,7 +24,7 @@ For selection analyses, we apply the [Adaptive Branch Site Random Effects](https
 
 A set of unaligned CDS sequences for the *S*-gene.
 
-Additionally, for aBSREL, a phylogenetic tree (for aBSREL).
+Additionally, for aBSREL, a phylogenetic tree.
 
 ## Outputs
 
