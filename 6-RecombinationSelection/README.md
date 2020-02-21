@@ -10,7 +10,7 @@
 
 [Wu et al.](https://doi.org/10.1038/s41586-020-2008-3) showed recombination between COVID-19 and bat coronaviruses located within the *S*-gene. We want to confirm this observation and provide a publicly accessible workflow for recombination detection.
 
-In previous coronovirus outbreaks (SARS), retrospecive analyses determined that adaptive substitutions might have occured in the S-protein [Zhang et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1609170/), e.g., related to [ACE2 receptor utilization](https://www.embopress.org/doi/full/10.1038/sj.emboj.7600640). While data on COVID-19 are currenly limited, we investigated whether or not the lineage leading to them showed any evidence of positive diversifying selection.
+In previous coronavirus outbreaks (SARS), retrospective analyses determined that adaptive substitutions might have occurred in the S-protein [Zhang et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1609170/), e.g., related to [ACE2 receptor utilization](https://www.embopress.org/doi/full/10.1038/sj.emboj.7600640). While data on COVID-19 are currently limited, we investigated whether or not the lineage leading to them showed any evidence of positive diversifying selection.
 
 ## Outline
 
@@ -18,7 +18,7 @@ We employ a recombination detection algorithm (GARD) developed by [Kosakovsky Po
 
 We then generate a codon-based alignment using the workflow shown below and perform the recombination analysis using the `gard` tool from the `hyphy` package. 
 
-For selection analyses, we apply the [Adaptive Branch Site Random Effects](https://www.ncbi.nlm.nih.gov/pubmed/25697341) method to test whether or each branch of the tree shows evidence of diversifing positive selection along a fraction of sites using the `absrel` tool from the `hyphy` package. 
+For selection analyses, we apply the [Adaptive Branch Site Random Effects](https://www.ncbi.nlm.nih.gov/pubmed/25697341) method to test whether or each branch of the tree shows evidence of diversifying positive selection along a fraction of sites using the `absrel` tool from the `hyphy` package. 
 
 ## Inputs
 
