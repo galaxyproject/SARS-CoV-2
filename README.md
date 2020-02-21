@@ -24,12 +24,12 @@ This repo serves as a companion to our study describing the analysis of early CO
 
 Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy instances in the [US](http://usegalaxy.org) and in [Europe](http://usegalaxy.eu).
 
-  1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/1-PreProcessing)
-  2. [Assembly of COVID-19 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly)
-  3. [Estimation of timing for most recent common ancestor (MRCA)](https://github.com/galaxyproject/SARS-CoV-2/tree/master/3-MRCA)
-  4. [Analysis of variation within individual isolates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation)
-  5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/5-S-analysis)
-  6. [Analysis of recombination and selection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/6-RecombinationSelection)
+  1. [Pre-processing of raw read data](1-PreProcessing)
+  2. [Assembly of COVID-19 genome](2-Assembly)
+  3. [Estimation of timing for most recent common ancestor (MRCA)](3-MRCA)
+  4. [Analysis of variation within individual isolates](4-Variation)
+  5. [Analysis of Spike protein substitutions](5-S-analysis)
+  6. [Analysis of recombination and selection](6-RecombinationSelection)
 
  The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., and [de.NBI](https://www.denbi.de/) cloud resources on the European side.
 
