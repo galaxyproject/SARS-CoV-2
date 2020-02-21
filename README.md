@@ -18,7 +18,7 @@ The is a companion to our study describing the analysis of early COVID-19 data. 
  1. Underscore the importance of access to raw data
  2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises 
 
-Our analysis was divided into six parts listred below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy instances in [US](http://usegalaxy.org) and [Europe](http://usegalaxy.eu).
+Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy instances in [US](http://usegalaxy.org) and [Europe](http://usegalaxy.eu).
 
   1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/1-PreProcessing)
   2. [Assembly of COVID-19 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly)
