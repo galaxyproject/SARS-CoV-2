@@ -44,15 +44,11 @@ and a plot of the inferred &omega; distribution for the MN988668_1 branch.
 
 ![](dm_selection.png)
 
-
-
 ## History and workflow
 
-> TODO: add aBSREL workflow
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-recsel).
 
-A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-comp).
-
-The publicly accessible [workflow](https://test.galaxyproject.org/u/anton/h/ncov-recomb) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-recsel) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 ![](rec_wf.png)
 
