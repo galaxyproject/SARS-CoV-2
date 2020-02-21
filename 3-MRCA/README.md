@@ -46,7 +46,7 @@ The Galaxy workflow generates a maximum-likelihood phylogenetic tree. This tree 
 
 ## History and workflow
 
-A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-mcra-date).
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-mrca-date).
 
 The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/mrca) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
