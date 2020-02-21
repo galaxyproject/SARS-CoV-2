@@ -37,7 +37,7 @@ The following figures show visualizations of assembly graphs produced with `spad
 
 A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-assembly).
 
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-assembly-1) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-assembly) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
 
 ![](as_wf.png)
 
