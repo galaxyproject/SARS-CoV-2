@@ -190,7 +190,7 @@ The following table describes variants with frequencies above 10%:
 
 A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation).
 
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
 ![](var_wf.png)
 
