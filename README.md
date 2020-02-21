@@ -36,12 +36,14 @@ Our analysis was divided into six parts listed below. Each part has a dedicated 
  The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., and [de.NBI](https://www.denbi.de/) cloud resources on the European side.
 
  <p align="center">
-  <a href="https://galaxyproject.org">  <img src="img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp; 
-  <a href="https://galaxyproject.eu">  <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp; 
-  <a href="https://bioconda.org">       <img src="img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp; 
-  <a href="https://xsede.org">          <img src="img/xsede_logo.png" width="20%" alt="XSEDE" /></a> &nbsp;
-  <a href="https://www.tacc.utexas.edu"><img src="img/tacc_logo.png" width="20%" alt="TACC" /></a> &nbsp;
-  <a href="https://www.denbi.de"><img src="img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
-  <a href="https://www.psc.edu">        <img src="img/psc_logo.jpg" width="20%" alt="PSC" /></a> &nbsp;
-  <a href="https://www.iu.edu">         <img src="img/iu_logo.jpg" width="20%" alt="Indiana Univeristy" /></a> &nbsp;
+  <a href="https://galaxyproject.org">   <img src="img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp; 
+  <a href="https://galaxyproject.eu">    <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp; 
+  <a href="https://bioconda.org">        <img src="img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp; 
+  <a href="https://xsede.org">           <img src="img/xsede_logo.png" width="20%" alt="XSEDE" /></a> &nbsp;
+  <a href="https://www.tacc.utexas.edu"> <img src="img/tacc_logo.png" width="20%" alt="TACC" /></a> &nbsp;
+  <a href="https://www.denbi.de">        <img src="img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
+  <a href="https://elixir-europe.org">   <img src="img/elixir_logo.png" width="20%" alt="ELIXIR" /></a> &nbsp;
+  <a href="https://www.psc.edu">         <img src="img/psc_logo.jpg" width="20%" alt="PSC" /></a> &nbsp;
+  <a href="https://www.iu.edu">          <img src="img/iu_logo.jpg" width="20%" alt="Indiana Univeristy" /></a> &nbsp;
+  <a href="training.galaxyproject.org"> <img src="img/gtn_logo.png" width="20%" alt="Galaxy Training Network" /></a> &nbsp;
 </p>
