@@ -6,12 +6,14 @@
 
 [Dannon Baker](https://github.com/dannon),
 [Marius Van Den Beek](https://github.com/mvdbeek), 
-[John Chilton]( https://github.com/jmchilton), 
-[Nate Coraor](https://github.com/natefoo), 
+[Dave Bouvier](https://github.com/davebx)
+[John Chilton](https://github.com/jmchilton), 
+[Nate Coraor](https://github.com/natefoo),
+[Simon Gladman](https://github.com/slugger70) 
 [Björn Grüning](https://github.com/bgruening),
 [Delphine Larivière](https://github.com/Delphine-L), 
 [Nicholas Keener](https://github.com/nickeener), 
-[Sergei Kosakovsky](https://github.com/spond), 
+[Sergei Kosakovsky Pond](https://github.com/spond), 
 [Wolfgang Maier](https://github.com/wm75),
 [Anton Nekrutenko](https://github.com/nekrut), 
 [James Taylor](https://github.com/jxtx), 
