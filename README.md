@@ -6,7 +6,7 @@
 
 [Dannon Baker](https://github.com/dannon),
 [Marius Van Den Beek](https://github.com/mvdbeek), 
-[Dave Bouvier](https://github.com/davebx)
+[Dave Bouvier](https://github.com/davebx),
 [John Chilton](https://github.com/jmchilton), 
 [Nate Coraor](https://github.com/natefoo),
 [Simon Gladman](https://github.com/slugger70) 
