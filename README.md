@@ -4,7 +4,7 @@
 [Marius Van Den Beek](https://github.com/mvdbeek), 
 [John Chilton]( https://github.com/jmchilton), 
 [Nate Coraor](https://github.com/natefoo), 
-[Bjorn Gruning](https://github.com/bgruening),
+[Björn Grüning](https://github.com/bgruening),
 [Delphine Larivière](https://github.com/Delphine-L), 
 [Nicholas Keener](https://github.com/nickeener), 
 [Sergei Kosakovsky](https://github.com/spond), 
@@ -13,12 +13,12 @@
 [James Taylor](https://github.com/jxtx), 
 [Steven Weaver](https://github.com/stevenweaver)
 
-The is a companion to our study describing the analysis of early COVID-19 data. It contains description of workflows and exact versions of all software used. The goals of this study were to:
+This repo serves as a companion to our study describing the analysis of early COVID-19 data. It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
  1. Underscore the importance of access to raw data
  2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises 
 
-Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy instances in [US](http://usegalaxy.org) and [Europe](http://usegalaxy.eu).
+Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy instances in the [US](http://usegalaxy.org) and in [Europe](http://usegalaxy.eu).
 
   1. [Pre-processing of raw read data](https://github.com/galaxyproject/SARS-CoV-2/tree/master/1-PreProcessing)
   2. [Assembly of COVID-19 genome](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly)
@@ -27,7 +27,7 @@ Our analysis was divided into six parts listed below. Each part has a dedicated 
   5. [Analysis of Spike protein substitutions](https://github.com/galaxyproject/SARS-CoV-2/tree/master/5-S-analysis)
   6. [Analysis of recombination and selection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/6-RecombinationSelection)
 
- The analyses have been performed on [Galaxy](http://galaxyproject.org) platform using open source tools from [BioConda](https://bioconda.github.io/). All tools were run on [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/).
+ The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., and [de.NBI](https://www.denbi.de/) cloud resources on the European side.
 
  <p align="center">
   <a href="https://galaxyproject.org/">  <img src="img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp; 
