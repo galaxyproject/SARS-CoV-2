@@ -1,8 +1,8 @@
 
-| usegalaxy.org | usegalaxy.eu |
-|:--------:|:------------:|
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-s-gene-aa) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-s-gene-conservation) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-s-protein-aa) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-s-gene-conservation) |
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au |
+|:--------:|:------------:|:------------:|
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-s-gene-aa) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-s-gene-conservation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-s-gene-aa) |
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-s-protein-aa) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-s-gene-conservation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-s-gene-aa) |
 
 
 # Analysis of S-protein polymorphism
@@ -46,7 +46,7 @@ Downloaded [CDS sequences](Spike_cds.fasta) of coronavirus Spike proteins from [
 |NC_028806.1 | Swine enteric coronavirus strain Italy/213306/2009 |
 |NC_038861.1 | Transmissible gastroenteritis virus |
 
-These viruses were chosen based on a publication by Duquerroy et al. ([2005](http://dx.doi.org/10.1016/j.virol.2005.02.022)). The sequences were extracted manually--a painful process. We will develop a tool for parsing particular CDS sequences automatically for future analyses. 
+These viruses were chosen based on a publication by Duquerroy et al. ([2005](http://dx.doi.org/10.1016/j.virol.2005.02.022)). The sequences were extracted manually--a painful process. We will develop a tool for parsing particular CDS sequences automatically for future analyses.
 
 ## Output
 
