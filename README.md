@@ -20,6 +20,8 @@
 [James Taylor](https://github.com/jxtx),
 [Steven Weaver](https://github.com/stevenweaver)
 
+<a href="https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1"><img align="right" width="160" src="img/qrcode.png"></a>
+
 This repo serves as a companion to our study describing the analysis of early COVID-19 data:
 
 > [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1). usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.be and hyphy.org development teams, Anton Nekrutenko, Sergei L Kosakovsky Pond. *bioRxiv* 2020.02.21.959973; doi: https://doi.org/10.1101/2020.02.21.959973 
