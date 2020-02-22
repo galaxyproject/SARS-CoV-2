@@ -1,7 +1,7 @@
-| usegalaxy.org | usegalaxy.eu |
-|:--------:|:------------:|
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-recsel) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-recsel) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-recsel) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-recombination-and-selection-analysis) |
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au |
+|:--------:|:------------:|:------------:|
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-recsel) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-recsel) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-recsel) |
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-recsel) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-recombination-and-selection-analysis) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-recombselection) |
 
 
 # Evolutionary Analysis
@@ -16,9 +16,9 @@ In previous coronavirus outbreaks (SARS), retrospective analyses determined that
 
 We employ a recombination detection algorithm (GARD) developed by [Kosakovsky Pond et al.](http://mbe.oxfordjournals.org/cgi/content/full/23/10/1891) and implemented in the `hyphy` package. To select a representative set of *S*-genes we perform a blast search using the *S*-gene CDS from [NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) as a query against the `nr` database. We select [coding regions](S_nt.fna) corresponding to the *S*-gene from a number of COVID-19 genomes and original SARS isolates. This set of sequences can be found in [this repository](S_nt.fna)
 
-We then generate a codon-based alignment using the workflow shown below and perform the recombination analysis using the `gard` tool from the `hyphy` package. 
+We then generate a codon-based alignment using the workflow shown below and perform the recombination analysis using the `gard` tool from the `hyphy` package.
 
-For selection analyses, we apply the [Adaptive Branch Site Random Effects](https://www.ncbi.nlm.nih.gov/pubmed/25697341) method to test whether or each branch of the tree shows evidence of diversifying positive selection along a fraction of sites using the `absrel` tool from the `hyphy` package. 
+For selection analyses, we apply the [Adaptive Branch Site Random Effects](https://www.ncbi.nlm.nih.gov/pubmed/25697341) method to test whether or each branch of the tree shows evidence of diversifying positive selection along a fraction of sites using the `absrel` tool from the `hyphy` package.
 
 ## Inputs
 
@@ -46,7 +46,7 @@ and a plot of the inferred &omega; distribution for the MN988668_1 branch.
 
 A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-recsel).
 
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-recsel) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-recsel) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
 ![](rec_wf.png)
 
