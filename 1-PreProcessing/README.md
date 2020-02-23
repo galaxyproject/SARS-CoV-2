@@ -95,6 +95,6 @@ There is a shared [history]() containing all of the starting data in appropriate
 
 | usegalaxy.org.au |
 |:----------------:|
-| [![Galaxy input history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) |
+| [![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) |
 | [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-alternate-pre-processing) |
-| [![Galaxy final history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing) |
+| [![Galaxy final history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing) |
