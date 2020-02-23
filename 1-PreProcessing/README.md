@@ -91,7 +91,7 @@ Tools used in this analysis are also available from BioConda:
 
 An alternate starting point has been created for those not wanting to wait for the data to be downloaded from the NCBI SRA. (This can especially be an issue in Australia or Europe.)
 
-There is a shared [history]() containing all of the starting data in appropriate collections and an alternate [workflow]() able to make use of this alternate input. Apart from a slightly different starting point, the workflow and the outputs it produces are identical to that above.
+There is a shared [history](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) containing all of the starting data in appropriate collections and an alternate [workflow](https://usegalaxy.org.au/u/simongladman/w/covid-19-alternate-pre-processing) able to make use of this alternate input. Apart from a slightly different starting point, the workflow and the outputs it produces are identical to that above.
 
 | usegalaxy.org.au |
 |:----------------:|
