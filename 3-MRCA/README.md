@@ -13,7 +13,7 @@ To estimate the time of COVID-19 emergence we use simple root-to-tip regression 
 
 ## Outline
 
-This analysis consists of two components - a Galaxy [workflow](#history-and-workflow) and a [Jupyter notebook](MRCA_Estimation_Notebook.ipynb).
+This analysis consists of two components - a Galaxy [workflow](#history-and-workflow) and a [Jupyter notebook](MRCA_Estimation_Notebook.ipynb). To use a Jupyter Notebook in a Galaxy workflow see these [short instructions](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial.html#open-a-notebook).
 
 The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
