@@ -18,7 +18,7 @@ Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA ac
 
 ## Inputs
 
-> :boom: If you experience problem downloading data from NCBI SRA use Galaxy histiry pre-populated with inputs as described [below](#alternate-workflow).
+> :boom: If you experience problems downloading data from NCBI SRA, use Galaxy history pre-populated with inputs as described in "Alternate Workflow" section [below](#alternate-workflow).
 
 Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 20, 2020:
 
