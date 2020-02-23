@@ -66,5 +66,5 @@ Our analysis was divided into six parts listed below. Each part has a dedicated 
   <a href="http://www.vib.be/">          <img src="img/vib_tagline_pos_rgb.png" width="15%" alt="VIB" /></a> &nbsp;
   <a href="https://www.elixir-belgium.org">          <img src="img/ELIXIR_BELGIUM_white_background.png" width="15%" alt="ELIXIR Belgium" /></a> &nbsp;
   <a href="https://www.vscentrum.be">          <img src="img/VSC-logo.png" width="25%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
-  <a href="https://www.eosc-life.eu">          <img src="img/eosclife.png" width="20%" alt="EOSC-Life" /></a> &nbsp;
+  <a href="https://www.eosc-life.eu">          <img src="img/eosclife.png" width="15%" alt="EOSC-Life" /></a> &nbsp;
   </p>
