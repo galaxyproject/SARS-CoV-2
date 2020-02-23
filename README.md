@@ -61,7 +61,7 @@ Our analysis was divided into six parts listed below. Each part has a dedicated 
   <a href="https://training.galaxyproject.org"> <img src="img/gtn_logo.png" width="20%" alt="Galaxy Training Network" /></a> &nbsp;
   <a href="https://bioplatforms.com">    <img src="img/bpa_logo.png" width="20%" alt="Bio Platforms Australia" /></a> &nbsp;
   <a href="https://ardc.ed.au">          <img src="img/ardc_logo.png" width="20%" alt="Australian Research Data Commons" /></a> &nbsp;
-  <a href="http://www.vib.be/">          <img src="img/vib_tagline_pos_rgb.png" width="20%" alt="VIB" /></a> &nbsp;
-  <a href="https://www.elixir-belgium.org">          <img src="img/ELIXIR_BELGIUM_white_background.png" width="20%" alt="ELIXIR Belgium" /></a> &nbsp;
-  <a href="https://www.vscentrum.be">          <img src="img/VSC-logo.png" width="20%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
+  <a href="http://www.vib.be/">          <img src="img/vib_tagline_pos_rgb.png" width="15%" alt="VIB" /></a> &nbsp;
+  <a href="https://www.elixir-belgium.org">          <img src="img/ELIXIR_BELGIUM_white_background.png" width="15%" alt="ELIXIR Belgium" /></a> &nbsp;
+  <a href="https://www.vscentrum.be">          <img src="img/VSC-logo.png" width="25%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
 </p>
