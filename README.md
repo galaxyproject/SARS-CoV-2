@@ -24,14 +24,14 @@
 
 This repo serves as a companion to our study describing the analysis of early COVID-19 data:
 
-> [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1). usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.be and hyphy.org development teams, Anton Nekrutenko, Sergei L Kosakovsky Pond. *bioRxiv* 2020.02.21.959973; doi: https://doi.org/10.1101/2020.02.21.959973 
+> [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1). usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.be and hyphy.org development teams, Anton Nekrutenko, Sergei L Kosakovsky Pond. *bioRxiv* 2020.02.21.959973; doi: https://doi.org/10.1101/2020.02.21.959973
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
  1. Underscore the importance of access to raw data
  2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises
 
-Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on two global Galaxy instances in the [US](http://usegalaxy.org) and in [Europe](http://usegalaxy.eu).
+Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by anyone on three global Galaxy instances in the [US](http://usegalaxy.org), in [Europe](http://usegalaxy.eu) and in [Australia](https://usegalaxy.org.au).
 
   1. [Pre-processing of raw read data](1-PreProcessing)
   2. [Assembly of COVID-19 genome](2-Assembly)

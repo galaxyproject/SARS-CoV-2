@@ -1,7 +1,7 @@
 | usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
 |:--------:|:------------:|:------------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-read-pre-processing) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-read-pre-processing) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-read-pre-processing) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://usegalaxy.be/u/ieguinoa/h/covid-19---preprocessing-from-local-files)]() |
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19---preprocessing-from-local-files) |
 
 
 # Preprocessing of raw SARS-CoV-2 reads
@@ -86,3 +86,15 @@ Tools used in this analysis are also available from BioConda:
 | `bwa` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/bwa/badges/version.svg)](https://anaconda.org/bioconda/bwa) |
 | `picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
 | `samtools` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/samtools/badges/version.svg)](https://anaconda.org/bioconda/samtools) |
+
+## Alternate Workflow
+
+An alternate starting point has been created for those not wanting to wait for the data to be downloaded from the NCBI SRA. (This can especially be an issue in Australia or Europe.)
+
+There is a shared [history](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) containing all of the starting data in appropriate collections and an alternate [workflow](https://usegalaxy.org.au/u/simongladman/w/covid-19-alternate-pre-processing) able to make use of this alternate input. Apart from a slightly different starting point, the workflow and the outputs it produces are identical to that above.
+
+| usegalaxy.eu | usegalaxy.org.au |
+|:------------:|:----------------:|
+[![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-raw-data) | [![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) |
+| [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/copy-of-covid-19-read-pre-processing-with-download) | [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-alternate-pre-processing) |
+[![Galaxy final history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-read-pre-processing-without-downloading-from-sra) | [![Galaxy final history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing) |
