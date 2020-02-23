@@ -5,7 +5,7 @@
 # Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)
 
 [Dannon Baker](https://github.com/dannon),
-[Marius Van Den Beek](https://github.com/mvdbeek),
+[Marius van den Beek](https://github.com/mvdbeek),
 [Dave Bouvier](https://github.com/davebx),
 [John Chilton](https://github.com/jmchilton),
 [Nate Coraor](https://github.com/natefoo),
