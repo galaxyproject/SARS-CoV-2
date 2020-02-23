@@ -9,6 +9,7 @@
 [Dave Bouvier](https://github.com/davebx),
 [John Chilton](https://github.com/jmchilton),
 [Nate Coraor](https://github.com/natefoo),
+[Ignacio Eguinoa](https://github.com/ieguinoa),
 [Simon Gladman](https://github.com/slugger70),
 [Björn Grüning](https://github.com/bgruening),
 [Delphine Larivière](https://github.com/Delphine-L),
