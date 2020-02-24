@@ -19,7 +19,7 @@ Obtain coding sequences of S proteins from a diverse group of coronaviruses. Gen
 
 Downloaded [CDS sequences](Spike_cds.fasta) of coronavirus Spike proteins from [NCBI Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049) for the following coronaviruses:
 
-| Accession  |  Descriptin |
+| Accession  |  Description |
 |------------|-------------|
 |FJ588692.1	 | Bat SARS Coronavirus Rs806/2006 |
 |KR559017.1	 | Bat SARS-like coronavirus BatCoV/BB9904/BGR/2008 |

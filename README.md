@@ -44,6 +44,6 @@ Our analysis was divided into six parts listed below. Each part has a dedicated 
   <a href="https://www.denbi.de">        <img src="img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
   <a href="https://www.psc.edu">         <img src="img/psc_logo.jpg" width="20%" alt="PSC" /></a> &nbsp;
-  <a href="https://www.iu.edu">          <img src="img/iu_logo.jpg" width="20%" alt="Indiana Univeristy" /></a> &nbsp;
+  <a href="https://www.iu.edu">          <img src="img/iu_logo.jpg" width="20%" alt="Indiana University" /></a> &nbsp;
   <a href="training.galaxyproject.org"> <img src="img/gtn_logo.png" width="20%" alt="Galaxy Training Network" /></a> &nbsp;
 </p>
