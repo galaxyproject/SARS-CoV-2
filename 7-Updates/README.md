@@ -52,11 +52,11 @@ SRR11092064
 
 We first processed reads using `fastp` to remove adapters and low quality reads. We then mapped reads against [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem` and retained only reads mapped in consistent forward/reverse configuration. The following numbers of reads were retained:
 
-![](mappend.png)
+![](mapped.png)
 
 However, the distribution of reads across genome is extremely uneven as can be seen from the following analysis performed with `deetTools`:
 
-![](cvrd.png)
+![](cvrg.png)
 
 it indicates that with the exception of sample SRR11092057 other samples essentially contain no mapped reads aside from one location at the very end of the COVID-19 genome:
 
