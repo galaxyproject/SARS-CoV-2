@@ -1,7 +1,7 @@
-| usegalaxy.org | usegalaxy.org.au | usegalaxy.eu |
-|:--------:|:------:|:------------:|
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-assembly) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)]() | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-assembly) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-assembly) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-assembly) |
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be | 
+|:--------:|:------------:|:------------:|:------------:|
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-assembly) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-assembly) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-assembly) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-assembly)
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-assembly) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-genome-assembly) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-assembly) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-assembly)  |
 
 
 # Assembly of SARS-CoV-2 from pre-processed reads
@@ -12,13 +12,13 @@ Use a combination of Illumina and Oxford Nanopore reads to produce SARS-CoV-2 ge
 
 ## Outline
 
-We use Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`spades`](http://cab.spbu.ru/software/spades/) and [`unicycler`](https://github.com/rrwick/Unicycler). While `spades` is a tool fully dedicated to assembly, `unicycler` is a "wrapper" that combines multiple existing tools. It uses `spades` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`racon`](https://github.com/isovic/racon) for assembly of long noisy reads. 
+We use Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`spades`](http://cab.spbu.ru/software/spades/) and [`unicycler`](https://github.com/rrwick/Unicycler). While `spades` is a tool fully dedicated to assembly, `unicycler` is a "wrapper" that combines multiple existing tools. It uses `spades` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`racon`](https://github.com/isovic/racon) for assembly of long noisy reads.
 
 In addition to assemblies (actual sequences) the two tools produce assembly graphs that can be used for visualization of assembly with [`bandage`](https://rrwick.github.io/Bandage/).
 
 ## Inputs
 
-Filtered Illumina and Oxford Nanopore reads produced during the [pre-processing step](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing) are used as inputs to the assembly tools. 
+Filtered Illumina and Oxford Nanopore reads produced during the [pre-processing step](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing) are used as inputs to the assembly tools.
 
 ## Outputs
 
@@ -37,7 +37,7 @@ The following figures show visualizations of assembly graphs produced with `spad
 
 A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-assembly).
 
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-assembly) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-assembly) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
 ![](as_wf.png)
 

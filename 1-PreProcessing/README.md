@@ -1,7 +1,7 @@
-| usegalaxy.org | usegalaxy.org.au | usegalaxy.eu |
-|:--------:|:------:|:------------:|
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)]() | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)]( https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-read-pre-processing) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)]() | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-read-preprocessing) |
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
+|:--------:|:------------:|:------------:|:------------:|
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-read-pre-processing) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-read-pre-processing) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-read-pre-processing) |
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-read-pre-processing-without-downloading-from-sra) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19---preprocessing-from-local-files) |
 
 
 # Preprocessing of raw SARS-CoV-2 reads
@@ -17,6 +17,8 @@ Assess quality of reads, remove adapters and remove reads mapping to human genom
 Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA accessions are available [here](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)). They are then processed separately as described in the [workflow section](#the-history-and-the-workflow).
 
 ## Inputs
+
+> :boom: If you experience problems downloading data from NCBI SRA, use Galaxy history pre-populated with inputs as described in "Alternate Workflow" section [below](#alternate-workflow).
 
 Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 20, 2020:
 
@@ -50,7 +52,7 @@ This workflow produces three outputs that are used in tow subsequent analyses:
 
 A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing).
 
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
 The workflow performs the following steps:
 
@@ -87,4 +89,14 @@ Tools used in this analysis are also available from BioConda:
 | `picard` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/picard/badges/version.svg)](https://anaconda.org/bioconda/picard) |
 | `samtools` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/samtools/badges/version.svg)](https://anaconda.org/bioconda/samtools) |
 
+## Alternate Workflow
 
+An alternate starting point has been created for those not wanting to wait for the data to be downloaded from the NCBI SRA. (This can especially be an issue in Australia or Europe.)
+
+There is a shared [history](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) containing all of the starting data in appropriate collections and an alternate [workflow](https://usegalaxy.org.au/u/simongladman/w/covid-19-alternate-pre-processing) able to make use of this alternate input. Apart from a slightly different starting point, the workflow and the outputs it produces are identical to that above.
+
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
+|:-----------:|:------------:|:----------------:|:----------------:|
+| [![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-sra-data) | [![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-raw-data) | [![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-raw-data) | [![Galaxy input history](https://img.shields.io/static/v1?label=input_history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-raw-data) |
+| [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/copy-of-covid-19-read-pre-processing) | [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-read-pre-processing-without-downloading-from-sra) | [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-alternate-pre-processing) | [![Galaxy alternate workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-read-pre-processing-alternative) |
+| [![Galaxy final history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing) | [![Galaxy final history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-read-pre-processing-without-downloading-from-sra) | [![Galaxy final history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing) | [![Galaxy history](https://img.shields.io/static/v1?label=final_history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19---preprocessing-from-local-files) |
