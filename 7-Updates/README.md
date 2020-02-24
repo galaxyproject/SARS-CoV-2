@@ -24,10 +24,38 @@ Of these four (SRR11092056, SRR11092057, SRR11092058, SRR11092064) are human met
 
 ### New human data
 
-First we analyzed the new human sequences represented by SRR11092056, SRR11092057, SRR11092058, SRR11092064. All these datasets share the same bioproject id [PRJNA605983](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA605983). The PRJNA605983 lists a total of nine SRA accessions: five more in addition to the four listed above.
+First we analyzed the new human sequences represented by SRR11092056, SRR11092057, SRR11092058, SRR11092064. All these datasets share the same bioproject id [PRJNA605983](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA605983). The PRJNA605983 lists a total of nine SRA accessions: five more in addition to the four listed above:
 
-We attempted to download and analyze these data. 
+```
+SRR11092056
+SRR11092057
+SRR11092058
+SRR11092059
+SRR11092060
+SRR11092061
+SRR11092062
+SRR11092063
+SRR11092064
+```
 
-Results are coming soon ...
+We attempted to download and analyze these data. It was only possible to download seven datasets from NCBI dues to repeated connection issues:
+
+```
+SRR11092056
+SRR11092057
+SRR11092058
+SRR11092060
+SRR11092061
+SRR11092063
+SRR11092064
+```
+
+We first processed reads using `fastp` to remove adapters and low quality reads. We then mapped reads against [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem` and retained only reads mapped in consistent forward/reverse configuration. The following numbers of reads were retained:
+
+![](mappend.png)
+
+However, the distribution of reads across genome is extremely uneven as can be seen from the following analysis:
+
+![](cvrd.png)
 
 
