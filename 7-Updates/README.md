@@ -52,10 +52,10 @@ SRR11092064
 
 We first processed reads using `fastp` to remove adapters and low quality reads. We then mapped reads against [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem` and retained only reads mapped in consistent forward/reverse configuration. The following numbers of reads were retained:
 
-![](mappend.png)
+![](mapped.png)
 
 However, the distribution of reads across genome is extremely uneven as can be seen from the following analysis:
 
-![](cvrd.png)
+![](cvrg.png)
 
 
