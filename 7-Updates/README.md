@@ -76,9 +76,8 @@ Here is a zoomed out view of the 3' region for sample SRR11092056 containing abs
 
 Note that while the description of datasets lists "RNA-Seq of *Miniopterus pusillus*: Anal swab" the design field list the following:
 
-```
-Total RNA was extracted from bronchoalveolar lavage fluid using the QIAamp Viral RNA Mini Kit following the manufacturers instructions. An RNA library was then constructed using the TruSeq Stranded mRNA Library Preparation Kit (Illumina, USA). Paired-end (150 bp) sequencing of the RNA library was performed on the HiSeq 3000 platform (Illumina).
-```
+> Total RNA was extracted from bronchoalveolar lavage fluid using the QIAamp Viral RNA Mini Kit following the manufacturers instructions. An RNA library was then constructed using the TruSeq Stranded mRNA Library Preparation Kit (Illumina, USA). Paired-end (150 bp) sequencing of the RNA library was performed on the HiSeq 3000 platform (Illumina).
+
 
 
 
