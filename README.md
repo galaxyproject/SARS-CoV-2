@@ -60,7 +60,7 @@ Our analysis was divided into six parts listed below (we also added "Updates" se
   <a href="https://www.denbi.de">        <img src="img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
   <a href="https://www.psc.edu">         <img src="img/psc_logo.jpg" width="20%" alt="PSC" /></a> &nbsp;
-  <a href="https://www.iu.edu">          <img src="img/iu_logo.jpg" width="20%" alt="Indiana Univeristy" /></a> &nbsp;
+  <a href="https://www.iu.edu">          <img src="img/iu_logo.jpg" width="20%" alt="Indiana University" /></a> &nbsp;
   <a href="https://training.galaxyproject.org"> <img src="img/gtn_logo.png" width="20%" alt="Galaxy Training Network" /></a> &nbsp;
   <a href="https://bioplatforms.com">    <img src="img/bpa_logo.png" width="20%" alt="Bio Platforms Australia" /></a> &nbsp;
   <a href="https://ardc.ed.au">          <img src="img/ardc_logo.png" width="20%" alt="Australian Research Data Commons" /></a> &nbsp;
