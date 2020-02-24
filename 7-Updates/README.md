@@ -54,8 +54,16 @@ We first processed reads using `fastp` to remove adapters and low quality reads.
 
 ![](mappend.png)
 
-However, the distribution of reads across genome is extremely uneven as can be seen from the following analysis:
+However, the distribution of reads across genome is extremely uneven as can be seen from the following analysis performed with `deetTools`:
 
 ![](cvrd.png)
+
+it indicates that with the exception of sample SRR11092057 other samples essentially contain no mapped reads aside from one location at the very end of the COVID-19 genome:
+
+![](bigwig.png)
+
+Here is a zoomed out view of the 3' region for sample SRR11092056"
+
+![](igv_snapshot.png)
 
 
