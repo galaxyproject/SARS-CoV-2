@@ -62,7 +62,7 @@ However, the distribution of reads across genome is extremely uneven as can be s
 
 ![](cvrg.png)
 
-###### Coverage analysis performed with [`deepTools: plorCoverage`](https://deeptools.readthedocs.io/en/develop/content/tools/plotCoverage.html).  
+###### Coverage analysis performed with [`deepTools: plotCoverage`](https://deeptools.readthedocs.io/en/develop/content/tools/plotCoverage.html).  
 
 it indicates that with the exception of sample SRR11092057 other samples essentially contain no mapped reads aside from one location at the very end of the COVID-19 genome:
 
