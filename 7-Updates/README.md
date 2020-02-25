@@ -56,17 +56,25 @@ We first processed reads using `fastp` to remove adapters and low quality reads.
 
 ![](mapped.png)
 
+###### Mapping statistics obtained with `samtools stats` and `multiqc`.
+
 However, the distribution of reads across genome is extremely uneven as can be seen from the following analysis performed with `deetTools`:
 
 ![](cvrg.png)
+
+###### Coverage analysis performed with [`deepTools: plorCoverage`](https://deeptools.readthedocs.io/en/develop/content/tools/plotCoverage.html).  
 
 it indicates that with the exception of sample SRR11092057 other samples essentially contain no mapped reads aside from one location at the very end of the COVID-19 genome:
 
 ![](bigwig.png)
 
+###### Each panel represents one sample (SRR11092056, SRR11092057, SRR11092058, SRR11092060, SRR11092061, SRR11092063, SRR11092064). The coverage is flat at almost 0 until the the very 3' where it spikes sharply. 
+
 Here is a zoomed out view of the 3' region for sample SRR11092056 containing absolute majority of mapped reads:
 
 ![](igv_snapshot.png)
+
+###### An IGV screenshot showing reads piling at the 3'-end of COVID-19 genome.
 
 ### The bottom line
 
@@ -74,7 +82,7 @@ Here is a zoomed out view of the 3' region for sample SRR11092056 containing abs
 
 ![](swab.png)
 
-Note that while the description of the dataset lists "RNA-Seq of *Miniopterus pusillus*: Anal swab" the design field list the following:
+Note that while the description of the dataset lists "RNA-Seq of *Miniopterus pusillus*: Anal swab" the design field contains the following description:
 
 > Total RNA was extracted from bronchoalveolar lavage fluid using the QIAamp Viral RNA Mini Kit following the manufacturers instructions. An RNA library was then constructed using the TruSeq Stranded mRNA Library Preparation Kit (Illumina, USA). Paired-end (150 bp) sequencing of the RNA library was performed on the HiSeq 3000 platform (Illumina).
 
