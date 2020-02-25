@@ -46,7 +46,8 @@ Our analysis was divided into six parts listed below (we also added "Updates" se
   4. [Analysis of variation within individual isolates](4-Variation)
   5. [Analysis of Spike protein substitutions](5-S-analysis)
   6. [Analysis of recombination and selection](6-RecombinationSelection)
-  7. [Updates: Analysis of additional data](7-Updates)
+  
+In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](updates)
 
  The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
 
