@@ -68,4 +68,5 @@ Our analysis was divided into six parts listed below (we also added "Updates" se
   <a href="https://www.elixir-belgium.org">          <img src="img/ELIXIR_BELGIUM_white_background.png" width="15%" alt="ELIXIR Belgium" /></a> &nbsp;
   <a href="https://www.vscentrum.be">          <img src="img/VSC-logo.png" width="25%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
   <a href="https://www.eosc-life.eu">          <img src="img/eosclife.png" width="10%" alt="EOSC-Life" /></a> &nbsp;
+  <a href="https://datamonkey.org">          <img src="img/datamonkey.svg" alt="Datamonkey" width = "150px" /></a> &nbsp;
   </p>
