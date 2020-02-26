@@ -31,7 +31,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 
 This repo serves as a companion to our study describing the analysis of early COVID-19 data:
 
-> [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1). usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.be and hyphy.org development teams, Anton Nekrutenko, Sergei L Kosakovsky Pond. *bioRxiv* 2020.02.21.959973; doi: https://doi.org/10.1101/2020.02.21.959973
+> [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973). usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.be and hyphy.org development teams, Anton Nekrutenko, Sergei L Kosakovsky Pond. *bioRxiv* 2020.02.21.959973; doi: https://doi.org/10.1101/2020.02.21.959973
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
