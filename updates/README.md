@@ -175,7 +175,7 @@ SRR11140750  1.0                   24.0          1.0               16.0
 
 ![](ws_genome.png)
 
-###### Distribution of variants across COVID-19 genome:
+###### Distribution of variants across COVID-19 genome
 
 The list of variants is available from this [repository](wisc_variants.tsv). The file contains the following columns:
 
