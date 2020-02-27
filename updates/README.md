@@ -111,7 +111,7 @@ SRR11140751
 
 They are produced by **Katarina Braun** (graduate student in Thomas Friedrich's lab; Twitter: @KATarinambraun;  GitHub: [@katarinabraun](https://github.com/katarinabraun)) and **Gage Moreno** (graduate student in Dave O'Connor's lab; Twitter: @GageKMoreno). Both are from the University of Wisconsin, Madison
 
-As described [here](https://openresearch.labkey.com/wiki/ZEST/Ncov/page.view?name=SARS-CoV-2%20Deep%20Sequencing) the samples are:
+This is a description of the samples as specifed [here](https://openresearch.labkey.com/wiki/ZEST/Ncov/page.view?name=SARS-CoV-2%20Deep%20Sequencing):
 
 > To characterize within-host viral diversity of this emerging virus, we obtained four SARS-CoV-2 samples from Yoshihiro Kawaoka’s lab:
 > A clinical swab obtained from a confirmed case in Madison, WI.
@@ -121,7 +121,7 @@ As described [here](https://openresearch.labkey.com/wiki/ZEST/Ncov/page.view?nam
 > Vero STAT-1 KO; ATCC CCL-81-VHG
 
 
-From these we analyze the following four Illumina datasets (the other four are Oxford Nanopore we did not use in this analysis:
+From these we analyze the following four Illumina datasets (the other four are Oxford Nanopore we did not use in this analysis):
 
 | Accession | Description |
 |-----------|------------|
