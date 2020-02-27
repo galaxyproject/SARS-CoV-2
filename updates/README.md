@@ -192,7 +192,7 @@ The list of variants is available from this [repository](wisc_variants.tsv). The
  1. FUNCLASS - Functional class of substitution
  1. EFFECT - Effect of the substitution
  1. GENE - Gene Name
- 1. 1CODON - Codon with changes base capitalized 
+ 1. CODON - Codon with changes base capitalized 
  1. type - S = SNP, I = Indel, M = MNP
 
 For tools and workflows used in this analysis see [Variation](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) section of this repository.
