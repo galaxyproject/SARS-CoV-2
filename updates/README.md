@@ -109,7 +109,7 @@ SRR11140750
 SRR11140751
 ```
 
-They are produced by **Katarina Braun** graduate student in Thomas Friedrich's lab; Twitter: @KATarinambraun;  GitHub: [@katarinabraun](https://github.com/katarinabraun)) and **Gage Moreno** (graduate student in Dave O'Connor's lab; Twitter: @GageKMoreno). Both are from the University of Wisconsin, Madison
+They are produced by **Katarina Braun** (graduate student in Thomas Friedrich's lab; Twitter: @KATarinambraun;  GitHub: [@katarinabraun](https://github.com/katarinabraun)) and **Gage Moreno** (graduate student in Dave O'Connor's lab; Twitter: @GageKMoreno). Both are from the University of Wisconsin, Madison
 
 As described [here](https://openresearch.labkey.com/wiki/ZEST/Ncov/page.view?name=SARS-CoV-2%20Deep%20Sequencing) the samples are:
 
