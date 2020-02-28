@@ -91,7 +91,7 @@ Note that while the description of the dataset lists "RNA-Seq of *Miniopterus pu
 
 This leaves the question of whether the sample is derived from a bat anal swab of human bronchoalveolar lavage fluid.
 
-## February 25: New datasets from Wisconsin 
+## February 25: New datasets from University of Wisconsin 
 
 [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-wisc-data) 
 [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](wisc.ipynb)
