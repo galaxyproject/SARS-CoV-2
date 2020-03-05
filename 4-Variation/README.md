@@ -3,7 +3,7 @@
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) |
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) |
 | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
-# Analysis of variation within individual COVID-19 samples
+# Analysis of variation within individual COVID-19 samples | March 5 2020
 
 ## What's the point?
 
@@ -11,40 +11,55 @@ To understand the amount of heterogeneity in individual COVID-19 isolates.
 
 ## Outline
 
-As of writing (2/13/2020) there were just three Illumina datasets from COVID-19 patients:
+As of March 5, 2020 the following datasets are available:
 
-```
-- sra-study: SRP242226
-  bioproject: PRJNA601736
-  biosample: SAMN13872787
-  sra-sample: SRS6007144
-  sra-experiment: SRX7571571
-  sra-run: SRR10903401
+|Run|Center Name|Collection_Date|Instrument|LibraryLayout|MBases| 
+|---|-----------|---------------|----------|-------------|------|
+|SRR10948474|HKU-SHENZHEN HOSPITAL|Jan-2020|MinION|SINGLE|284|
+|SRR10948550|HKU-SHENZHEN HOSPITAL|Jan-2020|MinION|SINGLE|146|
+|SRR11140744|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|226|
+|SRR11140745|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|260|
+|SRR11140746|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|159|
+|SRR11140748|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|190|
+|SRR11140749|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|304|
+|SRR11140750|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|7|
+|SRR11140751|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|23|
+|SRR10902284|UNIVERSITY OF HONG KONG|Jan-2020|MinION|SINGLE|90|
+|SRR11177792|UNIVERSIDAD TECNOLOGICA DE PEREIRA|13-Jan-2020|Illumina MiSeq|PAIRED|2817|
+|SRR11140747|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|359|
+|SRR11092056|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|1484|
+|SRR11092057|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|1456|
+|SRR11092059|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|11539|
+|SRR11092060|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|8902|
+|SRR11092061|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|10276|
+|SRR11092062|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 1000|PAIRED|18391|
+|SRR11092063|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|20124|
+|SRR11092064|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|1036|
+|SRR11092058|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|2232|
+|SRR11241255|UNIVERSITY OF WASHINGTON|28-Feb-2020|Illumina MiSeq|SINGLE|22|
+|SRR11241254|UNIVERSITY OF WASHINGTON|27-Feb-2020|Illumina MiSeq|SINGLE|22|
 
-- sra-study: SRP242226
-  bioproject: PRJNA601736
-  biosample: SAMN13872786
-  sra-sample: SRS6007143
-  sra-experiment: SRX7571570
-  sra-run: SRR10903402
+To understand the extent of sequence variation within these samples we performed the following analysis. 
 
-- sra-study: SRP245409
-  bioproject: PRJNA603194
-  biosample: SAMN13922059
-  sra-sample: SRS6067521
-  sra-experiment: SRX7636886
-  sra-run: SRR10971381
- ```
+### Analysis of Illumina data
 
-To understand the extent of sequence variation within these samples we performed the following analysis. First, we used a Galaxy workflow to perform the following steps:
+ 1. Map all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem`
+ 2. Filter reads with mapping quality of at least 20, that were mapped as proper pairs
+ 3. Perform realignments using `lofreq viterbi`
+ 4. Call variants using `lofreq call`
+ 5. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
+ 6. Convert VCFs into tab delimited dataset
 
+### Analysis of ONT data
 
- 1. Mapped all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem`
- 2. Filtered reads with mapping quality of at least 20, that were mapped as proper pairs
- 3. Performed realignments using `lofreq viterbi`
- 4. Called variants using `lofreq call`
- 5. Annotated variants using `snpeff` against database created from NC_045512.2 GenBank file
- 6. Converted VCFs into tab delimited datasets
+ 1. Process reads using `porechop`
+ 2. Filter reads using `filtlong` using Illumina data as "reference" to exclude non-typical *k*-mers
+ 3. Map reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `minimap2`
+ 4. Call variants using `lofreq call`
+ 5. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
+ 6. Convert VCFs into tab delimited dataset
+
+The combined file containing variants from all currently available datasets is available [here](variant_list.tsv)
 
  Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
 
@@ -53,9 +68,8 @@ To understand the extent of sequence variation within these samples we performed
 ### Workflow
 
 1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
-
    The GenBank record is used by `snpeff` to generate a database for variant annotation.
-2. Set of illumina reads (in this case a collection of unfiltered reads from `SRR10903401`, `SRR10903402`, and `SRR10971381`)
+2. Accession numbers of reads
 
 ### Jupyter notebook
 
