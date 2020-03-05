@@ -13,31 +13,38 @@ To understand the amount of heterogeneity in individual COVID-19 isolates.
 
 As of March 5, 2020 the following datasets are available:
 
-|Run|Center Name|Collection_Date|Instrument|LibraryLayout|MBases| 
-|---|-----------|---------------|----------|-------------|------|
-|SRR10948474|HKU-SHENZHEN HOSPITAL|Jan-2020|MinION|SINGLE|284|
-|SRR10948550|HKU-SHENZHEN HOSPITAL|Jan-2020|MinION|SINGLE|146|
-|SRR11140744|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|226|
-|SRR11140745|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|260|
-|SRR11140746|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|159|
-|SRR11140748|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|190|
-|SRR11140749|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|304|
-|SRR11140750|UNIVERSITY OF WISCONSIN|2020-02-14|Illumina MiSeq|PAIRED|7|
-|SRR11140751|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|23|
-|SRR10902284|UNIVERSITY OF HONG KONG|Jan-2020|MinION|SINGLE|90|
-|SRR11177792|UNIVERSIDAD TECNOLOGICA DE PEREIRA|13-Jan-2020|Illumina MiSeq|PAIRED|2817|
-|SRR11140747|UNIVERSITY OF WISCONSIN|2020-02-14|GridION|SINGLE|359|
-|SRR11092056|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|1484|
-|SRR11092057|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|1456|
-|SRR11092059|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|11539|
-|SRR11092060|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|8902|
-|SRR11092061|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|10276|
-|SRR11092062|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 1000|PAIRED|18391|
-|SRR11092063|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina HiSeq 3000|PAIRED|20124|
-|SRR11092064|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|1036|
-|SRR11092058|WUHAN INSTITUTE OF VIROLOGY|30-Dec-2019|Illumina MiSeq|PAIRED|2232|
-|SRR11241255|UNIVERSITY OF WASHINGTON|28-Feb-2020|Illumina MiSeq|SINGLE|22|
-|SRR11241254|UNIVERSITY OF WASHINGTON|27-Feb-2020|Illumina MiSeq|SINGLE|22|
+|#|Run|Center Name|Collection_Date|Instrument|LibraryLayout|MBases|
+|--|---|-----------|---------------|----------|-------------|------|
+|1.|SRR10903401|WIV| - |Illumina MiSeq|PAIRED|143|
+|2.|SRR10903402|WIV| - |Illumina MiSeq|PAIRED|203|
+|3.|SRR10971381|Fudan|Illumina MiniSeq|PAIRED|8030|
+|4.|SRR10948474|HKU-SHENZHEN HOSPITAL|Jan-2020|MinION|SINGLE|284|
+|5.|SRR10948550|HKU-SHENZHEN HOSPITAL|Jan-2020|MinION|SINGLE|146|
+|6.|SRR11140744|UW|2020-02-14|Illumina MiSeq|PAIRED|226|
+|7.|SRR11140745|UW|2020-02-14|GridION|SINGLE|260|
+|8.|SRR11140746|UW|2020-02-14|Illumina MiSeq|PAIRED|159|
+|9.|SRR11140748|UW|2020-02-14|Illumina MiSeq|PAIRED|190|
+|10.|SRR11140749|UW|2020-02-14|GridION|SINGLE|304|
+|11.|SRR11140750|UW|2020-02-14|Illumina MiSeq|PAIRED|7|
+|12.|SRR11140751|UW|2020-02-14|GridION|SINGLE|23|
+|13.|SRR10902284|UHK|Jan-2020|MinION|SINGLE|90|
+|14.|SRR11177792|UNIVERSIDAD TECNOLOGICA DE PEREIRA|13-Jan-2020|Illumina MiSeq|PAIRED|2817|
+|15.|SRR11140747|UW|2020-02-14|GridION|SINGLE|359|
+|16.|SRR11092056|WIV|30-Dec-2019|Illumina MiSeq|PAIRED|1484|
+|17.|SRR11092057|WIV|30-Dec-2019|Illumina MiSeq|PAIRED|1456|
+|18.|SRR11092059|WIV|30-Dec-2019|Illumina HiSeq 3000|PAIRED|11539|
+|19.|SRR11092060|WIV|30-Dec-2019|Illumina HiSeq 3000|PAIRED|8902|
+|20.|SRR11092061|WIV|30-Dec-2019|Illumina HiSeq 3000|PAIRED|10276|
+|21.|SRR11092062|WIV|30-Dec-2019|Illumina HiSeq 1000|PAIRED|18391|
+|22.|SRR11092063|WIV|30-Dec-2019|Illumina HiSeq 3000|PAIRED|20124|
+|23.|SRR11092064|WIV|30-Dec-2019|Illumina MiSeq|PAIRED|1036|
+|24.|SRR11092058|WIV|30-Dec-2019|Illumina MiSeq|PAIRED|2232|
+|25.|SRR11241255|UWash|28-Feb-2020|Illumina MiSeq|SINGLE|22|
+|26.|SRR11241254|UWash|27-Feb-2020|Illumina MiSeq|SINGLE|22|
+
+###### UW = University of Wisconsin; UHK = University of Hong Kong; UWash = University of Washington; WIV = Wuhan Institute OF Virology
+
+This list is obtained by intersecting SRA accessions from [NCBI COVID-19 page](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/) and [SRA](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2697049).
 
 To understand the extent of sequence variation within these samples we performed the following analysis. 
 
@@ -59,9 +66,12 @@ To understand the extent of sequence variation within these samples we performed
  5. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
  6. Convert VCFs into tab delimited dataset
 
+:warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or now. As a result we did not incorporate variation from ONT data into our report at this time. 
+
+
 The combined file containing variants from all currently available datasets is available [here](variant_list.tsv)
 
- Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
+Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
 
 ## Inputs
 
