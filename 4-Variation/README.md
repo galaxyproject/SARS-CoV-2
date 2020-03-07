@@ -3,9 +3,7 @@
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) |
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) |
 | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
-# Analysis of variation within individual COVID-19 samples | March 5 2020
-
-:warning: We are updating this page with new March 6 data. Once complete this message will be removed.
+# Analysis of variation within individual COVID-19 samples | March 6 2020
 
 ## What's the point?
 
@@ -82,7 +80,6 @@ To understand the extent of sequence variation within these samples we performed
 
 :warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or now. As a result we did not incorporate variation from ONT data into our report at this time. 
 
-
 The combined file containing variants from all currently available datasets is available [here](variant_list.tsv)
 
 Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
@@ -93,7 +90,7 @@ Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_anal
 
 1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
    The GenBank record is used by `snpeff` to generate a database for variant annotation.
-2. Accession numbers of reads
+2. Downloaded reads as either paired (for paired end data) or single (for single end data) collections.
 
 ### Jupyter notebook
 
@@ -226,7 +223,17 @@ The following table describes variants with frequencies above 10%:
 
 ## History and workflow
 
-A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-variation).
+We use two separate workflows for performing paired and single end data analyses:
+
+|                |
+|----------------|
+|[![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
+|![](var_wf_se.png)|
+|[![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis)|
+|<small>Workflow for the analysis of single end Illumina reads < 100 bp</small>|
+|![](var_wf_pe.png)|
+|<small>Workflow for the analysis of paired end Illumina reads</small>|
+
 
 The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
