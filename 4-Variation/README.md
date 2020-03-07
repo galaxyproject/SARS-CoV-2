@@ -232,11 +232,6 @@ We use two separate workflows for performing paired and single end data analyses
 |![](var_wf_pe.png)|
 |Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
 
-
-The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
-
-![](var_wf.png)
-
 ## BioConda
 
 Tools used in this analysis are also available from BioConda:
