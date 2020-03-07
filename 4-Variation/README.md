@@ -227,12 +227,10 @@ We use two separate workflows for performing paired and single end data analyses
 
 |                |
 |----------------|
-|[![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
-|![](var_wf_se.png)|
-|[![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis)|
-|<small>Workflow for the analysis of single end Illumina reads < 100 bp</small>|
+|![](var_wf_se.png) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
+|###### Workflow for the analysis of single end Illumina reads < 100 bp |
 |![](var_wf_pe.png)|
-|<small>Workflow for the analysis of paired end Illumina reads</small>|
+|###### Workflow for the analysis of paired end Illumina reads | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
 
 
 The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
