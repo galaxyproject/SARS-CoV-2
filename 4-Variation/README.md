@@ -5,6 +5,8 @@
 | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
 # Analysis of variation within individual COVID-19 samples | March 5 2020
 
+:warning: We are updating this page with new March 6 data. Once complete this message will be removed.
+
 ## What's the point?
 
 To understand the amount of heterogeneity in individual COVID-19 isolates.
@@ -54,7 +56,7 @@ As of March 6, 2020 the following datasets are available:
 |SRR11149660|PRJNA608224|UMelb|GridION|S|VIRAL RNA|1770|10-Feb-2020|Homo sapiens||
 |SRR11140747|PRJNA607948|UW|GridION|S|METAGENOMIC|359|2020-02-14|Homo sapiens||
 
-###### UW = University of Wisconsin; UHG = University of Hong Kong; UWash = University of Washington; WIV = Wuhan Institute OF Virology, Umelb = University of Melbourne, UTP = Universidad Tecnologica De Pereira, HKU = HKU-Shenzhen Hospital, P = Paired, S = Single
+###### UW = University of Wisconsin; UHG = University of Hong Kong; UWash = University of Washington; WIV = Wuhan Institute OF Virology, Umelb = University of Melbourne, UTP = Universidad Tecnologica De Pereira, HKU = HKU-Shenzhen Hospital, P = Paired, S = Single, :white_check_mark: = analyzed successfully, :x: = contains no useful data (see [updates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/updates)).
 
 This list is a **union** of SRA accessions from [NCBI COVID-19 page](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/) and [SRA](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2697049).
 
