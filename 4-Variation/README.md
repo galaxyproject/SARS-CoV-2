@@ -227,8 +227,8 @@ We use two separate workflows for performing paired and single end data analyses
 
 |                |
 |----------------|
-|![](var_wf_se.png) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
-|Workflow for the analysis of single end Illumina reads < 100 bp |
+|![](var_wf_se.png) |
+|Workflow for the analysis of single end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
 |![](var_wf_pe.png)|
 |Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
 
