@@ -225,7 +225,7 @@ The following table describes variants with frequencies above 10%:
 
 We use two separate workflows for performing paired and single end data analyses:
 
-|                |
+| Variation analysis workflows                |
 |----------------|
 |![](var_wf_se.png) |
 |Workflow for the analysis of single end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
