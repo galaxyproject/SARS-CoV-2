@@ -1,3 +1,6 @@
+---
+sidebar: false
+---
 [![DOI](https://zenodo.org/badge/240286467.svg)](https://zenodo.org/badge/latestdoi/240286467)
 
 # Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)
