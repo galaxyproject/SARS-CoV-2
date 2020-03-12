@@ -31,7 +31,6 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [Steven Weaver](https://github.com/stevenweaver)
 
 <a href="https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1"><img align="right" width="160" src="./img/qrcode.png"></a>
-k
 
 This repo serves as a companion to our study describing the analysis of early COVID-19 data:
 
