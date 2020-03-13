@@ -52,20 +52,20 @@ These viruses were chosen based on a publication by Duquerroy et al. ([2005](htt
 
 We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the `Multiple Sequence Alignment` visualization in Galaxy :
 
- ![Visualization of amino acid alignment in Galaxy](align_galaxy_viz.png)
+ ![Visualization of amino acid alignment in Galaxy](./align_galaxy_viz.png)
 
 | Alignments of Spike proteins |
 |:-------------------------------:|
-| ![Nucleic Alignment of Spike proteins](Spike_CDS_Alignment.png) |
+| ![Nucleic Alignment of Spike proteins](./Spike_CDS_Alignment.png) |
 | **A**. CDS alignments |
-| ![Proteic Alignment of Spike proteins](Spike_Protein_Alignment.png) |
+| ![Proteic Alignment of Spike proteins](./Spike_Protein_Alignment.png) |
 | **B**. Protein alignment |
 
 ## Workflow and history
 
 The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/aun1/h/covid-19-s-protein-aa). The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-s-gene-aa) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
 
-![Analysis Workflow](s_wf.png)
+![Analysis Workflow](./s_wf.png)
 
 The `transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `mafft`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
 
