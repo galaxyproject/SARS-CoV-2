@@ -51,7 +51,7 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/mrca) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
-![](mrca_wf.png)
+![](./mrca_wf.png)
 
 
 ## BioConda

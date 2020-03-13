@@ -29,19 +29,19 @@ A set of unaligned CDS sequences for the *S*-gene.
 
 A recombination report:
 
-![](dm_report.png)
+![](./dm_report.png)
 
 and a map of possible recombination hotspots:
 
-![](dm_chart.png)
+![](./dm_chart.png)
 
 A selection analysis summary and tree (COVID-19 isolate is MN988668_1)
 
-![](dm_tree.png)
+![](./dm_tree.png)
 
 and a plot of the inferred &omega; distribution for the MN988668_1 branch.
 
-![](dm_selection.png)
+![](./dm_selection.png)
 
 ## History and workflow
 
@@ -49,7 +49,7 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-recsel) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
-![](rec_wf.png)
+![](./rec_wf.png)
 
 The workflow takes unaligned CDS sequences, translates them with `EMBOSS:tanseq`, aligns translations using `mafft`, realigns original CDS input using the mafft alignment as a guide and sends this codon-based alignment to `gard`.
 

@@ -73,7 +73,7 @@ The workflow performs the following steps:
  - Reads that **do not map** to `hg38` are filtered out using `samtools view`
  - Reads are converted back to fastq format using `samtools fastx`
 
-![](pp_wf.png)
+![](./pp_wf.png)
 
 ## BioConda
 
