@@ -1,9 +1,12 @@
+# Analysis of variation within individual COVID-19 samples | March 6 2020
+
+## Live Resources
+
 | usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
 |:--------:|:------------:|:------------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) |
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) |
 | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
-# Analysis of variation within individual COVID-19 samples | March 6 2020
 
 ## What's the point?
 
@@ -218,11 +221,11 @@ Here, most fields names are descriptive. **SB** = the Phred-scaled probability o
 
 The variants we identified were distributed across the SARS-CoV-2 genome in the following way:
 
-![](var_map.png)
+![](./var_map.png)
 
 The following table describes variants with frequencies above 10%:
 
-![](S_var.png)
+![](./S_var.png)
 
 ## History and workflow
 
@@ -230,9 +233,9 @@ We use two separate workflows for performing paired and single end data analyses
 
 | Variation analysis workflows                |
 |----------------|
-|![](var_wf_se.png) |
+|![](./var_wf_se.png) |
 |Workflow for the analysis of single end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
-|![](var_wf_pe.png)|
+|![](./var_wf_pe.png)|
 |Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
 
 ## BioConda
