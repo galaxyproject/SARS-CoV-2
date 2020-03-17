@@ -84,7 +84,7 @@ To understand the extent of sequence variation within these samples we performed
  5. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
  6. Convert VCFs into tab delimited dataset
 
-:warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or now. As a result we did not incorporate variation from ONT data into our report at this time. 
+:warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or not. As a result we did not incorporate variation from ONT data into our report at this time. 
 
 The combined file containing variants from all currently available datasets is available [here](variant_list.tsv)
 
