@@ -3,7 +3,7 @@
 Given [Ephemeris](https://ephemeris.readthedocs.io/en/latest/) and the following files you can install all needed tools into any given Galaxy instance which you have admin access to.
 
 ## Install Ephemeris 
-Install ephemeris using following command:
+Install Ephemeris using following command:
 
 ```
 pip install ephemeris
