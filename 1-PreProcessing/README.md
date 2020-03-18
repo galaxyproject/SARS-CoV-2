@@ -41,7 +41,7 @@ Only SRA accessions are required for this analysis. The described analysis was p
 
 ## Outputs
 
-This workflow produces three outputs that are used in tow subsequent analyses:
+This workflow produces three outputs that are used in two subsequent analyses:
 
 | #  | Output | Used in |
 |----|------|---------|
