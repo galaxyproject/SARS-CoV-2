@@ -1,3 +1,5 @@
+# Install tools and workflows on a Galaxy instance
+
 
 
 ```sh
