@@ -13,7 +13,8 @@ module.exports = {
             { text: "Variation", link: "/4-Variation/" },
             { text: "S-Analysis", link: "/5-S-analysis/" },
             { text: "Evolutionary Analysis", link: "/6-RecombinationSelection/" },
-            { text: "Updates", link: "/updates/" }
+            { text: "Updates", link: "/updates/" },
+            { text: "Install", link: "/install/" }
         ],
         search: false,
         sidebar: 'auto',
