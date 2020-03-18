@@ -1,4 +1,4 @@
-# Install tools and workflows on a Galaxy instance
+# Deploying the tools and workflows on a Galaxy instance
 
 
 

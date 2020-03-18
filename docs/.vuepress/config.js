@@ -14,7 +14,7 @@ module.exports = {
             { text: "S-Analysis", link: "/5-S-analysis/" },
             { text: "Evolutionary Analysis", link: "/6-RecombinationSelection/" },
             { text: "Updates", link: "/updates/" },
-            { text: "Install", link: "/install/" }
+            { text: "Deploy", link: "/deploy/" }
         ],
         search: false,
         sidebar: 'auto',
