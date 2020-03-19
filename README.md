@@ -19,6 +19,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [Nate Coraor](https://github.com/natefoo),
 [Frederik Coppens](frederikcoppens),
 [Ignacio Eguinoa](https://github.com/ieguinoa),
+[Bert Droesbeke](https://github.com/bedroesb),
 [Simon Gladman](https://github.com/slugger70),
 [Björn Grüning](https://github.com/bgruening),
 [Delphine Larivière](https://github.com/Delphine-L),
