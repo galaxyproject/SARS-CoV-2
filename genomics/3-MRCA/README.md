@@ -1,3 +1,6 @@
+---
+title: MRCA
+---
 # Dating the most recent common ancestor (MRCA) of SARS-CoV-2
 
 ## Live Resources

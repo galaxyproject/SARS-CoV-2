@@ -10,31 +10,10 @@ module.exports = {
             {
                 text: "Genomics",
                 link: "/genomics/"
-                /*
-                items: [
-                    { text: "Pre-processing", link: "/genomics/1-PreProcessing/" },
-                    { text: "Assembly", link: "/genomics/2-Assembly/" },
-                    { text: "MRCA", link: "/genomics/3-MRCA/" },
-                    { text: "Variation", link: "/genomics/4-Variation/" },
-                    { text: "S-Analysis", link: "/genomics/5-S-analysis/" },
-                    { text: "Evolutionary Analysis", link: "/genomics/6-RecombinationSelection/" },
-                    { text: "Updates", link: "/genomics/updates/" },
-                    { text: "Deploy", link: "/genomics/deploy/" }
-                ]
-                */
             },
             {
                 text: "Cheminformatics",
                 link: "/cheminformatics/"
-                /*
-                items: [
-                    { text: "Docking Prep", link: "/cheminformatics/1-DockingPrep/" },
-                    { text: "Active Site Prep", link: "/cheminformatics/2-ActiveSitePrep/" },
-                    { text: "Docking", link: "/cheminformatics/3-Docking/" },
-                    { text: "Scoring", link: "/cheminformatics/4-Scoring/" },
-                    { text: "Histories", link: "/cheminformatics/Histories/" },
-                ]
-                */
             }
         ],
         sidebar: {

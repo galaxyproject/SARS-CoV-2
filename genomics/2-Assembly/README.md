@@ -1,3 +1,6 @@
+---
+title: Assembly
+---
 # Assembly of SARS-CoV-2 from pre-processed reads
 
 ## Live Resources
