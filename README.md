@@ -1,7 +1,7 @@
 ---
 sidebar: false
 ---
-# COVID-19 analysis using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)
+# Analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
@@ -11,27 +11,19 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
 
 
+This repo serves as a companion to our study describing the analysis of early COVID-19 data.
+We currently feature two different projects: one [analysing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
 
-[Dannon Baker](https://github.com/dannon),
-[Marius van den Beek](https://github.com/mvdbeek),
-[Dave Bouvier](https://github.com/davebx),
-[John Chilton](https://github.com/jmchilton),
-[Nate Coraor](https://github.com/natefoo),
-[Frederik Coppens](frederikcoppens),
-[Ignacio Eguinoa](https://github.com/ieguinoa),
-[Simon Gladman](https://github.com/slugger70),
-[Björn Grüning](https://github.com/bgruening),
-[Delphine Larivière](https://github.com/Delphine-L),
-[Andrew Lonie](https://github.com/alonie),
-[Nicholas Keener](https://github.com/nickeener),
-[Sergei Kosakovsky Pond](https://github.com/spond),
-[Wolfgang Maier](https://github.com/wm75),
-[Anton Nekrutenko](https://github.com/nekrut),
-[James Taylor](https://github.com/jxtx),
-[Steven Weaver](https://github.com/stevenweaver)
+It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
+ 1. Underscore the importance of access to raw data
+ 2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises
 
- The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+ The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/).
+ Tools were run using [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)),
+ Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) 
+ in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, 
+ [STFC-IRIS](https://stfc.ukri.org/) at the Diamond Light Source, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
 
  <p align="center">
   <a href="https://galaxyproject.org">   <img src="./genomics/img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp;
