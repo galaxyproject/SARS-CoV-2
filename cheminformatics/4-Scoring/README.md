@@ -26,5 +26,3 @@ The resulting poses have scores from rDock for docking as well as for TransFS an
 [1] TransFS -Scantlebury et al., Dataset Augmentation Allows Deep Learning-Based Virtual Screening To Better Generalise To Unseen Target Classes, And Highlight Important Binding Interactions. URL: https://www.biorxiv.org/content/10.1101/2020.03.06.979625v1 
              
 [2] SuCOS - Leung et al., SuCOS is Better than RMSD for Evaluating Fragment Elaboration and Docking Poses, doi:10.26434/chemrxiv.8100203.v1
-
-[2] SuCOS
