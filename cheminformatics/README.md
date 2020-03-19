@@ -9,14 +9,14 @@ Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&me
 [Tim Dudgeon](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
 [Gianmauro Cuccuru](https://github.com/gmauro),
-[Björn Grüning](https://github.com/bgruening),
+[Björn Grüning](https://github.com/bgruening)
 
-This repo serves as a companion to our study describing the analysis of early COVID-19 data:
+This repo serves as a companion to our recent docking simulations on the SARS-CoV-2 main protease.
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
  1. Underscore the importance of access to raw data
- 2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises
+ 2. Demonstrate that existing community efforts in curation and deployment of computational chemistry software can reliably support rapid reproducible research during global crises
 
 ------------
 
@@ -56,16 +56,9 @@ Having identified promising candidate ligands, we are now looking for funding to
 [5] Leung et al., SuCOS is Better than RMSD for Evaluating Fragment Elaboration and Docking Poses, doi:10.26434/chemrxiv.8100203.v1
 
 
+In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](Histories)
 
-
-
-
-
-In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](updates)
-
- The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [de.NBI](https://www.denbi.de/) and [STFC](https://stfc.ukri.org/) cloud resources.
-
-
+The experiments have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/) and [conda-forge](https://conda-forge.org/). Tools were run using cloud resources provided by [de.NBI](https://www.denbi.de/) and [STFC](https://stfc.ukri.org/).
 
 
  <p align="center">
