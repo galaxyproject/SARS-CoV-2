@@ -20,25 +20,25 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 ------------
 
-The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)] [1], which provided 55 fragment hits . In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
+The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)][1], which provided 55 fragment hits . In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
 <p align="center">
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
 </p>
 
-An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network] [2] to elaborate from the initial fragment hits. This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com). These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
+An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com). These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
 1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
 2. [Generation of 3D conformations](1-DockingPrep) based on SMILES strings of the candidate molecules.
 3. [Preparation of active site for docking](2-ActiveSitePrep) using rDock.
 3. [Docking](3-Docking) of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
-4. [Evaluation of the docking poses](4-Scoring) using a [deep learning approach] [3] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
-5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm] [4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
+4. [Evaluation of the docking poses](4-Scoring) using a [deep learning approach][3] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
+5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm][4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time (more are expected).
  
 Of these steps, the third (docking) is the most compute-intensive. Here, the project benefited from the enormous distributed compute capacity which underlies the European Galaxy project. Over 5000 CPUs were made available, provided by [Diamond’s STFC-IRIS](https://www.diamond.ac.uk) cluster at Harwell, UK and the [de.NBI cloud](https://www.denbi.de) in Freiburg, Germany. With each docking job requiring 1 CPU, thousands of poses could thus be docked in parallel, allowing millions of poses to be docked over a single weekend. The fourth step (pose scoring), while less computationally expensive, was accelerated thanks to GPUs provided by de.NBI and STFC. In total, the entire workflow described here took around 120,000 hours of CPU time (13 years) to complete.
 
-All data is publicly available via [https://usegalaxy.eu], together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
+All data is publicly available via https://usegalaxy.eu, together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
 
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
 
