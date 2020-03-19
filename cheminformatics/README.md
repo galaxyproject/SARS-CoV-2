@@ -8,6 +8,7 @@ Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&me
 
 [Tim](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
+[Gianmauro Cuccuru](https://github.com/gmauro),
 [Björn Grüning](https://github.com/bgruening),
 
 This repo serves as a companion to our study describing the analysis of early COVID-19 data:
@@ -22,11 +23,11 @@ It contains descriptions of workflows and exact versions of all software used. T
 The Diamond Light Source recently completed a successful fragment screen on the SARS-CoV-2 main protease (MPro), which provided 55 fragment hits [1]. In an effort to identify candidate molecules for binding, InformaticsMatters, the XChem group and the European Galaxy team have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
 An initial list of ~42,000 candidate molecules was assembled by using the Fragalysis fragment network to elaborate from the initial fragment hits [2]. This was done using Informatics Matters’ Fragnet Search APIs [3], querying a database of ~64M molecules available from Enamine REAL, ChemSpace and MolPort. These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
-* Charge enumeration of those 42,000 candidate molecules to generate ~159,000 docking candidates.
-* Generation of 3D conformations based on SMILES strings of the candidate molecules.
-* Docking of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
-* Evaluation of the docking poses using a deep learning approach [4] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
-* Scoring of the top scoring pose from each molecule against the original fragment screening hit ligands using the SuCOS MAX shape and feature overlay algorithm [5], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
+1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
+2. [Generation of 3D conformations](1-DockingPrep) based on SMILES strings of the candidate molecules.
+3. [Docking](2-Docking) of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
+4. [Evaluation of the docking poses](3-EvalPoses) using a deep learning approach [4] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
+5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the SuCOS MAX shape and feature overlay algorithm [5], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time (more are expected).
  
@@ -57,9 +58,7 @@ Having identified promising candidate ligands, we are now looking for funding to
 
 In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](updates)
 
- The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/),  [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
-
-
+ The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [de.NBI](https://www.denbi.de/) and [STFC](https://stfc.ukri.org/) cloud resources.
 
 
 
@@ -67,20 +66,11 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
  <p align="center">
   <a href="https://galaxyproject.org">   <img src="./img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp;
   <a href="https://galaxyproject.eu">    <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp;
-  <a href="https://https://usegalaxy-au.github.io/">    <img src="./img/galaxy_australia.png" width="20%" alt="Australian Galaxy Project" /></a> &nbsp;
   <a href="https://bioconda.org">        <img src="./img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
-  <a href="https://xsede.org">           <img src="./img/xsede_logo.png" width="20%" alt="XSEDE" /></a> &nbsp;
-  <a href="https://www.tacc.utexas.edu"> <img src="./img/tacc_logo.png" width="20%" alt="TACC" /></a> &nbsp;
+  <a href="https://www.informaticsmatters.com/"><img src="./img/informatcsmatters_logo.svg" width="20%" alt="informaticsmatters" /></a> &nbsp;
   <a href="https://www.denbi.de">        <img src="./img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
+  <a href="https://www.ukri.org">        <img src="./img/UKRI_STF_Council-Logo_Horiz-RGB.png" width="23%" alt="STFC" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="./img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
-  <a href="https://www.psc.edu">         <img src="./img/psc_logo.jpg" width="20%" alt="PSC" /></a> &nbsp;
-  <a href="https://www.iu.edu">          <img src="./img/iu_logo.jpg" width="20%" alt="Indiana University" /></a> &nbsp;
   <a href="https://training.galaxyproject.org"> <img src="./img/gtn_logo.png" width="20%" alt="Galaxy Training Network" /></a> &nbsp;
-  <a href="https://bioplatforms.com">    <img src="./img/bpa_logo.png" width="20%" alt="Bio Platforms Australia" /></a> &nbsp;
-  <a href="https://ardc.ed.au">          <img src="./img/ardc_logo.png" width="20%" alt="Australian Research Data Commons" /></a> &nbsp;
-  <a href="http://www.vib.be/">          <img src="./img/vib_tagline_pos_rgb.png" width="15%" alt="VIB" /></a> &nbsp;
-  <a href="https://www.elixir-belgium.org">          <img src="./img/ELIXIR_BELGIUM_white_background.png" width="15%" alt="ELIXIR Belgium" /></a> &nbsp;
-  <a href="https://www.vscentrum.be">          <img src="./img/VSC-logo.png" width="25%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
   <a href="https://www.eosc-life.eu">          <img src="./img/eosclife.png" width="10%" alt="EOSC-Life" /></a> &nbsp;
-  <a href="https://datamonkey.org">          <img src="./img/datamonkey.svg" alt="Datamonkey" width = "150px" /></a> &nbsp;
   </p>
