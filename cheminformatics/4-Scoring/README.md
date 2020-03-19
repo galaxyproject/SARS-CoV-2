@@ -6,7 +6,11 @@ Oxford University we used to generate additional predicted binding scores.
 
 ## Live Resources
 
-TODO
+| usegalaxy.eu | 
+|:--------:|
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161) |
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-docking-1) | 
+
 
 ## Outline
 
