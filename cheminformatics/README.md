@@ -38,7 +38,7 @@ This workflow was repeated for each of the 17 fragment screening crystal structu
  
 Of these steps, the third (docking) is the most compute-intensive. Here, the project benefited from the enormous distributed compute capacity which underlies the European Galaxy project. Over 5000 CPUs were made available, provided by Diamond’s STFC-IRIS cluster at Harwell, UK and the de.NBI cloud in Freiburg, Germany. With each docking job requiring 1 CPU, thousands of poses could thus be docked in parallel, allowing millions of poses to be docked over a single weekend. The fourth step (pose scoring), while less computationally expensive, was accelerated thanks to GPUs provided by de.NBI and STFC. In total, the entire workflow described here took around 120,000 hours of CPU time (13 years) to complete.
 
-All data is publicly available via https://usegalaxy.eu, together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems.
+All data is publicly available via https://usegalaxy.eu, together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
 
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
 
