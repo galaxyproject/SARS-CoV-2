@@ -10,30 +10,59 @@ Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&me
 [Simon Bray](https://github.com/simonbray),
 [Björn Grüning](https://github.com/bgruening),
 
-
-<a href="https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1"><img align="right" width="160" src="./img/qrcode.png"></a>
-
 This repo serves as a companion to our study describing the analysis of early COVID-19 data:
-
-> [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973). usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.be and hyphy.org development teams, Anton Nekrutenko, Sergei L Kosakovsky Pond. *bioRxiv* 2020.02.21.959973; doi: https://doi.org/10.1101/2020.02.21.959973
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
  1. Underscore the importance of access to raw data
  2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises
 
-Our analysis was divided into six parts listed below (we also added "Updates" section where will be keeping track of new data as it appears). Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by any of three global Galaxy instances in the [US](http://usegalaxy.org), in [Europe](http://usegalaxy.eu) and in [Australia](https://usegalaxy.org.au), as well as in the [ELIXIR Belgium](https://usegalaxy.be) Galaxy instance.
+------------
 
-  1. [Pre-processing of raw read data](1-PreProcessing)
-  2. [Assembly of COVID-19 genome](2-Assembly)
-  3. [Estimation of timing for most recent common ancestor (MRCA)](3-MRCA)
-  4. [Analysis of variation within individual isolates](4-Variation)
-  5. [Analysis of Spike protein substitutions](5-S-analysis)
-  6. [Analysis of recombination and selection](6-RecombinationSelection)
+The Diamond Light Source recently completed a successful fragment screen on the SARS-CoV-2 main protease (MPro), which provided 55 fragment hits [1]. In an effort to identify candidate molecules for binding, InformaticsMatters, the XChem group and the European Galaxy team have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
+
+An initial list of ~42,000 candidate molecules was assembled by using the Fragalysis fragment network to elaborate from the initial fragment hits [2]. This was done using Informatics Matters’ Fragnet Search APIs [3], querying a database of ~64M molecules available from Enamine REAL, ChemSpace and MolPort. These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
+* Charge enumeration of those 42,000 candidate molecules to generate ~159,000 docking candidates.
+* Generation of 3D conformations based on SMILES strings of the candidate molecules.
+* Docking of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
+* Evaluation of the docking poses using a deep learning approach [4] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
+* Scoring of the top scoring pose from each molecule against the original fragment screening hit ligands using the SuCOS MAX shape and feature overlay algorithm [5], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
+
+This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time (more are expected).
+ 
+Of these steps, the third (docking) is the most compute-intensive. Here, the project benefited from the enormous distributed compute capacity which underlies the European Galaxy project. Over 5000 CPUs were made available, provided by Diamond’s STFC-IRIS cluster at Harwell, UK and the de.NBI cloud in Freiburg, Germany. With each docking job requiring 1 CPU, thousands of poses could thus be docked in parallel, allowing millions of poses to be docked over a single weekend. The fourth step (pose scoring), while less computationally expensive, was accelerated thanks to GPUs provided by de.NBI and STFC. In total, the entire workflow described here took around 120,000 hours of CPU time (13 years) to complete.
+
+All data is publicly available via https://usegalaxy.eu, together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems.
+
+Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
+
+
+### References:
+
+[1] Diamond Light Source, press release. URL: https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html
+
+[2] Skyner, The (Astex) Fragment network, Diamond Public Confluence. URL: https://diamondlightsource.atlassian.net/wiki/spaces/FRAG/pages/8323192/The+Astex+Fragment+network
+
+[3] Fragnet Search service: https://fragnet.informaticsmatters.com/
+
+[4] Scantlebury et al., Dataset Augmentation Allows Deep Learning-Based Virtual Screening To Better Generalise To Unseen Target Classes, And Highlight Important Binding Interactions. URL: https://www.biorxiv.org/content/10.1101/2020.03.06.979625v1 
+
+[5] Leung et al., SuCOS is Better than RMSD for Evaluating Fragment Elaboration and Docking Poses, doi:10.26434/chemrxiv.8100203.v1
+
+
+
+
+
+
 
 In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](updates)
 
- The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+ The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tool runs used [XSEDE](https://www.xsede.org/),  [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+
+
+
+
+
 
  <p align="center">
   <a href="https://galaxyproject.org">   <img src="./img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp;
