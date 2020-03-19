@@ -20,7 +20,7 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 ------------
 
-The Diamond Light Source recently completed a successful fragment screen on the SARS-CoV-2 main protease (MPro), which provided 55 fragment hits [1]. In an effort to identify candidate molecules for binding, InformaticsMatters, the XChem group and the European Galaxy team have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
+The Diamond Light Source's XChem team [7] recently completed a successful fragment screen on the SARS-CoV-2 main protease (MPro), which provided 55 fragment hits [1]. In an effort to identify candidate molecules for binding, InformaticsMatters [6], the XChem group and the European Galaxy team [8] have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
 <p align="center">
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
@@ -54,6 +54,12 @@ Having identified promising candidate ligands, we are now looking for funding to
 [4] Scantlebury et al., Dataset Augmentation Allows Deep Learning-Based Virtual Screening To Better Generalise To Unseen Target Classes, And Highlight Important Binding Interactions. URL: https://www.biorxiv.org/content/10.1101/2020.03.06.979625v1 
 
 [5] Leung et al., SuCOS is Better than RMSD for Evaluating Fragment Elaboration and Docking Poses, doi:10.26434/chemrxiv.8100203.v1
+
+[6] http://informaticsmatters.com
+
+[7] https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html
+
+[8] https://usegalaxy.eu
 
 
 In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](Histories)
