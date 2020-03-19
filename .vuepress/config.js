@@ -23,6 +23,11 @@ module.exports = {
             {
                 text: "Cheminformatics",
                 items: [
+                    { text: "Docking Prep", link: "/cheminformatics/1-DockingPrep/" },
+                    { text: "Active Site Prep", link: "/cheminformatics/2-ActiveSitePrep/" },
+                    { text: "Docking", link: "/cheminformatics/3-Docking/" },
+                    { text: "Scoring", link: "/cheminformatics/4-Scoring/" },
+                    { text: "Histories", link: "/cheminformatics/Histories/" },
                 ]
             }
         ],
