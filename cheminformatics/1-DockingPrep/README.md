@@ -1,6 +1,6 @@
-# Charge enumeration
+# Preparation for docking
 
-This section describes the process of charge enumeration (i.e. generation of all charge forms) from the initial set of ~42,000 candidate compounds.
+This section describes the process of charge enumeration (i.e. generation of all charge forms) from the initial set of ~42,000 candidate compounds, and 3D conformer generation, prior to performing docking.
 
 
 ## Live Resources
