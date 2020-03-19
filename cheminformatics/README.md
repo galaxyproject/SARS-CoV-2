@@ -22,7 +22,7 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 The Diamond Light Source recently completed a successful fragment screen on the SARS-CoV-2 main protease (MPro), which provided 55 fragment hits [1]. In an effort to identify candidate molecules for binding, InformaticsMatters, the XChem group and the European Galaxy team have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
-<p align="right">
+<p align="center">
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
 </p>
 
