@@ -9,6 +9,8 @@ module.exports = {
         nav: [
             {
                 text: "Genomics",
+                link: "/genomics/"
+                /*
                 items: [
                     { text: "Pre-processing", link: "/genomics/1-PreProcessing/" },
                     { text: "Assembly", link: "/genomics/2-Assembly/" },
@@ -19,9 +21,12 @@ module.exports = {
                     { text: "Updates", link: "/genomics/updates/" },
                     { text: "Deploy", link: "/genomics/deploy/" }
                 ]
+                */
             },
             {
                 text: "Cheminformatics",
+                link: "/cheminformatics/"
+                /*
                 items: [
                     { text: "Docking Prep", link: "/cheminformatics/1-DockingPrep/" },
                     { text: "Active Site Prep", link: "/cheminformatics/2-ActiveSitePrep/" },
@@ -29,10 +34,30 @@ module.exports = {
                     { text: "Scoring", link: "/cheminformatics/4-Scoring/" },
                     { text: "Histories", link: "/cheminformatics/Histories/" },
                 ]
+                */
             }
         ],
-        search: false,
-        sidebar: "auto",
+        sidebar: {
+            "/genomics/": [
+                "/genomics/",
+                "/genomics/1-PreProcessing/",
+                "/genomics/2-Assembly/",
+                "/genomics/3-MRCA/",
+                "/genomics/4-Variation/",
+                "/genomics/5-S-analysis/",
+                "/genomics/6-RecombinationSelection/",
+                "/genomics/updates/",
+                "/genomics/deploy/"
+            ],
+            "/cheminformatics/": [
+                "/cheminformatics/",
+                "/cheminformatics/1-DockingPrep/",
+                "/cheminformatics/2-ActiveSitePrep/",
+                "/cheminformatics/3-Docking/",
+                "/cheminformatics/4-Scoring/",
+                "/cheminformatics/Histories/"
+            ]
+        },
         displayAllHeaders: true
     }
 };

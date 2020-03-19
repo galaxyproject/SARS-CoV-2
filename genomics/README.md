@@ -1,5 +1,4 @@
 ---
-sidebar: false
 ---
 # Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)
 

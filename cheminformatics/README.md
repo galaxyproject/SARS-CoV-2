@@ -1,5 +1,4 @@
 ---
-sidebar: false
 ---
 # Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)
 
