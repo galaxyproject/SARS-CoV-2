@@ -11,5 +11,11 @@ This section describes the docking procedure. This was repeated 17 times, for ea
 
 ## Outline
 
-- Docking
-- XChem TransFS pose scoring
+Docking is performed with rDock [1] using as inputs:
+ 
+- PDB file of the protein of the fragment screening crystal structure with the ligand and waters removed, and protonated 
+(using OpenBabel) at pH 7.4
+- The active site definition for that protein prepared as described in [step 2](../2-ActiveSitePrep)
+- Candidate molecules prepared as described in [step 1](../1-DockingPrep)
+
+25 poses were generated for each molecule.

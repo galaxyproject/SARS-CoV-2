@@ -6,7 +6,7 @@ sidebar: false
 Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
 
 
-[Tim](https://github.com/tdudgeon),
+[Tim Dudgeon](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
 [Gianmauro Cuccuru](https://github.com/gmauro),
 [Björn Grüning](https://github.com/bgruening),
@@ -30,7 +30,7 @@ An initial list of ~42,000 candidate molecules was assembled by using the Fragal
 1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
 2. [Generation of 3D conformations](1-DockingPrep) based on SMILES strings of the candidate molecules.
 3. [Preparation of active site for docking](2-ActiveSitePrep) using rDock.
-3. [Docking](2-Docking) of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
+3. [Docking](3-Docking) of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
 4. [Evaluation of the docking poses](3-EvalPoses) using a deep learning approach [4] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the SuCOS MAX shape and feature overlay algorithm [5], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
@@ -73,6 +73,7 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
   <a href="https://galaxyproject.eu">    <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp;
   <a href="https://bioconda.org">        <img src="./img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
   <a href="https://www.informaticsmatters.com/"><img src="./img/informatcsmatters_logo.svg" width="20%" alt="informaticsmatters" /></a> &nbsp;
+ <a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html#"> <img src="./img/xchem_logo.png" width="18%" alt="xchem" /></a> &nbsp;
   <a href="https://www.denbi.de">        <img src="./img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
   <a href="https://www.ukri.org">        <img src="./img/UKRI_STF_Council-Logo_Horiz-RGB.png" width="23%" alt="STFC" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="./img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
