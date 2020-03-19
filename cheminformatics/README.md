@@ -31,7 +31,7 @@ An initial list of ~42,000 candidate molecules was assembled by using the Fragal
 2. [Generation of 3D conformations](1-DockingPrep) based on SMILES strings of the candidate molecules.
 3. [Preparation of active site for docking](2-ActiveSitePrep) using rDock.
 3. [Docking](3-Docking) of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
-4. [Evaluation of the docking poses](3-EvalPoses) using a deep learning approach [4] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
+4. [Evaluation of the docking poses](4-Scoring) using a deep learning approach [4] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the SuCOS MAX shape and feature overlay algorithm [5], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time (more are expected).
