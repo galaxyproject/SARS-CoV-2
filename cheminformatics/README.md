@@ -8,6 +8,7 @@ Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&me
 
 [Tim](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
+[Gianmauro Cuccuru](https://github.com/gmauro),
 [Björn Grüning](https://github.com/bgruening),
 [Gianmauro Cuccuru](https://github.com/gmauro),
 
