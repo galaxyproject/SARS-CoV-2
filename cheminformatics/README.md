@@ -1,34 +1,15 @@
 ---
 sidebar: false
 ---
-# Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)
+# Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)
 
-[![DOI](https://zenodo.org/badge/240286467.svg)](https://zenodo.org/badge/latestdoi/240286467)
-
-Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&message=org&color=green)](https://usegalaxy.org)
-[![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
-[![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
-[![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
+Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
 
 
-
-[Dannon Baker](https://github.com/dannon),
-[Marius van den Beek](https://github.com/mvdbeek),
-[Dave Bouvier](https://github.com/davebx),
-[John Chilton](https://github.com/jmchilton),
-[Nate Coraor](https://github.com/natefoo),
-[Frederik Coppens](frederikcoppens),
-[Ignacio Eguinoa](https://github.com/ieguinoa),
-[Simon Gladman](https://github.com/slugger70),
+[Tim](https://github.com/tdudgeon),
+[Simon Bray](https://github.com/simonbray),
 [Björn Grüning](https://github.com/bgruening),
-[Delphine Larivière](https://github.com/Delphine-L),
-[Andrew Lonie](https://github.com/alonie),
-[Nicholas Keener](https://github.com/nickeener),
-[Sergei Kosakovsky Pond](https://github.com/spond),
-[Wolfgang Maier](https://github.com/wm75),
-[Anton Nekrutenko](https://github.com/nekrut),
-[James Taylor](https://github.com/jxtx),
-[Steven Weaver](https://github.com/stevenweaver)
+
 
 <a href="https://www.biorxiv.org/content/10.1101/2020.02.21.959973v1"><img align="right" width="160" src="./img/qrcode.png"></a>
 
