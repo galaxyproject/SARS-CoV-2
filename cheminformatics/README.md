@@ -66,9 +66,8 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
  <p align="center">
   <a href="https://galaxyproject.org">   <img src="./img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp;
   <a href="https://galaxyproject.eu">    <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp;
-  <a href="https://https://usegalaxy-au.github.io/">    <img src="./img/galaxy_australia.png" width="20%" alt="Australian Galaxy Project" /></a> &nbsp;
-  <a href="https://bioconda.org">        <img src="./img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
-  <a href="https://www.informaticsmatters.com/">           <img src="./img/informatcsmatters_logo.svg" width="20%" alt="XSEDE" /></a> &nbsp;
+  <a href="https://bioconda.org"><img src="./img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
+  <a href="https://www.informaticsmatters.com/"><img src="./img/informatcsmatters_logo.svg" width="20%" alt="informaticsmatters" /></a> &nbsp;
   <a href="https://www.denbi.de">        <img src="./img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="./img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
   <a href="https://training.galaxyproject.org"> <img src="./img/gtn_logo.png" width="20%" alt="Galaxy Training Network" /></a> &nbsp;
