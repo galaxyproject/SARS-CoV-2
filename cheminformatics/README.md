@@ -22,7 +22,9 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 The Diamond Light Source recently completed a successful fragment screen on the SARS-CoV-2 main protease (MPro), which provided 55 fragment hits [1]. In an effort to identify candidate molecules for binding, InformaticsMatters, the XChem group and the European Galaxy team have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
+<p align="center">
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
+</p>
 
 An initial list of ~42,000 candidate molecules was assembled by using the Fragalysis fragment network to elaborate from the initial fragment hits [2]. This was done using Informatics Matters’ Fragnet Search APIs [3], querying a database of ~64M molecules available from Enamine REAL, ChemSpace and MolPort. These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
 1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
