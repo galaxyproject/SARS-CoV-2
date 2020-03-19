@@ -69,6 +69,7 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
   <a href="https://galaxyproject.eu">    <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp;
   <a href="https://bioconda.org">        <img src="./img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
   <a href="https://www.informaticsmatters.com/"><img src="./img/informatcsmatters_logo.svg" width="20%" alt="informaticsmatters" /></a> &nbsp;
+ <a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html#"> <img src="./img/xchem_logo.png" width="18%" alt="xchem" /></a> &nbsp;
   <a href="https://www.denbi.de">        <img src="./img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
   <a href="https://www.ukri.org">        <img src="./img/UKRI_STF_Council-Logo_Horiz-RGB.png" width="23%" alt="STFC" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="./img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
