@@ -11,5 +11,5 @@ Here are a list of Galaxy histories generated, one for each fragment structure r
 | [![Galaxy MPro-x1077 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1077) | MPro-x1077 | |
 | [![Galaxy MPro-x1093 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1093) | MPro-x1093 | |
 | [![Galaxy MPro-x1249 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1249) | MPro-x1249 | |
-| ... | ... |
+| ... | ... | ... |
 
