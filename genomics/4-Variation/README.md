@@ -1,12 +1,15 @@
-# Analysis of variation within individual COVID-19 samples | March 6 2020
+# Analysis of variation within individual COVID-19 samples | March 19 2020
 
 ## Live Resources
 
+<!---
 | usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
 |:--------:|:------------:|:------------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) |
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) |
 | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
+
+--->
 
 ## What's the point?
 
@@ -198,7 +201,9 @@ The following table describes variants with frequencies above 10%:
 
 ![](./S_var.png)
 
-## History and workflow
+## Workflow and Histories
+
+### Workflows
 
 We use two separate workflows for performing paired and single end data analyses:
 
@@ -209,6 +214,14 @@ We use two separate workflows for performing paired and single end data analyses
 |![](./var_wf_pe.png)|
 |Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
 
+### Histories
+
+We analyze paired end and single end data in separate histories. Next we combine output of the two workflows into a new history where Jupyter analysis is performed. These three histories are:
+
+ - [Paired end](https://usegalaxy.org/u/aun1/h/covid-19-variation-pe-mar-19)
+ - [Single end](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19) 
+ - [Jupyter analysis](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1)
+ 
 ## BioConda
 
 Tools used in this analysis are also available from BioConda:
