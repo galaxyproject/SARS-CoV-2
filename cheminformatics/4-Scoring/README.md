@@ -22,14 +22,16 @@ charge enumeration) is retained.
 
 The resulting poses have scores from rDock for docking as well as for [TransFS](https://usegalaxy.eu/root?tool_id=xchem_pose_scoring) and [SuCOS](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score).
 
-## History and workflow
+## Histories and workflows
 
 A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161).
 
-The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-docking-1) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
+The publicly accessible [TransFS scoring workflow](https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring) and [SuCOS scoring workflow](https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring) can be downloaded and installed on any Galaxy instance. They contain version information for all tools used in this analysis.
 
  <p align="center">
+  TransFS scoring
   <a href="https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring">   <img src="./w-transFS-scoring.png" alt="Workflow transFS scoring" /></a> &nbsp;
+  SuCOS scoring
   <a href="https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring">    <img src="./w-SuCOS-scoring.png" alt="Workflow SuCOS scoring" /></a> &nbsp;
  </p>
 
