@@ -1,6 +1,3 @@
----
-title: Variation
----
 # Analysis of variation within individual COVID-19 samples | March 6 2020
 
 ## Live Resources
@@ -24,75 +21,29 @@ Raw sequencing reads are required to detected within-sample variation. We update
  3. From the list obtained at the previous step we exclude bad datasets and non human samples (see [this file](acc2exclude.txt) or view datasets directly in [run selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRR11085733%2CSRR11085797%2CSRR11085741%2CSRR11085740%2CSRR11085738%2CSRR11085737%2CSRR11085736%2CSRR11092056%2CSRR11092057%2CSRR11092058%2CSRR11092059%2CSRR11092060%2CSRR11092061%2CSRR11092062%2CSRR11092063%2CSRR11092064&ff=on#)). This produces a list of current SRA accession: [current.txt](current.txt). 
  4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms.
 
- The list processed by us consists of the [following datasets]()
-
-
-
-
-
-
-
-
-
-|Run|BioProject|Center Name|Instrument|LibraryLayout|LibrarySource|MBases|Collection_Date|Host|Status|
-|---|----------|-----------|----------|-------------|-------------|------|---------------|----|------|
-|SRR10948474|PRJNA601630|HKU|MinION|S|GENOMIC|284|Jan-2020|Homo sapiens||
-|SRR10948550|PRJNA601630|HKU|MinION|S|GENOMIC|146|Jan-2020|Homo sapiens||
-|SRR11241255|PRJNA610428|UWash|MiSeq|S|VIRAL RNA|22|28-Feb-2020|Homo sapiens|:white_check_mark:|
-|SRR11241254|PRJNA610428|UWash|MiSeq|S|VIRAL RNA|22|27-Feb-2020|Homo sapiens|:white_check_mark:|
-|SRR10971381|PRJNA603194|Fudan|MiniSeq|P|METATRANSCRIPTOMIC|8031|02-Jan-2020|Homo sapiens|:white_check_mark:|
-|SRR11247078|PRJNA610428|UWash|MiSeq|S|VIRAL RNA|199|29-Feb-2020|Homo sapiens||
-|SRR11247076|PRJNA610428|UWash|MiSeq|S|VIRAL RNA|11|01-Mar-2020|Homo sapiens|:white_check_mark:|
-|SRR11247075|PRJNA610428|UWash|MiSeq|S|VIRAL RNA|0|01-Mar-2020|Homo sapiens|:white_check_mark:|
-|SRR11247077|PRJNA610428|UWash|MiSeq|S|VIRAL RNA|118|01-Mar-2020|Homo sapiens|:white_check_mark:|
-|SRR10902284|PRJNA601630|UHK|MinION|S|METAGENOMIC|90|Jan-2020|Homo sapiens||
-|SRR11092056|PRJNA605983|WIV|MiSeq|P|METAGENOMIC|1484|30-Dec-2019|Homo sapiens|:x:|
-|SRR11092057|PRJNA605983|WIV|MiSeq|P|METAGENOMIC|1456|30-Dec-2019|Homo sapiens|:x:|
-|SRR11092061|PRJNA605983|WIV|HiSeq 3000|P|METAGENOMIC|10276|30-Dec-2019|Homo sapiens|:x:|
-|SRR11092064|PRJNA605983|WIV|MiSeq|P|METAGENOMIC|1036|30-Dec-2019|Homo sapiens|:x:|
-|SRR11085733|PRJNA606159|WIV|HiSeq 3000|P|METAGENOMIC|3868|Mar-2018|Hipposideros larvatus||
-|SRR11085736|PRJNA606159|WIV|HiSeq 3000|P|METAGENOMIC|3458|Mar-2018|Rhinolophus affinis||
-|SRR11085737|PRJNA606159|WIV|HiSeq 3000|P|METAGENOMIC|3087|Mar-2018|Scotophilus kuhlii||
-|SRR11085738|PRJNA606159|WIV|HiSeq 3000|P|METAGENOMIC|4198|Mar-2018|Pipistrellus abramus||
-|SRR11085740|PRJNA606159|WIV|HiSeq 3000|P|METAGENOMIC|2755|Mar-2018|Miniopterus pusillus||
-|SRR11085741|PRJNA606159|WIV|HiSeq 3000|P|METAGENOMIC|3480|Mar-2018|Rousettus aegyptiacus||
-|SRR11085797|PRJNA606165|WIV|HiSeq 3000|P|METAGENOMIC|3296|24-Jul-2013|Rhinolophus affinis||
-|SRR11140744|PRJNA607948|UW|MiSeq|P|METAGENOMIC|226|2020-02-14|Homo sapiens|:white_check_mark:|
-|SRR11140745|PRJNA607948|UW|GridION|S|METAGENOMIC|260|2020-02-14|Homo sapiens||
-|SRR11140746|PRJNA607948|UW|MiSeq|P|METAGENOMIC|159|2020-02-14|Homo sapiens|:white_check_mark:|
-|SRR11140748|PRJNA607948|UW|MiSeq|P|METAGENOMIC|190|2020-02-14|Homo sapiens|:white_check_mark:|
-|SRR11140749|PRJNA607948|UW|GridION|S|METAGENOMIC|304|2020-02-14|Homo sapiens||
-|SRR11140750|PRJNA607948|UW|MiSeq|P|METAGENOMIC|7|2020-02-14|Homo sapiens|:white_check_mark:|
-|SRR11140751|PRJNA607948|UW|GridION|S|METAGENOMIC|23|2020-02-14|Homo sapiens||
-|SRR11092059|PRJNA605983|WIV|HiSeq 3000|P|METAGENOMIC|11539|30-Dec-2019|Homo sapiens||
-|SRR11092060|PRJNA605983|WIV|HiSeq 3000|P|METAGENOMIC|8902|30-Dec-2019|Homo sapiens||
-|SRR11092062|PRJNA605983|WIV|HiSeq 1000|P|METAGENOMIC|18391|30-Dec-2019|Homo sapiens|:x:|
-|SRR11092063|PRJNA605983|WIV|HiSeq 3000|P|METAGENOMIC|20124|30-Dec-2019|Homo sapiens|:x:|
-|SRR11092058|PRJNA605983|WIV|MiSeq|P|METAGENOMIC|2232|30-Dec-2019|Homo sapiens|:x:|
-|SRR10903401|PRJNA601736|WU|MiSeq|P|METATRANSCRIPTOMIC|143|||:white_check_mark:|
-|SRR10903402|PRJNA601736|WU|MiSeq|P|METATRANSCRIPTOMIC|203|||:white_check_mark:|
-|SRR11177792|PRJNA608651|UTP|MiSeq|P|GENOMIC|2817|13-Jan-2020|Homo sapiens|:white_check_mark:|
-|SRR11149660|PRJNA608224|UMelb|GridION|S|VIRAL RNA|1770|10-Feb-2020|Homo sapiens||
-|SRR11140747|PRJNA607948|UW|GridION|S|METAGENOMIC|359|2020-02-14|Homo sapiens||
-
-###### UW = University of Wisconsin; UHG = University of Hong Kong; UWash = University of Washington; WIV = Wuhan Institute OF Virology, Umelb = University of Melbourne, UTP = Universidad Tecnologica De Pereira, HKU = HKU-Shenzhen Hospital, P = Paired, S = Single, :white_check_mark: = analyzed successfully, :x: = contains no useful data (see [updates](https://github.com/galaxyproject/SARS-CoV-2/tree/master/updates)).
-
-
-This list is generated by first downloading SRA accessions from [NCBI COVID-19 page](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/) and [SRA](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2697049). Next, we compute a union of two lists:
-
-
-
 To understand the extent of sequence variation within these samples we performed the following analysis. 
 
-### Analysis of Illumina data
+### Analysis of Illumina Paired End data
 
  1. Map all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem`
- 2. Filter reads with mapping quality of at least 20, that were mapped as proper pairs
- 3. Perform realignments using `lofreq viterbi`
- 4. Call variants using `lofreq call`
- 5. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
- 6. Convert VCFs into tab delimited dataset
+ 1. Filter reads with mapping quality of at least 20, that were mapped as proper pairs
+ 1. Mark duplicate reads with `picard markduplicates`
+ 1. Perform realignments using `lofreq viterbi`
+ 1. Call variants using `lofreq call`
+ 1. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
+ 1. Convert VCFs into tab delimited dataset
 
+### Analysis of Illumina Single End data
+
+ 1. Map all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bowtie2` (because all SE datasets we have seen so far contain short, 75 bp, reads)
+ 1. Filter reads with mapping quality of at least 20
+ 1. Mark duplicate reads with `picard markduplicates`
+ 1. Perform realignments using `lofreq viterbi`
+ 1. Call variants using `lofreq call`
+ 1. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
+ 1. Convert VCFs into tab delimited dataset
+
+<!--
 ### Analysis of ONT data
 
  1. Process reads using `porechop`
@@ -102,7 +53,10 @@ To understand the extent of sequence variation within these samples we performed
  5. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
  6. Convert VCFs into tab delimited dataset
 
+
 :warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or not. As a result we did not incorporate variation from ONT data into our report at this time. 
+
+--> 
 
 The combined file containing variants from all currently available datasets is available [here](variant_list.tsv)
 
