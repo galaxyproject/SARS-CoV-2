@@ -21,4 +21,4 @@ Docking is performed with rDock [1] using as inputs:
 
 ### Inputs
 
-A complete list of all inputs is provided in [this history](https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation). The `hits_frankenstein_17.sdf` file contains the 'Frankenstein ligand' used to generate the active site; the `Mpro-x*as` files contain active site definitions for all 17 fragments; the `hits.sdf` file contains the structures of the fragment hits; and the `EnumeratedCandidates` collection contains all candidates prepared for docking.
+A complete list of all inputs is provided in [this history](https://usegalaxy.eu/u/timdudgeon/h/mpro-docking-inputs). The `hits_frankenstein_17.sdf` file contains the 'Frankenstein ligand' used to generate the active site; the `Mpro-x*as` files contain active site definitions for all 17 fragments; the `hits.sdf` file contains the structures of the fragment hits; and the `EnumeratedCandidates` collection contains all candidates prepared for docking.
