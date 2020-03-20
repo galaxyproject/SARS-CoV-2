@@ -1,21 +1,29 @@
-SRR11241254
-SRR11241255
+SRP242226       SRX7571571           Total RNA sequencing of BALF (human reads removed)  Total RNA sequencing of BALF (human reads removed)  9606            Homo sapiens  RNA-Seq          METATRANSCRIPTOMIC  RANDOM            SRS6007144                    Illumina MiSeq  476632      72426963   SRR10903401   476632          143565674     
+SRP242226       SRX7571570           Total RNA sequencing of BALF (human reads removed)  Total RNA sequencing of BALF (human reads removed)  9606            Homo sapiens  RNA-Seq          METATRANSCRIPTOMIC  RANDOM            SRS6007143                    Illumina MiSeq  676694      104687344  SRR10903402   676694          203832203     
+SRP245409       SRX7636886           Complete genome of a novel coronavirus associated with severe human respiratory disease in Wuhan, China  Complete genome of a novel coronavirus associated with severe human respiratory disease in Wuhan, China  433733          human lung metagenome  RNA-Seq          METATRANSCRIPTOMIC  RANDOM            SRS6067521                    Illumina MiniSeq  28282964    2743427127  SRR10971381   28282964        8031043214    
+SRP248092       SRX7705838           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129666                    Illumina HiSeq 2500  76740       2158046    SRR11059940   76740           8325534       
+SRP248092       SRX7705837           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129665                    Illumina HiSeq 2500  13048       893803     SRR11059941   13048           1477468       
+SRP248092       SRX7705836           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129664                    Illumina HiSeq 2500  1974638     49376270   SRR11059942   1974638         212641182     
+SRP248092       SRX7705835           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129663                    Illumina HiSeq 2500  182228      5973682    SRR11059943   182228          19977094      
+SRP248092       SRX7705834           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129662                    Illumina HiSeq 2500  1012571     42379609   SRR11059944   1012571         134313125     
+SRP248092       SRX7705833           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129661                    Illumina HiSeq 2500  186576      9286674    SRR11059945   186576          24513827      
+SRP248092       SRX7705832           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129660                    Illumina HiSeq 2500  5247615     219591039  SRR11059946   5247615         726432925     
+SRP248092       SRX7705831           2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          METATRANSCRIPTOMIC  RT-PCR            SRS6129659                    Illumina HiSeq 2500  66043074    2356905142  SRR11059947   66043074        8728641275    
+SRP250294       SRX7777166           SARS-CoV-2 veroSTAT-1KO_illumina  SARS-CoV-2 veroSTAT-1KO_illumina  2697049         Wuhan seafood market pneumonia virus  WGS              METAGENOMIC    RANDOM PCR        SRS6189924                    Illumina MiSeq  503344      108481864  SRR11140744   503344          226957916     
+SRP250294       SRX7777164           SARS-CoV-2 veroE6_illumina  SARS-CoV-2 veroE6_illumina  2697049         Wuhan seafood market pneumonia virus  WGS              METAGENOMIC    RANDOM PCR        SRS6189919                    Illumina MiSeq  358971      77997568   SRR11140746   358971          159508570     
+SRP250294       SRX7777162           SARS-CoV-2 vero76_illumina  SARS-CoV-2 vero76_illumina  2697049         Wuhan seafood market pneumonia virus  WGS              METAGENOMIC    RANDOM PCR        SRS6189918                    Illumina MiSeq  421395      92488120   SRR11140748   421395          190194752     
+SRP250294       SRX7777160           SARS-CoV-2 swab_illumina  SARS-CoV-2 swab_illumina  2697049         Wuhan seafood market pneumonia virus  WGS              METAGENOMIC    RANDOM PCR        SRS6189914                    Illumina MiSeq  17657       3824341    SRR11140750   17657           7650166       
+SRP250653       SRX7798477           RNA-Seq of Severe acute respiratory syndrome coronavirus 2: adult male throat swab  RNA-Seq of Severe acute respiratory syndrome coronavirus 2: adult male throat swab  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          GENOMIC        RT-PCR            SRS6213494                    Illumina MiSeq  5246584     1293360832  SRR11177792   5246584         2817120987    
+SRP251618       SRX7852918           RNA-Seq of Severe acute respiratory syndrome coronavirus 2  RNA-Seq of Severe acute respiratory syndrome coronavirus 2  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      unspecified       SRS6262461                    Illumina MiSeq  131952      4502386    SRR11241254   131952          22249638      
+SRP251618       SRX7852917           RNA-Seq of Severe acute respiratory syndrome coronavirus 2  RNA-Seq of Severe acute respiratory syndrome coronavirus 2  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      unspecified       SRS6262460                    Illumina MiSeq  123353      4854747    SRR11241255   123353          22252301      
+SRP251618       SRX7857605           RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      unspecified       SRS6266707                    Illumina MiSeq  10454       440815     SRR11247075   10454           888775        
+SRP251618       SRX7857604           RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      unspecified       SRS6266706                    Illumina MiSeq  61329       2640519    SRR11247076   61329           11080510      
+SRP251618       SRX7857603           RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      unspecified       SRS6266705                    Illumina MiSeq  643627      21122755   SRR11247077   643627          118148011     
+SRP251618       SRX7857602           RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  RNA-Seq of Severe  acute respiratory syndrome coronavirus 2  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      unspecified       SRS6266704                    Illumina MiSeq  1087374     37244510   SRR11247078   1087374         199651225     
+SRP252988       SRX7918726           RNA-seq of COVID-19 positive human  from San Diego county  RNA-seq of COVID-19 positive human  from San Diego county  2697049         Severe acute respiratory syndrome coronavirus 2  RNA-Seq          VIRAL RNA      PCR               SRS6325118                    Illumina MiSeq  517281      64753247   SRR11314339   517281          156068315     
 SRR10903401
 SRR10903402
-SRR11177792
 SRR10971381
-SRR11140744
-SRR11140746
-SRR11140748
-SRR11140750
-SRR11278090
-SRR11278091
-SRR11278092
-SRR11278164
-SRR11278165
-SRR11278166
-SRR11278167
-SRR11278168
 SRR11059940
 SRR11059941
 SRR11059942
@@ -24,7 +32,37 @@ SRR11059944
 SRR11059945
 SRR11059946
 SRR11059947
+SRR11140744
+SRR11140746
+SRR11140748
+SRR11140750
+SRR11177792
+SRR11241254
+SRR11241255
 SRR11247075
 SRR11247076
 SRR11247077
 SRR11247078
+SRR10903401
+SRR10903402
+SRR10971381
+SRR11059940
+SRR11059941
+SRR11059942
+SRR11059943
+SRR11059944
+SRR11059945
+SRR11059946
+SRR11059947
+SRR11140744
+SRR11140746
+SRR11140748
+SRR11140750
+SRR11177792
+SRR11241254
+SRR11241255
+SRR11247075
+SRR11247076
+SRR11247077
+SRR11247078
+SRR11314339
