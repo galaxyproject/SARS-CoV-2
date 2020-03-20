@@ -1,3 +1,6 @@
+---
+title: Updates
+---
 # Analysis of additional data
 
 - [February 21](#february-24-2020-new-data-is-exceptionally-sloppy)

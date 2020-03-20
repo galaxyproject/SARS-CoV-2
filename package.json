@@ -1,0 +1,15 @@
+{
+  "name": "sars-cov-2-docs",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  },
+  "scripts": {
+    "develop": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "author": "",
+  "license": "AFL-3.0"
+}

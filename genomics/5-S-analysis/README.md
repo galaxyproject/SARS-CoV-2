@@ -1,3 +1,6 @@
+---
+title: S-Analysis
+---
 # Analysis of S-protein polymorphism
 
 ## Live Resources

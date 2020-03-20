@@ -1,9 +1,9 @@
 ---
-sidebar: false
+title: Genomics
 ---
 # Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)
 
-[![DOI](https://zenodo.org/badge/240286467.svg)](https://zenodo.org/badge/latestdoi/240286467)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
 Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&message=org&color=green)](https://usegalaxy.org)
 [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
@@ -18,6 +18,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [John Chilton](https://github.com/jmchilton),
 [Nate Coraor](https://github.com/natefoo),
 [Frederik Coppens](frederikcoppens),
+[Bert Droesbeke](https://github.com/bedroesb),
 [Ignacio Eguinoa](https://github.com/ieguinoa),
 [Simon Gladman](https://github.com/slugger70),
 [Björn Grüning](https://github.com/bgruening),
@@ -44,7 +45,7 @@ It contains descriptions of workflows and exact versions of all software used. T
 Our analysis was divided into six parts listed below (we also added "Updates" section where will be keeping track of new data as it appears). Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run by any of three global Galaxy instances in the [US](http://usegalaxy.org), in [Europe](http://usegalaxy.eu) and in [Australia](https://usegalaxy.org.au), as well as in the [ELIXIR Belgium](https://usegalaxy.be) Galaxy instance.
 
   1. [Pre-processing of raw read data](1-PreProcessing)
-  2. [Assembly of COVID-19 genome](2-Assembly)
+  2. [Assembly of SARS-CoV-2 genome](2-Assembly)
   3. [Estimation of timing for most recent common ancestor (MRCA)](3-MRCA)
   4. [Analysis of variation within individual isolates](4-Variation)
   5. [Analysis of Spike protein substitutions](5-S-analysis)

@@ -1,3 +1,6 @@
+---
+title: Deploy
+---
 # Deploying the tools and workflows on a Galaxy instance
 
 Given [Ephemeris](https://ephemeris.readthedocs.io/en/latest/) and the following files you can install all needed tools into any given Galaxy instance which you have admin access to.
