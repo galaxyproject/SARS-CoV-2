@@ -22,3 +22,15 @@ Docking is performed with rDock [1] using as inputs:
 ### Inputs
 
 A complete list of all inputs is provided in [this history](https://usegalaxy.eu/u/timdudgeon/h/mpro-docking-inputs). The `hits_frankenstein_17.sdf` file contains the 'Frankenstein ligand' used to generate the active site; the `Mpro-x*as` files contain active site definitions for all 17 fragments; the `hits.sdf` file contains the structures of the fragment hits; and the `EnumeratedCandidates` collection contains all candidates prepared for docking.
+
+## History and workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161).
+
+The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-docking-only) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
+
+ <p align="center">
+  Docking
+  <a href="https://usegalaxy.eu/u/sbray/w/mpro-docking-only">   <img src="./w-docking.png" alt="Workflow docking" /></a> &nbsp;  
+ </p>
+ 
