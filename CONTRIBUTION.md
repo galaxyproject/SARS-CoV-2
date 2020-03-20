@@ -2,7 +2,14 @@
 
 #### Install dependencies
 
-Please [install yarn](https://classic.yarnpkg.com/en/docs/install/) for your system and run: 
+Please [install yarn](https://classic.yarnpkg.com/en/docs/install/). You can also use conda for this by running
+
+```bash
+conda create c conda-froge -n yarn yarn
+conda activate yarn
+```
+
+Once you have done this please run the following commands.
 
 ```
 yarn install
