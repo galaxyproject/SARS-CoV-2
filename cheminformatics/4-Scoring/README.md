@@ -28,7 +28,10 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-docking-1) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
-![](./w-mpro_docking.png)
+ <p align="center">
+  <a href="https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring">   <img src="./w-transFS-scoring.png" alt="Workflow transFS scoring" /></a> &nbsp;
+  <a href="https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring">    <img src="./w-SuCOS-scoring.png" alt="Workflow SuCOS scoring" /></a> &nbsp;
+ </p>
 
 ## References
 
