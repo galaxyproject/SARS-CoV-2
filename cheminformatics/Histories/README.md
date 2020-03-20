@@ -4,11 +4,12 @@ Here are a list of Galaxy histories generated, one for each fragment structure r
 
 | History | Protein-fragment complex | Final ligands |
 |:--------:|:--------:|:--------:|
-| [![Galaxy MPro-x0104 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0104) | MPro-x0104 | in progress |
 | [![Galaxy MPro-x0072 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0072) | MPro-x0072 | in progress |
+| [![Galaxy MPro-x0104 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0104) | MPro-x0104 | in progress |
 | [![Galaxy MPro-x0107 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0107) | MPro-x0107 | in progress |
 | [![Galaxy MPro-x0161 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161) | MPro-x0161 | [scored, sorted ligands](https://usegalaxy.eu/datasets/11ac94870d0bb33a9a2ab440b38279a5/display?to_ext=sdf) (140MB) |
 | [![Galaxy MPro-x0195 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0195) | MPro-x0195 | in progress |
+| [![Galaxy MPro-x0305 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0305) | MPro-x0305 | in progress |
 | [![Galaxy MPro-x0354 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0354) | MPro-x0354 | in progress |
 | [![Galaxy MPro-x0387 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0387) | MPro-x0387 | in progress |
 | [![Galaxy MPro-x0434 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0434) | MPro-x0434 | in progress |
