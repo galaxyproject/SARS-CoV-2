@@ -30,7 +30,7 @@ It contains descriptions of workflows and exact versions of all software used. T
  <p align="center">
   <a href="https://galaxyproject.org">   <img src="./genomics/img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp;
   <a href="https://galaxyproject.eu">    <img src="https://raw.githubusercontent.com/usegalaxy-eu/branding/master/galaxy-eu/galaxy-eu.256.png" width= "20%" alt="European Galaxy Project" /></a> &nbsp;
-  <a href="https://https://usegalaxy.org.au/">    <img src="./genomics/img/galaxy_australia.png" width="20%" alt="Australian Galaxy Project" /></a> &nbsp;
+  <a href="https:usegalaxy-au.github.io//">    <img src="./genomics/img/galaxy_australia.png" width="20%" alt="Australian Galaxy Project" /></a> &nbsp;
   <a href="https://bioconda.org">        <img src="./genomics/img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
   <a href="https://xsede.org">           <img src="./genomics/img/xsede_logo.png" width="20%" alt="XSEDE" /></a> &nbsp;
   <a href="https://www.tacc.utexas.edu"> <img src="./genomics/img/tacc_logo.png" width="20%" alt="TACC" /></a> &nbsp;
