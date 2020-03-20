@@ -1,3 +1,6 @@
+---
+title: Variation
+---
 # Analysis of variation within individual COVID-19 samples | March 6 2020
 
 ## Live Resources
