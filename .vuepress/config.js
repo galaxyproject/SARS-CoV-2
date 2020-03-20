@@ -6,6 +6,9 @@ module.exports = {
         extractHeaders: ["h1", "h2", "h3"]
     },
     themeConfig: {
+        repo: 'galaxyproject/SARS-CoV-2',
+        editLinks: true,
+        editLinkText: 'Edit this content on GitHub',
         nav: [
             {
                 text: "Genomics",
