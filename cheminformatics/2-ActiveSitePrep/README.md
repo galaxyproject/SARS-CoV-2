@@ -12,5 +12,4 @@ This section describes the preparation of the active site for docking. The scree
 ## Outline
 
 - A file describing the active site of the protein for each of the fragment screening crystal structures was generated using rDock's `rbcavity` (with `rbcavity -was -d -r`).
-- Creating s single hybrid molecule that contains all the ligands - [the 'frankenstein' ligand]( https://www.informaticsmatters.com/blog/2018/11/23/cavities-and-frankenstein-molecules.html).
- 
+- Creating a single hybrid molecule that contains all the ligands - [the 'frankenstein' ligand](https://www.informaticsmatters.com/blog/2018/11/23/cavities-and-frankenstein-molecules.html).
