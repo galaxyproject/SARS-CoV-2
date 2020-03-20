@@ -5,11 +5,11 @@ title: Cheminformatics
 
 Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
 
-[Simon Bray](https://github.com/simonbray),
 [Tim Dudgeon](https://github.com/tdudgeon),
+[Simon Bray](https://github.com/simonbray),
 [Gianmauro Cuccuru](https://github.com/gmauro),
 [Björn Grüning](https://github.com/bgruening),
-Frank von Delft
+[Frank von Delft](https://www.thesgc.org/profile/oxford/fvondelft)
 
 This repo serves as a companion to our recent docking simulations on the SARS-CoV-2 main protease.
 

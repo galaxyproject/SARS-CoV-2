@@ -13,9 +13,12 @@ This section describes the docking procedure. This was repeated 17 times, for ea
 
 Docking is performed with rDock [1] using as inputs:
  
-- PDB file of the protein of the fragment screening crystal structure with the ligand and waters removed, and protonated 
-(using OpenBabel) at pH 7.4
+- PDB file of the protein of the fragment screening crystal structure with the ligand and waters removed, and protonated (using OpenBabel) at pH 7.4
 - The active site definition for that protein prepared as described in [step 2](../2-ActiveSitePrep)
 - Candidate molecules prepared as described in [step 1](../1-DockingPrep)
 
 25 poses were generated for each molecule.
+
+### Inputs
+
+A complete list of all inputs is provided in [this history](https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation). The `hits_frankenstein_17.sdf` file contains the 'Frankenstein ligand' used to generate the active site; the `Mpro-x*as` files contain active site definitions for all 17 fragments; the `hits.sdf` file contains the structures of the fragment hits; and the `EnumeratedCandidates` collection contains all candidates prepared for docking.

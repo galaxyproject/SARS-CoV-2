@@ -7,7 +7,8 @@ This section describes the preparation of the active site for docking. The scree
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-docking-inputs) | 
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/h/mpro-active-site-generation) | 
+| [![Galaxy history](https://img.shields.io/static/v1?label=workflow&message=view&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation) | 
 
 ## Outline
 
