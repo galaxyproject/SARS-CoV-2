@@ -1,0 +1,84 @@
+<td scope="row">2019-nCoV_N1-F</td>
+<td>2019-nCoV_N1 Forward Primer</td>
+<td>5&rsquo;-GAC CCC AAA ATC AGC GAA AT-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N1-R</td>
+<td>2019-nCoV_N1 Reverse Primer</td>
+<td>5&rsquo;-TCT GGT TAC TGC CAG TTG AAT CTG-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N1-P</td>
+<td>2019-nCoV_N1 Probe</td>
+<td>5&rsquo;-FAM-ACC CCG CAT TAC GTT TGG TGG ACC-BHQ1-3&rsquo;</td>
+<td>FAM, BHQ-1</td>
+<td>5 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N2-F</td>
+<td>2019-nCoV_N2 Forward Primer</td>
+<td>5&rsquo;-TTA CAA ACA TTG GCC GCA AA-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N2-R</td>
+<td>2019-nCoV_N2 Reverse Primer</td>
+<td>5&rsquo;-GCG CGA CAT TCC GAA GAA-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N2-P</td>
+<td>2019-nCoV_N2 Probe</td>
+<td>5&rsquo;-FAM-ACA ATT TGC CCC CAG CGC TTC AG-BHQ1-3&rsquo;</td>
+<td>FAM, BHQ-1</td>
+<td>5 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N3-F</td>
+<td>2019-nCoV_N3 Forward Primer</td>
+<td>5&rsquo;-GGG AGC CTT GAA TAC ACC AAA A-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N3-R</td>
+<td>2019-nCoV_N3 Reverse Primer</td>
+<td>5&rsquo;-TGT AGC ACG ATT GCA GCA TTG-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">2019-nCoV_N3-P</td>
+<td>2019-nCoV_N3 Probe</td>
+<td>5&rsquo;-FAM-AYC ACA TTG GCA CCC GCA ATC CTG-BHQ1-3&rsquo;</td>
+<td>FAM, BHQ-1</td>
+<td>5 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">RP-F</td>
+<td>RNAse P Forward Primer</td>
+<td>5&rsquo;-AGA TTT GGA CCT GCG AGC G-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">RP-R</td>
+<td>RNAse P Reverse Primer</td>
+<td>5&rsquo;-GAG CGG CTG TCT CCA CAA GT-3&rsquo;</td>
+<td>None</td>
+<td>20 &micro;M</td>
+</tr>
+<tr>
+<td scope="row">RP-P</td>
+<td>RNAse P<br>
+Probe</td>
+<td>5&rsquo;-FAM &ndash; TTC TGA CCT GAA GGC TCT GCG CG &ndash; BHQ-1-3&rsquo;</td>
+<td>FAM, BHQ-1</td>
+<td>5 &micro;M</td>
+</tr>
