@@ -12,7 +12,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 
 
 This repo serves as a companion to our study describing the analysis of early COVID-19 data.
-We currently feature two different projects: one [analysing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
+We currently feature two different projects: one [analyzing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
