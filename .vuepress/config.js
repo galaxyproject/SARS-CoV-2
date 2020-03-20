@@ -37,6 +37,7 @@ module.exports = {
                 "/cheminformatics/Histories/"
             ]
         },
+        sidebarDepth: 3,
         displayAllHeaders: true
     }
 };
