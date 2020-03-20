@@ -2,7 +2,7 @@
 title: Variation
 ---
 
-# Analysis of variation within individual COVID-19 samples | March 19 2020
+# Analysis of variation within individual COVID-19 samples | March 20 2020
 
 <!--
 ## Live Resources
@@ -29,6 +29,42 @@ Raw sequencing reads are required to detected within-sample variation. We update
  3. From the list obtained at the previous step we exclude bad datasets and non human samples (see [this file](acc2exclude.txt) or view datasets directly in [run selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRR11085733%2CSRR11085797%2CSRR11085741%2CSRR11085740%2CSRR11085738%2CSRR11085737%2CSRR11085736%2CSRR11092056%2CSRR11092057%2CSRR11092058%2CSRR11092059%2CSRR11092060%2CSRR11092061%2CSRR11092062%2CSRR11092063%2CSRR11092064&ff=on#)). This produces a list of current SRA accession: [current.txt](current.txt). 
  4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms. This is done by uploading accessions listed in 
 [current.txt](current.txt) to SRA Run Selector and filtering on `platform=ILLUMINA`.
+
+This is the current list of analyzed datasets:
+
+```
+SRR10903401
+SRR10903402
+SRR10971381
+SRR11059940
+SRR11059941
+SRR11059942
+SRR11059943
+SRR11059944
+SRR11059945
+SRR11059946
+SRR11059947
+SRR11140744
+SRR11140746
+SRR11140748
+SRR11140750
+SRR11177792
+SRR11241254
+SRR11241255
+SRR11247075
+SRR11247076
+SRR11247077
+SRR11247078
+SRR11278090
+SRR11278091
+SRR11278092
+SRR11278164
+SRR11278165
+SRR11278166
+SRR11278167
+SRR11278168
+SRR11314339
+```
 
 Next we fetch fastq datasets for accession listed in [current_illumina.txt](current_illumina.txt) using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section. We also download Genbank file for SARS-CoV-2 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). Finally we apply the following workflows to Paired and Single end data, respectively:
 
