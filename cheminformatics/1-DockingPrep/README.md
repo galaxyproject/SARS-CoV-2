@@ -7,14 +7,27 @@ This section describes the process of charge enumeration (i.e. generation of all
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/charge-enumeration) | 
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/h/charge-enumeration) | 
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/charge-enumeration) | 
+
 
 ## Outline
 
 - The initial candidate compounds in SMILES format are enumerated using Dimorphite-DL [1] and [RDKit](http://www.rdkit.org) to a total of around ~150,000 compounds.  
 - For each of these, a three-dimensional structure is generated using OpenBabel [2] and saved in SD-format.
 - The SD-file is split into chunks of 1,000 molecules each ready for docking.
+
+## History and workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.eu/u/sbray/h/charge-enumeration).
+
+The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/charge-enumeration) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
+
+ <p align="center">
+  Preparation for docking
+  <a href="https://usegalaxy.eu/u/sbray/w/charge-enumeration">   <img src="./w-ligand-enumeration.png" alt="Workflow preparation for docking" /></a> &nbsp;  
+ </p>
+ 
 
 ## References
 
