@@ -14,15 +14,15 @@ Once you have done this please run the following commands.
 ```
 yarn install
 ```
-#### Deploy locally
+#### Start a local server suitable for interactive development of the website.  By default this runs at 0.0.0.0:8080.  By default this runs at 0.0.0.0:8080.
 
 ```
-yarn vuepress dev
+yarn develop
 ```
-#### Compile html
+#### Compile to a static site for for publishing
 
 ```
-yarn vuepress build
+yarn build
 ```
 Compiled files will be under ```.vuepress/dist/```
 
