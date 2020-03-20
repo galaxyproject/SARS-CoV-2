@@ -8,7 +8,7 @@ This section describes the process of charge enumeration (i.e. generation of all
 | usegalaxy.eu | 
 |:--------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/charge-enumeration) | 
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/w/charge-enumeration) | 
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/h/charge-enumeration) | 
 
 ## Outline
 
