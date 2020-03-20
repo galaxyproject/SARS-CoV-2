@@ -27,7 +27,9 @@ The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
 </p>
 
-An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com). These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
+An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. 
+This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com) using query parameters of 2 edge traversals and a change in heavy atom count of 5 and ring atom count of 2. 
+These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
 1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
 2. [Generation of 3D conformations](1-DockingPrep) based on SMILES strings of the candidate molecules.
 3. [Preparation of active site for docking](2-ActiveSitePrep) using rDock.
