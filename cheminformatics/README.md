@@ -9,6 +9,7 @@ Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&me
 [Simon Bray](https://github.com/simonbray),
 [Gianmauro Cuccuru](https://github.com/gmauro),
 [Björn Grüning](https://github.com/bgruening),
+[Rachael Skyner](https://github.com/reskyner),
 [Frank von Delft](https://www.thesgc.org/profile/oxford/fvondelft)
 
 This repo serves as a companion to our recent docking simulations on the SARS-CoV-2 main protease.
