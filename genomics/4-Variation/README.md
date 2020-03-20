@@ -1,12 +1,20 @@
-# Analysis of variation within individual COVID-19 samples | March 6 2020
+---
+title: Variation
+---
 
+# Analysis of variation within individual COVID-19 samples | March 19 2020
+
+<!--
 ## Live Resources
 
+<!---
 | usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
 |:--------:|:------------:|:------------:|:------------:|
 | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) |
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) |
 | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
+
+--->
 
 ## What's the point?
 
@@ -19,9 +27,10 @@ Raw sequencing reads are required to detected within-sample variation. We update
  1. Two resources list read data available for SARS-CoV-2: [SARS-CoV-2 resource](https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml) and [SRA itself](https://www.ncbi.nlm.nih.gov/sra/?term=txid2697049[Organism:noexp]). 
  2. We pull accession numbers from these two resources ([genbank.txt](genbank.txt) and [sra.txt](sra.txt)) and compute their union ([union.txt](union.txt))
  3. From the list obtained at the previous step we exclude bad datasets and non human samples (see [this file](acc2exclude.txt) or view datasets directly in [run selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRR11085733%2CSRR11085797%2CSRR11085741%2CSRR11085740%2CSRR11085738%2CSRR11085737%2CSRR11085736%2CSRR11092056%2CSRR11092057%2CSRR11092058%2CSRR11092059%2CSRR11092060%2CSRR11092061%2CSRR11092062%2CSRR11092063%2CSRR11092064&ff=on#)). This produces a list of current SRA accession: [current.txt](current.txt). 
- 4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms.
+ 4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms. This is done by uploading accessions listed in 
+[current.txt](current.txt) to SRA Run Selector and filtering on `platform=ILLUMINA`.
 
-To understand the extent of sequence variation within these samples we performed the following analysis. 
+Next we fetch fastq datasets for accession listed in [current_illumina.txt](current_illumina.txt) using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section. We also download Genbank file for SARS-CoV-2 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). Finally we apply the following workflows to Paired and Single end data, respectively:
 
 ### Analysis of Illumina Paired End data
 
@@ -58,9 +67,7 @@ To understand the extent of sequence variation within these samples we performed
 
 --> 
 
-The combined file containing variants from all currently available datasets is available [here](variant_list.tsv)
-
-Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
+After running both workflows the data is combined into a single dataset ([variant_list.tsv](variant_list.tsv)) and analyzed using in [Jupyter notebook](variation_analysis.ipynb).
 
 ## Inputs
 
@@ -68,7 +75,7 @@ Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_anal
 
 1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
    The GenBank record is used by `snpeff` to generate a database for variant annotation.
-2. Downloaded reads as either paired (for paired end data) or single (for single end data) collections.
+2. Downloaded reads as either paired (for paired end data) or single (for single end data) collections. Reads can be downloaded using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section.
 
 ### Jupyter notebook
 
@@ -199,7 +206,9 @@ The following table describes variants with frequencies above 10%:
 
 ![](./S_var.png)
 
-## History and workflow
+## Workflow and Histories
+
+### Workflows
 
 We use two separate workflows for performing paired and single end data analyses:
 
@@ -210,6 +219,14 @@ We use two separate workflows for performing paired and single end data analyses
 |![](./var_wf_pe.png)|
 |Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
 
+### Histories
+
+We analyze paired end and single end data in separate histories. Next we combine output of the two workflows into a new history where Jupyter analysis is performed. These three histories are:
+
+ - [Paired end](https://usegalaxy.org/u/aun1/h/covid-19-variation-pe-mar-19)
+ - [Single end](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19) 
+ - [Jupyter analysis](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1)
+ 
 ## BioConda
 
 Tools used in this analysis are also available from BioConda:
