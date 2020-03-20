@@ -20,6 +20,7 @@
     </div>
 
     <!-- repo link -->
+    <!--
     <a
       v-if="repoLink"
       :href="repoLink"
@@ -30,6 +31,7 @@
       {{ repoLabel }}
       <OutboundLink />
     </a>
+    -->
   </nav>
 </template>
 

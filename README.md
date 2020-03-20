@@ -1,5 +1,6 @@
 ---
 sidebar: false
+editLink: false
 ---
 # Analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure
 
