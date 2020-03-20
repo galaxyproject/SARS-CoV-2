@@ -11,6 +11,7 @@ curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&amp;id
 cat genbank.txt sra.txt | sort | uniq > union.txt
 grep -f acc2exclude.txt -v union.txt > current.txt
 
+rm current_metadata.txt || true
 while read -r acc
 do
     pysradb metadata "$acc" --saveto /dev/stdout >> current_metadata.txt || true
