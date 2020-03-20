@@ -19,7 +19,7 @@ do
 done < current.txt
 
 # Split into Illumina and GridION datasets
-grep Illumina current_metadata.txt |cut -f15 > current_illumina.txt
+grep -e 'Illumina\|NextSeq' current_metadata.txt |cut -f15 > current_illumina.txt
 grep GridION current_metadata.txt |cut -f15 > current_gridion.txt
 
 # Keep first header line, discard other lines that start with study_accession
