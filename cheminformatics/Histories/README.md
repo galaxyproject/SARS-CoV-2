@@ -17,7 +17,7 @@ Here are a list of Galaxy histories generated, one for each fragment structure r
 | [![Galaxy MPro-x0678 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0678) | MPro-x0678 | in progress |
 | [![Galaxy MPro-x0874 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0874) | MPro-x0874 | in progress |
 | [![Galaxy MPro-x0946 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0946) | MPro-x0946 | in progress |
-| [![Galaxy MPro-x0995 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0995) | MPro-x0995 | in progress |
+| [![Galaxy MPro-x0995 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0995) | MPro-x0995 | [scored, sorted ligands](https://usegalaxy.eu/datasets/11ac94870d0bb33a737befc566d777fc/display?to_ext=sdf) (147MB) |
 | [![Galaxy MPro-x1077 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1077) | MPro-x1077 | in progress |
 | [![Galaxy MPro-x1093 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1093) | MPro-x1093 | in progress |
 | [![Galaxy MPro-x1249 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1249) | MPro-x1249 | [scored, sorted ligands](https://usegalaxy.eu/datasets/11ac94870d0bb33a327694730e175763/display?to_ext=sdf) (147MB) |
