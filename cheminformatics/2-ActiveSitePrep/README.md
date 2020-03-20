@@ -23,6 +23,6 @@ The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-active-si
 
  <p align="center">
   Active site preparation
-  <a href="https://usegalaxy.eu/u/sbray/w/mpro-docking-only">   <img src="./w-active-site-generation.png" alt="Workflow active site preparation" /></a> &nbsp;  
+  <a href="https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation">   <img src="./w-active-site-generation.png" alt="Workflow active site preparation" /></a> &nbsp;  
  </p>
 
