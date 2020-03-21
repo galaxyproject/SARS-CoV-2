@@ -26,6 +26,8 @@ This list will be updated as more are completed.
 
 All in one history is available [here](https://usegalaxy.eu/u/timdudgeon/h/mpro-17-dataset-results).
 
+## Commandline download
+
 Download all datasets from the commandline via `wget`:
 
 ```bash
