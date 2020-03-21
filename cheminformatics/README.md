@@ -29,10 +29,20 @@ The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
 </p>
 
+## Workflow
+The diagram below describes the worfklow used in this work. Further details of the steps can be found in the **compound enumeration** and **Docking and scoring workflow** sections.   
+
+<p align="center"><img src="./img/workflow-full.png" width= "80%" alt="Workflow" /></p>
+
+### Compound enumeration
+
 An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. The fragment network takes a big set of compounds, and splits them up into parts – rings, linkers and substituents. These parts form the nodes in a graph network. The edges between these nodes describe how the bits of molecules can be linked together to make new molecules. From this information, we know how we can change a molecule by searching the network for new bits to add to an initial hit, with transformations described along the edges in the graph-network.   
+
 This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com) using query parameters of 2 edge traversals and a change in heavy atom count of 5 and ring atom count of 2.   
 
-These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
+### Docking and scoring workflow (Galaxy)
+
+The enumerated compounds were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
 1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
 2. [Generation of 3D conformations](1-DockingPrep) based on SMILES strings of the candidate molecules.
 3. [Preparation of active site for docking](2-ActiveSitePrep) using rDock.
@@ -40,7 +50,7 @@ These were used as inputs for the docking and scoring workflow. The workflow con
 4. [Evaluation of the docking poses](4-Scoring) using a [deep learning approach][3] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm][4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
-<p align="center"><img src="./img/workflow-full.png" width= "80%" alt="Workflow" /></p>
+
 
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time: Mpro -x1249, -x0072, -x0104, -x0107, -x0161, -x0195, -x0305, -x0354, -x0387, -x0434, -x0540, -x0678, -x0874, -x0946, -x0995, -x1077 and -x1093 (more hits have been found since).
  
