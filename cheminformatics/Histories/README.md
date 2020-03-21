@@ -1,5 +1,7 @@
 # Mpro data
 
+## Galaxy histories (provenance information included)
+
 Here are a list of [Galaxy](https://galaxyproject.org) histories generated, one for each fragment structure reported by [Diamond](https://www.diamond.ac.uk).
 This list will be updated as more are completed.
 
