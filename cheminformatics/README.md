@@ -40,7 +40,7 @@ These were used as inputs for the docking and scoring workflow. The workflow con
 4. [Evaluation of the docking poses](4-Scoring) using a [deep learning approach][3] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm][4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
-<img src="./img/workflow.png" width= "100%" alt="Workflow" />
+<p align="center"><img src="./img/workflow.png" width= "80%" alt="Workflow" /></p>
 
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time (more are expected).
  
