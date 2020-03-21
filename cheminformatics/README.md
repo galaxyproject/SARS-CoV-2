@@ -32,7 +32,8 @@ The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx
 </p>
 
 ## Workflow
-The diagram below describes the worfklow used in this work. Further details of the steps can be found in the **compound enumeration** and **Docking and scoring workflow** sections.   
+The diagram below describes the worfklow used in this work. Further details of the steps can be found in the
+**compound enumeration** and **Docking and scoring workflow** sections.
 
 <p align="center"><img src="./img/workflow-full.png" width= "80%" alt="Workflow" /></p>
 
@@ -40,7 +41,7 @@ The diagram below describes the worfklow used in this work. Further details of t
 
 An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. The fragment network takes a big set of compounds, and splits them up into parts – rings, linkers and substituents. These parts form the nodes in a graph network. The edges between these nodes describe how the bits of molecules can be linked together to make new molecules. From this information, we know how we can change a molecule by searching the network for new bits to add to an initial hit, with transformations described along the edges in the graph-network.   
 
-This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com) using query parameters of 2 edge traversals and a change in heavy atom count of 5 and ring atom count of 2.   
+This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com) using query parameters of 2 edge traversals and a change in heavy atom count of 5 and ring atom count of 2.   
 
 ### Docking and scoring workflow (Galaxy)
 
@@ -57,7 +58,8 @@ This workflow was repeated for each of the 17 fragment screening crystal structu
  
 Of these steps, the third (docking) is the most compute-intensive. Here, the project benefited from the enormous distributed compute capacity which underlies the European Galaxy project. Over 5000 CPUs were made available, provided by [Diamond’s STFC-IRIS](https://www.diamond.ac.uk) cluster at Harwell, UK and the [de.NBI cloud](https://www.denbi.de) in Freiburg, Germany. With each docking job requiring 1 CPU, thousands of poses could thus be docked in parallel, allowing millions of poses to be docked over a single weekend. The fourth step (pose scoring), while less computationally expensive, was accelerated thanks to GPUs provided by de.NBI and STFC. In total, the entire workflow described here took around 120,000 hours of CPU time (13 years) to complete.
 
-All data is publicly available via https://usegalaxy.eu, together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
+All data is publicly available via [https://usegalaxy.eu](https://usegalaxy.eu),
+together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
 
 ## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
