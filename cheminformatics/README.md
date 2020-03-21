@@ -83,7 +83,7 @@ The experiments have been performed using the [Galaxy](http://galaxyproject.org)
   <a href="https://bioconda.org">        <img src="./img/bioconda_logo.png" width="20%" alt="bioconda" /></a> &nbsp;
  <a href="https://www.diamond.ac.uk">        <img src="https://www.harwellcampus.com/wp-content/uploads/Diamond-light-source.jpg" width="20%" alt="Diamond" /></a> &nbsp;
   <a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html"> <img src="./img/xchem_logo.png" width="18%" alt="xchem" /></a> &nbsp;
- <a href="https://www.informaticsmatters.com/"><img src="./img/informatcsmatters_logo.svg" width="20%" alt="informaticsmatters" /></a> &nbsp;
+ <a href="https://www.informaticsmatters.com/"><img src="./img/informatcsmatters_logo.svg" width="15%" alt="informaticsmatters" /></a> &nbsp;
   <a href="https://www.denbi.de">        <img src="./img/denbi-logo-color.svg" width="20%" alt="de.NBI" /></a> &nbsp;
   <a href="https://www.ukri.org">        <img src="./img/UKRI_STF_Council-Logo_Horiz-RGB.png" width="23%" alt="STFC" /></a> &nbsp;
   <a href="https://elixir-europe.org">   <img src="./img/elixir_logo.png" width="15%" alt="ELIXIR" /></a> &nbsp;
