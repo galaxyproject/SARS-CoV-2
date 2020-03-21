@@ -23,6 +23,9 @@ This list will be updated as more are completed.
 | [![Galaxy Mpro-x1093 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1093) | Mpro-x1093 | [scored, sorted ligands](https://usegalaxy.eu/datasets/11ac94870d0bb33adc2c353bdd10e4f7/display?to_ext=sdf) |
 | [![Galaxy Mpro-x1249 history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x1249) | Mpro-x1249 | [scored, sorted ligands](https://usegalaxy.eu/datasets/11ac94870d0bb33a327694730e175763/display?to_ext=sdf) |
 
+
+All in one history is available [here](https://usegalaxy.eu/u/timdudgeon/h/mpro-17-dataset-results).
+
 Download all datasets from the commandline via `wget`:
 
 ```bash
