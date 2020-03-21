@@ -1,6 +1,6 @@
 # Preparation for docking
 
-This section describes the process of charge enumeration (i.e. generation of all charge forms) from the initial set of ~42,000 candidate compounds, and 3D conformer generation, prior to performing docking.
+This section describes the preparation of protein and ligands for docking.
 
 
 ## Live Resources
@@ -13,7 +13,8 @@ This section describes the process of charge enumeration (i.e. generation of all
 
 ## Outline
 
-- The initial candidate compounds in SMILES format are enumerated using Dimorphite-DL [1] and [RDKit](http://www.rdkit.org) to a total of around ~150,000 compounds.  
+- The PDB files from crystallography were prepared by removing all crystallographic waters and then protonated at pH 7.4 using OpenBabel.
+- The initial ~42,000 candidate compounds in SMILES format are enumerated using Dimorphite-DL [1] and [RDKit](http://www.rdkit.org) to a total of ~150,000 compounds with relevant charge forms.  
 - For each of these, a three-dimensional structure is generated using OpenBabel [2] and saved in SD-format.
 - The SD-file is split into chunks of 1,000 molecules each ready for docking.
 
