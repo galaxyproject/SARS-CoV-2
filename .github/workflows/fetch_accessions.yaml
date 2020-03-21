@@ -1,0 +1,27 @@
+name: Fetch accessions
+on: [push]
+jobs:
+  test:
+    name: Fetch
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        python-version: [3.7]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Cache pip dir
+      uses: actions/cache@v1
+      id: pip-cache
+      with:
+        path: ~/.cache/pip
+        key: pip-cache-${{ matrix.python-version }}-${{ hashFiles('genomics/4-Variation/requirements.txt') }}
+    - name: Install pysradb
+      run: pip install -r genomics/4-Variation/requirements.txt
+    - name: Fetch accessions
+      run: ./fetch_sra_acc.sh
+      working-directory: ./genomics/4-Variation/
+    - name: Show differences
+      run: git diff
