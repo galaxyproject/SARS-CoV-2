@@ -19,7 +19,7 @@ jobs:
         path: ~/.cache/pip
         key: pip-cache-${{ matrix.python-version }}-${{ hashFiles('genomics/4-Variation/requirements.txt') }}
     - name: Install pysradb
-      run: pip install -r genomics/4-Variation/requirements.txt
+      run: pip install https://github.com/mvdbeek/pysradb/archive/fetch_many_metadata_accessions_at_once.zip
     - name: Fetch accessions
       run: ./fetch_sra_acc.sh
       working-directory: ./genomics/4-Variation/

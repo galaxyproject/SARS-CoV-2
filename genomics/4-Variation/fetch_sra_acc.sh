@@ -12,16 +12,8 @@ cat genbank.txt sra.txt | sort | uniq > union.txt
 grep -f acc2exclude.txt -v union.txt > current.txt
 
 # Annotate combined accession with metadata
-rm current_metadata.txt || true
-while read -r acc
-do
-    pysradb metadata "$acc" --saveto /dev/stdout >> current_metadata.txt || true
-done < current.txt
+pysradb metadata $(<current.txt) --saveto current_metadata.txt
 
 # Split into Illumina and GridION datasets
 grep -e 'Illumina\|NextSeq' current_metadata.txt |cut -f15 > current_illumina.txt
 grep GridION current_metadata.txt |cut -f15 > current_gridion.txt
-
-# Keep first header line, discard other lines that start with study_accession
-awk 'NR==1 || !/^\study_accession/' current_metadata.txt > _current_metadata.txt
-mv _current_metadata.txt current_metadata.txt
