@@ -1,586 +1,294 @@
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: Please respond with 'y' or 'n'
-SRAmetadb.sqlite file was not found in the current directory. Please quit and specify the path using `--db <DB_PATH>`
-Otherwise, should I download SRAmetadb.sqlite in the current directory? [Y/n]: 
+study_accession	experiment_accession	experiment_title	experiment_desc	organism_taxid 	organism_name	library_strategy	library_source	library_selection	sample_accession	sample_title	instrument	total_spots	total_size	run_accession	run_total_spots	run_total_bases
+SRP242169	SRX7570458	Human:NPS	Human:NPS	2697049	Wuhan seafood market pneumonia virus	RNA-Seq	METAGENOMIC	RANDOM	SRS6014638		MinION	261890	82541246	SRR10902284	261890	90569410
+SRP242226	SRX7571571	Total RNA sequencing of BALF (human reads removed)	Total RNA sequencing of BALF (human reads removed)	9606	Homo sapiens	RNA-Seq	METATRANSCRIPTOMIC	RANDOM	SRS6007144		Illumina MiSeq	476632	72426963	SRR10903401	476632	143565674
+SRP242226	SRX7571570	Total RNA sequencing of BALF (human reads removed)	Total RNA sequencing of BALF (human reads removed)	9606	Homo sapiens	RNA-Seq	METATRANSCRIPTOMIC	RANDOM	SRS6007143		Illumina MiSeq	676694	104687344	SRR10903402	676694	203832203
+SRP242169	SRX7615553	Sequencing of Betacoronavirus	Sequencing of Betacoronavirus	2697049	Wuhan seafood market pneumonia virus	RNA-Seq	GENOMIC	RANDOM	SRS6048919		MinION	505484	262201551	SRR10948474	505484	284575255
+SRP242169	SRX7615629	Whole genome sequencing of BetaCoronavirus	Whole genome sequencing of BetaCoronavirus	2697049	Wuhan seafood market pneumonia virus	RNA-Seq	GENOMIC	RANDOM	SRS6014638		MinION	425717	132697821	SRR10948550	425717	146271136
+SRP245409	SRX7636886	Complete genome of a novel coronavirus associated with severe human respiratory disease in Wuhan, China	Complete genome of a novel coronavirus associated with severe human respiratory disease in Wuhan, China	433733	human lung metagenome	RNA-Seq	METATRANSCRIPTOMIC	RANDOM	SRS6067521		Illumina MiniSeq	28282964	2743427127	SRR10971381	28282964	8031043214
+SRP248092	SRX7705838	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129666		Illumina HiSeq 2500	76740	2158046	SRR11059940	76740	8325534
+SRP248092	SRX7705837	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129665		Illumina HiSeq 2500	13048	893803	SRR11059941	13048	1477468
+SRP248092	SRX7705836	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129664		Illumina HiSeq 2500	1974638	49376270	SRR11059942	1974638	212641182
+SRP248092	SRX7705835	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129663		Illumina HiSeq 2500	182228	5973682	SRR11059943	182228	19977094
+SRP248092	SRX7705834	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129662		Illumina HiSeq 2500	1012571	42379609	SRR11059944	1012571	134313125
+SRP248092	SRX7705833	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129661		Illumina HiSeq 2500	186576	9286674	SRR11059945	186576	24513827
+SRP248092	SRX7705832	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129660		Illumina HiSeq 2500	5247615	219591039	SRR11059946	5247615	726432925
+SRP248092	SRX7705831	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2019 novel coronavirus RNA-seq sequences mapped to reference genome MN908947.3	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	METATRANSCRIPTOMIC	RT-PCR	SRS6129659		Illumina HiSeq 2500	66043074	2356905142	SRR11059947	66043074	8728641275
+SRP250294	SRX7777166	SARS-CoV-2 veroSTAT-1KO_illumina	SARS-CoV-2 veroSTAT-1KO_illumina	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189924		Illumina MiSeq	503344	108481864	SRR11140744	503344	226957916
+SRP250294	SRX7777165	SARS-CoV-2 veroSTAT-1KO_ONT	SARS-CoV-2 veroSTAT-1KO_ONT	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189920		GridION	396363	240280298	SRR11140745	396363	260956833
+SRP250294	SRX7777164	SARS-CoV-2 veroE6_illumina	SARS-CoV-2 veroE6_illumina	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189919		Illumina MiSeq	358971	77997568	SRR11140746	358971	159508570
+SRP250294	SRX7777163	SARS-CoV-2 veroE6_ONT	SARS-CoV-2 veroE6_ONT	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189917		GridION	566845	332198738	SRR11140747	566845	359000999
+SRP250294	SRX7777162	SARS-CoV-2 vero76_illumina	SARS-CoV-2 vero76_illumina	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189918		Illumina MiSeq	421395	92488120	SRR11140748	421395	190194752
+SRP250294	SRX7777161	SARS-CoV-2 vero76_ONT	SARS-CoV-2 vero76_ONT	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189916		GridION	482954	280564726	SRR11140749	482954	304113442
+SRP250294	SRX7777160	SARS-CoV-2 swab_illumina	SARS-CoV-2 swab_illumina	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189914		Illumina MiSeq	17657	3824341	SRR11140750	17657	7650166
+SRP250294	SRX7777159	SARS-CoV-2 swab_ONT	SARS-CoV-2 swab_ONT	2697049	Wuhan seafood market pneumonia virus	WGS	METAGENOMIC	RANDOM PCR	SRS6189915		GridION	37999	21841904	SRR11140751	37999	23696161
+SRP250653	SRX7798477	RNA-Seq of Severe acute respiratory syndrome coronavirus 2: adult male throat swab	RNA-Seq of Severe acute respiratory syndrome coronavirus 2: adult male throat swab	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	GENOMIC	RT-PCR	SRS6213494		Illumina MiSeq	5246584	1293360832	SRR11177792	5246584	2817120987
+SRP250661	SRX7798736	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213613		MinION	359570	142622435	SRR11178050	359570	156951923
+SRP250661	SRX7798735	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213612		MinION	775912	385017266	SRR11178051	775912	421622706
+SRP250661	SRX7798734	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213611		MinION	2142901	922741349	SRR11178052	2142901	1000052155
+SRP250661	SRX7798733	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213610		MinION	860687	331100955	SRR11178053	860687	363625817
+SRP250661	SRX7798732	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213609		MinION	586546	287766211	SRR11178054	586546	316335060
+SRP250661	SRX7798731	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213608		MinION	1052685	554666910	SRR11178055	1052685	600378949
+SRP250661	SRX7798730	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213607		MinION	808223	404802894	SRR11178056	808223	443789956
+SRP250661	SRX7798729	WGS of Coronavirus:clinical sample	WGS of Coronavirus:clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	WGS	GENOMIC	RANDOM	SRS6213606		MinION	1089986	475737679	SRR11178057	1089986	518864113
+SRP251618	SRX7852918	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6262461		Illumina MiSeq	131952	4502386	SRR11241254	131952	22249638
+SRP251618	SRX7852917	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6262460		Illumina MiSeq	123353	4854747	SRR11241255	123353	22252301
+SRP251618	SRX7857605	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6266707		Illumina MiSeq	10454	440815	SRR11247075	10454	888775
+SRP251618	SRX7857604	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6266706		Illumina MiSeq	61329	2640519	SRR11247076	61329	11080510
+SRP251618	SRX7857603	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6266705		Illumina MiSeq	643627	21122755	SRR11247077	643627	118148011
+SRP251618	SRX7857602	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	RNA-Seq of Severe  acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6266704		Illumina MiSeq	1087374	37244510	SRR11247078	1087374	199651225
+SRP250446	SRX7874203	GridION RNA sequencing of coronavirus:SARS-CoV-2/Australia/VIC01/2020	GridION RNA sequencing of coronavirus:SARS-CoV-2/Australia/VIC01/2020	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	Oligo-dT	SRS6201528		GridION	779208	859122004	SRR11267570	779208	910279521
+SRP252022	SRX7874444	Detect SARS-CoV-2 genomic mutations from  fecal swab samples	Detect SARS-CoV-2 genomic mutations from  fecal swab samples	2697049	Severe acute respiratory syndrome coronavirus 2	WGA	METAGENOMIC	RANDOM PCR	SRS6282736		BGISEQ-500	107	85399	SRR11267811	107	9951
+SRP251618	SRX7884335	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294173		NextSeq 500	24424	409227	SRR11278090	24424	1830456
+SRP251618	SRX7884334	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294172		NextSeq 500	597251	4630806	SRR11278091	597251	44717558
+SRP251618	SRX7884333	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294171		NextSeq 500	101360	977847	SRR11278092	101360	7592719
+SRP251618	SRX7884411	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294250		NextSeq 500	3801124	36188829	SRR11278164	3801124	284858490
+SRP251618	SRX7884410	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294249		NextSeq 500	122658	1549024	SRR11278165	122658	9173640
+SRP251618	SRX7884409	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294248		NextSeq 500	8213820	78215367	SRR11278166	8213820	615986088
+SRP251618	SRX7884408	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294247		NextSeq 500	10124079	101917956	SRR11278167	10124079	759300927
+SRP251618	SRX7884407	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	RNA-Seq of Severe acute respiratory syndrome coronavirus 2	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	unspecified	SRS6294246		NextSeq 500	44159	616037	SRR11278168	44159	2913504
+SRP250446	SRX7884843	GridION RNA sequencing of coronavirus:SARS-CoV-2/Australia/VIC01/2020	GridION RNA sequencing of coronavirus:SARS-CoV-2/Australia/VIC01/2020	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	Oligo-dT	SRS6201528		GridION	4000	1634318	SRR11278600	4000	1968400
+SRP250446	SRX7906017	GridION RNA sequencing of coronavirus:SARS-CoV-2/Australia/VIC01/2020/virion	GridION RNA sequencing of coronavirus:SARS-CoV-2/Australia/VIC01/2020/virion	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	Oligo-dT	SRS6313628		GridION	430923	398083711	SRR11300652	430923	416793360
+SRP252977	SRX7917756	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324143		GridION	104	176103	SRR11313269	104	103835
+SRP252977	SRX7917955	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324343		GridION	50	109326	SRR11313270	50	31239
+SRP252977	SRX7917954	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324341		GridION	76	129329	SRR11313271	76	53058
+SRP252977	SRX7917953	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324340		GridION	21	100844	SRR11313272	21	22225
+SRP252977	SRX7917952	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324339		GridION	1	78348	SRR11313273	1	410
+SRP252977	SRX7917951	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324338		GridION	1978	1423974	SRR11313274	1978	1466036
+SRP252977	SRX7917950	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324337		GridION	200	208445	SRR11313275	200	139403
+SRP252977	SRX7917949	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324336		GridION	2741	1722468	SRR11313276	2741	1790911
+SRP252977	SRX7917948	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324334		GridION	244	220445	SRR11313277	244	152322
+SRP252977	SRX7917947	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324335		GridION	35	124781	SRR11313278	35	48522
+SRP252977	SRX7917946	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324333		GridION	1	79449	SRR11313279	1	1258
+SRP252977	SRX7917945	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324332		GridION	29840	19626474	SRR11313280	29840	21328421
+SRP252977	SRX7917944	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324330		GridION	2769	1846539	SRR11313281	2769	1926994
+SRP252977	SRX7917943	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324331		GridION	82	166664	SRR11313282	82	94454
+SRP252977	SRX7917942	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324329		GridION	19	106563	SRR11313283	19	28449
+SRP252977	SRX7917941	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324328		GridION	1	79719	SRR11313284	1	1458
+SRP252977	SRX7917940	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324327		GridION	20814	13606413	SRR11313285	20814	14759827
+SRP252977	SRX7917939	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324326		GridION	1628	1112254	SRR11313286	1628	1124662
+SRP252977	SRX7917938	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324324		GridION	22374	14198094	SRR11313287	22374	15397651
+SRP252977	SRX7917937	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324325		GridION	5202	2600463	SRR11313288	5202	2746094
+SRP252977	SRX7917936	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324323		GridION	1821	1191913	SRR11313289	1821	1210380
+SRP252977	SRX7917935	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324322		GridION	207	180549	SRR11313290	207	109785
+SRP252977	SRX7917934	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324321		GridION	6185	5059669	SRR11313291	6185	5446065
+SRP252977	SRX7917933	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324320		GridION	3180	2596911	SRR11313292	3180	2752369
+SRP252977	SRX7917932	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324319		GridION	1608	1355493	SRR11313293	1608	1394642
+SRP252977	SRX7917931	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324318		GridION	800	726413	SRR11313294	800	706757
+SRP252977	SRX7917930	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324317		GridION	252	276476	SRR11313295	252	214139
+SRP252977	SRX7917929	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324316		GridION	7900	5331666	SRR11313296	7900	5722143
+SRP252977	SRX7917928	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324315		GridION	4193	2845328	SRR11313297	4193	3012829
+SRP252977	SRX7917927	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324314		GridION	2138	1488844	SRR11313298	2138	1535424
+SRP252977	SRX7917926	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324313		GridION	1055	774800	SRR11313299	1055	757401
+SRP252977	SRX7917925	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324312		GridION	77	157432	SRR11313300	77	84079
+SRP252977	SRX7917924	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324311		GridION	328	296905	SRR11313301	328	236202
+SRP252977	SRX7917923	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324310		GridION	14019	9783020	SRR11313302	14019	10587822
+SRP252977	SRX7917922	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324309		GridION	7216	5048514	SRR11313303	7216	5421095
+SRP252977	SRX7917921	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324308		GridION	3680	2607635	SRR11313304	3680	2758116
+SRP252977	SRX7917920	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324307		GridION	1864	1356960	SRR11313305	1864	1393213
+SRP252977	SRX7917919	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324305		GridION	655	529408	SRR11313306	655	489686
+SRP252977	SRX7917918	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324306		GridION	20623	13093359	SRR11313307	20623	14194243
+SRP252977	SRX7917917	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324304		GridION	10313	6569725	SRR11313308	10313	7078703
+SRP252977	SRX7917916	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324303		GridION	5133	3295818	SRR11313309	5133	3508951
+SRP252977	SRX7917915	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324302		GridION	2651	1740506	SRR11313310	2651	1812236
+SRP252977	SRX7917914	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324301		GridION	6	84967	SRR11313311	6	4837
+SRP252977	SRX7917913	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324300		GridION	859	623254	SRR11313312	859	592506
+SRP252977	SRX7917912	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324298		GridION	16203	12369103	SRR11313313	16203	13451056
+SRP252977	SRX7917911	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324299		GridION	7679	5869426	SRR11313314	7679	6337037
+SRP252977	SRX7917910	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324297		GridION	3780	2904262	SRR11313315	3780	3091121
+SRP252977	SRX7917909	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324296		GridION	1950	1540106	SRR11313316	1950	1597782
+SRP252977	SRX7917908	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324295		GridION	638	553518	SRR11313317	638	517640
+SRP252977	SRX7917907	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324294		GridION	1556	1129064	SRR11313318	1556	1141773
+SRP252977	SRX7917906	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324293		GridION	811	624632	SRR11313319	811	592655
+SRP252977	SRX7917905	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324292		GridION	423	365821	SRR11313320	423	310929
+SRP252977	SRX7917904	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324291		GridION	227	234187	SRR11313321	227	167619
+SRP252977	SRX7917903	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324290		GridION	58	149191	SRR11313322	58	75186
+SRP252977	SRX7917902	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324289		GridION	93	142601	SRR11313323	93	67631
+SRP252977	SRX7917901	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324288		GridION	1448	675010	SRR11313324	1448	645674
+SRP252977	SRX7917900	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324287		GridION	779	396992	SRR11313325	779	343667
+SRP252977	SRX7917899	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324285		GridION	411	252969	SRR11313326	411	187577
+SRP252977	SRX7917898	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324286		GridION	217	173490	SRR11313327	217	100887
+SRP252977	SRX7917897	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324284		GridION	69	115050	SRR11313328	69	37367
+SRP252977	SRX7917896	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324283		GridION	80	110740	SRR11313329	80	32653
+SRP252977	SRX7917895	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324282		GridION	45	96778	SRR11313330	45	17570
+SRP252977	SRX7917894	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324281		GridION	27	90432	SRR11313331	27	10735
+SRP252977	SRX7917893	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324280		GridION	17	87448	SRR11313332	17	7519
+SRP252977	SRX7917892	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324278		GridION	2	82102	SRR11313333	2	1720
+SRP252977	SRX7917891	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324279		GridION	5	85551	SRR11313334	5	5476
+SRP252977	SRX7917890	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324277		GridION	7	82641	SRR11313335	7	2326
+SRP252977	SRX7917889	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324276		GridION	681	576464	SRR11313336	681	542217
+SRP252977	SRX7917888	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324275		GridION	340	329312	SRR11313337	340	271903
+SRP252977	SRX7917887	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324274		GridION	155	191607	SRR11313338	155	121442
+SRP252977	SRX7917886	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324273		GridION	90	145420	SRR11313339	90	70952
+SRP252977	SRX7917885	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324271		GridION	35	105888	SRR11313340	35	27753
+SRP252977	SRX7917884	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324272		GridION	813	615750	SRR11313341	813	582441
+SRP252977	SRX7917883	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324270		GridION	388	331657	SRR11313342	388	273133
+SRP252977	SRX7917882	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324269		GridION	197	206449	SRR11313343	197	136999
+SRP252977	SRX7917881	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324268		GridION	104	146677	SRR11313344	104	71913
+SRP252977	SRX7917880	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324267		GridION	204	233677	SRR11313345	204	167337
+SRP252977	SRX7917879	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324266		GridION	40	105730	SRR11313346	40	27360
+SRP252977	SRX7917878	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324265		GridION	929	701533	SRR11313347	929	675579
+SRP252977	SRX7917877	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324264		GridION	500	413590	SRR11313348	500	362137
+SRP252977	SRX7917876	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324263		GridION	241	239877	SRR11313349	241	173335
+SRP252977	SRX7917875	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324262		GridION	115	156469	SRR11313350	115	82423
+SRP252977	SRX7917874	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324261		GridION	40	107269	SRR11313351	40	28987
+SRP252977	SRX7917873	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324260		GridION	285	165230	SRR11313352	285	91576
+SRP252977	SRX7917872	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324259		GridION	122	117408	SRR11313353	122	39773
+SRP252977	SRX7917871	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324258		GridION	71	102679	SRR11313354	71	23812
+SRP252977	SRX7917870	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324257		GridION	36	92110	SRR11313355	36	12410
+SRP252977	SRX7917869	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324256		GridION	20	94454	SRR11313356	20	15116
+SRP252977	SRX7917868	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324255		GridION	14	84666	SRR11313357	14	4458
+SRP252977	SRX7917867	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324254		GridION	27	101380	SRR11313358	27	22672
+SRP252977	SRX7917866	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324253		GridION	11	91224	SRR11313359	11	11655
+SRP252977	SRX7917865	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324252		GridION	7	88158	SRR11313360	7	8316
+SRP252977	SRX7917864	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324251		GridION	3	84137	SRR11313361	3	3909
+SRP252977	SRX7917863	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324250		GridION	42	106328	SRR11313362	42	27996
+SRP252977	SRX7917862	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324249		GridION	23	93795	SRR11313363	23	14361
+SRP252977	SRX7917861	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324248		GridION	10	86308	SRR11313364	10	6219
+SRP252977	SRX7917860	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324247		GridION	5	82996	SRR11313365	5	2661
+SRP252977	SRX7917859	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324246		GridION	2	81466	SRR11313366	2	1012
+SRP252977	SRX7917858	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324245		GridION	32	115107	SRR11313367	32	37685
+SRP252977	SRX7917857	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324244		GridION	1480	1038215	SRR11313368	1480	1043911
+SRP252977	SRX7917856	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324243		GridION	717	544310	SRR11313369	717	505483
+SRP252977	SRX7917855	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324242		GridION	365	317891	SRR11313370	365	258599
+SRP252977	SRX7917854	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324241		GridION	180	200213	SRR11313371	180	130246
+SRP252977	SRX7917853	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324240		GridION	67	126969	SRR11313372	67	50349
+SRP252977	SRX7917852	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324239		GridION	154	113605	SRR11313373	154	35615
+SRP252977	SRX7917851	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324238		GridION	90	98317	SRR11313374	90	19092
+SRP252977	SRX7917850	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324237		GridION	46	89544	SRR11313375	46	9614
+SRP252977	SRX7917849	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324236		GridION	25	85392	SRR11313376	25	5162
+SRP252977	SRX7917848	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324235		GridION	8	82072	SRR11313377	8	1633
+SRP252977	SRX7917847	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324234		GridION	1	78818	SRR11313378	1	786
+SRP252977	SRX7917846	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324233		GridION	221	191254	SRR11313379	221	120159
+SRP252977	SRX7917845	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324232		GridION	120	138757	SRR11313380	120	63100
+SRP252977	SRX7917844	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324231		GridION	65	113617	SRR11313381	65	35822
+SRP252977	SRX7917843	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324230		GridION	35	98458	SRR11313382	35	19363
+SRP252977	SRX7917842	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324229		GridION	14	86919	SRR11313383	14	6858
+SRP252977	SRX7917841	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324228		GridION	116	140844	SRR11313384	116	65506
+SRP252977	SRX7917840	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324227		GridION	52	107180	SRR11313385	52	28868
+SRP252977	SRX7917839	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324226		GridION	24	91831	SRR11313386	24	12242
+SRP252977	SRX7917838	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324225		GridION	11	84904	SRR11313387	11	4784
+SRP252977	SRX7917837	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324224		GridION	4	82004	SRR11313388	4	1634
+SRP252977	SRX7917836	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324223		GridION	630	531684	SRR11313389	630	493743
+SRP252977	SRX7917835	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324222		GridION	371	285591	SRR11313390	371	222897
+SRP252977	SRX7917834	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324221		GridION	183	181409	SRR11313391	183	109657
+SRP252977	SRX7917833	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324220		GridION	86	127136	SRR11313392	86	50584
+SRP252977	SRX7917832	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324219		GridION	40	104538	SRR11313393	40	25996
+SRP252977	SRX7917831	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324218		GridION	11	87397	SRR11313394	11	7419
+SRP252977	SRX7917830	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324217		GridION	145	175312	SRR11313395	145	103183
+SRP252977	SRX7917829	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324216		GridION	69	125246	SRR11313396	69	48542
+SRP252977	SRX7917828	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324215		GridION	35	103078	SRR11313397	35	24448
+SRP252977	SRX7917827	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324214		GridION	15	89904	SRR11313398	15	10165
+SRP252977	SRX7917826	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324213		GridION	3	82307	SRR11313399	3	1976
+SRP252977	SRX7917825	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324212		GridION	77	133754	SRR11313400	77	58134
+SRP252977	SRX7917824	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324211		GridION	4	83511	SRR11313401	4	3244
+SRP252977	SRX7917823	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324210		GridION	2	81481	SRR11313402	2	1058
+SRP252977	SRX7917822	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324209		GridION	1	78061	SRR11313403	1	268
+SRP252977	SRX7917821	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324208		GridION	10	91577	SRR11313404	10	11990
+SRP252977	SRX7917820	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324207		GridION	6	87625	SRR11313405	6	7790
+SRP252977	SRX7917819	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324206		GridION	49	142703	SRR11313406	49	67617
+SRP252977	SRX7917751	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324138		GridION	3	84732	SRR11313407	3	4627
+SRP252977	SRX7917818	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324205		GridION	3	84477	SRR11313408	3	4269
+SRP252977	SRX7917817	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324204		GridION	71	138531	SRR11313409	71	62994
+SRP252977	SRX7917816	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324203		GridION	2	83043	SRR11313410	2	2697
+SRP252977	SRX7917815	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324202		GridION	4081	3061554	SRR11313411	4081	3245589
+SRP252977	SRX7917814	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324201		GridION	239	249318	SRR11313412	239	184045
+SRP252977	SRX7917813	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324200		GridION	6	88806	SRR11313413	6	9045
+SRP252977	SRX7917812	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324199		GridION	36	115430	SRR11313414	36	37985
+SRP252977	SRX7917811	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324198		GridION	5	83449	SRR11313415	5	3186
+SRP252977	SRX7917810	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324197		GridION	198	243424	SRR11313416	198	177358
+SRP252977	SRX7917809	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324196		GridION	8494	5668892	SRR11313417	8494	6100361
+SRP252977	SRX7917808	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324195		GridION	15	93555	SRR11313418	15	14164
+SRP252977	SRX7917807	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324194		GridION	26900	17911676	SRR11313419	26900	19414496
+SRP252977	SRX7917806	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324193		GridION	1561	1083490	SRR11313420	1561	1094057
+SRP252977	SRX7917805	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324192		GridION	21460	14350079	SRR11313421	21460	15542645
+SRP252977	SRX7917804	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324191		GridION	1398	975000	SRR11313422	1398	975690
+SRP252977	SRX7917803	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324190		GridION	1051	600392	SRR11313423	1051	563753
+SRP252977	SRX7917802	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324189		GridION	65	109997	SRR11313424	65	31779
+SRP252977	SRX7917801	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324188		GridION	12133	8050701	SRR11313425	12133	8680929
+SRP252977	SRX7917800	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324187		GridION	705	527386	SRR11313426	705	487229
+SRP252977	SRX7917799	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324186		GridION	516	402913	SRR11313427	516	350073
+SRP252977	SRX7917798	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324185		GridION	686	522734	SRR11313428	686	482047
+SRP252977	SRX7917797	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324184		GridION	39	103260	SRR11313429	39	24543
+SRP252977	SRX7917796	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324183		GridION	448	407255	SRR11313430	448	355730
+SRP252977	SRX7917795	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324182		GridION	20	93432	SRR11313431	20	14016
+SRP252977	SRX7917794	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324181		GridION	56	143637	SRR11313432	56	68876
+SRP252977	SRX7917793	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324180		GridION	1	79169	SRR11313433	1	1049
+SRP252977	SRX7917792	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324179		GridION	4557	3070910	SRR11313434	4557	3255594
+SRP252977	SRX7917791	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324178		GridION	291	270356	SRR11313435	291	206514
+SRP252977	SRX7917790	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324177		GridION	9086	6348660	SRR11313436	9086	6831885
+SRP252977	SRX7917789	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324176		GridION	651	516203	SRR11313437	651	475863
+SRP252977	SRX7917788	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324175		GridION	3173	2250824	SRR11313438	3173	2363890
+SRP252977	SRX7917787	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324174		GridION	50	132950	SRR11313439	50	57389
+SRP252977	SRX7917786	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324173		GridION	244	245157	SRR11313440	244	179652
+SRP252977	SRX7917785	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324172		GridION	4040	2630979	SRR11313441	4040	2775572
+SRP252977	SRX7917784	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324171		GridION	279	251339	SRR11313442	279	186121
+SRP252977	SRX7917783	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324170		GridION	806	618633	SRR11313443	806	585258
+SRP252977	SRX7917782	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324169		GridION	34	102172	SRR11313444	34	23452
+SRP252977	SRX7917781	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324168		GridION	7467	4314460	SRR11313445	7467	4604206
+SRP252977	SRX7917780	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324167		GridION	494	345279	SRR11313446	494	288123
+SRP252977	SRX7917779	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324166		GridION	42	124583	SRR11313447	42	47970
+SRP252977	SRX7917778	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324165		GridION	769	660669	SRR11313448	769	632027
+SRP252977	SRX7917777	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324164		GridION	43	112707	SRR11313449	43	35080
+SRP252977	SRX7917776	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324163		GridION	2	83099	SRR11313450	2	2814
+SRP252977	SRX7917775	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324162		GridION	63	125004	SRR11313451	63	48247
+SRP252977	SRX7917774	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324161		GridION	5	85031	SRR11313452	5	4892
+SRP252977	SRX7917773	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324160		GridION	77	163975	SRR11313453	77	90948
+SRP252977	SRX7917772	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324159		GridION	5	86005	SRR11313454	5	5935
+SRP252977	SRX7917771	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324158		GridION	1379	1088178	SRR11313455	1379	1097388
+SRP252977	SRX7917770	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324157		GridION	79	133928	SRR11313456	79	58128
+SRP252977	SRX7917769	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324156		GridION	54	115360	SRR11313457	54	37955
+SRP252977	SRX7917768	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324155		GridION	2	81601	SRR11313458	2	1249
+SRP252977	SRX7917767	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324154		GridION	2555	1948582	SRR11313459	2555	2037934
+SRP252977	SRX7917766	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324153		GridION	230	241995	SRR11313460	230	176243
+SRP252977	SRX7917765	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324152		GridION	670	528656	SRR11313461	670	489215
+SRP252977	SRX7917764	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324151		GridION	320	316478	SRR11313462	320	258632
+SRP252977	SRX7917763	NTS: negative	NTS: negative	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	OTHER	PCR	SRS6324150		GridION	34	105292	SRR11313463	34	27128
+SRP252977	SRX7917762	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324149		GridION	21801	14443987	SRR11313464	21801	15676985
+SRP252977	SRX7917761	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324148		GridION	1921	1321263	SRR11313465	1921	1354324
+SRP252977	SRX7917760	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324147		GridION	136	224405	SRR11313466	136	158103
+SRP252977	SRX7917759	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324146		GridION	6	86760	SRR11313467	6	6764
+SRP252977	SRX7917758	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324145		GridION	14920	9734681	SRR11313468	14920	10537727
+SRP252977	SRX7917757	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324144		GridION	1181	818397	SRR11313469	1181	804579
+SRP252977	SRX7917956	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324342		GridION	622	436039	SRR11313470	622	387566
+SRP252977	SRX7917755	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324142		GridION	6	85784	SRR11313471	6	5738
+SRP252977	SRX7917754	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324141		GridION	3	82306	SRR11313472	3	2018
+SRP252977	SRX7917753	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324140		GridION	220	269638	SRR11313473	220	206799
+SRP252977	SRX7917752	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324139		GridION	14	90915	SRR11313474	14	11300
+SRP252977	SRX7917750	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324137		GridION	1	79185	SRR11313475	1	1046
+SRP252977	SRX7917749	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324136		GridION	7	89469	SRR11313476	7	9675
+SRP252977	SRX7917748	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324135		GridION	6	88930	SRR11313477	6	9090
+SRP252977	SRX7917747	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324134		GridION	4	86903	SRR11313478	4	6902
+SRP252977	SRX7917746	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324133		GridION	54	134704	SRR11313479	54	59392
+SRP252977	SRX7917745	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324132		GridION	2	83156	SRR11313480	2	2852
+SRP252977	SRX7917744	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324131		GridION	5	87889	SRR11313481	5	7925
+SRP252977	SRX7917743	NTS: plasmid	NTS: plasmid	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	SYNTHETIC	PCR	SRS6324130		GridION	2	83768	SRR11313482	2	3508
+SRP252977	SRX7917742	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324129		GridION	45	140815	SRR11313483	45	65680
+SRP252977	SRX7917741	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324128		GridION	2	82657	SRR11313484	2	2317
+SRP252977	SRX7917740	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324127		GridION	518	445112	SRR11313485	518	397286
+SRP252977	SRX7917739	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324126		GridION	28	100843	SRR11313486	28	22093
+SRP252977	SRX7917738	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324125		GridION	55	159866	SRR11313487	55	86380
+SRP252977	SRX7917737	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324124		GridION	2	83296	SRR11313488	2	3014
+SRP252977	SRX7917736	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324123		GridION	299	297951	SRR11313489	299	236590
+SRP252977	SRX7917735	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324122		GridION	4	83531	SRR11313490	4	3232
+SRP252977	SRX7917734	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324121		GridION	18	93470	SRR11313491	18	14009
+SRP252977	SRX7917733	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324120		GridION	3378	2329638	SRR11313492	3378	2450321
+SRP252977	SRX7917732	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324119		GridION	171	193633	SRR11313493	171	123672
+SRP252977	SRX7917731	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324118		GridION	39036	25789798	SRR11313494	39036	28003397
+SRP252977	SRX7917730	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324117		GridION	2113	1444495	SRR11313495	2113	1493210
+SRP252977	SRX7917729	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324116		GridION	146	209870	SRR11313496	146	140533
+SRP252977	SRX7917728	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324115		GridION	8	88020	SRR11313497	8	8101
+SRP252977	SRX7917727	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324114		GridION	52	156213	SRR11313498	52	82405
+SRP252977	SRX7917726	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324113		GridION	3	84499	SRR11313499	3	4327
+SRP252977	SRX7917725	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324112		GridION	52	114960	SRR11313500	52	37257
+SRP252977	SRX7917724	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324111		GridION	16	93439	SRR11313501	16	14147
+SRP252977	SRX7917723	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324110		GridION	1	78387	SRR11313502	1	468
+SRP252977	SRX7917722	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324109		GridION	62	130416	SRR11313503	62	54039
+SRP252977	SRX7917721	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324108		GridION	4	83609	SRR11313504	4	3303
+SRP252977	SRX7917720	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324107		GridION	314	278926	SRR11313505	314	215664
+SRP252977	SRX7917719	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324106		GridION	23	97309	SRR11313506	23	18114
+SRP252977	SRX7917718	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324105		GridION	1893	1348593	SRR11313507	1893	1378954
+SRP252977	SRX7917717	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324104		GridION	87	141311	SRR11313508	87	66231
+SRP252977	SRX7917716	NTS: clinical sample	NTS: clinical sample	2697049	Severe acute respiratory syndrome coronavirus 2	AMPLICON	VIRAL RNA	PCR	SRS6324103		GridION	41	116837	SRR11313509	41	39202
+SRP252988	SRX7918726	RNA-seq of COVID-19 positive human  from San Diego county	RNA-seq of COVID-19 positive human  from San Diego county	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	PCR	SRS6325118		Illumina MiSeq	517281	64753247	SRR11314339	517281	156068315
+SRP252988	SRX7949318	RNA-seq of COVID-19 positive human from San Diego county	RNA-seq of COVID-19 positive human from San Diego county	2697049	Severe acute respiratory syndrome coronavirus 2	RNA-Seq	VIRAL RNA	PCR	SRS6325118		MinION	2645519	1696059020	SRR11347377	2645519	2114343649
+No results found for SRR11350376
