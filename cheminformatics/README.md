@@ -40,9 +40,9 @@ These were used as inputs for the docking and scoring workflow. The workflow con
 4. [Evaluation of the docking poses](4-Scoring) using a [deep learning approach][3] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm][4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
-<p align="center"><img src="./img/workflow.png" width= "80%" alt="Workflow" /></p>
+<p align="center"><img src="./img/workflow-full.png" width= "80%" alt="Workflow" /></p>
 
-This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time (more are expected).
+This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time: Mpro -x1249, -x0072, -x0104, -x0107, -x0161, -x0195, -x0305, -x0354, -x0387, -x0434, -x0540, -x0678, -x0874, -x0946, -x0995, -x1077 and -x1093 (more hits have been found since).
  
 Of these steps, the third (docking) is the most compute-intensive. Here, the project benefited from the enormous distributed compute capacity which underlies the European Galaxy project. Over 5000 CPUs were made available, provided by [Diamond’s STFC-IRIS](https://www.diamond.ac.uk) cluster at Harwell, UK and the [de.NBI cloud](https://www.denbi.de) in Freiburg, Germany. With each docking job requiring 1 CPU, thousands of poses could thus be docked in parallel, allowing millions of poses to be docked over a single weekend. The fourth step (pose scoring), while less computationally expensive, was accelerated thanks to GPUs provided by de.NBI and STFC. In total, the entire workflow described here took around 120,000 hours of CPU time (13 years) to complete.
 
