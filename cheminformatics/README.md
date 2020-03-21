@@ -23,6 +23,8 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 ------------
 
+## Background
+
 The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)][1], which provided 55 fragment hits (which can be viewed nteractively [here](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro) ). In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
 <p align="center">
@@ -51,15 +53,14 @@ The enumerated compounds were used as inputs for the docking and scoring workflo
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm][4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
 
 
-
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time: Mpro -x1249, -x0072, -x0104, -x0107, -x0161, -x0195, -x0305, -x0354, -x0387, -x0434, -x0540, -x0678, -x0874, -x0946, -x0995, -x1077 and -x1093 (more hits have been found since).
  
 Of these steps, the third (docking) is the most compute-intensive. Here, the project benefited from the enormous distributed compute capacity which underlies the European Galaxy project. Over 5000 CPUs were made available, provided by [Diamond’s STFC-IRIS](https://www.diamond.ac.uk) cluster at Harwell, UK and the [de.NBI cloud](https://www.denbi.de) in Freiburg, Germany. With each docking job requiring 1 CPU, thousands of poses could thus be docked in parallel, allowing millions of poses to be docked over a single weekend. The fourth step (pose scoring), while less computationally expensive, was accelerated thanks to GPUs provided by de.NBI and STFC. In total, the entire workflow described here took around 120,000 hours of CPU time (13 years) to complete.
 
 All data is publicly available via https://usegalaxy.eu, together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
 
+## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
-
 
 [1]: https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html "Diamond Light Source, press release."
 
@@ -71,6 +72,8 @@ Having identified promising candidate ligands, we are now looking for funding to
 
 In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](Histories)
 
+
+## Supporters and collaborators
 The experiments have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/) and [conda-forge](https://conda-forge.org/). Tools were run using cloud resources provided by [de.NBI](https://www.denbi.de/) and [STFC](https://stfc.ukri.org/).
 
 
