@@ -10,6 +10,8 @@ Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&me
 [Gianmauro Cuccuru](https://github.com/gmauro),
 [Björn Grüning](https://github.com/bgruening),
 [Rachael Skyner](https://github.com/reskyner),
+[Jack Scantlebury](http://users.ox.ac.uk/~hert5790/),
+[Susan Leung](https://uk.linkedin.com/in/susan-leung-aa87aaa3),
 [Frank von Delft](https://www.thesgc.org/profile/oxford/fvondelft)
 
 This repo serves as a companion to our recent docking simulations on the SARS-CoV-2 main protease.
@@ -21,13 +23,13 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 ------------
 
-The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)][1], which provided 55 fragment hits . In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
+The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)][1], which provided 55 fragment hits (which can be viewed nteractively [here](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro) ). In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
 
 <p align="center">
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
 </p>
 
-An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. 
+An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. The fragment network takes a big set of compounds, and splits them up into parts – rings, linkers and substituents. These parts form the nodes in a graph network. The edges between these nodes describe how the bits of molecules can be linked together to make new molecules. From this information, we know how we can change a molecule by searching the network for new bits to add to an initial hit, with transformations described along the edges in the graph-network.
 This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com/), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com) using query parameters of 2 edge traversals and a change in heavy atom count of 5 and ring atom count of 2. 
 These were used as inputs for the docking and scoring workflow. The workflow consists of the following steps, each of which was carried out using tools installed on the European Galaxy server:
 1. [Charge enumeration](1-DockingPrep) of those 42,000 candidate molecules to generate ~159,000 docking candidates.
