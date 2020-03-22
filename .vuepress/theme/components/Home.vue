@@ -14,14 +14,14 @@
         v-if="data.heroText !== null"
         id="main-title"
       >
-        {{ data.heroText || $title || 'Hello' }}
+        COVID-19 analysis on usegalaxy.*
       </h1>
 
       <p
         v-if="data.tagline !== null"
         class="description"
       >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        Analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure
       </p>
 
       <p
@@ -36,27 +36,24 @@
     </header>
 
     <div
-      v-if="data.features && data.features.length"
       class="features"
     >
       <div
-        v-for="(feature, index) in data.features"
-        :key="index"
         class="feature"
       >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <h2>Genomics</h2>
+        <p>blurb</p>
+      </div>
+      <div
+        class="feature"
+      >
+        <h2>Cheminformatics</h2>
+        <p>blurb</p>
       </div>
     </div>
 
     <Content class="theme-default-content custom" />
 
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
-      {{ data.footer }}
-    </div>
   </main>
 </template>
 
