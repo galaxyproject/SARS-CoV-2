@@ -31,6 +31,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: "Update SARS-CoV-2 accessions"
         title: "Daily update of SARS-CoV-2 accessions"
+        body: "Automated updates of SARS-CoV-2 accessions"
         labels: Automation
         branch: accession_updates
         base: master
