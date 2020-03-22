@@ -6,18 +6,12 @@ jobs:
     runs-on: ubuntu-18.04
     strategy:
       matrix:
-        python-version: [3.7]
+        python-version: [3.8]
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Cache pip dir
-      uses: actions/cache@v1
-      id: pip-cache
-      with:
-        path: ~/.cache/pip
-        key: pip-cache-${{ matrix.python-version }}-${{ hashFiles('genomics/4-Variation/requirements.txt') }}
     - name: Install pysradb
       run: pip install https://github.com/mvdbeek/pysradb/archive/fetch_many_metadata_accessions_at_once.zip
     - name: Fetch accessions
