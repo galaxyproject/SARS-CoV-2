@@ -20,16 +20,8 @@ The goal of this resource is to provide publicly accessible workflows for SARS-C
 |[![](./img/gn.png)](./genomics)|[![](./img/mp.png)](./cheminformatics)|
 |**Analysis of SARS-CoV-2 raw reads and genomes**<br> &#8226; assembly <br> &#8226; MRCA timing <br>&#8226; Variation analysis <br>&#8226; Selection and recombination   | **Virtual screening on the SARS-CoV-2 main protease**<br>&#8226; Compound enumeration <br>&#8226; Generation of 3D conformations<br>&#8226; Docking <br>&#8226; Scoring |
 
-It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
-
- 1. Underscore the importance of access to raw data
- 2. Demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid reproducible research during global crises
-
- The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/).
- Tools were run using [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)),
- Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) 
- in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, 
- [STFC-IRIS](https://stfc.ukri.org/) at the Diamond Light Source, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tools were run using [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)),
+Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) cloud resources on the European side, [STFC-IRIS](https://stfc.ukri.org/) at the Diamond Light Source, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
 
 
  <p align="center">
