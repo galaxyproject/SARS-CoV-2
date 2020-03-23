@@ -15,10 +15,9 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 
 The goal of this resource is to provide publicly accessible workflows for SARS-CoV-2 data analyses. We currently feature two different projects: one [analyzing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
 
-<p align="center">
-  <a href="./genomics"><img src="./img/gn.png"/></a>
-  <a href="./cheminformatics"><img src="./img/mp.png"/></a>
-</p>
+| Genomics | Chemoinformatics |
+|:---------:|:--------------:|
+|![](./img/gn.png)|![](./img/mp.png)|
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
