@@ -18,7 +18,7 @@ The goal of this resource is to provide publicly accessible workflows for SARS-C
 | Genomics | Chemoinformatics |
 |:---------:|:--------------:|
 |[![](./img/gn.png)](./genomics)|[![](./img/mp.png)](./cheminformatics)|
-|Analysis of SARS-CoV-2 raw reads and genomes | Virtual screening on the SARS-CoV-2 main protease |
+|**Analysis of SARS-CoV-2 raw reads and genomes**<br> &#8226; assembly <br> &#8226; MRCA timing <br>&#8226; Variation analysis <br>&#8226; Selection and recombination   | **Virtual screening on the SARS-CoV-2 main protease**<br>&#8226; Compound enumeration <br>&#8226; Docking <br>&#8226; Scoring |
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
