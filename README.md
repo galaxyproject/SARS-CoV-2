@@ -2,7 +2,9 @@
 sidebar: false
 editLink: false
 ---
-# Analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure
+# Best practices for the analysis of SARS-CoV-2 data: Genomics and Chemoinformatics
+
+> Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
@@ -10,6 +12,8 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
 [![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
 [![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
+
+The resourse shows 
 
 
 This repo serves as a companion to our study describing the analysis of early COVID-19 data.
