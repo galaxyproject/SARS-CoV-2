@@ -1,6 +1,5 @@
 ---
 home: true
-heroText: Analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure
 ---
 # Best practices for the analysis of SARS-CoV-2 data: Genomics and Chemoinformatics
 

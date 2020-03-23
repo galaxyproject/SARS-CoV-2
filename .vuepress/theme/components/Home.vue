@@ -1,54 +1,42 @@
 <template>
-  <main
-    class="home"
-    aria-labelledby="main-title"
-  >
+  <main class="home" aria-labelledby="main-title">
     <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
+      <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'hero'">
 
-      <h1
-        v-if="data.heroText !== null"
-        id="main-title"
-      >
+      <h1 v-if="data.heroText !== null" id="main-title">
         COVID-19 analysis on usegalaxy.*
       </h1>
 
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
-        Analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure
+      <p v-if="data.tagline !== null" class="description">
+        And this is where the 'no more business as usual' or similarly catchy
+        tagline goes.
       </p>
 
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
+      <p v-if="data.actionText && data.actionLink" class="action">
+        <NavLink class="action-button" :item="actionLink" />
       </p>
     </header>
 
-    <div
-      class="features"
-    >
-      <div
-        class="feature"
-      >
+    <div class="features">
+      <div class="feature">
         <h2>Genomics</h2>
-        <p>blurb</p>
+        <img :src="$withBase('./480x480.png')">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nam hendrerit nisi sed sollicitudin pellentesque.
+          Nunc posuere purus rhoncus pulvinar aliquam.
+          Ut aliquet tristique nisl vitae.
+        </p>
       </div>
-      <div
-        class="feature"
-      >
+      <div class="feature">
         <h2>Cheminformatics</h2>
-        <p>blurb</p>
+        <img :src="$withBase('./480x480.png')">
+        <p>
+          Nulla aliquet porttitor venenatis.
+          Donec a dui et dui fringilla consectetur id nec massa.
+          Aliquam erat volutpat.
+          Sed ut dui ut lacus dictum fermentum vel tincidunt neque.
+        </p>
       </div>
     </div>
 
@@ -126,8 +114,12 @@ export default {
   .feature
     flex-grow 1
     width 100%
-    max-width 50%
+    max-width 40%
     text-align center
+    img
+      max-width: 100%
+      display block
+      margin 3rem auto 1.5rem
     h2
       font-size 1.4rem
       font-weight 500
