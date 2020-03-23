@@ -16,7 +16,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
 
 | [Genomics](./genomics) | [Chemoinformatics](./cheminformatics) |
-|-----------|:--------------:|
+|-----------|----------------|
 |[![](./img/gn.png)](./genomics)|[![](./img/mp.png)](./cheminformatics)|
 |**Analysis of SARS-CoV-2 raw reads and genomes**<br> &#8226; [Assembly](genomics/2-Assembly/) <br> &#8226; [MRCA timing](genomics/3-MRCA/) <br>&#8226; [Variation analysis](genomics/4-Variation/) <br>&#8226; [Selection and recombination](genomics/6-RecombinationSelection/)   | **Virtual screening on the SARS-CoV-2 main protease**<br>&#8226; [Compound enumeration](cheminformatics/1-DockingPrep/) <br>&#8226; [Generation of 3D conformations](cheminformatics/2-ActiveSitePrep/) <br>&#8226; [Docking](cheminformatics/3-Docking/) <br>&#8226; [Scoring](cheminformatics/4-Scoring/) |
 
