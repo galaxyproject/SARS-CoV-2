@@ -4,7 +4,7 @@ editLink: false
 ---
 # Best practices for the analysis of SARS-CoV-2 data: Genomics and Chemoinformatics
 
-> Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets.
+*Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets.*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
@@ -13,11 +13,12 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
 [![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
 
-The resourse shows 
+The goal of this resource is to provide publicly accessible workflows for SARS-CoV-2 data analyses. We currently feature two different projects: one [analyzing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
 
-
-This repo serves as a companion to our study describing the analysis of early COVID-19 data.
-We currently feature two different projects: one [analyzing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
+<p align="center">
+  <a href="./genomics"><img src="./img/gn.png"/></a>
+  <a href="./cheminformatics"><img src="./img/mp.png"/></a>
+</p>
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
