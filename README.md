@@ -13,11 +13,12 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
 [![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
 
-The goal of this resource is to provide publicly accessible workflows for SARS-CoV-2 data analyses. We currently feature two different projects: one [analyzing the COVID-19 Genome](./genomics) and the other performing [virtual screening on the SARS-CoV-2 main protease](./cheminformatics).
+The goal of this resource is to provide publicly accessible workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
 
 | Genomics | Chemoinformatics |
 |:---------:|:--------------:|
-|![](./img/gn.png)|![](./img/mp.png)|
+|[![](./img/gn.png)](./genomics)|[![](./img/mp.png)](./cheminformatics)|
+|Analysis of SARS-CoV-2 raw reads and genomes | Virtual screening on the SARS-CoV-2 main protease |
 
 It contains descriptions of workflows and exact versions of all software used. The goals of this study were to:
 
