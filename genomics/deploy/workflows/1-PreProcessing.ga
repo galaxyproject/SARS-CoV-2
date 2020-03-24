@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "", 
     "format-version": "0.1", 
-    "name": "1 - read pre-processing", 
+    "name": "1 - Read pre-processing", 
     "steps": {
         "0": {
             "annotation": "", 

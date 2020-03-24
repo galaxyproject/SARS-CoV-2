@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "", 
     "format-version": "0.1", 
-    "name": "5 - S-gene AA", 
+    "name": "5 - Analysis of S-protein polymorphism", 
     "steps": {
         "0": {
             "annotation": "", 
