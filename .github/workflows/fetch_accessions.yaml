@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     # Check if the event is not triggered by a fork
     # Comment the next line if you want to get automated accession updates in your fork
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: github.repository == 'galaxyproject/SARS-CoV-2'
     strategy:
       matrix:
         python-version: [3.8]
