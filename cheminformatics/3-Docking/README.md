@@ -13,7 +13,7 @@ This section describes the docking procedure. This was repeated 17 times, for ea
 
 Docking is performed with rDock [1] using as inputs:
  
-- PDB file of the protein of the fragment screening crystal structure with the ligand and waters removed, and protonated (using OpenBabel) at pH 7.4
+- PDB file of the protein of the fragment screening crystal structure with the ligand and waters removed, and protonated (using OpenBabel [2]) at pH 7.4
 - The active site definition for that protein prepared as described in [step 2](../2-ActiveSitePrep)
 - Candidate molecules prepared as described in [step 1](../1-DockingPrep)
 
@@ -34,3 +34,8 @@ The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-docking-o
   <a href="https://usegalaxy.eu/u/sbray/w/mpro-docking-only">   <img src="./w-docking.png" alt="Workflow docking" /></a> &nbsp;  
  </p>
  
+ ## References
+
+[1] Ruiz-Carmona et al. (2014). rDock: a fast, versatile and open source program for docking ligands to proteins and nucleic acids. PLoS Computational Biology. 10 (4). doi:[10.1371/journal.pcbi.1003571](https://doi.org/10.1371%2Fjournal.pcbi.1003571).
+
+[2] Open Babel: An open chemical toolbox. O'Boyle et al. [doi:10.1186/1758-2946-3-33](https://doi.org/10.1186/1758-2946-3-33).
