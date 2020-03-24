@@ -35,6 +35,7 @@ module.exports = {
                 "/cheminformatics/2-ActiveSitePrep/",
                 "/cheminformatics/3-Docking/",
                 "/cheminformatics/4-Scoring/",
+                "/cheminformatics/5-Selection/",
                 "/cheminformatics/Histories/"
             ]
         },
