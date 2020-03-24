@@ -64,9 +64,9 @@
         </p>
       </div>
     </div>
-
+    <h2>Project Video Update</h2>
+    <iframe src="https://player.vimeo.com/video/400035951" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     <Content class="theme-default-content custom" />
-
   </main>
 </template>
 
