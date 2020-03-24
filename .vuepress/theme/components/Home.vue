@@ -60,6 +60,7 @@
             <li><RouterLink :to="'/cheminformatics/2-ActiveSitePrep/'">Generation of 3D conformations</RouterLink></li>
             <li><RouterLink :to="'/cheminformatics/3-Docking/'">Docking</RouterLink></li>
             <li><RouterLink :to="'/cheminformatics/4-Scoring/'">Scoring</RouterLink></li>
+            <li><RouterLink :to="'/cheminformatics/5-Selection/'">Selection of compounds for synthesis</RouterLink></li>
           </ul>
         </p>
       </div>
