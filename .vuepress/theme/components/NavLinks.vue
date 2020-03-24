@@ -19,19 +19,15 @@
       />
     </div>
 
-    <!-- repo link -->
-    <!--
     <a
-      v-if="repoLink"
-      :href="repoLink"
+      :href="editLink"
       class="repo-link"
       target="_blank"
       rel="noopener noreferrer"
     >
-      {{ repoLabel }}
+      Edit on GitHub
       <OutboundLink />
     </a>
-    -->
   </nav>
 </template>
 
@@ -39,6 +35,8 @@
 import DropdownLink from '@theme/components/DropdownLink.vue'
 import { resolveNavLinkItem } from '../util'
 import NavLink from '@theme/components/NavLink.vue'
+import isNil from 'lodash/isNil'
+import { endingSlashRE, outboundRE } from '../util'
 
 export default {
   name: 'NavLinks',
@@ -119,6 +117,62 @@ export default {
       }
 
       return 'Source'
+    },
+
+    editLink () {
+      const {
+        repo,
+        docsDir = '',
+        docsBranch = 'master',
+        docsRepo = repo
+      } = this.$site.themeConfig
+
+      if (docsRepo && this.$page.relativePath) {
+        return this.createEditLink(
+          repo,
+          docsRepo,
+          docsDir,
+          docsBranch,
+          this.$page.relativePath
+        )
+      }
+      return null
+    },
+
+    editLinkText () {
+      return (
+        this.$themeLocaleConfig.editLinkText
+        || this.$site.themeConfig.editLinkText
+        || `Edit this page`
+      )
+    }
+  },
+
+  methods: {
+    createEditLink (repo, docsRepo, docsDir, docsBranch, path) {
+      const bitbucket = /bitbucket.org/
+      if (bitbucket.test(repo)) {
+        const base = outboundRE.test(docsRepo) ? docsRepo : repo
+        return (
+          base.replace(endingSlashRE, '')
+          + `/src`
+          + `/${docsBranch}/`
+          + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
+          + path
+          + `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
+        )
+      }
+
+      const base = outboundRE.test(docsRepo)
+        ? docsRepo
+        : `https://github.com/${docsRepo}`
+      return (
+        base.replace(endingSlashRE, '')
+        + `/edit`
+        + `/${docsBranch}/`
+        + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
+        + path
+      )
     }
   }
 }
