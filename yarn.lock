@@ -783,10 +783,37 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@observablehq/inspector@^3.2.0":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@observablehq/inspector/-/inspector-3.2.1.tgz#c953fd95f1b90fac6f39e41965a72cc079d3e465"
+  integrity sha512-U8EASUAUYCQmCprOF9HafRMnU4yyD0IXjRuDwAjBMjVpm36KXPzXWxHcdzlt/3CbIEu8GOhKQqHBAX9pv6OyUQ==
+  dependencies:
+    esm "^3.2.25"
+
+"@observablehq/runtime@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@observablehq/runtime/-/runtime-4.7.0.tgz#159435347151440f1ff612a719486f04bfcc7a43"
+  integrity sha512-cfjcIxseRxs1kA3U507V4F/C1PxW/Bo3bUzQBp5QdgJ+QgcMr+rPDYoj8zCs0EmiXL47/SVpFcyz4N9y3DZymg==
+  dependencies:
+    "@observablehq/inspector" "^3.2.0"
+    "@observablehq/stdlib" "^3.2.0"
+    esm "^3.0.84"
+
+"@observablehq/stdlib@^3.2.0":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@observablehq/stdlib/-/stdlib-3.3.1.tgz#f65c3d319276dd4c0bec2a10975c309d68e0956a"
+  integrity sha512-KVjHdSFWPtE6FeqMVhgNBZUvLBdoqpkgglGo38LAFrKYgFtWgPDOGSw21V2NhG5D0/LfqcHqmqWP0Dr+zShKaw==
+  dependencies:
+    d3-require "^1.2.4"
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
+
+"@stevenweaver/case-vs-sequence-count@https://api.observablehq.com/@stevenweaver/case-vs-sequence-count.tgz?v=3":
+  version "588.0.0"
+  resolved "https://api.observablehq.com/@stevenweaver/case-vs-sequence-count.tgz?v=3#f091b25df9c25e7c2bd2a5ffaf594dab18265892"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -2517,6 +2544,11 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
+d3-require@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/d3-require/-/d3-require-1.2.4.tgz#59afc591d5089f99fecd8c45ef7539e1fee112b3"
+  integrity sha512-8UseEGCkBkBxIMouLMPONUBmU8DUPC1q12LARV1Lk/2Jwa32SVgmRfX8GdIeR06ZP+CG85YD3N13K2s14qCNyA==
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -2980,6 +3012,11 @@ eslint-scope@^4.0.3:
   dependencies:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
+
+esm@^3.0.84, esm@^3.2.25:
+  version "3.2.25"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+  integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
 esprima@^4.0.0:
   version "4.0.1"
