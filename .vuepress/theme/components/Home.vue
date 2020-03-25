@@ -35,6 +35,8 @@
       <p>
         The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
       </p>
+      <Badge text="BADGE SAMPLE"/>
+      <Shield text="SHIELD SAMPLE"/>
       <div class="feature">
         <RouterLink :to="'/genomics/'">
           <h2>Genomics</h2>

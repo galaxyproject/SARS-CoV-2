@@ -2,8 +2,8 @@
   "name": "sars-cov-2-docs",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {},
   "devDependencies": {
+    "gh-badges": "^2.2.1",
     "vuepress": "^1.4.0"
   },
   "scripts": {
