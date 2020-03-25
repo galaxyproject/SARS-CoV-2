@@ -25,4 +25,5 @@ Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana Uni
   <a href="https://www.vscentrum.be">          <img src="./genomics/img/VSC-logo.png" width="25%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
   <a href="https://www.eosc-life.eu">          <img src="./genomics/img/eosclife.png" width="10%" alt="EOSC-Life" /></a> &nbsp;
   <a href="https://datamonkey.org">          <img src="./genomics/img/datamonkey.svg" alt="Datamonkey" width = "150px" /></a> &nbsp;
+  <a href="https://www.france-bioinformatique.fr/en">          <img src="./genomics/img/ifb.png" alt="IFB" width = "20%" /></a> &nbsp;
   </p>
