@@ -1,20 +1,19 @@
 <template>
-		<div id="hotlinkedNotebookDock"></div>
+    <div id="hotlinkedNotebookDock"></div>
 </template>
 
 <script>
-
 export default {
-  props: {
-    notebookSource: {
-      type: String,
-      required: true
+    props: {
+        notebookSource: {
+            type: String,
+            required: true
+        }
     },
-  },
-  mounted() {
-    let notebookScript = document.createElement('script');
-    notebookScript.setAttribute('type', 'module');
-    notebookScript.innerHTML = `
+    mounted() {
+        let notebookScript = document.createElement("script");
+        notebookScript.setAttribute("type", "module");
+        notebookScript.innerHTML = `
         import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 
         // Your notebook, compiled as an ES module.
@@ -24,7 +23,7 @@ export default {
         // that simply renders the value of each cell into the provided DOM node.
         new Runtime().module(notebook, Inspector.into(document.getElementById('hotlinkedNotebookDock')));
     `;
-    document.head.appendChild(notebookScript);
-  }
-}
+        document.head.appendChild(notebookScript);
+    }
+};
 </script>
