@@ -20,7 +20,7 @@ title: Variation
 
 The absolute majority of SARS-COV-2 data is in the form of assembled genomic sequences. This is unfortunate because any variation that exists within individual samples is obliterated--converted to the most frequent base--during the assembly process. However, knowing underlying evolutionary dynamics is critical for tracing evolution of the virus as it allows identification of genomic regions under different selective regimes and understanding of its population parameters.
 
-## Data availability (:fire: Updated daily)
+## Data availability (:fire: updated daily)
 
 Raw sequencing reads are required to detected within-sample variation. We update the list of available data daily using the following logic implemented in [fetch_sra_acc.sh](fetch_sra_acc.sh):
 
