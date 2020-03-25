@@ -26,8 +26,10 @@
               src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=be&amp;color=green" alt="usegalaxy.be">
           </a>
           <a href="https://usegalaxy.org.au" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=org.au&amp;color=green"
-              alt="usegalaxy.org.au">
+              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=org.au&amp;color=green" alt="usegalaxy.org.au">
+          </a>
+          <a href="https://usegalaxy.fr" target="_blank" rel="noopener noreferrer"><img
+              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=fr&amp;color=green" alt="usegalaxy.fr">
           </a>
       </p>
       <p>
