@@ -17,10 +17,9 @@ module.exports = {
                 link: "/cheminformatics/"
             },
             {
-                text: "Health of COVID Data",
-                link: "/data-availability/"
+                text: "Evolution",
+                link: "/evolution/"
             }
-
         ],
         sidebar: {
             "/genomics/": [
@@ -43,9 +42,8 @@ module.exports = {
                 "/cheminformatics/5-Selection/",
                 "/cheminformatics/Histories/"
             ],
-            "/data-availability/": [
-                "/data-availability/",
-                "/data-availability/1-CaseCounts"
+            "/evolution/": [
+                "/evolution/",
             ]
 
         },

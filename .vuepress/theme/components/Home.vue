@@ -66,6 +66,20 @@
           </ul>
         </p>
       </div>
+      <div class="feature">
+        <RouterLink :to="'/evolution/'">
+          <h2>Evolution</h2>
+          <img :src="$withBase('./img/evo.png')">
+        </RouterLink>
+        <h4>Analysis of SARS-CoV-2 Evolution Sites and Structure</h4>
+        <p>
+        <ul>
+          <li><RouterLink :to="'/evolution/'">Observable Notebooks</RouterLink></li>
+          <li><RouterLink :to="'/evolution/'">Visualizations</RouterLink></li>
+          <li><RouterLink :to="'/evolution/'">Analysis</RouterLink></li>
+        </ul>
+        </p>
+      </div>
     </div>
     <h2>Project Video Update</h2>
     <iframe src="https://player.vimeo.com/video/400035951" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -146,7 +160,7 @@ export default {
   .feature
     flex-grow 1
     width 100%
-    max-width 45%
+    max-width 30%
     text-align center
     img
       max-width: 100%
