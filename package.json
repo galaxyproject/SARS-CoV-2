@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "@observablehq/runtime": "^4.7.0",
-    "@stevenweaver/case-vs-sequence-count": "https://api.observablehq.com/@stevenweaver/case-vs-sequence-count.tgz?v=3"
+    "@observablehq/runtime": "^4.7.0"
   },
   "devDependencies": {
     "vuepress": "^1.4.0"
