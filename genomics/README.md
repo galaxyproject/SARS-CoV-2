@@ -9,7 +9,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
 [![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
 [![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
-[![usegalaxy.fr](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.fr)
+[![usegalaxy.fr](https://img.shields.io/static/v1?label=usegalaxy&message=fr&color=green)](https://usegalaxy.fr)
 
 
 
