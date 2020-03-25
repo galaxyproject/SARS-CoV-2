@@ -91,7 +91,7 @@ The Jupyter notebook requires the GenBank file (#1 from above) and the output of
 
 ## Outputs
 
-The workflow produces a [table of variants](variant_list.tsv) that looks like this:
+The workflow produces a [table of variants](variant_list.tsv) (also [filtered](variant_list.05.tsv) at 5% allele frequency) that looks like this:
 
 <div>
 <table>
