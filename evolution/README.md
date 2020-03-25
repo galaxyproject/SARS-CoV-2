@@ -1,4 +1,5 @@
 ---
-title: Health of COVID Data
+title: Evolution
 ---
 
+<observableNotebook notebookSource="@spond/natural-selection-analysis-of-sars-cov-2-covid-19"/>
