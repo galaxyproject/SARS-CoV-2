@@ -12,7 +12,8 @@ export default {
     },
     mounted() {
         let notebookScript = document.createElement("script");
-        notebookScript.setAttribute("type", "module");
+        notebookScript.type = 'module';
+        notebookScript.async = true;
         notebookScript.innerHTML = `
         import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 
