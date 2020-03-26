@@ -1,50 +1,38 @@
 <template>
-      <div v-html="getShieldSVG"></div>
+    <a class="shield" :href="href" v-html="getShieldSVG" target="_blank" rel="noopener noreferrer"> </a>
 </template>
 
 <script>
-import { getShield, makeBadge } from "../util/ghShield.js";
+import { makeBadge } from "../util/ghShield.js";
 
 export default {
     props: {
-        type: {
+        leftText: {
             type: String,
-            default: "tip"
+            default: ""
         },
-        text: String,
-        vertical: {
+        rightText: {
             type: String,
-            default: "top"
+            default: ""
+        },
+        href: {
+            type: String,
+            default: null
         }
     },
     computed: {
-      getShieldSVG: function() {
-        return makeBadge({
-        text: ['usegalaxy', 'eu'],
-        format: 'svg',
-        template: 'flat',
-      });
-      }
+        getShieldSVG: function() {
+            return makeBadge({
+                text: [this.leftText, this.rightText],
+                format: "svg",
+                template: "flat"
+            });
+        }
     }
 };
 </script>
 
 <style lang="stylus" scoped>
-.badge
-  display inline-block
-  font-size 14px
-  height 18px
-  line-height 18px
-  border-radius 3px
-  padding 0 6px
-  color white
-  background-color #42b983
-  &.tip, &.green
-    background-color $badgeTipColor
-  &.error
-    background-color $badgeErrorColor
-  &.warning, &.warn, &.yellow
-    background-color $badgeWarningColor
-  & + &
-    margin-left 5px
+.shield
+  padding 0px
 </style>

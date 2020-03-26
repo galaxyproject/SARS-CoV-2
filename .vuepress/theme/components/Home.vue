@@ -16,27 +16,16 @@
       </p>
       <p class="shields">
           Powered by:
-          <a href="https://usegalaxy.org" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=org&amp;color=green" alt="usegalaxy.org">
-          </a>
-          <a href="https://usegalaxy.eu" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=eu&amp;color=green" alt="usegalaxy.eu">
-          </a>
-          <a href="https://usegalaxy.be" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=be&amp;color=green" alt="usegalaxy.be">
-          </a>
-          <a href="https://usegalaxy.org.au" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=org.au&amp;color=green" alt="usegalaxy.org.au">
-          </a>
-          <a href="https://usegalaxy.fr" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=fr&amp;color=green" alt="usegalaxy.fr">
-          </a>
+          <!-- Ugh.  The inline'd SVG identifiers are the same, so, for example, usegalaxy.org.au's clip path actually references the one from usegalaxy.org; need to shadow it or randomize identifiers in the svgs? -->
+          <Shield leftText="usegalaxy" rightText="org" href="https://usegalaxy.org" />
+          <Shield leftText="usegalaxy" rightText="eu" href="https://usegalaxy.eu" />
+          <Shield leftText="usegalaxy" rightText="be" href="https://usegalaxy.be" />
+          <Shield leftText="usegalaxy" rightText="org.au" href="https://usegalaxy.org.au" />
+          <Shield leftText="usegalaxy" rightText="fr" href="https://usegalaxy.fr" />
       </p>
       <p>
         The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
       </p>
-      <Badge text="BADGE SAMPLE"/>
-      <Shield text="SHIELD SAMPLE"/>
       <div class="feature">
         <RouterLink :to="'/genomics/'">
           <h2>Genomics</h2>
@@ -144,6 +133,8 @@ export default {
     .shields
       line-height 20px
       img 
+        vertical-align bottom
+      svg
         vertical-align bottom
   .feature
     flex-grow 1
