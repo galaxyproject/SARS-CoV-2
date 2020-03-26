@@ -150,7 +150,7 @@ for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
     templates[style] = dot.template(svg);
 }
 
-function escapeXml(s) {
+export function escapeXml(s) {
     if (s === undefined || typeof s !== "string") {
         return undefined;
     } else {
@@ -165,6 +165,45 @@ function escapeXml(s) {
 
 function capitalize(s) {
     return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+export function getBadgeContext({
+    text,
+    colorscheme,
+    color,
+    colorA,
+    colorB,
+    labelColor,
+    links = ["", ""]
+}) {
+    // String coercion and whitespace removal.
+    text = text.map(value => `${value}`.trim());
+
+    let [left, right] = text;
+
+    color = normalizeColor(color || colorB || colorscheme);
+    labelColor = normalizeColor(labelColor || colorA);
+
+    let leftWidth = (ana.widthOf(left) / 10) | 0;
+    // Increase chances of pixel grid alignment.
+    if (leftWidth % 2 === 0) {
+        leftWidth++;
+    }
+    let rightWidth = (ana.widthOf(right) / 10) | 0;
+    // Increase chances of pixel grid alignment.
+    if (rightWidth % 2 === 0) {
+        rightWidth++;
+    }
+
+    return {
+        text: [left, right],
+        escapedText: [left, right].map(escapeXml),
+        widths: [leftWidth + 10, rightWidth + 10],
+        links: links.map(escapeXml),
+        colorA: toSvgColor(labelColor),
+        colorB: toSvgColor(color),
+        escapeXml
+    };
 }
 
 export function makeBadge({
