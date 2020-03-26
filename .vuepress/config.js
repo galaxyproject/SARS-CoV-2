@@ -44,6 +44,7 @@ module.exports = {
             ],
             "/evolution/": [
                 "/evolution/",
+                "/evolution/1-DiversityDivergence",
             ]
 
         },
