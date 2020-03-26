@@ -120,7 +120,7 @@
 	// "../../modules/es6.object.set-prototype-of" = "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js"
 	// "../modules/es6.object.to-string" = "./node_modules/core-js/library/modules/es6.object.to-string.js"
 	// "../modules/es6.promise" = "./node_modules/core-js/library/modules/es6.promise.js"
-	// "../modules/es6.string.iterator" = "./node_modules/core-js/library/modules/es6.string.iterator.js"
+	// "../../modules/es6.string.iterator" = "./node_modules/core-js/library/modules/es6.string.iterator.js"
 	// "../../modules/es7.object.entries" = "./node_modules/core-js/library/modules/es7.object.entries.js"
 	// "../../modules/es7.object.values" = "./node_modules/core-js/library/modules/es7.object.values.js"
 	// "../modules/es7.promise.finally" = "./node_modules/core-js/library/modules/es7.promise.finally.js"
