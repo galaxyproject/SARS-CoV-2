@@ -14,7 +14,7 @@ export default {
     mounted() {
         let jbrowseBundle = document.createElement("script");
         jbrowseBundle.type = "text/javascript";
-        jbrowseBundle.src = "/jbrowse/main.bundle.js";
+        jbrowseBundle.src = "/jbrowse/browser.bundle.js";
         document.head.appendChild(jbrowseBundle);
     }
 };
