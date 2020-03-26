@@ -1,8 +1,9 @@
-/* 
-ripped/adapted from github.com/badges/shields because I couldn't get vuepress/webpack to cooperate with it configured as a library 
+/*
+ripped/adapted from github.com/badges/shields because I couldn't get vuepress/webpack to cooperate with it configured as a library
+CC0 1.0 Universal https://github.com/badges/shields/blob/master/gh-badges/LICENSE
 */
 
-import { ana } from "./ana.js"
+import { ana } from "./ana.js";
 
 const TEMPLATEBLOBS = {
     "plastic-template.svg": `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{=(it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}" height="18">
@@ -87,7 +88,6 @@ const TEMPLATEBLOBS = {
 </svg>`
 };
 
-
 //import * as SVGO from "svgo";
 import * as dot from "dot";
 import { normalizeColor, toSvgColor } from "gh-badges/lib/color";
@@ -99,7 +99,7 @@ const templates = {};
 dot.templateSettings.strip = false; // Do not strip whitespace.
 
 for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
-    const extension = 'svg';
+    const extension = "svg";
     const style = filename.slice(0, -`-template.${extension}`.length);
     // Compile the template. Necessary to always have a working template.
     templates[style] = dot.template(templateData);
@@ -113,7 +113,7 @@ for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
         mapping.set(mapKey, match);
         return mapKey;
     });
-    
+
     //const svgo = new SVGO();
     //const { data, error } = svgo.optimize(untemplatedSvg);
 
@@ -148,7 +148,7 @@ for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
     }
 
     templates[style] = dot.template(svg);
-};
+}
 
 function escapeXml(s) {
     if (s === undefined || typeof s !== "string") {
@@ -218,15 +218,11 @@ export function makeBadge({
     }
 
     let leftWidth = (ana.widthOf(left) / 10) | 0;
-    // DBTODO HACK
-    //let leftWidth = left.length*8;
     // Increase chances of pixel grid alignment.
     if (leftWidth % 2 === 0) {
         leftWidth++;
     }
     let rightWidth = (ana.widthOf(right) / 10) | 0;
-    // DBTODO HACK
-    //let rightWidth = right.length*8;
     // Increase chances of pixel grid alignment.
     if (rightWidth % 2 === 0) {
         rightWidth++;
