@@ -1,0 +1,18 @@
+(function(){
+(this||window)["webpackJsonp"].registerAbsMids({
+	"dojo/io-query":"./node_modules/dojo/io-query.js"
+})
+})(),(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[12],{
+
+/***/ "./node_modules/dojo/io-query.js":
+/*!***************************************!*\
+  !*** ./node_modules/dojo/io-query.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! ./_base/lang */ \"./node_modules/dojo/_base/lang.js\")], __WEBPACK_AMD_DEFINE_RESULT__ = (function(lang){\n\n\t// module:\n\t//\t\tdojo/io-query\n\n\tvar backstop = {};\n\n\treturn {\n\t\t// summary:\n\t\t//\t\tThis module defines query string processing functions.\n\n\t\tobjectToQuery: function objectToQuery(/*Object*/ map){\n\t\t\t// summary:\n\t\t\t//\t\ttakes a name/value mapping object and returns a string representing\n\t\t\t//\t\ta URL-encoded version of that object.\n\t\t\t// example:\n\t\t\t//\t\tthis object:\n\t\t\t//\n\t\t\t//\t|\t{\n\t\t\t//\t|\t\tblah: \"blah\",\n\t\t\t//\t|\t\tmulti: [\n\t\t\t//\t|\t\t\t\"thud\",\n\t\t\t//\t|\t\t\t\"thonk\"\n\t\t\t//\t|\t\t]\n\t\t\t//\t|\t};\n\t\t\t//\n\t\t\t//\t\tyields the following query string:\n\t\t\t//\n\t\t\t//\t|\t\"blah=blah&multi=thud&multi=thonk\"\n\n\t\t\t// FIXME: need to implement encodeAscii!!\n\t\t\tvar enc = encodeURIComponent, pairs = [];\n\t\t\tfor(var name in map){\n\t\t\t\tvar value = map[name];\n\t\t\t\tif(value != backstop[name]){\n\t\t\t\t\tvar assign = enc(name) + \"=\";\n\t\t\t\t\tif(lang.isArray(value)){\n\t\t\t\t\t\tfor(var i = 0, l = value.length; i < l; ++i){\n\t\t\t\t\t\t\tpairs.push(assign + enc(value[i]));\n\t\t\t\t\t\t}\n\t\t\t\t\t}else{\n\t\t\t\t\t\tpairs.push(assign + enc(value));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\treturn pairs.join(\"&\"); // String\n\t\t},\n\n\t\tqueryToObject: function queryToObject(/*String*/ str){\n\t\t\t// summary:\n\t\t\t//\t\tCreate an object representing a de-serialized query section of a\n\t\t\t//\t\tURL. Query keys with multiple values are returned in an array.\n\t\t\t//\n\t\t\t// example:\n\t\t\t//\t\tThis string:\n\t\t\t//\n\t\t\t//\t|\t\t\"foo=bar&foo=baz&thinger=%20spaces%20=blah&zonk=blarg&\"\n\t\t\t//\n\t\t\t//\t\tresults in this object structure:\n\t\t\t//\n\t\t\t//\t|\t\t{\n\t\t\t//\t|\t\t\tfoo: [ \"bar\", \"baz\" ],\n\t\t\t//\t|\t\t\tthinger: \" spaces =blah\",\n\t\t\t//\t|\t\t\tzonk: \"blarg\"\n\t\t\t//\t|\t\t}\n\t\t\t//\n\t\t\t//\t\tNote that spaces and other urlencoded entities are correctly\n\t\t\t//\t\thandled.\n\n        \tvar dec = decodeURIComponent, qp = str.split(\"&\"), ret = {}, name, val;\n\t\t\tfor(var i = 0, l = qp.length, item; i < l; ++i){\n\t\t\t\titem = qp[i];\n\t\t\t\tif(item.length){\n\t\t\t\t\tvar s = item.indexOf(\"=\");\n\t\t\t\t\tif(s < 0){\n\t\t\t\t\t\tname = dec(item);\n\t\t\t\t\t\tval = \"\";\n\t\t\t\t\t}else{\n\t\t\t\t\t\tname = dec(item.slice(0, s));\n\t\t\t\t\t\tval = dec(item.slice(s + 1));\n\t\t\t\t\t}\n\t\t\t\t\tif(typeof ret[name] == \"string\"){ // inline'd type check\n\t\t\t\t\t\tret[name] = [ret[name]];\n\t\t\t\t\t}\n\n\t\t\t\t\tif(lang.isArray(ret[name])){\n\t\t\t\t\t\tret[name].push(val);\n\t\t\t\t\t}else{\n\t\t\t\t\t\tret[name] = val;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\treturn ret; // Object\n\t\t}\n\t};\n}).apply(null, __WEBPACK_AMD_DEFINE_ARRAY__),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n\n//# sourceURL=webpack:///./node_modules/dojo/io-query.js?");
+
+/***/ })
+
+}]);
