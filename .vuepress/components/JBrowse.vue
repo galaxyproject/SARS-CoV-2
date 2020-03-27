@@ -5,6 +5,7 @@
     </div>
 </template>
 <script>
+//import "@gmod/jbrowse/dist/browser.bundle.js";
 export default {
     methods: {
         load() {
