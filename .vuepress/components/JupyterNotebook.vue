@@ -1,8 +1,5 @@
 <template>
-    <div>
-        <p>Jupyter Notebook!</p>
-        <div v-html="notebookHTML"></div>
-    </div>
+    <div class="nb-notebook" v-html="notebookHTML"></div>
 </template>
 <script>
 
