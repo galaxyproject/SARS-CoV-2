@@ -12,7 +12,6 @@ export default {
             // Add some features
             const config = {
                 containerID: "GenomeBrowser",
-                baseUrl: "/jbrowse/",
                 defaultLocation: "chr1:187326438..187326472",
                 refSeqs: {
                     url:
