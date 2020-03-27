@@ -1,15 +1,12 @@
 <template>
     <div>
         <p>Jupyter Notebook!</p>
-        <div v-html="notebookRender">
-        </div>
+        <div id="mainContent"></div>
     </div>
 </template>
 <script>
-/*
-Quick hack of what an ipython component could work like -- not functional yet.
-*/
-import nb from "notebookjs";
+
+import "!!script-loader!notebookjs";
 import axios from "axios";
 
 export default {
@@ -30,10 +27,9 @@ export default {
         }
     },
     mounted() {
-        // Do this elsewhere, but for now...
         axios.get(this.notebookURL).then(r => {
-            console.debug(r);
-            this.notebookRaw = r;
+            this.notebookRaw = nb.parse(r.data).render();
+            document.getElementById("mainContent").appendChild(this.notebookRaw);
         });
     }
 };
