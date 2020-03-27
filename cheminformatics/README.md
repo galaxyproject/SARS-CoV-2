@@ -61,6 +61,9 @@ Of these steps, the third (docking) is the most compute-intensive. Here, the pro
 All data is publicly available via [https://usegalaxy.eu](https://usegalaxy.eu),
 together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
 
+## Training
+We have published a [tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html), as part of the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/), describing how to perform a small-scale version of this analysis on the European Galaxy server. It also acts as a more detailed version of the documentation on this site.
+
 ## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
 
