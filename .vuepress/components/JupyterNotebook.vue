@@ -18,7 +18,7 @@ export default {
     props: {
         notebookURL: {
             type: String,
-            default: "/genomics/updates/wisc.ipynb"
+            required: true
         }
     },
     computed: {
