@@ -1,8 +1,7 @@
 <template>
     <div>
         <p>Jupyter Notebook!</p>
-        <div v-html="notebookRender">
-        </div>
+        <div v-html="notebookRender"></div>
     </div>
 </template>
 <script>
@@ -21,7 +20,7 @@ export default {
     props: {
         notebookURL: {
             type: String,
-            default: "/genomics/updates/wisc.ipynb"
+            required: true
         }
     },
     computed: {
@@ -32,8 +31,7 @@ export default {
     mounted() {
         // Do this elsewhere, but for now...
         axios.get(this.notebookURL).then(r => {
-            console.debug(r);
-            this.notebookRaw = r;
+            this.notebookRaw = r.data;
         });
     }
 };
