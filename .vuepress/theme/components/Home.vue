@@ -33,7 +33,7 @@
           </a>
       </p>
       <p>
-        The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
+        The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature three different projects:
       </p>
       <div class="feature">
         <RouterLink :to="'/genomics/'">
