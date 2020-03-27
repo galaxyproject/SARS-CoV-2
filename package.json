@@ -2,7 +2,10 @@
   "name": "sars-cov-2-docs",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2",
+    "notebookjs": "^0.4.2"
+  },
   "devDependencies": {
     "vuepress": "^1.4.0"
   },
