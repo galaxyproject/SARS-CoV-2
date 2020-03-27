@@ -6,28 +6,26 @@
 </template>
 <script>
 export default {
+    props: {
+        containerID: {
+            type: String,
+            default: "GenomeBrowser"
+        },
+        defaultLocation: {
+            type: String
+        },
+        refSeqs: Object,
+        tracks: Array,
+        defaultTracks: String,
+    },
     methods: {
         load() {
-            const features = [];
-            // Add some features
-            const config = {
-                containerID: "GenomeBrowser",
-                defaultLocation: "chr1:187326438..187326472",
-                refSeqs: {
-                    url:
-                        "https://s3.amazonaws.com/1000genomes/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai"
-                },
-                defaultTracks: "GRCH38 Reference Sequence",
-                tracks: [
-                    {
-                        key: "GRCH38 Reference Sequence",
-                        label: "GRCH38 Reference Sequence",
-                        urlTemplate:
-                            "https://s3.amazonaws.com/1000genomes/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa"
-                    },
-                ]
-            };
-            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig(config);
+            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig({
+                defaultLocation: this.defaultLocation,
+                refSeqs: this.refSeqs,
+                defaultTracks: this.defaultTracks,
+                tracks: this.tracks
+            });
         }
     }
 };
