@@ -72,7 +72,7 @@ We have published a [tutorial](https://training.galaxyproject.org/training-mater
 | All in one virtual screening workflow  |
 |----------------|
 |![](./img/all_in_one_workflow.png) |
-| This workflows contains all steps as sub-workflows. Please refere to the sub-pages for deteailed informations.<br/> [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/timdudgeon/w/xchem-combined)|
+| This workflow contains all steps as sub-workflows. Please refer to the sub-pages for detailed information.<br/> [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/timdudgeon/w/xchem-combined)|
 
 
 ## Future work
