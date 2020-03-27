@@ -1,11 +1,10 @@
 <template>
     <div>
-        <h1>Test JBrowse Component</h1>
+        <h1>Example JBrowse Component -- GRCH38 Reference Sequence</h1>
         <iframe ref="jbframe" @load="load" frameborder="0" height="600" width="960" src="/jbrowse/index.html"></iframe>
     </div>
 </template>
 <script>
-//import "@gmod/jbrowse/dist/browser.bundle.js";
 export default {
     methods: {
         load() {
@@ -14,10 +13,12 @@ export default {
             const config = {
                 containerID: "GenomeBrowser",
                 baseUrl: "/jbrowse/",
+                defaultLocation: "chr1:187326438..187326472",
                 refSeqs: {
                     url:
                         "https://s3.amazonaws.com/1000genomes/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai"
                 },
+                defaultTracks: "GRCH38 Reference Sequence",
                 tracks: [
                     {
                         key: "GRCH38 Reference Sequence",
@@ -25,13 +26,6 @@ export default {
                         urlTemplate:
                             "https://s3.amazonaws.com/1000genomes/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa"
                     },
-                    {
-                        key: "MyTrack",
-                        label: "MyTrack",
-                        storeClass: "JBrowse/Store/SeqFeature/FromConfig",
-                        features: features,
-                        type: "CanvasVariants"
-                    }
                 ]
             };
             this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig(config);
