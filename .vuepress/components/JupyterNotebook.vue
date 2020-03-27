@@ -1,0 +1,41 @@
+<template>
+    <div>
+        <p>Jupyter Notebook!</p>
+        <div v-html="notebookRender">
+        </div>
+    </div>
+</template>
+<script>
+/*
+Quick hack of what an ipython component could work like -- not functional yet.
+*/
+import nb from "notebookjs";
+import axios from "axios";
+
+export default {
+    data: function() {
+        return {
+            notebookRaw: {}
+        };
+    },
+    props: {
+        notebookURL: {
+            type: String,
+            default: "https://covid19.galaxyproject.org/genomics/updates/wisc.ipynb"
+        }
+    },
+    computed: {
+        notebookRender() {
+            return nb.parse(notebookRaw);
+        }
+    },
+    mounted() {
+        // Do this elsewhere, but for now...
+        axios.get(this.notebookURL).then(r => {
+            console.debug(r);
+            this.notebookRaw = r;
+        });
+    }
+};
+</script>
+<style></style>
