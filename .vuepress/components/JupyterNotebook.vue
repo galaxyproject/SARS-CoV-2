@@ -21,7 +21,7 @@ export default {
     props: {
         notebookURL: {
             type: String,
-            default: "https://covid19.galaxyproject.org/genomics/updates/wisc.ipynb"
+            default: "/genomics/updates/wisc.ipynb"
         }
     },
     computed: {
