@@ -3,6 +3,9 @@ title: Cheminformatics
 ---
 # Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
+
 Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
 
 [Tim Dudgeon](https://github.com/tdudgeon),
