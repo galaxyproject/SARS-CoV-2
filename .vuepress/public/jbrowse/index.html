@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script type="text/javascript" src="/jbrowse/browser.bundle.js" charset="utf-8"></script>
+        <script>
+            var features = [];
+            // Add some features
+            var config = {
+                containerID: "GenomeBrowser",
+                baseUrl: "/jbrowse/",
+                refSeqs: {
+                    url:
+                        "https://s3.amazonaws.com/1000genomes/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai"
+                },
+                tracks: [
+                    {
+                        key: "GRCH38 Reference Sequence",
+                        label: "GRCH38 Reference Sequence",
+                        urlTemplate:
+                            "https://s3.amazonaws.com/1000genomes/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+                    },
+                    {
+                        key: "MyTrack",
+                        label: "MyTrack",
+                        storeClass: "JBrowse/Store/SeqFeature/FromConfig",
+                        features: features,
+                        type: "CanvasVariants"
+                    }
+                ]
+            };
+
+            // Add to the config or tracks
+
+            // Instantiate JBrowse
+            window.addEventListener("load", () => {
+                window.JBrowse = new window.Browser(config);
+            });
+        </script>
+    </head>
+    <body>
+        <p>Jbrowse Test</p>
+        <div class="jbrowse" id="GenomeBrowser"> </div>
+    </body>
+</html>
