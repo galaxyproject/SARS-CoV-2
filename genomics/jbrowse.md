@@ -1,6 +1,4 @@
----
-title: Jbrowse?
----
+# Example JBrowse integration showing GRCH38 Reference Sequence
 
 <JBrowse
         defaultLocation="chr1:187326438..187326472"

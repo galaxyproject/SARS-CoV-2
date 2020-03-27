@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Example JBrowse Component -- GRCH38 Reference Sequence</h1>
         <iframe ref="jbframe" @load="load" frameborder="0" height="600" width="960" src="/jbrowse/index.html"></iframe>
     </div>
 </template>
