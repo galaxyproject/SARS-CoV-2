@@ -64,6 +64,14 @@ together with the workflows used for data generation, and we are working to prov
 ## Training
 We have published a [tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html), as part of the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/), describing how to perform a small-scale version of this analysis on the European Galaxy server. It also acts as a more detailed version of the documentation on this site.
 
+## Galaxy workflow
+
+| All in one virtual screening workflow  |
+|----------------|
+|![](./img/all_in_one_workflow.png) |
+| This workflows contains all steps as sub-workflows. Please refere to the sub-pages for deteailed informations.<br/> [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/timdudgeon/w/xchem-combined)|
+
+
 ## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
 
