@@ -1,18 +1,18 @@
 <template>
     <div>
         <p>Jupyter Notebook!</p>
-        <div id="mainContent"></div>
+        <div v-html="notebookHTML"></div>
     </div>
 </template>
 <script>
 
-import "!!script-loader!notebookjs";
 import axios from "axios";
+import "!!script-loader!notebookjs";
 
 export default {
     data: function() {
         return {
-            notebookRaw: {}
+            notebookRaw: null,
         };
     },
     props: {
@@ -22,14 +22,13 @@ export default {
         }
     },
     computed: {
-        notebookRender() {
-            return nb.parse(this.notebookRaw);
+        notebookHTML() {
+            return this.notebookRaw === null ? "" : nb.parse(this.notebookRaw).render().innerHTML;
         }
     },
     mounted() {
         axios.get(this.notebookURL).then(r => {
-            this.notebookRaw = nb.parse(r.data).render();
-            document.getElementById("mainContent").appendChild(this.notebookRaw);
+            this.notebookRaw = r.data;
         });
     }
 };
