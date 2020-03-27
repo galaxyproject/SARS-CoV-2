@@ -26,7 +26,7 @@ export default {
     },
     computed: {
         notebookRender() {
-            return nb.parse(notebookRaw);
+            return nb.parse(this.notebookRaw);
         }
     },
     mounted() {
