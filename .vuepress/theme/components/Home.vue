@@ -16,7 +16,6 @@
       </p>
       <p class="shields">
           Powered by:
-          <!-- Ugh.  The inline'd SVG identifiers are the same, so, for example, usegalaxy.org.au's clip path actually references the one from usegalaxy.org; need to shadow it or randomize identifiers in the svgs? -->
           <FlatShield leftText="usegalaxy" rightText="org" href="https://usegalaxy.org" />
           <FlatShield leftText="usegalaxy" rightText="eu" href="https://usegalaxy.eu" />
           <FlatShield leftText="usegalaxy" rightText="be" href="https://usegalaxy.be" />
