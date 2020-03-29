@@ -62,8 +62,8 @@
 
 <script>
 /*
-ripped/adapted from github.com/badges/shields to convert to a SVG-Generating vue component
-CC0 1.0 Universal https://github.com/badges/shields/blob/master/gh-badges/LICENSE
+This is an adaptation of github.com/badges/shields, converting the flat
+template to an SVG-Generating vue component
 */
 import { v4 as uuidv4 } from "uuid";
 import { ana } from "./ana.js";
