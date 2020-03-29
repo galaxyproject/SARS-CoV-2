@@ -94,6 +94,9 @@ export default {
         },
         rightColor: {
             type: String
+        },
+        color: {
+            type: String
         }
     },
     computed: {
@@ -101,7 +104,7 @@ export default {
             return toSvgColor(normalizeColor(this.leftColor));
         },
         rightColorParsed() {
-            return toSvgColor(normalizeColor(this.rightColor)) || "#4c1";
+            return toSvgColor(normalizeColor(this.rightColor || this.color)) || "#4c1";
         },
         leftWidth() {
             let leftWidth = (ana.widthOf(this.leftText) / 10) | 0;
