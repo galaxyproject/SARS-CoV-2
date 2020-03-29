@@ -9,18 +9,19 @@
       </p>
     </header>
     <div class="features">
-      <p class="shields">
+      <p class="shieldlist">
+        <!-- not a list, but we want it aligned with the right side, which is, so apply the same style -->
           <a href="https://doi.org/10.5281/zenodo.3685264" target="_blank" rel="noopener noreferrer"><img
               src="https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg" alt="DOI">
           </a>
       </p>
-      <p class="shields">
+      <p class="shieldlist">
           Powered by:
-          <FlatShield leftText="usegalaxy" rightText="org" href="https://usegalaxy.org" />
-          <FlatShield leftText="usegalaxy" rightText="eu" href="https://usegalaxy.eu" />
-          <FlatShield leftText="usegalaxy" rightText="be" href="https://usegalaxy.be" />
-          <FlatShield leftText="usegalaxy" rightText="org.au" href="https://usegalaxy.org.au" />
-          <FlatShield leftText="usegalaxy" rightText="fr" href="https://usegalaxy.fr" />
+          <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org" />
+          <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu" />
+          <FlatShield label="usegalaxy" message="be" href="https://usegalaxy.be" />
+          <FlatShield label="usegalaxy" message="org.au" href="https://usegalaxy.org.au" />
+          <FlatShield label="usegalaxy" message="fr" href="https://usegalaxy.fr" />
       </p>
       <p>
         The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
@@ -129,12 +130,6 @@ export default {
     align-items flex-start
     align-content stretch
     justify-content space-between
-    .shields
-      line-height 20px
-      img 
-        vertical-align bottom
-      svg
-        vertical-align bottom
   .feature
     flex-grow 1
     width 100%

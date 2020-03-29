@@ -11,7 +11,6 @@
         </linearGradient>
 
         <clipPath :id="clipPath">
-            <!-- Add ref here w/ uuid? -->
             <rect :width="combinedWidth" height="20" rx="3" fill="#fff" />
         </clipPath>
 
@@ -32,10 +31,10 @@
                 :textLength="ltLength"
                 lengthAdjust="spacing"
             >
-                {{ leftText }}
+                {{ label }}
             </text>
             <text :x="ltX" y="140" transform="scale(0.1)" :textLength="ltLength" lengthAdjust="spacing">
-                {{ leftText }}
+                {{ label }}
             </text>
 
             <!-- right text -->
@@ -48,10 +47,10 @@
                 :textLength="rtLength"
                 lengthAdjust="spacing"
             >
-                {{ rightText }}
+                {{ message }}
             </text>
             <text :x="rtX" y="140" transform="scale(0.1)" :textLength="rtLength" lengthAdjust="spacing">
-                {{ rightText }}
+                {{ message }}
             </text>
         </g>
         <a v-if="href" target="_blank" :xlink:href="href">
@@ -77,11 +76,11 @@ export default {
         };
     },
     props: {
-        leftText: {
+        label: {
             type: String,
             default: ""
         },
-        rightText: {
+        message: {
             type: String,
             default: ""
         },
@@ -107,7 +106,7 @@ export default {
             return toSvgColor(normalizeColor(this.rightColor || this.color)) || "#4c1";
         },
         leftWidth() {
-            let leftWidth = (ana.widthOf(this.leftText) / 10) | 0;
+            let leftWidth = (ana.widthOf(this.label) / 10) | 0;
             // Increase chances of pixel grid alignment.
             if (leftWidth % 2 === 0) {
                 leftWidth++;
@@ -115,7 +114,7 @@ export default {
             return leftWidth + 10;
         },
         rightWidth() {
-            let rightWidth = (ana.widthOf(this.rightText) / 10) | 0;
+            let rightWidth = (ana.widthOf(this.message) / 10) | 0;
             // Increase chances of pixel grid alignment.
             if (rightWidth % 2 === 0) {
                 rightWidth++;
@@ -135,7 +134,7 @@ export default {
             return (this.rightWidth - 10) * 10;
         },
         getFill() {
-            return this.leftText.length ? this.leftColorParsed || "#555" : this.rightColorParsed || "#4c1";
+            return this.label.length ? this.leftColorParsed || "#555" : this.rightColorParsed || "#4c1";
         },
         combinedWidth() {
             return this.leftWidth + this.rightWidth;
@@ -153,8 +152,3 @@ export default {
     }
 };
 </script>
-
-<style lang="stylus" scoped>
-.shield
-  padding 0px
-</style>
