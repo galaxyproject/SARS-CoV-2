@@ -66,8 +66,14 @@
 </template>
 
 <script>
+/*
+ripped/adapted from github.com/badges/shields to convert to a SVG-Generating vue component
+CC0 1.0 Universal https://github.com/badges/shields/blob/master/gh-badges/LICENSE
+*/
 import { v4 as uuidv4 } from "uuid";
 import { getBadgeContext } from "../util/ghShield.js";
+import { ana } from "../util/ana.js";
+import { normalizeColor, toSvgColor } from "gh-badges/lib/color";
 
 export default {
     data() {
