@@ -17,11 +17,11 @@
       <p class="shields">
           Powered by:
           <!-- Ugh.  The inline'd SVG identifiers are the same, so, for example, usegalaxy.org.au's clip path actually references the one from usegalaxy.org; need to shadow it or randomize identifiers in the svgs? -->
-          <Shield leftText="usegalaxy" rightText="org" href="https://usegalaxy.org" />
-          <Shield leftText="usegalaxy" rightText="eu" href="https://usegalaxy.eu" />
-          <Shield leftText="usegalaxy" rightText="be" href="https://usegalaxy.be" />
-          <Shield leftText="usegalaxy" rightText="org.au" href="https://usegalaxy.org.au" />
-          <Shield leftText="usegalaxy" rightText="fr" href="https://usegalaxy.fr" />
+          <FlatShield leftText="usegalaxy" rightText="org" href="https://usegalaxy.org" />
+          <FlatShield leftText="usegalaxy" rightText="eu" href="https://usegalaxy.eu" />
+          <FlatShield leftText="usegalaxy" rightText="be" href="https://usegalaxy.be" />
+          <FlatShield leftText="usegalaxy" rightText="org.au" href="https://usegalaxy.org.au" />
+          <FlatShield leftText="usegalaxy" rightText="fr" href="https://usegalaxy.fr" />
       </p>
       <p>
         The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
