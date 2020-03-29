@@ -4,6 +4,7 @@
         xmlns:xlink="http://www.w3.org/1999/xlink"
         :width="combinedWidth"
         height="20"
+        :alt="alt"
     >
         <linearGradient :id="smooth" x2="0" y2="100%">
             <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
@@ -95,6 +96,9 @@ export default {
             type: String
         },
         color: {
+            type: String
+        },
+        alt: {
             type: String
         }
     },
