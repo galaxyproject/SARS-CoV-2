@@ -89,5 +89,4 @@ class CharWidthTableConsumer {
         }, 0.0);
     }
 }
-console.debug(new CharWidthTableConsumer());
 export const ana = new CharWidthTableConsumer();

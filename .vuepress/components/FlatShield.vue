@@ -66,7 +66,7 @@ ripped/adapted from github.com/badges/shields to convert to a SVG-Generating vue
 CC0 1.0 Universal https://github.com/badges/shields/blob/master/gh-badges/LICENSE
 */
 import { v4 as uuidv4 } from "uuid";
-import { ana } from "../util/ana.js";
+import { ana } from "./ana.js";
 import { normalizeColor, toSvgColor } from "gh-badges/lib/color";
 
 export default {
