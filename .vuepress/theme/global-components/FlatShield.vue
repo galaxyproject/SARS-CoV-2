@@ -1,5 +1,10 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" :width="svgWidth" height="20">
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        :width="combinedWidth"
+        height="20"
+    >
         <linearGradient :id="smooth" x2="0" y2="100%">
             <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
             <stop offset="1" stop-opacity=".1" />
@@ -11,8 +16,8 @@
         </clipPath>
 
         <g :clip-path="urlClipPath">
-            <rect :width="w0" height="20" :fill="getFill" />
-            <rect :x="w0" :width="w1" height="20" :fill="colorB" />
+            <rect :width="leftWidth" height="20" :fill="getFill" />
+            <rect :x="leftWidth" :width="rightWidth" height="20" :fill="rightColorParsed" />
             <rect :width="combinedWidth" height="20" :fill="urlSmooth" />
         </g>
 
@@ -27,12 +32,11 @@
                 :textLength="ltLength"
                 lengthAdjust="spacing"
             >
-                {{ it.text[0] }}
+                {{ leftText }}
             </text>
             <text :x="ltX" y="140" transform="scale(0.1)" :textLength="ltLength" lengthAdjust="spacing">
-                {{ it.text[0] }}
+                {{ leftText }}
             </text>
-
 
             <!-- right text -->
             <text
@@ -44,10 +48,10 @@
                 :textLength="rtLength"
                 lengthAdjust="spacing"
             >
-                {{ it.text[1] }}
+                {{ rightText }}
             </text>
             <text :x="rtX" y="140" transform="scale(0.1)" :textLength="rtLength" lengthAdjust="spacing">
-                {{ it.text[1] }}
+                {{ rightText }}
             </text>
         </g>
         <!--
@@ -71,7 +75,6 @@ ripped/adapted from github.com/badges/shields to convert to a SVG-Generating vue
 CC0 1.0 Universal https://github.com/badges/shields/blob/master/gh-badges/LICENSE
 */
 import { v4 as uuidv4 } from "uuid";
-import { getBadgeContext } from "../util/ghShield.js";
 import { ana } from "../util/ana.js";
 import { normalizeColor, toSvgColor } from "gh-badges/lib/color";
 
@@ -94,48 +97,54 @@ export default {
         href: {
             type: String,
             default: null
+        },
+        leftColor: {
+            type: String
+        },
+        rightColor: {
+            type: String
         }
     },
     computed: {
-        it() {
-            return getBadgeContext({
-                text: [this.leftText, this.rightText]
-            });
+        leftColorParsed() {
+            return toSvgColor(normalizeColor(this.leftColor));
         },
-        svgWidth: function() {
-            /* Probablynotright? */
-            //width="{{=(it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}"
-            return this.combinedWidth;
+        rightColorParsed() {
+            return toSvgColor(normalizeColor(this.rightColor)) || "#4c1";
         },
-        colorA() {
-            return this.it.colorA;
+        leftWidth() {
+            let leftWidth = (ana.widthOf(this.leftText) / 10) | 0;
+            // Increase chances of pixel grid alignment.
+            if (leftWidth % 2 === 0) {
+                leftWidth++;
+            }
+            return leftWidth + 10;
         },
-        colorB() {
-            return this.it.colorb || "#4c1";
-        },
-        w0() {
-            return this.it.widths[0];
-        },
-        w1() {
-            return this.it.widths[1];
+        rightWidth() {
+            let rightWidth = (ana.widthOf(this.rightText) / 10) | 0;
+            // Increase chances of pixel grid alignment.
+            if (rightWidth % 2 === 0) {
+                rightWidth++;
+            }
+            return rightWidth + 10;
         },
         ltX() {
-            return (((this.it.widths[0])/2)+1)*10
+            return (this.leftWidth / 2 + 1) * 10;
         },
         ltLength() {
-            return (this.it.widths[0] - 10) * 10;
+            return (this.leftWidth - 10) * 10;
         },
         rtX() {
-            return (this.w0 + this.w1 / 2 - 1) * 10;
+            return (this.leftWidth + this.rightWidth / 2 - 1) * 10;
         },
         rtLength() {
-            return (this.it.widths[1] - 10) * 10;
+            return (this.rightWidth - 10) * 10;
         },
         getFill() {
-            return this.it.text[0].length ? this.it.colorA || "#555" : this.it.colorB || "#4c1";
+            return this.leftText.length ? this.leftColorParsed || "#555" : this.rightColorParsed || "#4c1";
         },
         combinedWidth() {
-            return this.w0 + this.w1;
+            return this.leftWidth + this.rightWidth;
         },
         urlSmooth() {
             return `url(#${this.smooth})`;
