@@ -54,18 +54,9 @@
                 {{ rightText }}
             </text>
         </g>
-        <!--
-        {{?(it.links[0] && it.links[0].length)}}
-        <a target="_blank" xlink:href="{{=it.links[0]}}">
-            <rect width="{{=it.widths[0]}}" height="20" fill="rgba(0,0,0,0)" />
+        <a v-if="href" target="_blank" :xlink:href="href">
+            <rect :width="combinedWidth" height="20" fill="rgba(0,0,0,0)" />
         </a>
-        {{?}}
-        {{?(it.links[0] && it.links[0].length || it.links[1] && it.links[1].length)}}
-        <a target="_blank" xlink:href="{{=it.links[1] || it.links[0]}}">
-            <rect x="{{=it.widths[0]}}" width="{{=it.widths[1]}}" height="20" fill="rgba(0,0,0,0)" />
-        </a>
-        {{?}}
-        -->
     </svg>
 </template>
 
@@ -96,7 +87,7 @@ export default {
         },
         href: {
             type: String,
-            default: null
+            default: ""
         },
         leftColor: {
             type: String
