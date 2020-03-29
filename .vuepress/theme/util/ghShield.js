@@ -88,13 +88,10 @@ const TEMPLATEBLOBS = {
 </svg>`
 };
 
-//import * as SVGO from "svgo";
 import * as dot from "dot";
 import { normalizeColor, toSvgColor } from "gh-badges/lib/color";
-//import * as anafanafo from "anafanafo";
 import * as bs from "binary-search";
 
-//console.debug(anafanafo);
 const templates = {};
 dot.templateSettings.strip = false; // Do not strip whitespace.
 
@@ -113,15 +110,6 @@ for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
         mapping.set(mapKey, match);
         return mapKey;
     });
-
-    //const svgo = new SVGO();
-    //const { data, error } = svgo.optimize(untemplatedSvg);
-
-    //if (error !== undefined) {
-    //    console.error(
-    //        `Template ${filename}: ${error}\n` + "  Generated untemplated SVG:\n" + `---\n${untemplatedSvg}---\n`
-    //    );
-    //}
 
     // Substitute dot code back.
     let svg = templateData;

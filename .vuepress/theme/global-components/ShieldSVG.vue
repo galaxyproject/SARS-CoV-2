@@ -12,7 +12,7 @@
 
         <g :clip-path="urlClipPath">
             <rect :width="w0" height="20" :fill="getFill" />
-            <rect :x="w0" :width="w1" height="20" :fill="getColorB" />
+            <rect :x="w0" :width="w1" height="20" :fill="colorB" />
             <rect :width="combinedWidth" height="20" :fill="urlSmooth" />
         </g>
 
@@ -32,6 +32,8 @@
             <text :x="ltX" y="140" transform="scale(0.1)" :textLength="ltLength" lengthAdjust="spacing">
                 {{ it.text[0] }}
             </text>
+
+
             <!-- right text -->
             <text
                 :x="rtX"
@@ -89,25 +91,21 @@ export default {
         }
     },
     computed: {
-        getColorB() {
-            return this.it.colorb || "#4c1";
-        },
         it() {
             return getBadgeContext({
                 text: [this.leftText, this.rightText]
             });
         },
         svgWidth: function() {
-            /* Probablynotright */
+            /* Probablynotright? */
+            //width="{{=(it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}"
             return this.combinedWidth;
-            //width="{{=(it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}" height="20">
-            //return it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}
         },
         colorA() {
             return this.it.colorA;
         },
         colorB() {
-            return this.it.colorB;
+            return this.it.colorb || "#4c1";
         },
         w0() {
             return this.it.widths[0];
@@ -116,22 +114,19 @@ export default {
             return this.it.widths[1];
         },
         ltX() {
-            return this.w0 + this.w1 / 2 - (this.it.text[0].length ? 1 : 0) * 10;
-        },
-        rtX() {
-            return (this.w0 / 2 + 1) * 10;
-        },
-        getFill() {
-            return this.it.text[0].length ? this.it.colorA || "#555" : this.it.colorB || "#4c1";
-        },
-        ltX() {
-            return (this.w0 + this.w1 / 2 - (this.it.text[0].length ? 1 : 0)) * 10;
+            return (((this.it.widths[0])/2)+1)*10
         },
         ltLength() {
             return (this.it.widths[0] - 10) * 10;
         },
+        rtX() {
+            return (this.w0 + this.w1 / 2 - 1) * 10;
+        },
         rtLength() {
             return (this.it.widths[1] - 10) * 10;
+        },
+        getFill() {
+            return this.it.text[0].length ? this.it.colorA || "#555" : this.it.colorB || "#4c1";
         },
         combinedWidth() {
             return this.w0 + this.w1;
@@ -146,7 +141,6 @@ export default {
     mounted() {
         this.clipPath = uuidv4();
         this.smooth = uuidv4();
-        console.debug(this.it);
     }
 };
 </script>
