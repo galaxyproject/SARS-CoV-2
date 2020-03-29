@@ -1,74 +1,54 @@
 <template>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        :width="svgWidth"
-        height="20"
-    >
-        <linearGradient id="smooth" x2="0" y2="100%">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" :width="svgWidth" height="20">
+        <linearGradient :id="smooth" x2="0" y2="100%">
             <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
             <stop offset="1" stop-opacity=".1" />
         </linearGradient>
 
-        <clipPath id="round">
+        <clipPath :id="clipPath">
+            <!-- Add ref here w/ uuid? -->
             <rect :width="combinedWidth" height="20" rx="3" fill="#fff" />
         </clipPath>
 
-        <g clip-path="url(#round)">
-            <rect width="{{=it.widths[0]}}" height="20" fill="{{=it.escapeXml(it.text[0].length || it.logo && it.colorA ? (it.colorA||"#555") : (it.colorB||"#4c1"))
-            }}"/> <rect x="{{=it.widths[0]}}" width="{{=it.widths[1]}}" height="20" fill="{{=it.escapeXml(it.colorB||"#4c1")
-            }}"/>
-            <rect width="{{=it.widths[0]+it.widths[1]}}" height="20" fill="url(#smooth)" />
+        <g :clip-path="urlClipPath">
+            <rect :width="w0" height="20" :fill="getFill" />
+            <rect :x="w0" :width="w1" height="20" :fill="getColorB" />
+            <rect :width="combinedWidth" height="20" :fill="urlSmooth" />
         </g>
 
         <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-            {{?it.logo}}
-            <image x="5" y="3" width="{{=it.logoWidth}}" height="14" xlink:href="{{=it.logo}}" />
-            {{?}}
-            {{?it.text[0].length}}
+            <!-- left text -->
             <text
-                x="{{=(((it.widths[0]+it.logoWidth+it.logoPadding)/2)+1)*10}}"
+                :x="ltX"
                 y="150"
                 fill="#010101"
                 fill-opacity=".3"
                 transform="scale(0.1)"
-                textLength="{{=(it.widths[0]-(10+it.logoWidth+it.logoPadding))*10}}"
+                :textLength="ltLength"
                 lengthAdjust="spacing"
             >
-                {{=it.escapedText[0]}}
+                {{ it.text[0] }}
             </text>
-            <text
-                x="{{=(((it.widths[0]+it.logoWidth+it.logoPadding)/2)+1)*10}}"
-                y="140"
-                transform="scale(0.1)"
-                textLength="{{=(it.widths[0]-(10+it.logoWidth+it.logoPadding))*10}}"
-                lengthAdjust="spacing"
-            >
-                {{=it.escapedText[0]}}
+            <text :x="ltX" y="140" transform="scale(0.1)" :textLength="ltLength" lengthAdjust="spacing">
+                {{ it.text[0] }}
             </text>
-            {{?}}
+            <!-- right text -->
             <text
-                x="{{=(it.widths[0]+it.widths[1]/2-(it.text[0].length ? 1 : 0 ))*10}}"
+                :x="rtX"
                 y="150"
                 fill="#010101"
                 fill-opacity=".3"
                 transform="scale(0.1)"
-                textLength="{{=(it.widths[1]-10)*10}}"
+                :textLength="rtLength"
                 lengthAdjust="spacing"
             >
-                {{=it.escapedText[1]}}
+                {{ it.text[1] }}
             </text>
-            <text
-                x="{{=(it.widths[0]+it.widths[1]/2-(it.text[0].length ? 1 : 0 ))*10}}"
-                y="140"
-                transform="scale(0.1)"
-                textLength="{{=(it.widths[1]-10)*10}}"
-                lengthAdjust="spacing"
-            >
-                {{=it.escapedText[1]}}
+            <text :x="rtX" y="140" transform="scale(0.1)" :textLength="rtLength" lengthAdjust="spacing">
+                {{ it.text[1] }}
             </text>
         </g>
-
+        <!--
         {{?(it.links[0] && it.links[0].length)}}
         <a target="_blank" xlink:href="{{=it.links[0]}}">
             <rect width="{{=it.widths[0]}}" height="20" fill="rgba(0,0,0,0)" />
@@ -79,13 +59,21 @@
             <rect x="{{=it.widths[0]}}" width="{{=it.widths[1]}}" height="20" fill="rgba(0,0,0,0)" />
         </a>
         {{?}}
+        -->
     </svg>
 </template>
 
 <script>
-import { makeBadge } from "../util/ghShield.js";
+import { v4 as uuidv4 } from "uuid";
+import { getBadgeContext } from "../util/ghShield.js";
 
 export default {
+    data() {
+        return {
+            clipPath: "",
+            smooth: ""
+        };
+    },
     props: {
         leftText: {
             type: String,
@@ -101,17 +89,64 @@ export default {
         }
     },
     computed: {
-        it: function() {
+        getColorB() {
+            return this.it.colorb || "#4c1";
+        },
+        it() {
             return getBadgeContext({
-                text: [this.leftText, this.rightText],
+                text: [this.leftText, this.rightText]
             });
         },
-        svgWidth: function(){
-            return it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}"
+        svgWidth: function() {
+            /* Probablynotright */
+            return this.combinedWidth;
+            //width="{{=(it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}" height="20">
+            //return it.widths[0] -= it.text[0].length ? 0 : (it.logo ? (it.colorA ? 0 : 7) : 11))+it.widths[1]}}
         },
-        combinedWidth: function(){
-            return it.widths[0]+it.widths[1];
+        colorA() {
+            return this.it.colorA;
+        },
+        colorB() {
+            return this.it.colorB;
+        },
+        w0() {
+            return this.it.widths[0];
+        },
+        w1() {
+            return this.it.widths[1];
+        },
+        ltX() {
+            return this.w0 + this.w1 / 2 - (this.it.text[0].length ? 1 : 0) * 10;
+        },
+        rtX() {
+            return (this.w0 / 2 + 1) * 10;
+        },
+        getFill() {
+            return this.it.text[0].length ? this.it.colorA || "#555" : this.it.colorB || "#4c1";
+        },
+        ltX() {
+            return (this.w0 + this.w1 / 2 - (this.it.text[0].length ? 1 : 0)) * 10;
+        },
+        ltLength() {
+            return (this.it.widths[0] - 10) * 10;
+        },
+        rtLength() {
+            return (this.it.widths[1] - 10) * 10;
+        },
+        combinedWidth() {
+            return this.w0 + this.w1;
+        },
+        urlSmooth() {
+            return `url(#${this.smooth})`;
+        },
+        urlClipPath() {
+            return `url(#${this.clipPath})`;
         }
+    },
+    mounted() {
+        this.clipPath = uuidv4();
+        this.smooth = uuidv4();
+        console.debug(this.it);
     }
 };
 </script>

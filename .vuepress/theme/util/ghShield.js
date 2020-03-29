@@ -137,6 +137,7 @@ for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
         }
     });
     if (unmappedKeys.length > 0) {
+      /*
         console.error(
             `Template ${filename} has unmapped keys ` +
                 `${unmappedKeys.join(", ")}.\n` +
@@ -145,6 +146,8 @@ for (const [filename, templateData] of Object.entries(TEMPLATEBLOBS)) {
                 "  Generated template:\n" +
                 `---\n${svg}\n---\n`
         );
+        */
+       console.error("unmapped keys ", unmappedKeys);
     }
 
     templates[style] = dot.template(svg);

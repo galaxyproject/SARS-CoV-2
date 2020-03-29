@@ -11,5 +11,8 @@
     "build": "vuepress build ."
   },
   "author": "",
-  "license": "AFL-3.0"
+  "license": "AFL-3.0",
+  "dependencies": {
+    "uuid": "^7.0.2"
+  }
 }
