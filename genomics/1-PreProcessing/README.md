@@ -10,7 +10,7 @@ The raw reads available so far are generated from bronchoalveolar lavage fluid (
 | usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be | usegalaxy.fr |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.org/u/aun1/w/covid-19-pre-pp" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-read-pre-processing" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.org.au/u/simongladman/w/covid-19-read-pre-processing" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.be/u/ieguinoa/w/covid-19-read-pre-processing" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.fr/u/lecorguille/w/covid-19-read-pre-processing-with-download" alt="Galaxy workflow" /> |
-| <FlatShield label="history" message="view" href="https://usegalaxy.org/u/aun1/h/covid-19-pre-processing" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-read-pre-processing-without-downloading-from-sra" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.be/u/ieguinoa/h/covid-19---preprocessing-from-local-files" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.fr/u/lecorguille/h/covid-19-pre-processing" alt="Galaxy history" /> |
+| <FlatShield label="history" message="view" href="https://usegalaxy.org/u/aun1/h/covid-19-pre-processing" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-sequenced-reads-preprocessing" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.org.au/u/simongladman/h/covid-19-alternate-pre-processing" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.be/u/ieguinoa/h/covid-19---preprocessing-from-local-files" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.fr/u/lecorguille/h/covid-19-pre-processing" alt="Galaxy history" /> |
 
 
 ## What's the point?
@@ -49,9 +49,9 @@ This workflow produces three outputs that are used in two subsequent analyses:
 
 | #  | Output | Used in |
 |----|------|---------|
-| 1. | A combined set of adapter-free Illumina reads without human contamination | [Assembly](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
-| 2. | A combined set of Oxford Nanopore reads without human contamination | [Assembly](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
-| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [Variation detection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) |
+| 1. | A combined set of adapter-free Illumina reads without human contamination | [Assembly](https://covid19.galaxyproject.org/genomics/2-Assembly/) |
+| 2. | A combined set of Oxford Nanopore reads without human contamination | [Assembly](https://covid19.galaxyproject.org/genomics/2-Assembly/) |
+| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [Variation detection](https://covid19.galaxyproject.org/genomics/4-Variation/) |
 
 ## The history and the workflow
 
