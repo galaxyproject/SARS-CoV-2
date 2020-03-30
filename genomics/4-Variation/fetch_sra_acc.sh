@@ -17,6 +17,12 @@ curl -s 'https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049
 
 cat ena.txt genbank.txt sra.txt | sort | uniq > union.txt
 rm ena.txt
+
+if [ ! -f acc2exclude.txt ]
+then
+  touch acc2exclude.txt;
+fi
+
 grep -f acc2exclude.txt -v union.txt > current.txt
 
 # Annotate combined accession with metadata
