@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "", 
     "format-version": "0.1", 
-    "name": "6 - RecSel", 
+    "name": "6 - Recombination and selection analysis", 
     "steps": {
         "0": {
             "annotation": "", 

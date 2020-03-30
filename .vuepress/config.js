@@ -6,7 +6,7 @@ module.exports = {
         extractHeaders: ["h1", "h2", "h3"]
     },
     themeConfig: {
-        repo: 'galaxyproject/SARS-CoV-2',
+        repo: "galaxyproject/SARS-CoV-2",
         nav: [
             {
                 text: "Genomics",
@@ -50,6 +50,6 @@ module.exports = {
         },
         sidebarDepth: 3,
         displayAllHeaders: true,
-        search: false,
+        search: false
     }
 };

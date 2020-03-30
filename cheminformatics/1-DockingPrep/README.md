@@ -7,8 +7,8 @@ This section describes the preparation of protein and ligands for docking.
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/h/charge-enumeration) | 
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/charge-enumeration) | 
+| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/sbray/h/charge-enumeration" alt="Galaxy history" /> | 
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/charge-enumeration" alt="Galaxy workflow" /> | 
 
 
 ## Outline

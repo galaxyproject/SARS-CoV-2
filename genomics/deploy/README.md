@@ -62,9 +62,9 @@ workflow-install --publish_workflows --workflow_path workflows/ -g $galaxy_insta
 If you don't have access to any existing Galaxy instance, you can also use our preconfigured Docker image.
 
 ```
-docker run -p 8080:80 quay.io/galaxy/covid-19-training
+docker run --privileged -p 8080:80 quay.io/galaxy/covid-19-training
 ```
 
-It will launch a flavored Galaxy instance available on http://localhost:8080. This instance will contain all the tools and workflows to execute the COVID-19 analyses described on this page. Login as `admin@galaxy.org` with password `admin` to access everything.
+It will launch a flavored Galaxy instance available on http://localhost:8080. This instance will contain all the tools and workflows to execute the COVID-19 analyses described on this page. The `--privileged` parameter is used to enable CVMFS, which makes the human reference genome hg38 available for the use of Minimap2. Login as `admin@galaxy.org` with password `admin` to access everything.
 
 More information on the use of Galaxy Docker containers can be found [here](https://github.com/bgruening/docker-galaxy-stable).

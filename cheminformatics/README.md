@@ -3,7 +3,10 @@ title: Cheminformatics
 ---
 # Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)
 
-Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
+
+Powered by: <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
 
 [Tim Dudgeon](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
@@ -60,6 +63,18 @@ Of these steps, the third (docking) is the most compute-intensive. Here, the pro
 
 All data is publicly available via [https://usegalaxy.eu](https://usegalaxy.eu),
 together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
+
+## Training
+We have published a [tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html), as part of the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/), describing how to perform a small-scale version of this analysis on the European Galaxy server. It also acts as a more detailed version of the documentation on this site.
+
+## Galaxy workflow
+
+| All in one virtual screening workflow  |
+|----------------|
+|![](./img/all_in_one_workflow.png) |
+| This workflow contains all steps as sub-workflows. Please refer to the sub-pages for detailed information.<br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/timdudgeon/w/xchem-combined" alt="Galaxy workflow" /> |
+
+
 
 ## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.
