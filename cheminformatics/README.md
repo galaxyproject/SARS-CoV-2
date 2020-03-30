@@ -6,7 +6,7 @@ title: Cheminformatics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
-Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
+Powered by: <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
 
 [Tim Dudgeon](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
@@ -72,7 +72,8 @@ We have published a [tutorial](https://training.galaxyproject.org/training-mater
 | All in one virtual screening workflow  |
 |----------------|
 |![](./img/all_in_one_workflow.png) |
-| This workflow contains all steps as sub-workflows. Please refer to the sub-pages for detailed information.<br/> [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/timdudgeon/w/xchem-combined)|
+| This workflow contains all steps as sub-workflows. Please refer to the sub-pages for detailed information.<br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/timdudgeon/w/xchem-combined" alt="Galaxy workflow" /> |
+
 
 
 ## Future work

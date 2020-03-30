@@ -6,8 +6,8 @@ This section describes the docking procedure. This was repeated 17 times, for ea
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161) |
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=view&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-docking-only) |
+| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161" alt="Galaxy history" /> | 
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-docking-only" alt="Galaxy workflow" /> | 
 
 ## Outline
 

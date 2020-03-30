@@ -8,8 +8,9 @@ For this, all scores for the 17 fragments were combined (i.e. so that each compo
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/top-500-enamine--chemspace-bb) | 
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/w/filter-results) | 
+| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/timdudgeon/h/top-500-enamine--chemspace-bb" alt="Galaxy history" /> | 
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/timdudgeon/w/filter-results" alt="Galaxy workflow" /> | 
+
 
 ## Outline
 
