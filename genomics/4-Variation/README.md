@@ -2,17 +2,17 @@
 title: Variation
 ---
 
-# Analysis of variation within individual COVID-19 samples | March 20 2020
+# Analysis of variation within individual COVID-19 samples | March 26 2020
 
 <!--
 ## Live Resources
 
-<!---
-| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be |
-|:--------:|:------------:|:------------:|:------------:|
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) |
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) |
-| [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) |
+<!--
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au | usegalaxy.be | usegalaxy.fr |
+|:--------:|:------------:|:------------:|:------------:|:------------:|
+| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org.au/u/simongladman/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.be/u/ieguinoa/w/covid-19-variation) | [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.fr/u/lecorguille/w/covid-19-variation-analysis) |
+| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org/u/aun1/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-intra-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.org.au/u/simongladman/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.be/u/ieguinoa/h/covid-19-variation) | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.fr/u/lecorguille/h/covid-19-variation-pe) |
+| [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](variation_analysis.ipynb) | [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=outside&color=orange)](variation_analysis.ipynb) |
 
 --->
 
@@ -20,51 +20,24 @@ title: Variation
 
 The absolute majority of SARS-COV-2 data is in the form of assembled genomic sequences. This is unfortunate because any variation that exists within individual samples is obliterated--converted to the most frequent base--during the assembly process. However, knowing underlying evolutionary dynamics is critical for tracing evolution of the virus as it allows identification of genomic regions under different selective regimes and understanding of its population parameters.
 
-## Data availability
+## Data availability (:fire: updated daily)
 
 Raw sequencing reads are required to detected within-sample variation. We update the list of available data daily using the following logic implemented in [fetch_sra_acc.sh](fetch_sra_acc.sh):
 
- 1. Two resources list read data available for SARS-CoV-2: [SARS-CoV-2 resource](https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml) and [SRA itself](https://www.ncbi.nlm.nih.gov/sra/?term=txid2697049[Organism:noexp]). 
+ 1. Two resources list read data available for SARS-CoV-2: [SARS-CoV-2 resource](https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml) and [SRA itself](https://www.ncbi.nlm.nih.gov/sra/?term=txid2697049[Organism:noexp]).
  2. We pull accession numbers from these two resources ([genbank.txt](genbank.txt) and [sra.txt](sra.txt)) and compute their union ([union.txt](union.txt))
- 3. From the list obtained at the previous step we exclude bad datasets and non human samples (see [this file](acc2exclude.txt) or view datasets directly in [run selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRR11085733%2CSRR11085797%2CSRR11085741%2CSRR11085740%2CSRR11085738%2CSRR11085737%2CSRR11085736%2CSRR11092056%2CSRR11092057%2CSRR11092058%2CSRR11092059%2CSRR11092060%2CSRR11092061%2CSRR11092062%2CSRR11092063%2CSRR11092064&ff=on#)). This produces a list of current SRA accession: [current.txt](current.txt). 
- 4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms. This is done by uploading accessions listed in 
+ 3. From the list obtained at the previous step we exclude bad datasets and non human samples (see [this file](acc2exclude.txt) or view datasets directly in [run selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRR11085733%2CSRR11085797%2CSRR11085741%2CSRR11085740%2CSRR11085738%2CSRR11085737%2CSRR11085736%2CSRR11092056%2CSRR11092057%2CSRR11092058%2CSRR11092059%2CSRR11092060%2CSRR11092061%2CSRR11092062%2CSRR11092063%2CSRR11092064&ff=on#)). This produces a list of current SRA accession: [current.txt](current.txt).
+ 4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms. This is done by uploading accessions listed in
 [current.txt](current.txt) to SRA Run Selector and filtering on `platform=ILLUMINA`.
 
-This is the current list of analyzed datasets:
+The list of currently analyzed datasets is below:
 
-```
-SRR10903401
-SRR10903402
-SRR10971381
-SRR11059940
-SRR11059941
-SRR11059942
-SRR11059943
-SRR11059944
-SRR11059945
-SRR11059946
-SRR11059947
-SRR11140744
-SRR11140746
-SRR11140748
-SRR11140750
-SRR11177792
-SRR11241254
-SRR11241255
-SRR11247075
-SRR11247076
-SRR11247077
-SRR11247078
-SRR11278090
-SRR11278091
-SRR11278092
-SRR11278164
-SRR11278165
-SRR11278166
-SRR11278167
-SRR11278168
-SRR11314339
-```
+| Accessions | Date | Galaxy history |
+|--------|---------|--------------|
+| [SRR10903401](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10903401)<br>[SRR10903402](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10903402)<br>[SRR10971381](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10971381)<br>[SRR11059940](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059940)<br>[SRR11059941](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059941)<br>[SRR11059942](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059942)<br>[SRR11059943](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059943)<br>[SRR11059944](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059944)<br>[SRR11059945](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059945)<br>[SRR11059946](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059946)<br>[SRR11059947](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059947)<br>[SRR11140744](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140744)<br>[SRR11140746](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140746)<br>[SRR11140748](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140748)<br>[SRR11140750](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140750)<br>[SRR11177792](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11177792)<br>[SRR11241254](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11241254)<br>[SRR11241255](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11241255)<br>[SRR11247075](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247075)<br>[SRR11247076](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247076)<br>[SRR11247077](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247077)<br>[SRR11247078](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247078)<br>[SRR11278090](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278090)<br>[SRR11278091](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278091)<br>[SRR11278092](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278092)<br>[SRR11278164](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278164)<br>[SRR11278165](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278165)<br>[SRR11278166](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278166)<br>[SRR11278167](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278167)<br>[SRR11278168](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278168)<br>[SRR11314339](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11314339) | Beginning of outbreak - March 20, 2020 | [Paired End](https://usegalaxy.org/u/aun1/h/covid-19-variation-pe-mar-19)<br>[Single End](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19)|
+|[SRR11397714](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397714)<br>[SRR11397715](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397715)<br>[SRR11397716](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397716)<br>[SRR11397717](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397717)<br>[SRR11397718](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397718)<br>[SRR11397719](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397719)<br>[SRR11397720](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397720)<br>[SRR11397721](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397721)<br>[SRR11397728](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397728)<br>[SRR11397729](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397729)<br>[SRR11397730](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397730)<br>[SRR11393704](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11393704) | March 25, 2020 | [Paired and Single Ends](https://usegalaxy.org/u/aun1/h/covid-19-variation-march-25) |
+| [SRR11410528](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410528)<br>[SRR11410529](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410529)<br>[SRR11410532](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410532)<br>[SRR11410533](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410533)<br>[SRR11410536](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410536)<br>[SRR11410538](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410538)<br>[SRR11410540](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410540)<br>[SRR11410541](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410541)<br>[SRR11410542](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410542)<br>[SRR11409417](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11409417) | March 26, 2020 |  [Paired End](https://usegalaxy.org/u/aun1/h/covid-19-variation-march-26) |
+
 
 Next we fetch fastq datasets for accession listed in [current_illumina.txt](current_illumina.txt) using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section. We also download Genbank file for SARS-CoV-2 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). Finally we apply the following workflows to Paired and Single end data, respectively:
 
@@ -99,9 +72,9 @@ Next we fetch fastq datasets for accession listed in [current_illumina.txt](curr
  6. Convert VCFs into tab delimited dataset
 
 
-:warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or not. As a result we did not incorporate variation from ONT data into our report at this time. 
+:warning: We obtained vastly different results depending on whether the reads were filtered with `filtlong` or not. As a result we did not incorporate variation from ONT data into our report at this time.
 
---> 
+-->
 
 After running both workflows the data is combined into a single dataset ([variant_list.tsv](variant_list.tsv)) and analyzed using in [Jupyter notebook](variation_analysis.ipynb).
 
@@ -119,7 +92,7 @@ The Jupyter notebook requires the GenBank file (#1 from above) and the output of
 
 ## Outputs
 
-The workflow produces a [table of variants](variant_list.tsv) that looks like this:
+The workflow produces a [table of variants](variant_list.tsv) (also [filtered](variant_list.05.tsv) at 5% allele frequency) that looks like this:
 
 <div>
 <table>
@@ -260,9 +233,9 @@ We use two separate workflows for performing paired and single end data analyses
 We analyze paired end and single end data in separate histories. Next we combine output of the two workflows into a new history where Jupyter analysis is performed. These three histories are:
 
  - [Paired end](https://usegalaxy.org/u/aun1/h/covid-19-variation-pe-mar-19)
- - [Single end](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19) 
+ - [Single end](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19)
  - [Jupyter analysis](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1)
- 
+
 ## BioConda
 
 Tools used in this analysis are also available from BioConda:

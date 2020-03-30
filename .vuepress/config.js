@@ -6,7 +6,7 @@ module.exports = {
         extractHeaders: ["h1", "h2", "h3"]
     },
     themeConfig: {
-        repo: 'galaxyproject/SARS-CoV-2',
+        repo: "galaxyproject/SARS-CoV-2",
         nav: [
             {
                 text: "Genomics",
@@ -35,11 +35,12 @@ module.exports = {
                 "/cheminformatics/2-ActiveSitePrep/",
                 "/cheminformatics/3-Docking/",
                 "/cheminformatics/4-Scoring/",
+                "/cheminformatics/5-Selection/",
                 "/cheminformatics/Histories/"
             ]
         },
         sidebarDepth: 3,
         displayAllHeaders: true,
-        search: false,
+        search: false
     }
 };

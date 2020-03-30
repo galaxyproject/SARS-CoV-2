@@ -9,26 +9,19 @@
       </p>
     </header>
     <div class="features">
-      <p class="shields">
+      <p class="shieldlist">
+        <!-- not a list, but we want it aligned with the right side, which is, so apply the same style -->
           <a href="https://doi.org/10.5281/zenodo.3685264" target="_blank" rel="noopener noreferrer"><img
               src="https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg" alt="DOI">
           </a>
       </p>
-      <p class="shields">
+      <p class="shieldlist">
           Powered by:
-          <a href="https://usegalaxy.org" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=org&amp;color=green" alt="usegalaxy.org">
-          </a>
-          <a href="https://usegalaxy.eu" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=eu&amp;color=green" alt="usegalaxy.eu">
-          </a>
-          <a href="https://usegalaxy.be" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=be&amp;color=green" alt="usegalaxy.be">
-          </a>
-          <a href="https://usegalaxy.org.au" target="_blank" rel="noopener noreferrer"><img
-              src="https://img.shields.io/static/v1?label=usegalaxy&amp;message=org.au&amp;color=green"
-              alt="usegalaxy.org.au">
-          </a>
+          <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org" />
+          <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu" />
+          <FlatShield label="usegalaxy" message="be" href="https://usegalaxy.be" />
+          <FlatShield label="usegalaxy" message="org.au" href="https://usegalaxy.org.au" />
+          <FlatShield label="usegalaxy" message="fr" href="https://usegalaxy.fr" />
       </p>
       <p>
         The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature two different projects:
@@ -60,6 +53,7 @@
             <li><RouterLink :to="'/cheminformatics/2-ActiveSitePrep/'">Generation of 3D conformations</RouterLink></li>
             <li><RouterLink :to="'/cheminformatics/3-Docking/'">Docking</RouterLink></li>
             <li><RouterLink :to="'/cheminformatics/4-Scoring/'">Scoring</RouterLink></li>
+            <li><RouterLink :to="'/cheminformatics/5-Selection/'">Selection of compounds for synthesis</RouterLink></li>
           </ul>
         </p>
       </div>
@@ -136,10 +130,6 @@ export default {
     align-items flex-start
     align-content stretch
     justify-content space-between
-    .shields
-      line-height 20px
-      img 
-        vertical-align bottom
   .feature
     flex-grow 1
     width 100%

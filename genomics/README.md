@@ -5,12 +5,14 @@ title: Genomics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
-Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&message=org&color=green)](https://usegalaxy.org)
-[![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
-[![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
-[![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
-
-
+<p class="shieldlist">
+Powered by:
+<FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org"/>
+<FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
+<FlatShield label="usegalaxy" message="be" href="https://usegalaxy.be"/>
+<FlatShield label="usegalaxy" message="org.au" href="https://usegalaxy.org.au"/>
+<FlatShield label="usegalaxy" message="fr" href="https://usegalaxy.fr"/>
+</p>
 
 [Dannon Baker](https://github.com/dannon),
 [Marius van den Beek](https://github.com/mvdbeek),
@@ -23,6 +25,7 @@ Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&m
 [Simon Gladman](https://github.com/slugger70),
 [Björn Grüning](https://github.com/bgruening),
 [Delphine Larivière](https://github.com/Delphine-L),
+[Gildas Le Corguillé](https://github.com/lecorguille),
 [Andrew Lonie](https://github.com/alonie),
 [Nicholas Keener](https://github.com/nickeener),
 [Sergei Kosakovsky Pond](https://github.com/spond),
@@ -74,4 +77,5 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
   <a href="https://www.vscentrum.be">          <img src="./img/VSC-logo.png" width="25%" alt="Vlaams Supercomputer Center" /></a> &nbsp;
   <a href="https://www.eosc-life.eu">          <img src="./img/eosclife.png" width="10%" alt="EOSC-Life" /></a> &nbsp;
   <a href="https://datamonkey.org">          <img src="./img/datamonkey.svg" alt="Datamonkey" width = "150px" /></a> &nbsp;
+  <a href="https://www.france-bioinformatique.fr/en">          <img src="./img/ifb.png" alt="IFB" width = "20%" /></a> &nbsp;
   </p>

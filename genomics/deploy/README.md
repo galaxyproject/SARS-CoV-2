@@ -14,7 +14,7 @@ pip install ephemeris
 
 ## Download the necessary files
 
-The workflows can be found in the galaxyproject/SARS-CoV-2 github repository. 
+The workflows can be found in the [galaxyproject/SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2) GitHub repository. 
 ```
 git clone https://github.com/galaxyproject/SARS-CoV-2.git
 ```
@@ -34,7 +34,7 @@ Galaxy admin accounts are specified as a comma-separated email list in the `admi
 Go to the deploy directory of the recently cloned SARS-CoV-2 repository.
 
 ```
-cd SARS-CoV-2/deploy
+cd SARS-CoV-2/genomics/deploy
 ```
 
 Declare following variables:

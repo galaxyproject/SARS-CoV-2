@@ -3,7 +3,10 @@ title: Cheminformatics
 ---
 # Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)
 
-Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
+
+Powered by: <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
 
 [Tim Dudgeon](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
@@ -52,7 +55,7 @@ The enumerated compounds were used as inputs for the docking and scoring workflo
 3. [Docking](3-Docking) of molecules into each of the MPro binding sites using rDock, generating 25 docking poses for each molecule.
 4. [Evaluation of the docking poses](4-Scoring) using a [deep learning approach][3] developed at the University of Oxford, employing augmentation of training data with incorrectly docked ligands to prompt the model to learn from protein-ligand interactions. The algorithm was deployed on the European Galaxy server inside a Docker container, thanks to work by InformaticsMatters and the European Galaxy team.
 5. [Scoring](4-Scoring) of the top scoring pose from each molecule against the original fragment screening hit ligands using the [SuCOS MAX shape and feature overlay algorithm][4], again deployed on the European Galaxy server by InformaticsMatters and the European Galaxy team.
-
+6. [Selection](5-Selection) of compounds available in the [Enamine REAL](https://enamine.net/) and [ChemSpace](https://chem-space.com/) databases for purchase and further study.
 
 This workflow was repeated for each of the 17 fragment screening crystal structures that were available at the time: Mpro -x1249, -x0072, -x0104, -x0107, -x0161, -x0195, -x0305, -x0354, -x0387, -x0434, -x0540, -x0678, -x0874, -x0946, -x0995, -x1077 and -x1093 (more hits have been found since).
  
@@ -60,6 +63,18 @@ Of these steps, the third (docking) is the most compute-intensive. Here, the pro
 
 All data is publicly available via [https://usegalaxy.eu](https://usegalaxy.eu),
 together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
+
+## Training
+We have published a [tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html), as part of the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/), describing how to perform a small-scale version of this analysis on the European Galaxy server. It also acts as a more detailed version of the documentation on this site.
+
+## Galaxy workflow
+
+| All in one virtual screening workflow  |
+|----------------|
+|![](./img/all_in_one_workflow.png) |
+| This workflow contains all steps as sub-workflows. Please refer to the sub-pages for detailed information.<br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/timdudgeon/w/xchem-combined" alt="Galaxy workflow" /> |
+
+
 
 ## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.

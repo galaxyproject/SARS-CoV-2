@@ -8,8 +8,9 @@ Oxford University were used to generate additional predicted binding scores.
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161) |
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=view&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=view&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring)| 
+| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/timdudgeon/h/mpro-x0161" alt="Galaxy history" /> | 
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring" alt="Galaxy workflow" />  <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring" alt="Galaxy workflow" /> | 
+
 
 ## Outline
 
@@ -28,12 +29,13 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [TransFS scoring workflow](https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring) and [SuCOS scoring workflow](https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring) can be downloaded and installed on any Galaxy instance. They contain version information for all tools used in this analysis.
 
- <p align="center">
-  TransFS scoring
-  <a href="https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring">   <img src="./w-transFS-scoring.png" alt="Workflow transFS scoring" /></a> &nbsp;
-  SuCOS scoring
-  <a href="https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring">    <img src="./w-SuCOS-scoring.png" alt="Workflow SuCOS scoring" /></a> &nbsp;
- </p>
+| Scoring workfows  |
+|----------------|
+|![](./w-transFS-scoring.png) |
+| TransFS scoring workflow [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring)|
+|![](./w-SuCOS-scoring.png)|
+| SuCOS scoring workflow [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring) |
+
 
 ## References
 
