@@ -13,6 +13,7 @@
   "license": "AFL-3.0",
   "dependencies": {
     "gh-badges": "^2.2.1",
+    "@observablehq/runtime": "^4.7.0",
     "uuid": "^7.0.2"
   }
 }
