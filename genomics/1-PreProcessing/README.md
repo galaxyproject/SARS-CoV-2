@@ -49,9 +49,9 @@ This workflow produces three outputs that are used in two subsequent analyses:
 
 | #  | Output | Used in |
 |----|------|---------|
-| 1. | A combined set of adapter-free Illumina reads without human contamination | [Assembly](https://covid19.galaxyproject.org/genomics/2-Assembly/) |
-| 2. | A combined set of Oxford Nanopore reads without human contamination | [Assembly](https://covid19.galaxyproject.org/genomics/2-Assembly/) |
-| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [Variation detection](https://covid19.galaxyproject.org/genomics/4-Variation/) |
+| 1. | A combined set of adapter-free Illumina reads without human contamination | [Assembly](../2-Assembly/) |
+| 2. | A combined set of Oxford Nanopore reads without human contamination | [Assembly](../2-Assembly/) |
+| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [Variation detection](../4-Variation/) |
 
 ## The history and the workflow
 

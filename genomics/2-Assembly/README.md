@@ -24,7 +24,7 @@ In addition to assemblies (actual sequences) the two tools produce assembly grap
 
 ## Inputs
 
-Filtered Illumina and Oxford Nanopore reads produced during the [pre-processing step](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing) are used as inputs to the assembly tools.
+Filtered Illumina and Oxford Nanopore reads produced during the [pre-processing step](../1-PreProcessing/) are used as inputs to the assembly tools.
 
 ## Outputs
 
