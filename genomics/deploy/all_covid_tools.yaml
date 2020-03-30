@@ -2,12 +2,6 @@ install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: true
 tools:
-- name: sra_tools
-  owner: iuc
-  revisions:
-  - f5ea3ce9b9b0
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastp
   owner: iuc
   revisions:
@@ -54,6 +48,66 @@ tools:
   owner: devteam
   revisions:
   - 6f9c0884a3e7
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: samtools_fastx
+  owner: iuc
+  revisions:
+  - a8d69aee190e
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - aad3885b3216
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: fastp
+  owner: iuc
+  revisions:
+  - 1d8fe9bc4cb0
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: nanoplot
+  owner: iuc
+  revisions:
+  - 645159bcee2d
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: fastqc
+  owner: devteam
+  revisions:
+  - e7b2202befea
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: minimap2
+  owner: iuc
+  revisions:
+  - b3eab4b67562
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: multiqc
+  owner: iuc
+  revisions:
+  - b2f1f75d49c4
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: bwa
+  owner: devteam
+  revisions:
+  - 01ac0a5fedc3
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: samtool_filter2
+  owner: devteam
+  revisions:
+  - 649a225999a5
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: picard
+  owner: devteam
+  revisions:
+  - a1f0b3f4b781
   tool_panel_section_label: Covid-19
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: samtools_fastx
@@ -116,6 +170,49 @@ tools:
   - e005e659ae21
   tool_panel_section_label: Covid-19
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: snpeff
+  owner: iuc
+  revisions:
+  - c9ecd2a96ecf
+  - 36dc3690a82c
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: bwa
+  owner: devteam
+  revisions:
+  - 01ac0a5fedc3
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: samtool_filter2
+  owner: devteam
+  revisions:
+  - 56c31114ad4a
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: lofreq_viterbi
+  owner: iuc
+  revisions:
+  - ecd80c7c3886
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: lofreq_call
+  owner: iuc
+  revisions:
+  - dfadc322b065
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: snpsift
+  owner: iuc
+  revisions:
+  - 09d6806c609e
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 33151a38533a
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: emboss_5
   owner: devteam
   revisions:
@@ -156,102 +253,5 @@ tools:
   owner: iuc
   revisions:
   - f73435dc282b
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: fastp
-  owner: iuc
-  revisions:
-  - a935cbdf1c0e
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: nanoplot
-  owner: iuc
-  revisions:
-  - edbb6c5028f5
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: fastqc
-  owner: devteam
-  revisions:
-  - 3e1cdf5406db
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: minimap2
-  owner: iuc
-  revisions:
-  - 17e61517c166
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: multiqc
-  owner: iuc
-  revisions:
-  - b2f1f75d49c4
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: bwa
-  owner: devteam
-  revisions:
-  - 01ac0a5fedc3
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: samtool_filter2
-  owner: devteam
-  revisions:
-  - 56c31114ad4a
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: picard
-  owner: devteam
-  revisions:
-  - 6f9c0884a3e7
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: samtools_fastx
-  owner: iuc
-  revisions:
-  - a8d69aee190e
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: snpeff
-  owner: iuc
-  revisions:
-  - 36dc3690a82c
-  - c9ecd2a96ecf
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: bwa
-  owner: devteam
-  revisions:
-  - 01ac0a5fedc3
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: samtool_filter2
-  owner: devteam
-  revisions:
-  - 56c31114ad4a
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: lofreq_viterbi
-  owner: iuc
-  revisions:
-  - ecd80c7c3886
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: lofreq_call
-  owner: iuc
-  revisions:
-  - dfadc322b065
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: snpsift
-  owner: iuc
-  revisions:
-  - 09d6806c609e
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: collapse_collections
-  owner: nml
-  revisions:
-  - 33151a38533a
   tool_panel_section_label: Covid-19
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
