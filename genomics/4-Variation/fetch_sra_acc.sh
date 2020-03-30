@@ -11,8 +11,11 @@ grep -o "SRR[[:digit:]]\+" ncov-sequences.yaml > genbank.txt
 # From SRA
 IDS=$(curl 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=txid2697049\[Organism%3Anoexp\]&retmax=1000' | grep "<Id>" | grep -o "[[:digit:]]\+" | tr "\n" ",")
 curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&amp;id=$IDS" | grep -o "SRR[[:digit:]]\+" | sort | uniq > sra.txt
+# From ENA
+curl -s 'https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049&result=read_run&download=true' | grep -o "SRR[[:digit:]]\+" > ena.txt
 
-cat genbank.txt sra.txt | sort | uniq > union.txt
+cat ena.txt genbank.txt sra.txt | sort | uniq > union.txt
+rm ena.txt
 grep -f acc2exclude.txt -v union.txt > current.txt
 
 # Annotate combined accession with metadata
