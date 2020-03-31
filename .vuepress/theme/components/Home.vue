@@ -1,148 +1,186 @@
 <template>
-  <main class="home" aria-labelledby="main-title">
-    <header class="hero">
-      <h1 id="main-title">
-        Best practices for the analysis of SARS-CoV-2 data: Genomics and Cheminformatics
-      </h1>
-      <p class="description">
-        Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets.
-      </p>
-      <p class="shieldlist">
-        <!-- not a list, but we want it aligned with the right side, which is, so apply the same style -->
-          <a href="https://doi.org/10.5281/zenodo.3685264" target="_blank" rel="noopener noreferrer"><img
-              src="https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg" alt="DOI">
-          </a>
-          Powered by:
-          <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org" />
-          <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu" />
-          <FlatShield label="usegalaxy" message="be" href="https://usegalaxy.be" />
-          <FlatShield label="usegalaxy" message="org.au" href="https://usegalaxy.org.au" />
-          <FlatShield label="usegalaxy" message="fr" href="https://usegalaxy.fr" />
-      </p>
-    </header>
-    <h1>Workflows</h1>
-    <p>
-        The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses. We currently feature three different types of analyses:
-      </p>
-    <hr>
-    <div class="features">
-      <div class="feature">
-        <RouterLink :to="'/genomics/'">
-          <h2>Genomics</h2>
-          <h4>Assembly and intra-host variation</h4>
-          <img :src="$withBase('./img/gn.png')">
-        </RouterLink>
+    <main class="home" aria-labelledby="main-title">
+        <header class="hero">
+            <h1 id="main-title">
+                Best practices for the analysis of SARS-CoV-2 data: Genomics and Cheminformatics
+            </h1>
+            <p class="description">
+                Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral
+                datasets.
+            </p>
+            <p class="shieldlist">
+                <!-- not a list, but we want it aligned with the right side, which is, so apply the same style -->
+                <a href="https://doi.org/10.5281/zenodo.3685264" target="_blank" rel="noopener noreferrer">
+                    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg" alt="DOI" />
+                </a>
+                Powered by:
+                <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org" />
+                <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu" />
+                <FlatShield label="usegalaxy" message="be" href="https://usegalaxy.be" />
+                <FlatShield label="usegalaxy" message="org.au" href="https://usegalaxy.org.au" />
+                <FlatShield label="usegalaxy" message="fr" href="https://usegalaxy.fr" />
+            </p>
+        </header>
+        <h1>Workflows</h1>
         <p>
-        <ul>
-          <li><RouterLink :to="'/genomics/2-Assembly/'">Assembly</RouterLink></li>
-          <li><RouterLink :to="'/genomics/3-MRCA/'">MRCA timing</RouterLink></li>
-          <li><RouterLink :to="'/genomics/4-Variation/'">Variation analysis</RouterLink></li>
-          <li><RouterLink :to="'/genomics/6-RecombinationSelection/'">Selection and recombination</RouterLink></li>
-        </ul>
+            The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data
+            analyses. We currently feature three different types of analyses:
         </p>
-      </div>
-      
-      <div class="feature">
-        <RouterLink :to="'/evolution/'">
-          <h2>Evolution</h2>
-          <h4>Sites under selection</h4>
-          <img :src="$withBase('./img/evo.png')">
-        </RouterLink>
-        <p>
-        <ul>
-          <li><RouterLink :to="'/evolution/'">Observable Notebooks</RouterLink></li>
-          <li><RouterLink :to="'/evolution/'">Visualizations</RouterLink></li>
-          <li><RouterLink :to="'/evolution/'">Analysis</RouterLink></li>
-        </ul>
-        </p>
-      </div>
+        <hr />
+        <div class="features">
+            <div class="feature">
+                <RouterLink :to="'/genomics/'">
+                    <h2>Genomics</h2>
+                    <h4>Assembly and intra-host variation</h4>
+                    <img :src="$withBase('./img/gn.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/genomics/2-Assembly/'">Assembly</RouterLink></li>
+                    <li><RouterLink :to="'/genomics/3-MRCA/'">MRCA timing</RouterLink></li>
+                    <li><RouterLink :to="'/genomics/4-Variation/'">Variation analysis</RouterLink></li>
+                    <li>
+                        <RouterLink :to="'/genomics/6-RecombinationSelection/'">Selection and recombination</RouterLink>
+                    </li>
+                </ul>
+            </div>
 
-      <div class="feature">
-        <RouterLink :to="'/cheminformatics/'">
-          <h2>Cheminformatics</h2>
-          <h4>Screening of the main protease</h4>
-          <img :src="$withBase('./img/mp.png')">
-        </RouterLink>
-        
-        <p>
-          <ul>
-            <li><RouterLink :to="'/cheminformatics/1-DockingPrep/'">Compound enumeration</RouterLink></li>
-            <li><RouterLink :to="'/cheminformatics/2-ActiveSitePrep/'">Generation of 3D conformations</RouterLink></li>
-            <li><RouterLink :to="'/cheminformatics/3-Docking/'">Docking</RouterLink></li>
-            <li><RouterLink :to="'/cheminformatics/4-Scoring/'">Scoring</RouterLink></li>
-            <li><RouterLink :to="'/cheminformatics/5-Selection/'">Selection of compounds for synthesis</RouterLink></li>
-          </ul>
-        </p>
-      </div>
-    </div>
-    <h1>Results</h1>
-    <p>Each analysis section is continuously updated as new data becomes available. The main highlights are:</p>
-    <hr>
-    <div class="features">
-      <div class="feature">
-        <RouterLink :to="'/genomics/'">
-          <h2>Genomics</h2>
-          
-        </RouterLink>
-        <p>
-        
-          There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but only a handful of raw sequencing read datasets. We provide lists of raw read accessions for <a href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_illumina.txt">Illumina</a> and <a href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_gridion.txt">ONT</a>. These lists are updated daily.<br>
-          There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and 95%). Twenty nine samples have fixed differences at 39 sites from the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">published reference</a>. <a href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variant_list.05.tsv">Variant lists</a> and <a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/genomics/4-Variation">VCF files</a> are updated daily.<br>
-          Intra-host polymorphisms may reveal <RouterLink :to="'/genomics/5-S-analysis/'">sites</RouterLink> affecting the pathogenicity of the virus.
-        
-        </p>
-      </div>
-      
-      <div class="feature">
-        <RouterLink :to="'/evolution/'">
-          <h2>Evolution</h2>
-        </RouterLink>
-        <p>
-        
-          Which positions in the SARS-CoV-2 genome may be subject to positive selection (involved in adaptation), or negative selection (conserved during evolution)? We are using comparative evolutionary techniques to run daily analyses identify potential candidates using genomes from GISAID. At present, ~5 genomic positions may merit further investigation because they may be subject to diversifying positive selection. See live results presented as continuously updated <RouterLink :to="'/evolution/'">notebooks</RouterLink>.
-          
-        </p>
-      </div>
+            <div class="feature">
+                <RouterLink :to="'/evolution/'">
+                    <h2>Evolution</h2>
+                    <h4>Sites under selection</h4>
+                    <img :src="$withBase('./img/evo.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/evolution/'">Observable Notebooks</RouterLink></li>
+                    <li><RouterLink :to="'/evolution/'">Visualizations</RouterLink></li>
+                    <li><RouterLink :to="'/evolution/'">Analysis</RouterLink></li>
+                </ul>
+            </div>
 
-      <div class="feature">
-        <RouterLink :to="'/cheminformatics/'">
-          <h2>Cheminformatics</h2>
-        </RouterLink>
-        <p>
-          Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro). We performed computational analyses (using protein-ligand docking) to identify potentially inhibitory compounds that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000 compounds considered to be likely to bind, which were chosen based on recently published X-ray crystal structures, and identified 500 high scoring compounds. Workflows used for this analysis as well as individual compound list can be accessed <RouterLink :to="'/cheminformatics/Histories/'">here.</RouterLink>
-        </p>
-      </div>
-    </div>
+            <div class="feature">
+                <RouterLink :to="'/cheminformatics/'">
+                    <h2>Cheminformatics</h2>
+                    <h4>Screening of the main protease</h4>
+                    <img :src="$withBase('./img/mp.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/cheminformatics/1-DockingPrep/'">Compound enumeration</RouterLink></li>
+                    <li>
+                        <RouterLink :to="'/cheminformatics/2-ActiveSitePrep/'"
+                            >Generation of 3D conformations</RouterLink
+                        >
+                    </li>
+                    <li><RouterLink :to="'/cheminformatics/3-Docking/'">Docking</RouterLink></li>
+                    <li><RouterLink :to="'/cheminformatics/4-Scoring/'">Scoring</RouterLink></li>
+                    <li>
+                        <RouterLink :to="'/cheminformatics/5-Selection/'"
+                            >Selection of compounds for synthesis</RouterLink
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h1>Results</h1>
+        <p>Each analysis section is continuously updated as new data becomes available. The main highlights are:</p>
+        <hr />
+        <div class="features">
+            <div class="feature">
+                <RouterLink :to="'/genomics/'">
+                    <h2>Genomics</h2>
+                </RouterLink>
+                <p>
+                    There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but
+                    only a handful of raw sequencing read datasets. We provide lists of raw read accessions for
+                    <a
+                        href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_illumina.txt"
+                        >Illumina</a
+                    >
+                    and
+                    <a
+                        href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_gridion.txt"
+                        >ONT</a
+                    >. These lists are updated daily.<br />
+                    There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and
+                    95%). Twenty nine samples have fixed differences at 39 sites from the
+                    <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">published reference</a>.
+                    <a
+                        href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variant_list.05.tsv"
+                        >Variant lists</a
+                    >
+                    and
+                    <a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/genomics/4-Variation">VCF files</a>
+                    are updated daily.<br />
+                    Intra-host polymorphisms may reveal
+                    <RouterLink :to="'/genomics/5-S-analysis/'">sites</RouterLink> affecting the pathogenicity of the
+                    virus.
+                </p>
+            </div>
 
+            <div class="feature">
+                <RouterLink :to="'/evolution/'">
+                    <h2>Evolution</h2>
+                </RouterLink>
+                <p>
+                    Which positions in the SARS-CoV-2 genome may be subject to positive selection (involved in
+                    adaptation), or negative selection (conserved during evolution)? We are using comparative
+                    evolutionary techniques to run daily analyses identify potential candidates using genomes from
+                    GISAID. At present, ~5 genomic positions may merit further investigation because they may be subject
+                    to diversifying positive selection. See live results presented as continuously updated
+                    <RouterLink :to="'/evolution/'">notebooks</RouterLink>.
+                </p>
+            </div>
 
+            <div class="feature">
+                <RouterLink :to="'/cheminformatics/'">
+                    <h2>Cheminformatics</h2>
+                </RouterLink>
+                <p>
+                    Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large
+                    precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro). We performed
+                    computational analyses (using protein-ligand docking) to identify potentially inhibitory compounds
+                    that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000
+                    compounds considered to be likely to bind, which were chosen based on recently published X-ray
+                    crystal structures, and identified 500 high scoring compounds. Workflows used for this analysis as
+                    well as individual compound list can be accessed
+                    <RouterLink :to="'/cheminformatics/Histories/'">here.</RouterLink>
+                </p>
+            </div>
+        </div>
 
-    <h2>Project Video Update</h2>
-    <iframe src="https://player.vimeo.com/video/400035951" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    <Content class="theme-default-content custom" />
-  </main>
+        <h2>Project Video Update</h2>
+        <iframe
+            src="https://player.vimeo.com/video/400035951"
+            width="960"
+            height="540"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+        ></iframe>
+        <Content class="theme-default-content custom" />
+    </main>
 </template>
 
 <script>
-import NavLink from '@theme/components/NavLink.vue'
+import NavLink from "@theme/components/NavLink.vue";
 
 export default {
-  name: 'Home',
+    name: "Home",
 
-  components: { NavLink },
+    components: { NavLink },
 
-  computed: {
-    data () {
-      return this.$page.frontmatter
-    },
+    computed: {
+        data() {
+            return this.$page.frontmatter;
+        },
 
-    actionLink () {
-      return {
-        link: this.data.actionLink,
-        text: this.data.actionText
-      }
+        actionLink() {
+            return {
+                link: this.data.actionLink,
+                text: this.data.actionText
+            };
+        }
     }
-  }
-}
+};
 </script>
 
 <style lang="stylus">
@@ -203,8 +241,7 @@ export default {
       border-bottom none
       padding-bottom 0
       color lighten($textColor, 10%)
-    p
-      padding-left 1rem
+    ul
       text-align left
   .footer
     padding 2.5rem
