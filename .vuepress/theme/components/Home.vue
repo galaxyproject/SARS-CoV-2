@@ -109,7 +109,7 @@
           <h2>Cheminformatics</h2>
         </RouterLink>
         <p>
-          Nonstructural proteins (nsps) vital for life-cycle of SARS-CoV-2 are cleaved from a large precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro). We performed computational analyses to identify potential inhibitory compounds that can bind to MPro and can be used to control viral proliferation. This analysis identified 500 high scoring compounds. Workflows used for this analysis as well as individual compound list can be accessed <RouterLink :to="'/cheminformatics/Histories/'">here.</RouterLink>
+          Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro). We performed computational analyses (using protein-ligand docking) to identify potentially inhibitory compounds that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000 compounds considered to be likely to bind, which were chosen based on recently published X-ray crystal structures, and identified 500 high scoring compounds. Workflows used for this analysis as well as individual compound list can be accessed <RouterLink :to="'/cheminformatics/Histories/'">here.</RouterLink>
         </p>
       </div>
     </div>
