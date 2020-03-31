@@ -82,7 +82,6 @@
         </div>
         <h1>Results</h1>
         <p>Each analysis section is continuously updated as new data becomes available. The main highlights are:</p>
-        <hr />
         <div class="features">
             <div class="h-feature">
                 <div class="h-feature-focus">
