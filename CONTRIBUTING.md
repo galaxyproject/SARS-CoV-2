@@ -5,7 +5,7 @@
 Please [install yarn](https://classic.yarnpkg.com/en/docs/install/). You can also use conda for this by running
 
 ```bash
-conda create c conda-froge -n yarn yarn
+conda create -c conda-forge -n yarn yarn
 conda activate yarn
 ```
 
