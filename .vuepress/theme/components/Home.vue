@@ -90,8 +90,8 @@
                     </RouterLink>
                 </div>
                 <p>
-                    <strong>There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but
-                    only a handful of raw sequencing read datasets.  </strong>We provide lists of raw read accessions for
+                    There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but
+                    only a handful of raw sequencing read datasets. We provide lists of raw read accessions for
                     <a
                         href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_illumina.txt"
                         >Illumina</a
@@ -100,9 +100,9 @@
                     <a
                         href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_gridion.txt"
                         >ONT</a
-                    >. These lists are updated daily.<br />
-                    There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and
-                    95%). Twenty nine samples have fixed differences at 39 sites from the
+                    >. These lists are updated daily.
+                    <strong>There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and
+                    95%).</strong> Twenty nine samples have fixed differences at 39 sites from the
                     <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">published reference</a>.
                     <a
                         href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variant_list.05.tsv"
@@ -124,11 +124,11 @@
                     </RouterLink>
                 </div>
                 <p>
-                    <strong>Which positions in the SARS-CoV-2 genome may be subject to positive selection (involved in
-                    adaptation), or negative selection (conserved during evolution)?</strong><br/> We are using comparative
+                    Which positions in the SARS-CoV-2 genome may be subject to positive selection (involved in
+                    adaptation), or negative selection (conserved during evolution)? We are using comparative
                     evolutionary techniques to run daily analyses identify potential candidates using genomes from
-                    GISAID. At present, ~5 genomic positions may merit further investigation because they may be subject
-                    to diversifying positive selection. See live results presented as continuously updated
+                    GISAID. <strong>At present, ~5 genomic positions may merit further investigation because they may be subject
+                    to diversifying positive selection</strong>. See live results presented as continuously updated
                     <RouterLink :to="'/evolution/'">notebooks</RouterLink>.
                 </p>
             </div>
@@ -140,12 +140,12 @@
                     </RouterLink>
                 </div>
                 <p>
-                    <strong>Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large
-                    precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro).</strong><br/> We performed
+                    Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large
+                    precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro). We performed
                     computational analyses (using protein-ligand docking) to identify potentially inhibitory compounds
-                    that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000
+                    that can bind to MPro and can be used to control viral proliferation. <strong>This work analyzed over 40,000
                     compounds considered to be likely to bind, which were chosen based on recently published X-ray
-                    crystal structures, and identified 500 high scoring compounds. Workflows used for this analysis as
+                    crystal structures, and identified 500 high scoring compounds</strong>. Workflows used for this analysis as
                     well as individual compound list can be accessed
                     <RouterLink :to="'/cheminformatics/Histories/'">here.</RouterLink>
                 </p>
