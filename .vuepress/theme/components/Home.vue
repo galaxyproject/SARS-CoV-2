@@ -49,12 +49,13 @@
                     <h2>Evolution</h2>
                     <h4>Sites under selection</h4>
                     <img :src="$withBase('./img/evo.png')" />
+                    <ul>
+                        <li>Natural Selection Analysis</li>
+                        <li>Analysis</li>
+                        <li>Visualizations</li>
+                        <li>Observable Notebooks</li>
+                    </ul>
                 </RouterLink>
-                <ul>
-                    <li><RouterLink :to="'/evolution/'">Observable Notebooks</RouterLink></li>
-                    <li><RouterLink :to="'/evolution/'">Visualizations</RouterLink></li>
-                    <li><RouterLink :to="'/evolution/'">Analysis</RouterLink></li>
-                </ul>
             </div>
 
             <div class="feature">
