@@ -26,7 +26,6 @@
             The goal of this resource is to provide publicly accessible infrastructure and workflows for SARS-CoV-2 data
             analyses. We currently feature three different types of analyses:
         </p>
-        <hr />
         <div class="features">
             <div class="feature">
                 <RouterLink :to="'/genomics/'">
@@ -85,13 +84,15 @@
         <p>Each analysis section is continuously updated as new data becomes available. The main highlights are:</p>
         <hr />
         <div class="features">
-            <div class="feature">
-                <RouterLink :to="'/genomics/'">
-                    <h2>Genomics</h2>
-                </RouterLink>
+            <div class="h-feature">
+                <div class="h-feature-focus">
+                    <RouterLink :to="'/genomics/'">
+                        <h2>Genomics</h2>
+                    </RouterLink>
+                </div>
                 <p>
-                    There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but
-                    only a handful of raw sequencing read datasets. We provide lists of raw read accessions for
+                    <strong>There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but
+                    only a handful of raw sequencing read datasets.  </strong>We provide lists of raw read accessions for
                     <a
                         href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_illumina.txt"
                         >Illumina</a
@@ -117,13 +118,15 @@
                 </p>
             </div>
 
-            <div class="feature">
-                <RouterLink :to="'/evolution/'">
-                    <h2>Evolution</h2>
-                </RouterLink>
+            <div class="h-feature">
+                <div class="h-feature-focus">
+                    <RouterLink :to="'/evolution/'">
+                        <h2>Evolution</h2>
+                    </RouterLink>
+                </div>
                 <p>
-                    Which positions in the SARS-CoV-2 genome may be subject to positive selection (involved in
-                    adaptation), or negative selection (conserved during evolution)? We are using comparative
+                    <strong>Which positions in the SARS-CoV-2 genome may be subject to positive selection (involved in
+                    adaptation), or negative selection (conserved during evolution)?</strong><br/> We are using comparative
                     evolutionary techniques to run daily analyses identify potential candidates using genomes from
                     GISAID. At present, ~5 genomic positions may merit further investigation because they may be subject
                     to diversifying positive selection. See live results presented as continuously updated
@@ -131,13 +134,15 @@
                 </p>
             </div>
 
-            <div class="feature">
-                <RouterLink :to="'/cheminformatics/'">
-                    <h2>Cheminformatics</h2>
-                </RouterLink>
+            <div class="h-feature">
+                <div class="h-feature-focus">
+                    <RouterLink :to="'/cheminformatics/'">
+                        <h2>Cheminformatics</h2>
+                    </RouterLink>
+                </div>
                 <p>
-                    Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large
-                    precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro). We performed
+                    <strong>Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2 are cleaved from a large
+                    precursor (encoded by <i>ORF1ab</i>) by enzymes such as the main protease (Mpro).</strong><br/> We performed
                     computational analyses (using protein-ligand docking) to identify potentially inhibitory compounds
                     that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000
                     compounds considered to be likely to bind, which were chosen based on recently published X-ray
@@ -227,6 +232,24 @@ export default {
     align-items flex-start
     align-content stretch
     justify-content space-between
+  .h-feature
+    display flex
+    .h-feature-focus
+      flex 30%
+    img
+      max-width: 100%
+      display block
+      margin 3rem auto 1.5rem
+    h2
+      font-size 1.6rem
+      font-weight 500
+      border-bottom none
+      padding-bottom 0
+      color lighten($textColor, 10%)
+    p
+      flex 65%
+      text-align left
+
   .feature
     flex-grow 1
     width 100%
