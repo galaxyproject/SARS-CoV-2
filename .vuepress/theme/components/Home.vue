@@ -242,7 +242,7 @@ export default {
       border-bottom none
       padding-bottom 0
       color lighten($textColor, 10%)
-    ul
+    p, ul
       text-align left
   .footer
     padding 2.5rem
