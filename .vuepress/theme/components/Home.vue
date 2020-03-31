@@ -110,8 +110,7 @@
                     >
                     and
                     <a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/genomics/4-Variation">VCF files</a>
-                    are updated daily.<br />
-                    Intra-host polymorphisms may reveal
+                    are updated daily. Intra-host polymorphisms may reveal
                     <RouterLink :to="'/genomics/5-S-analysis/'">sites</RouterLink> affecting the pathogenicity of the
                     virus.
                 </p>
