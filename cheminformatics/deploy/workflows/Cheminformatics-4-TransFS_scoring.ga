@@ -1,0 +1,302 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "Scoring", 
+    "format-version": "0.1", 
+    "name": "COVID-19 - Cheminformatics [4] TransFS scoring", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "Poses in SDF format", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 598.5, 
+                "top": 116.5
+            }, 
+            "tool_id": null, 
+            "tool_state": "{}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "1d2e3fa3-8517-4e4e-a63c-e7fd36452a2b", 
+            "workflow_outputs": [
+                {
+                    "label": null, 
+                    "output_name": "output", 
+                    "uuid": "ccd7bb39-c4be-43b5-8d4f-d35263413de9"
+                }
+            ]
+        }, 
+        "1": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "hits.sdf"
+                }
+            ], 
+            "label": "hits.sdf", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 680
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"hits.sdf\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "0674a16d-7898-44d8-8938-30c83624943b", 
+            "workflow_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 2, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset Collection"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset collection", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 800
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"collection_type\": \"list\", \"name\": \"Input Dataset Collection\"}", 
+            "tool_version": null, 
+            "type": "data_collection_input", 
+            "uuid": "43e4bee8-a812-4b2c-a18f-a245e62b50fd", 
+            "workflow_outputs": []
+        }, 
+        "3": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 3, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset Collection"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset collection", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 920
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"collection_type\": \"list\", \"name\": \"Input Dataset Collection\"}", 
+            "tool_version": null, 
+            "type": "data_collection_input", 
+            "uuid": "0c27dfe9-6f9a-4800-b65d-6b3deeebdcd2", 
+            "workflow_outputs": []
+        }, 
+        "4": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "errors": null, 
+            "id": 4, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Collapse Collection", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 200, 
+                "top": 1040
+            }, 
+            "post_job_actions": {
+                "HideDatasetActionoutput": {
+                    "action_arguments": {}, 
+                    "action_type": "HideDatasetAction", 
+                    "output_name": "output"
+                }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "tool_shed_repository": {
+                "changeset_revision": "830961c48e42", 
+                "name": "collapse_collections", 
+                "owner": "nml", 
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"one_header\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"__workflow_invocation_uuid__\": \"\\\"d186101c69c111ea8f40001b21d75532\\\"\", \"filename\": \"{\\\"__current_case__\\\": 1, \\\"add_name\\\": \\\"false\\\"}\", \"input_list\": \"null\", \"chromInfo\": \"\\\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": null, 
+            "type": "tool", 
+            "uuid": "58804313-7e11-4279-b6fc-802b868ce6e5", 
+            "workflow_outputs": []
+        }, 
+        "5": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 5, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "receptor.pdb"
+                }
+            ], 
+            "label": "receptor.pdb", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 1020, 
+                "top": 338
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"receptor.pdb\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "4997b4bd-9147-44d2-896d-8ec7cb7c16bc", 
+            "workflow_outputs": []
+        }, 
+        "6": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "errors": null, 
+            "id": 6, 
+            "input_connections": {
+                "split_parms|input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Split file", 
+            "outputs": [
+                {
+                    "name": "list_output_sdf", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 860, 
+                "top": 200
+            }, 
+            "post_job_actions": {
+                "HideDatasetActionlist_output_sdf": {
+                    "action_arguments": {}, 
+                    "action_type": "HideDatasetAction", 
+                    "output_name": "list_output_sdf"
+                }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "tool_shed_repository": {
+                "changeset_revision": "e77b954f0da5", 
+                "name": "split_file_to_collection", 
+                "owner": "bgruening", 
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__workflow_invocation_uuid__\": \"\\\"afb30aca69b311eab1c3001b21d75532\\\"\", \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"split_file\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 0, \\\"chunksize\\\": \\\"100000\\\", \\\"mode\\\": \\\"chunk\\\"}}\"}", 
+            "tool_version": null, 
+            "type": "tool", 
+            "uuid": "538875c8-6b44-4138-92a8-4305f367124b", 
+            "workflow_outputs": []
+        }, 
+        "7": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.2.0",
+            "tool_version":"0.2.0",
+            "errors": null, 
+            "id": 7, 
+            "input_connections": {
+                "ligands": {
+                    "id": 6, 
+                    "output_name": "list_output_sdf"
+                }, 
+                "receptor": {
+                    "id": 5, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "XChem TransFS pose scoring", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "sdf"
+                }, 
+                {
+                    "name": "predictions", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "inputs_types", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "output_receptors", 
+                    "type": "tar"
+                }
+            ], 
+            "position": {
+                "left": 1301, 
+                "top": 299
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.2.0",
+            "tool_shed_repository": {
+                "changeset_revision": "de29b4f35536", 
+                "name": "xchem_transfs_scoring", 
+                "owner": "bgruening", 
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"distance\": \"\\\"2.0\\\"\", \"__page__\": null, \"ligands|__identifier__\": \"\\\"split_file_000009.sdf\\\"\", \"__rerun_remap_job_id__\": null, \"receptor\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"chromInfo\": \"\\\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\", \"ligands\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"mock\": \"\\\"\\\"\"}", 
+            "type": "tool", 
+            "uuid": "78c73f12-0d2e-4ef6-b678-d30c3acf3b52", 
+            "workflow_outputs": [
+                {
+                    "label": null, 
+                    "output_name": "output", 
+                    "uuid": "2bd365de-10a8-43eb-bff0-17c282d30e55"
+                }, 
+                {
+                    "label": null, 
+                    "output_name": "output_receptors", 
+                    "uuid": "f30bb888-d180-48e7-a7dc-47e53356c2b1"
+                }, 
+                {
+                    "label": null, 
+                    "output_name": "predictions", 
+                    "uuid": "cea61927-b68e-4812-9383-1033f935cc52"
+                }, 
+                {
+                    "label": null, 
+                    "output_name": "inputs_types", 
+                    "uuid": "83abf4e2-f1d2-47c4-898a-cfd473e02eff"
+                }
+            ]
+        }
+    }, 
+    "tags": [
+        "covid-19"
+    ], 
+    "uuid": "43f15494-6f76-48fb-a122-c33ea2df7498", 
+    "version": 3
+}
