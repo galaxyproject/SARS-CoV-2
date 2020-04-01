@@ -6,143 +6,137 @@ tools:
   owner: bgruening
   revisions:
   - 2a868592ebcb
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: openbabel_compound_convert
-  owner: bgruening
-  revisions:
-  - e6011617c748
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: split_file_to_collection
   owner: bgruening
   revisions:
   - e77b954f0da5
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
   - e6011617c748
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: openbabel_compound_convert
+  owner: bgruening
+  revisions:
+  - e6011617c748
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: rdock_rbcavity
   owner: bgruening
   revisions:
   - 5f73eb32ddbf
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
   - e6011617c748
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: text_processing
-  owner: bgruening
-  revisions:
-  - 20344ce0c811
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: split_file_to_collection
-  owner: bgruening
-  revisions:
-  - e77b954f0da5
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: rdock_rbdock
-  owner: bgruening
-  revisions:
-  - 5f291eef9ef3
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: collapse_collections
-  owner: nml
-  revisions:
-  - 830961c48e42
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: rdock_sort_filter
-  owner: bgruening
-  revisions:
-  - 784a9f7f079e
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: split_file_to_collection
-  owner: bgruening
-  revisions:
-  - e77b954f0da5
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: sucos_max_score
-  owner: bgruening
-  revisions:
-  - 8eab6d2b7bdf
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: collapse_collections
-  owner: nml
-  revisions:
-  - 830961c48e42
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: split_file_to_collection
-  owner: bgruening
-  revisions:
-  - e77b954f0da5
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: xchem_transfs_scoring
-  owner: bgruening
-  revisions:
-  - de29b4f35536
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: openbabel_change_title
-  owner: bgruening
-  revisions:
-  - 49d21d05f77c
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: jq
-  owner: iuc
-  revisions:
-  - 5ff75eb1a893
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: collapse_collections
-  owner: nml
-  revisions:
-  - 830961c48e42
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: sdf_to_tab
-  owner: bgruening
-  revisions:
-  - 40ff81f67f5e
-  tool_panel_section_label: Covid-19
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: datamash_ops
-  owner: iuc
-  revisions:
-  - 562f3c677828
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: text_processing
   owner: bgruening
   revisions:
   - fb4ff3c42cd3
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - e77b954f0da5
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: rdock_rbdock
+  owner: bgruening
+  revisions:
+  - 5f291eef9ef3
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 830961c48e42
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: rdock_sort_filter
+  owner: bgruening
+  revisions:
+  - 784a9f7f079e
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - e77b954f0da5
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: sucos_max_score
+  owner: bgruening
+  revisions:
+  - 2f110aef9b53
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 830961c48e42
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - e77b954f0da5
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: xchem_transfs_scoring
+  owner: bgruening
+  revisions:
+  - de29b4f35536
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - fb4ff3c42cd3
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: openbabel_filter
   owner: bgruening
   revisions:
   - da0059ee548a
-  tool_panel_section_label: Covid-19
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: sucos_max_score
+- name: openbabel_change_title
   owner: bgruening
   revisions:
-  - bf99565cec1f
-  tool_panel_section_label: Covid-19
+  - 49d21d05f77c
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: jq
+  owner: iuc
+  revisions:
+  - 5ff75eb1a893
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 830961c48e42
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: sdf_to_tab
+  owner: bgruening
+  revisions:
+  - 40ff81f67f5e
+  tool_panel_section_label: COVID-19 Cheminformatics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: datamash_ops
+  owner: iuc
+  revisions:
+  - 562f3c677828
+  tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
