@@ -7,8 +7,8 @@ This section describes the preparation of protein and ligands for docking.
 
 | usegalaxy.eu | 
 |:--------:|
-| [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/sbray/h/charge-enumeration) | 
-| [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/charge-enumeration) | 
+| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/sbray/h/charge-enumeration" alt="Galaxy history" /> | 
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/charge-enumeration" alt="Galaxy workflow" /> | 
 
 
 ## Outline
@@ -24,11 +24,12 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/charge-enumeration) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
- <p align="center">
-  Preparation for docking
-  <a href="https://usegalaxy.eu/u/sbray/w/charge-enumeration">   <img src="./w-ligand-enumeration.png" alt="Workflow preparation for docking" /></a> &nbsp;  
- </p>
- 
+
+| Preparation for docking  |
+|:----------------:|
+|![](./w-ligand-enumeration.png) |
+| Preparation of protein and ligands for docking.<br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/charge-enumeration" alt="Workflow preparation for docking" /> |
+
 
 ## References
 

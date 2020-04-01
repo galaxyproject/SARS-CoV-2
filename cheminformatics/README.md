@@ -3,7 +3,10 @@ title: Cheminformatics
 ---
 # Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)
 
-Powered by: [![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
+
+Powered by: <FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
 
 [Tim Dudgeon](https://github.com/tdudgeon),
 [Simon Bray](https://github.com/simonbray),
@@ -25,7 +28,7 @@ It contains descriptions of workflows and exact versions of all software used. T
 
 ## Background
 
-The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)][1], which provided 55 fragment hits (which can be viewed interactively [here](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro) ). In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale.
+The [Diamond Light Source's XChem team](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) recently completed [a successful fragment screen on the SARS-CoV-2 main protease (MPro)][1], which provided crystal structures of the protein in complex with 55 different small molecules (fragment hits). These can be viewed interactively [here](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro). In an effort to identify candidate molecules for binding, [InformaticsMatters](http://informaticsmatters.com), the XChem group and the [European Galaxy team](https://galaxyproject.eu) have joined forces to construct and execute a Galaxy workflow for performing and evaluating molecular docking on a massive scale, based on the set of fragment hits which are known experimentally to bind to the protein.
 
 <p align="center">
   <a href="https://usegalaxy.eu/u/sbray/v/mpro-x0072"><img src="./img/mpro-x0072.png" width= "40%" alt="Mpro-x0072 complex, visualized with the NGL viewer integrated into Galaxy." /></a>
@@ -39,7 +42,7 @@ The diagram below describes the worfklow used in this work. Further details of t
 
 ### Compound enumeration
 
-An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. The fragment network takes a big set of compounds, and splits them up into parts – rings, linkers and substituents. These parts form the nodes in a graph network. The edges between these nodes describe how the bits of molecules can be linked together to make new molecules. From this information, we know how we can change a molecule by searching the network for new bits to add to an initial hit, with transformations described along the edges in the graph-network.   
+An initial list of ~42,000 candidate molecules was assembled by using the [Fragalysis fragment network][2] to elaborate from the initial fragment hits. The fragment network takes a big set of compounds, and splits them up into parts – rings, linkers and substituents. These parts form the nodes in a graph network. The edges between these nodes describe how the bits of molecules can be linked together to make new molecules. From this information, we know how we can change a molecule by searching the network for new bits to add to an initial hit, with transformations described along the edges in the graph-network.
 
 This was done using [Informatics Matters’ Fragnet Search APIs](https://fragnet.informaticsmatters.com), querying a database of ~64M molecules available from [Enamine REAL](https://enamine.net/), [ChemSpace](https://chem-space.com/) and [MolPort](http://www.molport.com) using query parameters of 2 edge traversals and a change in heavy atom count of 5 and ring atom count of 2.   
 
@@ -60,6 +63,18 @@ Of these steps, the third (docking) is the most compute-intensive. Here, the pro
 
 All data is publicly available via [https://usegalaxy.eu](https://usegalaxy.eu),
 together with the workflows used for data generation, and we are working to provide more detailed documentation that will allow other users to perform similar studies, including on other systems. Histories for each fragment structures are provided [here](Histories).
+
+## Training
+We have published a [tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html), as part of the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/), describing how to perform a small-scale version of this analysis on the European Galaxy server. It also acts as a more detailed version of the documentation on this site.
+
+## Galaxy workflow
+
+| All in one virtual screening workflow  |
+|:----------------:|
+|![](./img/all_in_one_workflow.png) |
+| This workflow contains all steps as sub-workflows. Please refer to the sub-pages for detailed information.<br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/timdudgeon/w/xchem-combined" alt="Galaxy workflow" /> |
+
+
 
 ## Future work
 Having identified promising candidate ligands, we are now looking for funding to purchase compounds as a basis for further experimental study.

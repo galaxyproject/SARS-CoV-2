@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "", 
     "format-version": "0.1", 
-    "name": "3 - MRCA", 
+    "name": "3 - MRCA analysis", 
     "steps": {
         "0": {
             "annotation": "", 
