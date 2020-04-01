@@ -1,246 +1,217 @@
 {
-    "a_galaxy_workflow": "true", 
-    "annotation": "Preparation for docking", 
-    "format-version": "0.1", 
-    "name": "COVID-19 - Cheminformatics [1] Preparation for docking", 
-    "steps": {
-        "0": {
-            "annotation": "", 
-            "content_id": null, 
-            "errors": null, 
-            "id": 0, 
-            "input_connections": {}, 
-            "inputs": [], 
-            "label": null, 
-            "name": "Input dataset", 
-            "outputs": [], 
-            "position": {
-                "left": 194, 
-                "top": 265
-            }, 
-            "tool_id": null, 
-            "tool_state": "{}", 
-            "tool_version": null, 
-            "type": "data_input", 
-            "uuid": "1e86333c-32b3-4aaa-a9a3-83eff9a25793", 
-            "workflow_outputs": [
-                {
-                    "label": null, 
-                    "output_name": "output", 
-                    "uuid": "11d3ce0e-4303-4564-9437-8dc1cc16ebef"
-                }
-            ]
-        }, 
-        "1": {
-            "annotation": "", 
-            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1", 
-            "errors": null, 
-            "id": 1, 
-            "input_connections": {
-                "input": {
-                    "id": 0, 
-                    "output_name": "output"
-                }
-            }, 
-            "inputs": [], 
-            "label": null, 
-            "name": "Enumerate changes", 
-            "outputs": [
-                {
-                    "name": "output", 
-                    "type": "smi"
-                }
-            ], 
-            "position": {
-                "left": 401.5, 
-                "top": 352
-            }, 
-            "post_job_actions": {
-                "ChangeDatatypeActionoutput": {
-                    "action_arguments": {
-                        "newtype": "smi"
-                    }, 
-                    "action_type": "ChangeDatatypeAction", 
-                    "output_name": "output"
-                }
-            }, 
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1", 
-            "tool_shed_repository": {
-                "changeset_revision": "2a868592ebcb", 
-                "name": "enumerate_charges", 
-                "owner": "bgruening", 
-                "tool_shed": "toolshed.g2.bx.psu.edu"
-            }, 
-            "tool_state": "{\"__page__\": null, \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__rerun_remap_job_id__\": null, \"min_ph\": \"\\\"4.4\\\"\", \"max_ph\": \"\\\"10.4\\\"\"}", 
-            "tool_version": "0.1", 
-            "type": "tool", 
-            "uuid": "157154ad-d096-44d9-85a5-1597dbbc96e0", 
-            "workflow_outputs": [
-                {
-                    "label": null, 
-                    "output_name": "output", 
-                    "uuid": "5c331b97-445d-40b6-b9f8-d7e5d6afda4b"
-                }
-            ]
-        }, 
-        "2": {
-            "annotation": "", 
-            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0", 
-            "errors": null, 
-            "id": 2, 
-            "input_connections": {
-                "infile": {
-                    "id": 1, 
-                    "output_name": "output"
-                }
-            }, 
-            "inputs": [], 
-            "label": null, 
-            "name": "Compound conversion", 
-            "outputs": [
-                {
-                    "name": "outfile", 
-                    "type": "text"
-                }
-            ], 
-            "position": {
-                "left": 636.5, 
-                "top": 495
-            }, 
-            "post_job_actions": {
-                "ChangeDatatypeActionoutfile": {
-                    "action_arguments": {
-                        "newtype": "sdf"
-                    }, 
-                    "action_type": "ChangeDatatypeAction", 
-                    "output_name": "outfile"
-                }
-            }, 
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0", 
-            "tool_shed_repository": {
-                "changeset_revision": "e6011617c748", 
-                "name": "openbabel_compound_convert", 
-                "owner": "bgruening", 
-                "tool_shed": "toolshed.g2.bx.psu.edu"
-            }, 
-            "tool_state": "{\"__page__\": null, \"dative_bonds\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"appendtotitle\": \"\\\"\\\"\", \"remove_h\": \"\\\"false\\\"\", \"oformat\": \"{\\\"__current_case__\\\": 58, \\\"gen2d\\\": \\\"false\\\", \\\"gen3d\\\": \\\"true\\\", \\\"oformat_opts_selector\\\": \\\"sdf\\\", \\\"sdf_alias_out\\\": \\\"false\\\", \\\"sdf_exp_h\\\": \\\"false\\\", \\\"sdf_no_prop\\\": \\\"false\\\", \\\"sdf_wedge_bonds\\\": \\\"false\\\"}\", \"ph\": \"\\\"-1.0\\\"\", \"unique\": \"{\\\"__current_case__\\\": 0, \\\"unique_opts_selector\\\": \\\"\\\"}\", \"infile\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"split\": \"\\\"false\\\"\"}", 
-            "tool_version": "2.4.2.1.0", 
-            "type": "tool", 
-            "uuid": "1f78eebd-31c0-4736-87fb-732bec41dd01", 
-            "workflow_outputs": [
-                {
-                    "label": null, 
-                    "output_name": "outfile", 
-                    "uuid": "3bacdb27-9be3-4369-91bf-cc20b18ebb44"
-                }
-            ]
-        }, 
-        "3": {
-            "annotation": "", 
-            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
-            "errors": null, 
-            "id": 3, 
-            "input_connections": {
-                "split_parms|input": {
-                    "id": 2, 
-                    "output_name": "outfile"
-                }
-            }, 
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Split file", 
-                    "name": "split_parms"
-                }
-            ], 
-            "label": null, 
-            "name": "Split file", 
-            "outputs": [
-                {
-                    "name": "list_output_sdf", 
-                    "type": "input"
-                }
-            ], 
-            "position": {
-                "left": 784, 
-                "top": 656
-            }, 
-            "post_job_actions": {
-                "ChangeDatatypeActionlist_output_txt": {
-                    "action_arguments": {
-                        "newtype": "smi"
-                    }, 
-                    "action_type": "ChangeDatatypeAction", 
-                    "output_name": "list_output_txt"
-                }, 
-                "HideDatasetActionlist_output_sdf": {
-                    "action_arguments": {}, 
-                    "action_type": "HideDatasetAction", 
-                    "output_name": "list_output_sdf"
-                }
-            }, 
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
-            "tool_shed_repository": {
-                "changeset_revision": "e77b954f0da5", 
-                "name": "split_file_to_collection", 
-                "owner": "bgruening", 
-                "tool_shed": "toolshed.g2.bx.psu.edu"
-            }, 
-            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"newfilenames\\\": \\\"split_file\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 2, \\\"allocate\\\": \\\"byrow\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 0, \\\"chunksize\\\": \\\"1000\\\", \\\"mode\\\": \\\"chunk\\\"}}\"}", 
-            "tool_version": "0.4.0", 
-            "type": "tool", 
-            "uuid": "0d538d07-e244-4abf-ac6f-c48a66f96134", 
-            "workflow_outputs": []
-        }, 
-        "4": {
-            "annotation": "", 
-            "content_id": "cat1", 
-            "errors": null, 
-            "id": 4, 
-            "input_connections": {
-                "input1": {
-                    "id": 3, 
-                    "output_name": "list_output_sdf"
-                }
-            }, 
-            "inputs": [], 
-            "label": null, 
-            "name": "Concatenate datasets", 
-            "outputs": [
-                {
-                    "name": "out_file1", 
-                    "type": "input"
-                }
-            ], 
-            "position": {
-                "left": 1023, 
-                "top": 787
-            }, 
-            "post_job_actions": {
-                "ChangeDatatypeActionout_file1": {
-                    "action_arguments": {
-                        "newtype": "sdf"
-                    }, 
-                    "action_type": "ChangeDatatypeAction", 
-                    "output_name": "out_file1"
-                }
-            }, 
-            "tool_id": "cat1", 
-            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input1\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"queries\": \"[]\"}", 
-            "tool_version": "1.0.0", 
-            "type": "tool", 
-            "uuid": "ce0ef13f-b5af-4bb0-9560-fc20991ac957", 
-            "workflow_outputs": [
-                {
-                    "label": "prepared_ligands", 
-                    "output_name": "out_file1", 
-                    "uuid": "e67d04c0-e9a3-4ef2-a5fb-e72a758357ad"
-                }
-            ]
+  "a_galaxy_workflow": "true",
+  "annotation": "Preparation for docking",
+  "format-version": "0.1",
+  "name": "COVID-19 - Cheminformatics [1] Enumerate ligands for docking", 
+  "steps": {
+    "0": {
+      "annotation": "",
+      "content_id": null,
+      "errors": null,
+      "id": 0,
+      "input_connections": {},
+      "inputs": [],
+      "label": null,
+      "name": "Input dataset",
+      "outputs": [],
+      "position": {
+        "left": 200,
+        "top": 200
+      },
+      "tool_id": null,
+      "tool_state": "{}",
+      "tool_version": null,
+      "type": "data_input",
+      "uuid": "f7d4daae-d532-4c23-8310-70e405de2d0e",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "2914302b-877f-4dd5-ae07-9c940f60f6a4"
         }
-    }, 
-    "tags": [
-        "covid-19"
-    ],
-    "uuid": "4f37fa1d-dfca-4089-8588-f3fdee5011bd", 
-    "version": 4
+      ]
+    },
+    "1": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1",
+      "errors": null,
+      "id": 1,
+      "input_connections": {
+        "input": {
+          "id": 0,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Enumerate changes",
+      "outputs": [
+        {
+          "name": "output",
+          "type": "smi"
+        }
+      ],
+      "position": {
+        "left": 336.5,
+        "top": 352
+      },
+      "post_job_actions": {},
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1",
+      "tool_shed_repository": {
+        "changeset_revision": "2a868592ebcb",
+        "name": "enumerate_charges",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__rerun_remap_job_id__\": null, \"min_ph\": \"\\\"4.4\\\"\", \"max_ph\": \"\\\"10.4\\\"\"}",
+      "tool_version": "0.1",
+      "type": "tool",
+      "uuid": "69f58b28-c142-408f-b112-4a19cf149be9",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "88856986-d335-4fe0-abd6-767444febf51"
+        }
+      ]
+    },
+    "2": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+      "errors": null,
+      "id": 2,
+      "input_connections": {
+        "split_parms|input": {
+          "id": 1,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Split file",
+      "outputs": [
+        {
+          "name": "list_output_txt",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 485,
+        "top": 534
+      },
+      "post_job_actions": {
+        "ChangeDatatypeActionlist_output_txt": {
+          "action_arguments": {
+            "newtype": "smi"
+          },
+          "action_type": "ChangeDatatypeAction",
+          "output_name": "list_output_txt"
+        },
+        "HideDatasetActionlist_output_txt": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "list_output_txt"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+      "tool_shed_repository": {
+        "changeset_revision": "e77b954f0da5",
+        "name": "split_file_to_collection",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 5, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"split_file\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"txt\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 0, \\\"chunksize\\\": \\\"1000\\\", \\\"mode\\\": \\\"chunk\\\"}}\"}",
+      "tool_version": "0.4.0",
+      "type": "tool",
+      "uuid": "fe4a9bc1-da9e-42e8-93ed-910a53804cec",
+      "workflow_outputs": []
+    },
+    "3": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0",
+      "errors": null,
+      "id": 3,
+      "input_connections": {
+        "infile": {
+          "id": 2,
+          "output_name": "list_output_txt"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Compound conversion",
+      "outputs": [
+        {
+          "name": "outfile",
+          "type": "text"
+        }
+      ],
+      "position": {
+        "left": 569.5,
+        "top": 714
+      },
+      "post_job_actions": {
+        "HideDatasetActionoutfile": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "outfile"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0",
+      "tool_shed_repository": {
+        "changeset_revision": "e6011617c748",
+        "name": "openbabel_compound_convert",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"dative_bonds\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"appendtotitle\": \"\\\"\\\"\", \"remove_h\": \"\\\"false\\\"\", \"oformat\": \"{\\\"__current_case__\\\": 58, \\\"gen2d\\\": \\\"false\\\", \\\"gen3d\\\": \\\"true\\\", \\\"oformat_opts_selector\\\": \\\"sdf\\\", \\\"sdf_alias_out\\\": \\\"false\\\", \\\"sdf_exp_h\\\": \\\"false\\\", \\\"sdf_no_prop\\\": \\\"false\\\", \\\"sdf_wedge_bonds\\\": \\\"false\\\"}\", \"ph\": \"\\\"-1.0\\\"\", \"unique\": \"{\\\"__current_case__\\\": 0, \\\"unique_opts_selector\\\": \\\"\\\"}\", \"infile\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"split\": \"\\\"false\\\"\"}",
+      "tool_version": "2.4.2.1.0",
+      "type": "tool",
+      "uuid": "2d8c9c29-0a0e-4d6c-97d6-f0929beb2bc3",
+      "workflow_outputs": []
+    },
+    "4": {
+      "annotation": "",
+      "content_id": "cat1",
+      "errors": null,
+      "id": 4,
+      "input_connections": {
+        "input1": {
+          "id": 3,
+          "output_name": "outfile"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Concatenate datasets",
+      "outputs": [
+        {
+          "name": "out_file1",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 958,
+        "top": 787
+      },
+      "post_job_actions": {},
+      "tool_id": "cat1",
+      "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input1\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"queries\": \"[]\"}",
+      "tool_version": "1.0.0",
+      "type": "tool",
+      "uuid": "0b944b12-6969-43ee-a8a2-42f1622c459b",
+      "workflow_outputs": [
+        {
+          "label": "prepared_ligands",
+          "output_name": "out_file1",
+          "uuid": "f9bc2dbc-11e8-4d44-81b5-b4025a4c0f83"
+        }
+      ]
+    }
+  },
+  "tags": [
+    "covid-19"
+  ],
+  "uuid": "cca8ffaa-fe94-409c-be7e-ab6805e79cc3",
+  "version": 6
 }
