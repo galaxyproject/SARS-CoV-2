@@ -140,3 +140,9 @@ tools:
   - 562f3c677828
   tool_panel_section_label: COVID-19 Cheminformatics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: sucos_max_score
+  owner: bgruening
+  revisions:
+  - bf99565cec1f
+  tool_panel_section_label: Covid-19
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
