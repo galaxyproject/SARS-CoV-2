@@ -1,8 +1,8 @@
 {
   "a_galaxy_workflow": "true",
-  "annotation": "",
+  "annotation": "Preparation for docking",
   "format-version": "0.1",
-  "name": "Enumerate ligands for docking",
+  "name": "COVID-19 - Cheminformatics [1] Enumerate ligands for docking", 
   "steps": {
     "0": {
       "annotation": "",
@@ -209,7 +209,9 @@
       ]
     }
   },
-  "tags": [],
+  "tags": [
+    "covid-19"
+  ],
   "uuid": "cca8ffaa-fe94-409c-be7e-ab6805e79cc3",
   "version": 6
 }

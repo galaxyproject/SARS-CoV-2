@@ -1,8 +1,8 @@
 {
     "a_galaxy_workflow": "true", 
-    "annotation": "", 
+    "annotation": "Assembly of SARS-CoV-2 from pre-processed reads", 
     "format-version": "0.1", 
-    "name": "2 - Assembly of genome sequence", 
+    "name": "COVID-19 - Genomics [2] Assembly of genome sequence", 
     "steps": {
         "0": {
             "annotation": "", 

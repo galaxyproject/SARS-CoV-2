@@ -1,8 +1,8 @@
 {
   "a_galaxy_workflow": "true",
-  "annotation": "",
+  "annotation": "Selection of compounds for synthesis",
   "format-version": "0.1",
-  "name": "Filter results",
+  "name": "COVID-19 - Cheminformatics [5] Filter results",
   "steps": {
     "0": {
       "annotation": "",
@@ -689,7 +689,9 @@
       ]
     }
   },
-  "tags": [],
+  "tags": [
+    "covid-19"
+  ],
   "uuid": "2e6a6f46-826b-4857-9330-1756076c7aad",
   "version": 6
 }

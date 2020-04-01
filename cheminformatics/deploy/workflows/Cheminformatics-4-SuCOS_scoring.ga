@@ -1,8 +1,8 @@
 {
   "a_galaxy_workflow": "true",
-  "annotation": "",
+  "annotation": "Scoring",
   "format-version": "0.1",
-  "name": "XChem SuCOS Scoring",
+  "name": "COVID-19 - Cheminformatics [4] SuCOS scoring",
   "steps": {
     "0": {
       "annotation": "",
@@ -291,7 +291,9 @@
       ]
     }
   },
-  "tags": [],
+  "tags": [
+    "covid-19"
+  ],
   "uuid": "40015333-fb64-4d3a-b35b-42e4169ed7a2",
   "version": 19
 }

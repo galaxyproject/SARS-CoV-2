@@ -1,8 +1,8 @@
 {
   "a_galaxy_workflow": "true",
-  "annotation": "",
+  "annotation": "Docking", 
   "format-version": "0.1",
-  "name": "XChem Docking",
+  "name": "COVID-19 - Cheminformatics [3] Docking",
   "steps": {
     "0": {
       "annotation": "",
@@ -291,7 +291,9 @@
       ]
     }
   },
-  "tags": [],
+  "tags": [
+    "covid-19"
+  ],
   "uuid": "3ca66647-631b-4ddd-9dcb-0ef9415ed630",
   "version": 10
 }
