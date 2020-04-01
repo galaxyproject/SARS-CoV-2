@@ -29,11 +29,13 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-docking-only) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
- <p align="center">
-  Docking
-  <a href="https://usegalaxy.eu/u/sbray/w/mpro-docking-only">   <img src="./w-docking.png" alt="Workflow docking" /></a> &nbsp;  
- </p>
- 
+
+| Docking  |
+|:----------------:|
+|![](./w-docking.png) |
+| The docking workflow. <br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-docking-only" alt="Workflow docking" /> |
+
+
  ## References
 
 [1] Ruiz-Carmona et al. (2014). rDock: a fast, versatile and open source program for docking ligands to proteins and nucleic acids. PLoS Computational Biology. 10 (4). doi:[10.1371/journal.pcbi.1003571](https://doi.org/10.1371%2Fjournal.pcbi.1003571).

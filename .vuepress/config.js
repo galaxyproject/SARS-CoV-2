@@ -15,6 +15,10 @@ module.exports = {
             {
                 text: "Cheminformatics",
                 link: "/cheminformatics/"
+            },
+            {
+                text: "Evolution",
+                link: "/evolution/"
             }
         ],
         sidebar: {
@@ -37,7 +41,12 @@ module.exports = {
                 "/cheminformatics/4-Scoring/",
                 "/cheminformatics/5-Selection/",
                 "/cheminformatics/Histories/"
+            ],
+            "/evolution/": [
+                "/evolution/",
+                "/evolution/1-DiversityDivergence",
             ]
+
         },
         sidebarDepth: 3,
         displayAllHeaders: true,

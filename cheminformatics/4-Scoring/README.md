@@ -30,11 +30,13 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 The publicly accessible [TransFS scoring workflow](https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring) and [SuCOS scoring workflow](https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring) can be downloaded and installed on any Galaxy instance. They contain version information for all tools used in this analysis.
 
 | Scoring workfows  |
-|----------------|
+|:----------------:|
 |![](./w-transFS-scoring.png) |
-| TransFS scoring workflow [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring)|
+| TransFS scoring workflow <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-transfs-scoring" alt="Galaxy workflow" /> |
 |![](./w-SuCOS-scoring.png)|
-| SuCOS scoring workflow [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring) |
+| SuCOS scoring workflow <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-sucos-scoring" alt="Galaxy workflow" /> |
+
+
 
 
 ## References
