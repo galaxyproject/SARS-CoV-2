@@ -23,10 +23,12 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
- <p align="center">
-  Active site preparation
-  <a href="https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation">   <img src="./w-active-site-generation.png" alt="Workflow active site preparation" /></a> &nbsp;  
- </p>
+
+| Active site preparation  |
+|:----------------:|
+|![](./w-active-site-generation.png) |
+| Preparation of the active site for docking. <br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/mpro-active-site-generation" alt="Workflow active site preparation" /> |
+
 
 ## References
 

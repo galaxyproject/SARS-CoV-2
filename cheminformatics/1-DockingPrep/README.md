@@ -24,11 +24,12 @@ A Galaxy workspace (history) containing the most current analysis can be importe
 
 The publicly accessible [workflow](https://usegalaxy.eu/u/sbray/w/charge-enumeration) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
 
- <p align="center">
-  Preparation for docking
-  <a href="https://usegalaxy.eu/u/sbray/w/charge-enumeration">   <img src="./w-ligand-enumeration.png" alt="Workflow preparation for docking" /></a> &nbsp;  
- </p>
- 
+
+| Preparation for docking  |
+|:----------------:|
+|![](./w-ligand-enumeration.png) |
+| Preparation of protein and ligands for docking.<br/> <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/sbray/w/charge-enumeration" alt="Workflow preparation for docking" /> |
+
 
 ## References
 
