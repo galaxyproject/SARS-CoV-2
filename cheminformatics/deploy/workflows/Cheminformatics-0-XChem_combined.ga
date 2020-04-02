@@ -1,0 +1,1074 @@
+{
+  "a_galaxy_workflow": "true", 
+  "annotation": "Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)", 
+  "format-version": "0.1", 
+  "name": "COVID-19 - Cheminformatics [0] XChem combined", 
+  "steps": {
+    "0": {
+      "annotation": "", 
+      "content_id": null, 
+      "errors": null, 
+      "id": 0, 
+      "input_connections": {}, 
+      "inputs": [], 
+      "label": "Receptor", 
+      "name": "Input dataset", 
+      "outputs": [], 
+      "position": {
+        "left": 293.22918701171875, 
+        "top": 242.24827575683594
+      }, 
+      "tool_id": null, 
+      "tool_state": "{}", 
+      "tool_version": null, 
+      "type": "data_input", 
+      "uuid": "be4a2ff9-7436-48a4-99c1-54507b4620b5", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "output", 
+          "uuid": "1f7dbafa-a4f7-4d81-9356-7facabadf19a"
+        }
+      ]
+    }, 
+    "1": {
+      "annotation": "", 
+      "content_id": null, 
+      "errors": null, 
+      "id": 1, 
+      "input_connections": {}, 
+      "inputs": [], 
+      "label": "Active site", 
+      "name": "Input dataset", 
+      "outputs": [], 
+      "position": {
+        "left": 297.9600830078125, 
+        "top": 406.0416717529297
+      }, 
+      "tool_id": null, 
+      "tool_state": "{}", 
+      "tool_version": null, 
+      "type": "data_input", 
+      "uuid": "22e54889-99e8-4b27-9520-657afb1ea6eb", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "output", 
+          "uuid": "19d14324-fdc7-4030-ac54-b78675309092"
+        }
+      ]
+    }, 
+    "2": {
+      "annotation": "", 
+      "content_id": null, 
+      "errors": null, 
+      "id": 2, 
+      "input_connections": {}, 
+      "inputs": [], 
+      "label": "Candidate ligands", 
+      "name": "Input dataset collection", 
+      "outputs": [], 
+      "position": {
+        "left": 298.576416015625, 
+        "top": 573.4461822509766
+      }, 
+      "tool_id": null, 
+      "tool_state": "{\"collection_type\": \"list\"}", 
+      "tool_version": null, 
+      "type": "data_collection_input", 
+      "uuid": "a29e4feb-c831-427e-8d17-3fe97446bb6a", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "output", 
+          "uuid": "18564a1e-b563-46b3-8256-73878223b529"
+        }
+      ]
+    }, 
+    "3": {
+      "annotation": "", 
+      "content_id": null, 
+      "errors": null, 
+      "id": 3, 
+      "input_connections": {}, 
+      "inputs": [], 
+      "label": "Reference moelcules", 
+      "name": "Input dataset", 
+      "outputs": [], 
+      "position": {
+        "left": 298.87152099609375, 
+        "top": 747.7777862548828
+      }, 
+      "tool_id": null, 
+      "tool_state": "{}", 
+      "tool_version": null, 
+      "type": "data_input", 
+      "uuid": "7ff7547f-d348-4d10-a7bf-e966525db091", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "output", 
+          "uuid": "db0a3d44-73f4-4983-ac4d-1f175078c177"
+        }
+      ]
+    }, 
+    "4": {
+      "annotation": "", 
+      "id": 4, 
+      "input_connections": {
+        "Active site": {
+          "id": 1, 
+          "input_subworkflow_step_id": 1, 
+          "output_name": "output"
+        }, 
+        "Receptor": {
+          "id": 0, 
+          "input_subworkflow_step_id": 0, 
+          "output_name": "output"
+        }, 
+        "input_ligands": {
+          "id": 2, 
+          "input_subworkflow_step_id": 2, 
+          "output_name": "output"
+        }
+      }, 
+      "inputs": [], 
+      "label": null, 
+      "name": "XChem Docking", 
+      "outputs": [], 
+      "position": {
+        "left": 795.6683959960938, 
+        "top": 360.7291717529297
+      }, 
+      "subworkflow": {
+        "a_galaxy_workflow": "true", 
+        "annotation": "", 
+        "format-version": "0.1", 
+        "name": "XChem Docking", 
+        "steps": {
+          "0": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "Receptor", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+              "left": 170.25173950195312, 
+              "top": 148.28125
+            }, 
+            "tool_id": null, 
+            "tool_state": "{}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "13b896b9-a95a-4512-839f-21dff75c9f23", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "15472340-1fad-4ea3-8acf-5119ce0cea09"
+              }
+            ]
+          }, 
+          "1": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "Active site", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+              "left": 178.47222900390625, 
+              "top": 289.53126525878906
+            }, 
+            "tool_id": null, 
+            "tool_state": "{}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "ccf2160f-1c36-4a41-8cb1-d971f1d0c3a3", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "c9e0c178-112e-4393-89e9-8d3a81813468"
+              }
+            ]
+          }, 
+          "2": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 2, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "input_ligands", 
+            "name": "Input dataset collection", 
+            "outputs": [], 
+            "position": {
+              "left": 179.98263549804688, 
+              "top": 392.42189025878906
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"collection_type\": \"list\"}", 
+            "tool_version": null, 
+            "type": "data_collection_input", 
+            "uuid": "ad85b847-4097-4797-a4a9-fb67e5488173", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "9b445dce-0c6b-4145-9c3c-80463aeb8cfe"
+              }
+            ]
+          }, 
+          "3": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0", 
+            "errors": null, 
+            "id": 3, 
+            "input_connections": {
+              "infile": {
+                "id": 0, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Compound conversion", 
+            "outputs": [
+              {
+                "name": "outfile", 
+                "type": "text"
+              }
+            ], 
+            "position": {
+              "left": 521.9271240234375, 
+              "top": 188.4635467529297
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionoutfile": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "outfile"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "e6011617c748", 
+              "name": "openbabel_compound_convert", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"dative_bonds\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"appendtotitle\": \"\\\"\\\"\", \"remove_h\": \"\\\"false\\\"\", \"oformat\": \"{\\\"__current_case__\\\": 41, \\\"gen2d\\\": \\\"false\\\", \\\"gen3d\\\": \\\"false\\\", \\\"mol2_ignore_res\\\": \\\"false\\\", \\\"oformat_opts_selector\\\": \\\"mol2\\\"}\", \"ph\": \"\\\"7.4\\\"\", \"unique\": \"{\\\"__current_case__\\\": 0, \\\"unique_opts_selector\\\": \\\"\\\"}\", \"infile\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"split\": \"\\\"false\\\"\"}", 
+            "tool_version": "2.4.2.1.0", 
+            "type": "tool", 
+            "uuid": "d72129dc-90fe-4301-9e57-3a157bd37147", 
+            "workflow_outputs": []
+          }, 
+          "4": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0", 
+            "errors": null, 
+            "id": 4, 
+            "input_connections": {
+              "inputs": {
+                "id": 2, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": "joined_inputs", 
+            "name": "Concatenate datasets", 
+            "outputs": [
+              {
+                "name": "out_file1", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 399.765625, 
+              "top": 562.0399322509766
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionout_file1": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "out_file1"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "fb4ff3c42cd3", 
+              "name": "text_processing", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[]\"}", 
+            "tool_version": "0.1.0", 
+            "type": "tool", 
+            "uuid": "8f53c923-e8bc-4ad2-b972-96b3d36fe959", 
+            "workflow_outputs": []
+          }, 
+          "5": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "errors": null, 
+            "id": 5, 
+            "input_connections": {
+              "split_parms|input": {
+                "id": 4, 
+                "output_name": "out_file1"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Split file", 
+            "outputs": [
+              {
+                "name": "list_output_sdf", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 690.9375, 
+              "top": 431.2152862548828
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionlist_output_sdf": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "list_output_sdf"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "e77b954f0da5", 
+              "name": "split_file_to_collection", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"ligands\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 0, \\\"chunksize\\\": \\\"200\\\", \\\"mode\\\": \\\"chunk\\\"}}\"}", 
+            "tool_version": "0.4.0", 
+            "type": "tool", 
+            "uuid": "f36794a7-d060-4ea4-8971-6fb54fd15f97", 
+            "workflow_outputs": []
+          }, 
+          "6": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.1", 
+            "errors": null, 
+            "id": 6, 
+            "input_connections": {
+              "active_site": {
+                "id": 1, 
+                "output_name": "output"
+              }, 
+              "ligands": {
+                "id": 5, 
+                "output_name": "list_output_sdf"
+              }, 
+              "receptor": {
+                "id": 3, 
+                "output_name": "outfile"
+              }
+            }, 
+            "inputs": [
+              {
+                "description": "runtime parameter for tool rDock docking", 
+                "name": "active_site"
+              }, 
+              {
+                "description": "runtime parameter for tool rDock docking", 
+                "name": "receptor"
+              }, 
+              {
+                "description": "runtime parameter for tool rDock docking", 
+                "name": "ligands"
+              }
+            ], 
+            "label": "ligands docked", 
+            "name": "rDock docking", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "sdf"
+              }
+            ], 
+            "position": {
+              "left": 993.1077270507812, 
+              "top": 302.2830047607422
+            }, 
+            "post_job_actions": {
+              "RenameDatasetActionoutput": {
+                "action_arguments": {
+                  "newname": "Docking on #{ligands}"
+                }, 
+                "action_type": "RenameDatasetAction", 
+                "output_name": "output"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.1", 
+            "tool_shed_repository": {
+              "changeset_revision": "5f291eef9ef3", 
+              "name": "rdock_rbdock", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"name\": \"\\\"false\\\"\", \"nscore\": \"\\\"\\\"\", \"active_site\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"top\": \"\\\"25\\\"\", \"num\": \"\\\"25\\\"\", \"receptor\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"score\": \"\\\"\\\"\", \"ligands\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}", 
+            "tool_version": "0.1.1", 
+            "type": "tool", 
+            "uuid": "4aa9a80d-05a1-4e1c-ba6d-3c63849f7150", 
+            "workflow_outputs": [
+              {
+                "label": "Docked_Ligands", 
+                "output_name": "output", 
+                "uuid": "d4632883-8a3f-46ff-8289-352a4454f782"
+              }
+            ]
+          }
+        }, 
+        "tags": "", 
+        "uuid": "3ca66647-631b-4ddd-9dcb-0ef9415ed630"
+      }, 
+      "tool_id": "a70961d36bd03ade", 
+      "type": "subworkflow", 
+      "uuid": "1a91fd30-06ff-4851-be0e-9ba2ed96e273", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "Docked_Ligands", 
+          "uuid": "1d55cddc-3677-419f-88b6-de0dccd40ba4"
+        }
+      ]
+    }, 
+    "5": {
+      "annotation": "", 
+      "id": 5, 
+      "input_connections": {
+        "1:Input dataset collection": {
+          "id": 4, 
+          "input_subworkflow_step_id": 1, 
+          "output_name": "Docked_Ligands"
+        }, 
+        "Protein (PDB)": {
+          "id": 0, 
+          "input_subworkflow_step_id": 0, 
+          "output_name": "output"
+        }
+      }, 
+      "inputs": [], 
+      "label": null, 
+      "name": "XChem TransFS Scoring", 
+      "outputs": [], 
+      "position": {
+        "left": 1124.6094360351562, 
+        "top": 244.60939025878906
+      }, 
+      "subworkflow": {
+        "a_galaxy_workflow": "true", 
+        "annotation": "", 
+        "format-version": "0.1", 
+        "name": "XChem TransFS Scoring", 
+        "steps": {
+          "0": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "Protein (PDB)", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+              "left": 140.48333740234375, 
+              "top": 215
+            }, 
+            "tool_id": null, 
+            "tool_state": "{}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "ee49f001-000d-481b-a773-f75e0586540e", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "de1f022d-af3a-4d7a-bcfd-3c12ca4ed7a0"
+              }
+            ]
+          }, 
+          "1": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Input dataset collection", 
+            "outputs": [], 
+            "position": {
+              "left": 133, 
+              "top": 597
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"collection_type\": \"list\"}", 
+            "tool_version": null, 
+            "type": "data_collection_input", 
+            "uuid": "cdf53777-d650-4bcd-ab5a-f4222b8cdbd4", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "2056463b-35e8-4b41-ae05-350fac16c032"
+              }
+            ]
+          }, 
+          "2": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "errors": null, 
+            "id": 2, 
+            "input_connections": {
+              "input_list": {
+                "id": 1, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Collapse Collection", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 532.9833374023438, 
+              "top": 596
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionoutput": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "output"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "tool_shed_repository": {
+              "changeset_revision": "830961c48e42", 
+              "name": "collapse_collections", 
+              "owner": "nml", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input_list\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"one_header\": \"\\\"false\\\"\", \"filename\": \"{\\\"__current_case__\\\": 1, \\\"add_name\\\": \\\"false\\\"}\"}", 
+            "tool_version": "4.2", 
+            "type": "tool", 
+            "uuid": "61711252-141e-407c-a4cc-7bc6b79f28f1", 
+            "workflow_outputs": []
+          }, 
+          "3": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "errors": null, 
+            "id": 3, 
+            "input_connections": {
+              "split_parms|input": {
+                "id": 2, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Split file", 
+            "outputs": [
+              {
+                "name": "list_output_sdf", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 919, 
+              "top": 634.0166625976562
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionlist_output_sdf": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "list_output_sdf"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "e77b954f0da5", 
+              "name": "split_file_to_collection", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"split_file\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 0, \\\"chunksize\\\": \\\"100000\\\", \\\"mode\\\": \\\"chunk\\\"}}\"}", 
+            "tool_version": "0.4.0", 
+            "type": "tool", 
+            "uuid": "6e28fdd1-877a-48ad-bbd3-0acfecc048ca", 
+            "workflow_outputs": []
+          }, 
+          "4": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.2.0", 
+            "errors": null, 
+            "id": 4, 
+            "input_connections": {
+              "ligands": {
+                "id": 3, 
+                "output_name": "list_output_sdf"
+              }, 
+              "receptor": {
+                "id": 0, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "XChem TransFS pose scoring", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "sdf"
+              }, 
+              {
+                "name": "predictions", 
+                "type": "txt"
+              }, 
+              {
+                "name": "output_receptors", 
+                "type": "tar"
+              }
+            ], 
+            "position": {
+              "left": 1145.61669921875, 
+              "top": 204.61666870117188
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionoutput_receptors": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "output_receptors"
+              }, 
+              "RenameDatasetActionoutput": {
+                "action_arguments": {
+                  "newname": "TransFS scores on #{ligands}"
+                }, 
+                "action_type": "RenameDatasetAction", 
+                "output_name": "output"
+              }, 
+              "RenameDatasetActionoutput_receptors": {
+                "action_arguments": {
+                  "newname": "TransFS receptors on #{ligands}"
+                }, 
+                "action_type": "RenameDatasetAction", 
+                "output_name": "output_receptors"
+              }, 
+              "RenameDatasetActionpredictions": {
+                "action_arguments": {
+                  "newname": "TransFS predictions on #{ligands}"
+                }, 
+                "action_type": "RenameDatasetAction", 
+                "output_name": "predictions"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.2.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "de29b4f35536", 
+              "name": "xchem_transfs_scoring", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"distance\": \"\\\"2.0\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"receptor\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"ligands\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"mock\": \"\\\"\\\"\"}", 
+            "tool_version": "0.2.0", 
+            "type": "tool", 
+            "uuid": "cafafb11-6b18-4395-9284-6d4e10bb0361", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "38ccf8b4-c95d-4127-a68b-8e32bb5f82d2"
+              }, 
+              {
+                "label": null, 
+                "output_name": "predictions", 
+                "uuid": "4e012164-c5c2-4206-86ca-764538d4976a"
+              }
+            ]
+          }
+        }, 
+        "tags": "", 
+        "uuid": "4ae17063-40cc-46a8-aee5-6df8cef97bf7"
+      }, 
+      "tool_id": "a1b8269b09176b2f", 
+      "type": "subworkflow", 
+      "uuid": "947157b9-6046-4279-91bd-819912ce9e0c", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "4:output", 
+          "uuid": "18706a13-98d9-4ad5-916b-cae41b6acd84"
+        }, 
+        {
+          "label": null, 
+          "output_name": "4:predictions", 
+          "uuid": "0806a3aa-d700-45e5-a95f-3d01a08815f0"
+        }
+      ]
+    }, 
+    "6": {
+      "annotation": "", 
+      "id": 6, 
+      "input_connections": {
+        "ligands to score": {
+          "id": 5, 
+          "input_subworkflow_step_id": 0, 
+          "output_name": "4:output"
+        }, 
+        "reference molecules": {
+          "id": 3, 
+          "input_subworkflow_step_id": 1, 
+          "output_name": "output"
+        }
+      }, 
+      "inputs": [], 
+      "label": null, 
+      "name": "XChem SuCOS Scoring", 
+      "outputs": [], 
+      "position": {
+        "left": 1172.4913940429688, 
+        "top": 665.4948272705078
+      }, 
+      "subworkflow": {
+        "a_galaxy_workflow": "true", 
+        "annotation": "", 
+        "format-version": "0.1", 
+        "name": "XChem SuCOS Scoring", 
+        "steps": {
+          "0": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "ligands to score", 
+            "name": "Input dataset collection", 
+            "outputs": [], 
+            "position": {
+              "left": 168.984375, 
+              "top": 200.00001525878906
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"collection_type\": \"list\"}", 
+            "tool_version": null, 
+            "type": "data_collection_input", 
+            "uuid": "1c4a23b4-eee5-4e61-9c1b-7a0c3da77e79", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "1045b0e5-e193-425e-a3e9-63536ce02e6e"
+              }
+            ]
+          }, 
+          "1": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": "reference molecules", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+              "left": 150.97222900390625, 
+              "top": 888.0034942626953
+            }, 
+            "tool_id": null, 
+            "tool_state": "{}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "d9fb0d7c-e252-429c-94fb-2f4d6e62b638", 
+            "workflow_outputs": [
+              {
+                "label": null, 
+                "output_name": "output", 
+                "uuid": "8a76de24-afa5-4af0-b0bd-ba9a09402307"
+              }
+            ]
+          }, 
+          "2": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "errors": null, 
+            "id": 2, 
+            "input_connections": {
+              "input_list": {
+                "id": 0, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Collapse Collection", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 442.4739990234375, 
+              "top": 383.0034942626953
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionoutput": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "output"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "tool_shed_repository": {
+              "changeset_revision": "830961c48e42", 
+              "name": "collapse_collections", 
+              "owner": "nml", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input_list\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"one_header\": \"\\\"false\\\"\", \"filename\": \"{\\\"__current_case__\\\": 1, \\\"add_name\\\": \\\"false\\\"}\"}", 
+            "tool_version": "4.2", 
+            "type": "tool", 
+            "uuid": "b147f10a-02cc-4cfa-9431-b0cd65fdd8d1", 
+            "workflow_outputs": []
+          }, 
+          "3": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_sort_filter/rdock_sort_filter/0.1.0", 
+            "errors": null, 
+            "id": 3, 
+            "input_connections": {
+              "input": {
+                "id": 2, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "SDF sort and filter", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "sdf"
+              }
+            ], 
+            "position": {
+              "left": 706.484375, 
+              "top": 190.00868225097656
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionoutput": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "output"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_sort_filter/rdock_sort_filter/0.1.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "784a9f7f079e", 
+              "name": "rdock_sort_filter", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"name_field\": \"\\\"Name\\\"\", \"top\": \"\\\"1\\\"\", \"descending\": \"\\\"true\\\"\", \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"sort_field\": \"\\\"TransFSScore\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1.0", 
+            "type": "tool", 
+            "uuid": "e367c9f5-ee84-45e4-b549-654908006fa2", 
+            "workflow_outputs": []
+          }, 
+          "4": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "errors": null, 
+            "id": 4, 
+            "input_connections": {
+              "split_parms|input": {
+                "id": 3, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Split file", 
+            "outputs": [
+              {
+                "name": "list_output_sdf", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 909.4791870117188, 
+              "top": 421.48439025878906
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionlist_output_sdf": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "list_output_sdf"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0", 
+            "tool_shed_repository": {
+              "changeset_revision": "e77b954f0da5", 
+              "name": "split_file_to_collection", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"split_file\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 1, \\\"mode\\\": \\\"numnew\\\", \\\"numnew\\\": \\\"10\\\"}}\"}", 
+            "tool_version": "0.4.0", 
+            "type": "tool", 
+            "uuid": "30254b74-666e-46da-a8f2-d4327610df2b", 
+            "workflow_outputs": []
+          }, 
+          "5": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.1", 
+            "errors": null, 
+            "id": 5, 
+            "input_connections": {
+              "clusters": {
+                "id": 1, 
+                "output_name": "output"
+              }, 
+              "input": {
+                "id": 4, 
+                "output_name": "list_output_sdf"
+              }
+            }, 
+            "inputs": [
+              {
+                "description": "runtime parameter for tool Max SuCOS score", 
+                "name": "clusters"
+              }, 
+              {
+                "description": "runtime parameter for tool Max SuCOS score", 
+                "name": "input"
+              }
+            ], 
+            "label": null, 
+            "name": "Max SuCOS score", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "sdf"
+              }
+            ], 
+            "position": {
+              "left": 643.4722290039062, 
+              "top": 835.9896392822266
+            }, 
+            "post_job_actions": {
+              "HideDatasetActionoutput": {
+                "action_arguments": {}, 
+                "action_type": "HideDatasetAction", 
+                "output_name": "output"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.1", 
+            "tool_shed_repository": {
+              "changeset_revision": "bf99565cec1f", 
+              "name": "sucos_max_score", 
+              "owner": "bgruening", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"clusters\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}", 
+            "tool_version": "0.2.1", 
+            "type": "tool", 
+            "uuid": "1d8947ec-068b-4a3f-bddc-f23df6ec75b3", 
+            "workflow_outputs": []
+          }, 
+          "6": {
+            "annotation": "", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "errors": null, 
+            "id": 6, 
+            "input_connections": {
+              "input_list": {
+                "id": 5, 
+                "output_name": "output"
+              }
+            }, 
+            "inputs": [], 
+            "label": "Collected SuCOS scores", 
+            "name": "Collapse Collection", 
+            "outputs": [
+              {
+                "name": "output", 
+                "type": "input"
+              }
+            ], 
+            "position": {
+              "left": 1001.9705200195312, 
+              "top": 886.4843902587891
+            }, 
+            "post_job_actions": {
+              "RenameDatasetActionoutput": {
+                "action_arguments": {
+                  "newname": "SuCOS scores on #{input_list}"
+                }, 
+                "action_type": "RenameDatasetAction", 
+                "output_name": "output"
+              }
+            }, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2", 
+            "tool_shed_repository": {
+              "changeset_revision": "830961c48e42", 
+              "name": "collapse_collections", 
+              "owner": "nml", 
+              "tool_shed": "toolshed.g2.bx.psu.edu"
+            }, 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input_list\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"one_header\": \"\\\"false\\\"\", \"filename\": \"{\\\"__current_case__\\\": 1, \\\"add_name\\\": \\\"false\\\"}\"}", 
+            "tool_version": "4.2", 
+            "type": "tool", 
+            "uuid": "edff870a-951e-4b3f-88ed-99f72b70e8a2", 
+            "workflow_outputs": [
+              {
+                "label": "SuCOS_Scored", 
+                "output_name": "output", 
+                "uuid": "dfe034e7-58f2-4456-9045-2a23e81692f4"
+              }
+            ]
+          }
+        }, 
+        "tags": "", 
+        "uuid": "f9c86629-bb08-4564-a08c-86809225a622"
+      }, 
+      "tool_id": "e660077a31d6ae70", 
+      "type": "subworkflow", 
+      "uuid": "e1bf683f-1a39-43cc-a5b6-6219a74bbe44", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "SuCOS_Scored", 
+          "uuid": "9e35f099-b295-43a8-a976-45641ae56054"
+        }
+      ]
+    }
+  }, 
+  "tags": [
+    "covid-19"
+  ],
+  "uuid": "89f5e0e1-f6b0-4d4c-9859-1b7f3f4e3417", 
+  "version": 9
+}
