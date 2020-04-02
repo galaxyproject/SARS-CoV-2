@@ -1,0 +1,299 @@
+{
+  "a_galaxy_workflow": "true",
+  "annotation": "Docking", 
+  "format-version": "0.1",
+  "name": "COVID-19 - Cheminformatics [3] Docking",
+  "steps": {
+    "0": {
+      "annotation": "",
+      "content_id": null,
+      "errors": null,
+      "id": 0,
+      "input_connections": {},
+      "inputs": [],
+      "label": "Receptor",
+      "name": "Input dataset",
+      "outputs": [],
+      "position": {
+        "left": 170.25173950195312,
+        "top": 148.28125
+      },
+      "tool_id": null,
+      "tool_state": "{}",
+      "tool_version": null,
+      "type": "data_input",
+      "uuid": "13b896b9-a95a-4512-839f-21dff75c9f23",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "15472340-1fad-4ea3-8acf-5119ce0cea09"
+        }
+      ]
+    },
+    "1": {
+      "annotation": "",
+      "content_id": null,
+      "errors": null,
+      "id": 1,
+      "input_connections": {},
+      "inputs": [],
+      "label": "Active site",
+      "name": "Input dataset",
+      "outputs": [],
+      "position": {
+        "left": 178.47222900390625,
+        "top": 289.53126525878906
+      },
+      "tool_id": null,
+      "tool_state": "{}",
+      "tool_version": null,
+      "type": "data_input",
+      "uuid": "ccf2160f-1c36-4a41-8cb1-d971f1d0c3a3",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "c9e0c178-112e-4393-89e9-8d3a81813468"
+        }
+      ]
+    },
+    "2": {
+      "annotation": "",
+      "content_id": null,
+      "errors": null,
+      "id": 2,
+      "input_connections": {},
+      "inputs": [],
+      "label": "input_ligands",
+      "name": "Input dataset collection",
+      "outputs": [],
+      "position": {
+        "left": 179.98263549804688,
+        "top": 392.42189025878906
+      },
+      "tool_id": null,
+      "tool_state": "{\"collection_type\": \"list\"}",
+      "tool_version": null,
+      "type": "data_collection_input",
+      "uuid": "ad85b847-4097-4797-a4a9-fb67e5488173",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "9b445dce-0c6b-4145-9c3c-80463aeb8cfe"
+        }
+      ]
+    },
+    "3": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0",
+      "errors": null,
+      "id": 3,
+      "input_connections": {
+        "infile": {
+          "id": 0,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Compound conversion",
+      "outputs": [
+        {
+          "name": "outfile",
+          "type": "text"
+        }
+      ],
+      "position": {
+        "left": 521.9271240234375,
+        "top": 188.4635467529297
+      },
+      "post_job_actions": {
+        "HideDatasetActionoutfile": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "outfile"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0",
+      "tool_shed_repository": {
+        "changeset_revision": "e6011617c748",
+        "name": "openbabel_compound_convert",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"dative_bonds\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"appendtotitle\": \"\\\"\\\"\", \"remove_h\": \"\\\"false\\\"\", \"oformat\": \"{\\\"__current_case__\\\": 41, \\\"gen2d\\\": \\\"false\\\", \\\"gen3d\\\": \\\"false\\\", \\\"mol2_ignore_res\\\": \\\"false\\\", \\\"oformat_opts_selector\\\": \\\"mol2\\\"}\", \"ph\": \"\\\"7.4\\\"\", \"unique\": \"{\\\"__current_case__\\\": 0, \\\"unique_opts_selector\\\": \\\"\\\"}\", \"infile\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"split\": \"\\\"false\\\"\"}",
+      "tool_version": "2.4.2.1.0",
+      "type": "tool",
+      "uuid": "d72129dc-90fe-4301-9e57-3a157bd37147",
+      "workflow_outputs": []
+    },
+    "4": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
+      "errors": null,
+      "id": 4,
+      "input_connections": {
+        "inputs": {
+          "id": 2,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": "joined_inputs",
+      "name": "Concatenate datasets",
+      "outputs": [
+        {
+          "name": "out_file1",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 399.765625,
+        "top": 562.0399322509766
+      },
+      "post_job_actions": {
+        "HideDatasetActionout_file1": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "out_file1"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
+      "tool_shed_repository": {
+        "changeset_revision": "fb4ff3c42cd3",
+        "name": "text_processing",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[]\"}",
+      "tool_version": "0.1.0",
+      "type": "tool",
+      "uuid": "8f53c923-e8bc-4ad2-b972-96b3d36fe959",
+      "workflow_outputs": []
+    },
+    "5": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+      "errors": null,
+      "id": 5,
+      "input_connections": {
+        "split_parms|input": {
+          "id": 4,
+          "output_name": "out_file1"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Split file",
+      "outputs": [
+        {
+          "name": "list_output_sdf",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 690.9375,
+        "top": 431.2152862548828
+      },
+      "post_job_actions": {
+        "HideDatasetActionlist_output_sdf": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "list_output_sdf"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+      "tool_shed_repository": {
+        "changeset_revision": "e77b954f0da5",
+        "name": "split_file_to_collection",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"ligands\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 0, \\\"chunksize\\\": \\\"200\\\", \\\"mode\\\": \\\"chunk\\\"}}\"}",
+      "tool_version": "0.4.0",
+      "type": "tool",
+      "uuid": "f36794a7-d060-4ea4-8971-6fb54fd15f97",
+      "workflow_outputs": []
+    },
+    "6": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.1",
+      "errors": null,
+      "id": 6,
+      "input_connections": {
+        "active_site": {
+          "id": 1,
+          "output_name": "output"
+        },
+        "ligands": {
+          "id": 5,
+          "output_name": "list_output_sdf"
+        },
+        "receptor": {
+          "id": 3,
+          "output_name": "outfile"
+        }
+      },
+      "inputs": [
+        {
+          "description": "runtime parameter for tool rDock docking",
+          "name": "active_site"
+        },
+        {
+          "description": "runtime parameter for tool rDock docking",
+          "name": "receptor"
+        },
+        {
+          "description": "runtime parameter for tool rDock docking",
+          "name": "ligands"
+        }
+      ],
+      "label": "ligands docked",
+      "name": "rDock docking",
+      "outputs": [
+        {
+          "name": "output",
+          "type": "sdf"
+        }
+      ],
+      "position": {
+        "left": 993.1077270507812,
+        "top": 302.2830047607422
+      },
+      "post_job_actions": {
+        "RenameDatasetActionoutput": {
+          "action_arguments": {
+            "newname": "Docking on #{ligands}"
+          },
+          "action_type": "RenameDatasetAction",
+          "output_name": "output"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.1",
+      "tool_shed_repository": {
+        "changeset_revision": "5f291eef9ef3",
+        "name": "rdock_rbdock",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"name\": \"\\\"false\\\"\", \"nscore\": \"\\\"\\\"\", \"active_site\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"top\": \"\\\"25\\\"\", \"num\": \"\\\"25\\\"\", \"receptor\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"score\": \"\\\"\\\"\", \"ligands\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
+      "tool_version": "0.1.1",
+      "type": "tool",
+      "uuid": "4aa9a80d-05a1-4e1c-ba6d-3c63849f7150",
+      "workflow_outputs": [
+        {
+          "label": "Docked_Ligands",
+          "output_name": "output",
+          "uuid": "d4632883-8a3f-46ff-8289-352a4454f782"
+        }
+      ]
+    }
+  },
+  "tags": [
+    "covid-19"
+  ],
+  "uuid": "3ca66647-631b-4ddd-9dcb-0ef9415ed630",
+  "version": 10
+}

@@ -40,7 +40,8 @@ module.exports = {
                 "/cheminformatics/3-Docking/",
                 "/cheminformatics/4-Scoring/",
                 "/cheminformatics/5-Selection/",
-                "/cheminformatics/Histories/"
+                "/cheminformatics/Histories/",
+                "/cheminformatics/deploy/"
             ],
             "/evolution/": [
                 "/evolution/",

@@ -1,0 +1,299 @@
+{
+  "a_galaxy_workflow": "true",
+  "annotation": "Scoring",
+  "format-version": "0.1",
+  "name": "COVID-19 - Cheminformatics [4] SuCOS scoring",
+  "steps": {
+    "0": {
+      "annotation": "",
+      "content_id": null,
+      "errors": null,
+      "id": 0,
+      "input_connections": {},
+      "inputs": [],
+      "label": "ligands to score",
+      "name": "Input dataset collection",
+      "outputs": [],
+      "position": {
+        "left": 168.984375,
+        "top": 200
+      },
+      "tool_id": null,
+      "tool_state": "{\"collection_type\": \"list\"}",
+      "tool_version": null,
+      "type": "data_collection_input",
+      "uuid": "1c4a23b4-eee5-4e61-9c1b-7a0c3da77e79",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "b816e840-9a25-4529-ae0e-9f56851324f4"
+        }
+      ]
+    },
+    "1": {
+      "annotation": "",
+      "content_id": null,
+      "errors": null,
+      "id": 1,
+      "input_connections": {},
+      "inputs": [],
+      "label": "reference molecules",
+      "name": "Input dataset",
+      "outputs": [],
+      "position": {
+        "left": 150.986328125,
+        "top": 888.0078125
+      },
+      "tool_id": null,
+      "tool_state": "{}",
+      "tool_version": null,
+      "type": "data_input",
+      "uuid": "d9fb0d7c-e252-429c-94fb-2f4d6e62b638",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "output",
+          "uuid": "8f1ab71e-b9a8-4b3b-a5ae-209e233a0b8b"
+        }
+      ]
+    },
+    "2": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2",
+      "errors": null,
+      "id": 2,
+      "input_connections": {
+        "input_list": {
+          "id": 0,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Collapse Collection",
+      "outputs": [
+        {
+          "name": "output",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 442.48046875,
+        "top": 383.0078125
+      },
+      "post_job_actions": {
+        "HideDatasetActionoutput": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "output"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2",
+      "tool_shed_repository": {
+        "changeset_revision": "830961c48e42",
+        "name": "collapse_collections",
+        "owner": "nml",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input_list\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"one_header\": \"\\\"false\\\"\", \"filename\": \"{\\\"__current_case__\\\": 1, \\\"add_name\\\": \\\"false\\\"}\"}",
+      "tool_version": "4.2",
+      "type": "tool",
+      "uuid": "b147f10a-02cc-4cfa-9431-b0cd65fdd8d1",
+      "workflow_outputs": []
+    },
+    "3": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_sort_filter/rdock_sort_filter/0.1.0",
+      "errors": null,
+      "id": 3,
+      "input_connections": {
+        "input": {
+          "id": 2,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "SDF sort and filter",
+      "outputs": [
+        {
+          "name": "output",
+          "type": "sdf"
+        }
+      ],
+      "position": {
+        "left": 706.484375,
+        "top": 190.009765625
+      },
+      "post_job_actions": {
+        "HideDatasetActionoutput": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "output"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_sort_filter/rdock_sort_filter/0.1.0",
+      "tool_shed_repository": {
+        "changeset_revision": "784a9f7f079e",
+        "name": "rdock_sort_filter",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"name_field\": \"\\\"Name\\\"\", \"top\": \"\\\"1\\\"\", \"descending\": \"\\\"true\\\"\", \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"sort_field\": \"\\\"TransFSScore\\\"\", \"__rerun_remap_job_id__\": null}",
+      "tool_version": "0.1.0",
+      "type": "tool",
+      "uuid": "e367c9f5-ee84-45e4-b549-654908006fa2",
+      "workflow_outputs": []
+    },
+    "4": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+      "errors": null,
+      "id": 4,
+      "input_connections": {
+        "split_parms|input": {
+          "id": 3,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Split file",
+      "outputs": [
+        {
+          "name": "list_output_sdf",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 909.482421875,
+        "top": 421.484375
+      },
+      "post_job_actions": {
+        "HideDatasetActionlist_output_sdf": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "list_output_sdf"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+      "tool_shed_repository": {
+        "changeset_revision": "e77b954f0da5",
+        "name": "split_file_to_collection",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"split_parms\": \"{\\\"__current_case__\\\": 4, \\\"input\\\": {\\\"__class__\\\": \\\"ConnectedValue\\\"}, \\\"newfilenames\\\": \\\"split_file\\\", \\\"select_allocate\\\": {\\\"__current_case__\\\": 1, \\\"allocate\\\": \\\"batch\\\"}, \\\"select_ftype\\\": \\\"sdf\\\", \\\"select_mode\\\": {\\\"__current_case__\\\": 1, \\\"mode\\\": \\\"numnew\\\", \\\"numnew\\\": \\\"10\\\"}}\"}",
+      "tool_version": "0.4.0",
+      "type": "tool",
+      "uuid": "30254b74-666e-46da-a8f2-d4327610df2b",
+      "workflow_outputs": []
+    },
+    "5": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.0",
+      "errors": null,
+      "id": 5,
+      "input_connections": {
+        "clusters": {
+          "id": 1,
+          "output_name": "output"
+        },
+        "input": {
+          "id": 4,
+          "output_name": "list_output_sdf"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Max SuCOS score",
+      "outputs": [
+        {
+          "name": "output",
+          "type": "sdf"
+        }
+      ],
+      "position": {
+        "left": 643.4765625,
+        "top": 835.99609375
+      },
+      "post_job_actions": {
+        "HideDatasetActionoutput": {
+          "action_arguments": {},
+          "action_type": "HideDatasetAction",
+          "output_name": "output"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.0",
+      "tool_shed_repository": {
+        "changeset_revision": "2f110aef9b53",
+        "name": "sucos_max_score",
+        "owner": "bgruening",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"clusters\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\"}",
+      "tool_version": "0.2.0",
+      "type": "tool",
+      "uuid": "1d8947ec-068b-4a3f-bddc-f23df6ec75b3",
+      "workflow_outputs": []
+    },
+    "6": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2",
+      "errors": null,
+      "id": 6,
+      "input_connections": {
+        "input_list": {
+          "id": 5,
+          "output_name": "output"
+        }
+      },
+      "inputs": [],
+      "label": "Collected SuCOS scores",
+      "name": "Collapse Collection",
+      "outputs": [
+        {
+          "name": "output",
+          "type": "input"
+        }
+      ],
+      "position": {
+        "left": 1001.97265625,
+        "top": 886.484375
+      },
+      "post_job_actions": {
+        "RenameDatasetActionoutput": {
+          "action_arguments": {
+            "newname": "SuCOS scores on #{input_list}"
+          },
+          "action_type": "RenameDatasetAction",
+          "output_name": "output"
+        }
+      },
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2",
+      "tool_shed_repository": {
+        "changeset_revision": "830961c48e42",
+        "name": "collapse_collections",
+        "owner": "nml",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"input_list\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"one_header\": \"\\\"false\\\"\", \"filename\": \"{\\\"__current_case__\\\": 1, \\\"add_name\\\": \\\"false\\\"}\"}",
+      "tool_version": "4.2",
+      "type": "tool",
+      "uuid": "edff870a-951e-4b3f-88ed-99f72b70e8a2",
+      "workflow_outputs": [
+        {
+          "label": "SuCOS_Scored",
+          "output_name": "output",
+          "uuid": "dfe034e7-58f2-4456-9045-2a23e81692f4"
+        }
+      ]
+    }
+  },
+  "tags": [
+    "covid-19"
+  ],
+  "uuid": "40015333-fb64-4d3a-b35b-42e4169ed7a2",
+  "version": 19
+}
