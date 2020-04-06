@@ -1,1 +1,3 @@
 pysradb==0.10.2
+biopython==1.76
+ipywidgets==7.5.1
