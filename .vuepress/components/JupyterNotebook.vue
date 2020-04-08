@@ -2,15 +2,14 @@
     <div class="nb-notebook" v-html="notebookHTML"></div>
 </template>
 <script>
-
 import axios from "axios";
 import "!!script-loader!notebookjs";
-import "prismjs/prism"
+import "prismjs/prism";
 
 export default {
     data: function() {
         return {
-            notebookHTML: "",
+            notebookHTML: ""
         };
     },
     props: {
@@ -21,18 +20,17 @@ export default {
     },
     mounted() {
         axios.get(this.notebookURL).then(r => {
-            nb.ansi_up = require('ansi_up');
-            nb.markdown = require('marked');
+            nb.ansi_up = require("ansi_up");
+            nb.markdown = require("marked");
             this.notebookHTML = nb.parse(r.data).render().innerHTML;
-            this.$nextTick(function () {
-                this.highlight()
-            })
+            this.$nextTick(function() {
+                this.highlight();
+            });
         });
-
     },
     methods: {
-        highlight: function () {
-            require('prismjs/components/prism-python.min');
+        highlight: function() {
+            require("prismjs/components/prism-python.min");
             Prism.highlightAll();
         }
     }
