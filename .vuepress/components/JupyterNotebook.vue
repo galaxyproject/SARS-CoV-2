@@ -5,6 +5,8 @@
 import axios from "axios";
 import "!!script-loader!notebookjs";
 import "prismjs/prism";
+import "prismjs/themes/prism.css";
+import './ipython-style.styl'
 
 export default {
     data: function() {
@@ -20,20 +22,40 @@ export default {
     },
     mounted() {
         axios.get(this.notebookURL).then(r => {
-            nb.ansi_up = require("ansi_up");
-            nb.markdown = require("marked");
-            this.notebookHTML = nb.parse(r.data).render().innerHTML;
-            this.$nextTick(function() {
-                this.highlight();
-            });
+            const nbParser = this.configureNotebookjs();
+            this.notebookHTML = nbParser.parse(r.data).render().innerHTML;
         });
     },
     methods: {
-        highlight: function() {
-            require("prismjs/components/prism-python.min");
-            Prism.highlightAll();
+        configureNotebookjs(){
+            nb.ansi_up = require('ansi_up');
+            nb.markdown = require('marked');
+
+            nb.highlighter = ((text, pre, code, lang) => {
+                var language = lang || 'text';
+                pre.className = 'language-' + language;
+                if (typeof code != 'undefined') {
+                    code.className = 'language-' + language;
+                }
+                return this.defineHighlighter(text, language);
+            });
+            return nb;
+        },
+        defineHighlighter(code, lang) {
+            if (typeof lang === 'undefined') lang = 'markup';
+
+            if (!Prism.languages.hasOwnProperty(lang)) {
+                try {
+                    require('prismjs/components/prism-' + lang + '.js');
+                } catch (e) {
+                    console.warn('** failed to load Prism lang: ' + lang);
+                    Prism.languages[lang] = false;
+                }
+            }
+
+            return Prism.languages[lang] ? Prism.highlight(code, Prism.languages[lang]) : code;
         }
     }
-};
+
+}
 </script>
-<style src="./ipython-style.css"></style>
