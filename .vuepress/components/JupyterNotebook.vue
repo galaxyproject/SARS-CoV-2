@@ -41,7 +41,7 @@ nb.highlighter = (text, pre, code, lang) => {
 export default {
     data: function() {
         return {
-            notebookHTML: ""
+            notebookData: null
         };
     },
     props: {
@@ -50,9 +50,14 @@ export default {
             required: true
         }
     },
+    computed: {
+        notebookHTML() {
+            return this.notebookData === null ? "" : nb.parse(this.notebookData).render().innerHTML;
+        }
+    },
     mounted() {
         axios.get(this.notebookURL).then(r => {
-            this.notebookHTML = nb.parse(r.data).render().innerHTML;
+            this.notebookData = r.data;
         });
     }
 };
