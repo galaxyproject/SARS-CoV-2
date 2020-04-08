@@ -1,8 +1,6 @@
 <template>
     <div class="nb-notebook" v-html="notebookHTML"></div>
 </template>
-<style src="./ipython-style.css"></style>
-
 <script>
 
 import axios from "axios";
@@ -40,4 +38,4 @@ export default {
     }
 };
 </script>
-<style></style>
+<style src="./ipython-style.css"></style>
