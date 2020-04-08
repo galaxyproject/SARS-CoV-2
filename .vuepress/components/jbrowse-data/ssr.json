@@ -1,0 +1,1355 @@
+{
+"tracks" : [
+{
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR10903401",
+         "label" : "SRR10903401",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR10903401'>SRR10903401</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059946",
+         "label" : "SRR11059946",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059946'>SRR11059946</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059946.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247075",
+         "label" : "SRR11247075",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11247075'>SRR11247075</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247075.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278166",
+         "label" : "SRR11278166",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278166'>SRR11278166</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278166.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397718",
+         "label" : "SRR11397718",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397718'>SRR11397718</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397718.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410533",
+         "label" : "SRR11410533",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410533'>SRR11410533</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410533.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR10903402",
+         "label" : "SRR10903402",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR10903402'>SRR10903402</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059947",
+         "label" : "SRR11059947",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059947'>SRR11059947</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059947.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247076",
+         "label" : "SRR11247076",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11247076'>SRR11247076</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247076.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278167",
+         "label" : "SRR11278167",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278167'>SRR11278167</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278167.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397719",
+         "label" : "SRR11397719",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397719'>SRR11397719</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397719.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410536",
+         "label" : "SRR11410536",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410536'>SRR11410536</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410536.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR10971381",
+         "label" : "SRR10971381",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR10971381'>SRR10971381</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Madison, WI, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140744",
+         "label" : "SRR11140744",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11140744'>SRR11140744</a> from Madison, WI, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247077",
+         "label" : "SRR11247077",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11247077'>SRR11247077</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247077.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278168",
+         "label" : "SRR11278168",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278168'>SRR11278168</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278168.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397720",
+         "label" : "SRR11397720",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397720'>SRR11397720</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397720.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410538",
+         "label" : "SRR11410538",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410538'>SRR11410538</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410538.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059940",
+         "label" : "SRR11059940",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059940'>SRR11059940</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059940.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Madison, WI, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140746",
+         "label" : "SRR11140746",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11140746'>SRR11140746</a> from Madison, WI, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247078",
+         "label" : "SRR11247078",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11247078'>SRR11247078</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247078.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11314339",
+         "label" : "SRR11314339",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11314339'>SRR11314339</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11314339.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397728",
+         "label" : "SRR11397728",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397728'>SRR11397728</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397728.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410540",
+         "label" : "SRR11410540",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410540'>SRR11410540</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410540.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059941",
+         "label" : "SRR11059941",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059941'>SRR11059941</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059941.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Madison, WI, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140748",
+         "label" : "SRR11140748",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11140748'>SRR11140748</a> from Madison, WI, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278090",
+         "label" : "SRR11278090",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278090'>SRR11278090</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278090.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Unknown, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11393704",
+         "label" : "SRR11393704",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11393704'>SRR11393704</a> from Unknown, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11393704.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397729",
+         "label" : "SRR11397729",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397729'>SRR11397729</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397729.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410538",
+         "label" : "SRR11410538",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410538'>SRR11410538</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410538.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410541",
+         "label" : "SRR11410541",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410541'>SRR11410541</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410541.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059942",
+         "label" : "SRR11059942",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059942'>SRR11059942</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059942.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Madison, WI, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140750",
+         "label" : "SRR11140750",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11140750'>SRR11140750</a> from Madison, WI, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278091",
+         "label" : "SRR11278091",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278091'>SRR11278091</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278091.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397714",
+         "label" : "SRR11397714",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397714'>SRR11397714</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397714.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Unknown, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11409417",
+         "label" : "SRR11409417",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11409417'>SRR11409417</a> from Unknown, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11409417.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410542",
+         "label" : "SRR11410542",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410542'>SRR11410542</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410542.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059943",
+         "label" : "SRR11059943",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059943'>SRR11059943</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059943.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Kathmandu, Nepal",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11177792",
+         "label" : "SRR11177792",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11177792'>SRR11177792</a> from Kathmandu, Nepal. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11177792.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278092",
+         "label" : "SRR11278092",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278092'>SRR11278092</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278092.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397715",
+         "label" : "SRR11397715",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397715'>SRR11397715</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397715.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410528",
+         "label" : "SRR11410528",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410528'>SRR11410528</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410528.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059944",
+         "label" : "SRR11059944",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059944'>SRR11059944</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059944.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11241254",
+         "label" : "SRR11241254",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11241254'>SRR11241254</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278164",
+         "label" : "SRR11278164",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278164'>SRR11278164</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278164.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397716",
+         "label" : "SRR11397716",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397716'>SRR11397716</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397716.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410529",
+         "label" : "SRR11410529",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410529'>SRR11410529</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410529.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059945",
+         "label" : "SRR11059945",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11059945'>SRR11059945</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059945.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Wuhan, China",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11241255",
+         "label" : "SRR11241255",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11241255'>SRR11241255</a> from Wuhan, China. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Seattle, WA, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278165",
+         "label" : "SRR11278165",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11278165'>SRR11278165</a> from Seattle, WA, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278165.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Melbourne, Australia",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11397717",
+         "label" : "SRR11397717",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11397717'>SRR11397717</a> from Melbourne, Australia. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397717.vcf.gz"
+      },
+      
+       {
+         "category" : "Variants/Salt Lake City, UT, USA",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11410532",
+         "label" : "SRR11410532",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for <a href='https://www.ncbi.nlm.nih.gov/sra/SRR11410532'>SRR11410532</a> from Salt Lake City, UT, USA. Green variants have a frequency of 5% or more; yellow, less than 5%. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410532.vcf.gz"
+      }
+]
+}

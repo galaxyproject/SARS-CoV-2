@@ -4,6 +4,9 @@
     </div>
 </template>
 <script>
+import ssr from "./jbrowse-data/ssr.json";
+import trackList from "./jbrowse-data/trackList.json";
+trackList.tracks = { ...trackList.tracks, ...ssr.tracks };
 export default {
     props: {
         containerID: {
@@ -15,16 +18,26 @@ export default {
         },
         refSeqs: Object,
         tracks: Array,
-        defaultTracks: String,
+        defaultTracks: String
     },
     methods: {
         load() {
-            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig({
+            const baseConfig = {
+                include: [],
                 defaultLocation: this.defaultLocation,
                 refSeqs: this.refSeqs,
                 defaultTracks: this.defaultTracks,
-                tracks: this.tracks
-            });
+                aboutThisBrowser: {
+                    title: "SARS-CoV-2 browser",
+                    description: "TODO: Description."
+                },
+                GENERAL: {
+                    classicMenu: false,
+                    highResolutionMode: 4,
+                    refSeqOrder: false
+                }
+            };
+            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig({ ...baseConfig, ...trackList, ...ssr });
         }
     }
 };
