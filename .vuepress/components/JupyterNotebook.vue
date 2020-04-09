@@ -30,7 +30,7 @@ nb.ansi_up = ansi_up;
 nb.markdown = markdown;
 
 nb.highlighter = (text, pre, code, lang) => {
-    var language = lang || "text";
+    var language = lang || "markup";
     pre.className = "language-" + language;
     if (typeof code != "undefined") {
         code.className = "language-" + language;
