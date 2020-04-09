@@ -19,7 +19,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install pysradb
-      run: pip install https://github.com/saketkc/pysradb/archive/master.zip
+      run: pip install https://github.com/saketkc/pysradb/archive/master.zip requests
     - name: Fetch accessions
       run: ./fetch_sra_acc.sh
       working-directory: ./genomics/4-Variation/
