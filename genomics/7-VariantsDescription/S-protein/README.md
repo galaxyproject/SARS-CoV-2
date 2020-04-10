@@ -21,10 +21,6 @@ Spike proteins are proteins involved in viral attachment, fusion and entry. This
 The RBD domain of coronaviruses is part of the Spike protein and is involved in binding with host proteins. Studies suggest that the SARS-Cov-2 RBD domain bounds to human and bat Angiotensin-Converting Enzyme 2 (ACE2) receptors. Research shown that the affinity of the Spike protein and the ACE2 receptor is key to the susceptibility of host infection by SARS-CoV [[1]](#ref1).
 The RBD domain contains a core stucture and a Receptor Binding Domain (RBM). The RBM binds to the ACE2 structure. The RBD domain of SARS-2-CoV has been shown to be ancestral to both human and bat SARS-CoVs and to share 73%\~76% of the ABD and 50\~53% of the RBM with them. This are higher similarities than with the human and bat MERS and MERS-like viruses. The RBM contains 14 residues in contact with ACE2 (between position 437 and 508). 9 of them are fully conserved with human, civet and bat SARS-CoV and 4 are partially conserved [[1]](#ref1). No variant observed in our variant analyses are impacting the RBM, but 3 of them impact the RBD on either sides of the RBM.
 
-##### Val367Phe
-
-
-
 ##### Asp398Tyr
 
 A G-to-T variation causes a Asp398Tyr substitution in the position 398 of the S protein, in the RBD somain. This residue is reported fully conserved across MERS and SARS coronaviruses [[2]](#ref2). This could indicate a counter selection on variations at this position. It is, however, located in a putative Beta sheet structure, and research report that mutations impacting the binding of RBM to ACE2 are the one located in loops or turns [[3]](#ref3). This study is based on 32 mutations induced in the RBD. It indicates that residues impacting the affinity of the Spike protein with ACE2 include positively and negatively charged, polar and hydrophobic residues, indicating an electrostatic and hydrophobic component in the binding RBM-ACE2.
@@ -32,14 +28,23 @@ The same research shows that mutations that affect the binding ability of RBM ar
 
 ##### Ala522Val
 
+A C-to-T variation in second position of the codon causes an Ala522Val subsitution in the RBD of the spike protein. This variation does not cause a change in hydrophobic or electrostatic properties of the spike protein, since both Alanine and Valine are hydrophobic amino acids.
 
 ### Heptad Repeat (HR) Domains
+
+Heptad Repeat Domains are regions containing repeated motifs of seven amino acids. The exact amino acid is rarely important in the repetition, but the nature of the amino acid is. These motifs create a tube structure with an hydrophobic core. In spike proteins HR1 and HR2 motifs create salt bridges. They form a tertiary structure involved in the docking and fusion of the virus membrane with the host cell.
 
 ##### Lys921Gln : Salt Bridge
 
 
 An A-to-C variant causes a Lys921Gln amino acid replacement in the spike glycoprotein (S) .  S is a homotrimeric protein containing two subdomain S1 and S2 mediating receptor recognition and membrane fusion [[4]](#ref4). The S2 subdomains contain two heptad repeat (repeats of units containing seven amino acids) regions: HR1 and HR2. The substitution we observed is located in HR1 and forms a salt bridge with Gln1188 with HR2. This salt bridge is involved in the formation of a HR1/HR2 hairpin structures [[5]](#ref5). This site invariably contains Lys in all human SARS-related coronaviruses (S protein residue 903) as well as in many other coronaviruses. However, more distantly related coronaviruses including transmissible gastroenteritis coronavirus (TGEV), the porcine respiratory coronavirus (PRCV), the canine coronavirus (CCV), the feline peritonitis virus (FIPV), and the porcine epidemic diarrhea virus (PDEV) all contain Gln at the corresponding position [[5]](#ref5). The Lys921Gln change would prevent the formation of the salt bridge with Gln1188 and may have structural and functional implications for the spike protein structure and, consequently, COVID-19 virulence.
 
+
+##### Ala942Ser : Hydrogen bond
+
+A G-to-T variation causes a Ala942Ser subsitution in the HR1 domain of the Spike protein. This residue align with a residue involved in an hydrogen bond in MERS virus. If this bond is present in SARS-COV-2, it could be disrupted by this variation since it replaces an hydrophobic amino acid to a polar one.
+
+##### Lys921Gln : Salt Bridge
 
 ### References
 

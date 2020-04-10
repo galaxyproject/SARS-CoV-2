@@ -30,6 +30,6 @@ For each protein, we generated a table of variants with annotations, and more de
 |E      | Envelope Protein | 2 | |
 |M      | Membrane Protein | 4 | |
 |N      | Nucleocapsid Protein | 18 | |
-|S      | Spike Protein  | 47 | |
+|S      | Spike Protein  | 47 | 3 |
 |ORF1a  | Open Reading Frame 1a | 298 | |
 |ORF1b  | Open Reading Frame 1b | 106 | |
