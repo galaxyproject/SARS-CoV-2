@@ -8,10 +8,13 @@ GENOME_ACCESSIONS="genome_accessions.txt"
 curl -s https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml --output ncov-sequences.yaml
 grep -o "SRR[[:digit:]]\+" ncov-sequences.yaml > genbank.txt
 
-# From SRA
-IDS=$(curl 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=txid2697049\[Organism%3Anoexp\]&retmax=1000' | grep "<Id>" | grep -o "[[:digit:]]\+" | tr "\n" ",")
-curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&amp;id=$IDS" | grep -o "SRR[[:digit:]]\+" | sort | uniq > sra.txt
+cleanup () {
+    rm ncov-sequences.yaml
+    mv "NEW_$GENOME_ACCESSIONS" "$GENOME_ACCESSIONS"
+}
 
+# From SRA
+python get_sra_accessions.py
 # From ENA
 curl -s 'https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049&result=read_run&download=true' | grep -o "SRR[[:digit:]]\+" > ena.txt
 
@@ -35,6 +38,7 @@ then
     if [ -z "$MT_ACCESSIONS" ]
     then
       echo "No new accessions found"
+      cleanup
       exit 0
     fi
 else
@@ -44,7 +48,4 @@ fi
 # Replace newlines with comma so we query all accessions in one go
 MT_ACCESSIONS=$(echo "$MT_ACCESSIONS"| tr "\n", ",")
 curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=$MT_ACCESSIONS&rettype=fasta" | sed '/^$/d' >> "$GENOME_FASTA"
-
-# Cleanup files we don't want to commit
-rm ncov-sequences.yaml
-mv "NEW_$GENOME_ACCESSIONS" "$GENOME_ACCESSIONS"
+cleanup
