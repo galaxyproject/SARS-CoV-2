@@ -12,7 +12,6 @@
   "author": "",
   "license": "AFL-3.0",
   "dependencies": {
-    "@fast-csv/parse": "^4.1.2",
     "@observablehq/runtime": "^4.7.0",
     "axios": "^0.19.2",
     "gh-badges": "^2.2.1",
