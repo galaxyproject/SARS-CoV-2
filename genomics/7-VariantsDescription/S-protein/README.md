@@ -21,6 +21,20 @@ Spike proteins are proteins involved in viral attachment, fusion and entry. This
 The RBD domain of coronaviruses is part of the Spike protein and is involved in binding with host proteins. Studies suggest that the SARS-Cov-2 RBD domain bounds to human and bat Angiotensin-Converting Enzyme 2 (ACE2) receptors. Research shown that the affinity of the Spike protein and the ACE2 receptor is key to the susceptibility of host infection by SARS-CoV [[1]](#ref1).
 The RBD domain contains a core stucture and a Receptor Binding Domain (RBM). The RBM binds to the ACE2 structure. The RBD domain of SARS-2-CoV has been shown to be ancestral to both human and bat SARS-CoVs and to share 73%\~76% of the ABD and 50\~53% of the RBM with them. This are higher similarities than with the human and bat MERS and MERS-like viruses. The RBM contains 14 residues in contact with ACE2 (between position 437 and 508). 9 of them are fully conserved with human, civet and bat SARS-CoV and 4 are partially conserved [[1]](#ref1). No variant observed in our variant analyses are impacting the RBM, but 3 of them impact the RBD on either sides of the RBM.
 
+| |
+|:--------:|
+| <img src="RBD_structure.jpg " alt="drawing" width="700"/> |
+| Figure 1 : SARS-Cov - spike protein RBD Structure [[5]](#ref5) |
+
+
+
+
+| |
+|:--------:|
+| <img src="ACE2_RBD_structure.jpg " alt="drawing" width="700"/> |
+| Figure 2 : SARS-Cov - Important residues for ACE2 recognition and species specificity [[5]](#ref5) |
+
+
 ##### Asp398Tyr
 
 A G-to-T variation causes a Asp398Tyr substitution in the position 398 of the S protein, in the RBD somain. This residue is reported fully conserved across MERS and SARS coronaviruses [[2]](#ref2). This could indicate a counter selection on variations at this position. It is, however, located in a putative Beta sheet structure, and research report that mutations impacting the binding of RBM to ACE2 are the one located in loops or turns [[3]](#ref3). This study is based on 32 mutations induced in the RBD. It indicates that residues impacting the affinity of the Spike protein with ACE2 include positively and negatively charged, polar and hydrophobic residues, indicating an electrostatic and hydrophobic component in the binding RBM-ACE2.
@@ -63,3 +77,6 @@ Walls AC, Tortorici MA, Bosch B-J, Frenz B, Rottier PJM, DiMaio F, Rey FA, Veesl
 
 <a name="ref5"> **[5]** </a>
 Duquerroy S, Vigouroux A, Rottier PJM, Rey FA, Bosch BJ. _Central ions and lateral asparagine/glutamine zippers stabilize the post-fusion hairpin conformation of the SARS coronavirus spike glycoprotein._ Virology. Elsevier; 2005 May 10;335(2):276–285. PMID: 15840526
+
+<a name="ref6"> **[6]** </a>
+Li, Fang, et al. "Structure of SARS coronavirus spike receptor-binding domain complexed with receptor." Science 309.5742 (2005): 1864-1868.
