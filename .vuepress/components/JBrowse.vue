@@ -37,7 +37,7 @@ export default {
                     refSeqOrder: false
                 }
             };
-            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig({ ...baseConfig, ...trackList, ...ssr });
+            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig({}); // ...baseConfig, ...trackList, ...ssr });
         }
     }
 };
