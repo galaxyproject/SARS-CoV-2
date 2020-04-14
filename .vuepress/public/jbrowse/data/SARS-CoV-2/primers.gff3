@@ -1,0 +1,24 @@
+##gff-version 3
+# primers from https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html
+# NOT FOR DIAGNOSTICS USE!
+NC_045512.2	CDC	biomaterial_region	28287	28358	.	.	.	Name=primerset1;ID=primerset1
+NC_045512.2	CDC	primer	28287	28306	.	+	.	Parent=primerset1;Name=2019-nCoV_N1-F
+NC_045512.2	CDC	primer	28335	28358	.	-	.	Parent=primerset1;Name=2019-nCoV_N1-R
+NC_045512.2	CDC	probe	28309	28332	.	+	.	Name=Probe:2019-nCoV_N1-P
+NC_045512.2	CDC	biomaterial_region	29164	29230	.	.	.	Name=primerset2;ID=primerset2
+NC_045512.2	CDC	primer	29164	29183	.	+	.	Parent=primerset2;Name=2019-nCoV_N2-F
+NC_045512.2	CDC	primer	29213	29230	.	-	.	Parent=primerset2;Name=2019-nCoV_N2-R
+NC_045512.2	CDC	probe	29188	29210	.	+	.	Name=Probe:2019-nCoV_N2-P
+NC_045512.2	CDC	biomaterial_region	28681	28752	.	.	.	Name=primerset3;ID=primerset3
+NC_045512.2	CDC	primer	28681	28702	.	+	.	Parent=primerset3;Name=2019-nCoV_N3-F
+NC_045512.2	CDC	primer	28732	28752	.	-	.	Parent=primerset3;Name=2019-nCoV_N3-R
+NC_045512.2	CDC	probe	28704	28727	.	+	.	Name=Probe:2019-nCoV_N3-P
+# Primer suggested by https://www.biorxiv.org/content/10.1101/2020.02.25.964775v1.full.pdf
+NC_045512.2	Jung	biomaterial_region	13342	13460	.	.	.	Name=primerset4;ID=primerset4
+NC_045512.2	Jung	primer	13342	13362	.	+	.	Parent=primerset4;Name=ORF1ab-F
+NC_045512.2	Jung	primer	13442	13460	.	-	.	Parent=primerset4;Name=ORF1ab-R
+NC_045512.2	Jung	probe	13377	13404	.	+	.	Name=ORF1ab-P
+NC_045512.2	Jung	biomaterial_region	29125	29282	.	.	.	ID=primerset5;Name=primerset5
+NC_045512.2	Jung	primer	29125	29144	.	+	.	Parent=primerset5;Name=NIID_2019-nCOV_N_F2
+NC_045512.2	Jung	primer	29263	29282	.	-	.	Parent=primerset5;Name=NIID_2019-nCOV_N_R2;Note=The refseq sequence does not match what is presented in the paper. From the paper: TGGCAGCTGTGTAGGTCAAC (note C>G mismatch in the sixth position)
+NC_045512.2	Jung	probe	29222	29241	.	+	.	Name=NIID_2019-nCOV_N_P2

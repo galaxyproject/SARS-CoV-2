@@ -1,0 +1,181 @@
+{
+   "dataset_id" : "SARS-CoV-2",
+   "formatVersion" : 1,
+   "include" : ["ssr.json"],
+   "names" : {
+      "type" : "Hash",
+      "url" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/names/"
+   },
+   "tracks" : [
+      {
+         "category" : "Reference sequence",
+         "chunkSize" : 80000,
+         "compress" : 1,
+         "key" : "Reference sequence",
+         "label" : "DNA",
+         "metadata" : {
+            "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
+         },
+         "seqType" : "dna",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "type" : "SequenceTrack",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/seq/{refseq_dirpath}/{refseq}-"
+      },
+      {
+         "disableCollapsedClick" : false,
+         "displayMode" : "normal",
+         "enableCollapsedMouseover" : false,
+         "glyph" : "MAFViewer/View/FeatureGlyph/MAF",
+         "label" : "MultiAlignment of GenBank seqs (slow)",
+         "labelWidth" : 75,
+         "maxFeatureGlyphExpansion" : 500,
+         "maxFeatureScreenDensity" : 0.5,
+         "maxFeatureSizeForUnderlyingRefSeq" : 250000,
+         "maxHeight" : 15000,
+         "samples" : [
+            "NC_045512",
+            "gb|MT039890",
+            "gb|MN988713",
+            "gb|MT093571",
+            "gb|MT019530",
+            "gb|MT044257",
+            "gb|MN994467",
+            "gb|MT039888",
+            "gb|MT106054",
+            "gb|MT123291",
+            "gb|MT126808",
+            "gb|MT027063",
+            "gb|MT027062",
+            "gb|MT007544",
+            "gb|MT019529",
+            "gb|MN996531",
+            "gb|MT123290",
+            "gb|MN996529",
+            "gb|MT066176",
+            "gb|MN994468",
+            "gb|MT027064",
+            "gb|MN996527",
+            "gb|MT072688",
+            "gb|MT093631",
+            "gb|MT039887",
+            "gb|MT019533",
+            "gb|MT106053",
+            "gb|MT019531",
+            "gb|MT044258",
+            "gb|MT039873",
+            "gb|MN996530",
+            "gb|MN988669",
+            "gb|MN988668",
+            "gb|MN908947",
+            "gb|MN996528",
+            "gb|MT019532",
+            "gb|MT118835",
+            "gb|MT049951",
+            "gb|MT135041",
+            "gb|MT135042",
+            "gb|MT135044",
+            "gb|MT135043",
+            "gb|MN975262",
+            "gb|MT106052",
+            "gb|MN985325",
+            "gb|MT020880",
+            "gb|MT020881",
+            "gb|MT066175",
+            "gb|MN997409",
+            "gb|MN938384"
+         ],
+         "showLabels" : true,
+         "showTooltips" : true,
+         "storeClass" : "MAFViewer/Store/SeqFeature/MAFTabix",
+         "style" : {
+            "description" : "note, description",
+            "gapColor" : "red",
+            "height" : 12,
+            "label" : "name,id",
+            "matchColor" : "#0001",
+            "mismatchColor" : "blue",
+            "mismatchFont" : "bold 10px Courier New,monospace",
+            "showLabels" : false,
+            "showTooltips" : true
+         },
+         "subfeatureDetailLevel" : 2,
+         "type" : "MAFViewer/View/Track/MAF",
+         "urlTemplate" : "https://s3.amazonaws.com/jbrowse.org/demos/sars-cov2/data/out.bed.gz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Genes",
+         "label" : "Genes",
+         "metadata" : {
+            "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
+         },
+	 "onClick" : {
+           "iconClass" : "dijitIconDatabase",
+           "action" : "newWindow",
+           "url" : "function(track,f) {var dbxref = f.get('dbxref'); dbxref = dbxref.substring(7);  return 'https://www.ncbi.nlm.nih.gov/gene/' + dbxref; }",
+           "label" : "Go to the gene page for {name} at GenBank"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "deeppink",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/Genes/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "CDS",
+         "label" : "CDS",
+         "metadata" : {
+            "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.  The color scheme for CDS features attempts to mimic the colors used at NextStrain: https://nextstrain.org/ncov?gmin=27585"
+         },
+	 "onClick" : {
+           "iconClass" : "dijitIconDatabase",
+           "action" : "newWindow",
+           "url" : "https://www.ncbi.nlm.nih.gov/protein/{name}",
+           "label" : "Go to the protein page for {name} at GenBank"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var name =f.get('name'); var len = f.get('length'); if(len >13000 || name=='YP_009725295.1') {return '#DA994B';} if (name=='YP_009724389.1') {return '#ADBC61';} if (name=='YP_009724390.1' ||name=='YP_009724392.1' ) {return '#D2AE52';} if(name=='YP_009724391.1') {return '#CE5035';} if (name=='YP_009724393.1') {return '#6295B7';} if (name=='YP_009724394.1') {return '#C2B959';} if (name=='YP_009724395.1') {return '#84B586';} if (name=='YP_009724396.1') {return '#72A89E';} if (name=='YP_009724397.2') {return '#D77741';} if (name=='YP_009725255.1') {return '#98BB70';} return 'darkpink'; }"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/CDS/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "CDC primers (NOT FOR DIAGNOSTIC USE)",
+         "label" : "CDC primers (NOT FOR DIAGNOSTIC USE)",
+         "metadata" : {
+            "about" : "Primers and probes from https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html. The CDC makes quite clear that these primers should not be used for diagnostic purposes."
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/CDC primers (NOT FOR DIAGNOSTIC USE)/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "PCR Primers suggested by Jung et. al.",
+         "label" : "PCR Primers suggested by Jung et. al.",
+	 "metadata" : {
+            "about" : "Primers and probes suggested by Jung et. al.  See https://www.biorxiv.org/content/10.1101/2020.02.25.964775v1.full.pdf for more information."
+	 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/PCR Primers suggested by Jung et. al./{refseq}/trackData.jsonz"
+      }
+   ]
+}
