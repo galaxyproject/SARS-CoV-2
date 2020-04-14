@@ -1,0 +1,54 @@
+{
+  "formatVersion": 1,
+  "plugins": [
+    "MAFViewer"
+  ],
+  "tracks": [
+    {
+      "compress": 0,
+      "key": "genes",
+      "label": "genes",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "CanvasFeatures",
+      "type": "CanvasFeatures",
+      "urlTemplate": "tracks/genes/{refseq}/trackData.json"
+    },
+    {
+      "label": "MAF Ensembl 92",
+      "samples": [
+        "oryzias_latipes",
+        "gasterosteus_aculeatus",
+        "tetraodon_nigroviridis",
+        "ancestral_sequences",
+        "danio_rerio",
+        "lepisosteus_oculatus"
+      ],
+      "storeClass": "MAFViewer/Store/SeqFeature/MAF",
+      "type": "MAFViewer/View/Track/MAF",
+      "urlTemplate": "out.sorted.bed.gz"
+    },
+    {
+      "label": "MAF",
+      "samples": [
+        "oryzias_latipes",
+        "gasterosteus_aculeatus",
+        "tetraodon_nigroviridis",
+        "ancestral_sequences",
+        "danio_rerio",
+        "lepisosteus_oculatus"
+      ],
+      "storeClass": "MAFViewer/Store/SeqFeature/MAF",
+      "type": "MAFViewer/View/Track/MAF",
+      "urlTemplate": "out2.txt.gz"
+    },
+    {
+      "label": "MAF CF",
+      "storeClass": "MAFViewer/Store/SeqFeature/MAF",
+      "type": "JBrowse/View/Track/CanvasFeatures",
+      "urlTemplate": "out2.txt.gz"
+    }
+  ]
+}

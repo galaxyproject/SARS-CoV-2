@@ -1,0 +1,159 @@
+.FeatureSequenceContainer {
+    
+}
+
+.attributionPane {
+    height: 100%;
+    float: left;
+}
+
+.attributionPane .txt {
+    float: left;
+    padding: 4px 4px 4px 24px;
+}
+
+.button_td {
+
+}
+
+.top_container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.button_meta_table {
+    background-color: #e0e5ee;
+    padding: 4px 24px;
+    float: left;
+}
+
+.buttonRow {
+    text-align: center;
+}
+
+.col1_td {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 0 0.5em 0 0;
+    text-align: left;
+}
+
+.col1_td[tooltip]:hover {
+    color: #26477e;
+    position: relative;
+}
+
+.col1_td[tooltip]:hover:after {
+    content: attr(tooltip);
+    text-transform: none;
+    position: absolute;
+    padding: 8px; 
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 350px;
+    white-space: wrap;
+    z-index: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    box-shadow: 0px 0px 4px #222;
+    background-color:#000;
+}
+
+.gh-logo {
+  margin-top: 4px;
+  height: 32px;
+}
+
+.highlightButton {
+    
+}
+
+.hideButton {
+    
+}
+
+.lowercaseButton {
+    
+}
+
+.rowName {
+    text-transform: capitalize;
+}
+
+.sequence {
+	word-wrap: break-word;
+	font-family : monospace;
+}
+
+.seq_display {
+    
+}
+
+.sequence_box {
+    display: inline-block;
+    word-wrap: break-word;
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+.sequence_title {
+	font-size: 13px;
+}
+
+.tundra .DijitButtonText{
+    padding: 0;
+}
+
+.upstreamSequence {
+    display: none;
+    font-family: monospace;
+}
+
+.downstreamSequence {
+    display: none;
+    font-family: monospace;
+}
+
+.dijitDialogPaneContent .container {
+    height: 550px;
+    overflow: auto;
+}
+
+  /*** Works on common browsers ***/
+   ::selection {
+       background-color: #BDD3FF;
+       color: #fff;
+   }
+
+   /*** Mozilla based browsers ***/
+   ::-moz-selection {
+       background-color: #BDD3FF;
+      color: #fff;
+  }
+
+  /***For Other Browsers ***/
+  ::-o-selection {
+      background-color: #BDD3FF;
+      color: #fff;
+  }
+
+  ::-ms-selection {
+      background-color: #BDD3FF;
+      color: #fff;
+  }
+
+  /*** For Webkit ***/
+  ::-webkit-selection {
+      background-color: #BDD3FF;
+      color: #fff;
+  }

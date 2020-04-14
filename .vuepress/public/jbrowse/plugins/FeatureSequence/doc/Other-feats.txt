@@ -1,0 +1,7 @@
+## Other Subfeatures ##
+
+Some sequence regions are not charactized by any subfeatures - these will be labeled as "Other". 
+When automatic intron finding is used, introns which do not fall between two 'exon' or 'CDS' regions will not be identified.
+
+It can be useful to manipulate these non-classified regions as a group. An informed user will hopefully know
+enough about their sequence to determine if the sequences of type "Other" may be useful to them.

@@ -1,0 +1,27 @@
+.translatedSequence.frame2 {
+    background-color: #5148b2;
+    /* background-color: #940000 */
+}
+
+.translatedSequence.frame1 {
+    background-color: #abb5ff; 
+    /* background-color: #ff0000 */
+}
+
+.translatedSequence.frame0 {
+    background-color: #c9ebff;
+    /* background-color: #ff7c7c */
+}
+
+.jbrowse .translatedSequence.frame2 {
+    background-color: #5148b2;
+}
+
+.jbrowse .translatedSequence.frame1 {
+    background-color: #abb5ff;
+}
+
+.jbrowse .translatedSequence.frame0 {
+    background-color: #c9ebff;
+}
+

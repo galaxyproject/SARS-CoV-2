@@ -1,0 +1,110 @@
+{
+   "tracks" : [
+      {
+         "label" : "DNA",
+         "key" : "Reference sequence",
+         "seqType" : "dna",
+         "category" : "Reference sequence",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-",
+         "chunkSize" : 20000,
+         "type" : "SequenceTrack"
+      },
+      {
+         "type" : "MAFViewer/View/Track/MAF",
+         "samples" : [
+            "ce10",
+            "cb4",
+            "caeRem4",
+            "caePb3",
+            "caeSp111",
+            "caeJap4"
+         ],
+         "storeClass" : "MAFViewer/Store/SeqFeature/MAFTabix",
+         "urlTemplate" : "chrI.txt.gz",
+         "label" : "MAF"
+      },
+      {
+         "samples" : [
+            "cb4",
+            "caeRem4",
+            "caePb3",
+            "caeSp111",
+            "caeJap4"
+         ],
+         "type" : "MAFViewer/View/Track/MAF",
+         "style" : {
+            "height" : 40
+         },
+         "storeClass" : "MAFViewer/Store/SeqFeature/MAF",
+         "urlTemplate" : "chrI.txt.gz",
+         "label" : "MAF modheight"
+      },
+      {
+         "label" : "MAF bases",
+         "urlTemplate" : "chrI.txt.gz",
+         "storeClass" : "MAFViewer/Store/SeqFeature/MAF",
+         "style" : {
+            "mismatchBases" : true,
+            "mismatchA": "blue",
+            "mismatchC": "red",
+            "mismatchG": "orange",
+            "mismatchT": "yellow"
+         },
+         "type" : "MAFViewer/View/Track/MAF",
+         "samples" : [
+            "cb4",
+            "caeRem4",
+            "caePb3",
+            "caeSp111",
+            "caeJap4"
+         ]
+      },
+      {
+         "label" : "MAF modcolor",
+         "urlTemplate" : "chrI.txt.gz",
+         "storeClass" : "MAFViewer/Store/SeqFeature/MAF",
+         "style" : {
+            "mismatchColor" : "orange",
+            "matchColor" : "blue"
+         },
+         "type" : "MAFViewer/View/Track/MAF",
+         "samples" : [
+            "cb4",
+            "caeRem4",
+            "caePb3",
+            "caeSp111",
+            "caeJap4"
+         ]
+      },
+      {
+         "label" : "MAF CF",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "chrI.txt.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/BEDTabix"
+      },
+      {
+         "label" : "augustusGene",
+         "key" : "augustusGene",
+         "hooks" : {
+            "modify" : "function(track, feat, elem) {\n    var fType = feat.get(\"Type\");\n    if (fType) {\n        elem.className = \"basic\";\n        switch (fType) {\n        case \"CDS\":\n        case \"thick\":\n            elem.style.height = \"10px\";\n            elem.style.marginTop = \"-3px\";\n            break;\n        case \"UTR\":\n        case \"thin\":\n            elem.style.height = \"6px\";\n            elem.style.marginTop = \"-1px\";\n            break;\n        }\n        elem.style.backgroundColor = \"#0c6900\";\n    }\n}\n"
+         },
+         "compress" : 0,
+         "style" : {
+            "className" : "generic_parent",
+            "histCss" : "background-color: #0c6900;",
+            "featureCss" : "background-color: #0c6900; height: 6px;"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "urlTemplate" : "tracks/augustusGene/{refseq}/trackData.json",
+         "type" : "FeatureTrack"
+      }
+   ],
+   "plugins" : [
+      "MAFViewer",
+      "HideTrackLabels"
+   ],
+   "classicMenu" : true,
+   "formatVersion" : 1,
+   "highResolutionMode": 2
+}

@@ -1,0 +1,6 @@
+{
+  "js": {
+    "keep_array_indentation": false,
+    "break_chained_methods": true,
+  }
+}

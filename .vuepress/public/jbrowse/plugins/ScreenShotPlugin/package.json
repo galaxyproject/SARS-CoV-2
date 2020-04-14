@@ -1,0 +1,31 @@
+{
+  "name": "screenshot-browse-plugin",
+  "version": "1.7.0",
+  "description": "Take easy, configurable JBrowse screenshots with PhantomJS cloud",
+  "main": "main.js",
+  "scripts": {
+    "test": "phantomjs test/run-jasmine.js http://localhost:8000/test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhofmei/jbplugin-screenshot.git"
+  },
+  "keywords": [
+    "JBrowse",
+    "PhantomJS",
+    "screenshots"
+  ],
+  "author": "Brigitte Hofmeister",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bhofmei/jbplugin-screenshot/issues"
+  },
+  "homepage": "https://github.com/bhofmei/jbplugin-screenshot#readme",
+    "devDependencies": {
+        "jasmine": "^2.7.0",
+        "jbrowse": "git+https://github.com/bhofmei/jbrowse"
+    },
+  "jbrowsePlugin": {
+    "name": "ScreenShotPlugin"
+  }
+}

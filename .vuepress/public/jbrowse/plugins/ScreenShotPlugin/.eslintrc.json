@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "jasmine": true,
+    "amd": true
+  },
+  "rules": {
+    "no-console": 0,
+    "eqeqeq": ["warn", "always"]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "formatVersion": 1,
+  "names": {
+    "type": "Hash",
+    "url": "names/"
+  },
+  "tracks": [
+    {
+      "key": "Reference sequence",
+      "label": "t0_dna",
+      "category": "Genome",
+      "type": "SequenceTrack",
+      "seqType": "dna",
+      "urlTemplate": "seq/{refseq_dirpath}/{refseq}-",
+      "chunkSize": 20000,
+      "storeClass": "JBrowse/Store/Sequence/StaticChunked"
+      },
+    {
+      "key": "Genes",
+      "label": "t1_genes",
+      "category": "Genome",
+      "type": "JBrowse/View/Track/CanvasFeatures",
+      "compress": 0,
+      "urlTemplate": "tracks/genes/{refseq}/trackData.json",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature",
+        "color": "#daa520"
+      }
+    },
+    {
+      "key": "Transposable Elements",
+      "label": "t2_tes",
+      "category": "Genome",
+      "type": "JBrowse/View/Track/HTMLFeatures",
+      "compress": 0,
+      "urlTemplate": "tracks/tes/{refseq}/trackData.json",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature",
+        "color": "#77158D"
+      }
+    },
+    {
+      "key": "Mt-0 Snps",
+      "label": "t3_mt-snps",
+      "category": "SNPs",
+      "type": "JBrowse/View/Track/CanvasVariants",
+      "urlTemplate": "raw/Mt-0.vcf.gz",
+      "storeClass": "JBrowse/Store/SeqFeature/VCFTabix"
+    },
+    {
+      "key": "Cvi-0 Snps",
+      "label": "t4_cvi-snps",
+      "category": "SNPs",
+      "type": "JBrowse/View/Track/HTMLVariants",
+      "urlTemplate": "raw/Cvi-0_short.vcf.gz",
+      "storeClass": "JBrowse/Store/SeqFeature/VCFTabix"
+    },
+    {
+      "key": "RNA-seq with unstranded coverage",
+      "label": "t5_rnaseq-un",
+      "category": "RNA-seq",
+      "type": "JBrowse/View/Track/Alignments2",
+      "maxFeatureScreenDensity": 0.5,
+      "histograms": {
+        "color": "#b1b1b1",
+        "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+        "urlTemplate": "raw/untreated-col-rnaseq_short.bw",
+        "description": "coverage depth"
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "raw/untreated-col-rnaseq_short.bam"
+    },
+    {
+      "key": "SNP Coverage",
+      "label": "t6_rnaseq-snp",
+      "category": "RNA-seq",
+      "type": "JBrowse/View/Track/SNPCoverage",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "raw/untreated-col-rnaseq_short.bam"
+    },
+    {
+      "key": "RNA-seq HTML features",
+      "label": "t7_rnaseq-html",
+      "category": "RNA-seq",
+      "type": "JBrowse/View/Track/Alignments",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "raw/untreated-col-rnaseq_short.bam"
+    },
+    {
+      "key": "H3K4me3 - XY",
+      "label": "t8_xy",
+      "category": "Wiggle Plots",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "raw/chip_h3k4me3_test.bw",
+      "style": {
+        "pos_color": "#862BB3"
+      }
+    },
+    {
+      "key": "H3K4me3 - Density",
+      "label": "t9_dens",
+      "category": "Wiggle Plots",
+      "type": "JBrowse/View/Track/Wiggle/Density",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "raw/chip_h3k4me3_test.bw"
+    },
+    {
+      "key": "Wild Type Small RNA",
+      "label": "t10_smrna",
+      "category": "Small RNA",
+      "type": "SmallRNAPlugin/View/Track/smAlignments",
+      "histograms": {
+        "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+        "urlTemplate": "raw/test_smrna_short.bw"
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "raw/test_smrna_short_adjusted.bam"
+    },
+    {
+      "key": "Wild Type Methylation",
+      "label": "t11_methyl",
+      "category": "Methylation",
+      "type": "MethylationPlugin/View/Track/Wiggle/MethylPlot",
+      "methylatedOption": true,
+      "storeClass": "MethylationPlugin/Store/SeqFeature/MethylBigWig",
+      "urlTemplate": "raw/test_methyl_short_v3.bw"
+    },
+    {
+      "key": "E2FA",
+      "label": "t12_stranded",
+      "category": "Stranded Plots",
+      "type": "StrandedPlotPlugin/View/Track/Wiggle/StrandedXYPlot",
+      "storeClass": "StrandedPlotPlugin/Store/SeqFeature/StrandedBigWig",
+      "urlTemplate": "raw/test_e2fa_short.bw"
+    },
+    {
+      "key": "Random colors",
+      "label": "t13_motif-dens",
+      "category": "Motif Density",
+      "type": "MotifDensityPlugin/View/Track/MotifDensity",
+      "storeClass": "JBrowse/Store/SeqFeature/SequenceChunks",
+      "urlTemplate": "seq/{refseq_dirpath}/{refseq}-",
+      "motifs": ["CG", "CHG", "CHH", "C"],
+      "colors": "random"
+    },
+    {
+      "key": "Wild Type Methylation - animal",
+      "label": "t14_methyl-animal",
+      "category": "Methylation",
+      "type": "MethylationPlugin/View/Track/Wiggle/MethylPlot",
+      "storeClass": "MethylationPlugin/Store/SeqFeature/MethylBigWig",
+      "urlTemplate": "raw/test_methyl_short_v3.bw",
+      "isAnimal": true,
+      "context": ["cg", "ch"],
+      "style": {
+        "height": 50
+      }
+    },
+    {
+      "key": "Extended Modifications",
+      "label": "t15_methyl-ext",
+      "category": "Methylation",
+      "type": "MethylationPlugin/View/Track/Wiggle/MethylPlot",
+      "storeClass": "MethylationPlugin/Store/SeqFeature/MethylBigWig",
+      "urlTemplate": "raw/test_methyl_short_v3.bw",
+      "context": ["cg", "chg", "chh", "4mc", "6ma"],
+      "style": {
+        "height": 50
+      }
+    },
+    {
+      "key": "Object colors",
+      "label": "t16_motif-dens2",
+      "category": "Motif Density",
+      "type": "MotifDensityPlugin/View/Track/MotifDensity",
+      "storeClass": "JBrowse/Store/SeqFeature/SequenceChunks",
+      "urlTemplate": "seq/{refseq_dirpath}/{refseq}-",
+      "motifs": ["CG", "CHG", "CHH", "C"],
+      "colors": {
+        "CG": "#A36085",
+        "CHG": "#0072B2",
+        "CHH": "#CF8F00",
+        "C": "#00c29b"
+      }
+    },
+    {
+      "key": "RNA-seq with stranded coverage",
+      "label": "t17_rnaseq-st",
+      "category": "RNA-seq",
+      "type": "JBrowse/View/Track/Alignments2",
+      "maxFeatureScreenDensity": 0.5,
+      "histograms": {
+        "color": "#d1d1d1",
+        "storeClass": "StrandedPlotPlugin/Store/SeqFeature/StrandedBigWig",
+        "urlTemplate": "raw/untreated-col-rnaseq_short.bw",
+        "description": "coverage depth"
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "raw/untreated-col-rnaseq_short.bam"
+    },
+    {
+      "key": "H3K9me2 - XY",
+      "label": "t18_xy2",
+      "category": "Wiggle Plots",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "raw/chip_h3k9m2_zscore.bw"
+    },
+    {
+      "key": "WT rep 2 Small RNA",
+      "label": "t19_smrna2",
+      "category": "Small RNA",
+      "type": "SmallRNAPlugin/View/Track/smAlignments",
+      "histograms": {
+        "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+        "urlTemplate": "raw/wt-2_smrna.bw"
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "raw/wt-2_smrna.bam"
+    },
+    {
+      "key": "AC positions",
+      "label": "t20_ac-pos",
+      "category": "Genome",
+      "type": "JBrowse/View/Track/CanvasFeatures",
+      "compress": 0,
+      "urlTemplate": "tracks/ac_pos/{refseq}/trackData.json",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature",
+        "color": "#d504b2"
+      },
+      "histograms": {
+        "color": "#d504b2"
+      }
+    },
+    {
+      "key": "Methylation coverage",
+      "label": "t21_stranded-methyl",
+      "category": "Stranded Plots",
+      "type": "StrandedPlotPlugin/View/Track/Wiggle/StrandedXYPlot",
+      "storeClass": "StrandedPlotPlugin/Store/SeqFeature/StrandedBigWig",
+      "urlTemplate": "raw/line19-G3-rep2_methylation_short.bw",
+      "style": {
+        "pos_color": "#26A69A",
+        "neg_color": "#d95965"
+      }
+    }
+   ]
+}

@@ -1,0 +1,4 @@
+built
+node_modules
+npm-debug.log
+test/file*.json
