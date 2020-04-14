@@ -50,3 +50,9 @@ export default {
     }
 };
 </script>
+<style>
+.tabularfile {
+    max-height: 50vh;
+    overflow: auto;
+}
+</style>
