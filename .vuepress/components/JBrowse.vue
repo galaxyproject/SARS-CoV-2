@@ -4,9 +4,9 @@
     </div>
 </template>
 <script>
-import ssr from "./jbrowse-data/ssr.json";
-import trackList from "./jbrowse-data/trackList.json";
-trackList.tracks = { ...trackList.tracks, ...ssr.tracks };
+//import ssr from "./jbrowse-data/ssr.json";
+//import trackList from "./jbrowse-data/trackList.json";
+//trackList.tracks = { ...trackList.tracks, ...ssr.tracks };
 export default {
     props: {
         containerID: {
