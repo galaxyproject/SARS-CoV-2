@@ -1,8 +1,0 @@
-{
-  "MethylationPlugin": true,
-  "MotifDensityPlugin": true,
-  "SmallRNAPlugin": true,
-  "SeqViewsPlugin": true,
-  "StrandedPlotPlugin": true,
-  "WiggleSVGPlotPlugin": true
-}
