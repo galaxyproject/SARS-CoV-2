@@ -23,9 +23,7 @@ export default {
     computed: {
         tabularData() {
             const splitData = [];
-            if (this.rawData === null) {
-                return splitData;
-            } else {
+            if (this.rawData !== null) {
                 this.rawData.split(/\r?\n|\r/).map(row => {
                     if (row.trim() != "") {
                         splitData.push(row.split(","));
