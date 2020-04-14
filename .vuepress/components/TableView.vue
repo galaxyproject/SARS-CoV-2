@@ -44,9 +44,6 @@ export default {
             .catch(error => {
                 console.debug(error);
             });
-    },
-    updated() {
-        console.debug(this.tabularData);
     }
 };
 </script>
