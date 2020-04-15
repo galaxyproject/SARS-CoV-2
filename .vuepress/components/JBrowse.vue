@@ -1,6 +1,6 @@
 <template>
     <div>
-        <iframe ref="jbframe" @load="load" frameborder="0" height="600" width="960" src="/jbrowse/index.html"></iframe>
+        <iframe ref="jbframe" @load="load" frameborder="0" height="650" width="100%" src="/jbrowse/index.html"></iframe>
     </div>
 </template>
 <script>
