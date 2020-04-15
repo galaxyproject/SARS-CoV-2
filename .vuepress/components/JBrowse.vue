@@ -18,7 +18,9 @@ export default {
         },
         refSeqs: Object,
         tracks: Array,
-        defaultTracks: String
+        defaultTracks: String,
+        title: String,
+        description: String
     },
     methods: {
         load() {
@@ -27,17 +29,19 @@ export default {
                 defaultLocation: this.defaultLocation,
                 refSeqs: this.refSeqs,
                 defaultTracks: this.defaultTracks,
+                /*
                 aboutThisBrowser: {
-                    title: "SARS-CoV-2 browser",
-                    description: "TODO: Description."
+                    title: this.title,
+                    description: this.description,
                 },
                 GENERAL: {
                     classicMenu: false,
                     highResolutionMode: 4,
                     refSeqOrder: false
                 }
+                */
             };
-            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig({}); // ...baseConfig, ...trackList, ...ssr });
+            this.$refs.jbframe.contentWindow.instantiateBrowserWithConfig(baseConfig); // , ...trackList, ...ssr });
         }
     }
 };
