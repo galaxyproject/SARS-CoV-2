@@ -4,7 +4,7 @@ title: Variation
 
 # Analysis of variation within individual COVID-19 samples | :fire: updated daily
 
-> Last update = April 2
+> Last update = April 8
 
 <!--
 ## Live Resources
@@ -45,7 +45,7 @@ Raw sequencing reads are required to detection of within-sample sequence variant
  5. In addition, we fetch all publicly available complete SARS-CoV-2 genomes. These are stored in 
 [`genome_accessions.txt`](genome_accessions.txt) and [`current_complete_ncov_genomes.fasta`](current_complete_ncov_genomes.fasta). 
 
-The list of currently analyzed datasets (as of April 2, 2020) is shown in Table 1 below.
+The list of currently analyzed datasets (as of April 8, 2020) is shown in Table 1 below.
 
 <small>**Table 1.** SARS-CoV-2 Illumina datasets and corresponding analysis histories.</small>
 
@@ -55,6 +55,7 @@ The list of currently analyzed datasets (as of April 2, 2020) is shown in Table 
 |[SRR11397714](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397714)<br>[SRR11397715](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397715)<br>[SRR11397716](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397716)<br>[SRR11397717](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397717)<br>[SRR11397718](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397718)<br>[SRR11397719](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397719)<br>[SRR11397720](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397720)<br>[SRR11397721](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397721)<br>[SRR11397728](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397728)<br>[SRR11397729](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397729)<br>[SRR11397730](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397730)<br>[SRR11393704](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11393704) | March 25, 2020 | [Paired and Single Ends](https://usegalaxy.org/u/aun1/h/covid-19-variation-march-25) |
 | [SRR11410528](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410528)<br>[SRR11410529](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410529)<br>[SRR11410532](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410532)<br>[SRR11410533](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410533)<br>[SRR11410536](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410536)<br>[SRR11410538](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410538)<br>[SRR11410540](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410540)<br>[SRR11410541](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410541)<br>[SRR11410542](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410542)<br>[SRR11409417](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11409417) | March 26, 2020 |  [Paired End](https://usegalaxy.org/u/aun1/h/covid-19-variation-march-26) |
 |[SRR11454606](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454606)<br>[SRR11454607](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454607)<br>[SRR11454608](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454608)<br>[SRR11454609](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454609)<br>[SRR11454610](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454610)<br>[SRR11454611](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454611)<br>[SRR11454612](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454612)<br>[SRR11454613](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454613)<br>[SRR11454614](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454614)<br>[SRR11454615](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454615)| April 2, 2020 | [Paired and Single Ends](https://usegalaxy.eu/u/m.vandenbeek/h/april-2-sars-cov-variant-workflows) |
+| 378 accessions | April 8, 2020 | [Paired and Single Ends](https://usegalaxy.org/u/aun1/h/april-8-update) |
 
 ## How do we call variants?
 
