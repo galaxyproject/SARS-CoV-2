@@ -47,7 +47,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/genomics/4-Variation/VCF_BGZIP/SRR10903401.vcf.bgz"
+         "urlTemplate" : "http://raw.githack.com/galaxyproject/SARS-CoV-2/master/genomics/4-Variation/VCF_BGZIP/SRR10903401.vcf.bgz"
       },
        {
          "category" : "Variants/Wuhan, China",
