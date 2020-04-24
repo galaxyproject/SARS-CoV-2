@@ -22,7 +22,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://bardin-gx.net/display_application/f5886e685c9376c2/igv_vcf/local_default/None/data/galaxy_f5886e685c9376c2.vcf.gz"
+         "urlTemplate" : "https://bardin-gx.net/display_application/d59ae5ebe391e77f/igv_vcf/local_default/d59ae5ebe391e77f/data/galaxy_d59ae5ebe391e77f.vcf.gz"
       },
        {
          "category" : "Marius test straight github",
