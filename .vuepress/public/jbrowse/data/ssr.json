@@ -1,5 +1,55 @@
 {"tracks" : [
        {
+         "category" : "Marius test straight form usegalaxy.eu",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "Marius test1",
+         "label" : "Marius test2",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "blablalbla"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');var neweff=''; if(typeof eff !== 'undefined' && typeof eff !== 'string') {eff = eff.values[0] ; neweff = eff.replace('(', '</br>(')} else {neweff=eff;} ;return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://usegalaxy.eu/display_application/11ac94870d0bb33a1c2fef35ba5d23d2/igv_vcf/local_default/None/data/galaxy_11ac94870d0bb33a1c2fef35ba5d23d2.vcf.gz"
+      },
+       {
+         "category" : "Marius test straight github",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "Marius test github",
+         "label" : "Marius test github 2",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "blablalbla"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');var neweff=''; if(typeof eff !== 'undefined' && typeof eff !== 'string') {eff = eff.values[0] ; neweff = eff.replace('(', '</br>(')} else {neweff=eff;} ;return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://github.com/galaxyproject/SARS-CoV-2/blob/6eab2b99eca807b82b6c1ac0b56b12e76023e32d/genomics/4-Variation/VCF_BGZIP/SRR10903401.vcf.bgz?raw=true"
+      },
+       {
          "category" : "Variants/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR10903401",
