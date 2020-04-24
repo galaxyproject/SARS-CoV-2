@@ -1,6 +1,6 @@
 {"tracks" : [
        {
-         "category" : "Marius test straight form usegalaxy.eu",
+         "category" : "Marius test straight form bardin-gx.net with CORS enabled",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "Marius test1",
          "label" : "Marius test2",
@@ -22,7 +22,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://usegalaxy.eu/display_application/11ac94870d0bb33a1c2fef35ba5d23d2/igv_vcf/local_default/None/data/galaxy_11ac94870d0bb33a1c2fef35ba5d23d2.vcf.gz"
+         "urlTemplate" : "https://bardin-gx.net/display_application/f5886e685c9376c2/igv_vcf/local_default/None/data/galaxy_f5886e685c9376c2.vcf.gz"
       },
        {
          "category" : "Marius test straight github",
