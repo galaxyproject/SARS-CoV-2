@@ -1,5 +1,5 @@
 #!/bin/bash 
-set -e
+set -e -v
 
 GENOME_FASTA="current_complete_ncov_genomes.fasta"
 GENOME_ACCESSIONS="genome_accessions.txt"
@@ -16,7 +16,7 @@ cleanup () {
 # From SRA
 python get_sra_accessions.py
 # From ENA
-curl -s 'https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049&result=read_run&download=true' | grep -o "SRR[[:digit:]]\+" > ena.txt
+curl -s 'https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049&result=read_run&download=true' | grep -o "ERR[[:digit:]]\{7\}" > ena.txt
 
 cat ena.txt genbank.txt sra.txt | sort | uniq > union.txt
 rm ena.txt
