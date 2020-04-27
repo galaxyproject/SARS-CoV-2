@@ -1,5 +1,30 @@
 {"tracks" : [
        {
+         "category" : "Marius test straight form usegalaxy.org with CORS enabled",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "Marius test1",
+         "label" : "Marius test2",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "blablalbla"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
+         },
+	 "onClick" : {
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');var neweff=''; if(typeof eff !== 'undefined' && typeof eff !== 'string') {eff = eff.values[0] ; neweff = eff.replace('(', '</br>(')} else {neweff=eff;} ;return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "url" : "",
+            "title" : "Variant data",
+            "action" : "defaultDialog"
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://usegalaxy.org/display_application/bbd44e69cb8906b5c36b3fde7e33b7fd/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5c36b3fde7e33b7fd.vcf.gz"
+      },
+       {
          "category" : "Marius test straight form bardin-gx.net with CORS enabled",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "Marius test1",
@@ -22,7 +47,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://bardin-gx.net/display_application/d59ae5ebe391e77f/igv_vcf/local_default/d59ae5ebe391e77f/data/galaxy_d59ae5ebe391e77f.vcf.gz"
+         "urlTemplate" : "https://bardin-gx.net/display_application/2ba8af87ca958843/igv_vcf/local_default/None/data/galaxy_2ba8af87ca958843.vcf.gz"
       },
        {
          "category" : "Marius test straight github",
