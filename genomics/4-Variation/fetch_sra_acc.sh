@@ -1,10 +1,6 @@
 #!/bin/bash 
 set -e -v
 
-GENOME_FASTA="current_complete_ncov_genomes.fasta"
-GENOME_ACCESSIONS="genome_accessions.txt"
-
-
 touch acc2exclude.txt
 pysradb search txid2697049 --saveto /dev/stdout | grep -f acc2exclude.txt -v > .current_metadata.tsv
 cat .current_metadata.tsv metadata_not_txid2697049.tsv > current_metadata.tsv
