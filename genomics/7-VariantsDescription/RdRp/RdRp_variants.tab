@@ -1,7 +1,7 @@
 POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_residue	Main_alt_residue	SecondFeat	SecondResidue	Second_ref_codon	Second_alt_codon	Second_ref_residue	Second_alt_residue	Genomic_coord_end	Genomic_coord_start	NbSample	MeanAF	ThirdResidue	ThirdFeat	Third_ref_codon	Third_alt_codon	Third_ref_residue	Third_alt_residue	Annotation	Impact	Reference
-13454	C	T	0.188406	S	RdRp1	5	CAA	TAA	Q	*	ORF1a	4397	CAA	TAA	Q	*	13456	13454	1	0.188406							Nidovirus RdRp-associated nucleotidyltransferase (NiRAN)		
+13454	C	T	0.188406	S	RdRp1	5	CAA	TAA	Q	*	ORF1a	4397	CAA	TAA	Q	*	13456	13454	1	0.188406							Nidovirus RdRp-associated nucleotidyltransferase (NiRAN)	"Insertion of Stop Codon, potential non functional protein"	
 13458	C	T	0.121076	S	RdRp1	6	TCG	TTG	S	L	ORF1a	4398	TCG	TTG	S	L	13459	13457	1	0.121076							NiRAN		
-13469	G	T	0.053571	S	RdRp2	10	CGG	CTG	R	L	ORF1a	4402	GGG	TGG	G	W	13470	13468	2	0.053571	1	ORF1b	CGG	CTG	R	L	NiRAN		
+13469	G	T	0.053571	S	RdRp2	10	CGG	CTG	R	L	ORF1a	4402	GGG	TGG	G	W	13470	13468	2	0.053571	1	ORF1b	CGG	CTG	R	L	"NiRAN, first residue after frame shift"		
 13504	T	G	0.6964740000000000	S	RdRp2	22	TGC	GGC	C	G	ORF1b	13	TGC	GGC	C	G	13506	13504	1	0.6964740000000000	na	na	na	na	na	na	NiRAN		
 13507	G	T	0.725441	S	RdRp2	23	GGC	TGC	G	C	ORF1b	14	GGC	TGC	G	C	13509	13507	1	0.725441	na	na	na	na	na	na	NiRAN		
 13513	na	0	0	S	RdRp	25	na	na	G	"Y,C"	ORF1b	15	0	0	G	"Y,C"	13515	13513	3	0.0							NiRAN		
@@ -9,7 +9,7 @@ POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_
 13603	C	A	0.062016	S	RdRp2	55	CGC	AGC	R	S	ORF1b	46	CGC	AGC	R	S	13605	13603	1	0.062016	na	na	na	na	na	na	Interactions with Beta Hairpin		
 13627	G	T	0.982906	S	RdRp2	63	GAC	TAC	D	Y	ORF1b	54	GAC	TAC	D	Y	13629	13627	3	0.9823326666666670	na	na	na	na	na	na	NiRAN		
 13627	na	0	0	S	RdRp	63	na	na	na	na	ORF1b	53	Gac	Tac	D	Y	13629	13627	7	0.0							NiRAN		
-13687	G	T	0.418757	S	RdRp2	83	GAA	TAA	E	*	ORF1b	74	GAA	TAA	E	*	13689	13687	1	0.418757	na	na	na	na	na	na	NiRAN A_N motif		
+13687	G	T	0.418757	S	RdRp2	83	GAA	TAA	E	*	ORF1b	74	GAA	TAA	E	*	13689	13687	1	0.418757	na	na	na	na	na	na	NiRAN A_N motif	"Insertion of Stop Codon, potential non functional protein"	
 13691	A	G	0.081448	S	RdRp2	84	GAA	GGA	E	G	ORF1b	75	GAA	GGA	E	G	13692	13690	1	0.081448	na	na	na	na	na	na	NiRAN A_N motif		
 13693	A	T	0.058824	S	RdRp2	85	ACA	TCA	T	S	ORF1b	76	ACA	TCA	T	S	13695	13693	3	0.07269233333333330	na	na	na	na	na	na	NiRAN A_N motif		
 13721	C	T	0.972603	S	RdRp2	94	CCA	CTA	P	L	ORF1b	85	CCA	CTA	P	L	13722	13720	1	0.972603	na	na	na	na	na	na	NiRAN		
@@ -20,7 +20,7 @@ POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_
 13850	G	T	0.171674	S	RdRp2	137	GGT	GTT	G	V	ORF1b	128	GGT	GTT	G	V	13851	13849	2	0.1229655	na	na	na	na	na	na	NiRAN		
 13949	A	C	0.15126100000000000	S	RdRp2	170	GAT	GCT	D	A	ORF1b	161	GAT	GCT	D	A	13950	13948	1	0.15126100000000000	na	na	na	na	na	na	NiRAN		
 13951	A	T	0.93	S	RdRp2	171	ATA	TTA	I	L	ORF1b	162	ATA	TTA	I	L	13953	13951	1	0.93	na	na	na	na	na	na	NiRAN		
-13990	C	T	0.17600000000000000	S	RdRp2	184	CAA	TAA	Q	*	ORF1b	175	CAA	TAA	Q	*	13992	13990	1	0.17600000000000000	na	na	na	na	na	na	NiRAN		
+13990	C	T	0.17600000000000000	S	RdRp2	184	CAA	TAA	Q	*	ORF1b	175	CAA	TAA	Q	*	13992	13990	1	0.17600000000000000	na	na	na	na	na	na	NiRAN	"Insertion of Stop Codon, potential non functional protein"	
 14053	C	A	0.127273	S	RdRp2	205	CTG	ATG	L	M	ORF1b	196	CTG	ATG	L	M	14055	14053	1	0.127273	na	na	na	na	na	na	NiRAN C_N motif		
 14077	A	G	0.134483	S	RdRp2	213	AAT	GAT	N	D	ORF1b	204	AAT	GAT	N	D	14079	14077	1	0.134483	na	na	na	na	na	na	NiRAN C_N motif		
 14111	A	C	0.078014	S	RdRp2	224	CAA	CCA	Q	P	ORF1b	215	CAA	CCA	Q	P	14112	14110	1	0.078014	na	na	na	na	na	na	NiRAN		
@@ -37,7 +37,7 @@ POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_
 14224	A	G	0.792208	S	RdRp2	262	ACA	GCA	T	A	ORF1b	253	ACA	GCA	T	A	14226	14224	1	0.792208	na	na	na	na	na	na	Interface		
 14225	C	A	0.265487	S	RdRp2	262	ACA	AAA	T	K	ORF1b	253	ACA	AAA	T	K	14226	14224	1	0.265487	na	na	na	na	na	na	Interface		
 14244	G	T	0.14	S	RdRp2	268	TGG	TGT	W	C	ORF1b	259	TGG	TGT	W	C	14244	14242	1	0.14	na	na	na	na	na	na	Interface		
-14269	G	T	0.057778	S	RdRp2	277	GAA	TAA	E	*	ORF1b	268	GAA	TAA	E	*	14271	14269	1	0.057778	na	na	na	na	na	na	Interface		
+14269	G	T	0.057778	S	RdRp2	277	GAA	TAA	E	*	ORF1b	268	GAA	TAA	E	*	14271	14269	1	0.057778	na	na	na	na	na	na	Interface	"Insertion of Stop Codon, potential non functional protein"	
 14277	G	T	0.0625	S	RdRp2	279	AGG	AGT	R	S	ORF1b	270	AGG	AGT	R	S	14277	14275	5	0.17893900000000000	na	na	na	na	na	na	Interface		
 14294	G	T	0.051282000000000000	S	RdRp2	285	CGT	CTT	R	L	ORF1b	276	CGT	CTT	R	L	14295	14293	1	0.051282000000000000	na	na	na	na	na	na	Interface		
 14308	T	C	0.096026	S	RdRp2	290	TGG	CGG	W	R	ORF1b	281	TGG	CGG	W	R	14310	14308	1	0.096026	na	na	na	na	na	na	Interface		
@@ -49,13 +49,13 @@ POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_
 14438	T	C	0.071269	S	RdRp2	333	ATA	ACA	I	T	ORF1b	324	ATA	ACA	I	T	14439	14437	1	0.071269	na	na	na	na	na	na	Interface		
 14500	G	A	0.059701	S	RdRp2	354	GTA	ATA	V	I	ORF1b	345	GTA	ATA	V	I	14502	14500	1	0.059701	na	na	na	na	na	na	Interface		
 14536	C	T	0.07200000000000000	S	RdRp2	366	CTT	TTT	L	F	ORF1b	357	CTT	TTT	L	F	14538	14536	2	0.15576050000000000	na	na	na	na	na	na	Fingers		
-14548	G	T	0.110345	S	RdRp2	370	GAA	TAA	E	*	ORF1b	361	GAA	TAA	E	*	14550	14548	2	0.0951725	na	na	na	na	na	na	Fingers		
+14548	G	T	0.110345	S	RdRp2	370	GAA	TAA	E	*	ORF1b	361	GAA	TAA	E	*	14550	14548	2	0.0951725	na	na	na	na	na	na	Fingers	"Insertion of Stop Codon, potential non functional protein"	
 14548	G	A	0.193103	S	RdRp2	370	GAA	AAA	E	K	ORF1b	361	GAA	AAA	E	K	14550	14548	2	0.1240745	na	na	na	na	na	na	Fingers		
 14555	T	C	0.444845	S	RdRp2	372	CTT	CCT	L	P	ORF1b	363	CTT	CCT	L	P	14556	14554	1	0.444845	na	na	na	na	na	na	Fingers		
 14653	G	T	0.075	S	RdRp2	405	GTT	TTT	V	F	ORF1b	396	GTT	TTT	V	F	14655	14653	1	0.075	na	na	na	na	na	na	Fingers		
-14675	C	A	0.06666700000000000	S	RdRp2	412	CCC	CAC	P	H	ORF1b	403	CCC	CAC	P	H	14676	14674	2	0.0770835	na	na	na	na	na	na	Fingers		
-14757	C	A	0.050562	S	RdRp2	439	CAC	CAA	H	Q	ORF1b	430	CAC	CAA	H	Q	14757	14755	1	0.050562	na	na	na	na	na	na	Fingers		
-14767	G	T	0.0625	S	RdRp2	443	GCT	TCT	A	S	ORF1b	434	GCT	TCT	A	S	14769	14767	1	0.0625	na	na	na	na	na	na	Fingers		
+14675	C	A	0.06666700000000000	S	RdRp2	412	CCC	CAC	P	H	ORF1b	403	CCC	CAC	P	H	14676	14674	2	0.0770835	na	na	na	na	na	na	"Fingers, Region of interactions involved in Replication Complex association"		
+14757	C	A	0.050562	S	RdRp2	439	CAC	CAA	H	Q	ORF1b	430	CAC	CAA	H	Q	14757	14755	1	0.050562	na	na	na	na	na	na	"Fingers, Region of interactions involved in Replication Complex association"		
+14767	G	T	0.0625	S	RdRp2	443	GCT	TCT	A	S	ORF1b	434	GCT	TCT	A	S	14769	14767	1	0.0625	na	na	na	na	na	na	"Fingers, Region of interactions involved in Replication Complex association"		
 14785	na	0	0	S	RdRp	449	na	na	A	V	ORF1b	439	gCt	gTt	A	V	14787	14785	3	0.0							Fingers		
 14786	C	T	0.990148	S	RdRp2	449	GCT	GTT	A	V	ORF1b	440	GCT	GTT	A	V	14787	14785	3	0.975657	na	na	na	na	na	na	Fingers		
 14812	T	C	0.057778	S	RdRp2	458	TAT	CAT	Y	H	ORF1b	449	TAT	CAT	Y	H	14814	14812	1	0.057778	na	na	na	na	na	na	Fingers		
@@ -100,7 +100,7 @@ POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_
 15908	G	T	0.06486500000000000	S	RdRp2	823	GGT	GTT	G	V	ORF1b	814	GGT	GTT	G	V	15909	15907	1	0.06486500000000000	na	na	na	na	na	na	Thumb		
 15946	A	G	0.08743200000000000	S	RdRp2	836	AGA	GGA	R	G	ORF1b	827	AGA	GGA	R	G	15948	15946	1	0.08743200000000000	na	na	na	na	na	na	"Thumb, Interaction with RNA"		10.1101/2020.04.27.063180
 15982	G	T	0.987069	S	RdRp2	848	GTA	TTA	V	L	ORF1b	839	GTA	TTA	V	L	15984	15982	1	0.987069	na	na	na	na	na	na	Thumb		
-16028	C	T	0.201561	S	RdRp2	863	GCT	GTT	A	V	ORF1b	854	GCT	GTT	A	V	16029	16027	1	0.201561	na	na	na	na	na	na	Thumb		
+16028	C	T	0.201561	S	RdRp2	863	GCT	GTT	A	V	ORF1b	854	GCT	GTT	A	V	16029	16027	1	0.201561	na	na	na	na	na	na	"Thumb, helix, Domain of interaction with a minor groove of Gn motif in the fingers"		
 16067	A	G	0.059701	S	RdRp2	876	GAG	GGG	E	G	ORF1b	867	GAG	GGG	E	G	16068	16066	1	0.059701	na	na	na	na	na	na	Thumb		
 16068	G	C	0.063025	S	RdRp2	876	GAG	GAC	E	D	ORF1b	867	GAG	GAC	E	D	16068	16066	1	0.063025	na	na	na	na	na	na	Thumb		
 16076	A	G	0.11578900000000000	S	RdRp2	879	GAT	GGT	D	G	ORF1b	870	GAT	GGT	D	G	16077	16075	1	0.11578900000000000	na	na	na	na	na	na	Thumb		
