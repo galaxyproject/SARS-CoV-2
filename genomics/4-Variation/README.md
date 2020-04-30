@@ -63,7 +63,7 @@ This section provides background of how we settled on using `lofreq` as the prin
 
 ### Calling variants in haploid mixtures is not standardized
 
-The development of modern genomic tools and formats have been driven by large collaborative initiatives such as 1,000 Genomes, GTEx and others. As a result the majority of current variant callers have been originally designed  for diploid genomes of human or model organisms where discrete allele frequencies are expected. Bacterial and viral samples are fundamentally different. They are represented by mixtures of multiple haploid genomes where the frequencies of individual variants are continuous. This renders many existing variant calling tools unsuitable for microbial and viral studies unless one is looking for fixed variants. However, recent advances in cancer genomics have prompted developments of somatic variant calling approaches that do not require normal ploidy assumptions and can be used for analysis of samples with chromosomal malformations or circulating tumor cells. The latter situation is essentially identical to viral or bacterial resequencing scenarios. As a result of these developments the current set of variant callers appropriate for microbial studies includes updated versions of “legacy” tools ([`FreeBayes`](https://github.com/ekg/freebayes) and `mutect2` (a part of [GATK](https://github.com/broadinstitute/gatk)) as well as dedicated packages ([`Breseq`](https://github.com/barricklab/breseq), [`SNVer`](http://dx.doi.org/10.1093/nar/gkr599), and [`lofreq`](https://github.com/CSB5/lofreq). To assess the applicability of these tools we first considered factors related to their long-term sustainability, such as the health of the codebase as indicated by the number of code commits, contributors and releases as well as the number of citations. After initial testing we settled on three callers: `FreeBayes`, `mutect2`, and `lofreq` (Breseq’s new “polymorphism mode” has been in experimental state at the time of testing. `SNVer` is no longer actively maintained). `FreeBayes` contains a mode specifically designed for finding sites with continuous allele frequencies; `Mutect2` features a so called mitochondrial mode, and `lofreq` was specifically designed for microbial sequence analysis. 
+The development of modern genomic tools and formats have been driven by large collaborative initiatives such as 1,000 Genomes, GTEx and others. As a result the majority of current variant callers have been originally designed  for diploid genomes of human or model organisms where discrete allele frequencies are expected. Bacterial and viral samples are fundamentally different. They are represented by mixtures of multiple haploid genomes where the frequencies of individual variants are continuous. This renders many existing variant calling tools unsuitable for microbial and viral studies unless one is looking for fixed variants. However, recent advances in cancer genomics have prompted developments of somatic variant calling approaches that do not require normal ploidy assumptions and can be used for analysis of samples with chromosomal malformations or circulating tumor cells. The latter situation is essentially identical to viral or bacterial resequencing scenarios. As a result of these developments the current set of variant callers appropriate for microbial studies includes updated versions of “legacy” tools ([`FreeBayes`](https://github.com/ekg/freebayes) and `mutect2` (a part of [GATK](https://github.com/broadinstitute/gatk)) as well as dedicated packages ([`Breseq`](https://github.com/barricklab/breseq), [`SNVer`](http://dx.doi.org/10.1093/nar/gkr599), and [`lofreq`](https://github.com/CSB5/lofreq)). To assess the applicability of these tools we first considered factors related to their long-term sustainability, such as the health of the codebase as indicated by the number of code commits, contributors and releases as well as the number of citations. After initial testing we settled on three callers: `FreeBayes`, `mutect2`, and `lofreq` (Breseq’s new “polymorphism mode” has been in experimental state at the time of testing. `SNVer` is no longer actively maintained). `FreeBayes` contains a mode specifically designed for finding sites with continuous allele frequencies; `Mutect2` features a so called mitochondrial mode, and `lofreq` was specifically designed for microbial sequence analysis. 
 
 ### Benchmarking callers: `lofreq` is the best choice
 
@@ -106,7 +106,7 @@ The `lofreq` performed the best followed by `mutect2` and `FreeBayes` (contrast 
 
 ## Galaxy workflows
 
-`lofreq` is used two galaxy workflows described in this section. Illumina data currently available for SARS-CoV-2 consists of paired- and single-end datasets. We use two similar yet distinct workflows to analysis these datasets.
+`lofreq` is used in two galaxy workflows described in this section. Illumina data currently available for SARS-CoV-2 consists of paired- and single-end datasets. We use two similar yet distinct workflows to analysis these datasets.
 
 ### Analysis of Illumina Paired End data
 
@@ -114,7 +114,7 @@ The `lofreq` performed the best followed by `mutect2` and `FreeBayes` (contrast 
 
 ![](./var_wf_pe.png)
 
-<small>**Figure 3.** Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis)</small>
+<small>**Figure 3.** Workflow for the analysis of paired-end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis)</small>
 
 ------
 
@@ -142,7 +142,7 @@ A tab-delimited table of variants described in Table 2 below.
 -----
 
 ![](./var_wf_se.png) 
-**Figure 4.** Workflow for the analysis of single end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)
+**Figure 4.** Workflow for the analysis of single-end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)
 
 -----
 
@@ -311,7 +311,7 @@ The variants we identified were distributed across the SARS-CoV-2 genome in the 
 
 ## Galaxy histories
 
-Galaxy histories corresponding to all analyses performed so far are listed in [Table 1](#obtaining-the-data). The history used for aggregating results and launching jupyter notebook is here &#8594; [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variation_analysis.ipynb).
+Galaxy histories corresponding to all analyses performed so far are listed in [Table 1](#obtaining-the-data). The history used for aggregating results and launching jupyter notebook is here &#8594; [![Galaxy history](https://img.shields.io/static/v1?label=Aggregated&nbsp;data&message=view&color=green)](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1).
 
 ## BioConda
 
