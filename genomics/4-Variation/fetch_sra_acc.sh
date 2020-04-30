@@ -29,7 +29,7 @@ pysradb metadata $(<current.txt) --saveto current_metadata.txt
 grep -e 'Illumina\|NextSeq' current_metadata.txt |cut -f15 > current_illumina.txt
 grep GridION current_metadata.txt |cut -f15 > current_gridion.txt
 
-grep -B 2 'gene-region: complete$' ncov-sequences.yaml|grep -o "MT[[:digit:]]\+" > "NEW_$GENOME_ACCESSIONS"
+grep -o "MT[[:digit:]]\+" ncov-sequences.yaml > "NEW_$GENOME_ACCESSIONS"
 
 # Get only new accessions we haven't seen before
 if [ -f "$GENOME_ACCESSIONS" ]
