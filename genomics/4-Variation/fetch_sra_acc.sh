@@ -1,51 +1,23 @@
 #!/bin/bash 
 set -e -v
 
-GENOME_FASTA="current_complete_ncov_genomes.fasta"
-GENOME_ACCESSIONS="genome_accessions.txt"
-
-# From genbank, used to get SRR accessions as well as MT accessions for genomes
-curl -s https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml --output ncov-sequences.yaml
-grep -o "SRR[[:digit:]]\+" ncov-sequences.yaml > genbank.txt
-
-cleanup () {
-    rm ncov-sequences.yaml
-    mv "NEW_$GENOME_ACCESSIONS" "$GENOME_ACCESSIONS"
-}
-
-# From SRA
-python get_sra_accessions.py
-# From ENA
-curl -s 'https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049&result=read_run&download=true' | grep -o "ERR[[:digit:]]\{7\}" > ena.txt
-
-cat ena.txt genbank.txt sra.txt | sort | uniq > union.txt
-rm ena.txt
-grep -f acc2exclude.txt -v union.txt > current.txt
-
-# Annotate combined accession with metadata
-pysradb metadata $(<current.txt) --saveto current_metadata.txt
+touch acc2exclude.txt
+touch accession_and_date.tsv
+pysradb search txid2697049 --saveto /dev/stdout | grep -f acc2exclude.txt -v > .current_metadata.tsv
+cat .current_metadata.tsv metadata_not_txid2697049.tsv > current_metadata.tsv
+rm .current_metadata.tsv
+cut -f 15 current_metadata.tsv|tail -n +2 > current.txt
 
 # Split into Illumina and GridION datasets
-grep -e 'Illumina\|NextSeq' current_metadata.txt |cut -f15 > current_illumina.txt
-grep GridION current_metadata.txt |cut -f15 > current_gridion.txt
+grep -e 'Illumina\|NextSeq' current_metadata.tsv |cut -f15 > current_illumina.txt
+grep GridION current_metadata.tsv |cut -f15 > current_gridion.txt
 
-grep -o "MT[[:digit:]]\+" ncov-sequences.yaml > "NEW_$GENOME_ACCESSIONS"
+# Annotate first seen date
 
-# Get only new accessions we haven't seen before
-if [ -f "$GENOME_ACCESSIONS" ]
-then
-    MT_ACCESSIONS=$(grep -f "$GENOME_ACCESSIONS" -v "NEW_$GENOME_ACCESSIONS" || true)
-    if [ -z "$MT_ACCESSIONS" ]
-    then
-      echo "No new accessions found"
-      cleanup
-      exit 0
-    fi
-else
-    MT_ACCESSIONS=$(cat "NEW_$GENOME_ACCESSIONS")
-fi
-
-# Replace newlines with comma so we query all accessions in one go
-MT_ACCESSIONS=$(echo "$MT_ACCESSIONS"| tr "\n", ",")
-curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=$MT_ACCESSIONS&rettype=fasta" | sed '/^$/d' >> "$GENOME_FASTA"
-cleanup
+date=$(date +%F)
+cut -f1 accession_and_date.tsv > .known_accessions
+while read -r acc
+do
+  printf "%s\t%s\n" "$acc" "$date" >> accession_and_date.tsv
+done < <(diff --new-line-format="" --unchanged-line-format="" <(sort current.txt) <(sort .known_accessions))
+rm .known_accessions
