@@ -60,6 +60,6 @@ jobs:
     - name: Get todays llumina accessions
       run: grep -f <(grep $(date +%F) accession_and_date.tsv|cut -f1) current_illumina.txt > illumina_$(date +%F).txt
     - name: Trigger Galaxy Workflow
-      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" -a $GALAXY_API_KEY
+      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -a $GALAXY_API_KEY
       env:
         GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}
