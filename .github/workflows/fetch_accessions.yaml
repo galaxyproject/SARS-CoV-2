@@ -27,7 +27,7 @@ jobs:
       run: python fetch_genome_accessions.py
       working-directory: ./genomics/4-Variation/
     - name: Show differences
-      run: 'git diff --stat && git diff'
+      run: 'git diff --stat'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
@@ -46,6 +46,10 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./genomics/4-Variation/
     steps:
     - uses: actions/checkout@v2
       with:
