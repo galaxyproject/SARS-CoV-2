@@ -13,6 +13,10 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./genomics/4-Variation/
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v1
@@ -22,10 +26,8 @@ jobs:
       run: pip install https://github.com/saketkc/pysradb/archive/master.zip requests
     - name: Fetch sequence accessions
       run: ./fetch_sra_acc.sh
-      working-directory: ./genomics/4-Variation/
     - name: Fetch genome accessions
       run: python fetch_genome_accessions.py
-      working-directory: ./genomics/4-Variation/
     - name: Show differences
       run: 'git diff --stat'
     - name: Create Pull Request
