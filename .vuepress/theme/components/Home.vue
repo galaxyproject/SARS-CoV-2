@@ -151,7 +151,7 @@
             </div>
         </div>
 
-        <h2>Project Video Update</h2>
+        <h2>Project Video Introduction</h2>
         <iframe
             width="960"
             height="540"
