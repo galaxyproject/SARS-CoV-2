@@ -4,7 +4,7 @@ on:
     # Run every day at midnight
     - cron: '0 0 * * *'
 jobs:
-  fetch_accessions:
+  fetch-accessions:
     name: Fetch
     runs-on: ubuntu-18.04
     # Check if the event is not triggered by a fork
@@ -43,7 +43,7 @@ jobs:
   variation-workflow:
     if: github.repository == 'galaxyproject/SARS-CoV-2'
     name: Variation Workflow
-    needs: fetch_accessions
+    needs: fetch-accessions
     runs-on: ubuntu-latest
     strategy:
       matrix:
