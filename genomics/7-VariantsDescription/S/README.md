@@ -121,23 +121,3 @@ S/S_coordinates_conversion.tab -> better
 | AY463059.1 | [AY463059.1](https://www.ncbi.nlm.nih.gov/nuccore/AY463059) | SARS coronavirus ShanghaiQXC1 |
 | MN996528.1 | [MN996528.1](https://www.ncbi.nlm.nih.gov/nuccore/MN996528.1) | Severe acute respiratory syndrome coronavirus 2 isolate WIV04 |
 | DQ022305.2  | [DQ022305.2](https://www.ncbi.nlm.nih.gov/nuccore/DQ022305.2) |  Bat SARS coronavirus HKU3-1 |
-
-
-
-S/S_protein_coordinates_conversion.tab
-
-| Accession | Source | Description |
-|:------:|:-----------:|:-----------|
-| NC_045512.2_1 | [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2)  | Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1 (SARS-2-Cov) |
-| NC_028806.1_1 | [NC_028806.1](https://www.ncbi.nlm.nih.gov/nuccore/NC_028806.1) | Swine enteric coronavirus strain Italy/213306/2009 |
-| AY687355.1 | [AY687355.1](https://www.ncbi.nlm.nih.gov/nuccore/AY687355.1) | SARS coronavirus A013 |
-| AF107212.1 | [AF107212.1](https://www.ncbi.nlm.nih.gov/nuccore/AF107212.1) | Murine hepatitis virus |
-| NC_038861.1 | [NC_038861.1](https://www.ncbi.nlm.nih.gov/nuccore/NC_038861.1) | Transmissible gastroenteritis virus  |
-| FJ588692.1 | [FJ588692.1](https://www.ncbi.nlm.nih.gov/nuccore/FJ588692.1) | Bat SARS Cov Rs806/2006 |
-| AF190406.1 | [AF190406.1](https://www.ncbi.nlm.nih.gov/nuccore/AF190406.1) | Murine hepatitis virus strain TY |
-| AB593383.1 | [AB593383.1](https://www.ncbi.nlm.nih.gov/nuccore/AB593383.1) | Murine hepatitis virus |
-| KT357810.1 | [KT357810.1](https://www.ncbi.nlm.nih.gov/nuccore/KT357810.1) | Middle East respiratory syndrome coronavirus isolate Riyadh_1175/KSA/2014 |
-| KC881007.1 | [KC881007.1](https://www.ncbi.nlm.nih.gov/nuccore/KC881007.1) | Bat SARS-like coronavirus WIV1 |
-| KR559017.1 | [KR559017.1](https://www.ncbi.nlm.nih.gov/nuccore/KR559017.1) | SARS-like coronavirus BatCoV/BB9904/BGR/2008 |
-| DQ412594.1 | [DQ412594.1](https://www.ncbi.nlm.nih.gov/nuccore/DQ412594.1) | SARS coronavirus isolate CUHKtc10NP |
-| NC_002306.3 | [NC_002306.3](https://www.ncbi.nlm.nih.gov/nuccore/NC_002306.3) | Feline infectious peritonitis virus |
