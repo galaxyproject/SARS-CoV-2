@@ -41,6 +41,9 @@ import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from '@SearchBox'
 import SidebarButton from '@theme/components/SidebarButton.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
+import Toasted from 'vue-toasted';
+import Vue from 'vue'
+Vue.use(Toasted, {keepOnHover: true})
 
 export default {
   name: 'Navbar',
@@ -81,6 +84,18 @@ export default {
     }
     handleLinksWrapWidth()
     window.addEventListener('resize', handleLinksWrapWidth, false)
+
+    this.$toasted.show("Please, consider to attend our SARS-V2 Webinar", {
+      theme: "toasted-primary",
+      duration: 5000,
+      action: {
+        text: 'open link',
+        onClick: (e, toastObject) => {
+          window.open("https://elixir-europe.org/events/webinar-galaxy-elixir-covid19");
+          toastObject.goAway(0);
+        }
+      },
+    })
   }
 }
 
