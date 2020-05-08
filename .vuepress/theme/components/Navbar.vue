@@ -85,7 +85,7 @@ export default {
     handleLinksWrapWidth()
     window.addEventListener('resize', handleLinksWrapWidth, false)
 
-    this.$toasted.show("Please, consider to attend our SARS-V2 Webinar", {
+    this.$toasted.show("Join our COVID-19 webinars and learn about data analysis in Galaxy.", {
       theme: "toasted-primary",
       duration: 5000,
       action: {
