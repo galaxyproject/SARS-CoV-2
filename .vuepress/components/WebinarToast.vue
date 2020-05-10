@@ -18,15 +18,23 @@ export default {
     mounted() {
         this.$toasted.show(this.message, {
             theme: "toasted-primary",
-            duration: 5000,
+            duration: 10000,
             position: "bottom-right",
-            action: {
-                text: "open link",
-                onClick: (e, toastObject) => {
-                    window.open(this.link);
-                    toastObject.goAway(0);
+            action: [
+                {
+                    text: "more info",
+                    onClick: (e, toastObject) => {
+                        window.open(this.link);
+                        toastObject.goAway(0);
+                    }
+                },
+                {
+                    text: "dismiss",
+                    onClick: (e, toastObject) => {
+                        toastObject.goAway(0);
+                    }
                 }
-            }
+            ]
         });
     }
 };
