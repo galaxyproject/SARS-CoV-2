@@ -2,10 +2,6 @@
   "name": "sars-cov-2-docs",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "notebookjs": "0.4.2"
-  },
   "devDependencies": {
     "script-loader": "^0.7.2",
     "vuepress": "^1.4.0"
@@ -15,5 +11,12 @@
     "build": "vuepress build ."
   },
   "author": "",
-  "license": "AFL-3.0"
+  "license": "AFL-3.0",
+  "dependencies": {
+    "@observablehq/runtime": "^4.7.0",
+    "axios": "^0.19.2",
+    "gh-badges": "^2.2.1",
+    "notebookjs": "0.4.2",
+    "uuid": "^7.0.2"
+  }
 }

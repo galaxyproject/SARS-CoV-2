@@ -5,13 +5,14 @@ title: Genomics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg)](https://doi.org/10.5281/zenodo.3685264)
 
-Powered by: [![usegalaxy.org](https://img.shields.io/static/v1?label=usegalaxy&message=org&color=green)](https://usegalaxy.org)
-[![usegalaxy.eu](https://img.shields.io/static/v1?label=usegalaxy&message=eu&color=green)](https://usegalaxy.eu)
-[![usegalaxy.be](https://img.shields.io/static/v1?label=usegalaxy&message=be&color=green)](https://usegalaxy.be)
-[![usegalaxy.org.au](https://img.shields.io/static/v1?label=usegalaxy&message=org.au&color=green)](https://usegalaxy.org.au)
-[![usegalaxy.fr](https://img.shields.io/static/v1?label=usegalaxy&message=fr&color=green)](https://usegalaxy.fr)
-
-
+<p class="shieldlist">
+Powered by:
+<FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org"/>
+<FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
+<FlatShield label="usegalaxy" message="be" href="https://usegalaxy.be"/>
+<FlatShield label="usegalaxy" message="org.au" href="https://usegalaxy.org.au"/>
+<FlatShield label="usegalaxy" message="fr" href="https://usegalaxy.fr"/>
+</p>
 
 [Dannon Baker](https://github.com/dannon),
 [Marius van den Beek](https://github.com/mvdbeek),

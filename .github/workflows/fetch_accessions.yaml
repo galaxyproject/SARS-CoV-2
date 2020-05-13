@@ -1,10 +1,10 @@
-name: Fetch accessions
+name: Fetch accessions and start workflow
 on:
   schedule:
     # Run every day at midnight
     - cron: '0 0 * * *'
 jobs:
-  test:
+  fetch_accessions:
     name: Fetch
     runs-on: ubuntu-18.04
     # Check if the event is not triggered by a fork
@@ -13,18 +13,23 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./genomics/4-Variation/
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install pysradb
-      run: pip install https://github.com/saketkc/pysradb/archive/master.zip
-    - name: Fetch accessions
+      run: pip install https://github.com/saketkc/pysradb/archive/master.zip requests
+    - name: Fetch sequence accessions
       run: ./fetch_sra_acc.sh
-      working-directory: ./genomics/4-Variation/
+    - name: Fetch genome accessions
+      run: python fetch_genome_accessions.py
     - name: Show differences
-      run: 'git diff --stat && git diff'
+      run: 'git diff --stat'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
@@ -35,3 +40,32 @@ jobs:
         labels: Automation
         branch: accession_updates
         base: master
+  variation-workflow:
+    if: github.repository == 'galaxyproject/SARS-CoV-2'
+    name: Variation Workflow
+    needs: fetch_accessions
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./genomics/4-Variation/
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: accession_updates
+    - uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install workflow2executable
+      run: pip install https://github.com/mvdbeek/workflow2executable/archive/master.zip
+    - name: Upgrade bioblend
+      run: pip install --upgrade https://github.com/galaxyproject/bioblend/archive/master.zip
+    - name: Get todays llumina accessions
+      run: grep -f <(grep $(date +%F) accession_and_date.tsv|cut -f1) current_illumina.txt > illumina_$(date +%F).txt
+    - name: Trigger Galaxy Workflow
+      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -a $GALAXY_API_KEY
+      env:
+        GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}

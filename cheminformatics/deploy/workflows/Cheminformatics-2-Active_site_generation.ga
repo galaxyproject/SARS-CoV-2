@@ -1,0 +1,157 @@
+{
+  "a_galaxy_workflow": "true", 
+  "annotation": "Active site preparation", 
+  "format-version": "0.1", 
+  "name": "COVID-19 - Cheminformatics [2] Active site generation", 
+  "steps": {
+    "0": {
+      "annotation": "", 
+      "content_id": null, 
+      "errors": null, 
+      "id": 0, 
+      "input_connections": {}, 
+      "inputs": [
+        {
+          "description": "", 
+          "name": "hits_frankenstein_17.sdf"
+        }
+      ], 
+      "label": "hits_frankenstein_17.sdf", 
+      "name": "Input dataset", 
+      "outputs": [], 
+      "position": {
+        "left": 200, 
+        "top": 200
+      }, 
+      "tool_id": null, 
+      "tool_state": "{\"name\": \"hits_frankenstein_17.sdf\"}", 
+      "tool_version": null, 
+      "type": "data_input", 
+      "uuid": "1b1a8b45-6f5d-4853-82c9-9d4556692206", 
+      "workflow_outputs": []
+    }, 
+    "1": {
+      "annotation": "", 
+      "content_id": null, 
+      "errors": null, 
+      "id": 1, 
+      "input_connections": {}, 
+      "inputs": [
+        {
+          "description": "", 
+          "name": "Mpro-x0195_0_apo-desolv.pdb"
+        }
+      ], 
+      "label": "Mpro-x0195_0_apo-desolv.pdb", 
+      "name": "Input dataset", 
+      "outputs": [], 
+      "position": {
+        "left": 200, 
+        "top": 310
+      }, 
+      "tool_id": null, 
+      "tool_state": "{\"name\": \"Mpro-x0195_0_apo-desolv.pdb\"}", 
+      "tool_version": null, 
+      "type": "data_input", 
+      "uuid": "7d087510-dc1f-44a8-9f7f-6fd5577433f2", 
+      "workflow_outputs": []
+    }, 
+    "2": {
+      "annotation": "", 
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0", 
+      "errors": null, 
+      "id": 2, 
+      "input_connections": {
+        "infile": {
+          "id": 1, 
+          "output_name": "output"
+        }
+      }, 
+      "inputs": [], 
+      "label": null, 
+      "name": "Compound conversion", 
+      "outputs": [
+        {
+          "name": "outfile", 
+          "type": "text"
+        }
+      ], 
+      "position": {
+        "left": 460, 
+        "top": 200
+      }, 
+      "post_job_actions": {
+        "HideDatasetActionoutfile": {
+          "action_arguments": {}, 
+          "action_type": "HideDatasetAction", 
+          "output_name": "outfile"
+        }
+      }, 
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.1.0", 
+      "tool_shed_repository": {
+        "changeset_revision": "e6011617c748", 
+        "name": "openbabel_compound_convert", 
+        "owner": "bgruening", 
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      }, 
+      "tool_state": "{\"__page__\": null, \"dative_bonds\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"appendtotitle\": \"\\\"\\\"\", \"remove_h\": \"\\\"false\\\"\", \"oformat\": \"{\\\"__current_case__\\\": 41, \\\"gen2d\\\": \\\"false\\\", \\\"gen3d\\\": \\\"false\\\", \\\"mol2_ignore_res\\\": \\\"false\\\", \\\"oformat_opts_selector\\\": \\\"mol2\\\"}\", \"ph\": \"\\\"-1.0\\\"\", \"unique\": \"{\\\"__current_case__\\\": 0, \\\"unique_opts_selector\\\": \\\"\\\"}\", \"chromInfo\": \"\\\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\", \"infile\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"split\": \"\\\"false\\\"\"}", 
+      "tool_version": "2.4.2.1.0", 
+      "type": "tool", 
+      "uuid": "bc538e18-4257-4cbf-8647-ff8d7adb5142", 
+      "workflow_outputs": []
+    }, 
+    "3": {
+      "annotation": "", 
+      "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/0.1", 
+      "errors": null, 
+      "id": 3, 
+      "input_connections": {
+        "ligand": {
+          "id": 0, 
+          "output_name": "output"
+        }, 
+        "receptor": {
+          "id": 2, 
+          "output_name": "outfile"
+        }
+      }, 
+      "inputs": [], 
+      "label": null, 
+      "name": "rDock cavity definition", 
+      "outputs": [
+        {
+          "name": "activesite", 
+          "type": "rdock_as"
+        }
+      ], 
+      "position": {
+        "left": 788, 
+        "top": 200
+      }, 
+      "post_job_actions": {}, 
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/0.1", 
+      "tool_shed_repository": {
+        "changeset_revision": "5f73eb32ddbf", 
+        "name": "rdock_rbcavity", 
+        "owner": "bgruening", 
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      }, 
+      "tool_state": "{\"__page__\": null, \"ligand\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"weight\": \"\\\"1.0\\\"\", \"vol_incr\": \"\\\"0.0\\\"\", \"__rerun_remap_job_id__\": null, \"min_volume\": \"\\\"100\\\"\", \"gridstep\": \"\\\"0.5\\\"\", \"sphere\": \"\\\"1.0\\\"\", \"radius\": \"\\\"3.0\\\"\", \"receptor\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"chromInfo\": \"\\\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+      "tool_version": "0.1", 
+      "type": "tool", 
+      "uuid": "a481b33d-794a-4ed2-bbb8-76ea305e6e64", 
+      "workflow_outputs": [
+        {
+          "label": null, 
+          "output_name": "activesite", 
+          "uuid": "5b095149-4279-4ed4-bc35-39bd7d1597a0"
+        }
+      ]
+    }
+  }, 
+  "tags": [
+    "covid-19"
+  ], 
+  "uuid": "90aa7d99-0a4b-401c-b4d0-d20f7475531e", 
+  "version": 1
+}

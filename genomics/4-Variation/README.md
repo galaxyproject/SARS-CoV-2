@@ -2,7 +2,9 @@
 title: Variation
 ---
 
-# Analysis of variation within individual COVID-19 samples | March 26 2020
+# Analysis of variation within individual COVID-19 samples | :fire: updated daily
+
+> Last update = April 28
 
 <!--
 ## Live Resources
@@ -20,28 +22,109 @@ title: Variation
 
 The absolute majority of SARS-COV-2 data is in the form of assembled genomic sequences. This is unfortunate because any variation that exists within individual samples is obliterated--converted to the most frequent base--during the assembly process. However, knowing underlying evolutionary dynamics is critical for tracing evolution of the virus as it allows identification of genomic regions under different selective regimes and understanding of its population parameters.
 
-## Data availability (:fire: updated daily)
+## Outline
 
-Raw sequencing reads are required to detected within-sample variation. We update the list of available data daily using the following logic implemented in [fetch_sra_acc.sh](fetch_sra_acc.sh):
+In this analysis we check for new data, run single- or paired-end analysis workflows, aggregate the results, combine them with the list produced in the previous days, and finally analyze the complete, up-to-date set of variants using Jupyter. Here is a brief outline with links:
 
- 1. Two resources list read data available for SARS-CoV-2: [SARS-CoV-2 resource](https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml) and [SRA itself](https://www.ncbi.nlm.nih.gov/sra/?term=txid2697049[Organism:noexp]).
- 2. We pull accession numbers from these two resources ([genbank.txt](genbank.txt) and [sra.txt](sra.txt)) and compute their union ([union.txt](union.txt))
- 3. From the list obtained at the previous step we exclude bad datasets and non human samples (see [this file](acc2exclude.txt) or view datasets directly in [run selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRR11085733%2CSRR11085797%2CSRR11085741%2CSRR11085740%2CSRR11085738%2CSRR11085737%2CSRR11085736%2CSRR11092056%2CSRR11092057%2CSRR11092058%2CSRR11092059%2CSRR11092060%2CSRR11092061%2CSRR11092062%2CSRR11092063%2CSRR11092064&ff=on#)). This produces a list of current SRA accession: [current.txt](current.txt).
- 4. Finally, we restrict this list to only datasets produced with the Illumina platform ([current_illumina.txt](current_illumina.txt)). Oxford Nanopore data is used later to confirm indel polymorphisms. This is done by uploading accessions listed in
-[current.txt](current.txt) to SRA Run Selector and filtering on `platform=ILLUMINA`.
+| Step | Description |
+|------|-------------|
+| Obtain Illumina read [accessions](current_illumina.txt) | Generate list of newly released Illumina datasets. Performed daily. |
+| [![Paired end workflow](https://img.shields.io/static/v1?label=PE&nbsp;workflow&message=view&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) | If data is paired-end &#8594; run PE workflow |
+|[![Single end workflow](https://img.shields.io/static/v1?label=SE&nbsp;workflow&message=view&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-se-var) | If data is single-end &#8594; run SE workflow |
+| [![Galaxy history](https://img.shields.io/static/v1?label=Aggregated&nbsp;data&message=view&color=green)](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1) | Combine results of PE and SE workflow. This is done in a single Galaxy history that is used to aggregate results of all daily runs. |
+|  [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variation_analysis.ipynb) | Start Jupyter notebook to analyze variants (it can started directly from history linked at the previous step) | 
 
-The list of currently analyzed datasets is below:
+## Obtaining the data
+
+Raw sequencing reads are required to detection of within-sample sequence variants. We update the list of available data daily using the following logic implemented in [`fetch_sra_acc.sh`](fetch_sra_acc.sh):
+
+ 1. Fetch accessions from [SARS-CoV-2 resource](https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml), [Short Read Archive at NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=txid2697049[Organism:noexp]), and [EBI](https://www.ebi.ac.uk/ena/browser/api/xml/links/taxon?accession=2697049&result=read_run&download=true).  This is done daily.
+ 2. A union of accessions from these three resources is then computed ([`union.txt`](union.txt)).
+ 3. Sample metadata is then obtained for all retained accession numbers and saved into [`current_metadata.txt`](current_metadata.txt).
+ 4. Metadata is used to split datasets into [`current_illumina.txt`](current_illumina.txt) and [`current_gridion.txt`](current_gridion.txt).
+ 5. In addition, we fetch all publicly available complete SARS-CoV-2 genomes. These are stored in 
+[`genome_accessions.txt`](genome_accessions.txt) and [`current_complete_ncov_genomes.fasta`](current_complete_ncov_genomes.fasta). 
+
+The list of currently analyzed datasets (as of April 28, 2020) is shown in Table 1 below.
+
+<small>**Table 1.** SARS-CoV-2 Illumina datasets and corresponding analysis histories.</small>
 
 | Accessions | Date | Galaxy history |
 |--------|---------|--------------|
 | [SRR10903401](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10903401)<br>[SRR10903402](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10903402)<br>[SRR10971381](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10971381)<br>[SRR11059940](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059940)<br>[SRR11059941](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059941)<br>[SRR11059942](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059942)<br>[SRR11059943](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059943)<br>[SRR11059944](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059944)<br>[SRR11059945](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059945)<br>[SRR11059946](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059946)<br>[SRR11059947](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11059947)<br>[SRR11140744](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140744)<br>[SRR11140746](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140746)<br>[SRR11140748](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140748)<br>[SRR11140750](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11140750)<br>[SRR11177792](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11177792)<br>[SRR11241254](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11241254)<br>[SRR11241255](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11241255)<br>[SRR11247075](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247075)<br>[SRR11247076](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247076)<br>[SRR11247077](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247077)<br>[SRR11247078](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11247078)<br>[SRR11278090](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278090)<br>[SRR11278091](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278091)<br>[SRR11278092](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278092)<br>[SRR11278164](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278164)<br>[SRR11278165](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278165)<br>[SRR11278166](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278166)<br>[SRR11278167](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278167)<br>[SRR11278168](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11278168)<br>[SRR11314339](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11314339) | Beginning of outbreak - March 20, 2020 | [Paired End](https://usegalaxy.org/u/aun1/h/covid-19-variation-pe-mar-19)<br>[Single End](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19)|
 |[SRR11397714](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397714)<br>[SRR11397715](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397715)<br>[SRR11397716](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397716)<br>[SRR11397717](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397717)<br>[SRR11397718](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397718)<br>[SRR11397719](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397719)<br>[SRR11397720](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397720)<br>[SRR11397721](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397721)<br>[SRR11397728](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397728)<br>[SRR11397729](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397729)<br>[SRR11397730](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11397730)<br>[SRR11393704](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11393704) | March 25, 2020 | [Paired and Single Ends](https://usegalaxy.org/u/aun1/h/covid-19-variation-march-25) |
 | [SRR11410528](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410528)<br>[SRR11410529](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410529)<br>[SRR11410532](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410532)<br>[SRR11410533](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410533)<br>[SRR11410536](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410536)<br>[SRR11410538](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410538)<br>[SRR11410540](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410540)<br>[SRR11410541](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410541)<br>[SRR11410542](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11410542)<br>[SRR11409417](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11409417) | March 26, 2020 |  [Paired End](https://usegalaxy.org/u/aun1/h/covid-19-variation-march-26) |
+|[SRR11454606](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454606)<br>[SRR11454607](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454607)<br>[SRR11454608](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454608)<br>[SRR11454609](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454609)<br>[SRR11454610](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454610)<br>[SRR11454611](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454611)<br>[SRR11454612](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454612)<br>[SRR11454613](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454613)<br>[SRR11454614](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454614)<br>[SRR11454615](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11454615)| April 2, 2020 | [Paired and Single Ends](https://usegalaxy.eu/u/m.vandenbeek/h/april-2-sars-cov-variant-workflows) |
+| 378 accessions | April 8, 2020 | [Paired and Single Ends](https://usegalaxy.org/u/aun1/h/april-8-update) |
+| 656 accessions | April 28, 2020 | [Paired and Single Ends](https://usegalaxy.org/u/aun1/h/april-28-datasets) |
 
+## How do we call variants?
 
-Next we fetch fastq datasets for accession listed in [current_illumina.txt](current_illumina.txt) using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section. We also download Genbank file for SARS-CoV-2 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). Finally we apply the following workflows to Paired and Single end data, respectively:
+This section provides background of how we settled on using `lofreq` as the principal variant caller for this project.
+
+### Calling variants in haploid mixtures is not standardized
+
+The development of modern genomic tools and formats have been driven by large collaborative initiatives such as 1,000 Genomes, GTEx and others. As a result the majority of current variant callers have been originally designed  for diploid genomes of human or model organisms where discrete allele frequencies are expected. Bacterial and viral samples are fundamentally different. They are represented by mixtures of multiple haploid genomes where the frequencies of individual variants are continuous. This renders many existing variant calling tools unsuitable for microbial and viral studies unless one is looking for fixed variants. However, recent advances in cancer genomics have prompted developments of somatic variant calling approaches that do not require normal ploidy assumptions and can be used for analysis of samples with chromosomal malformations or circulating tumor cells. The latter situation is essentially identical to viral or bacterial resequencing scenarios. As a result of these developments the current set of variant callers appropriate for microbial studies includes updated versions of “legacy” tools ([`FreeBayes`](https://github.com/ekg/freebayes) and `mutect2` (a part of [GATK](https://github.com/broadinstitute/gatk)) as well as dedicated packages ([`Breseq`](https://github.com/barricklab/breseq), [`SNVer`](http://dx.doi.org/10.1093/nar/gkr599), and [`lofreq`](https://github.com/CSB5/lofreq)). To assess the applicability of these tools we first considered factors related to their long-term sustainability, such as the health of the codebase as indicated by the number of code commits, contributors and releases as well as the number of citations. After initial testing we settled on three callers: `FreeBayes`, `mutect2`, and `lofreq` (Breseq’s new “polymorphism mode” has been in experimental state at the time of testing. `SNVer` is no longer actively maintained). `FreeBayes` contains a mode specifically designed for finding sites with continuous allele frequencies; `Mutect2` features a so called mitochondrial mode, and `lofreq` was specifically designed for microbial sequence analysis. 
+
+### Benchmarking callers: `lofreq` is the best choice
+
+Our goal was to identify variants in mixtures of multiple haplotypes sequenced at very high coverage. Such dataset are typical in modern bacterial and viral genomic studies. In addition, we are seeking to be able to detect variants with frequencies around the NGS detection threshold of ~ 1% ([Salk et al. 2018](http://dx.doi.org/10.1038/nrg.2017.117)). In order to achieve this goal we selected a test dataset, which is distinct from data used in recent method comparisons ([Bush et al. 2019](http://dx.doi.org/10.1101/653774); [Yoshimura et al. 2019](http://dx.doi.org/10.1099/mgen.0.000261)). These data originate from a duplex sequencing experiment recently performed by our group ([Mei et al. 2019](https://academic.oup.com/gbe/article/11/10/3022/5572121)).  In this dataset a population of *E. coli* cells transformed with pBR322 plasmid is maintained in a turbidostat culture for an extensive period of time. Adaptive changes accumulated within the plasmid are then revealed with duplex sequencing ([Schmitt et al. 2012](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=22853953)). Duplex sequencing allows identification of variants at very low frequencies. This is achieved by first tagging both ends of DNA fragments to be sequenced with unique barcodes and subjecting them to paired-end sequencing. After sequencing read pairs containing identical barcodes are assembled into families. This procedure allows to reliably separate errors introduced during library preparation and/or sequencing (present in some but not all members of a read family) from true variants (present in all members of a read family derived from both strands).
+
+For the following analysis we selected two data points from [Mei et al. 2019](https://academic.oup.com/gbe/article/11/10/3022/5572121): one corresponding to the beginning of the experiment (s0) and the other to the end (s5). The first sample is expected to be nearly clonal with no variation, while the latter contains a number of adaptive changes with frequencies around 1%. We aligned duplex consensus sequences (DCS) against the pBR322. We then walked through read alignments to produce counts of non-reference bases at each position (Fig. 1). 
+
+-------
+
+![](caller_comparison_fig1.png)
+
+<small>**Figure 1.** Counts of alternative bases at eight variable locations within pBR322.</small>
+
+-------
+
+Because all differences identified this way are derived from DCS reads they are a reasonable approximation for a “true” set of variants. s0 and s5 contained 38 and 78 variable sites with at least two alternative counts, respectively (among 4,361 bases on pBR322) of which 27 were shared. We then turned our attention to the set of sites that were determined by Mei et al. to be under positive selection (sites 3,029, 3,030, 3,031, 3,032, 3,033, 3,034, 3,035, 3,118). Changes at these sites increase the number of plasmid genomes per cell. Sample s0 does not contain alternative bases at any of these sites. Results of the application of the three variant callers with different parameter settings (shown in Table 2) are summarized in Fig. 2. 
+
+------
+
+![](caller_comparison_fig2.png)
+
+<small>**Figure 2.** Calls made by `mutect2`, `freebayes`, and `lofreq`. For explanation of x-axis labels see Table 1.</small>
+
+------
+
+The `lofreq` performed the best followed by `mutect2` and `FreeBayes` (contrast "Truth" with "nf" and "def" in Fig. 2). The main disadvantage of `mutect2` is in its handling of multiallelic sites (e.g., 3,033 and 3,118) where multiple alternative bases exist. At these sites `mutect2` outputs alternative counts for only one of the variants (the one with highest counts; this is why at site 3,118 A and T counts are identical). Given these results we decided to use `lofreq` for the main analysis of the data.
+
+<small>**Table 2.** Command line options for each caller.</small>
+
+| Caller | Command line | Figure 2 label |
+|:-------|:-------------|:--------------|
+| `mutect2` | `--mitochondria-mode true` | m |
+| `mutect2` | default | m_noM |
+| `mutect2` | `--mitochondria-mode true --f1r2-max-depth 1000000` | m_md_inf |
+| `mutect2` | `--mitochondria-mode true --f1r2-max-depth 1000000 -max-af 1`  | m_md_inf_max_af1 |
+| `freebayes` | `--haplotype-length 0 --min-alternate-fraction 0.001 --min-alternate-count 1 --pooled-continuous --ploidy 1` | hl-0_maf-001_pc |
+| `freebayes` | `-min-alternate-fraction 0.001 --pooled-continuous --ploidy 1` | maf-001_pc |
+| `lofreq` | `--no-default-filter` | nf |
+| `lofreq` | default | def |
+
+## Galaxy workflows
+
+`lofreq` is used in two galaxy workflows described in this section. Illumina data currently available for SARS-CoV-2 consists of paired- and single-end datasets. We use two similar yet distinct workflows to analysis these datasets.
 
 ### Analysis of Illumina Paired End data
+
+------
+
+![](./var_wf_pe.png)
+
+<small>**Figure 3.** Workflow for the analysis of paired-end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis)</small>
+
+------
+
+#### Inputs:
+
+1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). The GenBank record is used by `snpeff` to generate a database for variant annotation.
+2. Downloaded paired-end reads in fastq format as a paired dataset collection. Reads can be downloaded using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section.
+
+#### Steps:
 
  1. Map all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem`
  1. Filter reads with mapping quality of at least 20, that were mapped as proper pairs
@@ -51,7 +134,25 @@ Next we fetch fastq datasets for accession listed in [current_illumina.txt](curr
  1. Annotate variants using `snpeff` against database created from NC_045512.2 GenBank file
  1. Convert VCFs into tab delimited dataset
 
+#### Outputs 
+
+A tab-delimited table of variants described in Table 2 below.
+
 ### Analysis of Illumina Single End data
+
+-----
+
+![](./var_wf_se.png) 
+**Figure 4.** Workflow for the analysis of single-end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=red)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)
+
+-----
+
+#### Inputs:
+
+1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512). The GenBank record is used by `snpeff` to generate a database for variant annotation.
+2. Downloaded paired-end reads in fastq format as a dataset collection. Reads can be downloaded using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section.
+
+#### Steps:
 
  1. Map all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bowtie2` (because all SE datasets we have seen so far contain short, 75 bp, reads)
  1. Filter reads with mapping quality of at least 20
@@ -76,23 +177,13 @@ Next we fetch fastq datasets for accession listed in [current_illumina.txt](curr
 
 -->
 
-After running both workflows the data is combined into a single dataset ([variant_list.tsv](variant_list.tsv)) and analyzed using in [Jupyter notebook](variation_analysis.ipynb).
+### Output
 
-## Inputs
+After running both workflows the data is combined into a single dataset ([variant_list.tsv](variant_list.tsv) and smaller dataset filtered at alternative allele frequency of 5% and above [variant_list.05.tsv](variant_list.05.tsv)).
 
-### Workflow
+These result datasets have the following structure:
 
-1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
-   The GenBank record is used by `snpeff` to generate a database for variant annotation.
-2. Downloaded reads as either paired (for paired end data) or single (for single end data) collections. Reads can be downloaded using Galaxy's wrapper for `fasterq-dump` located in **"Get data"** tool section.
-
-### Jupyter notebook
-
-The Jupyter notebook requires the GenBank file (#1 from above) and the output of the workflow described below.
-
-## Outputs
-
-The workflow produces a [table of variants](variant_list.tsv) (also [filtered](variant_list.05.tsv) at 5% allele frequency) that looks like this:
+<small>**Table 3.** Output of PE and SE workflows described above. Here, most fields names are descriptive. **SB** = the Phred-scaled probability of strand bias as calculated by [lofreq](https://csb5.github.io/lofreq/) (0 = no strand bias); **DP4** = strand-specific depth for reference and alternate allele observations (Forward reference, reverse reference, forward alternate, reverse alternate).</small>
 
 <div>
 <table>
@@ -205,36 +296,23 @@ The workflow produces a [table of variants](variant_list.tsv) (also [filtered](v
 </table>
 </div>
 
-Here, most fields names are descriptive. **SB** = the Phred-scaled probability of strand bias as calculated by [lofreq](https://csb5.github.io/lofreq/) (0 = no strand bias); **DP4** = strand-specific depth for reference and alternate allele observations (Forward reference, reverse reference, forward alternate, reverse alternate).
+## Jupyter notebook
+
+Upon completion of single- and paired-end analysis workflows and combining their results into [a single file](variant_list.tsv) this file is loaded into a [![Jupyter Notebook](https://img.shields.io/static/v1?label=Jupyter%20Notebook&message=run&color=blue)](https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variation_analysis.ipynb). The notebook is used to produce summaries such as distribution of variants across the SARS-CoV-2 genome:
+
+-------
 
 The variants we identified were distributed across the SARS-CoV-2 genome in the following way:
 
 ![](./var_map.png)
 
-The following table describes variants with frequencies above 10%:
+<small>**Figure 5**. Distribution of variants across the viral genome.</small>
 
-![](./S_var.png)
+-------
 
-## Workflow and Histories
+## Galaxy histories
 
-### Workflows
-
-We use two separate workflows for performing paired and single end data analyses:
-
-| Variation analysis workflows                |
-|----------------|
-|![](./var_wf_se.png) |
-|Workflow for the analysis of single end Illumina reads < 100 bp [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-se-var)|
-|![](./var_wf_pe.png)|
-|Workflow for the analysis of paired end Illumina reads [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis) |
-
-### Histories
-
-We analyze paired end and single end data in separate histories. Next we combine output of the two workflows into a new history where Jupyter analysis is performed. These three histories are:
-
- - [Paired end](https://usegalaxy.org/u/aun1/h/covid-19-variation-pe-mar-19)
- - [Single end](https://usegalaxy.org/u/aun1/h/covid-19-variation-se-mar-19)
- - [Jupyter analysis](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1)
+Galaxy histories corresponding to all analyses performed so far are listed in [Table 1](#obtaining-the-data). The history used for aggregating results and launching jupyter notebook is here &#8594; [![Galaxy history](https://img.shields.io/static/v1?label=Aggregated&nbsp;data&message=view&color=green)](https://usegalaxy.org/u/aun1/h/covid-19-variation-jupyter-1).
 
 ## BioConda
 
@@ -250,3 +328,5 @@ Tools used in this analysis are also available from BioConda:
 | `porechop` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/porechop/badges/version.svg)](https://anaconda.org/bioconda/porechop) |
 | `filtlong` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/filtlong/badges/version.svg)](https://anaconda.org/bioconda/filtlong) |
 | `minimap2` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/minimap2/badges/version.svg)](https://anaconda.org/bioconda/minimap2) |
+|`bowtie2`|[![Anaconda-Server Badge](https://anaconda.org/bioconda/bowtie2/badges/version.svg)](https://anaconda.org/bioconda/bowtie2)|
+

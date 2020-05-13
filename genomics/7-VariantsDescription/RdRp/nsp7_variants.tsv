@@ -1,0 +1,9 @@
+POS	REF	ALT	AF	type	MainFeat	MainResidue	Main_ref_codon	Main_alt_codon	Main_ref_residue	Main_alt_residue	SecondFeat	SecondResidue	Second_ref_codon	Second_alt_codon	Second_ref_residue	Second_alt_residue	Genomic_coord_end	Genomic_coord_start	NbSample	MeanAF	Annotation	Impact	Reference
+11849	A	G	0.303371	S	ORF1a	3862	ATG	GTG	M	V	nsp7	3	ATG	GTG	M	V	11851	11849	1	0.303371	Encompassing nsp8 head domain		
+11864	T	G	0.084034	S	ORF1a	3867	TGC	GGC	C	G	nsp7	8	TGC	GGC	C	G	11866	11864	1	0.084034	Encompassing nsp8 head domain		
+11919	C	T	0.986059	S	ORF1a	3885	TCT	TTT	S	F	nsp7	26	TCT	TTT	S	F	11920	11918	2	0.9771695	Encompassing nsp8 head domain		
+11987	T	C	0.077626	S	ORF1a	3908	TTT	CTT	F	L	nsp7	49	TTT	CTT	F	L	11989	11987	1	0.077626	Encompassing nsp8 head domain		
+12041	G	T	0.218868	S	ORF1a	3926	GAC	TAC	D	Y	nsp7	67	GAC	TAC	D	Y	12043	12041	4	0.1214605	Encompassing nsp8 head domain		
+12052	G	T	0.97549	S	ORF1a	3929	AAG	AAT	K	N	nsp7	70	AAG	AAT	K	N	12052	12050	1	0.97549	Encompassing nsp8 head domain		
+12067	G	A	0.125	S	ORF1a	3934	ATG	ATA	M	I	nsp7	75	ATG	ATA	M	I	12067	12065	1	0.125			
+12069	T	C	0.053435	S	ORF1a	3935	CTG	CCG	L	P	nsp7	76	CTG	CCG	L	P	12070	12068	1	0.053435			
