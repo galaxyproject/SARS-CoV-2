@@ -4,8 +4,10 @@
 <script>
 import "!!script-loader!notebookjs";
 import "./ipython-style.styl";
-import "prismjs/themes/prism.css";
 import Prism from "prismjs/prism";
+import 'prismjs/components/prism-python'
+import 'prismjs/components/prism-markdown'
+import "prismjs/themes/prism.css";
 import axios from "axios";
 import ansi_up from "ansi_up";
 import markdown from "marked";
@@ -32,12 +34,8 @@ export default {
             if (typeof lang === "undefined") lang = "markup";
 
             if (!Prism.languages.hasOwnProperty(lang)) {
-                try {
-                    require("prismjs/components/prism-" + lang + ".js");
-                } catch (e) {
-                    console.warn("** failed to load Prism lang: " + lang);
-                    Prism.languages[lang] = false;
-                }
+                console.warn("Prism highlighter needs additional language for:" + lang);
+                Prism.languages[lang] = false;
             }
 
             return Prism.languages[lang] ? Prism.highlight(code, Prism.languages[lang]) : code;
