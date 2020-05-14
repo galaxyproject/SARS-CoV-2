@@ -1,8 +1,8 @@
 name: Fetch accessions and start workflow
 on:
   schedule:
-    # Run every day at midnight
-    - cron: '0 0 * * *'
+    # Run every day at midnight -- except for today, let's just get the workflow going.
+    - cron: '15 17 * * *'
 jobs:
   fetch-accessions:
     name: Fetch
@@ -64,8 +64,12 @@ jobs:
     - name: Upgrade bioblend
       run: pip install --upgrade https://github.com/galaxyproject/bioblend/archive/master.zip
     - name: Get todays llumina accessions
-      run: grep -f <(grep $(date +%F) accession_and_date.tsv|cut -f1) current_illumina.txt > illumina_$(date +%F).txt
-    - name: Trigger Galaxy Workflow
-      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -a $GALAXY_API_KEY
+      run: grep -f <(grep $(date +%F) accession_and_date.tsv|cut -f1) current_illumina.txt > illumina_$(date +%F).txt || true
+    - name: Trigger Galaxy Workflow on usegalaxy.org
+      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -g https://usegalaxy.org -a $GALAXY_API_KEY
       env:
         GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}
+    - name: Trigger Galaxy Workflow on usegalaxy.eu
+      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -g https://usegalaxy.eu -a $GALAXY_API_KEY
+      env:
+        GALAXY_API_KEY: ${{ secrets.GALAXY_EU_API_KEY }}
