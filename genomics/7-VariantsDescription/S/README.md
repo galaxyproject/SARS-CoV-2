@@ -121,3 +121,4 @@ S/S_coordinates_conversion.tab -> better
 | AY463059.1 | [AY463059.1](https://www.ncbi.nlm.nih.gov/nuccore/AY463059) | SARS coronavirus ShanghaiQXC1 |
 | MN996528.1 | [MN996528.1](https://www.ncbi.nlm.nih.gov/nuccore/MN996528.1) | Severe acute respiratory syndrome coronavirus 2 isolate WIV04 |
 | DQ022305.2  | [DQ022305.2](https://www.ncbi.nlm.nih.gov/nuccore/DQ022305.2) |  Bat SARS coronavirus HKU3-1 |
+| JX504050  | [JX504050.1](https://www.ncbi.nlm.nih.gov/nuccore/JX504050.1) |  Human coronavirus NL63 isolate NL63/RPTEC/2004 |
