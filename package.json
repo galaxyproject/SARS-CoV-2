@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
+    "script-loader": "^0.7.2",
     "vuepress": "^1.4.0"
   },
   "scripts": {
@@ -13,7 +14,9 @@
   "license": "AFL-3.0",
   "dependencies": {
     "@observablehq/runtime": "^4.7.0",
+    "axios": "^0.19.2",
     "gh-badges": "^2.2.1",
+    "notebookjs": "0.4.2",
     "uuid": "^7.0.2",
     "vue-toasted": "^1.1.28"
   }
