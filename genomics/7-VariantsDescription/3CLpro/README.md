@@ -32,6 +32,9 @@ Tyr161 (in SARS-2-CoV) is part of the conserved coronavirus 3CL<sup>pro</sup> si
 
 Enjuanes, Luis, ed. Coronavirus replication and reverse genetics. Vol. 287. Springer Science & Business Media, 2004.
 
+Barrila, Jennifer, Usman Bacha, and Ernesto Freire. "Long-range cooperative interactions modulate dimerization in SARS 3CLpro." Biochemistry 45.50 (2006): 14908-14916.
+
+
 
 # Coordinate conversion
 
