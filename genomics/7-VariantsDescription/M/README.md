@@ -20,3 +20,13 @@
 | AY463059.1 | [AY463059.1](https://www.ncbi.nlm.nih.gov/nuccore/AY463059.1) | SARS coronavirus ShanghaiQXC1 |
 | MN996528.1 | [MN996528.1](https://www.ncbi.nlm.nih.gov/nuccore/MN996528.1)  | Severe acute respiratory syndrome coronavirus 2 isolate WIV04 |
 | DQ022305.2 | [DQ022305.2](https://www.ncbi.nlm.nih.gov/nuccore/DQ022305.2) | Bat SARS coronavirus HKU3-1 |
+| KU740200 | [KU740200.1](https://www.ncbi.nlm.nih.gov/nuccore/KU740200.1) | Middle East respiratory syndrome coronavirus isolate MERS CoV/camel/Egypt/NRCE-NC163/2014 |
+| NC_003436 | [NC_003436.1](https://www.ncbi.nlm.nih.gov/nuccore/NC_003436) | Porcine epidemic diarrhea virus |
+| AY994055 | [AY994055.1](https://www.ncbi.nlm.nih.gov/nuccore/AY994055.1) | Feline infectious peritonitis virus |
+| AJ271965 | [AJ271965.2](https://www.ncbi.nlm.nih.gov/nuccore/AJ271965.2) | Transmissible gastroenteritis virus |
+| DQ112226 | [DQ112226.1](https://www.ncbi.nlm.nih.gov/nuccore/DQ112226) | Canine coronavirus |
+| AY597011 | [AY597011.2](https://www.ncbi.nlm.nih.gov/nuccore/AY597011.2) | Human coronavirus HKU1 genotype A |
+| NC_019843 | [NC_019843.3](https://www.ncbi.nlm.nih.gov/nuccore/NC_019843.3) | Middle East respiratory syndrome coronavirus |
+| JX504050 | [JX504050.1](https://www.ncbi.nlm.nih.gov/nuccore/JX504050.3) | Human coronavirus NL63 isolate NL63/RPTEC/2004 |
+
+										

@@ -131,3 +131,6 @@ Enjuanes, Luis, ed. Coronavirus replication and reverse genetics. Vol. 287. Spri
 | QDL88266 | [QDL88266.1](https://www.ncbi.nlm.nih.gov/protein/QDL88266) | Lucheng Rn rat coronavirus |
 | AIW52770 | [AIW52770.1](https://www.ncbi.nlm.nih.gov/protein/AIW52770) | Human coronavirus 229E |
 | AID16752 | [AID16752.1](https://www.ncbi.nlm.nih.gov/protein/AID16752) | Bat SARS-like coronavirus |
+| KU740200 | [KU740200.1](https://www.ncbi.nlm.nih.gov/nuccore/KU740200.1) | Middle East respiratory syndrome coronavirus isolate MERS CoV/camel/Egypt/NRCE-NC163/2014 |
+| AJ271965 | [AJ271965.2](https://www.ncbi.nlm.nih.gov/nuccore/AJ271965.2) | Transmissible gastroenteritis virus |
+| NC_019843 | [NC_019843.3](https://www.ncbi.nlm.nih.gov/nuccore/NC_019843.3) | Middle East respiratory syndrome coronavirus |
