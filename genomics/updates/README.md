@@ -133,7 +133,7 @@ From these we analyze the following four Illumina datasets (the other four are O
 | SRR11140748 | vero76 |
 | SRR11140748 | swab |
 
-We use the same Galaxy workflow described in [Variation](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) section of this repository. 
+We use the same Galaxy workflow described in [Variation](https://github.com/galaxyproject/SARS-CoV-2/tree/master/genomics/4-Variation) section of this repository. 
 
 The data are of exceptional quality:
 
