@@ -6,36 +6,44 @@
 <script>
 export default {
     props: {
-        containerID: {
+        locus: {
             type: String,
-            default: "GenomeBrowser"
+            default: "chr3"
         },
-        defaultLocation: {
-            type: String
+        showNavigation: {
+            type: Boolean,
+            default: true
         },
-        refSeqs: Object,
-        tracks: Array,
-        defaultTracks: String,
-        title: String,
-        description: String
+        showRuler: {
+            type: Boolean,
+            default: true
+        },
+        genome: {
+            type: String,
+            default: "hg19"
+        },
+        tracks: {
+            type: Array,
+            default: [
+                {
+                    url: "https://data.broadinstitute.org/igvdata/test/igv-web/segmented_data_080520.seg.gz",
+                    indexed: false,
+                    isLog: true,
+                    name: "Segmented CN"
+                }
+            ]
+        }
     },
     mounted() {
         // This is stupid.
         window.global = window;
         import("igv").then(igv => {
             const options = {
-                showNavigation: true,
-                showRuler: true,
-                genome: "hg19",
-                locus: "chr7",
-                tracks: [
-                    {
-                        url: "https://data.broadinstitute.org/igvdata/test/igv-web/segmented_data_080520.seg.gz",
-                        indexed: false,
-                        isLog: true,
-                        name: "Segmented CN"
-                    }
-                ]
+                showNavigation: this.showNavigation,
+                showRuler: this.showRuler,
+                genome: this.genome,
+                locus: this.locus,
+                tracks: this.tracks
             };
             igv.createBrowser(this.$refs.igvdiv, options).then(function(browser) {
                 console.log("IGV Loaded.");
