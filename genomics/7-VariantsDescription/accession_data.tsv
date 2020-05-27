@@ -51,3 +51,10 @@ QEY10680	https://www.ncbi.nlm.nih.gov/protein/QEY10680	CamelCovHKU	Dromedary cam
 YP_0097243	https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1 (SARS-2-Cov)
 YP_009725308	https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1 (SARS-2-Cov)
 YP_009755891	https://www.ncbi.nlm.nih.gov/protein/YP_009755891.1	BatCov	Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+YP_0097558	https://www.ncbi.nlm.nih.gov/protein/YP_009755891.1	BatCov	Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+GU053651	https://www.ncbi.nlm.nih.gov/nuccore/GU053651	FCov	Feline coronavirus isolate DSKUU68
+FJ718994	https://www.ncbi.nlm.nih.gov/nuccore/FJ718994	TGEV	Transmissible gastroenteritis virus isolate CH/JLY2/08
+AAT98578	https://www.ncbi.nlm.nih.gov/protein/AAT98578	HCovHKU1	Human coronavirus HKU1
+DQ160294	https://www.ncbi.nlm.nih.gov/nuccore/DQ160294	FCov	Feline coronavirus strain FCoV/NTU2/R/2003 
+YP_0090472	https://www.ncbi.nlm.nih.gov/nuccore/KF514421	SARS	SARS coronavirus (Blast)
+NP_598309	https://www.ncbi.nlm.nih.gov/protein/NP_598309	PEDV	Porcine epidemic diarrhea virus
