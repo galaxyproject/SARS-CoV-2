@@ -115,33 +115,33 @@ Genomic 6464-6466"					6464	6464	6466	AAA(K)	AAG(K) 1 1	K	K			ORF1a	2067		nsp3	
 nsp3 1280
 Genomic 6557-6559"					6557	6557	6559	GCT(A)	GTT(V) 1 2	A	V			ORF1a	2098		nsp3	1280									2098	"PLpro, PLnc domain"		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2124,nsp3 1306"	0	2	na	0	6635	6635	6637	Cat	Tat	H	Y	4	0	ORF1a	2124	ORF1a 2101	nsp3	1306	na	na	na	na	na	na	na	na	2124	"PLpro, papain-like noncanonical (PLnc)"		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
-"ORF1a 2144,nsp3 1326"	0	2	na	0	6695	6695	6697	0	0	P	"L,T,S"	3	0	ORF1a	2144	ORF1a 2121	nsp3	1326	na	na	na	na	na	na	na	na	2144	"PLpro, papain-like noncanonical (PLnc) domain, interacts with GST-nsp9 "		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+"ORF1a 2144,nsp3 1326"	0	2	na	0	6695	6695	6697	0	0	P	"L,T,S"	3	0	ORF1a	2144	ORF1a 2121	nsp3	1326	na	na	na	na	na	na	na	na	2144	"PLpro, papain-like noncanonical (PLnc) domain, interacts with GST-nsp9 , "		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2153,nsp3 1335"	0	2	na	0	6722	6722	6724	0	0	T	I	2	0	ORF1a	2153	ORF1a 2130	nsp3	1335	na	na	na	na	na	na	na	na	2153	"PLpro, papain-like noncanonical (PLnc)"		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2242,nsp3 1424"	0	2	na	0	6989	6989	6991	0	0	S	F	3	0	ORF1a	2242	ORF1a 2219	nsp3	1424	na	na	na	na	na	na	na	na	2242	"PLpro, Y domain, transmembrane domain, interacts with GST-nsp9 , Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
-"ORF1a 2249,nsp3 1431"	0	2	na	0	7010	7010	7012	0	0	A	V	10	0	ORF1a	2249	ORF1a 2226	nsp3	1431	na	na	na	na	na	na	na	na	2249	"PLpro, Y domain, transmembrane domain, interacts with GST-nsp9 , Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+"ORF1a 2249,nsp3 1431"	0	2	na	0	7010	7010	7012	0	0	A	V	10	0	ORF1a	2249	2226	nsp3	1431	na	na	na	na	na	na	na	na	2249	"PLpro, Y domain, transmembrane domain, interacts with GST-nsp9 , Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2405
 nsp3 1587
-Genomic 7478-7480"					7478	7478	7480	AAT(N)	AGT(S) 2 AAT(N) NNN(-) 2 AGT(S) ART(NS) 1	N	S N - S NS			ORF1a	2405		nsp3	1587									2405	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+Genomic 7478-7480"					7478	7478	7480	AAT(N)	AGT(S) 2 AAT(N) NNN(-) 2 AGT(S) ART(NS) 1	N	S N - S NS			ORF1a	2405	2382	nsp3	1587									2405	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2470
 nsp3 1652
-Genomic 7673-7675"					7673	7673	7675	GCG(A)	GCT(A) 4	A	A			ORF1a	2470		nsp3	1652									2470	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+Genomic 7673-7675"					7673	7673	7675	GCG(A)	GCT(A) 4	A	A			ORF1a	2470	2447	nsp3	1652									2470	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2497
 nsp3 1679
-Genomic 7754-7756"					7754	7754	7756	AAG(K)	AAT(N) 1 AAG(K) AGG(R) 1 A-G(KTRM) AAG(K) 1	K	N K R A-G(KTRM) K			ORF1a	2497		nsp3	1679									2497	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+Genomic 7754-7756"					7754	7754	7756	AAG(K)	AAT(N) 1 AAG(K) AGG(R) 1 A-G(KTRM) AAG(K) 1	K	N K R A-G(KTRM) K			ORF1a	2497	2474	nsp3	1679									2497	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2500
 nsp3 1682
-Genomic 7763-7765"					7763	7763	7765	TCC(S)	TCT(S) 2 4 TCC(S) TTC(F) 2	S	S S F			ORF1a	2500		nsp3	1682									2500	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+Genomic 7763-7765"					7763	7763	7765	TCC(S)	TCT(S) 2 4 TCC(S) TTC(F) 2	S	S S F			ORF1a	2500	2477	nsp3	1682									2500	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2557
 nsp3 1739
-Genomic 7934-7936"					7934	7934	7936	GCG(A)	GCT(A) 3 1 GCG(A) GCR(A) 1	A	A A A			ORF1a	2557		nsp3	1739									2557	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+Genomic 7934-7936"					7934	7934	7936	GCG(A)	GCT(A) 3 1 GCG(A) GCR(A) 1	A	A A A			ORF1a	2557	2534	nsp3	1739									2557	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2635
 nsp3 1817
-Genomic 8168-8170"					8168	8168	8170	TCA(S)	TCG(S) 2	S	S			ORF1a	2635		nsp3	1817									2635	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
+Genomic 8168-8170"					8168	8168	8170	TCA(S)	TCG(S) 2	S	S			ORF1a	2635	2612	nsp3	1817									2635	"PLpro, Catalytic domain, Y domain, Y domain has “no obvious role in RNA synthesis. Therefore, it is logical to propose that they may rather play a role in virus-host interactions to, e.g. modulate immunity and/or pathogenesis.”"		"10.1002/cmdc.202000223, 10.1128/jvi.00017-07, 10.1016/j.virusres.2007.11.017"
 "ORF1a 2796
 nsp4 33
-Genomic 8651-8653"					8651	8651	8653	ATG(M)	CTG(L) 2 2 ATG(M) ATT(I) 2 ATG(M) NNN(-) 7 ATG(M) MTG(ML) 3 ATC(I) ATT(I) 1 ANN(MIX) ATG(M) 1 ATG(M) GTG(V) 1	M	L M I M - M ML I I MIX M M V			ORF1a	2796		nsp4	33									2796			
+Genomic 8651-8653"					8651	8651	8653	ATG(M)	CTG(L) 2 2 ATG(M) ATT(I) 2 ATG(M) NNN(-) 7 ATG(M) MTG(ML) 3 ATC(I) ATT(I) 1 ANN(MIX) ATG(M) 1 ATG(M) GTG(V) 1	M	L M I M - M ML I I MIX M M V			ORF1a	2796	2773	nsp4	33									2796			
 "ORF1a 2842,nsp4 79"	0	2	na	0	8789	8789	8791	0	0	G	V	3	0	ORF1a	2842	ORF1a 2819	nsp4	79	na	na	na	na	na	na	na	na	2842			
-"ORF1a 2949,nsp4 186"	0	1	na	0	9110	9110	9112	0	0	R	H	6	0	ORF1a	2949	ORF1a 2926	nsp4	186	na	na	na	na	na	na	na	na	2949			
+"ORF1a 2949,nsp4 186"	0	1	na	0	9110	9110	9112	0	0	R	H	6	0	ORF1a	2949	2926	nsp4	186	na	na	na	na	na	na	na	na	2949			
 "ORF1a 3027
 nsp4 264
 Genomic 9344-9346"					9344	9344	9346	CTT(L)	TTT(F) 1 2	L	F			ORF1a	3027		nsp4	264									3027			
@@ -221,22 +221,22 @@ nsp6 289
 Genomic 11837-11839"					11837	11837	11839	GTA(V)	GTG(V) 2 1 GTA(V) NNN(-) 1 GTA(V) TTA(L) 1 GTA(V) KTA(VL) 1	V	V V - V L V VL			ORF1a	3858		nsp6	289									3858			
 "ORF1a 3899
 nsp7 40
-Genomic 11960-11962"					11960	11960	11962	CTC(L)	CTT(L) 5 1 CTC(L) TTC(F) 1 ATC(I) CTC(L) 1	L	L L F I L			ORF1a	3899		nsp7	40										Helix HB2 		10.1038/nsmb999
+Genomic 11960-11962"					11960	11960	11962	CTC(L)	CTT(L) 5 1 CTC(L) TTC(F) 1 ATC(I) CTC(L) 1	L	L L F I L			ORF1a	3899		nsp7	40										Helix HB2 		10.1038/nsmb999. 10.1038/s41467-019-10280-3
 "ORF1a 3958
 nsp8 16
-Genomic 12137-12139"					12137	12137	12139	GCT(A)	GTT(V) 2	A	V			ORF1a	3958		nsp8	16										"Chain G, ‘shaft N-ter domain’"		10.1038/nsmb999
+Genomic 12137-12139"					12137	12137	12139	GCT(A)	GTT(V) 2	A	V			ORF1a	3958		nsp8	16										"Chain G, ‘shaft N-ter domain’"		10.1038/nsmb999. 10.1038/s41467-019-10280-3
 "ORF1a 3983
 nsp8 41
-Genomic 12212-12214"					12212	12212	12214	TCT(S)	TTT(F) 2 2	S	F			ORF1a	3983		nsp8	41										"Chain G, ‘shaft N-ter domain’"		10.1038/nsmb999
+Genomic 12212-12214"					12212	12212	12214	TCT(S)	TTT(F) 2 2	S	F			ORF1a	3983		nsp8	41										"Chain G, ‘shaft N-ter domain’"		10.1038/nsmb999. 10.1038/s41467-019-10280-3
 "ORF1a 4097
 nsp8 155
-Genomic 12554-12556"					12554	12554	12556	GAA(E)	GAG(E) 2	E	E			ORF1a	4097		nsp8	155										"Chain H, ‘head’ C-ter domain"		10.1038/nsmb999
+Genomic 12554-12556"					12554	12554	12556	GAA(E)	GAG(E) 2	E	E			ORF1a	4097		nsp8	155										"Chain H, ‘head’ C-ter domain"		10.1038/nsmb999. 10.1038/s41467-019-10280-3
 "ORF1a 4177
 nsp9 37
-Genomic 12794-12796"					12794	12794	12796	GGA(G)	GGC(G) 1 GGA(G) TGT(C) 1 GGA(G) GGG(G) 1	G	G G C G G			ORF1a	4177		nsp9	37												
+Genomic 12794-12796"					12794	12794	12796	GGA(G)	GGC(G) 1 GGA(G) TGT(C) 1 GGA(G) GGG(G) 1	G	G G C G G			ORF1a	4177		nsp9	37										RNA-Binding protein		10.1038/nsmb999
 "ORF1a 4220
 nsp9 80
-Genomic 12923-12925"					12923	12923	12925	CCT(P)	TCT(S) 1 1 ACT(T) CCT(P) 1 CCT(P) YCT(PS) 1	P	S T P P PS			ORF1a	4220		nsp9	80												
+Genomic 12923-12925"					12923	12923	12925	CCT(P)	TCT(S) 1 1 ACT(T) CCT(P) 1 CCT(P) YCT(PS) 1	P	S T P P PS			ORF1a	4220		nsp9	80										RNA-Binding protein		10.1038/nsmb999
 "ORF1a 4379
 nsp10 126
 Genomic 13400-13402"					13400	13400	13402	TAT(Y)	TTA(L) 1 NNN(-) TAT(Y) 19 TAN(Y) TAT(Y) 4 NAT(NHDY) TAT(Y) 3 TAK(Y) TAT(Y) 3 TAT(Y) TAW(Y) 1	Y	L - Y Y Y NHDY Y Y Y Y Y			ORF1a	4379		nsp10	126												
@@ -246,75 +246,75 @@ Genomic 13406-13408"					13406	13406	13408	TGG(W)	TGT(C) 1 1 TGC(C) TGT(C) 1 CT
 "ORF1a 4389
 nsp10 136
 Genomic 13430-13432"					13430	13430	13432	CCC(P)	TCC(S) 2 ACC(T) CCC(P) 1	P	S T P			ORF1a	4389		nsp10	136												
-"ORF1b 15,RdRp 25"	0	3	na	0	13513	13513	13515	0	0	G	"Y,C"	6	0	ORF1b	15	"RdRp 25, ORF1a 4372"	RdRp	25	na	na	na	na	na	na	na	na	4395	NiRAN		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498"
-"ORF1b 53,RdRp 63"	0	1	na	0	13627	13627	13629	Gac	Tac	D	Y	10	0	ORF1b	53	"RdRp 63, ORF1a 4410"	RdRp	63	na	na	na	na	na	na	na	na	4433	NiRAN		"10.1371/journal.ppat.1000428, 10.1016/j.virusres.2017.01.023, 10.1126/science.abb7498"
-"ORF1b 87,RdRp 97"	0	2	na	0	13729	13729	13731	gCt	gTt	A	V	7	0	ORF1b	87	"RdRp 97, ORF1a 4444"	RdRp	97	na	na	na	na	na	na	na	na	4467	NiRAN		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498"
+"ORF1b 15,RdRp 25"	0	3	na	0	13513	13513	13515	0	0	G	"Y,C"	6	0	ORF1b	15	"RdRp 25, ORF1a 4372"	RdRp	25	na	na	na	na	na	na	na	na	4395	"NiRAN, NTD ()N terminal Domain)"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498, 10.1093/nar/gkg916"
+"ORF1b 53,RdRp 63"	0	1	na	0	13627	13627	13629	Gac	Tac	D	Y	10	0	ORF1b	53	"RdRp 63, ORF1a 4410"	RdRp	63	na	na	na	na	na	na	na	na	4433	"NiRAN, NTD"		"10.1371/journal.ppat.1000428, 10.1016/j.virusres.2017.01.023, 10.1126/science.abb7498 10.1093/nar/gkg916"
+"ORF1b 87,RdRp 97"	0	2	na	0	13729	13729	13731	gCt	gTt	A	V	7	0	ORF1b	87	"RdRp 97, ORF1a 4444"	RdRp	97	na	na	na	na	na	na	na	na	4467	"NiRAN, NTD,  RNA interaction in RNA binding channel"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916, 10.1074/jbc.ra120.013679"
 "ORF1b 118
 RdRp 128
-Genomic 13822-13824"					13822	13822	13824	ATC(I)	GTC(V) 1 1	I	V			ORF1b	118		RdRp	128										NiRAN		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498"
+Genomic 13822-13824"					13822	13822	13824	ATC(I)	GTC(V) 1 1	I	V			ORF1b	118	"RdRp	128, , ORF1a "	RdRp	128									4498	"NiRAN, NTD"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916"
 "ORF1b 151
 RdRp 161
-Genomic 13921-13923"					13921	13921	13923	GAC(D)	TAC(Y) 1 GAC(D) GTC(V) 1 KAC(DY) TAC(Y) 1	D	Y D V DY Y			ORF1b	151		RdRp	161										NiRAN		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498"
-"ORF1b 159,RdRp 169"	1	0	0	0	13945	13945	13947			P	ORF1b	8			159		RdRp	169	na	na	na	na	na	na	na	na	8	NiRAN		10.1126/science.abb7498
+Genomic 13921-13923"					13921	13921	13923	GAC(D)	TAC(Y) 1 GAC(D) GTC(V) 1 KAC(DY) TAC(Y) 1	D	Y D V DY Y			ORF1b	151	"RdRp	161 , ORF1a "	RdRp	161									4531	"NiRAN, NTD"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916"
+"ORF1b 159,RdRp 169"	1	0	0	0	13945	13945	13947			P	ORF1b	8			159	"RdRp	169, ORF1a "	RdRp	169	na	na	na	na	na	na	na	na	4539	"NiRAN, NTD"		10.1126/science.abb7498 10.1093/nar/gkg916
 "ORF1b 166
 RdRp 176
-Genomic 13966-13968"					13966	13966	13968	ACC(T)	GCC(A) 1	T	A			ORF1b	166		RdRp	176												
+Genomic 13966-13968"					13966	13966	13968	ACC(T)	GCC(A) 1	T	A			ORF1b	166	"RdRp	176, ORF1a "	RdRp	176									4546	"NiRAN, NTD"		10.1093/nar/gkg916
 "ORF1b 212
 RdRp 222
-Genomic 14104-14106"					14104	14104	14106	CTC(L)	TTC(F) 1	L	F			ORF1b	212		RdRp	222												
-"ORF1b 242,RdRp 252"	0	1	na	0	14194	14194	14196	Act	Gct	T	A	2	0	ORF1b	242	"RdRp 252, ORF1a 4599"	RdRp	252	na	na	na	na	na	na	na	na	4622	Interface domain		10.1038/s41467-019-10280-3
+Genomic 14104-14106"					14104	14104	14106	CTC(L)	TTC(F) 1	L	F			ORF1b	212	"RdRp	222, ORF1a "	RdRp	222									4592	"NiRAN, NTD"		10.1093/nar/gkg916
+"ORF1b 242,RdRp 252"	0	1	na	0	14194	14194	14196	Act	Gct	T	A	2	0	ORF1b	242	"RdRp 252, ORF1a 4599"	RdRp	252	na	na	na	na	na	na	na	na	4622	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916
 "ORF1b 257
 RdRp 267
-Genomic 14239-14241"					14239	14239	14241	AAG(K)	AAT(N) 2	K	N			ORF1b	257		RdRp	267										Interface domain		10.1038/s41467-019-10280-3
+Genomic 14239-14241"					14239	14239	14241	AAG(K)	AAT(N) 2	K	N			ORF1b	257	"RdRp	267, ORF1a "	RdRp	267									4637	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916
 "ORF1b 266
 RdRp 276
-Genomic 14266-14268"					14266	14266	14268	ACG(T)	ATG(M) 1	T	M			ORF1b	266		RdRp	276										Interface domain		10.1038/s41467-019-10280-3
+Genomic 14266-14268"					14266	14266	14268	ACG(T)	ATG(M) 1	T	M			ORF1b	266	"RdRp	276, ORF1a "	RdRp	276									4646	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916
 "ORF1b 274
 RdRp 284
-Genomic 14290-14292"					14290	14290	14292	GAC(D)	TAC(Y) 1	D	Y			ORF1b	274		RdRp	284										Interface domain		10.1038/s41467-019-10280-3
-"ORF1b 313,RdRp 323"	0	2	na	0	14407	14407	14409	cCt	cTt	P	L	11	0	ORF1b	313	RdRp 323 ORF1ab 4670	RdRp	323	na	na	na	na	na	na	na	na	4693	"Interface domain, Observed stable mutation in Europe (mostly) and North America"		"10.1186/s12967-020-02344-6, 10.1038/s41467-019-10280-3, 10.1016/j.ygeno.2020.04.016"
+Genomic 14290-14292"					14290	14290	14292	GAC(D)	TAC(Y) 1	D	Y			ORF1b	274	"RdRp	284, ORF1a "	RdRp	284									4654	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916
+"ORF1b 313,RdRp 323"	0	2	na	0	14407	14407	14409	cCt	cTt	P	L	11	0	ORF1b	313	RdRp 323 ORF1ab 4670	RdRp	323	na	na	na	na	na	na	na	na	4693	"Interface domain, Observed stable mutation in Europe (mostly) and North America, NTD"		"10.1186/s12967-020-02344-6, 10.1038/s41467-019-10280-3, 10.1016/j.ygeno.2020.04.016 10.1093/nar/gkg916"
 "ORF1b 395
 RdRp 405
-Genomic 14653-14655"					14653	14653	14655	GTT(V)	TTT(F) 1 1 ATT(I) GTT(V) 1	V	F I V			ORF1b	395		RdRp	405												
+Genomic 14653-14655"					14653	14653	14655	GTT(V)	TTT(F) 1 1 ATT(I) GTT(V) 1	V	F I V			ORF1b	395	"RdRp	405, ORF1a "	RdRp	405									4775	"C-ter portion, “right hand” RdRp domain, Fingers Domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916"
 "ORF1b 418
 RdRp 428
-Genomic 14722-14724"					14722	14722	14724	TTC(F)	TTT(F) 3 2 TTC(F) TTY(F) 2	F	F F F			ORF1b	418		RdRp	428												
+Genomic 14722-14724"					14722	14722	14724	TTC(F)	TTT(F) 3 2 TTC(F) TTY(F) 2	F	F F F			ORF1b	418	"RdRp	428, ORF1a "	RdRp	428									4798	"C-ter portion, “right hand” RdRp domain, Fingers Domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916"
 "ORF1b 445
 RdRp 455
-Genomic 14803-14805"					14803	14803	14805	TAC(Y)	TAT(Y) 11 4 TAC(Y) TAY(Y) 12 TAT(Y) TAY(Y) 1 TAC(Y) TAN(Y) 1 NNC(MIX) TAC(Y) 1	Y	Y Y Y Y Y Y Y MIX Y			ORF1b	445		RdRp	455												
+Genomic 14803-14805"					14803	14803	14805	TAC(Y)	TAT(Y) 11 4 TAC(Y) TAY(Y) 12 TAT(Y) TAY(Y) 1 TAC(Y) TAN(Y) 1 NNC(MIX) TAC(Y) 1	Y	Y Y Y Y Y Y Y MIX Y			ORF1b	445	"RdRp	455, ORF1a "	RdRp	455									4825	"C-ter portion, “right hand” RdRp domain, Fingers Domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916"
 "ORF1b 462
 RdRp 472
-Genomic 14854-14856"					14854	14854	14856	GTA(V)	GTG(V) 1 GTA(V) NNN(-) 1 GTA(V) GTT(V) 1	V	V V - V V			ORF1b	462		RdRp	472												
+Genomic 14854-14856"					14854	14854	14856	GTA(V)	GTG(V) 1 GTA(V) NNN(-) 1 GTA(V) GTT(V) 1	V	V V - V V			ORF1b	462	"RdRp	472, ORF1a "	RdRp	472									4842	"C-ter portion, Domain G (Positioning of template overhang), “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498"
 "ORF1b 490
 RdRp 500
-Genomic 14938-14940"					14938	14938	14940	AAA(K)	AAG(K) 1 1 AAA(K) NAA(KQE) 1	K	K K KQE			ORF1b	490		RdRp	500												
+Genomic 14938-14940"					14938	14938	14940	AAA(K)	AAG(K) 1 1 AAA(K) NAA(KQE) 1	K	K K KQE			ORF1b	490	"RdRp	500, ORF1a "	RdRp	500									4870	"C-ter portion, Fingers Domain,  Interaction with RNA, “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"
 "ORF1b 566
 RdRp 576
-Genomic 15166-15168"					15166	15166	15168	CTG(L)	TTG(L) 3 1 TTG(L) TTR(L) 1 CTG(L) YTG(L) 1	L	L L L L L			ORF1b	566		RdRp	576												
-"ORF1b 603,RdRp 613"	0	1	na	0	15277	15277	15279	Cac	Tac	H	Y	10	0	ORF1b	603	"RdRp 613, ORF1a 4960"	RdRp	613	na	na	na	na	na	na	na	na	4983	"RdRp domain; Palm, A motif, tested for resistance to ntp analogues antiviral, no impact."		"10.1128/JVI.00080-16, 10.1126/science.abb7498, 10.1038/s41467-019-10280-3"
+Genomic 15166-15168"					15166	15166	15168	CTG(L)	TTG(L) 3 1 TTG(L) TTR(L) 1 CTG(L) YTG(L) 1	L	L L L L L			ORF1b	566	"RdRp	576, ORF1a "	RdRp	576									4946	"C-ter portion, Fingers Domain, “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"
+"ORF1b 603,RdRp 613"	0	1	na	0	15277	15277	15279	Cac	Tac	H	Y	10	0	ORF1b	603	"RdRp 613, ORF1a 4960"	RdRp	613	na	na	na	na	na	na	na	na	4983	"RdRp domain; Palm domain, A motif, tested for resistance to ntp analogues antiviral, no impact., C-ter portion, “right hand” RdRp domain"		"10.1128/JVI.00080-16, 10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1126/science.abb7498"
 "ORF1b 618
 RdRp 628
-Genomic 15322-15324"					15322	15322	15324	AAC(N)	AAT(N) 17 6 AAC(N) AAY(N) 3 AAT(N) AAY(N) 1	N	N N N N N			ORF1b	618		RdRp	628										RdRp domain; Palm;		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3"
+Genomic 15322-15324"					15322	15322	15324	AAC(N)	AAT(N) 17 6 AAC(N) AAY(N) 3 AAT(N) AAY(N) 1	N	N N N N N			ORF1b	618	"RdRp	628, ORF1a "	RdRp	628									4998	"RdRp domain;, C-ter portion; Palm domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"
 "ORF1b 637
 RdRp 647
-Genomic 15379-15381"					15379	15379	15381	AGC(S)	ATC(I) 5 1 AGC(S) AKC(SI) 2 ANC(NTSI) ATC(I) 1	S	I S SI NTSI I			ORF1b	637		RdRp	647										RdRp domain; Palm;		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3"
+Genomic 15379-15381"					15379	15379	15381	AGC(S)	ATC(I) 5 1 AGC(S) AKC(SI) 2 ANC(NTSI) ATC(I) 1	S	I S SI NTSI I			ORF1b	637	"RdRp	647, ORF1a "	RdRp	647									5017	"RdRp domain; C-ter portion; Palm domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"
 "ORF1b 652
 RdRp 662
-Genomic 15424-15426"					15424	15424	15426	GTA(V)	GTG(V) 1 1	V	V			ORF1b	652		RdRp	662										RdRp domain; Palm;		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3"
-"ORF1b 746,RdRp 756"	0	0	0	0	15706	15706	15708			M	I	4		ORF1b	746		RdRp	756	na	na	na	na	na	na	na	na	94	RdRp domain; Palm;		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3"
+Genomic 15424-15426"					15424	15424	15426	GTA(V)	GTG(V) 1 1	V	V			ORF1b	652	"RdRp	662, ORF1a "	RdRp	662									5032	"RdRp domain; C-ter portion; Palm domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"
+"ORF1b 746,RdRp 756"	0	0	0	0	15706	15706	15708			M	I	4		ORF1b	746	"RdRp	756, ORF1a "	RdRp	756	na	na	na	na	na	na	na	na	5126	"RdRp domain; Palm;, C-ter portion, C Domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916"
 "ORF1b 870
 RdRp 880
-Genomic 16078-16080"					16078	16078	16080	ATC(I)	GTC(V) 1 GTC(V) NNN(-) 1	I	V V -			ORF1b	870		RdRp	880												
-"ORF1b 1022,helicase 100"	0	1	na	0	16534	16534	16536	0	0	S	"I,G"	12	0	ORF1b	1022	"helicase 100, ORF1a  5402"	helicase	100	na	na	na	na	na	na	na	na	5425	superfamily 1 helicase		10.3389/fmicb.2019.01813
+Genomic 16078-16080"					16078	16078	16080	ATC(I)	GTC(V) 1 GTC(V) NNN(-) 1	I	V V -			ORF1b	870	"RdRp	880, ORF1a "	RdRp	880									5250	"C-ter portion, “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498"
+"ORF1b 1022,helicase 100"	0	1	na	0	16534	16534	16536	0	0	S	"I,G"	12	0	ORF1b	1022	"helicase 100, ORF1a  5402"	helicase	100	na	na	na	na	na	na	na	na	5425	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916
 "ORF1b 1098
 helicase 176
-Genomic 16762-16764"					16762	16762	16764	CTT(L)	TTT(F) 1 2 CTT(L) YTT(LF) 1	L	F L LF			ORF1b	1098		helicase	176												
+Genomic 16762-16764"					16762	16762	16764	CTT(L)	TTT(F) 1 2 CTT(L) YTT(LF) 1	L	F L LF			ORF1b	1098		helicase	176									5501	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916
 "ORF1b 1175
 helicase 253
-Genomic 16993-16995"					16993	16993	16995	CAC(H)	TAC(Y) 1	H	Y			ORF1b	1175		helicase	253												
+Genomic 16993-16995"					16993	16993	16995	CAC(H)	TAC(Y) 1	H	Y			ORF1b	1175		helicase	253									5578	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916
 "ORF1b 1218
 helicase 296
-Genomic 17122-17124"					17122	17122	17124	GCT(A)	TCT(S) 1 1 ACT(T) GCT(A) 1	A	S T A			ORF1b	1218		helicase	296												
+Genomic 17122-17124"					17122	17122	17124	GCT(A)	TCT(S) 1 1 ACT(T) GCT(A) 1	A	S T A			ORF1b	1218		helicase	296									5621	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916
 "ORF1b 1219,helicase 297"	0	1	na	0	17125	17125	17127	0	0	L	"P,F,I"	4	0	ORF1b	1219	"helicase 297, ORF1a  5599"	helicase	297	na	na	na	na	na	na	na	na	5622	superfamily 1 helicase		10.3389/fmicb.2019.01813
 "ORF1b 1241,helicase 319"	0	2	na	0	17191	17191	17193	tgT	tgC	C	C	2	0	ORF1b	1241	"helicase 319, ORF1a 5621"	helicase	319	na	na	na	na	na	na	na	na	5644	superfamily 1 helicase		10.3389/fmicb.2019.01813
 "ORF1b 1259,helicase 337"	1	0	0	0	17245	17245	17247			R		4		ORF1b	1259		helicase	337	na	na	na	na	na	na	na	na	5662	superfamily 1 helicase		10.3389/fmicb.2019.01813
@@ -322,97 +322,97 @@ Genomic 17122-17124"					17122	17122	17124	GCT(A)	TCT(S) 1 1 ACT(T) GCT(A) 1	A	
 "ORF1b 1426,helicase 504"	0	2	na	0	17746	17746	17748	cCt	cTt	P	L	2	0	ORF1b	1426	"helicase 504, ORF1ab 5806"	helicase	504	na	na	na	na	na	na	na	na	5829	"North America Mutation. other mutations more likely to appear, superfamily 1 helicase"		"10.1186/s12967-020-02344-6; 10.3389/fmicb.2019.01813, 10.1016/j.ygeno.2020.04.016, "
 "ORF1b 1432
 helicase 510
-Genomic 17764-17766"					17764	17764	17766	GTC(V)	GTT(V) 5 1 GTC(V) GTY(V) 1	V	V V V			ORF1b	1432		helicase	510										superfamily 1 helicase		10.3389/fmicb.2019.01813
-"ORF1b 1443,helicase 521"	0	0	0	0	17797	17797	17799			V		5		ORF1b	1443		helicase	521	na	na	na	na	na	na	na	na	11	superfamily 1 helicase		10.3389/fmicb.2019.01813
+Genomic 17764-17766"					17764	17764	17766	GTC(V)	GTT(V) 5 1 GTC(V) GTY(V) 1	V	V V V			ORF1b	1432		helicase	510									5835	superfamily 1 helicase		10.3389/fmicb.2019.01813
+"ORF1b 1443,helicase 521"	0	0	0	0	17797	17797	17799			V		5		ORF1b	1443		helicase	521	na	na	na	na	na	na	na	na	5846	superfamily 1 helicase		10.3389/fmicb.2019.01813
 "ORF1b 1452,helicase 530"	0	1	na	0	17824	17824	17826	aCt	aTt	T	I	2	0	ORF1b	1452	"helicase 530, ORF1a 5832"	helicase	530	na	na	na	na	na	na	na	na	5855	superfamily 1 helicase		10.3389/fmicb.2019.01813
 "ORF1b 1472,helicase 550"	0	1	na	0	17884	17884	17886	0	0	T	A	3	0	ORF1b	1472	"helicase 550, ORF1a 5852"	helicase	550	na	na	na	na	na	na	na	na	5875	superfamily 1 helicase		10.3389/fmicb.2019.01813
 "ORF1b 1538
 3'-to-5' exonuclease 15
-Genomic 18082-18084"					18082	18082	18084	ACC(T)	ATC(I) 1 ATC(I) GTC(V) 1	T	I I V			ORF1b	1538		3' to 5' exonuclease	15												
+Genomic 18082-18084"					18082	18082	18084	ACC(T)	ATC(I) 1 ATC(I) GTC(V) 1	T	I I V			ORF1b	1538		3' to 5' exonuclease	15									5941	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 1549
 3'-to-5' exonuclease 26
-Genomic 18115-18117"					18115	18115	18117	CAC(H)	TAC(Y) 2 2 TAC(Y) YAC(HY) 1	H	Y Y HY			ORF1b	1549		3' to 5' exonuclease	26												
+Genomic 18115-18117"					18115	18115	18117	CAC(H)	TAC(Y) 2 2 TAC(Y) YAC(HY) 1	H	Y Y HY			ORF1b	1549		3' to 5' exonuclease	26									5952	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 1680
 3'-to-5' exonuclease 157
-Genomic 18508-18510"					18508	18508	18510	CTT(L)	TTT(F) 2	L	F			ORF1b	1680		3' to 5' exonuclease	157												
-"ORF1b 1728,3'-to-5' exonuclease 205"	0	1	na	0	18652	18652	18654	Cgc	Tgc	R	C	4	0	ORF1b	1728	ORF1a 6108	3'-to-5' exonuclease	205	na	na	na	na	na	na	na	na	6131	N-terminal ExoN domain		10.1016/j.virusres.2017.01.023
+Genomic 18508-18510"					18508	18508	18510	CTT(L)	TTT(F) 2	L	F			ORF1b	1680		3' to 5' exonuclease	157									6083	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
+"ORF1b 1728,3'-to-5' exonuclease 205"	0	1	na	0	18652	18652	18654	Cgc	Tgc	R	C	4	0	ORF1b	1728	ORF1a 6108	3'-to-5' exonuclease	205	na	na	na	na	na	na	na	na	6131	N-terminal ExoN domain		"10.1016/j.virusres.2017.01.023,1 0.3389/fmicb.2019.01813"
 "ORF1b 1739,3'-to-5' exonuclease 216"	0	1	na	0	18685	18685	18687	Tgc	Cgc	C	R	12	0	ORF1b	1739	ORF1a 6119	3'-to-5' exonuclease	216	na	na	na	na	na	na	na	na	6142	"Partially conserved residue, N-terminal ExoN domain"		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
-"ORF1b 1756,3'-to-5' exonuclease 233"	0	2	na	0	18736	18736	18738	Ttt	Ctt	F	L	3	0	ORF1b	1756	ORF1a 5903	3'-to-5' exonuclease	233	na	na	na	na	na	na	na	na	5926	N-terminal ExoN domain		10.1016/j.virusres.2017.01.023
+"ORF1b 1756,3'-to-5' exonuclease 233"	0	2	na	0	18736	18736	18738	Ttt	Ctt	F	L	3	0	ORF1b	1756	ORF1a 5903	3'-to-5' exonuclease	233	na	na	na	na	na	na	na	na	5926	N-terminal ExoN domain		"10.1016/j.virusres.2017.01.023, 10.3389/fmicb.2019.01813"
 "ORF1b 1762
 3'-to-5' exonuclease 239
-Genomic 18754-18756"					18754	18754	18756	CCG(P)	CCT(P) 2 1 CCG(P) GCG(A) 1 CCG(P) CCK(P) 1 CCA(P) CCG(P) 1	P	P P A P P P P			ORF1b	1762		3' to 5' exonuclease	239												
+Genomic 18754-18756"					18754	18754	18756	CCG(P)	CCT(P) 2 1 CCG(P) GCG(A) 1 CCG(P) CCK(P) 1 CCA(P) CCG(P) 1	P	P P A P P P P			ORF1b	1762		3' to 5' exonuclease	239									5932	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 1803
 3'-to-5' exonuclease 280
-Genomic 18877-18879"					18877	18877	18879	CTA(L)	TTA(L) 17 2 CTA(L) YTA(L) 1	L	L L L			ORF1b	1803		3' to 5' exonuclease	280												
-"ORF1b 1838,3'-to-5' exonuclease 315"	0	0	0	0	18982	18982	18984	0	0	M	I	2	0	ORF1b	1838		3'-to-5' exonuclease	315	na	na	na	na	na	na	na	na	35	C- terminal N7-methyl transferase domain		
+Genomic 18877-18879"					18877	18877	18879	CTA(L)	TTA(L) 17 2 CTA(L) YTA(L) 1	L	L L L			ORF1b	1803		3' to 5' exonuclease	280									5973	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
+"ORF1b 1838,3'-to-5' exonuclease 315"	0	0	0	0	18982	18982	18984	0	0	M	I	2	0	ORF1b	1838		3'-to-5' exonuclease	315	na	na	na	na	na	na	na	na	6008	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 1894
 3'-to-5' exonuclease 371
-Genomic 19150-19152"					19150	19150	19152	GCC(A)	GTC(V) 1 1	A	V			ORF1b	1894		3' to 5' exonuclease	371												
+Genomic 19150-19152"					19150	19150	19152	GCC(A)	GTC(V) 1 1	A	V			ORF1b	1894		3' to 5' exonuclease	371									6064	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 1974
 3'-to-5' exonuclease 451
-Genomic 19390-19392"					19390	19390	19392	CCA(P)	CCC(P) 1 CCA(P) CCG(P) 1 CCA(P) CNA(QPRL) 1 CCA(P) CTA(L) 1	P	P P P P QPRL P L			ORF1b	1974		3' to 5' exonuclease	451												
+Genomic 19390-19392"					19390	19390	19392	CCA(P)	CCC(P) 1 CCA(P) CCG(P) 1 CCA(P) CNA(QPRL) 1 CCA(P) CTA(L) 1	P	P P P P QPRL P L			ORF1b	1974		3' to 5' exonuclease	451									6144	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 2005
 3'-to-5' exonuclease 482
-Genomic 19483-19485"					19483	19483	19485	GCT(A)	GTT(V) 4 5 GCT(A) GNT(DAGV) 60 GNT(DAGV) GTT(V) 4 GCT(A) GYT(AV) 1	A	V A DAGV DAGV V A AV			ORF1b	2005		3' to 5' exonuclease	482												
+Genomic 19483-19485"					19483	19483	19485	GCT(A)	GTT(V) 4 5 GCT(A) GNT(DAGV) 60 GNT(DAGV) GTT(V) 4 GCT(A) GYT(AV) 1	A	V A DAGV DAGV V A AV			ORF1b	2005		3' to 5' exonuclease	482									6175	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"
 "ORF1b 2123
 endoRNAse 73
-Genomic 19837-19839"					19837	19837	19839	AAC(N)	AAT(N) 4 2 AAT(N) AAY(N) 1 AAC(N) AAY(N) 1	N	N N N N N			ORF1b	2123		endoRNAse	73												
+Genomic 19837-19839"					19837	19837	19839	AAC(N)	AAT(N) 4 2 AAT(N) AAY(N) 1 AAC(N) AAY(N) 1	N	N N N N N			ORF1b	2123		endoRNAse	73									6293	central domain		
 "ORF1b 2142,endoRNAse 92"	0	2	na	0	19894	19894	19896	gaT	gaC	D	D	2	0	ORF1b	2142	ORF1a 6522	endoRNAse	92	na	na	na	na	na	na	na	na	6545	"uridine-specific endoribonuclease, EndoU uridylate-specific endoribonuclease, XendoU homolog, central domain"		"10.1016/j.virusres.2017.01.023, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103"
 "ORF1b 2266
 endoRNAse 216
-Genomic 20266-20268"					20266	20266	20268	TTA(L)	TTG(L) 22 2 TTA(L) TTR(L) 1	L	L L L			ORF1b	2266		endoRNAse	216												
-"ORF1b 2269,endoRNAse 219"	0	3	na	0	20275	20275	20277	0	0	D	"N,Y,G"	2	0	ORF1b	2269	ORF1a 6649	endoRNAse	219	na	na	na	na	na	na	na	na	6672	"uridine-specific endoribonuclease, Mutation reported, wild type phenotype, EndoU uridylate-specific endoribonuclease, XendoU homolog, X-terminal Domain"		"10.1073/pnas.0601708103, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103"
+Genomic 20266-20268"					20266	20266	20268	TTA(L)	TTG(L) 22 2 TTA(L) TTR(L) 1	L	L L L			ORF1b	2266		endoRNAse	216									6669	 C-terminal Domain		
+"ORF1b 2269,endoRNAse 219"	0	3	na	0	20275	20275	20277	0	0	D	"N,Y,G"	2	0	ORF1b	2269	ORF1a 6649	endoRNAse	219	na	na	na	na	na	na	na	na	6672	"uridine-specific endoribonuclease, Mutation reported, wild type phenotype, EndoU uridylate-specific endoribonuclease, XendoU homolog, C-terminal Domain"		"10.1073/pnas.0601708103, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103"
 "ORF1b 2457
 2'-O-ribose methyltransferase 61
-Genomic 20839-20841"					20839	20839	20841	GTA(V)	GTG(V) 1 GTA(V) GTT(V) 1	V	V V V			ORF1b	2457		2' O ribose methyltransferase	61												
+Genomic 20839-20841"					20839	20839	20841	GTA(V)	GTG(V) 1 GTA(V) GTT(V) 1	V	V V V			ORF1b	2457		2' O ribose methyltransferase	61									6860			
 "ORF1b 2458
 2'-O-ribose methyltransferase 62
-Genomic 20842-20844"					20842	20842	20844	CCC(P)	CCT(P) 4 CCA(P) CCC(P) 1 CCC(P) CCY(P) 1	P	P P P P P			ORF1b	2458		2' O ribose methyltransferase	62												
+Genomic 20842-20844"					20842	20842	20844	CCC(P)	CCT(P) 4 CCA(P) CCC(P) 1 CCC(P) CCY(P) 1	P	P P P P P			ORF1b	2458		2' O ribose methyltransferase	62									6861			
 "ORF1b 2530
 2'-O-ribose methyltransferase 134
-Genomic 21058-21060"					21058	21058	21060	CCT(P)	TCT(S) 3	P	S			ORF1b	2530		2' O ribose methyltransferase	134												
+Genomic 21058-21060"					21058	21058	21060	CCT(P)	TCT(S) 3	P	S			ORF1b	2530		2' O ribose methyltransferase	134									6933			
 "ORF1b 2556,2'-O-ribose methyltransferase 160"	0	2	na	0	21136	21136	21138	aAg	aGg	K	R	4	0	ORF1b	2556	ORF1a 6936	2'-O-ribose methyltransferase	160	na	na	na	na	na	na	na	na	6959	core MTase domain		10.1371/journal.ppat.1002294
 "ORF1b 2591,2'-O-ribose methyltransferase 195"	0	1	na	0	21241	21241	21243	0	0	T	I	5	0	ORF1b	2591	ORF1a 6971	2'-O-ribose methyltransferase	195	na	na	na	na	na	na	na	na	6994	core MTase domain		10.1371/journal.ppat.1002294
 "ORF1b 2595
 2'-O-ribose methyltransferase 199
-Genomic 21253-21255"					21253	21253	21255	GCG(A)	GCT(A) 1 GCC(A) GCG(A) 2 GCG(A) GCN(A) 1 GCA(A) GCG(A) 1	A	A A A A A A A			ORF1b	2595		2' O ribose methyltransferase	199												
+Genomic 21253-21255"					21253	21253	21255	GCG(A)	GCT(A) 1 GCC(A) GCG(A) 2 GCG(A) GCN(A) 1 GCA(A) GCG(A) 1	A	A A A A A A A			ORF1b	2595		2' O ribose methyltransferase	199									6998			
 "ORF1b 2612,2'-O-ribose methyltransferase 216"	1	2	na	0	21304	21304	21306	0	0	R	N	2	0	ORF1b	2612	ORF1a  6992	2'-O-ribose methyltransferase	216	na	na	na	na	na	na	na	na	7015			
-S 29	0	1	na	0	21647	21647	21649	0	0	T	"I,S"	6	0	S	29	33	NL63 20	na	na	na	na	na	na	na	na	na		N-terminal Domain		
+S 29	0	1	na	0	21647	21647	21649	0	0	T	"I,S"	6	0	S	29	33	NL63 20		na	na	na	na	na	na	na	na		N-terminal Domain		
 "S 61
-Genomic 21743-21745"					21743	21743	21745	AAC(N)	AAT(N) 3	N	N			S	61													N-terminal Domain		
-S 76	0	1	na	0	21788	21788	21790	0	0	T	I	6	0	S	76	-	NL63 -	na	na	na	na	na	na	na	na	na		N-terminal Domain		
-S 95	0	1	na	0	21845	21845	21847	0	0	T	I	6	0	S	95	92	NL63 100	na	na	na	na	na	na	na	na	na		N-terminal Domain		
+Genomic 21743-21745"					21743	21743	21745	AAC(N)	AAT(N) 3	N	N			S	61	65												N-terminal Domain		
+S 76	0	1	na	0	21788	21788	21790	0	0	T	I	6	0	S	76	-	NL63 -		na	na	na	na	na	na	na	na		N-terminal Domain		
+S 95	0	1	na	0	21845	21845	21847	0	0	T	I	6	0	S	95	92	NL63 100		na	na	na	na	na	na	na	na		N-terminal Domain		
 "S 138
-Genomic 21974-21976"					21974	21974	21976	GAC(D)	GAT(D) 2 CAT(H) GAT(D) 2 GAT(D) RAT(ND) 1 GAN(ED) GAT(D) 1 GAT(D) TAT(Y) 1	D	D H D D ND ED D D Y			S	138															
-S 144	0	2	na	0	21992	21992	21994	0	0	V	D	2	0	S	144	141	NL63 -	na	na	na	na	na	na	na	na	na				
+Genomic 21974-21976"					21974	21974	21976	GAC(D)	GAT(D) 2 CAT(H) GAT(D) 2 GAT(D) RAT(ND) 1 GAN(ED) GAT(D) 1 GAT(D) TAT(Y) 1	D	D H D D ND ED D D Y			S	138	135														
+S 144	0	2	na	0	21992	21992	21994	0	0	V	D	2	0	S	144	141	NL63 -		na	na	na	na	na	na	na	na				
 "S 231
-Genomic 22253-22255"					22253	22253	22255	ACC(T)	ATA(I) 1	T	I			S	231															
+Genomic 22253-22255"					22253	22253	22255	ACC(T)	ATA(I) 1	T	I			S	231	224														
 "S 294
-Genomic 22442-22444"					22442	22442	22444	GAC(D)	GAT(D) 2 2 GAC(D) GNC(DAGV) 3 GAC(D) NNN(-) 2 GAC(D) GAN(ED) 1	D	D D DAGV D - D ED			S	294															
-S 367	0	2	na	0	22661	22661	22663	gtC	gtT	V	V	12	0	S	367	354	NL63 508	na	na	na	na	na	na	na	na	na		RBD		
-S 439	0	1	na	0	22877	22877	22879	0	0	N	K	4	0	S	439	426	NL63 557	na	na	na	na	na	na	na	na	na		"RBD, RBM, Variable residues between SARS-CoV-2 and SARS-CoV, critical residues in Polyclonal anti-SARS-1 antibodies and different between SARS-CoV-2 and SARS-CoV RBDs, ACE2-binding residue, SARS-CoV-derived discontinuous B cell epitopes associated with antibody m396"	"Could impact Response to antibodies, Residue reported to decrease ACE2 Binding when mutated in SARS"	"10.1038/s41423-020-0400-4, 10.1038/s41467-020-15562-9, doi.org/10.1038/s41423-020-0374-2, 10.1186/1743-422X-2-73, 10.1126/science.abb7269, 10.3390/v12030254"
+Genomic 22442-22444"					22442	22442	22444	GAC(D)	GAT(D) 2 2 GAC(D) GNC(DAGV) 3 GAC(D) NNN(-) 2 GAC(D) GAN(ED) 1	D	D D DAGV D - D ED			S	294	281														
+S 367	0	2	na	0	22661	22661	22663	gtC	gtT	V	V	12	0	S	367	354	NL63 508		na	na	na	na	na	na	na	na		RBD		
+S 439	0	1	na	0	22877	22877	22879	0	0	N	K	4	0	S	439	426	NL63 557		na	na	na	na	na	na	na	na		"RBD, RBM, Variable residues between SARS-CoV-2 and SARS-CoV, critical residues in Polyclonal anti-SARS-1 antibodies and different between SARS-CoV-2 and SARS-CoV RBDs, ACE2-binding residue, SARS-CoV-derived discontinuous B cell epitopes associated with antibody m396"	"Could impact Response to antibodies, Residue reported to decrease ACE2 Binding when mutated in SARS"	"10.1038/s41423-020-0400-4, 10.1038/s41467-020-15562-9, doi.org/10.1038/s41423-020-0374-2, 10.1186/1743-422X-2-73, 10.1126/science.abb7269, 10.3390/v12030254"
 "S 598
-Genomic 23354-23356"					23354	23354	23356	ATA(I)	ATT(I) 1	I	I			S	598															
-S 614	0	3	na	0	23402	23402	23404	0	0	G	D	12	0	S	614	600	NL63 702	na	na	na	na	na	na	na	na	na		"B cell epitope region, North America Mutation, other mutations more likely to appear"		"10.1016/j.chom.2020.03.002, 10.1016/j.ygeno.2020.04.016, "
+Genomic 23354-23356"					23354	23354	23356	ATA(I)	ATT(I) 1	I	I			S	598	584												"HLA-DRB1*01:01, B cell epitope region"		"10.3390/v12030254, 10.1016/j.chom.2020.03.002"
+S 614	0	3	na	0	23402	23402	23404	0	0	G	D	12	0	S	614	600	NL63 702		na	na	na	na	na	na	na	na		"B cell epitope region, North America Mutation, other mutations more likely to appear"		"10.1016/j.chom.2020.03.002, 10.1016/j.ygeno.2020.04.016, "
 "S 620
-Genomic 23420-23422"					23420	23420	23422	GTC(V)	GTT(V) 1 2 GTA(V) GTC(V) 1 GTC(V) GTY(V) 1	V	V V V V V			S	620															
+Genomic 23420-23422"					23420	23420	23422	GTC(V)	GTT(V) 1 2 GTA(V) GTC(V) 1 GTC(V) GTY(V) 1	V	V V V V V			S	620	606												B cell epitope region		10.1016/j.chom.2020.03.002
 "S 623
-Genomic 23429-23431"					23429	23429	23431	GCT(A)	TCT(S) 1 GCT(A) GTT(V) 1	A	S A V			S	623															
+Genomic 23429-23431"					23429	23429	23431	GCT(A)	TCT(S) 1 GCT(A) GTT(V) 1	A	S A V			S	623	609												B cell epitope region		10.1016/j.chom.2020.03.002
 "S 675
-Genomic 23585-23587"					23585	23585	23587	CAC(H)	CAG(Q) 1 CAG(Q) CGG(R) 1 CAG(Q) CAT(H) 1 AAG(K) CAG(Q) 1	H	Q Q R Q H K Q			S	675															
+Genomic 23585-23587"					23585	23585	23587	CAC(H)	CAG(Q) 1 CAG(Q) CGG(R) 1 CAG(Q) CAT(H) 1 AAG(K) CAG(Q) 1	H	Q Q R Q H K Q			S	675	661														
 "S 723
-Genomic 23729-23731"					23729	23729	23731	ACC(T)	ACT(T) 7 2 ACC(T) ATC(I) 1 ACC(T) ACY(T) 1	T	T T I T T			S	723															
-S 731	0	1	na	0	23753	23753	23755	atG	"atC,atT"	M	"I,I"	2	0	S	731	713	NL63 782	na	na	na	na	na	na	na	na	na				
+Genomic 23729-23731"					23729	23729	23731	ACC(T)	ACT(T) 7 2 ACC(T) ATC(I) 1 ACC(T) ACY(T) 1	T	T T I T T			S	723	705												T Cell Epitopes		10.1016/j.chom.2020.03.002
+S 731	0	1	na	0	23753	23753	23755	atG	"atC,atT"	M	"I,I"	2	0	S	731	713	NL63 782		na	na	na	na	na	na	na	na				
 "S 824
-Genomic 24032-24034"					24032	24032	24034	AAC(N)	AAT(N) 5 3 AAT(N) AAY(N) 2 AAC(N) AAY(N) 1 AAC(N) AGC(S) 1	N	N N N N N N S			S	824															
+Genomic 24032-24034"					24032	24032	24034	AAC(N)	AAT(N) 5 3 AAT(N) AAY(N) 2 AAC(N) AAY(N) 1 AAC(N) AGC(S) 1	N	N N N N N N S			S	824	806												B cell epitope region		10.1016/j.chom.2020.03.002
 "S 934
-Genomic 24362-24364"					24362	24362	24364	ATC(I)	ATT(I) 1 ATA(I) ATC(I) 1 ATG(M) ATT(I) 1	I	I I I M I			S	934															
-S 943	0	2	na	0	24389	24389	24391	0	0	S	"P,T"	12	0	S	943	925	NL63 1009	na	na	na	na	na	na	na	na	na		"T cell epitope, Epitope HLA locus A group 2 subtype 2:01, “HR1”, Fusion Core :  target of fusion/entry inhibitors, One of the 8 residues that differs from SARS-Cov Fusion Core , position f in the heptad repeat abcdefg pattern, "	"T variant more similar to SARS-1 fusion Core, Change in impact of fusion/entry inhibitor drugs, little to no impact expected on HR structure"	"10.1101/2020.03.30.016931, 10.1016/j.chom.2020.03.002, 10.1038/s41423-020-0374-2,10.1016/j.virol.2005.02.022, doi.org/10.1016/S0140-6736(04)15788-7"
+Genomic 24362-24364"					24362	24362	24364	ATC(I)	ATT(I) 1 ATA(I) ATC(I) 1 ATG(M) ATT(I) 1	I	I I I M I			S	934	916														
+S 943	0	2	na	0	24389	24389	24391	0	0	S	"P,T"	12	0	S	943	925	NL63 1009		na	na	na	na	na	na	na	na		"T cell epitope, Epitope HLA locus A group 2 subtype 2:01, “HR1”, Fusion Core :  target of fusion/entry inhibitors, One of the 8 residues that differs from SARS-Cov Fusion Core , position f in the heptad repeat abcdefg pattern, "	"T variant more similar to SARS-1 fusion Core, Change in impact of fusion/entry inhibitor drugs, little to no impact expected on HR structure"	"10.1101/2020.03.30.016931, 10.1016/j.chom.2020.03.002, 10.1038/s41423-020-0374-2,10.1016/j.virol.2005.02.022, 10.1016/S0140-6736(04)15788-7"
 "S 1044
-Genomic 24692-24694"					24692	24692	24694	GGA(G)	GGT(G) 3 1 GGA(G) GGM(G) 1	G	G G G			S	1044															
+Genomic 24692-24694"					24692	24692	24694	GGA(G)	GGT(G) 3 1 GGA(G) GGM(G) 1	G	G G G			S	1044	1026												"HLA-B*15:01, HLA-B*27:05, HLA-B*58:01, HLA-C*15:02,  T Cell Epitopes"		"10.3390/v12030254, 10.1016/j.chom.2020.03.002"
 "S 1100
-Genomic 24860-24862"					24860	24860	24862	ACA(T)	ACG(T) 2 1	T	T			S	1100															
-ORF3a 14	0	1	na	0	25432	25432	25434	0	0	T	I	10	0	ORF3a	14	14	na	na	na	na	na	na	na	na	na	na		" T cell epitope, Epitope HLA locus B group 2 58:01:00"	Deleterious Mutation 	"10.1101/2020.03.30.016931, 10.1016/j.chom.2020.03.002, 10.1128/mSystems.00266-20"
+Genomic 24860-24862"					24860	24860	24862	ACA(T)	ACG(T) 2 1	T	T			S	1100	1082												HLA-DRB1*01:01		10.3390/v12030254
+ORF3a 14	0	1	na	0	25432	25432	25434	0	0	T	I	10	0	ORF3a	14	14	na		na	na	na	na	na	na	na	na		" T cell epitope, Epitope HLA locus B group 2 58:01:00"	Deleterious Mutation 	"10.1101/2020.03.30.016931, 10.1016/j.chom.2020.03.002, 10.1128/mSystems.00266-20"
 "ORF3a 42
 Genomic 25516-25518"					25516	25516	25518	CCT(P)	CTT(L) 1 CCT(P) TCT(S) 1 CTT(L) CYT(PL) 1 CCT(P) NNN(-) 1 CCT(P) MCT(TP) 1 CCT(P) CNT(HPRL) 1	P	L P S L PL P - P TP P HPRL			ORF3a	42															
 "ORF3a 43
@@ -438,17 +438,17 @@ ORF3a 251	0	2	na	0	26143	26143	26145	0	0	G	"V,C"	12	0	ORF3a	251	250	na	na	na	na	
 ORF3a 254	0	1	na	0	26152	26152	26154	0	0	G	R	3	0	ORF3a	254	253	na	na	na	na	na	na	na	na	na	na		"C-ter domaine : induce cell cycle arrest, potential cytoplasmic region"	Deleterious Mutation 	"10.1016/j.antiviral.2014.06.013,10.1016/j.jmb.2004.06.016, 10.1128/mSystems.00266-20"
 ORF3a 271	0	0	0	0	26203	26203	26205	0	0	T	I	4	0	ORF3a	271	271	na	na	na	na	na	na	na	na	na			C-ter domaine : induce cell cycle arrest		"10.1016/j.antiviral.2014.06.013,10.1016/j.jmb.2004.06.016, 10.1128/mSystems.00266-20"
 "M 30
-Genomic 26610-26612"					26610	26610	26612	ACA(T)	ACG(T) 1 ACG(T) ACT(T) 1	T	T T T			M	30															
+Genomic 26610-26612"					26610	26610	26612	ACA(T)	ACG(T) 1 ACG(T) ACT(T) 1	T	T T T			M	30	29														
 "M 69
-Genomic 26727-26729"					26727	26727	26729	GCC(A)	GCT(A) 6 1 GCT(A) TCT(S) 1 GCT(A) KCT(AS) 1 GCT(A) GCY(A) 1 GCC(A) GCY(A) 1	A	A A S A AS A A A A			M	69															
+Genomic 26727-26729"					26727	26727	26729	GCC(A)	GCT(A) 6 1 GCT(A) TCT(S) 1 GCT(A) KCT(AS) 1 GCT(A) GCY(A) 1 GCC(A) GCY(A) 1	A	A A S A AS A A A A			M	69	68												T Cell Epitopes		10.1016/j.chom.2020.03.002
 "M 109
-Genomic 26847-26849"					26847	26847	26849	ATG(M)	ATT(I) 1 ATC(I) ATT(I) 1 ATG(M) ATN(IM) 1	M	I I I M IM			M	109															
+Genomic 26847-26849"					26847	26847	26849	ATG(M)	ATT(I) 1 ATC(I) ATT(I) 1 ATG(M) ATN(IM) 1	M	I I I M IM			M	109	108														
 "M 132
-Genomic 26916-26918"					26916	26916	26918	CCG(P)	GCG(A) 1 CCG(P) CCK(P) 1 CCA(P) CCG(P) 1 CCG(P) CCT(P) 1 CCC(P) CCG(P) 1	P	A P P P P P P P P			M	132															
+Genomic 26916-26918"					26916	26916	26918	CCG(P)	GCG(A) 1 CCG(P) CCK(P) 1 CCA(P) CCG(P) 1 CCG(P) CCT(P) 1 CCC(P) CCG(P) 1	P	A P P P P P P P P			M	132	131														
 "M 141
-Genomic 26943-26945"					26943	26943	26945	GGA(G)	GGT(G) 1 GGT(G) NGG(RGW) 1	G	G G RGW			M	141															
+Genomic 26943-26945"					26943	26943	26945	GGA(G)	GGT(G) 1 GGT(G) NGG(RGW) 1	G	G G RGW			M	141	140												B cell epitope region		10.1016/j.chom.2020.03.002
 "M 143
-Genomic 26949-26951"					26949	26949	26951	GTG(V)	GTT(V) 2 GTA(V) GTG(V) 2 GTG(V) GTK(V) 1 GNS(MIX) GTG(V) 1	V	V V V V V MIX V			M	143															
+Genomic 26949-26951"					26949	26949	26951	GTG(V)	GTT(V) 2 GTA(V) GTG(V) 2 GTG(V) GTK(V) 1 GNS(MIX) GTG(V) 1	V	V V V V V MIX V			M	143	142												B cell epitope region		10.1016/j.chom.2020.03.002
 M 175	0	1	na	0	27045	27045	27047	0	0	T	"M,A"	8	0	M	175	174	na	na	na	na	na	na	na	na	na	na		"N Binding region, known mutation"		"10.1007/s11373-005-9035-9, 10.1016/j.ygeno.2020.04.016"
 M 209	0	1	na	0	27147	27147	27149	0	0	D	"H,Y"	12	0	M	209	208	na	na	na	na	na	na	na	na	na	na				
 ORF6 12	1	0	0	0	27147	27235	27237	0	0	A	T	9	0	ORF6	12		na	na	na	na	na	na	na	na	na	na				
@@ -472,16 +472,16 @@ N 24	0	1	na	0	28343	28343	28345	Ggc	Tgc	G	C	6	0	N	24	25	na	na	na	na	na	na	na	na	
 N 34	0	2	na	0	28373	28373	28375	0	0	G	"E,W"	10	0	N	34	35	na	na	na	na	na	na	na	na	na	na				
 N 36	0	1	na	0	28379	28379	28381	0	0	R	L	2	0	N	36	37	na	na	na	na	na	na	na	na	na	na				
 "N 55
-Genomic 28436-28438"					28436	28436	28438	GCT(A)	TCT(S) 1	A	S			N	55															
+Genomic 28436-28438"					28436	28436	28438	GCT(A)	TCT(S) 1	A	S			N	55	56												B cell epitope region		10.1016/j.chom.2020.03.002
 N 67	0	1	na	0	28472	28472	28474	0	0	P	"T,S"	7	0	N	67	68	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, putative RNA- binding domain, B-cell epitope   HLA-A*02:01 HLA-B*07:02 HLA-B*08:01 HLA-B*35:01 HLA-B*51:01 (identical in SARS-CoV-2 and SARS-Cov)"		"10.1128/jvi.00017-07 ,10.1016/j.jmb.2007.02.069, 10.3390/v12030254"
 N 108	0	0	0	0	28595	28595	28597	0	0	W	C	6	0	N	108		na	na	na	na	na	na	na	na	na	na		"B-cell epitope  HLA-A*24:02, HLA-A*03:01,  HLA-A*11:01 HLA-A*68:01 HLA-A*23:01 HLA-A*31:01 (identical in SARS-CoV-2 and SARS-Cov)"		10.3390/v12030254
 N 119	0	1	na	0	28628	28628	28630	gGa	gTa	G	V	7	0	N	119	120	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, putative RNA- binding domain"		"10.1128/jvi.00017-07, 10.1016/j.jmb.2007.02.069"
 "N 139
-Genomic 28688-28690"					28688	28688	28690	CTG(L)	TTG(L) 2 3 TTG(L) TTT(F) 1 1 TTG(L) YTG(L) 3 CTG(L) YTG(L) 1 TTK(LF) TTT(F) 1	L	L L F L L L L LF F			N	139															
+Genomic 28688-28690"					28688	28688	28690	CTG(L)	TTG(L) 2 3 TTG(L) TTT(F) 1 1 TTG(L) YTG(L) 3 CTG(L) YTG(L) 1 TTK(LF) TTT(F) 1	L	L L F L L L L LF F			N	139	140														
 N 144	0	1	na	0	28703	28703	28705	0	0	D	"N,E,H,Y"	7	0	N	144	145	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, T cell epitope, possible RNA binding , B-cell epitope HLA-A*02:01 HLA-A*11:01 HLA-A*68:01 HLA-A*31:01, T-cell epitope  HLA-A*02:01 (identical in SARS-CoV-2 and SARS-Cov)"		"10.1016/j.chom.2020.03.002 10.1128/jvi.00017-07, 10.1016/j.str.2005.08.021, 10.1016/j.jmb.2007.02.069, 10.3390/v12030254"
 N 151	0	1	na	0	28724	28724	28726	Gct	Tct	A	S	7	0	N	151	152	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, putative RNA- binding domain"		"10.1128/jvi.00017-07, 10.1016/j.jmb.2007.02.069"
 "N 173
-Genomic 28790-28792"					28790	28790	28792	GCA(A)	GCG(A) 1 GCA(A) GTA(V) 1 GCG(A) GCT(A) 1 GCA(A) GCN(A) 1	A	A A V A A A A			N	173															
+Genomic 28790-28792"					28790	28790	28792	GCA(A)	GCG(A) 1 GCA(A) GTA(V) 1 GCG(A) GCT(A) 1 GCA(A) GCN(A) 1	A	A A V A A A A			N	173	174														
 N 180	0	1	na	0	28811	28811	28813	0	0	S	"I,C,G"	4	0	N	180	181	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, putative RNA- binding domain; B-cell epitope HLA-A*33:01 HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 (identical in SARS-CoV-2 and SARS-Cov)"		"10.1128/jvi.00017-07, 10.1016/j.jmb.2007.02.069, 10.3390/v12030254"
 N 185	0	1	na	0	28826	28826	28828	0	0	R	"C,L,H"	3	0	N	185	186	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, essential for multimerization of SARS-CoV N protein, Phosphorylation site in IBV, B-cell epitope HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 (identical in SARS-CoV-2 and SARS-Cov)"		"10.1128/jvi.00017-07, 10.1016/j.str.2005.08.021, 10.1007/s11373-005-9035-9, 10.3390/v12030254"
 N 190	0	1	na	0	28841	28841	28843	0	0	S	"I,G"	8	0	N	190	191	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), U-shaped β-platform, essential for multimerization of SARS-CoV N protein, Phosphorylation site in IBV, B-cell epitope HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01 (identical in SARS-CoV-2 and SARS-Cov)"		"10.1128/jvi.00017-07, 10.1016/j.str.2005.08.021, 10.1007/s11373-005-9035-9, 10.3390/v12030254"
@@ -491,22 +491,22 @@ N 208	0	1	na	0	28895	28895	28897	0	0	A	G	7	0	N	208	209	na	na	na	na	na	na	na	na	n
 N 215	0	1	na	0	28916	28916	28918	0	0	G	S	2	0	N	215	216	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), T cell epitope"		"10.1016/j.chom.2020.03.002, 10.1128/jvi.00017-07"
 N 218	0	1	na	0	28925	28925	28927	0	0	A	"V,S"	4	0	N	218	219	na	na	na	na	na	na	na	na	na	na		"linker region (LKR), T cell epitope"		"10.1016/j.chom.2020.03.002, 10.1128/jvi.00017-07"
 "N 253
-Genomic 29030-29032"					29030	29030	29032	GAA(E)	GAG(E) 1 1 GAG(E) GGG(G) 1 GAG(E) GAT(D) 1 GAG(E) GAK(ED) 1 GAG(E) GNG(EAGV) 1	E	E E G E D E ED E EAGV			N	253															
+Genomic 29030-29032"					29030	29030	29032	GAA(E)	GAG(E) 1 1 GAG(E) GGG(G) 1 GAG(E) GAT(D) 1 GAG(E) GAK(ED) 1 GAG(E) GNG(EAGV) 1	E	E E G E D E ED E EAGV			N	253	254														
 "N 291
-Genomic 29144-29146"					29144	29144	29146	CTA(L)	TTA(L) 3 1 CTA(L) YTA(L) 1	L	L L L			N	291															
+Genomic 29144-29146"					29144	29144	29146	CTA(L)	TTA(L) 3 1 CTA(L) YTA(L) 1	L	L L L			N	291	292														
 "N 305
-Genomic 29186-29188"					29186	29186	29188	GCA(A)	GCT(A) 1 1 GCA(A) GYR(AV) 4 ---(-) GCA(A) 1	A	A A AV ---(-) A			N	305															
+Genomic 29186-29188"					29186	29186	29188	GCA(A)	GCT(A) 1 1 GCA(A) GYR(AV) 4 ---(-) GCA(A) 1	A	A A AV ---(-) A			N	305	306														
 "N 318
-Genomic 29225-29227"					29225	29225	29227	TCG(S)	TCT(S) 2 TCA(S) TCG(S) 2	S	S S S			N	318															
+Genomic 29225-29227"					29225	29225	29227	TCG(S)	TCT(S) 2 TCA(S) TCG(S) 2	S	S S S			N	318	319												T Cell Epitopes		10.1016/j.chom.2020.03.002
 N 336	0	1	na	0	29279	29279	29281	0	0	A	V	5	0	N	336	337	na	na	na	na	na	na	na	na	na	na		"CTD, hydrophobic, helix-rich terminal, dimerization do- main, core stabilized by multiple hydrophobic interactions"		"10.1128/jvi.00017-07, 10.1016/j.jmb.2007.02.069"
 N 344	0	2	na	0	29303	29303	29305	0	0	P	"S,L"	2	0	N	344	345	na	na	na	na	na	na	na	na	na	na		"CTD, hydrophobic, helix-rich terminal, dimerization do- main, core stabilized by multiple hydrophobic interactions"		"10.1128/jvi.00017-07, 10.1016/j.jmb.2007.02.069"
 N 348	0	1	na	0	29315	29315	29317	0	0	D	"Y,H"	2	0	N	348	349	na	na	na	na	na	na	na	na	na	na		"CTD, hydrophobic, helix-rich terminal, T cell epitope, Epitope HLA locus A subtype  24:02:00, dimerization do- main, core stabilized by multiple hydrophobic interactions, extended b-strand"		"10.1101/2020.03.30.016931, 10.1016/j.chom.2020.03.002, 10.1128/jvi.00017-07, 10.1016/j.jmb.2007.02.069, 10.1007/s11373-005-9035-9"
 "N 360
-Genomic 29351-29353"					29351	29351	29353	TAC(Y)	TAT(Y) 4 1	Y	Y			N	360															
+Genomic 29351-29353"					29351	29351	29353	TAC(Y)	TAT(Y) 4 1	Y	Y			N	360													B cell epitope region		10.1016/j.chom.2020.03.002
 N 368	0	1	na	0	29375	29375	29377	0	0	P	S	2	0	N	368	369	na	na	na	na	na	na	na	na	na	na		"B cell epitope region, Epitope HLA locus A subtype 11:01, core stabilized by multiple hydrophobic interactions, RNA binding region, Phosphorylation site in IBV, B-cell epitope  HLA-A*03:01 HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-DRB1*01:01 (identical in SARS-CoV-2 and SARS-Cov)"		"10.1101/2020.03.30.016931, 10.1016/j.chom.2020.03.002, 10.1016/j.jmb.2007.02.069, 10.1007/s11373-005-9035-9, 0.3390/v12030254"
 N 393	0	1	na	0	29450	29450	29452	acT	acC	T	T	4	0	N	393	394	na	na	na	na	na	na	na	na	na	na		"B cell epitope region, Phosphorylation site in IBV"		"10.1016/j.chom.2020.03.002, 10.1007/s11373-005-9035-9"
 "N 397
-Genomic 29462-29464"					29462	29462	29464	GCT(A)	GTT(V) 1 GCT(A) TCT(S) 1 GNT(DAGV) GTT(V) 1	A	V A S DAGV V			N	397															
+Genomic 29462-29464"					29462	29462	29464	GCT(A)	GTT(V) 1 GCT(A) TCT(S) 1 GNT(DAGV) GTT(V) 1	A	V A S DAGV V			N	397	398												B cell epitope region		10.1016/j.chom.2020.03.002
 N 399	0	1	na	0	29468	29468	29470	0	0	D	Y	3	0	N	399	400	na	na	na	na	na	na	na	na	na	na		B cell epitope region		10.1016/j.chom.2020.03.002
 N 402	0	1	na	0	29477	29477	29479	0	0	D	Y	6	0	N	402	403	na	na	na	na	na	na	na	na	na	na				
 "N 417
