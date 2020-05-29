@@ -26,8 +26,8 @@ jobs:
       run: pip install https://github.com/saketkc/pysradb/archive/master.zip requests
     - name: Fetch sequence accessions
       run: ./fetch_sra_acc.sh
-    - name: Fetch genome accessions
-      run: python fetch_genome_accessions.py
+    # - name: Fetch genome accessions
+    #   run: python fetch_genome_accessions.py
     - name: Show differences
       run: 'git diff --stat'
     - name: Create Pull Request
