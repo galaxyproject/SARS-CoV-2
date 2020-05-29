@@ -28,16 +28,12 @@ export default {
                 {
                     type: "variant",
                     format: "vcf",
-                    url: "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz",
-                    indexURL: "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz.tbi",
-                    name: "1KG variants (chr22)",
-                    /*
-                    squishedCallHeight: 1,
-                    expandedCallHeight: 4,
-                    displayMode: "squished",
-                    visibilityWindow: 1000
-                    */
-                },
+                    url:
+                        "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz",
+                    indexURL:
+                        "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz.tbi",
+                    name: "SARS-CoV-2 variant test"
+                }
             ]
         }
     },
@@ -48,7 +44,12 @@ export default {
             const options = {
                 showNavigation: this.showNavigation,
                 showRuler: this.showRuler,
-                genome: this.genome,
+                reference: {
+                    id: "wuhCor1",
+                    name: "SARS-CoV-2",
+                    indexURL: "https://usegalaxy.org/datasets/bbd44e69cb8906b5bd1377fabf8242b3/display?to_ext=interval",
+                    fastaURL: "https://usegalaxy.org/datasets/bbd44e69cb8906b541142e7127c4657b/display?to_ext=fasta"
+                },
                 locus: this.locus,
                 tracks: this.tracks
             };
