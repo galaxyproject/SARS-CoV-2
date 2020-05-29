@@ -50,7 +50,6 @@ export default {
                     indexURL: "https://usegalaxy.org/datasets/bbd44e69cb8906b5bd1377fabf8242b3/display?to_ext=interval",
                     fastaURL: "https://usegalaxy.org/datasets/bbd44e69cb8906b541142e7127c4657b/display?to_ext=fasta"
                 },
-                locus: this.locus,
                 tracks: this.tracks
             };
             igv.createBrowser(this.$refs.igvdiv, options).then(function(browser) {
