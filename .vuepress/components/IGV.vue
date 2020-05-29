@@ -20,17 +20,24 @@ export default {
         },
         genome: {
             type: String,
-            default: "hg19"
+            default: "hg38"
         },
         tracks: {
             type: Array,
-            default: [
+            default: () => [
                 {
-                    url: "https://data.broadinstitute.org/igvdata/test/igv-web/segmented_data_080520.seg.gz",
-                    indexed: false,
-                    isLog: true,
-                    name: "Segmented CN"
-                }
+                    type: "variant",
+                    format: "vcf",
+                    url: "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz",
+                    indexURL: "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz.tbi",
+                    name: "1KG variants (chr22)",
+                    /*
+                    squishedCallHeight: 1,
+                    expandedCallHeight: 4,
+                    displayMode: "squished",
+                    visibilityWindow: 1000
+                    */
+                },
             ]
         }
     },
