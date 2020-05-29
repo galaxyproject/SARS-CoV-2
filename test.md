@@ -1,4 +1,7 @@
 ---
 pageClass: igv
 ---
-<IGV/>
+
+IGV Browser (WIP) CORS Test
+
+<IGV />
