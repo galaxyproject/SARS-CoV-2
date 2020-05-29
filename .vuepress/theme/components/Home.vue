@@ -90,7 +90,7 @@
                     </RouterLink>
                 </div>
                 <p>
-                    There are many complete genomes (over 1,000 in <a href="https://www.gisaid.org/">GISAID</a>) but
+                    There are many complete genomes but
                     only a handful of raw sequencing read datasets. We provide lists of raw read accessions for
                     <a
                         href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_illumina.txt"
