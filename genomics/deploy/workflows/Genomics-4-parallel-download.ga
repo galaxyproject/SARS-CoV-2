@@ -1,0 +1,288 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "Split a list of accessions, download in parallel",
+    "format-version": "0.1",
+    "name": "Parallel accession download Illumina",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Accessions"
+                }
+            ],
+            "label": "Accessions",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 254.94140625,
+                "top": 433.3984375
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "78a77d30-e1c7-4a19-85c2-ab07d1decd60",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "f2e0e64a-fb90-4d48-b26a-f217123b024a"
+                }
+            ]
+        },
+        "1": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+            "errors": null,
+            "id": 1,
+            "input_connections": {
+                "split_parms|input": {
+                    "id": 0,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Split file",
+            "outputs": [
+                {
+                    "name": "list_output_txt",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 325.44921875,
+                "top": 566.40625
+            },
+            "post_job_actions": {
+                "HideDatasetActionlist_output_txt": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "list_output_txt"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0",
+            "tool_shed_repository": {
+                "changeset_revision": "e77b954f0da5",
+                "name": "split_file_to_collection",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"split_parms\": {\"select_ftype\": \"txt\", \"__current_case__\": 5, \"input\": {\"__class__\": \"ConnectedValue\"}, \"select_mode\": {\"mode\": \"chunk\", \"__current_case__\": 0, \"chunksize\": \"1\"}, \"newfilenames\": \"split_file\", \"select_allocate\": {\"allocate\": \"byrow\", \"__current_case__\": 2}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.4.0",
+            "type": "tool",
+            "uuid": "4a19e8b2-d02a-4cbb-8fc6-521db61fe36a",
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": "param_value_from_file",
+            "errors": null,
+            "id": 2,
+            "input_connections": {
+                "input1": {
+                    "id": 1,
+                    "output_name": "list_output_txt"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Parse parameter value",
+            "outputs": [
+                {
+                    "name": "text_param",
+                    "type": "expression.json"
+                }
+            ],
+            "position": {
+                "left": 516.97265625,
+                "top": 393.3984375
+            },
+            "post_job_actions": {},
+            "tool_id": "param_value_from_file",
+            "tool_state": "{\"input1\": {\"__class__\": \"ConnectedValue\"}, \"param_type\": \"text\", \"remove_newlines\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.1.0",
+            "type": "tool",
+            "uuid": "a91350eb-2c68-4d0a-a4eb-4483841538da",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "text_param",
+                    "uuid": "2e16a21b-64f7-4613-93ec-d03c398287f6"
+                }
+            ]
+        },
+        "3": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.4+galaxy2",
+            "errors": null,
+            "id": 3,
+            "input_connections": {
+                "input|accession": {
+                    "id": 2,
+                    "output_name": "text_param"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Faster Download and Extract Reads in FASTQ",
+            "outputs": [
+                {
+                    "name": "list_paired",
+                    "type": "input"
+                },
+                {
+                    "name": "output_collection",
+                    "type": "input"
+                },
+                {
+                    "name": "output_collection_other",
+                    "type": "input"
+                },
+                {
+                    "name": "log",
+                    "type": "txt"
+                }
+            ],
+            "position": {
+                "left": 783.8671875,
+                "top": 494.375
+            },
+            "post_job_actions": {
+                "HideDatasetActionlist_paired": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "list_paired"
+                },
+                "HideDatasetActionlog": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "log"
+                },
+                "HideDatasetActionoutput_collection": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "output_collection"
+                },
+                "HideDatasetActionoutput_collection_other": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "output_collection_other"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.4+galaxy2",
+            "tool_shed_repository": {
+                "changeset_revision": "c441583adae5",
+                "name": "sra_tools",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"adv\": {\"minlen\": \"\", \"split\": \"--split-3\", \"skip_technical\": \"true\"}, \"input\": {\"input_select\": \"accession_number\", \"__current_case__\": 0, \"accession\": {\"__class__\": \"ConnectedValue\"}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.10.4+galaxy2",
+            "type": "tool",
+            "uuid": "3055b0e0-d6df-4fef-b314-4307621197b5",
+            "workflow_outputs": []
+        },
+        "4": {
+            "annotation": "",
+            "content_id": "__APPLY_RULES__",
+            "errors": null,
+            "id": 4,
+            "input_connections": {
+                "input": {
+                    "id": 3,
+                    "output_name": "list_paired"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Apply Rule to Collection",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 1120.91796875,
+                "top": 519.375
+            },
+            "post_job_actions": {
+                "TagDatasetActionoutput": {
+                    "action_arguments": {
+                        "tags": "name:PE"
+                    },
+                    "action_type": "TagDatasetAction",
+                    "output_name": "output"
+                }
+            },
+            "tool_id": "__APPLY_RULES__",
+            "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"rules\": {\"mapping\": [{\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"columns\": [1], \"connectable\": true, \"editing\": false, \"is_workflow\": false, \"type\": \"list_identifiers\"}, {\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"columns\": [2], \"connectable\": true, \"is_workflow\": false, \"type\": \"paired_identifier\"}], \"rules\": [{\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"connectable\": true, \"error\": null, \"is_workflow\": false, \"type\": \"add_column_metadata\", \"value\": \"identifier0\", \"warn\": null}, {\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"connectable\": true, \"error\": null, \"is_workflow\": false, \"type\": \"add_column_metadata\", \"value\": \"identifier1\", \"warn\": null}, {\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"connectable\": true, \"error\": null, \"is_workflow\": false, \"type\": \"add_column_metadata\", \"value\": \"identifier2\", \"warn\": null}]}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "e1f200d2-7df5-4fe7-b6cc-990c63079fab",
+            "workflow_outputs": [
+                {
+                    "label": "Paired End Illumina Reads",
+                    "output_name": "output",
+                    "uuid": "14a0262d-5fad-462f-af7c-262ae4184f5e"
+                }
+            ]
+        },
+        "5": {
+            "annotation": "",
+            "content_id": "__APPLY_RULES__",
+            "errors": null,
+            "id": 5,
+            "input_connections": {
+                "input": {
+                    "id": 3,
+                    "output_name": "output_collection"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Apply Rule to Collection",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 1117.96875,
+                "top": 655.4296875
+            },
+            "post_job_actions": {
+                "TagDatasetActionoutput": {
+                    "action_arguments": {
+                        "tags": "name:SE"
+                    },
+                    "action_type": "TagDatasetAction",
+                    "output_name": "output"
+                }
+            },
+            "tool_id": "__APPLY_RULES__",
+            "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"rules\": {\"mapping\": [{\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"columns\": [1], \"connectable\": true, \"editing\": false, \"is_workflow\": false, \"type\": \"list_identifiers\"}], \"rules\": [{\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"connectable\": true, \"error\": null, \"is_workflow\": false, \"type\": \"add_column_metadata\", \"value\": \"identifier0\", \"warn\": null}, {\"collapsible_value\": {\"__class__\": \"RuntimeValue\"}, \"connectable\": true, \"error\": null, \"is_workflow\": false, \"type\": \"add_column_metadata\", \"value\": \"identifier1\", \"warn\": null}]}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "5c7ac804-a1b7-407a-bb63-568580a2a21c",
+            "workflow_outputs": [
+                {
+                    "label": "Single End Illumina Reads",
+                    "output_name": "output",
+                    "uuid": "f4a860af-4aa3-4e49-8333-6006acecbe93"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "b11bbad4-d5fa-461e-ac96-28322829907c",
+    "version": 10
+}
