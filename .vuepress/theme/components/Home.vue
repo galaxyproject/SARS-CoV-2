@@ -79,6 +79,38 @@
                     </li>
                 </ul>
             </div>
+            <div class="feature">
+                <RouterLink :to="'/proteomics/'">
+                    <h2>Proteomics</h2>
+                    <h4>Mass Spectrometry</h4>
+                    <img :src="$withBase('./img/mp.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/proteomics/maxquat/'">MaxQuant</RouterLink></li>
+                    <li><RouterLink :to="'/proteomics/search_gui/'">Search GUI / PeptideShaker</RouterLink></li>
+                </ul>
+            </div>
+            <div class="feature">
+                <RouterLink :to="'/artic/'">
+                    <h2>Artic</h2>
+                    <h4>Analysing Artic data</h4>
+                    <img :src="$withBase('./img/artic.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/cheminformatics/amplicon/'">Amplicon Analysis</RouterLink></li>
+                </ul>
+            </div>
+            <div class="feature">
+                <RouterLink :to="'/direct-rnaseq/'">
+                    <h2>direct RNA-seq</h2>
+                    <h4>direct RNA-seq data analysis</h4>
+                    <img :src="$withBase('./img/mp.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/direct-rnaseq/preprocessing/'">Pre-Processing</RouterLink></li>
+                    <li><RouterLink :to="'/direct-rnaseq/epigenetics/'">RNA Epigenetics</RouterLink></li>
+                </ul>
+            </div>
         </div>
         <h1>Results</h1>
         <p>Each analysis section is continuously updated as new data becomes available. The main highlights are:</p>
