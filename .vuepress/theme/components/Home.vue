@@ -104,7 +104,7 @@
                 <RouterLink :to="'/direct-rnaseq/'">
                     <h2>direct RNA-seq</h2>
                     <h4>direct RNA-seq data analysis</h4>
-                    <img :src="$withBase('./img/mp.png')" />
+                    <img :src="$withBase('./img/drna.png')" />
                 </RouterLink>
                 <ul>
                     <li><RouterLink :to="'/direct-rnaseq/preprocessing/'">Pre-Processing</RouterLink></li>
