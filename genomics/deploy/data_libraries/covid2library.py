@@ -10,7 +10,7 @@ import numpy as np
 #url = "http://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/genomics/4-Variation/current_metadata.tsv"
 metadata = pd.read_csv('current_metadata.tsv', sep='\t')
 
-
+## change the API key and the folder IDs to the ones of the local instance
 api_key = "c19721472864266ff4654eeb040e605c"
 ion_torrent_folder_id="Ffabedfbfd961377c"
 nanopore_folder_id="F6ff2ddf61501960e"
