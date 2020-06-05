@@ -1,12 +1,15 @@
 import bioblend
 import os
+import sys
 import time
 from bioblend import galaxy
 
 import pandas as pd
+import numpy as np
 
 #url = "http://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/genomics/4-Variation/current_metadata.tsv"
 metadata = pd.read_csv('current_metadata.tsv', sep='\t')
+
 
 api_key = "c19721472864266ff4654eeb040e605c"
 ion_torrent_folder_id="Ffabedfbfd961377c"
@@ -43,7 +46,7 @@ for filename in os.listdir(server_dir):
     if not already_uploaded:
         print(f'Upload of: {filepath}')
 
-        instrument = metadata.query(f'run_accession == "{dataset_accession}"')['instrument'].item().lower()
+        instrument = metadata.query(f'run_accession == "{dataset_accession}"')['instrument_model'].item().lower()
         if "illumina" in instrument or 'nextseq' in instrument or 'bgiseq' in instrument:
             folder_id = illumina_folder_id
         elif 'minion' in instrument or 'gridion' in instrument:
@@ -51,6 +54,7 @@ for filename in os.listdir(server_dir):
         elif 'torrent' in instrument:
             folder_id = ion_torrent_folder_id
         else:
+            continue
             sys.exit(f'Found unknown instrument ({instrument}) for {filepath}')
         
         new = gi.libraries.upload_from_galaxy_filesystem(library_id=library_id,
@@ -71,8 +75,16 @@ for filename in os.listdir(server_dir):
 
     print('accession', dataset_accession, dataset_id)
     desc = None
-    desc = metadata.query(f'run_accession == "{dataset_accession}"')['experiment_desc'].item()
-
-    if desc:
-        gi.libraries.update_library_dataset(dataset_id, misc_info=f'{desc} (https://www.ebi.ac.uk/ena/data/view/{dataset_accession})')
+    
+    meta = metadata.query(f'run_accession == "{dataset_accession}"')
+    if not meta.empty:
+        desc = metadata.query(f'run_accession == "{dataset_accession}"')['description'].item()
+        country = metadata.query(f'run_accession == "{dataset_accession}"')['country'].item()
+        if desc:
+            if country != np.nan:
+                country = '[%s]' % country
+            else:
+                country = ''
+            info = f'{desc} {country} (https://www.ebi.ac.uk/ena/data/view/{dataset_accession})'
+            gi.libraries.update_library_dataset(dataset_id, misc_info=info)
 
