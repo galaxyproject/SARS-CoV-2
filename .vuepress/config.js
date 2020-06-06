@@ -19,6 +19,10 @@ module.exports = {
             {
                 text: "Evolution",
                 link: "/evolution/"
+            },
+            {
+                text: "Direct RNAseq",
+                link: "/direct-rnaseq/"
             }
         ],
         sidebar: {
@@ -46,7 +50,13 @@ module.exports = {
             "/evolution/": [
                 "/evolution/",
                 "/evolution/1-DiversityDivergence",
-            ]
+            ],
+            "/direct-rnaseq/": [
+                "/direct-rnaseq/",
+                "/direct-rnaseq/1-preprocessing/",
+                "/direct-rnaseq/2-methylation/",
+            ],
+
 
         },
         sidebarDepth: 3,
