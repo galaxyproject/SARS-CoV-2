@@ -27,17 +27,16 @@ FULL_WORKFLOW = {'a_galaxy_workflow': 'true', 'annotation': '', 'format-version'
 @click.option('-n', '--new_history_name', help="Create a new history with this name. Will not be used if history ID is provided.")
 @click.option('--publish/--private', default=False, help="Publish history?")
 @click.option('--monitor_invocation/--no_monitor_invocation', default=False, help="Print workflow invocation status updates?")
+@click.option('--workflow_id_override', default=None, help="Override workflow to run with this workflow id or uuid")
 @click.option('--quiet', default=False, help='Decrease logging output')
-def run_download_and_se_pe_illumina_covid_variation_workflow(nc_45512_genbank_file, accessions_file, api_key, galaxy_url, history_id, new_history_name, publish, monitor_invocation, quiet):
+def run_download_and_se_pe_illumina_covid_variation_workflow(nc_45512_genbank_file, accessions_file, api_key, galaxy_url, history_id, new_history_name, publish, monitor_invocation, workflow_id_override, quiet):
     """
     Run Download and SE+PE Illumina Covid Variation Workflow workflow
-
-    Downloads reads from SRA and runs SE and PE COVID-19 variation workflows
     """
     if quiet:
         log.setLevel(logging.ERROR)
     gi = bioblend.galaxy.GalaxyInstance(galaxy_url, api_key)
-    workflow_id = 'ca7aac6e-e32a-4b42-adbd-5394e86167b6'
+    workflow_id = workflow_id_override or 'ca7aac6e-e32a-4b42-adbd-5394e86167b6'
     try:
         gi.workflows.show_workflow(workflow_id)
     except Exception:
