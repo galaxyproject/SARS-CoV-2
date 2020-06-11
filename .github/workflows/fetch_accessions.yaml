@@ -70,7 +70,7 @@ jobs:
       env:
         GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}
     - name: Trigger Galaxy Workflow on usegalaxy.eu
-      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -g https://usegalaxy.eu -a $GALAXY_API_KEY --workflow_id_override dd51b845f8c5f8d5
+      run: python covid_genome.py --accessions_file illumina_$(date +%F).txt --nc_45512_genbank_file NC_045512.2.genbank -n "$(date +%F) Update" --publish -g https://usegalaxy.eu -a $GALAXY_API_KEY
       env:
         GALAXY_API_KEY: ${{ secrets.GALAXY_EU_API_KEY }}
     - name: Trigger Galaxy Workflow on usegalaxy.fr
