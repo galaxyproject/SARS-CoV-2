@@ -58,7 +58,7 @@ module.exports = {
             "/direct-rnaseq/": [
                 "/direct-rnaseq/",
                 "/direct-rnaseq/1-preprocessing/",
-                "/direct-rnaseq/2-methylation/",
+                "/direct-rnaseq/2-epigenetics/",
             ],
             "/proteomics/": [
                 "/proteomics/",
