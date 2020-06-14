@@ -1,0 +1,35 @@
+								
+								
+								
+						956	958	"B-cell epitope, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01"
+						958	959	"B-cell epitope, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01, HLA-A*02:01"
+						959	965	"B-cell epitope, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01, HLA-A*02:01, HLA-DRB1*01:01"
+						965	967	"B-cell epitope, HLA-A*02:01, HLA-DRB1*01:01"
+						967	975	"B-cell epitope, HLA-DRB1*01:01"
+						975	976	"B-cell epitope, HLA-DRB1*01:01, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01, "
+	1009	1025	"B-cell epitope, HLA-DRB1*01:01"			976	982	"B-cell epitope, HLA-DRB1*01:01, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01, HLA-A*02:01"
+	1020	1025	"B-cell epitope, HLA-DRB1*01:01, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01 ,HLA-A*31:01"			982	984	"B-cell epitope, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01, HLA-A*02:01"
+	1025	1029	"B-cell epitope, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01 ,HLA-A*31:01"			984	991	"B-cell epitope, HLA-A*02:01"
+	1039	1048	"B-cell epitope, HLA-B*15:01, HLA-B*27:05, HLA-B*58:01 , HLA-C*15:02"			991	992	"B-cell epitope, HLA-A*02:01, HLA-A*03:01, HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01, "
+	1056	1059	"B-cell epitope, HLA-B*07:02, HLA-B*35:01 , HLA-B*51:01"			992	993	"B-cell epitope, HLA-A*03:01, HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01, "
+	1059	1066	"B-cell epitope, HLA-B*07:02, HLA-B*35:01 , HLA-B*51:01, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01"			993	996	"B-cell epitope, HLA-A*03:01, HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01, HLA-DRB1*01:01,"
+	1066	1068	"B-cell epitope, HLA-A*03:01, HLA-A*11:01, HLA-A*68:01, HLA-A*31:01"			996	998	"B-cell epitope, HLA-A*03:01, HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01, HLA-DRB1*01:01,HLA-A*02:01"
+						998	999	"B-cell epitope, HLA-A*03:01, HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01, HLA-DRB1*01:01,HLA-A*02:01, HLA-DRB1*01:01"
+						999	1001	"B-cell epitope, HLA-A*03:01, HLA-A*11:01 HLA-A*68:01 HLA-A*31:01 HLA-A*33:01, HLA-DRB1*01:01,HLA-A*02:01, HLA-DRB1*01:01,HLA-B*27:05, "
+						1001	1008	"B-cell epitope, HLA-DRB1*01:01,HLA-A*02:01, HLA-B*27:05 "
+						1008	1008	"B-cell epitope, HLA-DRB1*01:01,HLA-A*02:01,"
+						1009	1025	"B-cell epitope, HLA-DRB1*01:01"
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+	957	974	T-cell epitope	HLA-DRB1*04:01				
+	1011	1029	T-cell epitope	HLA-DRB1*04:01				
+	1060	1069		HLA-A*02:01				

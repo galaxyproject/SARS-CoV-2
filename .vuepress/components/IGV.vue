@@ -27,12 +27,9 @@ export default {
             default: () => [
                 {
                     type: "variant",
-                    format: "vcf",
-                    url:
-                        "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz",
-                    indexURL:
-                        "https://usegalaxy.org/display_application/bbd44e69cb8906b5f2777bc55853e839/igv_vcf/local_default/None/data/galaxy_bbd44e69cb8906b5f2777bc55853e839.vcf.gz.tbi",
-                    name: "SARS-CoV-2 variant test"
+                    format: "mut",
+                    url: "/genomics/variant_list.05.mut",
+                    name: "Mut test"
                 }
             ]
         }
@@ -47,8 +44,8 @@ export default {
                 reference: {
                     id: "wuhCor1",
                     name: "SARS-CoV-2",
-                    indexURL: "https://usegalaxy.org/datasets/bbd44e69cb8906b5bd1377fabf8242b3/display?to_ext=interval",
-                    fastaURL: "https://usegalaxy.org/datasets/bbd44e69cb8906b541142e7127c4657b/display?to_ext=fasta"
+                    indexURL: "/genomics/wuhCor1.fasta.fai",
+                    fastaURL: "/genomics/wuhCor1.fasta"
                 },
                 tracks: this.tracks
             };
