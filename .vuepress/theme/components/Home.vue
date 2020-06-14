@@ -83,7 +83,7 @@
                 <RouterLink :to="'/proteomics/'">
                     <h2>Proteomics</h2>
                     <h4>Mass Spectrometry</h4>
-                    <img :src="$withBase('./img/mp.png')" />
+                    <img :src="$withBase('./img/pro.jpg')" />
                 </RouterLink>
                 <ul>
                     <li><RouterLink :to="'/proteomics/maxquat/'">MaxQuant</RouterLink></li>
