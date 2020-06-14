@@ -23,6 +23,10 @@ module.exports = {
             {
                 text: "Direct RNAseq",
                 link: "/direct-rnaseq/"
+            },
+            {
+                text: "Proteomics",
+                link: "/proteomics/"
             }
         ],
         sidebar: {
@@ -56,7 +60,12 @@ module.exports = {
                 "/direct-rnaseq/1-preprocessing/",
                 "/direct-rnaseq/2-methylation/",
             ],
-
+            "/proteomics/": [
+                "/proteomics/",
+                "/proteomics/PXD018804/",
+                "/proteomics/PXD018682/",
+                "/proteomics/PXD018594/",
+            ],
 
         },
         sidebarDepth: 3,
