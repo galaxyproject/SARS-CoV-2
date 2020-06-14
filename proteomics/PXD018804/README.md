@@ -15,13 +15,17 @@ Powered by:
 | <FlatShield label="PDX018804-Q10486-90 history" message="view" href="https://usegalaxy.eu/u/subina/h/imported-search-pxd018804-q10486-90" alt="Galaxy history" /> |
 | <FlatShield label="PDX018804-Q10511-15 history" message="view" href="https://usegalaxy.eu/u/subina/h/imported-search-pxd018804-q10511-15" alt="Galaxy history" /> |
 
+## Description
 
-Gouveia et al processed SARS-CoV-2 infected Vero cells to generate a high-resolution mass spectrometry dataset.
+[Gouveia et al](https://onlinelibrary.wiley.com/doi/abs/10.1002/pmic.202000107) processed SARS-CoV-2 infected Vero cells to
+generate a high-resolution mass spectrometry dataset.
 The original study proposes a list of experimentally observed peptides for their possible use in targeted method development.
 The bioinformatic workflow used a stepwise search wherein a first search against contaminant and bovine proteins was used to
 eliminate spectra that were associated with any adventitious proteins. In the second step, the data was searched against
 the protein database with Chlorocebus sequences and the Italy-INMI1 SARS-CoV-2 sequences to detect SARS-CoV-2 peptides.
 The peptides detected from six viral proteins were further analyzed for their proteotypicity and specificity.
+
+## Workflow
 
 ![](../img/wf.png)
 

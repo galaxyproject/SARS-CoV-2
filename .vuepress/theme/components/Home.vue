@@ -93,7 +93,7 @@
             <div class="feature">
                 <RouterLink :to="'/artic/'">
                     <h2>Artic</h2>
-                    <h4>Analysing Artic data</h4>
+                    <h4>Amplicon based data analysis</h4>
                     <img :src="$withBase('./img/artic.png')" />
                 </RouterLink>
                 <ul>
