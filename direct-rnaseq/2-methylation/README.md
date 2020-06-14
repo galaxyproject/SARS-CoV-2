@@ -6,7 +6,7 @@ title: direct RNA-seq methylation analysis
 | usegalaxy.eu |
 |:--------:|
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/milad/w/ont-drs-nanocompore-methylation-collection" alt="Galaxy workflow" /> |
-| <FlatShield label="history" message="view" href="https://usegalaxy.org/u/aun1/h/covid-19-assembly" alt="Galaxy history" /> |
+|  |
 
 
 ### Methylation analysis
