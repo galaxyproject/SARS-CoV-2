@@ -107,8 +107,8 @@
                     <img :src="$withBase('./img/drna.png')" />
                 </RouterLink>
                 <ul>
-                    <li><RouterLink :to="'/direct-rnaseq/preprocessing/'">Pre-Processing</RouterLink></li>
-                    <li><RouterLink :to="'/direct-rnaseq/epigenetics/'">RNA Epigenetics</RouterLink></li>
+                    <li><RouterLink :to="'/direct-rnaseq/1-preprocessing/'">Pre-Processing</RouterLink></li>
+                    <li><RouterLink :to="'/direct-rnaseq/2-epigenetics/'">RNA Epigenetics</RouterLink></li>
                 </ul>
             </div>
         </div>
