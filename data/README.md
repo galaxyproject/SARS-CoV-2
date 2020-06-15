@@ -2,11 +2,15 @@
 title: COVID-19 data mirrored in Galaxy
 ---
 
-<p class="shieldlist">
-    COVID-19 data is mirrored in the following Galaxy instances. No download needed.
-    <FlatShield label="usegalaxy" message="eu" href="https://bit.ly/usegalaxy-eu-covid19-data"/>
-    <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org/library/list#folders/Fe878daae442969ff"/>
-</p>
+## Live Resources
+
+COVID-19 data is mirrored in the following Galaxy instances. No download needed.<br>
+
+| usegalaxy.eu | usegalaxy.org |
+|:--------:|:------------:|
+| <FlatShield label="usegalaxy" message="eu" href="https://bit.ly/usegalaxy-eu-covid19-data"/> | <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org/library/list#folders/Fe878daae442969ff"/> |
+| | |
+
 
 ## COVID-19 resources available as data library
 
