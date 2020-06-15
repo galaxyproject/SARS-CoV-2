@@ -5,9 +5,10 @@ title: COVID-19 data mirrored in Galaxy
 <p class="shieldlist">
     COVID-19 data is mirrored in the following Galaxy instances. No download needed.
     <FlatShield label="usegalaxy" message="eu" href="https://bit.ly/usegalaxy-eu-covid19-data"/>
+    <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org/library/list#folders/Fe878daae442969ff"/>
 </p>
 
-## COVID-19 resources in the EU data library
+## COVID-19 resources available as data library
 
 The covid-19 folder of the shared data library contains a huge amount of SARS-CoV-2 data from public sources that we mirror here to streamline analyses on our server. We are also using this folder to deposit precomputed analysis results for further processing by you.
 
