@@ -15,7 +15,7 @@ Powered by:
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F61b36ed9cec77ec5" alt="Raw data" /> |
 | <FlatShield label="PDX018682 history" message="view" href="https://usegalaxy.eu/u/subina/h/covid-19pxd018682" alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="" alt="Galaxy workflow" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/subina/w/covid-19pxd018682workflow" alt="Galaxy workflow" /> |
 
 
 ## Description
@@ -26,6 +26,8 @@ In the original manuscript, the authors detect peptides from SARS-CoV-2 virus pr
 This study is an initiative in developing a  routine MS-based diagnostic method for COVID-19 patients.
 
 ## Workflow
+
+![](../img/wf.png)
 
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of Human
 Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with SearchGUI
