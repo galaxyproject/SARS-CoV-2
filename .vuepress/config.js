@@ -27,6 +27,10 @@ module.exports = {
             {
                 text: "Proteomics",
                 link: "/proteomics/"
+            },
+            {
+                text: "Data",
+                link: "/data/"
             }
         ],
         sidebar: {
