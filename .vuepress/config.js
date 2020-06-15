@@ -64,9 +64,13 @@ module.exports = {
                 "/proteomics/",
                 "/proteomics/PXD018804/",
                 "/proteomics/PXD018682/",
-                "/proteomics/PXD018594/",
+                //"/proteomics/PXD018594/",
+                "/proteomics/PXD018117/",
             ],
-
+            "/data/": [
+                "/data/",
+                "/data/gisaid/",
+            ],
         },
         sidebarDepth: 3,
         displayAllHeaders: true,

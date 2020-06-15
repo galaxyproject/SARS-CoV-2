@@ -1,8 +1,6 @@
 ---
-title: data
+title: COVID-19 data mirrored in Galaxy
 ---
-
-* [sequence data availability](data-availability)
 
 <p class="shieldlist">
     COVID-19 data is mirrored in the following Galaxy instances. No download needed.
@@ -22,7 +20,7 @@ The Export to History functionality of the shared data library offers powerful o
 
 Currently, we host imaging, proteomics and next-generation sequencing (NGS) data on SARS-CoV-2.
 
-### NGS datasets in the data library
+## NGS datasets in the data library
 
 For the NGS data, in particular, we are trying to offer streamlined access to our users to all SARS-CoV-2 public short reads data deposited in the NCBI SRA or at ENA.
 
@@ -136,7 +134,7 @@ To export only paired-end data as a List of Pairs Collection into your history .
 7. Give the collection to be created a name, then click Create
 
 
-### COVID-19 shared histories
+## COVID-19 shared histories
 
 We are trying to document our own analyses of SARS-CoV-2 data, in particular those following the documented workflows of the usegalaxy.* COVID-19 analysis project, by sharing the resulting histories.
 
