@@ -1,7096 +1,2696 @@
-NC_045512	Annotation	Impact	Reference	Variant
-1				no
-2				no
-3				no
-4				no
-5				no
-6				no
-7				no
-8				no
-9				no
-10				no
-11				no
-12				no
-13				no
-14				no
-15				no
-16				no
-17				no
-18				no
-19				no
-20				no
-21				no
-22				no
-23				no
-24				no
-25				no
-26				no
-27				no
-28				no
-29				no
-30				no
-31				no
-32				no
-33				no
-34				no
-35				no
-36				no
-37				no
-38				no
-39				no
-40				no
-41				no
-42				no
-43				no
-44				no
-45				no
-46				no
-47				no
-48				no
-49				no
-50				no
-51				no
-52				no
-53				no
-54				no
-55				no
-56				no
-57				no
-58				no
-59				no
-60				no
-61				no
-62				no
-63				no
-64				no
-65				no
-66				no
-67				no
-68				no
-69				no
-70				no
-71				no
-72				no
-73				no
-74				no
-75				no
-76				no
-77				no
-78				no
-79				no
-80				no
-81				no
-82				no
-83				no
-84				no
-85				no
-86				no
-87				no
-88				no
-89				no
-90				no
-91				no
-92				no
-93				no
-94				no
-95				no
-96				no
-97				no
-98				no
-99				no
-100				no
-101				no
-102				no
-103				no
-104				no
-105				no
-106				no
-107				no
-108				no
-109				no
-110				no
-111				no
-112				no
-113				no
-114				no
-115				no
-116				no
-117				no
-118				no
-119				no
-120				no
-121				yes
-122	NiRAN, NTD ()N terminal Domain)		10.1371/journal.ppat.1000428, 10.1126/science.abb7498, 10.1093/nar/gkg916	yes
-123	NiRAN, NTD		10.1371/journal.ppat.1000428, 10.1016/j.virusres.2017.01.023, 10.1126/science.abb7498 10.1093/nar/gkg916	yes
-124	NiRAN, NTD,  RNA interaction in RNA binding channel		10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916, 10.1074/jbc.ra120.013679	yes
-125	NiRAN, NTD		10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916	yes
-126	NiRAN, NTD		10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916	yes
-127	NiRAN, NTD		10.1126/science.abb7498 10.1093/nar/gkg916	yes
-128	NiRAN, NTD		10.1093/nar/gkg916	yes
-129	NiRAN, NTD		10.1093/nar/gkg916	yes
-130	Interface domain, NTD		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
-131	Interface domain, NTD		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
-132	Interface domain, NTD		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
-133	Interface domain, NTD		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
-134	Interface domain, Observed stable mutation in Europe (mostly) and North America, NTD		10.1186/s12967-020-02344-6, 10.1038/s41467-019-10280-3, 10.1016/j.ygeno.2020.04.016 10.1093/nar/gkg916	yes
-135	C-ter portion, “right hand” RdRp domain, Fingers Domain		10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916	yes
-136	C-ter portion, “right hand” RdRp domain, Fingers Domain		10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916	yes
-137	C-ter portion, “right hand” RdRp domain, Fingers Domain		10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916	yes
-138	C-ter portion, Domain G (Positioning of template overhang), “right hand” RdRp domain		10.1093/nar/gkg916, 10.1126/science.abb7498	yes
-139	C-ter portion, Fingers Domain,  Interaction with RNA, “right hand” RdRp domain		10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498	yes
-140	C-ter portion, Fingers Domain, “right hand” RdRp domain		10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498	yes
-141	RdRp domain; Palm domain, A motif, tested for resistance to ntp analogues antiviral, no impact., C-ter portion, “right hand” RdRp domain		10.1128/JVI.00080-16, 10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1126/science.abb7498	yes
-142	RdRp domain;, C-ter portion; Palm domain, “right hand” RdRp domain		10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498	yes
-143	RdRp domain; C-ter portion; Palm domain, “right hand” RdRp domain		10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498	yes
-144	RdRp domain; C-ter portion; Palm domain, “right hand” RdRp domain		10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498	yes
-145	RdRp domain; Palm;, C-ter portion, C Domain, “right hand” RdRp domain		10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
-146	C-ter portion, “right hand” RdRp domain		10.1093/nar/gkg916, 10.1126/science.abb7498	yes
-147	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
-148	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
-149	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
-150	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
-151	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-152	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-153	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-154	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-155				yes
-156	North America Mutation. other mutations more likely to appear, superfamily 1 helicase		10.1186/s12967-020-02344-6; 10.3389/fmicb.2019.01813, 10.1016/j.ygeno.2020.04.016, 	yes
-157	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-158	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-159	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-160	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
-161	N-terminal ExoN domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-162	N-terminal ExoN domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-163	N-terminal ExoN domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-164	N-terminal ExoN domain		10.1016/j.virusres.2017.01.023,1 0.3389/fmicb.2019.01813	yes
-165	Partially conserved residue, N-terminal ExoN domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-166	N-terminal ExoN domain		10.1016/j.virusres.2017.01.023, 10.3389/fmicb.2019.01813	yes
-167	N-terminal ExoN domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-168	N-terminal ExoN domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-169	C- terminal N7-methyl transferase domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-170	C- terminal N7-methyl transferase domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-171	C- terminal N7-methyl transferase domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-172	C- terminal N7-methyl transferase domain		10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023	yes
-173	central domain			yes
-174	uridine-specific endoribonuclease, EndoU uridylate-specific endoribonuclease, XendoU homolog, central domain		10.1016/j.virusres.2017.01.023, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103	yes
-175	 C-terminal Domain			yes
-176	uridine-specific endoribonuclease, Mutation reported, wild type phenotype, EndoU uridylate-specific endoribonuclease, XendoU homolog, C-terminal Domain		10.1073/pnas.0601708103, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103	yes
-177				yes
-178				yes
-179				yes
-180	core MTase domain		10.1371/journal.ppat.1002294	yes
-181	core MTase domain		10.1371/journal.ppat.1002294	yes
-182				yes
-183				yes
-184				no
-185				no
-186				no
-187				no
-188				no
-189				no
-190				no
-191				no
-192				no
-193				no
-194				no
-195				no
-196				no
-197				no
-198				no
-199				no
-200				no
-201				no
-202				no
-203				no
-204				no
-205				no
-206				no
-207				no
-208				no
-209				no
-210				no
-211				no
-212				no
-213				no
-214				no
-215				no
-216				no
-217				no
-218				no
-219				no
-220				no
-221				no
-222				no
-223				no
-224				no
-225				no
-226				no
-227				no
-228				no
-229				no
-230				no
-231				no
-232				no
-233				no
-234				no
-235				no
-236				no
-237				no
-238				no
-239				no
-240				no
-241				no
-242				no
-243				no
-244				no
-245				no
-246				no
-247				no
-248				no
-249				no
-250				no
-251				no
-252				no
-253				no
-254				no
-255				no
-256				no
-257				no
-258				no
-259				no
-260				no
-261				no
-262				no
-263				no
-264				no
-265				no
-266				no
-267				no
-268				no
-269				no
-270				no
-271				no
-272				no
-273				no
-274				no
-275				no
-276				no
-277				no
-278				no
-279				no
-280				no
-281				no
-282				no
-283				no
-284				no
-285				no
-286				no
-287				no
-288				no
-289				no
-290				no
-291				no
-292				no
-293				no
-294				no
-295				no
-296				no
-297				no
-298				no
-299				no
-300				no
-301				no
-302				no
-303				no
-304				no
-305				no
-306				no
-307				no
-308				no
-309				no
-310				no
-311				no
-312				no
-313				no
-314				no
-315				no
-316				no
-317				no
-318				no
-319				no
-320				no
-321				no
-322				no
-323				no
-324				no
-325				no
-326				no
-327				no
-328				no
-329				no
-330				no
-331				no
-332				no
-333				no
-334				no
-335				no
-336				no
-337				no
-338				no
-339				no
-340				no
-341				no
-342				no
-343				no
-344				no
-345				no
-346				no
-347				no
-348				no
-349				no
-350				no
-351				no
-352				no
-353				no
-354				no
-355				no
-356				no
-357				no
-358				no
-359				no
-360				no
-361				no
-362				no
-363				no
-364				no
-365				no
-366				no
-367				no
-368				no
-369				no
-370				no
-371				no
-372				no
-373				no
-374				no
-375				no
-376				no
-377				no
-378				no
-379				no
-380				no
-381				no
-382				no
-383				no
-384				no
-385				no
-386				no
-387				no
-388				no
-389				no
-390				no
-391				no
-392				no
-393				no
-394				no
-395				no
-396				no
-397				no
-398				no
-399				no
-400				no
-401				no
-402				no
-403				no
-404				no
-405				no
-406				no
-407				no
-408				no
-409				no
-410				no
-411				no
-412				no
-413				no
-414				no
-415				no
-416				no
-417				no
-418				no
-419				no
-420				no
-421				no
-422				no
-423				no
-424				no
-425				no
-426				no
-427				no
-428				no
-429				no
-430				no
-431				no
-432				no
-433				no
-434				no
-435				no
-436				no
-437				no
-438				no
-439				no
-440				no
-441				no
-442				no
-443				no
-444				no
-445				no
-446				no
-447				no
-448				no
-449				no
-450				no
-451				no
-452				no
-453				no
-454				no
-455				no
-456				no
-457				no
-458				no
-459				no
-460				no
-461				no
-462				no
-463				no
-464				no
-465				no
-466				no
-467				no
-468				no
-469				no
-470				no
-471				no
-472				no
-473				no
-474				no
-475				no
-476				no
-477				no
-478				no
-479				no
-480				no
-481				no
-482				no
-483				no
-484				no
-485				no
-486				no
-487				no
-488				no
-489				no
-490				no
-491				no
-492				no
-493				no
-494				no
-495				no
-496				no
-497				no
-498				no
-499				no
-500				no
-501				no
-502				no
-503				no
-504				no
-505				no
-506				no
-507				no
-508				no
-509				no
-510				no
-511				no
-512				no
-513				no
-514				no
-515				no
-516				no
-517				no
-518				no
-519				no
-520				no
-521				no
-522				no
-523				no
-524				no
-525				no
-526				no
-527				no
-528				no
-529				no
-530				no
-531				no
-532				no
-533				no
-534				no
-535				no
-536				no
-537				no
-538				no
-539				no
-540				no
-541				no
-542				no
-543				no
-544				no
-545				no
-546				no
-547				no
-548				no
-549				no
-550				no
-551				no
-552				no
-553				no
-554				no
-555				no
-556				no
-557				no
-558				no
-559				no
-560				no
-561				no
-562				no
-563				no
-564				no
-565				no
-566				no
-567				no
-568				no
-569				no
-570				no
-571				no
-572				no
-573				no
-574				no
-575				no
-576				no
-577				no
-578				no
-579				no
-580				no
-581				no
-582				no
-583				no
-584				no
-585				no
-586				no
-587				no
-588				no
-589				no
-590				no
-591				no
-592				no
-593				no
-594				no
-595				no
-596				no
-597				no
-598				no
-599				no
-600				no
-601				no
-602				no
-603				no
-604				no
-605				no
-606				no
-607				no
-608				no
-609				no
-610				no
-611				no
-612				no
-613				no
-614				no
-615				no
-616				no
-617				no
-618				no
-619				no
-620				no
-621				no
-622				no
-623				no
-624				no
-625				no
-626				no
-627				no
-628				no
-629				no
-630				no
-631				no
-632				no
-633				no
-634				no
-635				no
-636				no
-637				no
-638				no
-639				no
-640				no
-641				no
-642				no
-643				no
-644				no
-645				no
-646				no
-647				no
-648				no
-649				no
-650				no
-651				no
-652				no
-653				no
-654				no
-655				no
-656				no
-657				no
-658				no
-659				no
-660				no
-661				no
-662				no
-663				no
-664				no
-665				no
-666				no
-667				no
-668				no
-669				no
-670				no
-671				no
-672				no
-673				no
-674				no
-675				no
-676				no
-677				no
-678				no
-679				no
-680				no
-681				no
-682				no
-683				no
-684				no
-685				no
-686				no
-687				no
-688				no
-689				no
-690				no
-691				no
-692				no
-693				no
-694				no
-695				no
-696				no
-697				no
-698				no
-699				no
-700				no
-701				no
-702				no
-703				no
-704				no
-705				no
-706				no
-707				no
-708				no
-709				no
-710				no
-711				no
-712				no
-713				no
-714				no
-715				no
-716				no
-717				no
-718				no
-719				no
-720				no
-721				no
-722				no
-723				no
-724				no
-725				no
-726				no
-727				no
-728				no
-729				no
-730				no
-731				no
-732				no
-733				no
-734				no
-735				no
-736				no
-737				no
-738				no
-739				no
-740				no
-741				no
-742				no
-743				no
-744				no
-745				no
-746				no
-747				no
-748				no
-749				no
-750				no
-751				no
-752				no
-753				no
-754				no
-755				no
-756				no
-757				no
-758				no
-759				no
-760				no
-761				no
-762				no
-763				no
-764				no
-765				no
-766				no
-767				no
-768				no
-769				no
-770				no
-771				no
-772				no
-773				no
-774				no
-775				no
-776				no
-777				no
-778				no
-779				no
-780				no
-781				no
-782				no
-783				no
-784				no
-785				no
-786				no
-787				no
-788				no
-789				no
-790				no
-791				no
-792				no
-793				no
-794				no
-795				no
-796				no
-797				no
-798				no
-799				no
-800				no
-801				no
-802				no
-803				no
-804				no
-805				no
-806				no
-807				no
-808				no
-809				no
-810				no
-811				no
-812				no
-813				no
-814				no
-815				no
-816				no
-817				no
-818				no
-819				no
-820				no
-821				no
-822				no
-823				no
-824				no
-825				no
-826				no
-827				no
-828				no
-829				no
-830				no
-831				no
-832				no
-833				no
-834				no
-835				no
-836				no
-837				no
-838				no
-839				no
-840				no
-841				no
-842				no
-843				no
-844				no
-845				no
-846				no
-847				no
-848				no
-849				no
-850				no
-851				no
-852				no
-853				no
-854				no
-855				no
-856				no
-857				no
-858				no
-859				no
-860				no
-861				no
-862				no
-863				no
-864				no
-865				no
-866				no
-867				no
-868				no
-869				no
-870				no
-871				no
-872				no
-873				no
-874				no
-875				no
-876				no
-877				no
-878				no
-879				no
-880				no
-881				no
-882				no
-883				no
-884				no
-885				no
-886				no
-887				no
-888				no
-889				no
-890				no
-891				no
-892				no
-893				no
-894				no
-895				no
-896				no
-897				no
-898				no
-899				no
-900				no
-901				no
-902				no
-903				no
-904				no
-905				no
-906				no
-907				no
-908				no
-909				no
-910				no
-911				no
-912				no
-913				no
-914				no
-915				no
-916				no
-917				no
-918				no
-919				no
-920				no
-921				no
-922				no
-923				no
-924				no
-925				no
-926				no
-927				no
-928				no
-929				no
-930				no
-931				no
-932				no
-933				no
-934				no
-935				no
-936				no
-937				no
-938				no
-939				no
-940				no
-941				no
-942				no
-943				no
-944				no
-945				no
-946				no
-947				no
-948				no
-949				no
-950				no
-951				no
-952				no
-953				no
-954				no
-955				no
-956				no
-957				no
-958				no
-959				no
-960				no
-961				no
-962				no
-963				no
-964				no
-965				no
-966				no
-967				no
-968				no
-969				no
-970				no
-971				no
-972				no
-973				no
-974				no
-975				no
-976				no
-977				no
-978				no
-979				no
-980				no
-981				no
-982				no
-983				no
-984				no
-985				no
-986				no
-987				no
-988				no
-989				no
-990				no
-991				no
-992				no
-993				no
-994				no
-995				no
-996				no
-997				no
-998				no
-999				no
-1000				no
-1001				no
-1002				no
-1003				no
-1004				no
-1005				no
-1006				no
-1007				no
-1008				no
-1009				no
-1010				no
-1011				no
-1012				no
-1013				no
-1014				no
-1015				no
-1016				no
-1017				no
-1018				no
-1019				no
-1020				no
-1021				no
-1022				no
-1023				no
-1024				no
-1025				no
-1026				no
-1027				no
-1028				no
-1029				no
-1030				no
-1031				no
-1032				no
-1033				no
-1034				no
-1035				no
-1036				no
-1037				no
-1038				no
-1039				no
-1040				no
-1041				no
-1042				no
-1043				no
-1044				no
-1045				no
-1046				no
-1047				no
-1048				no
-1049				no
-1050				no
-1051				no
-1052				no
-1053				no
-1054				no
-1055				no
-1056				no
-1057				no
-1058				no
-1059				no
-1060				no
-1061				no
-1062				no
-1063				no
-1064				no
-1065				no
-1066				no
-1067				no
-1068				no
-1069				no
-1070				no
-1071				no
-1072				no
-1073				no
-1074				no
-1075				no
-1076				no
-1077				no
-1078				no
-1079				no
-1080				no
-1081				no
-1082				no
-1083				no
-1084				no
-1085				no
-1086				no
-1087				no
-1088				no
-1089				no
-1090				no
-1091				no
-1092				no
-1093				no
-1094				no
-1095				no
-1096				no
-1097				no
-1098				no
-1099				no
-1100				no
-1101				no
-1102				no
-1103				no
-1104				no
-1105				no
-1106				no
-1107				no
-1108				no
-1109				no
-1110				no
-1111				no
-1112				no
-1113				no
-1114				no
-1115				no
-1116				no
-1117				no
-1118				no
-1119				no
-1120				no
-1121				no
-1122				no
-1123				no
-1124				no
-1125				no
-1126				no
-1127				no
-1128				no
-1129				no
-1130				no
-1131				no
-1132				no
-1133				no
-1134				no
-1135				no
-1136				no
-1137				no
-1138				no
-1139				no
-1140				no
-1141				no
-1142				no
-1143				no
-1144				no
-1145				no
-1146				no
-1147				no
-1148				no
-1149				no
-1150				no
-1151				no
-1152				no
-1153				no
-1154				no
-1155				no
-1156				no
-1157				no
-1158				no
-1159				no
-1160				no
-1161				no
-1162				no
-1163				no
-1164				no
-1165				no
-1166				no
-1167				no
-1168				no
-1169				no
-1170				no
-1171				no
-1172				no
-1173				no
-1174				no
-1175				no
-1176				no
-1177				no
-1178				no
-1179				no
-1180				no
-1181				no
-1182				no
-1183				no
-1184				no
-1185				no
-1186				no
-1187				no
-1188				no
-1189				no
-1190				no
-1191				no
-1192				no
-1193				no
-1194				no
-1195				no
-1196				no
-1197				no
-1198				no
-1199				no
-1200				no
-1201				no
-1202				no
-1203				no
-1204				no
-1205				no
-1206				no
-1207				no
-1208				no
-1209				no
-1210				no
-1211				no
-1212				no
-1213				no
-1214				no
-1215				no
-1216				no
-1217				no
-1218				no
-1219				no
-1220				no
-1221				no
-1222				no
-1223				no
-1224				no
-1225				no
-1226				no
-1227				no
-1228				no
-1229				no
-1230				no
-1231				no
-1232				no
-1233				no
-1234				no
-1235				no
-1236				no
-1237				no
-1238				no
-1239				no
-1240				no
-1241				no
-1242				no
-1243				no
-1244				no
-1245				no
-1246				no
-1247				no
-1248				no
-1249				no
-1250				no
-1251				no
-1252				no
-1253				no
-1254				no
-1255				no
-1256				no
-1257				no
-1258				no
-1259				no
-1260				no
-1261				no
-1262				no
-1263				no
-1264				no
-1265				no
-1266				no
-1267				no
-1268				no
-1269				no
-1270				no
-1271				no
-1272				no
-1273				no
-1274				no
-1275				no
-1276				no
-1277				no
-1278				no
-1279				no
-1280				no
-1281				no
-1282				no
-1283				no
-1284				no
-1285				no
-1286				no
-1287				no
-1288				no
-1289				no
-1290				no
-1291				no
-1292				no
-1293				no
-1294				no
-1295				no
-1296				no
-1297				no
-1298				no
-1299				no
-1300				no
-1301				no
-1302				no
-1303				no
-1304				no
-1305				no
-1306				no
-1307				no
-1308				no
-1309				no
-1310				no
-1311				no
-1312				no
-1313				no
-1314				no
-1315				no
-1316				no
-1317				no
-1318				no
-1319				no
-1320				no
-1321				no
-1322				no
-1323				no
-1324				no
-1325				no
-1326				no
-1327				no
-1328				no
-1329				no
-1330				no
-1331				no
-1332				no
-1333				no
-1334				no
-1335				no
-1336				no
-1337				no
-1338				no
-1339				no
-1340				no
-1341				no
-1342				no
-1343				no
-1344				no
-1345				no
-1346				no
-1347				no
-1348				no
-1349				no
-1350				no
-1351				no
-1352				no
-1353				no
-1354				no
-1355				no
-1356				no
-1357				no
-1358				no
-1359				no
-1360				no
-1361				no
-1362				no
-1363				no
-1364				no
-1365				no
-1366				no
-1367				no
-1368				no
-1369				no
-1370				no
-1371				no
-1372				no
-1373				no
-1374				no
-1375				no
-1376				no
-1377				no
-1378				no
-1379				no
-1380				no
-1381				no
-1382				no
-1383				no
-1384				no
-1385				no
-1386				no
-1387				no
-1388				no
-1389				no
-1390				no
-1391				no
-1392				no
-1393				no
-1394				no
-1395				no
-1396				no
-1397				no
-1398				no
-1399				no
-1400				no
-1401				no
-1402				no
-1403				no
-1404				no
-1405				no
-1406				no
-1407				no
-1408				no
-1409				no
-1410				no
-1411				no
-1412				no
-1413				no
-1414				no
-1415				no
-1416				no
-1417				no
-1418				no
-1419				no
-1420				no
-1421				no
-1422				no
-1423				no
-1424				no
-1425				no
-1426				no
-1427				no
-1428				no
-1429				no
-1430				no
-1431				no
-1432				no
-1433				no
-1434				no
-1435				no
-1436				no
-1437				no
-1438				no
-1439				no
-1440				no
-1441				no
-1442				no
-1443				no
-1444				no
-1445				no
-1446				no
-1447				no
-1448				no
-1449				no
-1450				no
-1451				no
-1452				no
-1453				no
-1454				no
-1455				no
-1456				no
-1457				no
-1458				no
-1459				no
-1460				no
-1461				no
-1462				no
-1463				no
-1464				no
-1465				no
-1466				no
-1467				no
-1468				no
-1469				no
-1470				no
-1471				no
-1472				no
-1473				no
-1474				no
-1475				no
-1476				no
-1477				no
-1478				no
-1479				no
-1480				no
-1481				no
-1482				no
-1483				no
-1484				no
-1485				no
-1486				no
-1487				no
-1488				no
-1489				no
-1490				no
-1491				no
-1492				no
-1493				no
-1494				no
-1495				no
-1496				no
-1497				no
-1498				no
-1499				no
-1500				no
-1501				no
-1502				no
-1503				no
-1504				no
-1505				no
-1506				no
-1507				no
-1508				no
-1509				no
-1510				no
-1511				no
-1512				no
-1513				no
-1514				no
-1515				no
-1516				no
-1517				no
-1518				no
-1519				no
-1520				no
-1521				no
-1522				no
-1523				no
-1524				no
-1525				no
-1526				no
-1527				no
-1528				no
-1529				no
-1530				no
-1531				no
-1532				no
-1533				no
-1534				no
-1535				no
-1536				no
-1537				no
-1538				no
-1539				no
-1540				no
-1541				no
-1542				no
-1543				no
-1544				no
-1545				no
-1546				no
-1547				no
-1548				no
-1549				no
-1550				no
-1551				no
-1552				no
-1553				no
-1554				no
-1555				no
-1556				no
-1557				no
-1558				no
-1559				no
-1560				no
-1561				no
-1562				no
-1563				no
-1564				no
-1565				no
-1566				no
-1567				no
-1568				no
-1569				no
-1570				no
-1571				no
-1572				no
-1573				no
-1574				no
-1575				no
-1576				no
-1577				no
-1578				no
-1579				no
-1580				no
-1581				no
-1582				no
-1583				no
-1584				no
-1585				no
-1586				no
-1587				no
-1588				no
-1589				no
-1590				no
-1591				no
-1592				no
-1593				no
-1594				no
-1595				no
-1596				no
-1597				no
-1598				no
-1599				no
-1600				no
-1601				no
-1602				no
-1603				no
-1604				no
-1605				no
-1606				no
-1607				no
-1608				no
-1609				no
-1610				no
-1611				no
-1612				no
-1613				no
-1614				no
-1615				no
-1616				no
-1617				no
-1618				no
-1619				no
-1620				no
-1621				no
-1622				no
-1623				no
-1624				no
-1625				no
-1626				no
-1627				no
-1628				no
-1629				no
-1630				no
-1631				no
-1632				no
-1633				no
-1634				no
-1635				no
-1636				no
-1637				no
-1638				no
-1639				no
-1640				no
-1641				no
-1642				no
-1643				no
-1644				no
-1645				no
-1646				no
-1647				no
-1648				no
-1649				no
-1650				no
-1651				no
-1652				no
-1653				no
-1654				no
-1655				no
-1656				no
-1657				no
-1658				no
-1659				no
-1660				no
-1661				no
-1662				no
-1663				no
-1664				no
-1665				no
-1666				no
-1667				no
-1668				no
-1669				no
-1670				no
-1671				no
-1672				no
-1673				no
-1674				no
-1675				no
-1676				no
-1677				no
-1678				no
-1679				no
-1680				no
-1681				no
-1682				no
-1683				no
-1684				no
-1685				no
-1686				no
-1687				no
-1688				no
-1689				no
-1690				no
-1691				no
-1692				no
-1693				no
-1694				no
-1695				no
-1696				no
-1697				no
-1698				no
-1699				no
-1700				no
-1701				no
-1702				no
-1703				no
-1704				no
-1705				no
-1706				no
-1707				no
-1708				no
-1709				no
-1710				no
-1711				no
-1712				no
-1713				no
-1714				no
-1715				no
-1716				no
-1717				no
-1718				no
-1719				no
-1720				no
-1721				no
-1722				no
-1723				no
-1724				no
-1725				no
-1726				no
-1727				no
-1728				no
-1729				no
-1730				no
-1731				no
-1732				no
-1733				no
-1734				no
-1735				no
-1736				no
-1737				no
-1738				no
-1739				no
-1740				no
-1741				no
-1742				no
-1743				no
-1744				no
-1745				no
-1746				no
-1747				no
-1748				no
-1749				no
-1750				no
-1751				no
-1752				no
-1753				no
-1754				no
-1755				no
-1756				no
-1757				no
-1758				no
-1759				no
-1760				no
-1761				no
-1762				no
-1763				no
-1764				no
-1765				no
-1766				no
-1767				no
-1768				no
-1769				no
-1770				no
-1771				no
-1772				no
-1773				no
-1774				no
-1775				no
-1776				no
-1777				no
-1778				no
-1779				no
-1780				no
-1781				no
-1782				no
-1783				no
-1784				no
-1785				no
-1786				no
-1787				no
-1788				no
-1789				no
-1790				no
-1791				no
-1792				no
-1793				no
-1794				no
-1795				no
-1796				no
-1797				no
-1798				no
-1799				no
-1800				no
-1801				no
-1802				no
-1803				no
-1804				no
-1805				no
-1806				no
-1807				no
-1808				no
-1809				no
-1810				no
-1811				no
-1812				no
-1813				no
-1814				no
-1815				no
-1816				no
-1817				no
-1818				no
-1819				no
-1820				no
-1821				no
-1822				no
-1823				no
-1824				no
-1825				no
-1826				no
-1827				no
-1828				no
-1829				no
-1830				no
-1831				no
-1832				no
-1833				no
-1834				no
-1835				no
-1836				no
-1837				no
-1838				no
-1839				no
-1840				no
-1841				no
-1842				no
-1843				no
-1844				no
-1845				no
-1846				no
-1847				no
-1848				no
-1849				no
-1850				no
-1851				no
-1852				no
-1853				no
-1854				no
-1855				no
-1856				no
-1857				no
-1858				no
-1859				no
-1860				no
-1861				no
-1862				no
-1863				no
-1864				no
-1865				no
-1866				no
-1867				no
-1868				no
-1869				no
-1870				no
-1871				no
-1872				no
-1873				no
-1874				no
-1875				no
-1876				no
-1877				no
-1878				no
-1879				no
-1880				no
-1881				no
-1882				no
-1883				no
-1884				no
-1885				no
-1886				no
-1887				no
-1888				no
-1889				no
-1890				no
-1891				no
-1892				no
-1893				no
-1894				no
-1895				no
-1896				no
-1897				no
-1898				no
-1899				no
-1900				no
-1901				no
-1902				no
-1903				no
-1904				no
-1905				no
-1906				no
-1907				no
-1908				no
-1909				no
-1910				no
-1911				no
-1912				no
-1913				no
-1914				no
-1915				no
-1916				no
-1917				no
-1918				no
-1919				no
-1920				no
-1921				no
-1922				no
-1923				no
-1924				no
-1925				no
-1926				no
-1927				no
-1928				no
-1929				no
-1930				no
-1931				no
-1932				no
-1933				no
-1934				no
-1935				no
-1936				no
-1937				no
-1938				no
-1939				no
-1940				no
-1941				no
-1942				no
-1943				no
-1944				no
-1945				no
-1946				no
-1947				no
-1948				no
-1949				no
-1950				no
-1951				no
-1952				no
-1953				no
-1954				no
-1955				no
-1956				no
-1957				no
-1958				no
-1959				no
-1960				no
-1961				no
-1962				no
-1963				no
-1964				no
-1965				no
-1966				no
-1967				no
-1968				no
-1969				no
-1970				no
-1971				no
-1972				no
-1973				no
-1974				no
-1975				no
-1976				no
-1977				no
-1978				no
-1979				no
-1980				no
-1981				no
-1982				no
-1983				no
-1984				no
-1985				no
-1986				no
-1987				no
-1988				no
-1989				no
-1990				no
-1991				no
-1992				no
-1993				no
-1994				no
-1995				no
-1996				no
-1997				no
-1998				no
-1999				no
-2000				no
-2001				no
-2002				no
-2003				no
-2004				no
-2005				no
-2006				no
-2007				no
-2008				no
-2009				no
-2010				no
-2011				no
-2012				no
-2013				no
-2014				no
-2015				no
-2016				no
-2017				no
-2018				no
-2019				no
-2020				no
-2021				no
-2022				no
-2023				no
-2024				no
-2025				no
-2026				no
-2027				no
-2028				no
-2029				no
-2030				no
-2031				no
-2032				no
-2033				no
-2034				no
-2035				no
-2036				no
-2037				no
-2038				no
-2039				no
-2040				no
-2041				no
-2042				no
-2043				no
-2044				no
-2045				no
-2046				no
-2047				no
-2048				no
-2049				no
-2050				no
-2051				no
-2052				no
-2053				no
-2054				no
-2055				no
-2056				no
-2057				no
-2058				no
-2059				no
-2060				no
-2061				no
-2062				no
-2063				no
-2064				no
-2065				no
-2066				no
-2067				no
-2068				no
-2069				no
-2070				no
-2071				no
-2072				no
-2073				no
-2074				no
-2075				no
-2076				no
-2077				no
-2078				no
-2079				no
-2080				no
-2081				no
-2082				no
-2083				no
-2084				no
-2085				no
-2086				no
-2087				no
-2088				no
-2089				no
-2090				no
-2091				no
-2092				no
-2093				no
-2094				no
-2095				no
-2096				no
-2097				no
-2098				no
-2099				no
-2100				no
-2101				no
-2102				no
-2103				no
-2104				no
-2105				no
-2106				no
-2107				no
-2108				no
-2109				no
-2110				no
-2111				no
-2112				no
-2113				no
-2114				no
-2115				no
-2116				no
-2117				no
-2118				no
-2119				no
-2120				no
-2121				no
-2122				no
-2123				no
-2124				no
-2125				no
-2126				no
-2127				no
-2128				no
-2129				no
-2130				no
-2131				no
-2132				no
-2133				no
-2134				no
-2135				no
-2136				no
-2137				no
-2138				no
-2139				no
-2140				no
-2141				no
-2142				no
-2143				no
-2144				no
-2145				no
-2146				no
-2147				no
-2148				no
-2149				no
-2150				no
-2151				no
-2152				no
-2153				no
-2154				no
-2155				no
-2156				no
-2157				no
-2158				no
-2159				no
-2160				no
-2161				no
-2162				no
-2163				no
-2164				no
-2165				no
-2166				no
-2167				no
-2168				no
-2169				no
-2170				no
-2171				no
-2172				no
-2173				no
-2174				no
-2175				no
-2176				no
-2177				no
-2178				no
-2179				no
-2180				no
-2181				no
-2182				no
-2183				no
-2184				no
-2185				no
-2186				no
-2187				no
-2188				no
-2189				no
-2190				no
-2191				no
-2192				no
-2193				no
-2194				no
-2195				no
-2196				no
-2197				no
-2198				no
-2199				no
-2200				no
-2201				no
-2202				no
-2203				no
-2204				no
-2205				no
-2206				no
-2207				no
-2208				no
-2209				no
-2210				no
-2211				no
-2212				no
-2213				no
-2214				no
-2215				no
-2216				no
-2217				no
-2218				no
-2219				no
-2220				no
-2221				no
-2222				no
-2223				no
-2224				no
-2225				no
-2226				no
-2227				no
-2228				no
-2229				no
-2230				no
-2231				no
-2232				no
-2233				no
-2234				no
-2235				no
-2236				no
-2237				no
-2238				no
-2239				no
-2240				no
-2241				no
-2242				no
-2243				no
-2244				no
-2245				no
-2246				no
-2247				no
-2248				no
-2249				no
-2250				no
-2251				no
-2252				no
-2253				no
-2254				no
-2255				no
-2256				no
-2257				no
-2258				no
-2259				no
-2260				no
-2261				no
-2262				no
-2263				no
-2264				no
-2265				no
-2266				no
-2267				no
-2268				no
-2269				no
-2270				no
-2271				no
-2272				no
-2273				no
-2274				no
-2275				no
-2276				no
-2277				no
-2278				no
-2279				no
-2280				no
-2281				no
-2282				no
-2283				no
-2284				no
-2285				no
-2286				no
-2287				no
-2288				no
-2289				no
-2290				no
-2291				no
-2292				no
-2293				no
-2294				no
-2295				no
-2296				no
-2297				no
-2298				no
-2299				no
-2300				no
-2301				no
-2302				no
-2303				no
-2304				no
-2305				no
-2306				no
-2307				no
-2308				no
-2309				no
-2310				no
-2311				no
-2312				no
-2313				no
-2314				no
-2315				no
-2316				no
-2317				no
-2318				no
-2319				no
-2320				no
-2321				no
-2322				no
-2323				no
-2324				no
-2325				no
-2326				no
-2327				no
-2328				no
-2329				no
-2330				no
-2331				no
-2332				no
-2333				no
-2334				no
-2335				no
-2336				no
-2337				no
-2338				no
-2339				no
-2340				no
-2341				no
-2342				no
-2343				no
-2344				no
-2345				no
-2346				no
-2347				no
-2348				no
-2349				no
-2350				no
-2351				no
-2352				no
-2353				no
-2354				no
-2355				no
-2356				no
-2357				no
-2358				no
-2359				no
-2360				no
-2361				no
-2362				no
-2363				no
-2364				no
-2365				no
-2366				no
-2367				no
-2368				no
-2369				no
-2370				no
-2371				no
-2372				no
-2373				no
-2374				no
-2375				no
-2376				no
-2377				no
-2378				no
-2379				no
-2380				no
-2381				no
-2382				no
-2383				no
-2384				no
-2385				no
-2386				no
-2387				no
-2388				no
-2389				no
-2390				no
-2391				no
-2392				no
-2393				no
-2394				no
-2395				no
-2396				no
-2397				no
-2398				no
-2399				no
-2400				no
-2401				no
-2402				no
-2403				no
-2404				no
-2405				no
-2406				no
-2407				no
-2408				no
-2409				no
-2410				no
-2411				no
-2412				no
-2413				no
-2414				no
-2415				no
-2416				no
-2417				no
-2418				no
-2419				no
-2420				no
-2421				no
-2422				no
-2423				no
-2424				no
-2425				no
-2426				no
-2427				no
-2428				no
-2429				no
-2430				no
-2431				no
-2432				no
-2433				no
-2434				no
-2435				no
-2436				no
-2437				no
-2438				no
-2439				no
-2440				no
-2441				no
-2442				no
-2443				no
-2444				no
-2445				no
-2446				no
-2447				no
-2448				no
-2449				no
-2450				no
-2451				no
-2452				no
-2453				no
-2454				no
-2455				no
-2456				no
-2457				no
-2458				no
-2459				no
-2460				no
-2461				no
-2462				no
-2463				no
-2464				no
-2465				no
-2466				no
-2467				no
-2468				no
-2469				no
-2470				no
-2471				no
-2472				no
-2473				no
-2474				no
-2475				no
-2476				no
-2477				no
-2478				no
-2479				no
-2480				no
-2481				no
-2482				no
-2483				no
-2484				no
-2485				no
-2486				no
-2487				no
-2488				no
-2489				no
-2490				no
-2491				no
-2492				no
-2493				no
-2494				no
-2495				no
-2496				no
-2497				no
-2498				no
-2499				no
-2500				no
-2501				no
-2502				no
-2503				no
-2504				no
-2505				no
-2506				no
-2507				no
-2508				no
-2509				no
-2510				no
-2511				no
-2512				no
-2513				no
-2514				no
-2515				no
-2516				no
-2517				no
-2518				no
-2519				no
-2520				no
-2521				no
-2522				no
-2523				no
-2524				no
-2525				no
-2526				no
-2527				no
-2528				no
-2529				no
-2530				no
-2531				no
-2532				no
-2533				no
-2534				no
-2535				no
-2536				no
-2537				no
-2538				no
-2539				no
-2540				no
-2541				no
-2542				no
-2543				no
-2544				no
-2545				no
-2546				no
-2547				no
-2548				no
-2549				no
-2550				no
-2551				no
-2552				no
-2553				no
-2554				no
-2555				no
-2556				no
-2557				no
-2558				no
-2559				no
-2560				no
-2561				no
-2562				no
-2563				no
-2564				no
-2565				no
-2566				no
-2567				no
-2568				no
-2569				no
-2570				no
-2571				no
-2572				no
-2573				no
-2574				no
-2575				no
-2576				no
-2577				no
-2578				no
-2579				no
-2580				no
-2581				no
-2582				no
-2583				no
-2584				no
-2585				no
-2586				no
-2587				no
-2588				no
-2589				no
-2590				no
-2591				no
-2592				no
-2593				no
-2594				no
-2595				no
-2596				no
-2597				no
-2598				no
-2599				no
-2600				no
-2601				no
-2602				no
-2603				no
-2604				no
-2605				no
-2606				no
-2607				no
-2608				no
-2609				no
-2610				no
-2611				no
-2612				no
-2613				no
-2614				no
-2615				no
-2616				no
-2617				no
-2618				no
-2619				no
-2620				no
-2621				no
-2622				no
-2623				no
-2624				no
-2625				no
-2626				no
-2627				no
-2628				no
-2629				no
-2630				no
-2631				no
-2632				no
-2633				no
-2634				no
-2635				no
-2636				no
-2637				no
-2638				no
-2639				no
-2640				no
-2641				no
-2642				no
-2643				no
-2644				no
-2645				no
-2646				no
-2647				no
-2648				no
-2649				no
-2650				no
-2651				no
-2652				no
-2653				no
-2654				no
-2655				no
-2656				no
-2657				no
-2658				no
-2659				no
-2660				no
-2661				no
-2662				no
-2663				no
-2664				no
-2665				no
-2666				no
-2667				no
-2668				no
-2669				no
-2670				no
-2671				no
-2672				no
-2673				no
-2674				no
-2675				no
-2676				no
-2677				no
-2678				no
-2679				no
-2680				no
-2681				no
-2682				no
-2683				no
-2684				no
-2685				no
-2686				no
-2687				no
-2688				no
-2689				no
-2690				no
-2691				no
-2692				no
-2693				no
-2694				no
-2695				no
-2696				no
-2697				no
-2698				no
-2699				no
-2700				no
-2701				no
-2702				no
-2703				no
-2704				no
-2705				no
-2706				no
-2707				no
-2708				no
-2709				no
-2710				no
-2711				no
-2712				no
-2713				no
-2714				no
-2715				no
-2716				no
-2717				no
-2718				no
-2719				no
-2720				no
-2721				no
-2722				no
-2723				no
-2724				no
-2725				no
-2726				no
-2727				no
-2728				no
-2729				no
-2730				no
-2731				no
-2732				no
-2733				no
-2734				no
-2735				no
-2736				no
-2737				no
-2738				no
-2739				no
-2740				no
-2741				no
-2742				no
-2743				no
-2744				no
-2745				no
-2746				no
-2747				no
-2748				no
-2749				no
-2750				no
-2751				no
-2752				no
-2753				no
-2754				no
-2755				no
-2756				no
-2757				no
-2758				no
-2759				no
-2760				no
-2761				no
-2762				no
-2763				no
-2764				no
-2765				no
-2766				no
-2767				no
-2768				no
-2769				no
-2770				no
-2771				no
-2772				no
-2773				no
-2774				no
-2775				no
-2776				no
-2777				no
-2778				no
-2779				no
-2780				no
-2781				no
-2782				no
-2783				no
-2784				no
-2785				no
-2786				no
-2787				no
-2788				no
-2789				no
-2790				no
-2791				no
-2792				no
-2793				no
-2794				no
-2795				no
-2796				no
-2797				no
-2798				no
-2799				no
-2800				no
-2801				no
-2802				no
-2803				no
-2804				no
-2805				no
-2806				no
-2807				no
-2808				no
-2809				no
-2810				no
-2811				no
-2812				no
-2813				no
-2814				no
-2815				no
-2816				no
-2817				no
-2818				no
-2819				no
-2820				no
-2821				no
-2822				no
-2823				no
-2824				no
-2825				no
-2826				no
-2827				no
-2828				no
-2829				no
-2830				no
-2831				no
-2832				no
-2833				no
-2834				no
-2835				no
-2836				no
-2837				no
-2838				no
-2839				no
-2840				no
-2841				no
-2842				no
-2843				no
-2844				no
-2845				no
-2846				no
-2847				no
-2848				no
-2849				no
-2850				no
-2851				no
-2852				no
-2853				no
-2854				no
-2855				no
-2856				no
-2857				no
-2858				no
-2859				no
-2860				no
-2861				no
-2862				no
-2863				no
-2864				no
-2865				no
-2866				no
-2867				no
-2868				no
-2869				no
-2870				no
-2871				no
-2872				no
-2873				no
-2874				no
-2875				no
-2876				no
-2877				no
-2878				no
-2879				no
-2880				no
-2881				no
-2882				no
-2883				no
-2884				no
-2885				no
-2886				no
-2887				no
-2888				no
-2889				no
-2890				no
-2891				no
-2892				no
-2893				no
-2894				no
-2895				no
-2896				no
-2897				no
-2898				no
-2899				no
-2900				no
-2901				no
-2902				no
-2903				no
-2904				no
-2905				no
-2906				no
-2907				no
-2908				no
-2909				no
-2910				no
-2911				no
-2912				no
-2913				no
-2914				no
-2915				no
-2916				no
-2917				no
-2918				no
-2919				no
-2920				no
-2921				no
-2922				no
-2923				no
-2924				no
-2925				no
-2926				no
-2927				no
-2928				no
-2929				no
-2930				no
-2931				no
-2932				no
-2933				no
-2934				no
-2935				no
-2936				no
-2937				no
-2938				no
-2939				no
-2940				no
-2941				no
-2942				no
-2943				no
-2944				no
-2945				no
-2946				no
-2947				no
-2948				no
-2949				no
-2950				no
-2951				no
-2952				no
-2953				no
-2954				no
-2955				no
-2956				no
-2957				no
-2958				no
-2959				no
-2960				no
-2961				no
-2962				no
-2963				no
-2964				no
-2965				no
-2966				no
-2967				no
-2968				no
-2969				no
-2970				no
-2971				no
-2972				no
-2973				no
-2974				no
-2975				no
-2976				no
-2977				no
-2978				no
-2979				no
-2980				no
-2981				no
-2982				no
-2983				no
-2984				no
-2985				no
-2986				no
-2987				no
-2988				no
-2989				no
-2990				no
-2991				no
-2992				no
-2993				no
-2994				no
-2995				no
-2996				no
-2997				no
-2998				no
-2999				no
-3000				no
-3001				no
-3002				no
-3003				no
-3004				no
-3005				no
-3006				no
-3007				no
-3008				no
-3009				no
-3010				no
-3011				no
-3012				no
-3013				no
-3014				no
-3015				no
-3016				no
-3017				no
-3018				no
-3019				no
-3020				no
-3021				no
-3022				no
-3023				no
-3024				no
-3025				no
-3026				no
-3027				no
-3028				no
-3029				no
-3030				no
-3031				no
-3032				no
-3033				no
-3034				no
-3035				no
-3036				no
-3037				no
-3038				no
-3039				no
-3040				no
-3041				no
-3042				no
-3043				no
-3044				no
-3045				no
-3046				no
-3047				no
-3048				no
-3049				no
-3050				no
-3051				no
-3052				no
-3053				no
-3054				no
-3055				no
-3056				no
-3057				no
-3058				no
-3059				no
-3060				no
-3061				no
-3062				no
-3063				no
-3064				no
-3065				no
-3066				no
-3067				no
-3068				no
-3069				no
-3070				no
-3071				no
-3072				no
-3073				no
-3074				no
-3075				no
-3076				no
-3077				no
-3078				no
-3079				no
-3080				no
-3081				no
-3082				no
-3083				no
-3084				no
-3085				no
-3086				no
-3087				no
-3088				no
-3089				no
-3090				no
-3091				no
-3092				no
-3093				no
-3094				no
-3095				no
-3096				no
-3097				no
-3098				no
-3099				no
-3100				no
-3101				no
-3102				no
-3103				no
-3104				no
-3105				no
-3106				no
-3107				no
-3108				no
-3109				no
-3110				no
-3111				no
-3112				no
-3113				no
-3114				no
-3115				no
-3116				no
-3117				no
-3118				no
-3119				no
-3120				no
-3121				no
-3122				no
-3123				no
-3124				no
-3125				no
-3126				no
-3127				no
-3128				no
-3129				no
-3130				no
-3131				no
-3132				no
-3133				no
-3134				no
-3135				no
-3136				no
-3137				no
-3138				no
-3139				no
-3140				no
-3141				no
-3142				no
-3143				no
-3144				no
-3145				no
-3146				no
-3147				no
-3148				no
-3149				no
-3150				no
-3151				no
-3152				no
-3153				no
-3154				no
-3155				no
-3156				no
-3157				no
-3158				no
-3159				no
-3160				no
-3161				no
-3162				no
-3163				no
-3164				no
-3165				no
-3166				no
-3167				no
-3168				no
-3169				no
-3170				no
-3171				no
-3172				no
-3173				no
-3174				no
-3175				no
-3176				no
-3177				no
-3178				no
-3179				no
-3180				no
-3181				no
-3182				no
-3183				no
-3184				no
-3185				no
-3186				no
-3187				no
-3188				no
-3189				no
-3190				no
-3191				no
-3192				no
-3193				no
-3194				no
-3195				no
-3196				no
-3197				no
-3198				no
-3199				no
-3200				no
-3201				no
-3202				no
-3203				no
-3204				no
-3205				no
-3206				no
-3207				no
-3208				no
-3209				no
-3210				no
-3211				no
-3212				no
-3213				no
-3214				no
-3215				no
-3216				no
-3217				no
-3218				no
-3219				no
-3220				no
-3221				no
-3222				no
-3223				no
-3224				no
-3225				no
-3226				no
-3227				no
-3228				no
-3229				no
-3230				no
-3231				no
-3232				no
-3233				no
-3234				no
-3235				no
-3236				no
-3237				no
-3238				no
-3239				no
-3240				no
-3241				no
-3242				no
-3243				no
-3244				no
-3245				no
-3246				no
-3247				no
-3248				no
-3249				no
-3250				no
-3251				no
-3252				no
-3253				no
-3254				no
-3255				no
-3256				no
-3257				no
-3258				no
-3259				no
-3260				no
-3261				no
-3262				no
-3263				no
-3264				no
-3265				no
-3266				no
-3267				no
-3268				no
-3269				no
-3270				no
-3271				no
-3272				no
-3273				no
-3274				no
-3275				no
-3276				no
-3277				no
-3278				no
-3279				no
-3280				no
-3281				no
-3282				no
-3283				no
-3284				no
-3285				no
-3286				no
-3287				no
-3288				no
-3289				no
-3290				no
-3291				no
-3292				no
-3293				no
-3294				no
-3295				no
-3296				no
-3297				no
-3298				no
-3299				no
-3300				no
-3301				no
-3302				no
-3303				no
-3304				no
-3305				no
-3306				no
-3307				no
-3308				no
-3309				no
-3310				no
-3311				no
-3312				no
-3313				no
-3314				no
-3315				no
-3316				no
-3317				no
-3318				no
-3319				no
-3320				no
-3321				no
-3322				no
-3323				no
-3324				no
-3325				no
-3326				no
-3327				no
-3328				no
-3329				no
-3330				no
-3331				no
-3332				no
-3333				no
-3334				no
-3335				no
-3336				no
-3337				no
-3338				no
-3339				no
-3340				no
-3341				no
-3342				no
-3343				no
-3344				no
-3345				no
-3346				no
-3347				no
-3348				no
-3349				no
-3350				no
-3351				no
-3352				no
-3353				no
-3354				no
-3355				no
-3356				no
-3357				no
-3358				no
-3359				no
-3360				no
-3361				no
-3362				no
-3363				no
-3364				no
-3365				no
-3366				no
-3367				no
-3368				no
-3369				no
-3370				no
-3371				no
-3372				no
-3373				no
-3374				no
-3375				no
-3376				no
-3377				no
-3378				no
-3379				no
-3380				no
-3381				no
-3382				no
-3383				no
-3384				no
-3385				no
-3386				no
-3387				no
-3388				no
-3389				no
-3390				no
-3391				no
-3392				no
-3393				no
-3394				no
-3395				no
-3396				no
-3397				no
-3398				no
-3399				no
-3400				no
-3401				no
-3402				no
-3403				no
-3404				no
-3405				no
-3406				no
-3407				no
-3408				no
-3409				no
-3410				no
-3411				no
-3412				no
-3413				no
-3414				no
-3415				no
-3416				no
-3417				no
-3418				no
-3419				no
-3420				no
-3421				no
-3422				no
-3423				no
-3424				no
-3425				no
-3426				no
-3427				no
-3428				no
-3429				no
-3430				no
-3431				no
-3432				no
-3433				no
-3434				no
-3435				no
-3436				no
-3437				no
-3438				no
-3439				no
-3440				no
-3441				no
-3442				no
-3443				no
-3444				no
-3445				no
-3446				no
-3447				no
-3448				no
-3449				no
-3450				no
-3451				no
-3452				no
-3453				no
-3454				no
-3455				no
-3456				no
-3457				no
-3458				no
-3459				no
-3460				no
-3461				no
-3462				no
-3463				no
-3464				no
-3465				no
-3466				no
-3467				no
-3468				no
-3469				no
-3470				no
-3471				no
-3472				no
-3473				no
-3474				no
-3475				no
-3476				no
-3477				no
-3478				no
-3479				no
-3480				no
-3481				no
-3482				no
-3483				no
-3484				no
-3485				no
-3486				no
-3487				no
-3488				no
-3489				no
-3490				no
-3491				no
-3492				no
-3493				no
-3494				no
-3495				no
-3496				no
-3497				no
-3498				no
-3499				no
-3500				no
-3501				no
-3502				no
-3503				no
-3504				no
-3505				no
-3506				no
-3507				no
-3508				no
-3509				no
-3510				no
-3511				no
-3512				no
-3513				no
-3514				no
-3515				no
-3516				no
-3517				no
-3518				no
-3519				no
-3520				no
-3521				no
-3522				no
-3523				no
-3524				no
-3525				no
-3526				no
-3527				no
-3528				no
-3529				no
-3530				no
-3531				no
-3532				no
-3533				no
-3534				no
-3535				no
-3536				no
-3537				no
-3538				no
-3539				no
-3540				no
-3541				no
-3542				no
-3543				no
-3544				no
-3545				no
-3546				no
-3547				no
-3548				no
-3549				no
-3550				no
-3551				no
-3552				no
-3553				no
-3554				no
-3555				no
-3556				no
-3557				no
-3558				no
-3559				no
-3560				no
-3561				no
-3562				no
-3563				no
-3564				no
-3565				no
-3566				no
-3567				no
-3568				no
-3569				no
-3570				no
-3571				no
-3572				no
-3573				no
-3574				no
-3575				no
-3576				no
-3577				no
-3578				no
-3579				no
-3580				no
-3581				no
-3582				no
-3583				no
-3584				no
-3585				no
-3586				no
-3587				no
-3588				no
-3589				no
-3590				no
-3591				no
-3592				no
-3593				no
-3594				no
-3595				no
-3596				no
-3597				no
-3598				no
-3599				no
-3600				no
-3601				no
-3602				no
-3603				no
-3604				no
-3605				no
-3606				no
-3607				no
-3608				no
-3609				no
-3610				no
-3611				no
-3612				no
-3613				no
-3614				no
-3615				no
-3616				no
-3617				no
-3618				no
-3619				no
-3620				no
-3621				no
-3622				no
-3623				no
-3624				no
-3625				no
-3626				no
-3627				no
-3628				no
-3629				no
-3630				no
-3631				no
-3632				no
-3633				no
-3634				no
-3635				no
-3636				no
-3637				no
-3638				no
-3639				no
-3640				no
-3641				no
-3642				no
-3643				no
-3644				no
-3645				no
-3646				no
-3647				no
-3648				no
-3649				no
-3650				no
-3651				no
-3652				no
-3653				no
-3654				no
-3655				no
-3656				no
-3657				no
-3658				no
-3659				no
-3660				no
-3661				no
-3662				no
-3663				no
-3664				no
-3665				no
-3666				no
-3667				no
-3668				no
-3669				no
-3670				no
-3671				no
-3672				no
-3673				no
-3674				no
-3675				no
-3676				no
-3677				no
-3678				no
-3679				no
-3680				no
-3681				no
-3682				no
-3683				no
-3684				no
-3685				no
-3686				no
-3687				no
-3688				no
-3689				no
-3690				no
-3691				no
-3692				no
-3693				no
-3694				no
-3695				no
-3696				no
-3697				no
-3698				no
-3699				no
-3700				no
-3701				no
-3702				no
-3703				no
-3704				no
-3705				no
-3706				no
-3707				no
-3708				no
-3709				no
-3710				no
-3711				no
-3712				no
-3713				no
-3714				no
-3715				no
-3716				no
-3717				no
-3718				no
-3719				no
-3720				no
-3721				no
-3722				no
-3723				no
-3724				no
-3725				no
-3726				no
-3727				no
-3728				no
-3729				no
-3730				no
-3731				no
-3732				no
-3733				no
-3734				no
-3735				no
-3736				no
-3737				no
-3738				no
-3739				no
-3740				no
-3741				no
-3742				no
-3743				no
-3744				no
-3745				no
-3746				no
-3747				no
-3748				no
-3749				no
-3750				no
-3751				no
-3752				no
-3753				no
-3754				no
-3755				no
-3756				no
-3757				no
-3758				no
-3759				no
-3760				no
-3761				no
-3762				no
-3763				no
-3764				no
-3765				no
-3766				no
-3767				no
-3768				no
-3769				no
-3770				no
-3771				no
-3772				no
-3773				no
-3774				no
-3775				no
-3776				no
-3777				no
-3778				no
-3779				no
-3780				no
-3781				no
-3782				no
-3783				no
-3784				no
-3785				no
-3786				no
-3787				no
-3788				no
-3789				no
-3790				no
-3791				no
-3792				no
-3793				no
-3794				no
-3795				no
-3796				no
-3797				no
-3798				no
-3799				no
-3800				no
-3801				no
-3802				no
-3803				no
-3804				no
-3805				no
-3806				no
-3807				no
-3808				no
-3809				no
-3810				no
-3811				no
-3812				no
-3813				no
-3814				no
-3815				no
-3816				no
-3817				no
-3818				no
-3819				no
-3820				no
-3821				no
-3822				no
-3823				no
-3824				no
-3825				no
-3826				no
-3827				no
-3828				no
-3829				no
-3830				no
-3831				no
-3832				no
-3833				no
-3834				no
-3835				no
-3836				no
-3837				no
-3838				no
-3839				no
-3840				no
-3841				no
-3842				no
-3843				no
-3844				no
-3845				no
-3846				no
-3847				no
-3848				no
-3849				no
-3850				no
-3851				no
-3852				no
-3853				no
-3854				no
-3855				no
-3856				no
-3857				no
-3858				no
-3859				no
-3860				no
-3861				no
-3862				no
-3863				no
-3864				no
-3865				no
-3866				no
-3867				no
-3868				no
-3869				no
-3870				no
-3871				no
-3872				no
-3873				no
-3874				no
-3875				no
-3876				no
-3877				no
-3878				no
-3879				no
-3880				no
-3881				no
-3882				no
-3883				no
-3884				no
-3885				no
-3886				no
-3887				no
-3888				no
-3889				no
-3890				no
-3891				no
-3892				no
-3893				no
-3894				no
-3895				no
-3896				no
-3897				no
-3898				no
-3899				no
-3900				no
-3901				no
-3902				no
-3903				no
-3904				no
-3905				no
-3906				no
-3907				no
-3908				no
-3909				no
-3910				no
-3911				no
-3912				no
-3913				no
-3914				no
-3915				no
-3916				no
-3917				no
-3918				no
-3919				no
-3920				no
-3921				no
-3922				no
-3923				no
-3924				no
-3925				no
-3926				no
-3927				no
-3928				no
-3929				no
-3930				no
-3931				no
-3932				no
-3933				no
-3934				no
-3935				no
-3936				no
-3937				no
-3938				no
-3939				no
-3940				no
-3941				no
-3942				no
-3943				no
-3944				no
-3945				no
-3946				no
-3947				no
-3948				no
-3949				no
-3950				no
-3951				no
-3952				no
-3953				no
-3954				no
-3955				no
-3956				no
-3957				no
-3958				no
-3959				no
-3960				no
-3961				no
-3962				no
-3963				no
-3964				no
-3965				no
-3966				no
-3967				no
-3968				no
-3969				no
-3970				no
-3971				no
-3972				no
-3973				no
-3974				no
-3975				no
-3976				no
-3977				no
-3978				no
-3979				no
-3980				no
-3981				no
-3982				no
-3983				no
-3984				no
-3985				no
-3986				no
-3987				no
-3988				no
-3989				no
-3990				no
-3991				no
-3992				no
-3993				no
-3994				no
-3995				no
-3996				no
-3997				no
-3998				no
-3999				no
-4000				no
-4001				no
-4002				no
-4003				no
-4004				no
-4005				no
-4006				no
-4007				no
-4008				no
-4009				no
-4010				no
-4011				no
-4012				no
-4013				no
-4014				no
-4015				no
-4016				no
-4017				no
-4018				no
-4019				no
-4020				no
-4021				no
-4022				no
-4023				no
-4024				no
-4025				no
-4026				no
-4027				no
-4028				no
-4029				no
-4030				no
-4031				no
-4032				no
-4033				no
-4034				no
-4035				no
-4036				no
-4037				no
-4038				no
-4039				no
-4040				no
-4041				no
-4042				no
-4043				no
-4044				no
-4045				no
-4046				no
-4047				no
-4048				no
-4049				no
-4050				no
-4051				no
-4052				no
-4053				no
-4054				no
-4055				no
-4056				no
-4057				no
-4058				no
-4059				no
-4060				no
-4061				no
-4062				no
-4063				no
-4064				no
-4065				no
-4066				no
-4067				no
-4068				no
-4069				no
-4070				no
-4071				no
-4072				no
-4073				no
-4074				no
-4075				no
-4076				no
-4077				no
-4078				no
-4079				no
-4080				no
-4081				no
-4082				no
-4083				no
-4084				no
-4085				no
-4086				no
-4087				no
-4088				no
-4089				no
-4090				no
-4091				no
-4092				no
-4093				no
-4094				no
-4095				no
-4096				no
-4097				no
-4098				no
-4099				no
-4100				no
-4101				no
-4102				no
-4103				no
-4104				no
-4105				no
-4106				no
-4107				no
-4108				no
-4109				no
-4110				no
-4111				no
-4112				no
-4113				no
-4114				no
-4115				no
-4116				no
-4117				no
-4118				no
-4119				no
-4120				no
-4121				no
-4122				no
-4123				no
-4124				no
-4125				no
-4126				no
-4127				no
-4128				no
-4129				no
-4130				no
-4131				no
-4132				no
-4133				no
-4134				no
-4135				no
-4136				no
-4137				no
-4138				no
-4139				no
-4140				no
-4141				no
-4142				no
-4143				no
-4144				no
-4145				no
-4146				no
-4147				no
-4148				no
-4149				no
-4150				no
-4151				no
-4152				no
-4153				no
-4154				no
-4155				no
-4156				no
-4157				no
-4158				no
-4159				no
-4160				no
-4161				no
-4162				no
-4163				no
-4164				no
-4165				no
-4166				no
-4167				no
-4168				no
-4169				no
-4170				no
-4171				no
-4172				no
-4173				no
-4174				no
-4175				no
-4176				no
-4177				no
-4178				no
-4179				no
-4180				no
-4181				no
-4182				no
-4183				no
-4184				no
-4185				no
-4186				no
-4187				no
-4188				no
-4189				no
-4190				no
-4191				no
-4192				no
-4193				no
-4194				no
-4195				no
-4196				no
-4197				no
-4198				no
-4199				no
-4200				no
-4201				no
-4202				no
-4203				no
-4204				no
-4205				no
-4206				no
-4207				no
-4208				no
-4209				no
-4210				no
-4211				no
-4212				no
-4213				no
-4214				no
-4215				no
-4216				no
-4217				no
-4218				no
-4219				no
-4220				no
-4221				no
-4222				no
-4223				no
-4224				no
-4225				no
-4226				no
-4227				no
-4228				no
-4229				no
-4230				no
-4231				no
-4232				no
-4233				no
-4234				no
-4235				no
-4236				no
-4237				no
-4238				no
-4239				no
-4240				no
-4241				no
-4242				no
-4243				no
-4244				no
-4245				no
-4246				no
-4247				no
-4248				no
-4249				no
-4250				no
-4251				no
-4252				no
-4253				no
-4254				no
-4255				no
-4256				no
-4257				no
-4258				no
-4259				no
-4260				no
-4261				no
-4262				no
-4263				no
-4264				no
-4265				no
-4266				no
-4267				no
-4268				no
-4269				no
-4270				no
-4271				no
-4272				no
-4273				no
-4274				no
-4275				no
-4276				no
-4277				no
-4278				no
-4279				no
-4280				no
-4281				no
-4282				no
-4283				no
-4284				no
-4285				no
-4286				no
-4287				no
-4288				no
-4289				no
-4290				no
-4291				no
-4292				no
-4293				no
-4294				no
-4295				no
-4296				no
-4297				no
-4298				no
-4299				no
-4300				no
-4301				no
-4302				no
-4303				no
-4304				no
-4305				no
-4306				no
-4307				no
-4308				no
-4309				no
-4310				no
-4311				no
-4312				no
-4313				no
-4314				no
-4315				no
-4316				no
-4317				no
-4318				no
-4319				no
-4320				no
-4321				no
-4322				no
-4323				no
-4324				no
-4325				no
-4326				no
-4327				no
-4328				no
-4329				no
-4330				no
-4331				no
-4332				no
-4333				no
-4334				no
-4335				no
-4336				no
-4337				no
-4338				no
-4339				no
-4340				no
-4341				no
-4342				no
-4343				no
-4344				no
-4345				no
-4346				no
-4347				no
-4348				no
-4349				no
-4350				no
-4351				no
-4352				no
-4353				no
-4354				no
-4355				no
-4356				no
-4357				no
-4358				no
-4359				no
-4360				no
-4361				no
-4362				no
-4363				no
-4364				no
-4365				no
-4366				no
-4367				no
-4368				no
-4369				no
-4370				no
-4371				no
-4372				no
-4373				no
-4374				no
-4375				no
-4376				no
-4377				no
-4378				no
-4379				no
-4380				no
-4381				no
-4382				no
-4383				no
-4384				no
-4385				no
-4386				no
-4387				no
-4388				no
-4389				no
-4390				no
-4391				no
-4392				no
-4393				no
-4394				no
-4395				no
-4396				no
-4397				no
-4398				no
-4399				no
-4400				no
-4401				no
-4402				no
-4403				no
-4404				no
-4405				no
-4406				no
-4407				no
-4408				no
-4409				no
-4410				no
-4411				no
-4412				no
-4413				no
-4414				no
-4415				no
-4416				no
-4417				no
-4418				no
-4419				no
-4420				no
-4421				no
-4422				no
-4423				no
-4424				no
-4425				no
-4426				no
-4427				no
-4428				no
-4429				no
-4430				no
-4431				no
-4432				no
-4433				no
-4434				no
-4435				no
-4436				no
-4437				no
-4438				no
-4439				no
-4440				no
-4441				no
-4442				no
-4443				no
-4444				no
-4445				no
-4446				no
-4447				no
-4448				no
-4449				no
-4450				no
-4451				no
-4452				no
-4453				no
-4454				no
-4455				no
-4456				no
-4457				no
-4458				no
-4459				no
-4460				no
-4461				no
-4462				no
-4463				no
-4464				no
-4465				no
-4466				no
-4467				no
-4468				no
-4469				no
-4470				no
-4471				no
-4472				no
-4473				no
-4474				no
-4475				no
-4476				no
-4477				no
-4478				no
-4479				no
-4480				no
-4481				no
-4482				no
-4483				no
-4484				no
-4485				no
-4486				no
-4487				no
-4488				no
-4489				no
-4490				no
-4491				no
-4492				no
-4493				no
-4494				no
-4495				no
-4496				no
-4497				no
-4498				no
-4499				no
-4500				no
-4501				no
-4502				no
-4503				no
-4504				no
-4505				no
-4506				no
-4507				no
-4508				no
-4509				no
-4510				no
-4511				no
-4512				no
-4513				no
-4514				no
-4515				no
-4516				no
-4517				no
-4518				no
-4519				no
-4520				no
-4521				no
-4522				no
-4523				no
-4524				no
-4525				no
-4526				no
-4527				no
-4528				no
-4529				no
-4530				no
-4531				no
-4532				no
-4533				no
-4534				no
-4535				no
-4536				no
-4537				no
-4538				no
-4539				no
-4540				no
-4541				no
-4542				no
-4543				no
-4544				no
-4545				no
-4546				no
-4547				no
-4548				no
-4549				no
-4550				no
-4551				no
-4552				no
-4553				no
-4554				no
-4555				no
-4556				no
-4557				no
-4558				no
-4559				no
-4560				no
-4561				no
-4562				no
-4563				no
-4564				no
-4565				no
-4566				no
-4567				no
-4568				no
-4569				no
-4570				no
-4571				no
-4572				no
-4573				no
-4574				no
-4575				no
-4576				no
-4577				no
-4578				no
-4579				no
-4580				no
-4581				no
-4582				no
-4583				no
-4584				no
-4585				no
-4586				no
-4587				no
-4588				no
-4589				no
-4590				no
-4591				no
-4592				no
-4593				no
-4594				no
-4595				no
-4596				no
-4597				no
-4598				no
-4599				no
-4600				no
-4601				no
-4602				no
-4603				no
-4604				no
-4605				no
-4606				no
-4607				no
-4608				no
-4609				no
-4610				no
-4611				no
-4612				no
-4613				no
-4614				no
-4615				no
-4616				no
-4617				no
-4618				no
-4619				no
-4620				no
-4621				no
-4622				no
-4623				no
-4624				no
-4625				no
-4626				no
-4627				no
-4628				no
-4629				no
-4630				no
-4631				no
-4632				no
-4633				no
-4634				no
-4635				no
-4636				no
-4637				no
-4638				no
-4639				no
-4640				no
-4641				no
-4642				no
-4643				no
-4644				no
-4645				no
-4646				no
-4647				no
-4648				no
-4649				no
-4650				no
-4651				no
-4652				no
-4653				no
-4654				no
-4655				no
-4656				no
-4657				no
-4658				no
-4659				no
-4660				no
-4661				no
-4662				no
-4663				no
-4664				no
-4665				no
-4666				no
-4667				no
-4668				no
-4669				no
-4670				no
-4671				no
-4672				no
-4673				no
-4674				no
-4675				no
-4676				no
-4677				no
-4678				no
-4679				no
-4680				no
-4681				no
-4682				no
-4683				no
-4684				no
-4685				no
-4686				no
-4687				no
-4688				no
-4689				no
-4690				no
-4691				no
-4692				no
-4693				no
-4694				no
-4695				no
-4696				no
-4697				no
-4698				no
-4699				no
-4700				no
-4701				no
-4702				no
-4703				no
-4704				no
-4705				no
-4706				no
-4707				no
-4708				no
-4709				no
-4710				no
-4711				no
-4712				no
-4713				no
-4714				no
-4715				no
-4716				no
-4717				no
-4718				no
-4719				no
-4720				no
-4721				no
-4722				no
-4723				no
-4724				no
-4725				no
-4726				no
-4727				no
-4728				no
-4729				no
-4730				no
-4731				no
-4732				no
-4733				no
-4734				no
-4735				no
-4736				no
-4737				no
-4738				no
-4739				no
-4740				no
-4741				no
-4742				no
-4743				no
-4744				no
-4745				no
-4746				no
-4747				no
-4748				no
-4749				no
-4750				no
-4751				no
-4752				no
-4753				no
-4754				no
-4755				no
-4756				no
-4757				no
-4758				no
-4759				no
-4760				no
-4761				no
-4762				no
-4763				no
-4764				no
-4765				no
-4766				no
-4767				no
-4768				no
-4769				no
-4770				no
-4771				no
-4772				no
-4773				no
-4774				no
-4775				no
-4776				no
-4777				no
-4778				no
-4779				no
-4780				no
-4781				no
-4782				no
-4783				no
-4784				no
-4785				no
-4786				no
-4787				no
-4788				no
-4789				no
-4790				no
-4791				no
-4792				no
-4793				no
-4794				no
-4795				no
-4796				no
-4797				no
-4798				no
-4799				no
-4800				no
-4801				no
-4802				no
-4803				no
-4804				no
-4805				no
-4806				no
-4807				no
-4808				no
-4809				no
-4810				no
-4811				no
-4812				no
-4813				no
-4814				no
-4815				no
-4816				no
-4817				no
-4818				no
-4819				no
-4820				no
-4821				no
-4822				no
-4823				no
-4824				no
-4825				no
-4826				no
-4827				no
-4828				no
-4829				no
-4830				no
-4831				no
-4832				no
-4833				no
-4834				no
-4835				no
-4836				no
-4837				no
-4838				no
-4839				no
-4840				no
-4841				no
-4842				no
-4843				no
-4844				no
-4845				no
-4846				no
-4847				no
-4848				no
-4849				no
-4850				no
-4851				no
-4852				no
-4853				no
-4854				no
-4855				no
-4856				no
-4857				no
-4858				no
-4859				no
-4860				no
-4861				no
-4862				no
-4863				no
-4864				no
-4865				no
-4866				no
-4867				no
-4868				no
-4869				no
-4870				no
-4871				no
-4872				no
-4873				no
-4874				no
-4875				no
-4876				no
-4877				no
-4878				no
-4879				no
-4880				no
-4881				no
-4882				no
-4883				no
-4884				no
-4885				no
-4886				no
-4887				no
-4888				no
-4889				no
-4890				no
-4891				no
-4892				no
-4893				no
-4894				no
-4895				no
-4896				no
-4897				no
-4898				no
-4899				no
-4900				no
-4901				no
-4902				no
-4903				no
-4904				no
-4905				no
-4906				no
-4907				no
-4908				no
-4909				no
-4910				no
-4911				no
-4912				no
-4913				no
-4914				no
-4915				no
-4916				no
-4917				no
-4918				no
-4919				no
-4920				no
-4921				no
-4922				no
-4923				no
-4924				no
-4925				no
-4926				no
-4927				no
-4928				no
-4929				no
-4930				no
-4931				no
-4932				no
-4933				no
-4934				no
-4935				no
-4936				no
-4937				no
-4938				no
-4939				no
-4940				no
-4941				no
-4942				no
-4943				no
-4944				no
-4945				no
-4946				no
-4947				no
-4948				no
-4949				no
-4950				no
-4951				no
-4952				no
-4953				no
-4954				no
-4955				no
-4956				no
-4957				no
-4958				no
-4959				no
-4960				no
-4961				no
-4962				no
-4963				no
-4964				no
-4965				no
-4966				no
-4967				no
-4968				no
-4969				no
-4970				no
-4971				no
-4972				no
-4973				no
-4974				no
-4975				no
-4976				no
-4977				no
-4978				no
-4979				no
-4980				no
-4981				no
-4982				no
-4983				no
-4984				no
-4985				no
-4986				no
-4987				no
-4988				no
-4989				no
-4990				no
-4991				no
-4992				no
-4993				no
-4994				no
-4995				no
-4996				no
-4997				no
-4998				no
-4999				no
-5000				no
-5001				no
-5002				no
-5003				no
-5004				no
-5005				no
-5006				no
-5007				no
-5008				no
-5009				no
-5010				no
-5011				no
-5012				no
-5013				no
-5014				no
-5015				no
-5016				no
-5017				no
-5018				no
-5019				no
-5020				no
-5021				no
-5022				no
-5023				no
-5024				no
-5025				no
-5026				no
-5027				no
-5028				no
-5029				no
-5030				no
-5031				no
-5032				no
-5033				no
-5034				no
-5035				no
-5036				no
-5037				no
-5038				no
-5039				no
-5040				no
-5041				no
-5042				no
-5043				no
-5044				no
-5045				no
-5046				no
-5047				no
-5048				no
-5049				no
-5050				no
-5051				no
-5052				no
-5053				no
-5054				no
-5055				no
-5056				no
-5057				no
-5058				no
-5059				no
-5060				no
-5061				no
-5062				no
-5063				no
-5064				no
-5065				no
-5066				no
-5067				no
-5068				no
-5069				no
-5070				no
-5071				no
-5072				no
-5073				no
-5074				no
-5075				no
-5076				no
-5077				no
-5078				no
-5079				no
-5080				no
-5081				no
-5082				no
-5083				no
-5084				no
-5085				no
-5086				no
-5087				no
-5088				no
-5089				no
-5090				no
-5091				no
-5092				no
-5093				no
-5094				no
-5095				no
-5096				no
-5097				no
-5098				no
-5099				no
-5100				no
-5101				no
-5102				no
-5103				no
-5104				no
-5105				no
-5106				no
-5107				no
-5108				no
-5109				no
-5110				no
-5111				no
-5112				no
-5113				no
-5114				no
-5115				no
-5116				no
-5117				no
-5118				no
-5119				no
-5120				no
-5121				no
-5122				no
-5123				no
-5124				no
-5125				no
-5126				no
-5127				no
-5128				no
-5129				no
-5130				no
-5131				no
-5132				no
-5133				no
-5134				no
-5135				no
-5136				no
-5137				no
-5138				no
-5139				no
-5140				no
-5141				no
-5142				no
-5143				no
-5144				no
-5145				no
-5146				no
-5147				no
-5148				no
-5149				no
-5150				no
-5151				no
-5152				no
-5153				no
-5154				no
-5155				no
-5156				no
-5157				no
-5158				no
-5159				no
-5160				no
-5161				no
-5162				no
-5163				no
-5164				no
-5165				no
-5166				no
-5167				no
-5168				no
-5169				no
-5170				no
-5171				no
-5172				no
-5173				no
-5174				no
-5175				no
-5176				no
-5177				no
-5178				no
-5179				no
-5180				no
-5181				no
-5182				no
-5183				no
-5184				no
-5185				no
-5186				no
-5187				no
-5188				no
-5189				no
-5190				no
-5191				no
-5192				no
-5193				no
-5194				no
-5195				no
-5196				no
-5197				no
-5198				no
-5199				no
-5200				no
-5201				no
-5202				no
-5203				no
-5204				no
-5205				no
-5206				no
-5207				no
-5208				no
-5209				no
-5210				no
-5211				no
-5212				no
-5213				no
-5214				no
-5215				no
-5216				no
-5217				no
-5218				no
-5219				no
-5220				no
-5221				no
-5222				no
-5223				no
-5224				no
-5225				no
-5226				no
-5227				no
-5228				no
-5229				no
-5230				no
-5231				no
-5232				no
-5233				no
-5234				no
-5235				no
-5236				no
-5237				no
-5238				no
-5239				no
-5240				no
-5241				no
-5242				no
-5243				no
-5244				no
-5245				no
-5246				no
-5247				no
-5248				no
-5249				no
-5250				no
-5251				no
-5252				no
-5253				no
-5254				no
-5255				no
-5256				no
-5257				no
-5258				no
-5259				no
-5260				no
-5261				no
-5262				no
-5263				no
-5264				no
-5265				no
-5266				no
-5267				no
-5268				no
-5269				no
-5270				no
-5271				no
-5272				no
-5273				no
-5274				no
-5275				no
-5276				no
-5277				no
-5278				no
-5279				no
-5280				no
-5281				no
-5282				no
-5283				no
-5284				no
-5285				no
-5286				no
-5287				no
-5288				no
-5289				no
-5290				no
-5291				no
-5292				no
-5293				no
-5294				no
-5295				no
-5296				no
-5297				no
-5298				no
-5299				no
-5300				no
-5301				no
-5302				no
-5303				no
-5304				no
-5305				no
-5306				no
-5307				no
-5308				no
-5309				no
-5310				no
-5311				no
-5312				no
-5313				no
-5314				no
-5315				no
-5316				no
-5317				no
-5318				no
-5319				no
-5320				no
-5321				no
-5322				no
-5323				no
-5324				no
-5325				no
-5326				no
-5327				no
-5328				no
-5329				no
-5330				no
-5331				no
-5332				no
-5333				no
-5334				no
-5335				no
-5336				no
-5337				no
-5338				no
-5339				no
-5340				no
-5341				no
-5342				no
-5343				no
-5344				no
-5345				no
-5346				no
-5347				no
-5348				no
-5349				no
-5350				no
-5351				no
-5352				no
-5353				no
-5354				no
-5355				no
-5356				no
-5357				no
-5358				no
-5359				no
-5360				no
-5361				no
-5362				no
-5363				no
-5364				no
-5365				no
-5366				no
-5367				no
-5368				no
-5369				no
-5370				no
-5371				no
-5372				no
-5373				no
-5374				no
-5375				no
-5376				no
-5377				no
-5378				no
-5379				no
-5380				no
-5381				no
-5382				no
-5383				no
-5384				no
-5385				no
-5386				no
-5387				no
-5388				no
-5389				no
-5390				no
-5391				no
-5392				no
-5393				no
-5394				no
-5395				no
-5396				no
-5397				no
-5398				no
-5399				no
-5400				no
-5401				no
-5402				no
-5403				no
-5404				no
-5405				no
-5406				no
-5407				no
-5408				no
-5409				no
-5410				no
-5411				no
-5412				no
-5413				no
-5414				no
-5415				no
-5416				no
-5417				no
-5418				no
-5419				no
-5420				no
-5421				no
-5422				no
-5423				no
-5424				no
-5425				no
-5426				no
-5427				no
-5428				no
-5429				no
-5430				no
-5431				no
-5432				no
-5433				no
-5434				no
-5435				no
-5436				no
-5437				no
-5438				no
-5439				no
-5440				no
-5441				no
-5442				no
-5443				no
-5444				no
-5445				no
-5446				no
-5447				no
-5448				no
-5449				no
-5450				no
-5451				no
-5452				no
-5453				no
-5454				no
-5455				no
-5456				no
-5457				no
-5458				no
-5459				no
-5460				no
-5461				no
-5462				no
-5463				no
-5464				no
-5465				no
-5466				no
-5467				no
-5468				no
-5469				no
-5470				no
-5471				no
-5472				no
-5473				no
-5474				no
-5475				no
-5476				no
-5477				no
-5478				no
-5479				no
-5480				no
-5481				no
-5482				no
-5483				no
-5484				no
-5485				no
-5486				no
-5487				no
-5488				no
-5489				no
-5490				no
-5491				no
-5492				no
-5493				no
-5494				no
-5495				no
-5496				no
-5497				no
-5498				no
-5499				no
-5500				no
-5501				no
-5502				no
-5503				no
-5504				no
-5505				no
-5506				no
-5507				no
-5508				no
-5509				no
-5510				no
-5511				no
-5512				no
-5513				no
-5514				no
-5515				no
-5516				no
-5517				no
-5518				no
-5519				no
-5520				no
-5521				no
-5522				no
-5523				no
-5524				no
-5525				no
-5526				no
-5527				no
-5528				no
-5529				no
-5530				no
-5531				no
-5532				no
-5533				no
-5534				no
-5535				no
-5536				no
-5537				no
-5538				no
-5539				no
-5540				no
-5541				no
-5542				no
-5543				no
-5544				no
-5545				no
-5546				no
-5547				no
-5548				no
-5549				no
-5550				no
-5551				no
-5552				no
-5553				no
-5554				no
-5555				no
-5556				no
-5557				no
-5558				no
-5559				no
-5560				no
-5561				no
-5562				no
-5563				no
-5564				no
-5565				no
-5566				no
-5567				no
-5568				no
-5569				no
-5570				no
-5571				no
-5572				no
-5573				no
-5574				no
-5575				no
-5576				no
-5577				no
-5578				no
-5579				no
-5580				no
-5581				no
-5582				no
-5583				no
-5584				no
-5585				no
-5586				no
-5587				no
-5588				no
-5589				no
-5590				no
-5591				no
-5592				no
-5593				no
-5594				no
-5595				no
-5596				no
-5597				no
-5598				no
-5599				no
-5600				no
-5601				no
-5602				no
-5603				no
-5604				no
-5605				no
-5606				no
-5607				no
-5608				no
-5609				no
-5610				no
-5611				no
-5612				no
-5613				no
-5614				no
-5615				no
-5616				no
-5617				no
-5618				no
-5619				no
-5620				no
-5621				no
-5622				no
-5623				no
-5624				no
-5625				no
-5626				no
-5627				no
-5628				no
-5629				no
-5630				no
-5631				no
-5632				no
-5633				no
-5634				no
-5635				no
-5636				no
-5637				no
-5638				no
-5639				no
-5640				no
-5641				no
-5642				no
-5643				no
-5644				no
-5645				no
-5646				no
-5647				no
-5648				no
-5649				no
-5650				no
-5651				no
-5652				no
-5653				no
-5654				no
-5655				no
-5656				no
-5657				no
-5658				no
-5659				no
-5660				no
-5661				no
-5662				no
-5663				no
-5664				no
-5665				no
-5666				no
-5667				no
-5668				no
-5669				no
-5670				no
-5671				no
-5672				no
-5673				no
-5674				no
-5675				no
-5676				no
-5677				no
-5678				no
-5679				no
-5680				no
-5681				no
-5682				no
-5683				no
-5684				no
-5685				no
-5686				no
-5687				no
-5688				no
-5689				no
-5690				no
-5691				no
-5692				no
-5693				no
-5694				no
-5695				no
-5696				no
-5697				no
-5698				no
-5699				no
-5700				no
-5701				no
-5702				no
-5703				no
-5704				no
-5705				no
-5706				no
-5707				no
-5708				no
-5709				no
-5710				no
-5711				no
-5712				no
-5713				no
-5714				no
-5715				no
-5716				no
-5717				no
-5718				no
-5719				no
-5720				no
-5721				no
-5722				no
-5723				no
-5724				no
-5725				no
-5726				no
-5727				no
-5728				no
-5729				no
-5730				no
-5731				no
-5732				no
-5733				no
-5734				no
-5735				no
-5736				no
-5737				no
-5738				no
-5739				no
-5740				no
-5741				no
-5742				no
-5743				no
-5744				no
-5745				no
-5746				no
-5747				no
-5748				no
-5749				no
-5750				no
-5751				no
-5752				no
-5753				no
-5754				no
-5755				no
-5756				no
-5757				no
-5758				no
-5759				no
-5760				no
-5761				no
-5762				no
-5763				no
-5764				no
-5765				no
-5766				no
-5767				no
-5768				no
-5769				no
-5770				no
-5771				no
-5772				no
-5773				no
-5774				no
-5775				no
-5776				no
-5777				no
-5778				no
-5779				no
-5780				no
-5781				no
-5782				no
-5783				no
-5784				no
-5785				no
-5786				no
-5787				no
-5788				no
-5789				no
-5790				no
-5791				no
-5792				no
-5793				no
-5794				no
-5795				no
-5796				no
-5797				no
-5798				no
-5799				no
-5800				no
-5801				no
-5802				no
-5803				no
-5804				no
-5805				no
-5806				no
-5807				no
-5808				no
-5809				no
-5810				no
-5811				no
-5812				no
-5813				no
-5814				no
-5815				no
-5816				no
-5817				no
-5818				no
-5819				no
-5820				no
-5821				no
-5822				no
-5823				no
-5824				no
-5825				no
-5826				no
-5827				no
-5828				no
-5829				no
-5830				no
-5831				no
-5832				no
-5833				no
-5834				no
-5835				no
-5836				no
-5837				no
-5838				no
-5839				no
-5840				no
-5841				no
-5842				no
-5843				no
-5844				no
-5845				no
-5846				no
-5847				no
-5848				no
-5849				no
-5850				no
-5851				no
-5852				no
-5853				no
-5854				no
-5855				no
-5856				no
-5857				no
-5858				no
-5859				no
-5860				no
-5861				no
-5862				no
-5863				no
-5864				no
-5865				no
-5866				no
-5867				no
-5868				no
-5869				no
-5870				no
-5871				no
-5872				no
-5873				no
-5874				no
-5875				no
-5876				no
-5877				no
-5878				no
-5879				no
-5880				no
-5881				no
-5882				no
-5883				no
-5884				no
-5885				no
-5886				no
-5887				no
-5888				no
-5889				no
-5890				no
-5891				no
-5892				no
-5893				no
-5894				no
-5895				no
-5896				no
-5897				no
-5898				no
-5899				no
-5900				no
-5901				no
-5902				no
-5903				no
-5904				no
-5905				no
-5906				no
-5907				no
-5908				no
-5909				no
-5910				no
-5911				no
-5912				no
-5913				no
-5914				no
-5915				no
-5916				no
-5917				no
-5918				no
-5919				no
-5920				no
-5921				no
-5922				no
-5923				no
-5924				no
-5925				no
-5926				no
-5927				no
-5928				no
-5929				no
-5930				no
-5931				no
-5932				no
-5933				no
-5934				no
-5935				no
-5936				no
-5937				no
-5938				no
-5939				no
-5940				no
-5941				no
-5942				no
-5943				no
-5944				no
-5945				no
-5946				no
-5947				no
-5948				no
-5949				no
-5950				no
-5951				no
-5952				no
-5953				no
-5954				no
-5955				no
-5956				no
-5957				no
-5958				no
-5959				no
-5960				no
-5961				no
-5962				no
-5963				no
-5964				no
-5965				no
-5966				no
-5967				no
-5968				no
-5969				no
-5970				no
-5971				no
-5972				no
-5973				no
-5974				no
-5975				no
-5976				no
-5977				no
-5978				no
-5979				no
-5980				no
-5981				no
-5982				no
-5983				no
-5984				no
-5985				no
-5986				no
-5987				no
-5988				no
-5989				no
-5990				no
-5991				no
-5992				no
-5993				no
-5994				no
-5995				no
-5996				no
-5997				no
-5998				no
-5999				no
-6000				no
-6001				no
-6002				no
-6003				no
-6004				no
-6005				no
-6006				no
-6007				no
-6008				no
-6009				no
-6010				no
-6011				no
-6012				no
-6013				no
-6014				no
-6015				no
-6016				no
-6017				no
-6018				no
-6019				no
-6020				no
-6021				no
-6022				no
-6023				no
-6024				no
-6025				no
-6026				no
-6027				no
-6028				no
-6029				no
-6030				no
-6031				no
-6032				no
-6033				no
-6034				no
-6035				no
-6036				no
-6037				no
-6038				no
-6039				no
-6040				no
-6041				no
-6042				no
-6043				no
-6044				no
-6045				no
-6046				no
-6047				no
-6048				no
-6049				no
-6050				no
-6051				no
-6052				no
-6053				no
-6054				no
-6055				no
-6056				no
-6057				no
-6058				no
-6059				no
-6060				no
-6061				no
-6062				no
-6063				no
-6064				no
-6065				no
-6066				no
-6067				no
-6068				no
-6069				no
-6070				no
-6071				no
-6072				no
-6073				no
-6074				no
-6075				no
-6076				no
-6077				no
-6078				no
-6079				no
-6080				no
-6081				no
-6082				no
-6083				no
-6084				no
-6085				no
-6086				no
-6087				no
-6088				no
-6089				no
-6090				no
-6091				no
-6092				no
-6093				no
-6094				no
-6095				no
-6096				no
-6097				no
-6098				no
-6099				no
-6100				no
-6101				no
-6102				no
-6103				no
-6104				no
-6105				no
-6106				no
-6107				no
-6108				no
-6109				no
-6110				no
-6111				no
-6112				no
-6113				no
-6114				no
-6115				no
-6116				no
-6117				no
-6118				no
-6119				no
-6120				no
-6121				no
-6122				no
-6123				no
-6124				no
-6125				no
-6126				no
-6127				no
-6128				no
-6129				no
-6130				no
-6131				no
-6132				no
-6133				no
-6134				no
-6135				no
-6136				no
-6137				no
-6138				no
-6139				no
-6140				no
-6141				no
-6142				no
-6143				no
-6144				no
-6145				no
-6146				no
-6147				no
-6148				no
-6149				no
-6150				no
-6151				no
-6152				no
-6153				no
-6154				no
-6155				no
-6156				no
-6157				no
-6158				no
-6159				no
-6160				no
-6161				no
-6162				no
-6163				no
-6164				no
-6165				no
-6166				no
-6167				no
-6168				no
-6169				no
-6170				no
-6171				no
-6172				no
-6173				no
-6174				no
-6175				no
-6176				no
-6177				no
-6178				no
-6179				no
-6180				no
-6181				no
-6182				no
-6183				no
-6184				no
-6185				no
-6186				no
-6187				no
-6188				no
-6189				no
-6190				no
-6191				no
-6192				no
-6193				no
-6194				no
-6195				no
-6196				no
-6197				no
-6198				no
-6199				no
-6200				no
-6201				no
-6202				no
-6203				no
-6204				no
-6205				no
-6206				no
-6207				no
-6208				no
-6209				no
-6210				no
-6211				no
-6212				no
-6213				no
-6214				no
-6215				no
-6216				no
-6217				no
-6218				no
-6219				no
-6220				no
-6221				no
-6222				no
-6223				no
-6224				no
-6225				no
-6226				no
-6227				no
-6228				no
-6229				no
-6230				no
-6231				no
-6232				no
-6233				no
-6234				no
-6235				no
-6236				no
-6237				no
-6238				no
-6239				no
-6240				no
-6241				no
-6242				no
-6243				no
-6244				no
-6245				no
-6246				no
-6247				no
-6248				no
-6249				no
-6250				no
-6251				no
-6252				no
-6253				no
-6254				no
-6255				no
-6256				no
-6257				no
-6258				no
-6259				no
-6260				no
-6261				no
-6262				no
-6263				no
-6264				no
-6265				no
-6266				no
-6267				no
-6268				no
-6269				no
-6270				no
-6271				no
-6272				no
-6273				no
-6274				no
-6275				no
-6276				no
-6277				no
-6278				no
-6279				no
-6280				no
-6281				no
-6282				no
-6283				no
-6284				no
-6285				no
-6286				no
-6287				no
-6288				no
-6289				no
-6290				no
-6291				no
-6292				no
-6293				no
-6294				no
-6295				no
-6296				no
-6297				no
-6298				no
-6299				no
-6300				no
-6301				no
-6302				no
-6303				no
-6304				no
-6305				no
-6306				no
-6307				no
-6308				no
-6309				no
-6310				no
-6311				no
-6312				no
-6313				no
-6314				no
-6315				no
-6316				no
-6317				no
-6318				no
-6319				no
-6320				no
-6321				no
-6322				no
-6323				no
-6324				no
-6325				no
-6326				no
-6327				no
-6328				no
-6329				no
-6330				no
-6331				no
-6332				no
-6333				no
-6334				no
-6335				no
-6336				no
-6337				no
-6338				no
-6339				no
-6340				no
-6341				no
-6342				no
-6343				no
-6344				no
-6345				no
-6346				no
-6347				no
-6348				no
-6349				no
-6350				no
-6351				no
-6352				no
-6353				no
-6354				no
-6355				no
-6356				no
-6357				no
-6358				no
-6359				no
-6360				no
-6361				no
-6362				no
-6363				no
-6364				no
-6365				no
-6366				no
-6367				no
-6368				no
-6369				no
-6370				no
-6371				no
-6372				no
-6373				no
-6374				no
-6375				no
-6376				no
-6377				no
-6378				no
-6379				no
-6380				no
-6381				no
-6382				no
-6383				no
-6384				no
-6385				no
-6386				no
-6387				no
-6388				no
-6389				no
-6390				no
-6391				no
-6392				no
-6393				no
-6394				no
-6395				no
-6396				no
-6397				no
-6398				no
-6399				no
-6400				no
-6401				no
-6402				no
-6403				no
-6404				no
-6405				no
-6406				no
-6407				no
-6408				no
-6409				no
-6410				no
-6411				no
-6412				no
-6413				no
-6414				no
-6415				no
-6416				no
-6417				no
-6418				no
-6419				no
-6420				no
-6421				no
-6422				no
-6423				no
-6424				no
-6425				no
-6426				no
-6427				no
-6428				no
-6429				no
-6430				no
-6431				no
-6432				no
-6433				no
-6434				no
-6435				no
-6436				no
-6437				no
-6438				no
-6439				no
-6440				no
-6441				no
-6442				no
-6443				no
-6444				no
-6445				no
-6446				no
-6447				no
-6448				no
-6449				no
-6450				no
-6451				no
-6452				no
-6453				no
-6454				no
-6455				no
-6456				no
-6457				no
-6458				no
-6459				no
-6460				no
-6461				no
-6462				no
-6463				no
-6464				no
-6465				no
-6466				no
-6467				no
-6468				no
-6469				no
-6470				no
-6471				no
-6472				no
-6473				no
-6474				no
-6475				no
-6476				no
-6477				no
-6478				no
-6479				no
-6480				no
-6481				no
-6482				no
-6483				no
-6484				no
-6485				no
-6486				no
-6487				no
-6488				no
-6489				no
-6490				no
-6491				no
-6492				no
-6493				no
-6494				no
-6495				no
-6496				no
-6497				no
-6498				no
-6499				no
-6500				no
-6501				no
-6502				no
-6503				no
-6504				no
-6505				no
-6506				no
-6507				no
-6508				no
-6509				no
-6510				no
-6511				no
-6512				no
-6513				no
-6514				no
-6515				no
-6516				no
-6517				no
-6518				no
-6519				no
-6520				no
-6521				no
-6522				no
-6523				no
-6524				no
-6525				no
-6526				no
-6527				no
-6528				no
-6529				no
-6530				no
-6531				no
-6532				no
-6533				no
-6534				no
-6535				no
-6536				no
-6537				no
-6538				no
-6539				no
-6540				no
-6541				no
-6542				no
-6543				no
-6544				no
-6545				no
-6546				no
-6547				no
-6548				no
-6549				no
-6550				no
-6551				no
-6552				no
-6553				no
-6554				no
-6555				no
-6556				no
-6557				no
-6558				no
-6559				no
-6560				no
-6561				no
-6562				no
-6563				no
-6564				no
-6565				no
-6566				no
-6567				no
-6568				no
-6569				no
-6570				no
-6571				no
-6572				no
-6573				no
-6574				no
-6575				no
-6576				no
-6577				no
-6578				no
-6579				no
-6580				no
-6581				no
-6582				no
-6583				no
-6584				no
-6585				no
-6586				no
-6587				no
-6588				no
-6589				no
-6590				no
-6591				no
-6592				no
-6593				no
-6594				no
-6595				no
-6596				no
-6597				no
-6598				no
-6599				no
-6600				no
-6601				no
-6602				no
-6603				no
-6604				no
-6605				no
-6606				no
-6607				no
-6608				no
-6609				no
-6610				no
-6611				no
-6612				no
-6613				no
-6614				no
-6615				no
-6616				no
-6617				no
-6618				no
-6619				no
-6620				no
-6621				no
-6622				no
-6623				no
-6624				no
-6625				no
-6626				no
-6627				no
-6628				no
-6629				no
-6630				no
-6631				no
-6632				no
-6633				no
-6634				no
-6635				no
-6636				no
-6637				no
-6638				no
-6639				no
-6640				no
-6641				no
-6642				no
-6643				no
-6644				no
-6645				no
-6646				no
-6647				no
-6648				no
-6649				no
-6650				no
-6651				no
-6652				no
-6653				no
-6654				no
-6655				no
-6656				no
-6657				no
-6658				no
-6659				no
-6660				no
-6661				no
-6662				no
-6663				no
-6664				no
-6665				no
-6666				no
-6667				no
-6668				no
-6669				no
-6670				no
-6671				no
-6672				no
-6673				no
-6674				no
-6675				no
-6676				no
-6677				no
-6678				no
-6679				no
-6680				no
-6681				no
-6682				no
-6683				no
-6684				no
-6685				no
-6686				no
-6687				no
-6688				no
-6689				no
-6690				no
-6691				no
-6692				no
-6693				no
-6694				no
-6695				no
-6696				no
-6697				no
-6698				no
-6699				no
-6700				no
-6701				no
-6702				no
-6703				no
-6704				no
-6705				no
-6706				no
-6707				no
-6708				no
-6709				no
-6710				no
-6711				no
-6712				no
-6713				no
-6714				no
-6715				no
-6716				no
-6717				no
-6718				no
-6719				no
-6720				no
-6721				no
-6722				no
-6723				no
-6724				no
-6725				no
-6726				no
-6727				no
-6728				no
-6729				no
-6730				no
-6731				no
-6732				no
-6733				no
-6734				no
-6735				no
-6736				no
-6737				no
-6738				no
-6739				no
-6740				no
-6741				no
-6742				no
-6743				no
-6744				no
-6745				no
-6746				no
-6747				no
-6748				no
-6749				no
-6750				no
-6751				no
-6752				no
-6753				no
-6754				no
-6755				no
-6756				no
-6757				no
-6758				no
-6759				no
-6760				no
-6761				no
-6762				no
-6763				no
-6764				no
-6765				no
-6766				no
-6767				no
-6768				no
-6769				no
-6770				no
-6771				no
-6772				no
-6773				no
-6774				no
-6775				no
-6776				no
-6777				no
-6778				no
-6779				no
-6780				no
-6781				no
-6782				no
-6783				no
-6784				no
-6785				no
-6786				no
-6787				no
-6788				no
-6789				no
-6790				no
-6791				no
-6792				no
-6793				no
-6794				no
-6795				no
-6796				no
-6797				no
-6798				no
-6799				no
-6800				no
-6801				no
-6802				no
-6803				no
-6804				no
-6805				no
-6806				no
-6807				no
-6808				no
-6809				no
-6810				no
-6811				no
-6812				no
-6813				no
-6814				no
-6815				no
-6816				no
-6817				no
-6818				no
-6819				no
-6820				no
-6821				no
-6822				no
-6823				no
-6824				no
-6825				no
-6826				no
-6827				no
-6828				no
-6829				no
-6830				no
-6831				no
-6832				no
-6833				no
-6834				no
-6835				no
-6836				no
-6837				no
-6838				no
-6839				no
-6840				no
-6841				no
-6842				no
-6843				no
-6844				no
-6845				no
-6846				no
-6847				no
-6848				no
-6849				no
-6850				no
-6851				no
-6852				no
-6853				no
-6854				no
-6855				no
-6856				no
-6857				no
-6858				no
-6859				no
-6860				no
-6861				no
-6862				no
-6863				no
-6864				no
-6865				no
-6866				no
-6867				no
-6868				no
-6869				no
-6870				no
-6871				no
-6872				no
-6873				no
-6874				no
-6875				no
-6876				no
-6877				no
-6878				no
-6879				no
-6880				no
-6881				no
-6882				no
-6883				no
-6884				no
-6885				no
-6886				no
-6887				no
-6888				no
-6889				no
-6890				no
-6891				no
-6892				no
-6893				no
-6894				no
-6895				no
-6896				no
-6897				no
-6898				no
-6899				no
-6900				no
-6901				no
-6902				no
-6903				no
-6904				no
-6905				no
-6906				no
-6907				no
-6908				no
-6909				no
-6910				no
-6911				no
-6912				no
-6913				no
-6914				no
-6915				no
-6916				no
-6917				no
-6918				no
-6919				no
-6920				no
-6921				no
-6922				no
-6923				no
-6924				no
-6925				no
-6926				no
-6927				no
-6928				no
-6929				no
-6930				no
-6931				no
-6932				no
-6933				no
-6934				no
-6935				no
-6936				no
-6937				no
-6938				no
-6939				no
-6940				no
-6941				no
-6942				no
-6943				no
-6944				no
-6945				no
-6946				no
-6947				no
-6948				no
-6949				no
-6950				no
-6951				no
-6952				no
-6953				no
-6954				no
-6955				no
-6956				no
-6957				no
-6958				no
-6959				no
-6960				no
-6961				no
-6962				no
-6963				no
-6964				no
-6965				no
-6966				no
-6967				no
-6968				no
-6969				no
-6970				no
-6971				no
-6972				no
-6973				no
-6974				no
-6975				no
-6976				no
-6977				no
-6978				no
-6979				no
-6980				no
-6981				no
-6982				no
-6983				no
-6984				no
-6985				no
-6986				no
-6987				no
-6988				no
-6989				no
-6990				no
-6991				no
-6992				no
-6993				no
-6994				no
-6995				no
-6996				no
-6997				no
-6998				no
-6999				no
-7000				no
-7001				no
-7002				no
-7003				no
-7004				no
-7005				no
-7006				no
-7007				no
-7008				no
-7009				no
-7010				no
-7011				no
-7012				no
-7013				no
-7014				no
-7015				no
-7016				no
-7017				no
-7018				no
-7019				no
-7020				no
-7021				no
-7022				no
-7023				no
-7024				no
-7025				no
-7026				no
-7027				no
-7028				no
-7029				no
-7030				no
-7031				no
-7032				no
-7033				no
-7034				no
-7035				no
-7036				no
-7037				no
-7038				no
-7039				no
-7040				no
-7041				no
-7042				no
-7043				no
-7044				no
-7045				no
-7046				no
-7047				no
-7048				no
-7049				no
-7050				no
-7051				no
-7052				no
-7053				no
-7054				no
-7055				no
-7056				no
-7057				no
-7058				no
-7059				no
-7060				no
-7061				no
-7062				no
-7063				no
-7064				no
-7065				no
-7066				no
-7067				no
-7068				no
-7069				no
-7070				no
-7071				no
-7072				no
-7073				no
-7074				no
-7075				no
-7076				no
-7077				no
-7078				no
-7079				no
-7080				no
-7081				no
-7082				no
-7083				no
-7084				no
-7085				no
-7086				no
-7087				no
-7088				no
-7089				no
-7090				no
-7091				no
-7092				no
-7093				no
-7094				no
-7095				no
+NC_045512	AA	Genome	Annotation	Impact	Reference	Variant
+1	R	13470				no
+2	V	13473				no
+3	C	13476				no
+4	G	13479				no
+5	V	13482				no
+6	S	13485				no
+7	A	13488				no
+8	A	13491				no
+9	R	13494				no
+10	L	13497				no
+11	T	13500				no
+12	P	13503				no
+13	C	13506				no
+14	G	13509				no
+15	T	13512				no
+16	G	13515				no
+17	T	13518				no
+18	S	13521				no
+19	T	13524				no
+20	D	13527				no
+21	V	13530				no
+22	V	13533				no
+23	Y	13536				no
+24	R	13539				no
+25	A	13542				no
+26	F	13545				no
+27	D	13548				no
+28	I	13551				no
+29	Y	13554				no
+30	N	13557				no
+31	D	13560				no
+32	K	13563				no
+33	V	13566				no
+34	A	13569				no
+35	G	13572				no
+36	F	13575				no
+37	A	13578				no
+38	K	13581				no
+39	F	13584				no
+40	L	13587				no
+41	K	13590				no
+42	T	13593				no
+43	N	13596				no
+44	C	13599				no
+45	C	13602				no
+46	R	13605				no
+47	F	13608				no
+48	Q	13611				no
+49	E	13614				no
+50	K	13617				no
+51	D	13620				no
+52	E	13623				no
+53	D	13626				no
+54	D	13629				no
+55	N	13632				no
+56	L	13635				no
+57	I	13638				no
+58	D	13641				no
+59	S	13644				no
+60	Y	13647				no
+61	F	13650				no
+62	V	13653				no
+63	V	13656				no
+64	K	13659				no
+65	R	13662				no
+66	H	13665				no
+67	T	13668				no
+68	F	13671				no
+69	S	13674				no
+70	N	13677				no
+71	Y	13680				no
+72	Q	13683				no
+73	H	13686				no
+74	E	13689				no
+75	E	13692				no
+76	T	13695				no
+77	I	13698				no
+78	Y	13701				no
+79	N	13704				no
+80	L	13707				no
+81	L	13710				no
+82	K	13713				no
+83	D	13716				no
+84	C	13719				no
+85	P	13722				no
+86	A	13725				no
+87	V	13728				no
+88	A	13731				no
+89	K	13734				no
+90	H	13737				no
+91	D	13740				no
+92	F	13743				no
+93	F	13746				no
+94	K	13749				no
+95	F	13752				no
+96	R	13755				no
+97	I	13758				no
+98	D	13761				no
+99	G	13764				no
+100	D	13767				no
+101	M	13770				no
+102	V	13773				no
+103	P	13776				no
+104	H	13779				no
+105	I	13782				no
+106	S	13785				no
+107	R	13788				no
+108	Q	13791				no
+109	R	13794				no
+110	L	13797				no
+111	T	13800				no
+112	K	13803				no
+113	Y	13806				no
+114	T	13809				no
+115	M	13812				no
+116	A	13815				no
+117	D	13818				no
+118	L	13821				no
+119	V	13824				no
+120	Y	13827				no
+121	A	13830				yes
+122	L	13833	"NiRAN, NTD ()N terminal Domain)"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498, 10.1093/nar/gkg916"	yes
+123	R	13836	"NiRAN, NTD"		"10.1371/journal.ppat.1000428, 10.1016/j.virusres.2017.01.023, 10.1126/science.abb7498 10.1093/nar/gkg916"	yes
+124	H	13839	"NiRAN, NTD,  RNA interaction in RNA binding channel"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916, 10.1074/jbc.ra120.013679"	yes
+125	F	13842	"NiRAN, NTD"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916"	yes
+126	D	13845	"NiRAN, NTD"		"10.1371/journal.ppat.1000428, 10.1126/science.abb7498 10.1093/nar/gkg916"	yes
+127	E	13848	"NiRAN, NTD"		10.1126/science.abb7498 10.1093/nar/gkg916	yes
+128	G	13851	"NiRAN, NTD"		10.1093/nar/gkg916	yes
+129	N	13854	"NiRAN, NTD"		10.1093/nar/gkg916	yes
+130	C	13857	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
+131	D	13860	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
+132	T	13863	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
+133	L	13866	"Interface domain, NTD"		10.1038/s41467-019-10280-3 10.1093/nar/gkg916	yes
+134	K	13869	"Interface domain, Observed stable mutation in Europe (mostly) and North America, NTD"		"10.1186/s12967-020-02344-6, 10.1038/s41467-019-10280-3, 10.1016/j.ygeno.2020.04.016 10.1093/nar/gkg916"	yes
+135	E	13872	"C-ter portion, “right hand” RdRp domain, Fingers Domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916"	yes
+136	I	13875	"C-ter portion, “right hand” RdRp domain, Fingers Domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916"	yes
+137	L	13878	"C-ter portion, “right hand” RdRp domain, Fingers Domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498, 10.1093/nar/gkg916"	yes
+138	V	13881	"C-ter portion, Domain G (Positioning of template overhang), “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498"	yes
+139	T	13884	"C-ter portion, Fingers Domain,  Interaction with RNA, “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"	yes
+140	Y	13887	"C-ter portion, Fingers Domain, “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"	yes
+141	N	13890	"RdRp domain; Palm domain, A motif, tested for resistance to ntp analogues antiviral, no impact., C-ter portion, “right hand” RdRp domain"		"10.1128/JVI.00080-16, 10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1126/science.abb7498"	yes
+142	C	13893	"RdRp domain;, C-ter portion; Palm domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"	yes
+143	C	13896	"RdRp domain; C-ter portion; Palm domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"	yes
+144	D	13899	"RdRp domain; C-ter portion; Palm domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916, 10.1038/s41586-020-2368-8, 10.1126/science.abb7498"	yes
+145	D	13902	"RdRp domain; Palm;, C-ter portion, C Domain, “right hand” RdRp domain"		"10.1126/science.abb7498, 10.1038/s41467-019-10280-3 10.1093/nar/gkg916"	yes
+146	D	13905	"C-ter portion, “right hand” RdRp domain"		"10.1093/nar/gkg916, 10.1126/science.abb7498"	yes
+147	Y	13908	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
+148	F	13911	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
+149	N	13914	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
+150	K	13917	superfamily 1 helicase		10.3389/fmicb.2019.01813 10.1093/nar/gkg916	yes
+151	K	13920	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+152	D	13923	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+153	W	13926	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+154	Y	13929	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+155	D	13932				yes
+156	F	13935	"North America Mutation. other mutations more likely to appear, superfamily 1 helicase"		"10.1186/s12967-020-02344-6; 10.3389/fmicb.2019.01813, 10.1016/j.ygeno.2020.04.016,"	yes
+157	V	13938	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+158	E	13941	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+159	N	13944	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+160	P	13947	superfamily 1 helicase		10.3389/fmicb.2019.01813	yes
+161	D	13950	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+162	I	13953	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+163	L	13956	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+164	R	13959	N-terminal ExoN domain		"10.1016/j.virusres.2017.01.023,1 0.3389/fmicb.2019.01813"	yes
+165	V	13962	"Partially conserved residue, N-terminal ExoN domain"		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+166	Y	13965	N-terminal ExoN domain		"10.1016/j.virusres.2017.01.023, 10.3389/fmicb.2019.01813"	yes
+167	A	13968	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+168	N	13971	N-terminal ExoN domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+169	L	13974	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+170	G	13977	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+171	E	13980	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+172	R	13983	C- terminal N7-methyl transferase domain		"10.3389/fmicb.2019.01813, 10.1016/j.virusres.2017.01.023"	yes
+173	V	13986	central domain			yes
+174	R	13989	"uridine-specific endoribonuclease, EndoU uridylate-specific endoribonuclease, XendoU homolog, central domain"		"10.1016/j.virusres.2017.01.023, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103"	yes
+175	Q	13992	 C-terminal Domain			yes
+176	A	13995	"uridine-specific endoribonuclease, Mutation reported, wild type phenotype, EndoU uridylate-specific endoribonuclease, XendoU homolog, C-terminal Domain"		"10.1073/pnas.0601708103, 10.1371/journal.ppat.1000428, 10.3389/fmicb.2019.01813, 10.1016/S0022-2836(03)00865-9, 10.1073/pnas.0601708103"	yes
+177	L	13998				yes
+178	L	14001				yes
+179	K	14004				yes
+180	T	14007	core MTase domain		10.1371/journal.ppat.1002294	yes
+181	V	14010	core MTase domain		10.1371/journal.ppat.1002294	yes
+182	Q	14013				yes
+183	F	14016				yes
+184	C	14019				no
+185	D	14022				no
+186	A	14025				no
+187	M	14028				no
+188	R	14031				no
+189	N	14034				no
+190	A	14037				no
+191	G	14040				no
+192	I	14043				no
+193	V	14046				no
+194	G	14049				no
+195	V	14052				no
+196	L	14055				no
+197	T	14058				no
+198	L	14061				no
+199	D	14064				no
+200	N	14067				no
+201	Q	14070				no
+202	D	14073				no
+203	L	14076				no
+204	N	14079				no
+205	G	14082				no
+206	N	14085				no
+207	W	14088				no
+208	Y	14091				no
+209	D	14094				no
+210	F	14097				no
+211	G	14100				no
+212	D	14103				no
+213	F	14106				no
+214	I	14109				no
+215	Q	14112				no
+216	T	14115				no
+217	T	14118				no
+218	P	14121				no
+219	G	14124				no
+220	S	14127				no
+221	G	14130				no
+222	V	14133				no
+223	P	14136				no
+224	V	14139				no
+225	V	14142				no
+226	D	14145				no
+227	S	14148				no
+228	Y	14151				no
+229	Y	14154				no
+230	S	14157				no
+231	L	14160				no
+232	L	14163				no
+233	M	14166				no
+234	P	14169				no
+235	I	14172				no
+236	L	14175				no
+237	T	14178				no
+238	L	14181				no
+239	T	14184				no
+240	R	14187				no
+241	A	14190				no
+242	L	14193				no
+243	T	14196				no
+244	A	14199				no
+245	E	14202				no
+246	S	14205				no
+247	H	14208				no
+248	V	14211				no
+249	D	14214				no
+250	T	14217				no
+251	D	14220				no
+252	L	14223				no
+253	T	14226				no
+254	K	14229				no
+255	P	14232				no
+256	Y	14235				no
+257	I	14238				no
+258	K	14241				no
+259	W	14244				no
+260	D	14247				no
+261	L	14250				no
+262	L	14253				no
+263	K	14256				no
+264	Y	14259				no
+265	D	14262				no
+266	F	14265				no
+267	T	14268				no
+268	E	14271				no
+269	E	14274				no
+270	R	14277				no
+271	L	14280				no
+272	K	14283				no
+273	L	14286				no
+274	F	14289				no
+275	D	14292				no
+276	R	14295				no
+277	Y	14298				no
+278	F	14301				no
+279	K	14304				no
+280	Y	14307				no
+281	W	14310				no
+282	D	14313				no
+283	Q	14316				no
+284	T	14319				no
+285	Y	14322				no
+286	H	14325				no
+287	P	14328				no
+288	N	14331				no
+289	C	14334				no
+290	V	14337				no
+291	N	14340				no
+292	C	14343				no
+293	L	14346				no
+294	D	14349				no
+295	D	14352				no
+296	R	14355				no
+297	C	14358				no
+298	I	14361				no
+299	L	14364				no
+300	H	14367				no
+301	C	14370				no
+302	A	14373				no
+303	N	14376				no
+304	F	14379				no
+305	N	14382				no
+306	V	14385				no
+307	L	14388				no
+308	F	14391				no
+309	S	14394				no
+310	T	14397				no
+311	V	14400				no
+312	F	14403				no
+313	P	14406				no
+314	P	14409				no
+315	T	14412				no
+316	S	14415				no
+317	F	14418				no
+318	G	14421				no
+319	P	14424				no
+320	L	14427				no
+321	V	14430				no
+322	R	14433				no
+323	K	14436				no
+324	I	14439				no
+325	F	14442				no
+326	V	14445				no
+327	D	14448				no
+328	G	14451				no
+329	V	14454				no
+330	P	14457				no
+331	F	14460				no
+332	V	14463				no
+333	V	14466				no
+334	S	14469				no
+335	T	14472				no
+336	G	14475				no
+337	Y	14478				no
+338	H	14481				no
+339	F	14484				no
+340	R	14487				no
+341	E	14490				no
+342	L	14493				no
+343	G	14496				no
+344	V	14499				no
+345	V	14502				no
+346	H	14505				no
+347	N	14508				no
+348	Q	14511				no
+349	D	14514				no
+350	V	14517				no
+351	N	14520				no
+352	L	14523				no
+353	H	14526				no
+354	S	14529				no
+355	S	14532				no
+356	R	14535				no
+357	L	14538				no
+358	S	14541				no
+359	F	14544				no
+360	K	14547				no
+361	E	14550				no
+362	L	14553				no
+363	L	14556				no
+364	V	14559				no
+365	Y	14562				no
+366	A	14565				no
+367	A	14568				no
+368	D	14571				no
+369	P	14574				no
+370	A	14577				no
+371	M	14580				no
+372	H	14583				no
+373	A	14586				no
+374	A	14589				no
+375	S	14592				no
+376	G	14595				no
+377	N	14598				no
+378	L	14601				no
+379	L	14604				no
+380	L	14607				no
+381	D	14610				no
+382	K	14613				no
+383	R	14616				no
+384	T	14619				no
+385	T	14622				no
+386	C	14625				no
+387	F	14628				no
+388	S	14631				no
+389	V	14634				no
+390	A	14637				no
+391	A	14640				no
+392	L	14643				no
+393	T	14646				no
+394	N	14649				no
+395	N	14652				no
+396	V	14655				no
+397	A	14658				no
+398	F	14661				no
+399	Q	14664				no
+400	T	14667				no
+401	V	14670				no
+402	K	14673				no
+403	P	14676				no
+404	G	14679				no
+405	N	14682				no
+406	F	14685				no
+407	N	14688				no
+408	K	14691				no
+409	D	14694				no
+410	F	14697				no
+411	Y	14700				no
+412	D	14703				no
+413	F	14706				no
+414	A	14709				no
+415	V	14712				no
+416	S	14715				no
+417	K	14718				no
+418	G	14721				no
+419	F	14724				no
+420	F	14727				no
+421	K	14730				no
+422	E	14733				no
+423	G	14736				no
+424	S	14739				no
+425	S	14742				no
+426	V	14745				no
+427	E	14748				no
+428	L	14751				no
+429	K	14754				no
+430	H	14757				no
+431	F	14760				no
+432	F	14763				no
+433	F	14766				no
+434	A	14769				no
+435	Q	14772				no
+436	D	14775				no
+437	G	14778				no
+438	N	14781				no
+439	A	14784				no
+440	A	14787				no
+441	I	14790				no
+442	S	14793				no
+443	D	14796				no
+444	Y	14799				no
+445	D	14802				no
+446	Y	14805				no
+447	Y	14808				no
+448	R	14811				no
+449	Y	14814				no
+450	N	14817				no
+451	L	14820				no
+452	P	14823				no
+453	T	14826				no
+454	M	14829				no
+455	C	14832				no
+456	D	14835				no
+457	I	14838				no
+458	R	14841				no
+459	Q	14844				no
+460	L	14847				no
+461	L	14850				no
+462	F	14853				no
+463	V	14856				no
+464	V	14859				no
+465	E	14862				no
+466	V	14865				no
+467	V	14868				no
+468	D	14871				no
+469	K	14874				no
+470	Y	14877				no
+471	F	14880				no
+472	D	14883				no
+473	C	14886				no
+474	Y	14889				no
+475	D	14892				no
+476	G	14895				no
+477	G	14898				no
+478	C	14901				no
+479	I	14904				no
+480	N	14907				no
+481	A	14910				no
+482	N	14913				no
+483	Q	14916				no
+484	V	14919				no
+485	I	14922				no
+486	V	14925				no
+487	N	14928				no
+488	N	14931				no
+489	L	14934				no
+490	D	14937				no
+491	K	14940				no
+492	S	14943				no
+493	A	14946				no
+494	G	14949				no
+495	F	14952				no
+496	P	14955				no
+497	F	14958				no
+498	N	14961				no
+499	K	14964				no
+500	W	14967				no
+501	G	14970				no
+502	K	14973				no
+503	A	14976				no
+504	R	14979				no
+505	L	14982				no
+506	Y	14985				no
+507	Y	14988				no
+508	D	14991				no
+509	S	14994				no
+510	M	14997				no
+511	S	15000				no
+512	Y	15003				no
+513	E	15006				no
+514	D	15009				no
+515	Q	15012				no
+516	D	15015				no
+517	A	15018				no
+518	L	15021				no
+519	F	15024				no
+520	A	15027				no
+521	Y	15030				no
+522	T	15033				no
+523	K	15036				no
+524	R	15039				no
+525	N	15042				no
+526	V	15045				no
+527	I	15048				no
+528	P	15051				no
+529	T	15054				no
+530	I	15057				no
+531	T	15060				no
+532	Q	15063				no
+533	M	15066				no
+534	N	15069				no
+535	L	15072				no
+536	K	15075				no
+537	Y	15078				no
+538	A	15081				no
+539	I	15084				no
+540	S	15087				no
+541	A	15090				no
+542	K	15093				no
+543	N	15096				no
+544	R	15099				no
+545	A	15102				no
+546	R	15105				no
+547	T	15108				no
+548	V	15111				no
+549	A	15114				no
+550	G	15117				no
+551	V	15120				no
+552	S	15123				no
+553	I	15126				no
+554	C	15129				no
+555	S	15132				no
+556	T	15135				no
+557	M	15138				no
+558	T	15141				no
+559	N	15144				no
+560	R	15147				no
+561	Q	15150				no
+562	F	15153				no
+563	H	15156				no
+564	Q	15159				no
+565	K	15162				no
+566	L	15165				no
+567	L	15168				no
+568	K	15171				no
+569	S	15174				no
+570	I	15177				no
+571	A	15180				no
+572	A	15183				no
+573	T	15186				no
+574	R	15189				no
+575	G	15192				no
+576	A	15195				no
+577	T	15198				no
+578	V	15201				no
+579	V	15204				no
+580	I	15207				no
+581	G	15210				no
+582	T	15213				no
+583	S	15216				no
+584	K	15219				no
+585	F	15222				no
+586	Y	15225				no
+587	G	15228				no
+588	G	15231				no
+589	W	15234				no
+590	H	15237				no
+591	N	15240				no
+592	M	15243				no
+593	L	15246				no
+594	K	15249				no
+595	T	15252				no
+596	V	15255				no
+597	Y	15258				no
+598	S	15261				no
+599	D	15264				no
+600	V	15267				no
+601	E	15270				no
+602	N	15273				no
+603	P	15276				no
+604	H	15279				no
+605	L	15282				no
+606	M	15285				no
+607	G	15288				no
+608	W	15291				no
+609	D	15294				no
+610	Y	15297				no
+611	P	15300				no
+612	K	15303				no
+613	C	15306				no
+614	D	15309				no
+615	R	15312				no
+616	A	15315				no
+617	M	15318				no
+618	P	15321				no
+619	N	15324				no
+620	M	15327				no
+621	L	15330				no
+622	R	15333				no
+623	I	15336				no
+624	M	15339				no
+625	A	15342				no
+626	S	15345				no
+627	L	15348				no
+628	V	15351				no
+629	L	15354				no
+630	A	15357				no
+631	R	15360				no
+632	K	15363				no
+633	H	15366				no
+634	T	15369				no
+635	T	15372				no
+636	C	15375				no
+637	C	15378				no
+638	S	15381				no
+639	L	15384				no
+640	S	15387				no
+641	H	15390				no
+642	R	15393				no
+643	F	15396				no
+644	Y	15399				no
+645	R	15402				no
+646	L	15405				no
+647	A	15408				no
+648	N	15411				no
+649	E	15414				no
+650	C	15417				no
+651	A	15420				no
+652	Q	15423				no
+653	V	15426				no
+654	L	15429				no
+655	S	15432				no
+656	E	15435				no
+657	M	15438				no
+658	V	15441				no
+659	M	15444				no
+660	C	15447				no
+661	G	15450				no
+662	G	15453				no
+663	S	15456				no
+664	L	15459				no
+665	Y	15462				no
+666	V	15465				no
+667	K	15468				no
+668	P	15471				no
+669	G	15474				no
+670	G	15477				no
+671	T	15480				no
+672	S	15483				no
+673	S	15486				no
+674	G	15489				no
+675	D	15492				no
+676	A	15495				no
+677	T	15498				no
+678	T	15501				no
+679	A	15504				no
+680	Y	15507				no
+681	A	15510				no
+682	N	15513				no
+683	S	15516				no
+684	V	15519				no
+685	F	15522				no
+686	N	15525				no
+687	I	15528				no
+688	C	15531				no
+689	Q	15534				no
+690	A	15537				no
+691	V	15540				no
+692	T	15543				no
+693	A	15546				no
+694	N	15549				no
+695	V	15552				no
+696	N	15555				no
+697	A	15558				no
+698	L	15561				no
+699	L	15564				no
+700	S	15567				no
+701	T	15570				no
+702	D	15573				no
+703	G	15576				no
+704	N	15579				no
+705	K	15582				no
+706	I	15585				no
+707	A	15588				no
+708	D	15591				no
+709	K	15594				no
+710	Y	15597				no
+711	V	15600				no
+712	R	15603				no
+713	N	15606				no
+714	L	15609				no
+715	Q	15612				no
+716	H	15615				no
+717	R	15618				no
+718	L	15621				no
+719	Y	15624				no
+720	E	15627				no
+721	C	15630				no
+722	L	15633				no
+723	Y	15636				no
+724	R	15639				no
+725	N	15642				no
+726	R	15645				no
+727	D	15648				no
+728	V	15651				no
+729	D	15654				no
+730	T	15657				no
+731	D	15660				no
+732	F	15663				no
+733	V	15666				no
+734	N	15669				no
+735	E	15672				no
+736	F	15675				no
+737	Y	15678				no
+738	A	15681				no
+739	Y	15684				no
+740	L	15687				no
+741	R	15690				no
+742	K	15693				no
+743	H	15696				no
+744	F	15699				no
+745	S	15702				no
+746	M	15705				no
+747	M	15708				no
+748	I	15711				no
+749	L	15714				no
+750	S	15717				no
+751	D	15720				no
+752	D	15723				no
+753	A	15726				no
+754	V	15729				no
+755	V	15732				no
+756	C	15735				no
+757	F	15738				no
+758	N	15741				no
+759	S	15744				no
+760	T	15747				no
+761	Y	15750				no
+762	A	15753				no
+763	S	15756				no
+764	Q	15759				no
+765	G	15762				no
+766	L	15765				no
+767	V	15768				no
+768	A	15771				no
+769	S	15774				no
+770	I	15777				no
+771	K	15780				no
+772	N	15783				no
+773	F	15786				no
+774	K	15789				no
+775	S	15792				no
+776	V	15795				no
+777	L	15798				no
+778	Y	15801				no
+779	Y	15804				no
+780	Q	15807				no
+781	N	15810				no
+782	N	15813				no
+783	V	15816				no
+784	F	15819				no
+785	M	15822				no
+786	S	15825				no
+787	E	15828				no
+788	A	15831				no
+789	K	15834				no
+790	C	15837				no
+791	W	15840				no
+792	T	15843				no
+793	E	15846				no
+794	T	15849				no
+795	D	15852				no
+796	L	15855				no
+797	T	15858				no
+798	K	15861				no
+799	G	15864				no
+800	P	15867				no
+801	H	15870				no
+802	E	15873				no
+803	F	15876				no
+804	C	15879				no
+805	S	15882				no
+806	Q	15885				no
+807	H	15888				no
+808	T	15891				no
+809	M	15894				no
+810	L	15897				no
+811	V	15900				no
+812	K	15903				no
+813	Q	15906				no
+814	G	15909				no
+815	D	15912				no
+816	D	15915				no
+817	Y	15918				no
+818	V	15921				no
+819	Y	15924				no
+820	L	15927				no
+821	P	15930				no
+822	Y	15933				no
+823	P	15936				no
+824	D	15939				no
+825	P	15942				no
+826	S	15945				no
+827	R	15948				no
+828	I	15951				no
+829	L	15954				no
+830	G	15957				no
+831	A	15960				no
+832	G	15963				no
+833	C	15966				no
+834	F	15969				no
+835	V	15972				no
+836	D	15975				no
+837	D	15978				no
+838	I	15981				no
+839	V	15984				no
+840	K	15987				no
+841	T	15990				no
+842	D	15993				no
+843	G	15996				no
+844	T	15999				no
+845	L	16002				no
+846	M	16005				no
+847	I	16008				no
+848	E	16011				no
+849	R	16014				no
+850	F	16017				no
+851	V	16020				no
+852	S	16023				no
+853	L	16026				no
+854	A	16029				no
+855	I	16032				no
+856	D	16035				no
+857	A	16038				no
+858	Y	16041				no
+859	P	16044				no
+860	L	16047				no
+861	T	16050				no
+862	K	16053				no
+863	H	16056				no
+864	P	16059				no
+865	N	16062				no
+866	Q	16065				no
+867	E	16068				no
+868	Y	16071				no
+869	A	16074				no
+870	D	16077				no
+871	V	16080				no
+872	F	16083				no
+873	H	16086				no
+874	L	16089				no
+875	Y	16092				no
+876	L	16095				no
+877	Q	16098				no
+878	Y	16101				no
+879	I	16104				no
+880	R	16107				no
+881	K	16110				no
+882	L	16113				no
+883	H	16116				no
+884	D	16119				no
+885	E	16122				no
+886	L	16125				no
+887	T	16128				no
+888	G	16131				no
+889	H	16134				no
+890	M	16137				no
+891	L	16140				no
+892	D	16143				no
+893	M	16146				no
+894	Y	16149				no
+895	S	16152				no
+896	V	16155				no
+897	M	16158				no
+898	L	16161				no
+899	T	16164				no
+900	N	16167				no
+901	D	16170				no
+902	N	16173				no
+903	T	16176				no
+904	S	16179				no
+905	R	16182				no
+906	Y	16185				no
+907	W	16188				no
+908	E	16191				no
+909	P	16194				no
+910	E	16197				no
+911	F	16200				no
+912	Y	16203				no
+913	E	16206				no
+914	A	16209				no
+915	M	16212				no
+916	Y	16215				no
+917	T	16218				no
+918	P	16221				no
+919	H	16224				no
+920	T	16227				no
+921	V	16230				no
+922	L	16233				no
+923	Q	16236				no
+924	A	16239				no
+925	V	16242				no
+926	G	16245				no
+927	A	16248				no
+928	C	16251				no
+929	V	16254				no
+930	L	16257				no
+931	C	16260				no
+932	N	16263				no
+933	S	16266				no
+934	Q	16269				no
+935	T	16272				no
+936	S	16275				no
+937	L	16278				no
+938	R	16281				no
+939	C	16284				no
+940	G	16287				no
+941	A	16290				no
+942	C	16293				no
+943	I	16296				no
+944	R	16299				no
+945	R	16302				no
+946	P	16305				no
+947	F	16308				no
+948	L	16311				no
+949	C	16314				no
+950	C	16317				no
+951	K	16320				no
+952	C	16323				no
+953	C	16326				no
+954	Y	16329				no
+955	D	16332				no
+956	H	16335				no
+957	V	16338				no
+958	I	16341				no
+959	S	16344				no
+960	T	16347				no
+961	S	16350				no
+962	H	16353				no
+963	K	16356				no
+964	L	16359				no
+965	V	16362				no
+966	L	16365				no
+967	S	16368				no
+968	V	16371				no
+969	N	16374				no
+970	P	16377				no
+971	Y	16380				no
+972	V	16383				no
+973	C	16386				no
+974	N	16389				no
+975	A	16392				no
+976	P	16395				no
+977	G	16398				no
+978	C	16401				no
+979	D	16404				no
+980	V	16407				no
+981	T	16410				no
+982	D	16413				no
+983	V	16416				no
+984	T	16419				no
+985	Q	16422				no
+986	L	16425				no
+987	Y	16428				no
+988	L	16431				no
+989	G	16434				no
+990	G	16437				no
+991	M	16440				no
+992	S	16443				no
+993	Y	16446				no
+994	Y	16449				no
+995	C	16452				no
+996	K	16455				no
+997	S	16458				no
+998	H	16461				no
+999	K	16464				no
+1000	P	16467				no
+1001	P	16470				no
+1002	I	16473				no
+1003	S	16476				no
+1004	F	16479				no
+1005	P	16482				no
+1006	L	16485				no
+1007	C	16488				no
+1008	A	16491				no
+1009	N	16494				no
+1010	G	16497				no
+1011	Q	16500				no
+1012	V	16503				no
+1013	F	16506				no
+1014	G	16509				no
+1015	L	16512				no
+1016	Y	16515				no
+1017	K	16518				no
+1018	N	16521				no
+1019	T	16524				no
+1020	C	16527				no
+1021	V	16530				no
+1022	G	16533				no
+1023	S	16536				no
+1024	D	16539				no
+1025	N	16542				no
+1026	V	16545				no
+1027	T	16548				no
+1028	D	16551				no
+1029	F	16554				no
+1030	N	16557				no
+1031	A	16560				no
+1032	I	16563				no
+1033	A	16566				no
+1034	T	16569				no
+1035	C	16572				no
+1036	D	16575				no
+1037	W	16578				no
+1038	T	16581				no
+1039	N	16584				no
+1040	A	16587				no
+1041	G	16590				no
+1042	D	16593				no
+1043	Y	16596				no
+1044	I	16599				no
+1045	L	16602				no
+1046	A	16605				no
+1047	N	16608				no
+1048	T	16611				no
+1049	C	16614				no
+1050	T	16617				no
+1051	E	16620				no
+1052	R	16623				no
+1053	L	16626				no
+1054	K	16629				no
+1055	L	16632				no
+1056	F	16635				no
+1057	A	16638				no
+1058	A	16641				no
+1059	E	16644				no
+1060	T	16647				no
+1061	L	16650				no
+1062	K	16653				no
+1063	A	16656				no
+1064	T	16659				no
+1065	E	16662				no
+1066	E	16665				no
+1067	T	16668				no
+1068	F	16671				no
+1069	K	16674				no
+1070	L	16677				no
+1071	S	16680				no
+1072	Y	16683				no
+1073	G	16686				no
+1074	I	16689				no
+1075	A	16692				no
+1076	T	16695				no
+1077	V	16698				no
+1078	R	16701				no
+1079	E	16704				no
+1080	V	16707				no
+1081	L	16710				no
+1082	S	16713				no
+1083	D	16716				no
+1084	R	16719				no
+1085	E	16722				no
+1086	L	16725				no
+1087	H	16728				no
+1088	L	16731				no
+1089	S	16734				no
+1090	W	16737				no
+1091	E	16740				no
+1092	V	16743				no
+1093	G	16746				no
+1094	K	16749				no
+1095	P	16752				no
+1096	R	16755				no
+1097	P	16758				no
+1098	P	16761				no
+1099	L	16764				no
+1100	N	16767				no
+1101	R	16770				no
+1102	N	16773				no
+1103	Y	16776				no
+1104	V	16779				no
+1105	F	16782				no
+1106	T	16785				no
+1107	G	16788				no
+1108	Y	16791				no
+1109	R	16794				no
+1110	V	16797				no
+1111	T	16800				no
+1112	K	16803				no
+1113	N	16806				no
+1114	S	16809				no
+1115	K	16812				no
+1116	V	16815				no
+1117	Q	16818				no
+1118	I	16821				no
+1119	G	16824				no
+1120	E	16827				no
+1121	Y	16830				no
+1122	T	16833				no
+1123	F	16836				no
+1124	E	16839				no
+1125	K	16842				no
+1126	G	16845				no
+1127	D	16848				no
+1128	Y	16851				no
+1129	G	16854				no
+1130	D	16857				no
+1131	A	16860				no
+1132	V	16863				no
+1133	V	16866				no
+1134	Y	16869				no
+1135	R	16872				no
+1136	G	16875				no
+1137	T	16878				no
+1138	T	16881				no
+1139	T	16884				no
+1140	Y	16887				no
+1141	K	16890				no
+1142	L	16893				no
+1143	N	16896				no
+1144	V	16899				no
+1145	G	16902				no
+1146	D	16905				no
+1147	Y	16908				no
+1148	F	16911				no
+1149	V	16914				no
+1150	L	16917				no
+1151	T	16920				no
+1152	S	16923				no
+1153	H	16926				no
+1154	T	16929				no
+1155	V	16932				no
+1156	M	16935				no
+1157	P	16938				no
+1158	L	16941				no
+1159	S	16944				no
+1160	A	16947				no
+1161	P	16950				no
+1162	T	16953				no
+1163	L	16956				no
+1164	V	16959				no
+1165	P	16962				no
+1166	Q	16965				no
+1167	E	16968				no
+1168	H	16971				no
+1169	Y	16974				no
+1170	V	16977				no
+1171	R	16980				no
+1172	I	16983				no
+1173	T	16986				no
+1174	G	16989				no
+1175	L	16992				no
+1176	Y	16995				no
+1177	P	16998				no
+1178	T	17001				no
+1179	L	17004				no
+1180	N	17007				no
+1181	I	17010				no
+1182	S	17013				no
+1183	D	17016				no
+1184	E	17019				no
+1185	F	17022				no
+1186	S	17025				no
+1187	S	17028				no
+1188	N	17031				no
+1189	V	17034				no
+1190	A	17037				no
+1191	N	17040				no
+1192	Y	17043				no
+1193	Q	17046				no
+1194	K	17049				no
+1195	V	17052				no
+1196	G	17055				no
+1197	M	17058				no
+1198	Q	17061				no
+1199	K	17064				no
+1200	Y	17067				no
+1201	S	17070				no
+1202	T	17073				no
+1203	L	17076				no
+1204	Q	17079				no
+1205	G	17082				no
+1206	P	17085				no
+1207	P	17088				no
+1208	G	17091				no
+1209	T	17094				no
+1210	G	17097				no
+1211	K	17100				no
+1212	S	17103				no
+1213	H	17106				no
+1214	F	17109				no
+1215	A	17112				no
+1216	I	17115				no
+1217	G	17118				no
+1218	L	17121				no
+1219	A	17124				no
+1220	L	17127				no
+1221	Y	17130				no
+1222	Y	17133				no
+1223	P	17136				no
+1224	S	17139				no
+1225	A	17142				no
+1226	R	17145				no
+1227	I	17148				no
+1228	V	17151				no
+1229	Y	17154				no
+1230	T	17157				no
+1231	A	17160				no
+1232	C	17163				no
+1233	S	17166				no
+1234	H	17169				no
+1235	A	17172				no
+1236	A	17175				no
+1237	V	17178				no
+1238	D	17181				no
+1239	A	17184				no
+1240	L	17187				no
+1241	C	17190				no
+1242	E	17193				no
+1243	K	17196				no
+1244	A	17199				no
+1245	L	17202				no
+1246	K	17205				no
+1247	Y	17208				no
+1248	L	17211				no
+1249	P	17214				no
+1250	I	17217				no
+1251	D	17220				no
+1252	K	17223				no
+1253	C	17226				no
+1254	S	17229				no
+1255	R	17232				no
+1256	I	17235				no
+1257	I	17238				no
+1258	P	17241				no
+1259	A	17244				no
+1260	R	17247				no
+1261	A	17250				no
+1262	R	17253				no
+1263	V	17256				no
+1264	E	17259				no
+1265	C	17262				no
+1266	F	17265				no
+1267	D	17268				no
+1268	K	17271				no
+1269	F	17274				no
+1270	K	17277				no
+1271	V	17280				no
+1272	N	17283				no
+1273	S	17286				no
+1274	T	17289				no
+1275	L	17292				no
+1276	E	17295				no
+1277	Q	17298				no
+1278	Y	17301				no
+1279	V	17304				no
+1280	F	17307				no
+1281	C	17310				no
+1282	T	17313				no
+1283	V	17316				no
+1284	N	17319				no
+1285	A	17322				no
+1286	L	17325				no
+1287	P	17328				no
+1288	E	17331				no
+1289	T	17334				no
+1290	T	17337				no
+1291	A	17340				no
+1292	D	17343				no
+1293	I	17346				no
+1294	V	17349				no
+1295	V	17352				no
+1296	F	17355				no
+1297	D	17358				no
+1298	E	17361				no
+1299	I	17364				no
+1300	S	17367				no
+1301	M	17370				no
+1302	A	17373				no
+1303	T	17376				no
+1304	N	17379				no
+1305	Y	17382				no
+1306	D	17385				no
+1307	L	17388				no
+1308	S	17391				no
+1309	V	17394				no
+1310	V	17397				no
+1311	N	17400				no
+1312	A	17403				no
+1313	R	17406				no
+1314	L	17409				no
+1315	R	17412				no
+1316	A	17415				no
+1317	K	17418				no
+1318	H	17421				no
+1319	Y	17424				no
+1320	V	17427				no
+1321	Y	17430				no
+1322	I	17433				no
+1323	G	17436				no
+1324	D	17439				no
+1325	P	17442				no
+1326	A	17445				no
+1327	Q	17448				no
+1328	L	17451				no
+1329	P	17454				no
+1330	A	17457				no
+1331	P	17460				no
+1332	R	17463				no
+1333	T	17466				no
+1334	L	17469				no
+1335	L	17472				no
+1336	T	17475				no
+1337	K	17478				no
+1338	G	17481				no
+1339	T	17484				no
+1340	L	17487				no
+1341	E	17490				no
+1342	P	17493				no
+1343	E	17496				no
+1344	Y	17499				no
+1345	F	17502				no
+1346	N	17505				no
+1347	S	17508				no
+1348	V	17511				no
+1349	C	17514				no
+1350	R	17517				no
+1351	L	17520				no
+1352	M	17523				no
+1353	K	17526				no
+1354	T	17529				no
+1355	I	17532				no
+1356	G	17535				no
+1357	P	17538				no
+1358	D	17541				no
+1359	M	17544				no
+1360	F	17547				no
+1361	L	17550				no
+1362	G	17553				no
+1363	T	17556				no
+1364	C	17559				no
+1365	R	17562				no
+1366	R	17565				no
+1367	C	17568				no
+1368	P	17571				no
+1369	A	17574				no
+1370	E	17577				no
+1371	I	17580				no
+1372	V	17583				no
+1373	D	17586				no
+1374	T	17589				no
+1375	V	17592				no
+1376	S	17595				no
+1377	A	17598				no
+1378	L	17601				no
+1379	V	17604				no
+1380	Y	17607				no
+1381	D	17610				no
+1382	N	17613				no
+1383	K	17616				no
+1384	L	17619				no
+1385	K	17622				no
+1386	A	17625				no
+1387	H	17628				no
+1388	K	17631				no
+1389	D	17634				no
+1390	K	17637				no
+1391	S	17640				no
+1392	A	17643				no
+1393	Q	17646				no
+1394	C	17649				no
+1395	F	17652				no
+1396	K	17655				no
+1397	M	17658				no
+1398	F	17661				no
+1399	Y	17664				no
+1400	K	17667				no
+1401	G	17670				no
+1402	V	17673				no
+1403	I	17676				no
+1404	T	17679				no
+1405	H	17682				no
+1406	D	17685				no
+1407	V	17688				no
+1408	S	17691				no
+1409	S	17694				no
+1410	A	17697				no
+1411	I	17700				no
+1412	N	17703				no
+1413	R	17706				no
+1414	P	17709				no
+1415	Q	17712				no
+1416	I	17715				no
+1417	G	17718				no
+1418	V	17721				no
+1419	V	17724				no
+1420	R	17727				no
+1421	E	17730				no
+1422	F	17733				no
+1423	L	17736				no
+1424	T	17739				no
+1425	R	17742				no
+1426	N	17745				no
+1427	P	17748				no
+1428	A	17751				no
+1429	W	17754				no
+1430	R	17757				no
+1431	K	17760				no
+1432	A	17763				no
+1433	V	17766				no
+1434	F	17769				no
+1435	I	17772				no
+1436	S	17775				no
+1437	P	17778				no
+1438	Y	17781				no
+1439	N	17784				no
+1440	S	17787				no
+1441	Q	17790				no
+1442	N	17793				no
+1443	A	17796				no
+1444	V	17799				no
+1445	A	17802				no
+1446	S	17805				no
+1447	K	17808				no
+1448	I	17811				no
+1449	L	17814				no
+1450	G	17817				no
+1451	L	17820				no
+1452	P	17823				no
+1453	T	17826				no
+1454	Q	17829				no
+1455	T	17832				no
+1456	V	17835				no
+1457	D	17838				no
+1458	S	17841				no
+1459	S	17844				no
+1460	Q	17847				no
+1461	G	17850				no
+1462	S	17853				no
+1463	E	17856				no
+1464	Y	17859				no
+1465	D	17862				no
+1466	Y	17865				no
+1467	V	17868				no
+1468	I	17871				no
+1469	F	17874				no
+1470	T	17877				no
+1471	Q	17880				no
+1472	T	17883				no
+1473	T	17886				no
+1474	E	17889				no
+1475	T	17892				no
+1476	A	17895				no
+1477	H	17898				no
+1478	S	17901				no
+1479	C	17904				no
+1480	N	17907				no
+1481	V	17910				no
+1482	N	17913				no
+1483	R	17916				no
+1484	F	17919				no
+1485	N	17922				no
+1486	V	17925				no
+1487	A	17928				no
+1488	I	17931				no
+1489	T	17934				no
+1490	R	17937				no
+1491	A	17940				no
+1492	K	17943				no
+1493	V	17946				no
+1494	G	17949				no
+1495	I	17952				no
+1496	L	17955				no
+1497	C	17958				no
+1498	I	17961				no
+1499	M	17964				no
+1500	S	17967				no
+1501	D	17970				no
+1502	R	17973				no
+1503	D	17976				no
+1504	L	17979				no
+1505	Y	17982				no
+1506	D	17985				no
+1507	K	17988				no
+1508	L	17991				no
+1509	Q	17994				no
+1510	F	17997				no
+1511	T	18000				no
+1512	S	18003				no
+1513	L	18006				no
+1514	E	18009				no
+1515	I	18012				no
+1516	P	18015				no
+1517	R	18018				no
+1518	R	18021				no
+1519	N	18024				no
+1520	V	18027				no
+1521	A	18030				no
+1522	T	18033				no
+1523	L	18036				no
+1524	Q	18039				no
+1525	A	18042				no
+1526	E	18045				no
+1527	N	18048				no
+1528	V	18051				no
+1529	T	18054				no
+1530	G	18057				no
+1531	L	18060				no
+1532	F	18063				no
+1533	K	18066				no
+1534	D	18069				no
+1535	C	18072				no
+1536	S	18075				no
+1537	K	18078				no
+1538	V	18081				no
+1539	I	18084				no
+1540	T	18087				no
+1541	G	18090				no
+1542	L	18093				no
+1543	H	18096				no
+1544	P	18099				no
+1545	T	18102				no
+1546	Q	18105				no
+1547	A	18108				no
+1548	P	18111				no
+1549	T	18114				no
+1550	H	18117				no
+1551	L	18120				no
+1552	S	18123				no
+1553	V	18126				no
+1554	D	18129				no
+1555	T	18132				no
+1556	K	18135				no
+1557	F	18138				no
+1558	K	18141				no
+1559	T	18144				no
+1560	E	18147				no
+1561	G	18150				no
+1562	L	18153				no
+1563	C	18156				no
+1564	V	18159				no
+1565	D	18162				no
+1566	I	18165				no
+1567	P	18168				no
+1568	G	18171				no
+1569	I	18174				no
+1570	P	18177				no
+1571	K	18180				no
+1572	D	18183				no
+1573	M	18186				no
+1574	T	18189				no
+1575	Y	18192				no
+1576	R	18195				no
+1577	R	18198				no
+1578	L	18201				no
+1579	I	18204				no
+1580	S	18207				no
+1581	M	18210				no
+1582	M	18213				no
+1583	G	18216				no
+1584	F	18219				no
+1585	K	18222				no
+1586	M	18225				no
+1587	N	18228				no
+1588	Y	18231				no
+1589	Q	18234				no
+1590	V	18237				no
+1591	N	18240				no
+1592	G	18243				no
+1593	Y	18246				no
+1594	P	18249				no
+1595	N	18252				no
+1596	M	18255				no
+1597	F	18258				no
+1598	I	18261				no
+1599	T	18264				no
+1600	R	18267				no
+1601	E	18270				no
+1602	E	18273				no
+1603	A	18276				no
+1604	I	18279				no
+1605	R	18282				no
+1606	H	18285				no
+1607	V	18288				no
+1608	R	18291				no
+1609	A	18294				no
+1610	W	18297				no
+1611	I	18300				no
+1612	G	18303				no
+1613	F	18306				no
+1614	D	18309				no
+1615	V	18312				no
+1616	E	18315				no
+1617	G	18318				no
+1618	C	18321				no
+1619	H	18324				no
+1620	A	18327				no
+1621	T	18330				no
+1622	R	18333				no
+1623	E	18336				no
+1624	A	18339				no
+1625	V	18342				no
+1626	G	18345				no
+1627	T	18348				no
+1628	N	18351				no
+1629	L	18354				no
+1630	P	18357				no
+1631	L	18360				no
+1632	Q	18363				no
+1633	L	18366				no
+1634	G	18369				no
+1635	F	18372				no
+1636	S	18375				no
+1637	T	18378				no
+1638	G	18381				no
+1639	V	18384				no
+1640	N	18387				no
+1641	L	18390				no
+1642	V	18393				no
+1643	A	18396				no
+1644	V	18399				no
+1645	P	18402				no
+1646	T	18405				no
+1647	G	18408				no
+1648	Y	18411				no
+1649	V	18414				no
+1650	D	18417				no
+1651	T	18420				no
+1652	P	18423				no
+1653	N	18426				no
+1654	N	18429				no
+1655	T	18432				no
+1656	D	18435				no
+1657	F	18438				no
+1658	S	18441				no
+1659	R	18444				no
+1660	V	18447				no
+1661	S	18450				no
+1662	A	18453				no
+1663	K	18456				no
+1664	P	18459				no
+1665	P	18462				no
+1666	P	18465				no
+1667	G	18468				no
+1668	D	18471				no
+1669	Q	18474				no
+1670	F	18477				no
+1671	K	18480				no
+1672	H	18483				no
+1673	L	18486				no
+1674	I	18489				no
+1675	P	18492				no
+1676	L	18495				no
+1677	M	18498				no
+1678	Y	18501				no
+1679	K	18504				no
+1680	G	18507				no
+1681	L	18510				no
+1682	P	18513				no
+1683	W	18516				no
+1684	N	18519				no
+1685	V	18522				no
+1686	V	18525				no
+1687	R	18528				no
+1688	I	18531				no
+1689	K	18534				no
+1690	I	18537				no
+1691	V	18540				no
+1692	Q	18543				no
+1693	M	18546				no
+1694	L	18549				no
+1695	S	18552				no
+1696	D	18555				no
+1697	T	18558				no
+1698	L	18561				no
+1699	K	18564				no
+1700	N	18567				no
+1701	L	18570				no
+1702	S	18573				no
+1703	D	18576				no
+1704	R	18579				no
+1705	V	18582				no
+1706	V	18585				no
+1707	F	18588				no
+1708	V	18591				no
+1709	L	18594				no
+1710	W	18597				no
+1711	A	18600				no
+1712	H	18603				no
+1713	G	18606				no
+1714	F	18609				no
+1715	E	18612				no
+1716	L	18615				no
+1717	T	18618				no
+1718	S	18621				no
+1719	M	18624				no
+1720	K	18627				no
+1721	Y	18630				no
+1722	F	18633				no
+1723	V	18636				no
+1724	K	18639				no
+1725	I	18642				no
+1726	G	18645				no
+1727	P	18648				no
+1728	E	18651				no
+1729	R	18654				no
+1730	T	18657				no
+1731	C	18660				no
+1732	C	18663				no
+1733	L	18666				no
+1734	C	18669				no
+1735	D	18672				no
+1736	R	18675				no
+1737	R	18678				no
+1738	A	18681				no
+1739	T	18684				no
+1740	C	18687				no
+1741	F	18690				no
+1742	S	18693				no
+1743	T	18696				no
+1744	A	18699				no
+1745	S	18702				no
+1746	D	18705				no
+1747	T	18708				no
+1748	Y	18711				no
+1749	A	18714				no
+1750	C	18717				no
+1751	W	18720				no
+1752	H	18723				no
+1753	H	18726				no
+1754	S	18729				no
+1755	I	18732				no
+1756	G	18735				no
+1757	F	18738				no
+1758	D	18741				no
+1759	Y	18744				no
+1760	V	18747				no
+1761	Y	18750				no
+1762	N	18753				no
+1763	P	18756				no
+1764	F	18759				no
+1765	M	18762				no
+1766	I	18765				no
+1767	D	18768				no
+1768	V	18771				no
+1769	Q	18774				no
+1770	Q	18777				no
+1771	W	18780				no
+1772	G	18783				no
+1773	F	18786				no
+1774	T	18789				no
+1775	G	18792				no
+1776	N	18795				no
+1777	L	18798				no
+1778	Q	18801				no
+1779	S	18804				no
+1780	N	18807				no
+1781	H	18810				no
+1782	D	18813				no
+1783	L	18816				no
+1784	Y	18819				no
+1785	C	18822				no
+1786	Q	18825				no
+1787	V	18828				no
+1788	H	18831				no
+1789	G	18834				no
+1790	N	18837				no
+1791	A	18840				no
+1792	H	18843				no
+1793	V	18846				no
+1794	A	18849				no
+1795	S	18852				no
+1796	C	18855				no
+1797	D	18858				no
+1798	A	18861				no
+1799	I	18864				no
+1800	M	18867				no
+1801	T	18870				no
+1802	R	18873				no
+1803	C	18876				no
+1804	L	18879				no
+1805	A	18882				no
+1806	V	18885				no
+1807	H	18888				no
+1808	E	18891				no
+1809	C	18894				no
+1810	F	18897				no
+1811	V	18900				no
+1812	K	18903				no
+1813	R	18906				no
+1814	V	18909				no
+1815	D	18912				no
+1816	W	18915				no
+1817	T	18918				no
+1818	I	18921				no
+1819	E	18924				no
+1820	Y	18927				no
+1821	P	18930				no
+1822	I	18933				no
+1823	I	18936				no
+1824	G	18939				no
+1825	D	18942				no
+1826	E	18945				no
+1827	L	18948				no
+1828	K	18951				no
+1829	I	18954				no
+1830	N	18957				no
+1831	A	18960				no
+1832	A	18963				no
+1833	C	18966				no
+1834	R	18969				no
+1835	K	18972				no
+1836	V	18975				no
+1837	Q	18978				no
+1838	H	18981				no
+1839	M	18984				no
+1840	V	18987				no
+1841	V	18990				no
+1842	K	18993				no
+1843	A	18996				no
+1844	A	18999				no
+1845	L	19002				no
+1846	L	19005				no
+1847	A	19008				no
+1848	D	19011				no
+1849	K	19014				no
+1850	F	19017				no
+1851	P	19020				no
+1852	V	19023				no
+1853	L	19026				no
+1854	H	19029				no
+1855	D	19032				no
+1856	I	19035				no
+1857	G	19038				no
+1858	N	19041				no
+1859	P	19044				no
+1860	K	19047				no
+1861	A	19050				no
+1862	I	19053				no
+1863	K	19056				no
+1864	C	19059				no
+1865	V	19062				no
+1866	P	19065				no
+1867	Q	19068				no
+1868	A	19071				no
+1869	D	19074				no
+1870	V	19077				no
+1871	E	19080				no
+1872	W	19083				no
+1873	K	19086				no
+1874	F	19089				no
+1875	Y	19092				no
+1876	D	19095				no
+1877	A	19098				no
+1878	Q	19101				no
+1879	P	19104				no
+1880	C	19107				no
+1881	S	19110				no
+1882	D	19113				no
+1883	K	19116				no
+1884	A	19119				no
+1885	Y	19122				no
+1886	K	19125				no
+1887	I	19128				no
+1888	E	19131				no
+1889	E	19134				no
+1890	L	19137				no
+1891	F	19140				no
+1892	Y	19143				no
+1893	S	19146				no
+1894	Y	19149				no
+1895	A	19152				no
+1896	T	19155				no
+1897	H	19158				no
+1898	S	19161				no
+1899	D	19164				no
+1900	K	19167				no
+1901	F	19170				no
+1902	T	19173				no
+1903	D	19176				no
+1904	G	19179				no
+1905	V	19182				no
+1906	C	19185				no
+1907	L	19188				no
+1908	F	19191				no
+1909	W	19194				no
+1910	N	19197				no
+1911	C	19200				no
+1912	N	19203				no
+1913	V	19206				no
+1914	D	19209				no
+1915	R	19212				no
+1916	Y	19215				no
+1917	P	19218				no
+1918	A	19221				no
+1919	N	19224				no
+1920	S	19227				no
+1921	I	19230				no
+1922	V	19233				no
+1923	C	19236				no
+1924	R	19239				no
+1925	F	19242				no
+1926	D	19245				no
+1927	T	19248				no
+1928	R	19251				no
+1929	V	19254				no
+1930	L	19257				no
+1931	S	19260				no
+1932	N	19263				no
+1933	L	19266				no
+1934	N	19269				no
+1935	L	19272				no
+1936	P	19275				no
+1937	G	19278				no
+1938	C	19281				no
+1939	D	19284				no
+1940	G	19287				no
+1941	G	19290				no
+1942	S	19293				no
+1943	L	19296				no
+1944	Y	19299				no
+1945	V	19302				no
+1946	N	19305				no
+1947	K	19308				no
+1948	H	19311				no
+1949	A	19314				no
+1950	F	19317				no
+1951	H	19320				no
+1952	T	19323				no
+1953	P	19326				no
+1954	A	19329				no
+1955	F	19332				no
+1956	D	19335				no
+1957	K	19338				no
+1958	S	19341				no
+1959	A	19344				no
+1960	F	19347				no
+1961	V	19350				no
+1962	N	19353				no
+1963	L	19356				no
+1964	K	19359				no
+1965	Q	19362				no
+1966	L	19365				no
+1967	P	19368				no
+1968	F	19371				no
+1969	F	19374				no
+1970	Y	19377				no
+1971	Y	19380				no
+1972	S	19383				no
+1973	D	19386				no
+1974	S	19389				no
+1975	P	19392				no
+1976	C	19395				no
+1977	E	19398				no
+1978	S	19401				no
+1979	H	19404				no
+1980	G	19407				no
+1981	K	19410				no
+1982	Q	19413				no
+1983	V	19416				no
+1984	V	19419				no
+1985	S	19422				no
+1986	D	19425				no
+1987	I	19428				no
+1988	D	19431				no
+1989	Y	19434				no
+1990	V	19437				no
+1991	P	19440				no
+1992	L	19443				no
+1993	K	19446				no
+1994	S	19449				no
+1995	A	19452				no
+1996	T	19455				no
+1997	C	19458				no
+1998	I	19461				no
+1999	T	19464				no
+2000	R	19467				no
+2001	C	19470				no
+2002	N	19473				no
+2003	L	19476				no
+2004	G	19479				no
+2005	G	19482				no
+2006	A	19485				no
+2007	V	19488				no
+2008	C	19491				no
+2009	R	19494				no
+2010	H	19497				no
+2011	H	19500				no
+2012	A	19503				no
+2013	N	19506				no
+2014	E	19509				no
+2015	Y	19512				no
+2016	R	19515				no
+2017	L	19518				no
+2018	Y	19521				no
+2019	L	19524				no
+2020	D	19527				no
+2021	A	19530				no
+2022	Y	19533				no
+2023	N	19536				no
+2024	M	19539				no
+2025	M	19542				no
+2026	I	19545				no
+2027	S	19548				no
+2028	A	19551				no
+2029	G	19554				no
+2030	F	19557				no
+2031	S	19560				no
+2032	L	19563				no
+2033	W	19566				no
+2034	V	19569				no
+2035	Y	19572				no
+2036	K	19575				no
+2037	Q	19578				no
+2038	F	19581				no
+2039	D	19584				no
+2040	T	19587				no
+2041	Y	19590				no
+2042	N	19593				no
+2043	L	19596				no
+2044	W	19599				no
+2045	N	19602				no
+2046	T	19605				no
+2047	F	19608				no
+2048	T	19611				no
+2049	R	19614				no
+2050	L	19617				no
+2051	Q	19620				no
+2052	S	19623				no
+2053	L	19626				no
+2054	E	19629				no
+2055	N	19632				no
+2056	V	19635				no
+2057	A	19638				no
+2058	F	19641				no
+2059	N	19644				no
+2060	V	19647				no
+2061	V	19650				no
+2062	N	19653				no
+2063	K	19656				no
+2064	G	19659				no
+2065	H	19662				no
+2066	F	19665				no
+2067	D	19668				no
+2068	G	19671				no
+2069	Q	19674				no
+2070	Q	19677				no
+2071	G	19680				no
+2072	E	19683				no
+2073	V	19686				no
+2074	P	19689				no
+2075	V	19692				no
+2076	S	19695				no
+2077	I	19698				no
+2078	I	19701				no
+2079	N	19704				no
+2080	N	19707				no
+2081	T	19710				no
+2082	V	19713				no
+2083	Y	19716				no
+2084	T	19719				no
+2085	K	19722				no
+2086	V	19725				no
+2087	D	19728				no
+2088	G	19731				no
+2089	V	19734				no
+2090	D	19737				no
+2091	V	19740				no
+2092	E	19743				no
+2093	L	19746				no
+2094	F	19749				no
+2095	E	19752				no
+2096	N	19755				no
+2097	K	19758				no
+2098	T	19761				no
+2099	T	19764				no
+2100	L	19767				no
+2101	P	19770				no
+2102	V	19773				no
+2103	N	19776				no
+2104	V	19779				no
+2105	A	19782				no
+2106	F	19785				no
+2107	E	19788				no
+2108	L	19791				no
+2109	W	19794				no
+2110	A	19797				no
+2111	K	19800				no
+2112	R	19803				no
+2113	N	19806				no
+2114	I	19809				no
+2115	K	19812				no
+2116	P	19815				no
+2117	V	19818				no
+2118	P	19821				no
+2119	E	19824				no
+2120	V	19827				no
+2121	K	19830				no
+2122	I	19833				no
+2123	L	19836				no
+2124	N	19839				no
+2125	N	19842				no
+2126	L	19845				no
+2127	G	19848				no
+2128	V	19851				no
+2129	D	19854				no
+2130	I	19857				no
+2131	A	19860				no
+2132	A	19863				no
+2133	N	19866				no
+2134	T	19869				no
+2135	V	19872				no
+2136	I	19875				no
+2137	W	19878				no
+2138	D	19881				no
+2139	Y	19884				no
+2140	K	19887				no
+2141	R	19890				no
+2142	D	19893				no
+2143	A	19896				no
+2144	P	19899				no
+2145	A	19902				no
+2146	H	19905				no
+2147	I	19908				no
+2148	S	19911				no
+2149	T	19914				no
+2150	I	19917				no
+2151	G	19920				no
+2152	V	19923				no
+2153	C	19926				no
+2154	S	19929				no
+2155	M	19932				no
+2156	T	19935				no
+2157	D	19938				no
+2158	I	19941				no
+2159	A	19944				no
+2160	K	19947				no
+2161	K	19950				no
+2162	P	19953				no
+2163	T	19956				no
+2164	E	19959				no
+2165	T	19962				no
+2166	I	19965				no
+2167	C	19968				no
+2168	A	19971				no
+2169	P	19974				no
+2170	L	19977				no
+2171	T	19980				no
+2172	V	19983				no
+2173	F	19986				no
+2174	F	19989				no
+2175	D	19992				no
+2176	G	19995				no
+2177	R	19998				no
+2178	V	20001				no
+2179	D	20004				no
+2180	G	20007				no
+2181	Q	20010				no
+2182	V	20013				no
+2183	D	20016				no
+2184	L	20019				no
+2185	F	20022				no
+2186	R	20025				no
+2187	N	20028				no
+2188	A	20031				no
+2189	R	20034				no
+2190	N	20037				no
+2191	G	20040				no
+2192	V	20043				no
+2193	L	20046				no
+2194	I	20049				no
+2195	T	20052				no
+2196	E	20055				no
+2197	G	20058				no
+2198	S	20061				no
+2199	V	20064				no
+2200	K	20067				no
+2201	G	20070				no
+2202	L	20073				no
+2203	Q	20076				no
+2204	P	20079				no
+2205	S	20082				no
+2206	V	20085				no
+2207	G	20088				no
+2208	P	20091				no
+2209	K	20094				no
+2210	Q	20097				no
+2211	A	20100				no
+2212	S	20103				no
+2213	L	20106				no
+2214	N	20109				no
+2215	G	20112				no
+2216	V	20115				no
+2217	T	20118				no
+2218	L	20121				no
+2219	I	20124				no
+2220	G	20127				no
+2221	E	20130				no
+2222	A	20133				no
+2223	V	20136				no
+2224	K	20139				no
+2225	T	20142				no
+2226	Q	20145				no
+2227	F	20148				no
+2228	N	20151				no
+2229	Y	20154				no
+2230	Y	20157				no
+2231	K	20160				no
+2232	K	20163				no
+2233	V	20166				no
+2234	D	20169				no
+2235	G	20172				no
+2236	V	20175				no
+2237	V	20178				no
+2238	Q	20181				no
+2239	Q	20184				no
+2240	L	20187				no
+2241	P	20190				no
+2242	E	20193				no
+2243	T	20196				no
+2244	Y	20199				no
+2245	F	20202				no
+2246	T	20205				no
+2247	Q	20208				no
+2248	S	20211				no
+2249	R	20214				no
+2250	N	20217				no
+2251	L	20220				no
+2252	Q	20223				no
+2253	E	20226				no
+2254	F	20229				no
+2255	K	20232				no
+2256	P	20235				no
+2257	R	20238				no
+2258	S	20241				no
+2259	Q	20244				no
+2260	M	20247				no
+2261	E	20250				no
+2262	I	20253				no
+2263	D	20256				no
+2264	F	20259				no
+2265	L	20262				no
+2266	E	20265				no
+2267	L	20268				no
+2268	A	20271				no
+2269	M	20274				no
+2270	D	20277				no
+2271	E	20280				no
+2272	F	20283				no
+2273	I	20286				no
+2274	E	20289				no
+2275	R	20292				no
+2276	Y	20295				no
+2277	K	20298				no
+2278	L	20301				no
+2279	E	20304				no
+2280	G	20307				no
+2281	Y	20310				no
+2282	A	20313				no
+2283	F	20316				no
+2284	E	20319				no
+2285	H	20322				no
+2286	I	20325				no
+2287	V	20328				no
+2288	Y	20331				no
+2289	G	20334				no
+2290	D	20337				no
+2291	F	20340				no
+2292	S	20343				no
+2293	H	20346				no
+2294	S	20349				no
+2295	Q	20352				no
+2296	L	20355				no
+2297	G	20358				no
+2298	G	20361				no
+2299	L	20364				no
+2300	H	20367				no
+2301	L	20370				no
+2302	L	20373				no
+2303	I	20376				no
+2304	G	20379				no
+2305	L	20382				no
+2306	A	20385				no
+2307	K	20388				no
+2308	R	20391				no
+2309	F	20394				no
+2310	K	20397				no
+2311	E	20400				no
+2312	S	20403				no
+2313	P	20406				no
+2314	F	20409				no
+2315	E	20412				no
+2316	L	20415				no
+2317	E	20418				no
+2318	D	20421				no
+2319	F	20424				no
+2320	I	20427				no
+2321	P	20430				no
+2322	M	20433				no
+2323	D	20436				no
+2324	S	20439				no
+2325	T	20442				no
+2326	V	20445				no
+2327	K	20448				no
+2328	N	20451				no
+2329	Y	20454				no
+2330	F	20457				no
+2331	I	20460				no
+2332	T	20463				no
+2333	D	20466				no
+2334	A	20469				no
+2335	Q	20472				no
+2336	T	20475				no
+2337	G	20478				no
+2338	S	20481				no
+2339	S	20484				no
+2340	K	20487				no
+2341	C	20490				no
+2342	V	20493				no
+2343	C	20496				no
+2344	S	20499				no
+2345	V	20502				no
+2346	I	20505				no
+2347	D	20508				no
+2348	L	20511				no
+2349	L	20514				no
+2350	L	20517				no
+2351	D	20520				no
+2352	D	20523				no
+2353	F	20526				no
+2354	V	20529				no
+2355	E	20532				no
+2356	I	20535				no
+2357	I	20538				no
+2358	K	20541				no
+2359	S	20544				no
+2360	Q	20547				no
+2361	D	20550				no
+2362	L	20553				no
+2363	S	20556				no
+2364	V	20559				no
+2365	V	20562				no
+2366	S	20565				no
+2367	K	20568				no
+2368	V	20571				no
+2369	V	20574				no
+2370	K	20577				no
+2371	V	20580				no
+2372	T	20583				no
+2373	I	20586				no
+2374	D	20589				no
+2375	Y	20592				no
+2376	T	20595				no
+2377	E	20598				no
+2378	I	20601				no
+2379	S	20604				no
+2380	F	20607				no
+2381	M	20610				no
+2382	L	20613				no
+2383	W	20616				no
+2384	C	20619				no
+2385	K	20622				no
+2386	D	20625				no
+2387	G	20628				no
+2388	H	20631				no
+2389	V	20634				no
+2390	E	20637				no
+2391	T	20640				no
+2392	F	20643				no
+2393	Y	20646				no
+2394	P	20649				no
+2395	K	20652				no
+2396	L	20655				no
+2397	Q	20658				no
+2398	S	20661				no
+2399	S	20664				no
+2400	Q	20667				no
+2401	A	20670				no
+2402	W	20673				no
+2403	Q	20676				no
+2404	P	20679				no
+2405	G	20682				no
+2406	V	20685				no
+2407	A	20688				no
+2408	M	20691				no
+2409	P	20694				no
+2410	N	20697				no
+2411	L	20700				no
+2412	Y	20703				no
+2413	K	20706				no
+2414	M	20709				no
+2415	Q	20712				no
+2416	R	20715				no
+2417	M	20718				no
+2418	L	20721				no
+2419	L	20724				no
+2420	E	20727				no
+2421	K	20730				no
+2422	C	20733				no
+2423	D	20736				no
+2424	L	20739				no
+2425	Q	20742				no
+2426	N	20745				no
+2427	Y	20748				no
+2428	G	20751				no
+2429	D	20754				no
+2430	S	20757				no
+2431	A	20760				no
+2432	T	20763				no
+2433	L	20766				no
+2434	P	20769				no
+2435	K	20772				no
+2436	G	20775				no
+2437	I	20778				no
+2438	M	20781				no
+2439	M	20784				no
+2440	N	20787				no
+2441	V	20790				no
+2442	A	20793				no
+2443	K	20796				no
+2444	Y	20799				no
+2445	T	20802				no
+2446	Q	20805				no
+2447	L	20808				no
+2448	C	20811				no
+2449	Q	20814				no
+2450	Y	20817				no
+2451	L	20820				no
+2452	N	20823				no
+2453	T	20826				no
+2454	L	20829				no
+2455	T	20832				no
+2456	L	20835				no
+2457	A	20838				no
+2458	V	20841				no
+2459	P	20844				no
+2460	Y	20847				no
+2461	N	20850				no
+2462	M	20853				no
+2463	R	20856				no
+2464	V	20859				no
+2465	I	20862				no
+2466	H	20865				no
+2467	F	20868				no
+2468	G	20871				no
+2469	A	20874				no
+2470	G	20877				no
+2471	S	20880				no
+2472	D	20883				no
+2473	K	20886				no
+2474	G	20889				no
+2475	V	20892				no
+2476	A	20895				no
+2477	P	20898				no
+2478	G	20901				no
+2479	T	20904				no
+2480	A	20907				no
+2481	V	20910				no
+2482	L	20913				no
+2483	R	20916				no
+2484	Q	20919				no
+2485	W	20922				no
+2486	L	20925				no
+2487	P	20928				no
+2488	T	20931				no
+2489	G	20934				no
+2490	T	20937				no
+2491	L	20940				no
+2492	L	20943				no
+2493	V	20946				no
+2494	D	20949				no
+2495	S	20952				no
+2496	D	20955				no
+2497	L	20958				no
+2498	N	20961				no
+2499	D	20964				no
+2500	F	20967				no
+2501	V	20970				no
+2502	S	20973				no
+2503	D	20976				no
+2504	A	20979				no
+2505	D	20982				no
+2506	S	20985				no
+2507	T	20988				no
+2508	L	20991				no
+2509	I	20994				no
+2510	G	20997				no
+2511	D	21000				no
+2512	C	21003				no
+2513	A	21006				no
+2514	T	21009				no
+2515	V	21012				no
+2516	H	21015				no
+2517	T	21018				no
+2518	A	21021				no
+2519	N	21024				no
+2520	K	21027				no
+2521	W	21030				no
+2522	D	21033				no
+2523	L	21036				no
+2524	I	21039				no
+2525	I	21042				no
+2526	S	21045				no
+2527	D	21048				no
+2528	M	21051				no
+2529	Y	21054				no
+2530	D	21057				no
+2531	P	21060				no
+2532	K	21063				no
+2533	T	21066				no
+2534	K	21069				no
+2535	N	21072				no
+2536	V	21075				no
+2537	T	21078				no
+2538	K	21081				no
+2539	E	21084				no
+2540	N	21087				no
+2541	D	21090				no
+2542	S	21093				no
+2543	K	21096				no
+2544	E	21099				no
+2545	G	21102				no
+2546	F	21105				no
+2547	F	21108				no
+2548	T	21111				no
+2549	Y	21114				no
+2550	I	21117				no
+2551	C	21120				no
+2552	G	21123				no
+2553	F	21126				no
+2554	I	21129				no
+2555	Q	21132				no
+2556	Q	21135				no
+2557	K	21138				no
+2558	L	21141				no
+2559	A	21144				no
+2560	L	21147				no
+2561	G	21150				no
+2562	G	21153				no
+2563	S	21156				no
+2564	V	21159				no
+2565	A	21162				no
+2566	I	21165				no
+2567	K	21168				no
+2568	I	21171				no
+2569	T	21174				no
+2570	E	21177				no
+2571	H	21180				no
+2572	S	21183				no
+2573	W	21186				no
+2574	N	21189				no
+2575	A	21192				no
+2576	D	21195				no
+2577	L	21198				no
+2578	Y	21201				no
+2579	K	21204				no
+2580	L	21207				no
+2581	M	21210				no
+2582	G	21213				no
+2583	H	21216				no
+2584	F	21219				no
+2585	A	21222				no
+2586	W	21225				no
+2587	W	21228				no
+2588	T	21231				no
+2589	A	21234				no
+2590	F	21237				no
+2591	V	21240				no
+2592	T	21243				no
+2593	N	21246				no
+2594	V	21249				no
+2595	N	21252				no
+2596	A	21255				no
+2597	S	21258				no
+2598	S	21261				no
+2599	S	21264				no
+2600	E	21267				no
+2601	A	21270				no
+2602	F	21273				no
+2603	L	21276				no
+2604	I	21279				no
+2605	G	21282				no
+2606	C	21285				no
+2607	N	21288				no
+2608	Y	21291				no
+2609	L	21294				no
+2610	G	21297				no
+2611	K	21300				no
+2612	P	21303				no
+2613	R	21306				no
+2614	E	21309				no
+2615	Q	21312				no
+2616	I	21315				no
+2617	D	21318				no
+2618	G	21321				no
+2619	Y	21324				no
+2620	V	21327				no
+2621	M	21330				no
+2622	H	21333				no
+2623	A	21336				no
+2624	N	21339				no
+2625	Y	21342				no
+2626	I	21345				no
+2627	F	21348				no
+2628	W	21351				no
+2629	R	21354				no
+2630	N	21357				no
+2631	T	21360				no
+2632	N	21363				no
+2633	P	21366				no
+2634	I	21369				no
+2635	Q	21372				no
+2636	L	21375				no
+2637	S	21378				no
+2638	S	21381				no
+2639	Y	21384				no
+2640	S	21387				no
+2641	L	21390				no
+2642	F	21393				no
+2643	D	21396				no
+2644	M	21399				no
+2645	S	21402				no
+2646	K	21405				no
+2647	F	21408				no
+2648	P	21411				no
+2649	L	21414				no
+2650	K	21417				no
+2651	L	21420				no
+2652	R	21423				no
+2653	G	21426				no
+2654	T	21429				no
+2655	A	21432				no
+2656	V	21435				no
+2657	M	21438				no
+2658	S	21441				no
+2659	L	21444				no
+2660	K	21447				no
+2661	E	21450				no
+2662	G	21453				no
+2663	Q	21456				no
+2664	I	21459				no
+2665	N	21462				no
+2666	D	21465				no
+2667	M	21468				no
+2668	I	21471				no
+2669	L	21474				no
+2670	S	21477				no
+2671	L	21480				no
+2672	L	21483				no
+2673	S	21486				no
+2674	K	21489				no
+2675	G	21492				no
+2676	R	21495				no
+2677	L	21498				no
+2678	I	21501				no
+2679	I	21504				no
+2680	R	21507				no
+2681	E	21510				no
+2682	N	21513				no
+2683	N	21516				no
+2684	R	21519				no
+2685	V	21522				no
+2686	V	21525				no
+2687	I	21528				no
+2688	S	21531				no
+2689	S	21534				no
+2690	D	21537				no
+2691	V	21540				no
+2692	L	21543				no
+2693	V	21546				no
+2694	N	21549				no
+2695	N	21552				no
