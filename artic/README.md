@@ -2,6 +2,14 @@
 title: Artic
 ---
 
+## Live Resources
+
+| usegalaxy.eu | usegalaxy.org.au |
+|:--------:|:------------:|
+| <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F2a32545de855d335" alt="Raw data" /> | |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/bgruening/w/sars-cov2-amplicon-artic" alt="Galaxy workflow" /> | |
+
+
 ## Amplicon Analysis using Artic workflows
 
 The [ARTIC Network](https://artic.network) is a collaborative project between a number of laboratories around the world that wants to provide protocols and advice on viral outbreaks. Their website states that part of their goal is to devlop *"an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies."* 
@@ -16,9 +24,11 @@ The workflow makes use of the [iVar software](https://andersen-lab.github.io/iva
 
 ## The workflow
 
-[Galaxy workflow for ARTIC analysis of amplicon data from Illumina sequencing](https://gist.github.com/pvanheus/6cae3dc07feff2fc528b0bb775099a0e)
+| ![](./img/wf.png) |
+|:------------------:|
+| Galaxy workflow for ARTIC analysis of amplicon data from Illumina sequencing |
 
-#### Reference:
+### Reference:
 
 Nathan D Grubaugh, Karthik Gangavarapu, Joshua Quick, Nathaniel L Matteson, Jaqueline Goes De Jesus, Bradley J Main, Amanda L Tan, Lauren M Paul, Doug E Brackney, Saran Grewal, Nikos Gurfield, Koen KA Van Rompay, Sharon Isern, Scott F Michael, Lark L Coffey, Nicholas J Loman, Kristian G Andersen, An amplicon-based sequencing framework for accurately measuring intrahost virus diversity using PrimalSeq and iVar, Genome Biology 2019 20:8
 
