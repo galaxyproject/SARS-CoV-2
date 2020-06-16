@@ -28,6 +28,11 @@ jobs:
       run: ./fetch_sra_acc.sh
     # - name: Fetch genome accessions
     #   run: python fetch_genome_accessions.py
+    - name: Install summary notebook dependencies
+      run: pip install -r updates/requirements.txt
+    - name: Run summary notebook
+      run: papermill updates/metadata_stats.ipynb updates/metadata_stats_rendered.ipynb
+    - run: mv updates/metadata_stats_rendered.ipynb updates/metadata_stats.ipynb
     - name: Show differences
       run: 'git diff --stat'
     - name: Create Pull Request
