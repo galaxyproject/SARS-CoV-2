@@ -110,7 +110,7 @@
                     and
                     <a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/genomics/4-Variation">VCF files</a>
                     are updated as new data comes in. Intra-host polymorphisms may reveal
-                    <RouterLink :to="'/genomics/5-S-analysis/'">sites</RouterLink> affecting the pathogenicity of the
+                    <RouterLink :to="'/genomics/5-Annotation/'">sites</RouterLink> affecting the pathogenicity of the
                     virus.
                 </p>
             </div>

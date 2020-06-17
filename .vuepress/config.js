@@ -28,7 +28,7 @@ module.exports = {
                 "/genomics/2-Assembly/",
                 "/genomics/3-MRCA/",
                 "/genomics/4-Variation/",
-                "/genomics/5-S-analysis/",
+                "/genomics/5-Annotation/",
                 "/genomics/6-RecombinationSelection/",
                 "/genomics/updates/",
                 "/genomics/deploy/"

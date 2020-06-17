@@ -82,3 +82,7 @@ Tools used in this analysis are also available from BioConda:
 |----------|----------------|
 | `mafft`  | [![Anaconda-Server Badge](https://anaconda.org/bioconda/mafft/badges/version.svg)](https://anaconda.org/bioconda/mafft) |
 | `emboss` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/emboss/badges/version.svg)](https://anaconda.org/bioconda/emboss) |
+
+## Notebooks
+<observableNotebook notebookSource="@delphine-l/coordinate-conversion-between-species-of-coronavirus"/>
+<observableNotebook notebookSource="@delphine-l/annotation-of-sars-2-coronavirus-genome"/>
