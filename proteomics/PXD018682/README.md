@@ -25,6 +25,8 @@ Their protocol consists of an acetone precipitation step, followed by tryptic di
 In the original manuscript, the authors detect peptides from SARS-CoV-2 virus proteins and present evidence for their spectral annotation.
 This study is an initiative in developing a  routine MS-based diagnostic method for COVID-19 patients.
 
+![](../img/lorikeet.png)
+
 ## Workflow
 
 ![](../img/wf.png)
