@@ -14,11 +14,16 @@ title: S-Analysis
 
 ## What's the point?
 
-In [the previous portion](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) of this study we found a non-synonymous polymorphism within the *S*-gene. In this section we are trying to interpret its possible effect.
+In [the previous portion](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) of this study we found variations in SARS-2 Cov genome. To evaluate the impact of variations on the virus, we need to perform a functionnal annotation of variants. A lot of litterature is available on coronaviruses, and on a wide variaty of species. To help with that task, we offer two precious tools :
+-   Tables of coordinate conversion between different species of coronaviruses, to help with the transfer of annotations
+-   Tables of annotation of all residues. With compilated literature on Coronaviruses to link each residue to their functional annotation, including from other species of coronavirus.
+
+
+To illustrate the process,  we studied a non-synonymous polymorphism within the *S*-gene found in [the previous portion](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation). We are trying to interpret its possible effect.
 
 ## Outline
 
-Obtain coding sequences of S proteins from a diverse group of coronaviruses. Generate amino acid alignment to assess conservation of the polymorphic location.
+Obtain coding sequences of S proteins from a diverse group of coronaviruses, and generate amino acid alignment to generate a table of coordinate conversion.
 
 ## Input
 
@@ -51,7 +56,8 @@ Downloaded [CDS sequences](Spike_cds.fasta) of coronavirus Spike proteins from [
 |NC_028806.1 | Swine enteric coronavirus strain Italy/213306/2009 |
 |NC_038861.1 | Transmissible gastroenteritis virus |
 
-These viruses were chosen based on a publication by Duquerroy et al. ([2005](http://dx.doi.org/10.1016/j.virol.2005.02.022)). The sequences were extracted manually--a painful process. We will develop a tool for parsing particular CDS sequences automatically for future analyses.
+These viruses were chosen based on a publication by Duquerroy et al. ([2005](http://dx.doi.org/10.1016/j.virol.2005.02.022)). The sequences were extracted manually--a painful process.
+
 
 ## Output
 
@@ -73,6 +79,21 @@ The Galaxy history containing the latest analysis can be found [here](https://us
 ![Analysis Workflow](./s_wf.png)
 
 The `transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `mafft`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
+
+## Generation of Coordinate maps
+
+We used this workflow to generate alignment across Coronaviruses for each gene of SARS-2 Cov. From this alignments, using `mafft`, we generated coordinate conversion. The `mafft -add` option allows not only to add sequences to an alignment, but also generated a mapping of the new sequence to the coordinate of the alignment. We reported these mapping data to the SARS-2 Cov coordinate for more clarity.
+
+These table can be queried through the notebook included in this section. To find positions equivalent to your residue or region of interest :
+-   Select the Gene
+-   Select the species in which your coordinates are
+-   Select the region of interest
+
+## Residue annotations
+
+Since the beginning of this project, we have been compilating functionnal information from litterature for each residue of each gene of SARS-2 cov. The litterature covers several species of coronavirus, and we used the coordinate tables presented above to transfer the annotations between species. In cases where the residue is different from the one annotated, it is specified in the table, and all annotations are linked to their article of origin.
+Due to the considerable amount of litterature available, the annotations are incomplete, but we are working on enriching them everyday. You can contribute to the annoation effort by adding annotations in the tables on [Github](https://github.com/galaxyproject/SARS-CoV-2/tree/master/7-VariantsDescription/residue_annotation/)
+
 
 ## BioConda
 
