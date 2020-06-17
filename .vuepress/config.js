@@ -19,6 +19,22 @@ module.exports = {
             {
                 text: "Evolution",
                 link: "/evolution/"
+            },
+            {
+                text: "Direct RNAseq",
+                link: "/direct-rnaseq/"
+            },
+            {
+                text: "Proteomics",
+                link: "/proteomics/"
+            },
+            {
+                text: "Artic",
+                link: "/artic/"
+            },
+            {
+                text: "Data",
+                link: "/data/"
             }
         ],
         sidebar: {
@@ -46,8 +62,26 @@ module.exports = {
             "/evolution/": [
                 "/evolution/",
                 "/evolution/1-DiversityDivergence",
-            ]
-
+            ],
+            "/direct-rnaseq/": [
+                "/direct-rnaseq/",
+                "/direct-rnaseq/1-preprocessing/",
+                "/direct-rnaseq/2-epigenetics/",
+            ],
+            "/proteomics/": [
+                "/proteomics/",
+                "/proteomics/PXD018804/",
+                "/proteomics/PXD018682/",
+                "/proteomics/PXD018594/",
+                //"/proteomics/PXD018117/",
+            ],
+            "/artic/": [
+                "/artic/",
+            ],
+            "/data/": [
+                "/data/",
+                "/data/gisaid/",
+            ],
         },
         sidebarDepth: 3,
         displayAllHeaders: true,

@@ -79,6 +79,40 @@
                     </li>
                 </ul>
             </div>
+            <div class="feature">
+                <RouterLink :to="'/proteomics/'">
+                    <h2>Proteomics</h2>
+                    <h4>Mass Spectrometry</h4>
+                    <img :src="$withBase('./img/pro.jpg')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/proteomics/PXD018804/'">Reanalysis of PXD018804</RouterLink></li>
+                    <li><RouterLink :to="'/proteomics/PXD018682/'">Reanalysis of PXD018682</RouterLink></li>
+                    <li><RouterLink :to="'/proteomics/PXD018594/'">Reanalysis of PXD018594</RouterLink></li>
+                    <!-- <li><RouterLink :to="'/proteomics/PXD018117/'">Reanalysis of PXD018117</RouterLink></li> -->
+                </ul>
+            </div>
+            <div class="feature">
+                <RouterLink :to="'/artic/'">
+                    <h2>Artic</h2>
+                    <h4>Amplicon based data analysis</h4>
+                    <img :src="$withBase('./img/artic.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/cheminformatics/amplicon/'">Amplicon Analysis</RouterLink></li>
+                </ul>
+            </div>
+            <div class="feature">
+                <RouterLink :to="'/direct-rnaseq/'">
+                    <h2>direct RNA-seq</h2>
+                    <h4>direct RNA-seq data analysis</h4>
+                    <img :src="$withBase('./img/drna.png')" />
+                </RouterLink>
+                <ul>
+                    <li><RouterLink :to="'/direct-rnaseq/1-preprocessing/'">Pre-Processing</RouterLink></li>
+                    <li><RouterLink :to="'/direct-rnaseq/2-epigenetics/'">RNA Epigenetics</RouterLink></li>
+                </ul>
+            </div>
         </div>
         <h1>Results</h1>
         <p>Each analysis section is continuously updated as new data becomes available. The main highlights are:</p>
