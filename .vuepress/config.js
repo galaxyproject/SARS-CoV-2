@@ -29,6 +29,10 @@ module.exports = {
                 link: "/proteomics/"
             },
             {
+                text: "Artic",
+                link: "/artic/"
+            },
+            {
                 text: "Data",
                 link: "/data/"
             }
@@ -70,6 +74,9 @@ module.exports = {
                 "/proteomics/PXD018682/",
                 //"/proteomics/PXD018594/",
                 "/proteomics/PXD018117/",
+            ],
+            "/artic/": [
+                "/artic/",
             ],
             "/data/": [
                 "/data/",
