@@ -2,7 +2,7 @@ name: Fetch accessions and start workflow
 on:
   schedule:
     # Run every day at midnight -- except for today, let's just get the workflow going.
-    - cron: '00 19 * * *'
+    - cron: '00 12 * * *'
 jobs:
   fetch-accessions:
     name: Fetch
