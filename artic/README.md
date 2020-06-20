@@ -20,13 +20,21 @@ The amplicon approach using the protocol outlined by the ARTIC network has been 
 
 Along with the laboratory protocols for sequencing (both for Illumina and Nanopore sequencing technologies), several tools and workflows have been developed to handle what is essentially non-random sequencing data.
 
-The workflow makes use of the [iVar software](https://andersen-lab.github.io/ivar/html/) from the Andersen Lab at the Scripps Research Institute in California. 
+The workflow makes use of the [iVar software](https://andersen-lab.github.io/ivar/html/) from the Andersen Lab at the Scripps Research Institute in California.
 
 ## The workflow
 
 | ![](./img/wf.png) |
 |:------------------:|
 | Galaxy workflow for ARTIC analysis of amplicon data from Illumina sequencing |
+
+
+<p align="center">
+  <a href="https://bccdc.ca/">    <img src="img/bc-cdc-logo.png" width="22%" alt="BC CDC" /> </a>
+  <a href="https://quadram.ac.uk/">    <img src="img/quadram-logo.png" width="22%" alt="Quadram Institute" /> </a>
+  <a href="https://www.sanbi.ac.za/">   <img src="img/sanbi-logo.png" width="22%" alt="South African National Bioinformatics Institute (SANBI, UWC)" /> </a>
+  <a href="https://www.unimelb.edu.au/">    <img src="img/uni-melbourne-logo.png" width="22%" alt="University of Melbourne" /> </a>
+</p>
 
 ### Reference:
 
