@@ -2,7 +2,8 @@ name: Fetch accessions and start workflow
 on:
   schedule:
     # Run every day at midnight -- except for today, let's just get the workflow going.
-    - cron: '00 12 * * *'
+    - cron: '00 00 * * *'
+  repository_dispatch:
 jobs:
   fetch-accessions:
     name: Fetch
@@ -29,10 +30,13 @@ jobs:
     # - name: Fetch genome accessions
     #   run: python fetch_genome_accessions.py
     - name: Install summary notebook dependencies
-      run: pip install -r updates/requirements.txt
+      run: pip install -r requirements.txt
+      working-directory: ./genomics/4-Variation/updates/
     - name: Run summary notebook
-      run: papermill updates/metadata_stats.ipynb updates/metadata_stats_rendered.ipynb
-    - run: mv updates/metadata_stats_rendered.ipynb updates/metadata_stats.ipynb
+      run: papermill metadata_stats.ipynb metadata_stats_rendered.ipynb
+      working-directory: ./genomics/4-Variation/updates/
+    - run: mv metadata_stats_rendered.ipynb metadata_stats.ipynb
+      working-directory: ./genomics/4-Variation/updates/
     - name: Show differences
       run: 'git diff --stat'
     - name: Create Pull Request
