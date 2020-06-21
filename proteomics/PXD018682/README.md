@@ -2,11 +2,6 @@
 title: Reanalysis of PXD018682
 ---
 
-<p class="shieldlist">
-Powered by:
-<FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
-</p>
-
 # MS data analysis with Search GUI and PeptideShaker
 
 ## Live Resources

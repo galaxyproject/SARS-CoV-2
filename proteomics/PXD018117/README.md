@@ -2,12 +2,6 @@
 title: Reanalysis of PXD018117
 ---
 
-<p class="shieldlist">
-Powered by:
-<FlatShield label="usegalaxy" message="eu" href="https://usegalaxy.eu"/>
-</p>
-
-
 ## Live Resources
 
 | usegalaxy.eu |
