@@ -83,7 +83,7 @@
                 <RouterLink :to="'/proteomics/'">
                     <h2>Proteomics</h2>
                     <h4>Mass Spectrometry</h4>
-                    <img :src="$withBase('./img/pro.jpg')" />
+                    <img :src="$withBase('./img/pro.png')" />
                 </RouterLink>
                 <ul>
                     <li><RouterLink :to="'/proteomics/PXD018804/'">Reanalysis of PXD018804</RouterLink></li>
