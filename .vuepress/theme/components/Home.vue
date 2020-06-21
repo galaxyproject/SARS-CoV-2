@@ -89,7 +89,7 @@
                     <li><RouterLink :to="'/proteomics/PXD018804/'">Reanalysis of PXD018804</RouterLink></li>
                     <li><RouterLink :to="'/proteomics/PXD018682/'">Reanalysis of PXD018682</RouterLink></li>
                     <li><RouterLink :to="'/proteomics/PXD018594/'">Reanalysis of PXD018594</RouterLink></li>
-                    <!-- <li><RouterLink :to="'/proteomics/PXD018117/'">Reanalysis of PXD018117</RouterLink></li> -->
+                    <li><RouterLink :to="'/proteomics/PXD018117/'">Reanalysis of PXD018117</RouterLink></li>
                 </ul>
             </div>
             <div class="feature">
