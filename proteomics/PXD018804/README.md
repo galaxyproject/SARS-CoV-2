@@ -6,6 +6,7 @@ title: Reanalysis of PXD018804
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
+| <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F0b0b362a64328086" alt="Raw data" /> |
 | <FlatShield label="workflow" message="run" href="https://proteomics.usegalaxy.eu/u/subina/w/imported-search-pxd018804-workflow" alt="Galaxy workflow" /> |
 | <FlatShield label="PDX018804-Q10486-90 history" message="view" href="https://usegalaxy.eu/u/subina/h/imported-search-pxd018804-q10486-90" alt="Galaxy history" /> |
 | <FlatShield label="PDX018804-Q10511-15 history" message="view" href="https://usegalaxy.eu/u/subina/h/imported-search-pxd018804-q10511-15" alt="Galaxy history" /> |
