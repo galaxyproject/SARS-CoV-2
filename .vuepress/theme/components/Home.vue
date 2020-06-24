@@ -2,7 +2,7 @@
     <main class="home" aria-labelledby="main-title">
         <header class="hero">
             <h1 id="main-title">
-                Best practices for the analysis of SARS-CoV-2 data: Genomics, Evolution, and Cheminformatics
+                Best practices for the analysis of SARS-CoV-2 data: Genomics, Proteomics, Evolution, and Cheminformatics
             </h1>
             <p class="description">
                 Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral
