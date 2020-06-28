@@ -45,6 +45,9 @@ Scripps Research Institute in California for trimming the primer section of read
 
    This step also reduces strand-bias for variants at primer binding sites.
 
+   Note also that Illumina-sequencing protocols for the ARTIC approach typically include random fragmentation of the amplicons as part of their library preparation step in order to achieve full coverage of all amplicons.
+   To account for this, we do *not* use iVar's option to discard reads that do not end in a primer sequence.
+
 3. Read pairs amplified with a potential bias in primer binding are not used for calculating variant call statistics
 
    If within-sample variation affects a primer binding site, the primer is expected to bind preferentially to the perfectly matching reference sequence as opposed to sequences carrying the variant allele, i.e., amplicons generated with such biased primers will more likely capture the sequence of viral template molecules without the variant than with it, and this extends to any linked variants within the amplicon region.
@@ -72,7 +75,7 @@ The workflow requires:
    
    For reproducibility we provide here copies of the:
    
-   - [v3 primer scheme BED file](nCoV-2019_v1.bed)
+   - [v3 primer scheme BED file](nCoV-2019_v3.bed)
    - [v1 primer scheme BED file](nCoV-2019_v1.bed)
 
    Please take care to use the correct primer BED file corresponding to the version of the primers used during sequencing! If in doubt, consider this:
