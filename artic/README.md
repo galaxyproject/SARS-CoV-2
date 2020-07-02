@@ -7,8 +7,8 @@ title: Artic
 | usegalaxy.eu | usegalaxy.org.au |
 |:--------:|:------------:|
 | <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F2a32545de855d335" alt="Raw data" /> | |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.org.au/u/pvanheus/w/imported-covid-19-amplicon-artic" alt="Galaxy workflow" />  |
-
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.org.au/u/simongladman/w/covid-19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" />  |
+| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/wolfgang-maier/h/artic-example-analysis" alt="Galaxy history" /> | |
 
 ## Background
 
@@ -22,13 +22,13 @@ Along with the laboratory protocols for sequencing (both for Illumina and Nanopo
 
 ## Analyzing ARTIC data with Galaxy
 
-### What's the point
+### What's the point?
 
 Our goal is to enable and provide state-of-the-art workflows for the analysis of SARS-CoV-2 ARTIC data using the Galaxy platform.
 
 While it is possible to treat ARTIC data like regular whole-genome sequencing (WGS) data and analyze it with WGS workflows like the ones we developed for the [analysis of within-samples variation](../genomics/4-Variation/), failure to take the specific nature of the data, and specifically the presence of amplicon primer sequences, into account would lead to suboptimal results.
 
-## A Galaxy workflow for the analysis of Illumina paired-end sequenced ARTIC amplicon data
+### A Galaxy workflow for the analysis of Illumina paired-end sequenced ARTIC amplicon data
 
 Compared to our workflow for WGS data, the workflow optimized for ARTIC data analysis includes the following changes:
 
@@ -69,7 +69,9 @@ The workflow requires:
 
 1. A collection of the forward and reverse reads in `fastq` format of all samples to be analyzed
 
-2. A BED file describing the binding sites of all primers used to generate the tiled amplicons
+2. The SARS-CoV-2 [reference FASTA sequence](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2?report=fasta)
+
+3. A BED file describing the binding sites of all primers used to generate the tiled amplicons
 
    The ARTIC project provides BED files for use with this workflow as part of their [SARS-CoV-2 resources repo](https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019).
    
@@ -81,9 +83,9 @@ The workflow requires:
    Please take care to use the correct primer BED file corresponding to the version of the primers used during sequencing! If in doubt, consider this:
    
    - Later BED file versions should also work reasonably well with older sequencing data, while the other way round is more problematic
-   - v2 of the primer scheme has been in used for only a very short time before it got superseded by v3.
+   - v2 of the primer scheme has been in use for only a very short time before it got superseded by v3.
 
-3. An amplicon info file
+4. An amplicon info file
 
    This tabular file should consist of one line per amplicon, which should list *all* primers involved in the generation of this amplicon. For reproducibility we provide files with:
    
