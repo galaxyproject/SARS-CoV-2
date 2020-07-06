@@ -26,4 +26,5 @@ Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana Uni
   <a href="https://www.eosc-life.eu">          <img src="./genomics/img/eosclife.png" width="10%" alt="EOSC-Life" /></a> &nbsp;
   <a href="https://datamonkey.org">          <img src="./genomics/img/datamonkey.svg" alt="Datamonkey" width = "150px" /></a> &nbsp;
   <a href="https://www.france-bioinformatique.fr/en">          <img src="./genomics/img/ifb.png" alt="IFB" width = "20%" /></a> &nbsp;
+  <a href="http://galaxyp.org/">          <img src="./proteomics/img/galaxyp.png" alt="GalaxyP" width = "10%" /></a> &nbsp;
   </p>
