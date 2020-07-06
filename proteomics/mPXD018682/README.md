@@ -37,7 +37,7 @@ resulted in detection of three opportunistic pathogens - *Elizabethkingia*, *Ste
 
 ## Workflow
 
-![](../img/wf.png)
+![](../mPXD018682/img/wf.png)
 
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with SearchGUI and FDR and protein grouping using PeptideShaker. The unique peptides were searched with Unipept to obtain the taxa and functional annotation and to confirm the presence of metaproteomes. The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
 
