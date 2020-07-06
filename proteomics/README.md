@@ -23,6 +23,6 @@ We also extend the original analysis of these datasets by use of post-search ana
   * [Deep proteomic analysis of CoviD-19 virus infected Vero cells. (PXD018804 from Armengaud Lab)](PXD018804)
   * [Gargling samples from CoviD-19 infected patients (PXD018682 from Sinz Lab)](PXD018682)
   * [SARS-Cov-2-human-protein-protein interaction (PXD018117 from Krogan Lab)](PXD018594)
-  * [Metaproteomics analysis of the gargle solutions dataset (PXD018682 from Sinz Lab)](MetaProteomics PXD018682)
+  * [Metaproteomics analysis of the gargle solutions dataset (PXD018682 from Sinz Lab)](mPXD018682)
 
 
