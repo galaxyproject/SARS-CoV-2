@@ -74,6 +74,7 @@ module.exports = {
                 "/proteomics/PXD018682/",
               //  "/proteomics/PXD018594/",
                 "/proteomics/PXD018117/",
+                "/proteomics/mPXD018682/",
             ],
             "/artic/": [
                 "/artic/",
