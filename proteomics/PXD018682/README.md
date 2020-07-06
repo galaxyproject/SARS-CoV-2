@@ -24,7 +24,7 @@ This study is an initiative in developing a  routine MS-based diagnostic method 
 
 ## Workflow
 
-![](../img/wf.png)
+![](./img/wf.png)
 
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of Human
 Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with SearchGUI
