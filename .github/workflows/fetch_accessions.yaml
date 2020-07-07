@@ -23,12 +23,8 @@ jobs:
     - uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install pysradb
-      run: pip install https://github.com/saketkc/pysradb/archive/master.zip requests
     - name: Fetch sequence accessions
       run: ./fetch_sra_acc.sh
-    # - name: Fetch genome accessions
-    #   run: python fetch_genome_accessions.py
     - name: Install summary notebook dependencies
       run: pip install -r requirements.txt
       working-directory: ./genomics/4-Variation/updates/
@@ -69,9 +65,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install workflow2executable
-      run: pip install https://github.com/mvdbeek/workflow2executable/archive/master.zip
-    - name: Upgrade bioblend
-      run: pip install --upgrade https://github.com/galaxyproject/bioblend/archive/master.zip
+      run: pip install workflow2executable
     - name: Get todays llumina accessions
       run: grep -f <(grep $(date +%F) accession_and_date.tsv|cut -f1) current_illumina.txt > illumina_$(date +%F).txt || true
     - name: Trigger Galaxy Workflow on usegalaxy.org
