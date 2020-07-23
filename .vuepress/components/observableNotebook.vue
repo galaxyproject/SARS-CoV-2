@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="hotlinkedNotebookDock"></div>
+        <div ref="hotlinkedNotebookDock"></div>
         <p>Source notebook: <a :href="getNotebookSource">{{getNotebookSource}}</a></p>
     </div>
 </template>
@@ -20,6 +20,8 @@ export default {
     },
     mounted() {
         let notebookScript = document.createElement("script");
+        console.debug(this.$refs.hotlinkedNotebookDock);
+        this.$refs.hotlinkedNotebookDock.id = this._uid;
         notebookScript.type = "module";
         notebookScript.async = true;
         notebookScript.innerHTML = `
@@ -30,7 +32,7 @@ export default {
 
         // Load the notebook, observing its cells with a default Inspector
         // that simply renders the value of each cell into the provided DOM node.
-        new Runtime().module(notebook, Inspector.into(document.getElementById('hotlinkedNotebookDock')));
+        new Runtime().module(notebook, Inspector.into(document.getElementById('${ this._uid }')));
     `;
         document.head.appendChild(notebookScript);
     }
