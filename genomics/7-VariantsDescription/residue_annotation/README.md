@@ -1,5 +1,6 @@
 # How to contribute to annotation tables
 
+Annotation and transfer of annotations from related species are an important tool in understanding the genome of a virus, and in identifying important variations when they happen. However the work of parsing literature for detailled annotation is a demanding task. The best way to maintain an up-to-date, valuable, annotation reference, it through crowd-sourcing. Thank you for all the contributors to these tables. Please consider participating to the effort by adding annotations.
 
 ## Structure of the annotation tables
 
