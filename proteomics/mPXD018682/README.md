@@ -46,12 +46,13 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 ## Results
 
 
-|Taxonomic Unit  |  Number of validated peptides  |Number of validated peptides|Number of validated peptides|
-|:--------------:|:--------:|:------------:|
-|                | PXD018682_01.raw | PXD018682_02.raw |PXD018682_03.raw |
-|*COVID-19* |   0        |          5|          5|
-|*Stenotrophomonas maltophilia* |   5        |       5    |         11|
-|*Streptococcus pneumoniae*     |   0        |  3         |          1|
+|                              |  Number of validated peptides |                  |                  |
+|------------------------------|-------------------------------|------------------|------------------|
+|                              | PXD018682_01.raw              | PXD018682_02.raw | PXD018682_03.raw |
+| Taxonomic Unit               |                               |                  |                  |
+| COVID-19                     |               0               |         5        |         5        |
+| Stenotrophomonas maltophilia |               2               |         5        |        11        |
+| Streptococcus pneumoniae     |               0               |         3        |         1        |
 
 
 *Stenotrophomonas maltophilia* is another emerging multi-drug resistant opportunistic pathogen originating in hospital settings, especially
