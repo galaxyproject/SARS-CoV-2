@@ -48,8 +48,8 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 
 |                              |  Number of validated peptides |                  |                  |
 |------------------------------|-------------------------------|------------------|------------------|
-|                              | PXD018682_01.raw              | PXD018682_02.raw | PXD018682_03.raw |
-| Taxonomic Unit               |                               |                  |                  |
+| Taxonomic Unit               | PXD018682_01.raw              | PXD018682_02.raw | PXD018682_03.raw |
+|                              |                               |                  |                  |
 | COVID-19                     |               0               |         5        |         5        |
 | Stenotrophomonas maltophilia |               2               |         5        |        11        |
 | Streptococcus pneumoniae     |               0               |         3        |         1        |
