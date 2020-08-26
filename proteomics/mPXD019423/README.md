@@ -69,7 +69,7 @@ Clinical studies have started identifying possible co-infecting bacteria in [COV
 Amongst these *S. pneumoniae* has been shown to be the [most common](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245213/),
 although we have not come across any studies that indicated that *S. maltophila* detected as co-infecting pathogens.
 Our analysis raises the possibility that *S. maltophila* could be present as a co-infection in the COVID-19 patients.
-Both of these bacteria are known to be nosocomial, opportunistic pathogens in immuno-compromised patients and are difficult to treat because of its multi-drug resistance.
+Both of these bacteria are known to be nosocomial, in detection of the two opportunistic pathogens in immuno-compromised patients and are difficult to treat because of its multi-drug resistance.
 
 Interestingly, the PepQuery analysis indicates that the spectral evidence for the detection of the peptides from these organisms is quite solid.
 We plan to perform Lorikeet analysis to ascertain the spectral evidence. We have also contacted the authors of the original manuscript and
