@@ -1,5 +1,5 @@
 ---
-title: Metaproteomics of PXD018682
+title: Metaproteomics of PXD019423
 ---
 
 # Metaproteomics analysis of Gargling samples from CoviD-19 infected patients
@@ -9,11 +9,12 @@ title: Metaproteomics of PXD018682
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="data library" message="view" href="https://usegalaxy.eu/library/list#folders/F61b36ed9cec77ec5" alt="Raw data from data library" /> |
-| <FlatShield label="Input data for RAW 02" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/input-for-pxd01868202" alt="Raw data plus auxillary data" /> |
-| <FlatShield label="Input data for RAW 03" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/input-for-pxd01868203" alt="Raw data plus auxillary data" /> |
-| <FlatShield label="Result history RAW 02" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/output-for-pxd01868202-july-4-2020" alt="Galaxy history" /> |
-| <FlatShield label="Result history RAW 03" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/output-for-pxd01868203-july-4th-2020" alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/workflow-constructed-from-history-workflow" alt="Galaxy workflow" /> |
+| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd19423-metaproteomics-raw01" alt="Raw data plus auxillary data" /> |
+|
+| <FlatShield label="Result history RAW 01" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd19423-metaproteomics-search-raw01" alt="Galaxy history" /> |
+| <FlatShield label="Result history RAW 02" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019423-raw02-metaproteomics-search" alt="Galaxy history" /> |
+| <FlatShield label="Result history RAW 03" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019423-raw03-metaproteomics-search" alt="Galaxy history" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/dataset-collection-pxd019423-workflow-for-pq-and-lk-08202020" alt="Galaxy workflow" /> |
 
 
 ## Description
@@ -48,11 +49,13 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 
 |                              |  Number of validated peptides |                  |                  |
 |------------------------------|-------------------------------|------------------|------------------|
-| Taxonomic Unit               | PXD018682_01.raw              | PXD018682_02.raw | PXD018682_03.raw |
+| Taxonomic Unit               | PXD019423_01.raw              | PXD019423_02.raw | PXD019423_03.raw |
 |                              |                               |                  |                  |
-| COVID-19                     |               0               |         5        |         5        |
-| Stenotrophomonas maltophilia |               2               |         5        |        11        |
-| Streptococcus pneumoniae     |               0               |         3        |         1        |
+| COVID-19                     |               0               |         2        |         3        |
+| Stenotrophomonas maltophilia |               2               |         5        |         6        |
+| Streptococcus pneumoniae     |               0               |         4        |         1        |
+| Rosburia inulinivorans       |               3               |         2        |         0        |
+| Lactobacillus rhamnosus      |               0               |         0        |         10       |
 
 
 *Stenotrophomonas maltophilia* is another emerging multi-drug resistant opportunistic pathogen originating in hospital settings, especially
