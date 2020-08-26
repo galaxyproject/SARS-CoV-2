@@ -33,7 +33,7 @@ with the peptides using Unipept; c) validation of peptide spectral matches by us
 determining the number of valid peptides corresponding to microbial taxonomic units.
 
 The analysis of the gargling solutions using COMPIL 2.0 and Unipept (both outside of Galaxy) and using SearchGUI/PeptideShaker, Unipept and PepQuery (all within Galaxy workflows)
-resulted in detection of three opportunistic pathogens - *Stenotrophomonas maltophilia* and *Streptococcus pneumoniae*. 
+resulted in detection of two opportunistic pathogens - *Stenotrophomonas maltophilia* and *Streptococcus pneumoniae*. 
 
 
 ## Workflow
