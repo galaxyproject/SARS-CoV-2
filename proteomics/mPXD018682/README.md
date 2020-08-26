@@ -24,7 +24,7 @@ Ihling et al have published a protein MS-based ‘proof-of-principle’ method t
 In the original manuscript, the authors detected peptides from SARS-CoV-2 virus proteins and present evidence for their spectral annotation. 
 
 We were interested in exploring the possibility of presence of microorganisms in the samples from the original manuscript.
-For this, Peter Thuy-Boun (Wolan Lab, Scripps Institute) searched the two RAW files using [COMPIL 2.0](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00722)
+For this, Peter Thuy-Boun (Wolan Lab, Scripps Institute) searched the three RAW files using [COMPIL 2.0](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00722)
 against a comprehensive 113 million protein sequences and roughly 4.8 billion unique tryptic peptide sequences database library.
 The peptides identified through this approach were subjected to [Unipept](doi:10.1021/acs.jproteome.8b00716) 4.3 analysis to detect
 the most abundant genera and species present in the sample. Five most significant genera/species were used along with the RAW files and
@@ -47,15 +47,15 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 ## Results
 
 
-|                              |  Number of validated peptides |                  |                  |
-|------------------------------|-------------------------------|------------------|------------------|
-| Taxonomic Unit               | PXD019423_01.raw              | PXD019423_02.raw | PXD019423_03.raw |
-|                              |                               |                  |                  |
-| COVID-19                     |               0               |         2        |         3        |
-| Stenotrophomonas maltophilia |               2               |         5        |         6        |
-| Streptococcus pneumoniae     |               0               |         4        |         1        |
-| Rosburia inulinivorans       |               3               |         2        |         0        |
-| Lactobacillus rhamnosus      |               0               |         0        |         10       |
+|                                |  Number of validated peptides |                  |                  |
+|--------------------------------|-------------------------------|------------------|------------------|
+| Taxonomic Unit                 | PXD019423_01.raw              | PXD019423_02.raw | PXD019423_03.raw |
+|                                |                               |                  |                  |
+| *COVID-19*                     |               0               |         2        |         3        |
+| *Stenotrophomonas maltophilia* |               2               |         5        |         6        |
+| *Streptococcus pneumoniae*     |               0               |         4        |         1        |
+| *Rosburia inulinivorans*       |               3               |         2        |         0        |
+| *Lactobacillus rhamnosus*      |               0               |         0        |         10       |
 
 
 *Stenotrophomonas maltophilia* is another emerging multi-drug resistant opportunistic pathogen originating in hospital settings, especially
