@@ -1,5 +1,5 @@
 
-# Curated list of papers on variation with SARS-CoV2
+# Curated list of papers on variation within SARS-CoV2
 
 (last update Sept 10, 2020)
 
@@ -11,7 +11,7 @@ This study identified large number of deletion in S gene
 
 Sequencing of amplified S gene fragments using Illumina (miSeq) PRJNA630679
 
-Deletions, Amplicon, Illumina, S gene
+Tags: Deletions, Amplicon, Illumina, S gene
 
 
 -----
@@ -24,7 +24,7 @@ This study identified deletion of ORF8 in one Taiwanese sample. Other mutations 
 
 WGS using Illumina, GISAID, no Read data
 
-Deletion, ORF1ab-V378I, ORF8-L84S, ORF3a-G251V, and S-D614G, WGS
+Tags: Deletion, ORF1ab-V378I, ORF8-L84S, ORF3a-G251V, and S-D614G, WGS
 
 ------
 
@@ -34,7 +34,7 @@ Callaway E. The coronavirus is mutating — does it matter? Nature. Nature Publi
 
 An opinion piece of the merits of the D614G and its implications
 
-Opinion, Review
+Tags: Opinion, Review
 
 -------
 
@@ -49,7 +49,7 @@ mutations are more infectious. Ablation of both N331 and N343 glycosylation at R
 drastically reduced infectivity. Ten mutations such as N234Q, L452R, A475V, and V483A
 was markedly resistant to some mAbs
 
-Mutations effect analysis, S gene
+Tags: Mutations effect analysis, S gene
 
 --------
 
@@ -61,7 +61,7 @@ Starr TN, Greaney AJ, Hilton SK, Ellis D, Crawford KHD, Dingens AS, Navarro MJ, 
 
 Deep mutation scanning of all possible S gene (receptor binding domain) mutations and their affect on (1) expression and (2) affinity towards ACE2. This gives detailed function info about S protein amino acids 331 - 531.
 
-Mutation effect analysis, S gene, RBD
+Tags: Mutation effect analysis, S gene, RBD
 
 -------
 
@@ -71,7 +71,7 @@ Gomez-Carballa A, Bello X, Pardo-Seco J, Martinon-Torres F, Salas A. Mapping gen
 
 Analysis of GISAID data to identify temporal progression of SARS-VCov2 clades. Identifies 12 Nov 2019 as the TMCA for SARS-CoV2.
 
-Clades, TMCA, Genomic diversity
+Tags: Clades, TMCA, Genomic diversity
 
 -------
 
@@ -82,7 +82,7 @@ Pereira F. Evolutionary dynamics of the SARS-CoV-2 ORF8 accessory gene. Infect G
 "*These findings suggest that SARS-CoV-2 can persist without a functional ORF8 protein. Deletion breakpoints were found located in predicted hairpins suggesti g a possible involvement of these elements in the rearrangement process. Although the function of ORF8 remains to be elucidated, its structural plasticity and high diversity suggest an important role in SARS-CoV-2 pathogenicity.*"
 
 
-Orf8
+Tags: Orf8
 
 -----
 
@@ -92,7 +92,7 @@ van Dorp L, Acman M, Richard D, Shaw LP, Ford CE, Ormond L, Owen CJ, Pang J, Tan
 
 Analyzed GISAID data (April 19, 2020) and user SRA data to confirm some of the variable sites. This is a comprehensive analysis of variation progression from GISAID data. Cites SKP observable notebook.
 
-Clades, TMCA, Genomic diversity
+Tags: Clades, TMCA, Genomic diversity
 
 ------
 
@@ -102,7 +102,7 @@ Yin C. Genotyping coronavirus SARS-CoV-2: methods and implications. Genomics. 20
 
 A somewhat simplistic way to catalog SNP variation across early set of GISAID data.
 
-Clades, TMCA, Genomic diversity
+Tags: Clades, TMCA, Genomic diversity
 
 ------
 
@@ -112,7 +112,7 @@ Dearlove B, Lewitus E, Bai H, Li Y, Reeves DB, Joyce MG, Scott PT, Amare MF, Vas
 
 Analysis of GISAID genomes (May 18, 2020) to understand whether global variation will affect vaccine efficacy. They did not find evidence that variation observed so far will create issues for vaccine design.
 
-Genomic Diversity
+Tags: Genomic Diversity
 
 -------
 
@@ -122,7 +122,7 @@ Schlick T, Zhu Q, Jain S, Yan S. Structure-Altering Mutations of the SARS-CoV-2 
 
 The authors identify a minimum set of mutations that destroy programmed frame shifting required for orf1ab transcription: "*only two residue changes can accomplish a dramatic change in structure, namely destruction of Stem 2 and the pseudoknot*"
 
-Fremeshifting
+Tags: Fremeshifting
 
 ---------
 
@@ -132,7 +132,7 @@ Li Y, Yang X, Wang N, Wang H, Yin B, Yang X, Jiang W. SNPs or RNA modifications?
 
 Attempt (and a cautionary note) to highlight the fact that RNA modification can be responsible for some SNPs observed in SARS-CoV2 data.
 
-RNA editing
+Tags: RNA editing
 
 -------
 
@@ -142,7 +142,7 @@ Jones LR, Manrique JM. Quantitative phylogenomic evidence reveals a spatially st
 
 Analysis of SARS-CoV2 global dispersion patterns based on GISAID (April 25, 2020) data.
 
-Clades, Genomic diversity
+Tags: Clades, Genomic diversity
 
 -------
 
@@ -154,7 +154,7 @@ Analysis of intra-host SARS-CoV2 variation in cancer patients and non-cancer con
 
 Sequencing of ARTIC amplicons. Illumina sequencing. No data is provided.
 
-Intrahost, Illumina, Amplicon, ARTIC, Nodata
+Tags: Intrahost, Illumina, Amplicon, ARTIC, Nodata
 
 ------
 
@@ -165,7 +165,7 @@ Guan Q, Sadykov M, Mfarrej S, Hala S, Naeem R, Nugmanova R, Al-Omari A, Salih S,
 Development of a genotyping protocol that takes advantage of known SARS-CoV2 variants to quickly identify clades. 
 
 
-Clades, Genomic diversity
+Tags: Clades, Genomic diversity
 
 
 
