@@ -1,7 +1,9 @@
 
 # Curated list of papers on variation within SARS-CoV2
 
-(last update Sept 10, 2020)
+
+
+(last update Sept 11, 2020)
 
 https://www.ncbi.nlm.nih.gov/pubmed/32752979
 
@@ -167,6 +169,39 @@ Development of a genotyping protocol that takes advantage of known SARS-CoV2 var
 
 Tags: Clades, Genomic diversity
 
+------
+
+http://dx.doi.org/10.1016/j.cell.2020.06.040 (relates to http://dx.doi.org/10.1016/j.cell.2020.06.043)
+
+Grubaugh ND, Hanage WP, Rasmussen AL. Making Sense of Mutation: What D614G Means for the COVID-19 Pandemic Remains Unclear. Cell. 2020. p. 794–795. PMCID: PMC7332445
+
+Authors are skeptical of the claim that D614G increases infection potential of SARS-CoV2: "*It is clear from the in vitro and clinical data that G614 has a distinct phenotype, but whether this is the result of bonafide adaptation to human ACE2, whether it increases transmissibility, or will have a notable effect is not clear. *"
+
+Tags: S gene, D614G
+
+-----
+
+http://dx.doi.org/10.1038/s41598-020-70827-z
+
+Isabel S, Graña-Miraglia L, Gutierrez JM, Bundalovic-Torma C, Groves HE, Isabel MR, Eshaghi A, Patel SN, Gubbay JB, Poutanen T, Guttman DS, Poutanen SM. Evolutionary and structural analyses of SARS-CoV-2 D614G spike protein mutation now documented worldwide. Sci Rep. 2020 Aug 20;10(1):14031. PMCID: PMC7441380
+
+Analysis of D614G based on early GISAID (March 30, 2020) data and E-gene amplicon sequencing of local samples (no data is provided).
+
+"*the global spread of the D614G mutation may have nothing to do with viral biology but may simply be a consequence of the high level of interconnectedness of Europe to the rest of the world. Tus, the emergence of the D614G clade may be explained by a founder event and subsequent clonal expansion in Europe that led to its spreading worldwide*".
+
+Tags: S gene, D614G, Illumina, nodata
+
+-----
+
+http://dx.doi.org/10.1016/j.cell.2020.06.043
+
+Korber B, Fischer WM, Gnanakaran S, Yoon H, Theiler J, Abfalterer W, Hengartner N, Giorgi EE, Bhattacharya T, Foley B, Hastie KM, Parker MD, Partridge DG, Evans CM, Freeman TM, de Silva TI, Sheffield COVID-19 Genomics Group, McDanal C, Perez LG, Tang H, Moon-Walker A, Whelan SP, LaBranche CC, Saphire EO, Montefiori DC. Tracking Changes in SARS-CoV-2 Spike: Evidence that D614G Increases Infectivity of the COVID-19 Virus. Cell. 2020 Aug 20;182(4):812–827.e19. PMCID: PMC7332439
+
+![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/3cacf135-842d-4065-b943-ffa6ffc806e8/gr6.jpg)
+
+G614D may have selective advantage based on its wide spread. It is associated with higher viral load (see also http://dx.doi.org/10.1016/j.cell.2020.06.040) in patients.
+
+------
 
 
 
