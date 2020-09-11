@@ -24,5 +24,6 @@ We also extend the original analysis of these datasets by use of post-search ana
   * [Gargling samples from CoviD-19 infected patients (PXD018682 from Sinz Lab)](PXD018682)
   * [SARS-Cov-2-human-protein-protein interaction (PXD018117 from Krogan Lab)](PXD018594)
   * [Metaproteomics analysis of the gargle solutions dataset (PXD019423 from Sinz Lab)](mPXD019423)
+  * [Metaproteomics analysis of the respiratory tract samples from CoviD-19 infected patients](mPXD019119)
 
 
