@@ -3,7 +3,7 @@
 
 
 
-(last update Sept 11, 2020)
+(last update Sept 14, 2020)
 
 https://www.ncbi.nlm.nih.gov/pubmed/32752979
 
@@ -201,8 +201,43 @@ Korber B, Fischer WM, Gnanakaran S, Yoon H, Theiler J, Abfalterer W, Hengartner 
 
 G614D may have selective advantage based on its wide spread. It is associated with higher viral load (see also http://dx.doi.org/10.1016/j.cell.2020.06.040) in patients.
 
+Tags: D614G
+
 ------
 
 
+http://dx.doi.org/10.1038/s41598-020-70812-6
+
+Islam MR, Hoque MN, Rahman MS, Alam ASMRU, Akther M, Puspo JA, Akter S, Sultana M, Crandall KA, Hossain MA. Genome-wide analysis of SARS-CoV-2 virus strains circulating worldwide implicates heterogeneity. Sci Rep. 2020 Aug 19;10(1):14004. PMCID: PMC7438523
+
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-020-70812-6/MediaObjects/41598_2020_70812_Fig1_HTML.png)
+
+The manuscript used GISAID data from March 30, 2020 to discover all possible sequence variants including SNP and indels. To be comprehensive, this likely needs to be redone for the current, much bigger, GISAID release.
+
+Tags: Genomic diversity, GISAID
+
+-------
+
+http://dx.doi.org/10.7717/peerj.9703
+
+Eskier D, Suner A, Karakülah G, Oktay Y. Mutation density changes in SARS-CoV-2 are related to the pandemic stage but to a lesser extent in the dominant strain with mutations in spike and RdRp. PeerJ. 2020 Aug 19;8:e9703. PMCID: PMC7443079
+
+Analyzed GISAID (May 24, 2020) to find differences across complete SARS-CoV2 genomes. 
 
 
+Tags: Genomic diversity, GISAID, C14408T (RdRp), A23403G (S)
+
+--------
+
+http://dx.doi.org/10.1128/JVI.00790-20
+
+Liu Z, Zheng H, Lin H, Li M, Yuan R, Peng J, Xiong Q, Sun J, Li B, Wu J, Yi L, Peng X, Zhang H, Zhang W, Hulswit RJG, Loman N, Rambaut A, Ke C, Bowden TA, Pybus OG, Lu J. Identification of Common Deletions in the Spike Protein of Severe Acute Respiratory Syndrome Coronavirus 2. J Virol [Internet]. 2020 Aug 17;94(17). Available from: http://dx.doi.org/10.1128/JVI.00790-20 PMCID: PMC7431800
+
+Authors performed passage of SARS-CoV2 in Vero E6 and Vero cells. Sequence analysis was performed using (1) ARTIC v1 followed by miSeq and ONT sequencing, (2) DRS on ONT, and (3) Sanger sequencing using the nCoV-2019_78_LEFT and nCoV-2019_78_RIGTH primers. Two deletion variants with S were investigated: the deletion of QTQTN was detected in 3 of 68 clinical samples and 12 of 24 in vitro-isolated viruses, while the deletion of
+NSPRRAR was identified in 3 in vitro-isolated viruses.
+
+![](https://jvi.asm.org/content/jvi/94/17/e00790-20/F1.large.jpg)
+
+Tags: indels, S, ARTIC v1, ONT, miSeq, Sanger, DRS
+
+------
