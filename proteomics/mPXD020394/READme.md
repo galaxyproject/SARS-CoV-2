@@ -28,7 +28,7 @@ opportunistic pathogens (see table below).
 
 ## Workflow
 
-![](./img/wf.png)
+![](./img/wf.jpg)
 
 The Galaxy workflow includes software tools to convert the input RAW files to MGF format. The MGF files are layer searched against the combined database of Human Uniprot proteome, UniProt database of clinically significant genera/species along with contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms (within SearchGUI) and False Discovery Rate and protein grouping using PeptideShaker. The detected peptides were searched with Unipept 4.3 to obtain the taxonomic and functional information. Taxonomically relevant peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
 
