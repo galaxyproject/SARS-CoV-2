@@ -74,6 +74,8 @@ which can have an effect on the absorption of medication.
 **_Trichosporon asahii_** is an 
 opportunistic fungal pathogen whose infections have increased in recent years, resulting in [high mortality](https://doi.org/10.1093/mmy/myaa076) due to invasive infections in immunocompromised patients. It can cause [infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439294/) on the skin, hair and lungs (chronic pneumonia).
 <img src="./img/TA.jpeg" width="600"/>
+
+
 This along with the analysis of [gargling samples dataset](https://covid19.galaxyproject.org/proteomics/mpxd019423/#live-resources) analysis demonstrates the use of COMPIL 2.0 and metaproteomics workflow to detect any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
 
 
