@@ -58,17 +58,17 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 | *Lactobacillus rhamnosus*      |               0               |         0        |         10       |
 
 
-*Stenotrophomonas maltophilia* is another emerging multi-drug resistant opportunistic pathogen originating in hospital settings, especially
-among [immunocompromised hosts](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4557615/). *S. maltophilia* has shown to cause latent pulmonary
+**_Stenotrophomonas maltophilia_** is another emerging multi-drug resistant opportunistic pathogen originating in hospital settings, especially
+among [immunocompromised hosts](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4557615/). **_S. maltophilia_** has shown to cause latent pulmonary
 infection in [immunocompromised patients](https://pubmed.ncbi.nlm.nih.gov/16735148/) and its colonization rates in cystic fibrosis patients
 have been [increasing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1865680/).
-Lastly, *Streptococcus pneumoniae* is a commensal microorganism that colonizes the upper respiratory tract in healthy individuals.
+Lastly, **_Streptococcus pneumoniae_** is a commensal microorganism that colonizes the upper respiratory tract in healthy individuals.
 However, in susceptible individuals with weaker immune systems, such as the elderly, the bacterium may become pathogenic and spread to other locations to cause disease.
 
 Clinical studies have started identifying possible co-infecting bacteria in [COVID-19 patients](https://pubmed.ncbi.nlm.nih.gov/32408156/).
-Amongst these *S. pneumoniae* has been shown to be the [most common](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245213/),
-although we have not come across any studies that indicated that *S. maltophila* detected as co-infecting pathogens.
-Our analysis raises the possibility that *S. maltophila* could be present as a co-infection in the COVID-19 patients.
+Amongst these **_S. pneumoniae_** has been shown to be the [most common](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245213/),
+although we have not come across any studies that indicated that **_S. maltophila_** detected as co-infecting pathogens.
+Our analysis raises the possibility that **_S. maltophila_** could be present as a co-infection in the COVID-19 patients.
 Both of these bacteria are known to be nosocomial, in detection of the two opportunistic pathogens in immuno-compromised patients and are difficult to treat because of its multi-drug resistance.
 
 Interestingly, the PepQuery analysis indicates that the spectral evidence for the detection of the peptides from these organisms is quite solid.
