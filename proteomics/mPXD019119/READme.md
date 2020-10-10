@@ -58,19 +58,23 @@ We plan to follow this up with Lorikeet analysis to ascertain the spectral evide
 | *Trichosporon asahii* |    0    |    0    |    0    |     2    |    0    |
 
 
-Apart from *Coronavirus* peptides, we also detected peptides for *Anaerococcus, Dietzia, Prevotella buccalis, Candida albicans, Johnsonella ignava and Trichosporon asahii*.
-[*Anaerococcus species*](https://doi.org/10.1099/00207713-51-4-1521) are anaerobic cocci that have been isolated in skin, vagina, and nasal cavity . [Recent report](https://doi.org/10.1016/j.anaerobe.2019.102130) 
-has also demonstrated the isolation of *Anaerococcus* from bloodstream infection from an elderly immunocompetent person and shown that *Anaerococcus* are resistant to antimicrobial treatment. 
-*Dietzia* species are aerobic, [*Gram-positive actinomycetes*](https://doi.org/10.1111/j.1574-695X.2008.00513.x) and have been implicated as potential invasive human pathogen and have been isolated from specimens taken from patients 
-with acute infections . *Dietzia* species was also isolated from an immunocompromised patient with chronic obstructive pulmonary 
-disease (COPD), and the infection is presumably related to the [use of catheters] (https://doi.org/10.1086/313490). *Prevotella buccalis* is an anaerobic bacterium isolated from dental
-plaque. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC170248/ It was detected as one of the species associated with asthma patients based on [nasal microbiome analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123291/). *Candida albicans* 
-is one of the most common fungal infections acquired during hospitalization and is prevalent in [critically ill or immunocompromised patients](https://cmr.asm.org/content/24/1/141). Patients develop [oropharyngeal candidiasis](https://doi.org/10.1099/jmm.0.045054-0),
-which can have an effect on the absorption of medication. *Johnsonella ignava* is an anaerobic Gram-negative rod-shaped bacterium isolated from human gingival crevices. In a study [comparing 
-oral microbiota](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3507910/) in tumor and non-tumor tissues of patients with oral squamous cell carcinoma (OSCC), *Johnsonella ignava* was shown to be associated with the tumor site. *Trichosporon asahii* is an 
-opportunistic fungal pathogen whose infections have increased in recent years, resulting in [high mortality](https://doi.org/10.1093/mmy/myaa076) due to invasive infections in immunocompromised patients. It can cause [infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439294/) on 
-the skin, hair and lungs (chronic pneumonia).
-This along with the analysis of [gargling samples dataset](https://covid19.galaxyproject.org/proteomics/mpxd019423/#live-resources) analysis demonstrates the use of COMPIL 2.0 and metaproteomics workflow to detect any cohabitating emerging pathogens in COVID-19 patients 
-using mass spectrometry based metaproteomics analysis.
+Apart from **_Coronavirus_** peptides, we also detected peptides for **_Anaerococcus, Dietzia, Prevotella buccalis, Candida albicans, Johnsonella ignava and Trichosporon asahii_**.
+[**_Anaerococcus species_**](https://doi.org/10.1099/00207713-51-4-1521) are anaerobic cocci that have been isolated in skin, vagina, and nasal cavity . [Recent report](https://doi.org/10.1016/j.anaerobe.2019.102130) 
+has also demonstrated the isolation of **_Anaerococcus_** from bloodstream infection from an elderly immunocompetent person and shown that **_Anaerococcus_** are resistant to antimicrobial treatment. 
+![](./img/Anaerococcus.jpeg)
+**_Dietzia_** species are aerobic, [*Gram-positive actinomycetes*](https://doi.org/10.1111/j.1574-695X.2008.00513.x) and have been implicated as potential invasive human pathogen and have been isolated from specimens taken from patients with acute infections . **_Dietzia_** species was also isolated from an immunocompromised patient with chronic obstructive pulmonary disease (COPD), and the infection is presumably related to the [use of catheters](https://doi.org/10.1086/313490). 
+![](./img/Dietza.jpeg)
+**_Prevotella buccalis_** is an anaerobic bacterium isolated from [dental plaque](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC170248/). It was detected as one of the species associated with asthma patients based on [nasal microbiome analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123291/).
+![](./img/PB.jpeg)
+**_Candida albicans_** is one of the most common fungal infections acquired during hospitalization and is prevalent in [critically ill or immunocompromised patients](https://cmr.asm.org/content/24/1/141). Patients develop [oropharyngeal candidiasis](https://doi.org/10.1099/jmm.0.045054-0),
+which can have an effect on the absorption of medication.
+![](./img/CA.jpeg)
+**_Johnsonella ignava_** is an anaerobic Gram-negative rod-shaped bacterium isolated from human gingival crevices. In a study [comparing oral microbiota](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3507910/) in tumor and non-tumor tissues of patients with oral squamous cell carcinoma (OSCC), **_Johnsonella ignava_** was shown to be associated with the tumor site.
+![](./img/JI.jpeg)
+**_Trichosporon asahii_** is an 
+opportunistic fungal pathogen whose infections have increased in recent years, resulting in [high mortality](https://doi.org/10.1093/mmy/myaa076) due to invasive infections in immunocompromised patients. It can cause [infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439294/) on the skin, hair and lungs (chronic pneumonia).
+<img src="./img/TA.jpeg" width="550"/>
+
+This along with the analysis of [gargling samples dataset](https://covid19.galaxyproject.org/proteomics/mpxd019423/#live-resources) analysis demonstrates the use of COMPIL 2.0 and metaproteomics workflow to detect any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
 
 
