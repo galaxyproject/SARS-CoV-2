@@ -45,7 +45,7 @@ were later subjected to analysis by PepQuery and Lorikeet to ascertain the quali
 ## Results
 
 Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. Interestingly, the PepQuery analysis supports the detection of these microbial peptides. 
-We plan to follow this up with Lorikeet analysis to ascertain the spectral evidence. 
+We have followed this up with Lorikeet analysis to ascertain the spectral evidence. 
 
 |    Taxonomic Unit     | Pool 18 | Pool 34 | Pool 38 |  Pool 47 | Pool 51 |
 |:---------------------:|:-------:|:-------:|:-------:|:--------:|:-------:|
