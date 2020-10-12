@@ -62,8 +62,12 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 among [immunocompromised hosts](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4557615/). **_S. maltophilia_** has shown to cause latent pulmonary
 infection in [immunocompromised patients](https://pubmed.ncbi.nlm.nih.gov/16735148/) and its colonization rates in cystic fibrosis patients
 have been [increasing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1865680/).
+
+![](./img/SM.jpeg)
+
 Lastly, **_Streptococcus pneumoniae_** is a commensal microorganism that colonizes the upper respiratory tract in healthy individuals.
 However, in susceptible individuals with weaker immune systems, such as the elderly, the bacterium may become pathogenic and spread to other locations to cause disease.
+![](./img/SP.jpeg)
 
 Clinical studies have started identifying possible co-infecting bacteria in [COVID-19 patients](https://pubmed.ncbi.nlm.nih.gov/32408156/).
 Amongst these **_S. pneumoniae_** has been shown to be the [most common](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245213/),
@@ -72,8 +76,13 @@ Our analysis raises the possibility that **_S. maltophila_** could be present as
 Both of these bacteria are known to be nosocomial, in detection of the two opportunistic pathogens in immuno-compromised patients and are difficult to treat because of its multi-drug resistance.
 
 Interestingly, the PepQuery analysis indicates that the spectral evidence for the detection of the peptides from these organisms is quite solid.
-We plan to perform Lorikeet analysis to ascertain the spectral evidence. We have also contacted the authors of the original manuscript and
-reported our findings and have discussed the possibility of using new gargling solutions samples to detect the presence of any cohabitating
-emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
+We performed Lorikeet analysis to ascertain the spectral evidence. Lorikeet analysis of *Lactobacillus rhamnosus*, *Rosburia inulinivorans* and *COVID-19* are shwon below.
+![](./img/LR.jpeg)
+![](./img/RI.jpeg)
+![](./img/covid19.jpeg)
+
+We have also contacted the authors of the original manuscript and reported our findings and have discussed the possibility of using 
+new gargling solutions samples to detect the presence of any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry 
+based metaproteomics analysis.
 
 
