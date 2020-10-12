@@ -63,7 +63,7 @@ Apart from **_Coronavirus_** peptides, we also detected peptides for **_Anaeroco
 has also demonstrated the isolation of **_Anaerococcus_** from bloodstream infection from an elderly immunocompetent person and shown that **_Anaerococcus_** are resistant to antimicrobial treatment. 
 ![](./img/Anaerococcus.jpeg)
 **_Dietzia_** species are aerobic, [*Gram-positive actinomycetes*](https://doi.org/10.1111/j.1574-695X.2008.00513.x) and have been implicated as potential invasive human pathogen and have been isolated from specimens taken from patients with acute infections . **_Dietzia_** species was also isolated from an immunocompromised patient with chronic obstructive pulmonary disease (COPD), and the infection is presumably related to the [use of catheters](https://doi.org/10.1086/313490). 
-![](./img/Dietza.jpeg)
+![](./img/Dietzia.jpeg)
 **_Prevotella buccalis_** is an anaerobic bacterium isolated from [dental plaque](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC170248/). It was detected as one of the species associated with asthma patients based on [nasal microbiome analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123291/).
 ![](./img/PB.jpeg)
 **_Candida albicans_** is one of the most common fungal infections acquired during hospitalization and is prevalent in [critically ill or immunocompromised patients](https://cmr.asm.org/content/24/1/141). Patients develop [oropharyngeal candidiasis](https://doi.org/10.1099/jmm.0.045054-0),
