@@ -36,14 +36,19 @@ The Galaxy workflow includes software tools to convert the input RAW files to MG
 
 ## Results
 
-Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. PepQuery analysis also supports the detection of these microbial peptides. We plan to follow 
-this up with Lorikeet analysis to ascertain the spectral evidence. 
+Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. PepQuery analysis also supports the detection of these microbial peptides. We followed this up with Lorikeet analysis to ascertain the spectral evidence. 
 
 ![](./img/Result_output.png)
+![](./img/covid19.jpeg)
 
 
 The workflow that we propose can be used to detect any microorganisms that are present in the clinical samples. In this study, we detected two potentially pathogenic organisms - **_Acinetobacter ursingii_** and **_Pseudomonas monteilii_** - from an individual who was not infected with coronavirus and other uncharacterized bacterium - **_Pseudomonas sp. Bc-h_** from a patient infected with coronavirus.
-**_Acinetobacter ursingii_** is a nonmotile, aerobic, gram-negative bacterium that is found in natural moist environments and has been isolated from blood samples of pediatric patients. Known to be a commensal bacterium present in newborns, it is also capable of generating bacteraemia and infections in immunocompromised [hospitalized premature infants](https://journals.lww.com/pidj/Fulltext/2020/03000/Nosocomial_Bacteraemia_Caused_by_Acinetobacter.22.aspx).
-Underlying serious conditions such as  cancer, intravascular catheterization, treatment with broad spectrum antibiotics and prolonged hospitalization have been identified as risk factors for **_A. ursingii_** infection. It’s potential to cause [nosocomial infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4907768/) and outbreaks in an hospital environment have been noted. [**_Pseudomonas monteilii_**](https://pubmed.ncbi.nlm.nih.gov/9226917/)is a Gram-negative, rod-shaped, motile bacterium isolated from human bronchial aspirate. Multi-drug resistant strains of **_P. monteilii_** have been isolated from clinical samples 
-with the possibility of transfer of antibiotic resistance genes to gut microbiome. **_Pseudomonas sps. Bc-h_** is an unclassified Pseudomonas strain that has not yet been shown to be associated with infection. 
+**_Acinetobacter ursingii_** is a nonmotile, aerobic, gram-negative bacterium that is found in natural moist environments and has been isolated from blood samples of pediatric patients. Known to be a commensal bacterium present in newborns, it is also capable of generating bacteraemia and infections in immunocompromised [hospitalized premature infants](https://journals.lww.com/pidj/Fulltext/2020/03000/Nosocomial_Bacteraemia_Caused_by_Acinetobacter.22.aspx).Underlying serious conditions such as  cancer, intravascular catheterization, treatment with broad spectrum antibiotics and prolonged hospitalization have been identified as risk factors for **_A. ursingii_** infection. 
+![](./img/AU.jpeg)
+
+It’s potential to cause [nosocomial infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4907768/) and outbreaks in an hospital environment have been noted. [**_Pseudomonas monteilii_**](https://pubmed.ncbi.nlm.nih.gov/9226917/)is a Gram-negative, rod-shaped, motile bacterium isolated from human bronchial aspirate. Multi-drug resistant strains of **_P. monteilii_** have been isolated from clinical samples 
+with the possibility of transfer of antibiotic resistance genes to gut microbiome. 
+![](./img/PM.jpeg)
+**_Pseudomonas sps. Bc-h_** is an unclassified Pseudomonas strain that has not yet been shown to be associated with infection. 
 The proteome of this species is available as part of the **_Pseudomonas lutea_** pan proteome.This along with the analysis of gargling samples dataset analysis and nasopharyngeal samples demonstrates the use of COMPIL 2.0 and metaproteomics workflow to detect any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
+![](./img/PBch.jpeg)
