@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "Preprocessing of raw SARS-CoV-2 reads", 
     "format-version": "0.1", 
-    "name": "COVID-19 - Genomics [1] Read pre-processing without downloading from SRA", 
+    "name": "COVID-19: Read pre-processing without downloading from SRA", 
     "steps": {
         "0": {
             "annotation": "", 
@@ -729,7 +729,8 @@
         }
     }, 
     "tags": [
-        "covid-19"
+        "covid-19",
+        "genomics"
     ], 
     "uuid": "e1a6e687-4f68-467f-a778-bcd6300129f9", 
     "version": 2

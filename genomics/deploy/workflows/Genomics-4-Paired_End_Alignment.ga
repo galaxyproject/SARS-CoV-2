@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "COVID-19 - Genomics [4] Paired End Alignment",
+    "name": "COVID-19: Paired End Alignment",
     "steps": {
         "0": {
             "annotation": "",
@@ -368,7 +368,8 @@
         }
     },
     "tags": [
-        "covid-19"
+        "covid-19",
+        "genomics"
     ], 
     "uuid": "c7549135-ea29-4d76-b710-9b699c4a7ed4"
 }

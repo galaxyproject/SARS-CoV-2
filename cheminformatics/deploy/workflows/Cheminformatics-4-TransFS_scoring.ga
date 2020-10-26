@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "Scoring",
   "format-version": "0.1",
-  "name": "COVID-19 - Cheminformatics [4] TransFS scoring",
+  "name": "COVID-19: TransFS scoring",
   "steps": {
     "0": {
       "annotation": "",
@@ -236,7 +236,8 @@
     }
   },
   "tags": [
-    "covid-19"
+    "covid-19",
+    "cheminformatics"
   ],
   "uuid": "4ae17063-40cc-46a8-aee5-6df8cef97bf7",
   "version": 11

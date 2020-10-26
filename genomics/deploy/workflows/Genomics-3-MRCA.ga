@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "Dating the most recent common ancestor (MRCA) of SARS-CoV-2", 
     "format-version": "0.1", 
-    "name": "COVID-19 - Genomics [3] MRCA analysis", 
+    "name": "COVID-19: MRCA analysis", 
     "steps": {
         "0": {
             "annotation": "", 
@@ -420,7 +420,8 @@
         }
     }, 
     "tags": [
-        "covid-19"
+        "covid-19",
+        "genomics"
     ], 
     "uuid": "8cbed5e0-3688-49d7-9516-9bd67e6d1f4e", 
     "version": 0

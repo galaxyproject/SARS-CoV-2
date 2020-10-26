@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true", 
   "annotation": "Virtual screening of the SARS-CoV-2 main protease (de.NBI-cloud, STFC)", 
   "format-version": "0.1", 
-  "name": "COVID-19 - Cheminformatics [0] XChem combined", 
+  "name": "COVID-19: XChem combined", 
   "steps": {
     "0": {
       "annotation": "", 
@@ -1067,7 +1067,8 @@
     }
   }, 
   "tags": [
-    "covid-19"
+    "covid-19",
+    "cheminformatics"
   ],
   "uuid": "89f5e0e1-f6b0-4d4c-9859-1b7f3f4e3417", 
   "version": 9
