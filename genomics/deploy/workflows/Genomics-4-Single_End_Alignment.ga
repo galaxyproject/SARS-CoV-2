@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "COVID-19: Single End Alignment",
+    "name": "COVID-19 - Genomics [4] Single End Alignment",
     "steps": {
         "0": {
             "annotation": "",
@@ -319,6 +319,8 @@
             ]
         }
     },
-    "tags": "",
+    "tags": [
+        "covid-19"
+    ], 
     "uuid": "b98428bd-b42c-4959-8fef-fbf9b990bd00"
 }

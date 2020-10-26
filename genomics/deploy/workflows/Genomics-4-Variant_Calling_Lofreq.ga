@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "COVID-19: Variant Calling Lofreq",
+    "name": "COVID-19 - Genomics [4] Variant Calling Lofreq",
     "steps": {
         "0": {
             "annotation": "",
@@ -514,6 +514,8 @@
             ]
         }
     },
-    "tags": "",
+    "tags": [
+        "covid-19"
+    ], 
     "uuid": "203c3774-300d-4203-b54b-f2382562f81c"
 }

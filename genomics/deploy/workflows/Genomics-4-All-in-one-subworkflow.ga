@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "Downloads reads from SRA and runs SE and PE COVID-19 variation workflows",
     "format-version": "0.1",
-    "name": "Download and SE+PE Illumina Covid Variation Workflow",
+    "name": "COVID-19 - Genomics [4] Download and SE+PE Illumina Covid Variation Workflow",
     "steps": {
         "0": {
             "annotation": "",
@@ -2053,7 +2053,9 @@
             ]
         }
     },
-    "tags": [],
+    "tags": [
+        "covid-19"
+    ], 
     "uuid": "69535d67-8a64-4ba5-a12f-886873e1e236",
     "version": 26
 }
