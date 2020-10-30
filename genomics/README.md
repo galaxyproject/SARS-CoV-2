@@ -51,7 +51,7 @@ Our analysis was divided into six parts listed below (we also added "Updates" se
   2. [Assembly of SARS-CoV-2 genome](2-Assembly)
   3. [Estimation of timing for most recent common ancestor (MRCA)](3-MRCA)
   4. [Analysis of variation within individual isolates](4-Variation)
-  5. [Analysis of Spike protein substitutions](5-S-analysis)
+  5. [Functionnal annotation](5-annotation)
   6. [Analysis of recombination and selection](6-RecombinationSelection)
 
 In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](updates)
