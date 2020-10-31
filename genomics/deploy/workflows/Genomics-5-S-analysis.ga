@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "Analysis of S-protein polymorphism", 
     "format-version": "0.1", 
-    "name": "COVID-19 - Genomics [5] Analysis of S-protein polymorphism", 
+    "name": "COVID-19: Analysis of S-protein polymorphism", 
     "steps": {
         "0": {
             "annotation": "", 
@@ -169,7 +169,8 @@
         }
     }, 
     "tags": [
-        "covid-19"
+        "covid-19",
+        "genomics"
     ], 
     "uuid": "8d0e80ef-ba4d-4c51-a47e-95cd1865497e", 
     "version": 0

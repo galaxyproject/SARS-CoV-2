@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "",
   "format-version": "0.1",
-  "name": "Parallel accession download Illumina",
+  "name": "COVID-19: Parallel accession download Illumina",
   "steps": {
     "0": {
       "annotation": "",
@@ -318,6 +318,9 @@
       ]
     }
   },
-  "tags": "",
+    "tags": [
+        "covid-19",
+        "genomics"
+    ], 
   "uuid": "b81f4a41-efa6-4244-a49d-73cbba1caf37"
 }

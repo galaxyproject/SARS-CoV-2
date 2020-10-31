@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true", 
   "annotation": "Active site preparation", 
   "format-version": "0.1", 
-  "name": "COVID-19 - Cheminformatics [2] Active site generation", 
+  "name": "COVID-19: Active site generation", 
   "steps": {
     "0": {
       "annotation": "", 
@@ -150,7 +150,8 @@
     }
   }, 
   "tags": [
-    "covid-19"
+    "covid-19",
+    "cheminformatics"
   ], 
   "uuid": "90aa7d99-0a4b-401c-b4d0-d20f7475531e", 
   "version": 1

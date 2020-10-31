@@ -319,6 +319,9 @@
             ]
         }
     },
-    "tags": "",
+    "tags": [
+        "covid-19",
+        "genomics"
+    ], 
     "uuid": "b98428bd-b42c-4959-8fef-fbf9b990bd00"
 }
