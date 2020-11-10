@@ -2,14 +2,14 @@
 title: Reanalysis of PXD019119
 ---
 
-# MS data analysis with Search GUI and PeptideShaker
+# Proteomics analysis of respiratory tract samples from CoviD-19 infected patients
 
 ## Live Resources
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119inputcovid19pqlk " alt="Raw data" /> |
-| <FlatShield label="PDX019119 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119searchcovid19pqlk-09032020" alt="Galaxy history" /> |
+| <FlatShield label="PXD019119 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119searchcovid19pqlk-09032020" alt="Galaxy history" /> |
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/imported-imported-pxd019119-workflow-for-pq-and-lk-08202020" /> |
 
 
