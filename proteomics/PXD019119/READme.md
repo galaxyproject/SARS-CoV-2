@@ -38,4 +38,4 @@ Lorikeet analysis to ascertain the validity of peptide spectral matches.
 |                   | Pool 18 | Pool 34 | Pool 38 |  Pool 47 | Pool 51 |
 |-------------------|:-------:|:-------:|:-------:|:--------:|:-------:|
 | COVID-19 Peptides |    12   |    60   |    21   |    59    |    40   |
-|                   |         |         |         |          |         |
+
