@@ -2,7 +2,7 @@
 title: Reanalysis of PXD018682
 ---
 
-# MS data analysis with Search GUI and PeptideShaker
+# Proteomics analysis of Gargling samples from CoviD-19 infected patients
 
 ## Live Resources
 
