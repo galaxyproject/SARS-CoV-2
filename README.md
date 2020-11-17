@@ -28,3 +28,5 @@ Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana Uni
   <a href="https://www.france-bioinformatique.fr/en">          <img src="./genomics/img/ifb.png" alt="IFB" width = "20%" /></a> &nbsp;
   <a href="http://galaxyp.org/">          <img src="./proteomics/img/galaxyp.png" alt="GalaxyP" width = "10%" /></a> &nbsp;
   </p>
+  
+  How does editing work?
