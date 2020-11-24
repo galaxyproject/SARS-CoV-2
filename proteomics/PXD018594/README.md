@@ -9,8 +9,8 @@ title: Reanalysis of PXD018594
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018594inputsforpqlk  " alt="Raw data" /> |
-| <FlatShield label="PXD018241 history1" message="view" href="https://usegalaxy.eu/u/pratikjagtap/w/dataset-collection-pxd018594-workflow-for-pq-and-lk-08222020 " alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018594searchforpepquery-and-lorikeet-analysis" /> |
+| <FlatShield label="PXD018241 history1" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018594searchforpepquery-and-lorikeet-analysis " alt="Galaxy history" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/dataset-collection-pxd018594-workflow-for-pq-and-lk-08222020" /> |
 
 
 ## Description
