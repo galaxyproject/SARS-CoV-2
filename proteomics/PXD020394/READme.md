@@ -12,7 +12,7 @@ title: Reanalysis of PXD020394
 | <FlatShield label="Input Positive data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd020394-inputs-for-positive-samples-sg-ps--pq  " alt="Raw data" /> |
 | <FlatShield label="PXD020394 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd020394-outputs-for-negative-samples-sg-ps-and-pq" alt="Galaxy history" /> |
 | <FlatShield label="PXD020394 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd020394-outputs-for-positive-samples-sg-ps--pq " alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/copy-of-dataset-collection-pxd018241-workflow-for-pq-and-lk-090220200" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/copy-of-dataset-collection-pxd018241-workflow-for-pq-and-lk-09022020" /> |
 
 
 ## Description
