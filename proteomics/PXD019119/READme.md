@@ -1,5 +1,5 @@
 ---
-title: Reanalysis of PXD019119
+title: Reanalysis of PXD021328
 ---
 
 # Proteomics analysis of respiratory tract samples from CoviD-19 infected patients
@@ -9,8 +9,8 @@ title: Reanalysis of PXD019119
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119inputcovid19pqlk " alt="Raw data" /> |
-| <FlatShield label="PXD019119 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119searchcovid19pqlk-09032020" alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/imported-imported-pxd019119-workflow-for-pq-and-lk-08202020" /> |
+| <FlatShield label="PXD019119 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd021328-outputs-covid10-peptide-search-11222020 " alt="Galaxy history" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/imported-imported-pxd019119-workflow-for-pq-and-lk-08202020 " /> |
 
 
 ## Description
@@ -32,7 +32,7 @@ The detected peptides were later subjected to analysis by PepQuery and Lorikeet 
 
 ## Results
 
-We detected 71 COVID-19 peptides from all pooled samples in the respiratory tract datasets. The peptides were subjected to BLAST-P and
+We detected 76 COVID-19 peptides from all pooled samples in the respiratory tract datasets. The peptides were subjected to BLAST-P and
 Lorikeet analysis to ascertain the validity of peptide spectral matches.
 
 |                   | Pool 18 | Pool 34 | Pool 38 |  Pool 47 | Pool 51 |
