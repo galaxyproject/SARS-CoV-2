@@ -48,6 +48,7 @@ All the files associated with this analysis is available via the [Zenodo link]()
 | SARS-CoV-2               |   ND   |    1   |    1   |
 | Streptococcus pneumoniae |   ND   |    3   |   ND   |
 | Lactobacillus rhamnosus  |   ND   |   ND   |    8   |
+
 *Number indicates number of peptides detected after SearchGUI/PeptideShaker analysis, confirmed by PepQuery and validated using Lorikeet analysis; ND = Not detected.*
 
 
