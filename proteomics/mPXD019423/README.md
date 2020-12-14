@@ -54,13 +54,13 @@ All the files associated with this analysis is available via the [Zenodo link]()
  **_Streptococcus pneumoniae_** is a commensal microorganism that colonizes the upper respiratory tract in healthy individuals. However, in susceptible individuals with weaker immune systems, such as the elderly, the bacterium may become pathogenic and spread to other locations to cause disease. Clinical studies have started identifying possible co-infecting bacteria in [COVID-19](https://pubmed.ncbi.nlm.nih.gov/32408156/) patients. Amongst these *S. pneumoniae* has been shown to be the [most common](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245213/), is known to be nosocomial, detected in immuno-compromised patients and are difficult to treat because of its multi-drug resistance.
 As a last step, all the peptides, confidently identified by SearchGUI/PeptideShaker, confirmed by PepQuery were subjected to Lorikeet analysis. Below is Lorikeet visualization of two peptides from **_S. pneumoniae_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
 
-![](./img/SP.jpeg)
+![](./img/SP.png)
 
 **_Lactobacillus rhamnosus_** is one of the [most studied probiotic](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1601-0825.2007.01386.x) bacterium, used in prevention of [oral candidiasis](https://doi.org/10.1177/154405910708600204) infections. Since no clinical history is available for the COVID-19 patient (RAW 02), we can only speculate that the presence of this bacterium due to oral prebiotic treatment during hospitalization.  Below is Lorikeet visualization of two peptides from **_L. rhamnosus_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
-![](./img/LR.jpeg)
+![](./img/LR.png)
 Two of the datasets from this study could also detect SARS-CoV-2 peptides, while the third one could not detect SARS-CoV-2 peptides in the original study or in our reanalysis. Below is Lorikeet visualization of two peptides from SARS-CoV-2 and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
 
-![](./img/COV2.jpeg)
+![](./img/COV2.png)
 
 We have contacted the authors of the original manuscript and reported our findings and have discussed the possibility of using new gargling solutions samples to detect the presence of any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
 
