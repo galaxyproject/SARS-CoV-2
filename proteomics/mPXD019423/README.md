@@ -19,7 +19,7 @@ title: Metaproteomics of PXD019423
 
 ## Description
 
-[Ihling et al](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00280)  from Martin Luther University Halle-Wittenberg (Halle, Germany) have published a protein MS-based ‘proof-of-principle’ method to detect SARS-CoV-2 virus proteins from gargle samples from COVID-19 patients. Their protocol consists of an acetone precipitation step, followed by tryptic digestion of gargle solution proteins, (see [here](../PXD018682/)),followed by targeted MS analysis on an Orbitrap Fusion Tribrid mass spectrometer with nano-ESI source (Thermo Fisher Scientific). In the original manuscript, the authors detect peptides from SARS-CoV-2 virus proteins and present evidence for their spectral annotation. This study is an initiative in developing a routine MS-based diagnostic method for COVID-19 patients. This MS data was submitted in May 2020 as [PXD019423](http://dx.doi.org/10.6019/PXD019423) on the ProteomeXchange Repository.
+[**_Ihling et al_**](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00280)  from Martin Luther University Halle-Wittenberg (Halle, Germany) have published a protein MS-based ‘proof-of-principle’ method to detect SARS-CoV-2 virus proteins from gargle samples from COVID-19 patients. Their protocol consists of an acetone precipitation step, followed by tryptic digestion of gargle solution proteins, (see [here](../PXD018682/)),followed by targeted MS analysis on an Orbitrap Fusion Tribrid mass spectrometer with nano-ESI source (Thermo Fisher Scientific). In the original manuscript, the authors detect peptides from SARS-CoV-2 virus proteins and present evidence for their spectral annotation. This study is an initiative in developing a routine MS-based diagnostic method for COVID-19 patients. This MS data was submitted in May 2020 as [PXD019423](http://dx.doi.org/10.6019/PXD019423) on the ProteomeXchange Repository.
 
 We were interested in exploring the possibility of presence of microorganisms in the samples from the original manuscript. For this, Peter Thuy-Boun (Wolan Lab, Scripps Institute) searched the three RAW files using COMPIL 2.0 against a comprehensive 113 million protein sequences and roughly 4.8 billion unique tryptic peptide sequences database library. We used a Galaxy workflow to generate a list of peptides detected using [COMPIL 2.0](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00722) search. The peptides were subjected to [Unipept analysis] (https://unipept.ugent.be/datasets) using ‘Advanced Missed Cleavage Handling” option to generate outputs with taxonomic and functional information. We selected a list of species (identified with atleast two peptides) for the metaproteomics search and validation workflow based on whether they were reported - or had the potential to be present in human samples. We used this list of species along with RAW files and COVID-19 protein database as inputs for a Galaxy workflow to ->
 - a) search the datasets; 
@@ -42,16 +42,16 @@ Briefly, this Galaxy workflow converts RAW files to MGF format. The MGF files ar
 
 
 ## Results
-The analysis of the gargling solutions using COMPIL 2.0 and Unipept (both outside of Galaxy) and using SearchGUI/PeptideShaker, Unipept and PepQuery (all within Galaxy workflows) resulted in detection of Streptococcus pneumoniae (an opportunistic pathogen) and Lactobacillus rhamnosus (a component of probiotic treatment). In the published letter to the editor, we only report bacteria which were identified with at least two peptides per dataset.
+The analysis of the gargling solutions using COMPIL 2.0 and Unipept (both outside of Galaxy) and using SearchGUI/PeptideShaker, Unipept and PepQuery (all within Galaxy workflows) resulted in detection of **_Streptococcus pneumoniae_** (an opportunistic pathogen) and **_Lactobacillus rhamnosus_** (a component of probiotic treatment). In the published letter to the editor, we only report bacteria which were identified with at least two peptides per dataset.
 All the files associated with this analysis is available via the [Zenodo link]() and https://covid19.galaxyproject.org/proteomics/.
 
 
 | Taxonomic species        | RAW 01 | RAW 02 | RAW 03 |
 |--------------------------|--------|--------|--------|
 |                          |        |        |        |
-| SARS-CoV-2               |   ND   |    1   |    1   |
-| Streptococcus pneumoniae |   ND   |    3   |   ND   |
-| Lactobacillus rhamnosus  |   ND   |   ND   |    8   |
+| **_SARS-CoV-2_**               |   ND   |    1   |    1   |
+| **_Streptococcus pneumoniae_** |   ND   |    3   |   ND   |
+| **_Lactobacillus rhamnosus_**  |   ND   |   ND   |    8   |
 
 *Number indicates number of peptides detected after SearchGUI/PeptideShaker analysis, confirmed by PepQuery and validated using Lorikeet analysis; ND = Not detected.*
 
@@ -67,7 +67,12 @@ As a last step, all the peptides, confidently identified by SearchGUI/PeptideSha
 
 
 **_Lactobacillus rhamnosus_** is one of the [most studied probiotic](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1601-0825.2007.01386.x) bacterium, used in prevention of [oral candidiasis](https://doi.org/10.1177/154405910708600204) infections. Since no clinical history is available for the COVID-19 patient (RAW 02), we can only speculate that the presence of this bacterium due to oral prebiotic treatment during hospitalization.  Below is Lorikeet visualization of two peptides from **_L. rhamnosus_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
+
+
 ![](./img/LR.png)
+
+
+
 Two of the datasets from this study could also detect **_SARS-CoV-2_** peptides, while the third one could not detect SARS-CoV-2 peptides in the original study or in our reanalysis. Below is Lorikeet visualization of two peptides from **_SARS-CoV-2_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
 
 
