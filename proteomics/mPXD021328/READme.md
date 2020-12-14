@@ -39,7 +39,7 @@ Briefly, this Galaxy workflow converts RAW files to MGF format. The MGF files ar
 
 ## Results
 
-Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. Interestingly, the PepQuery analysis supports the detection of these microbial peptides. We have followed this up with Lorikeet analysis to ascertain the spectral evidence. All the files associated with this analysis is available via the [Zenodo link]() and https://covid19.galaxyproject.org/proteomics/.
+Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. Interestingly, the PepQuery analysis supports the detection of these microbial peptides. We have followed this up with Lorikeet analysis to ascertain the spectral evidence. All the files associated with this analysis is available via https://covid19.galaxyproject.org/proteomics/.
 
 |     Taxonomic Unit     | Pool 18 | Pool 34 | Pool 38 | Pool 47 | Pool 51 |
 |:----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|
