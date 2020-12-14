@@ -42,7 +42,7 @@ Clinical studies from COVID-19 patients have reported co-infecting bacteria in C
 
 
 Peptides detected after SearchGUI/PeptideShaker analysis, confirmed by PepQuery and validated using Lorikeet analysis
-In the published letter to the editor, we only report bacteria which were identified with at least two peptides per dataset. All the files associated with this analysis is available via the Zenodo link and https://covid19.galaxyproject.org/proteomics/.
+In the published letter to the editor, we only report bacteria which were identified with at least two peptides per dataset. All the files associated with this analysis is available via https://covid19.galaxyproject.org/proteomics/.
 
 
 **_Acinetobacter ursingii_** is a nonmotile, aerobic, gram-negative bacterium that is found in natural moist environments and has been isolated from blood samples of pediatric patients. Known to be a commensal bacterium present in newborns, it is also capable of generating bacteremia and infections in immunocompromised [hospitalized premature infants](https://journals.lww.com/pidj/Fulltext/2020/03000/Nosocomial_Bacteraemia_Caused_by_Acinetobacter.22.aspx). Underlying serious conditions such as cancer, intravascular catheterization, treatment with broad spectrum antibiotics and prolonged hospitalization have been identified as risk factors for **_A. ursingii_** infection. It’s potential to cause [nosocomial infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4907768/) and outbreaks in hospital environment have been noted. **_A. ursingii_** has also been isolated from [bronchoscopic samples](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7365381/) of intensive-care patients.
