@@ -1,5 +1,5 @@
 ---
-title: Metaproteomics of PXD019119
+title: Metaproteomics of PXD021328
 ---
 
 # Metaproteomics analysis of respiratory tract samples from CoviD-19 infected patients
@@ -9,72 +9,51 @@ title: Metaproteomics of PXD019119
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="data library" message="view" href="https://usegalaxy.eu/library/list#folders/F9ae5f5ec2d597409" alt="Raw data from data library" /> |
-| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119inputmetaproteomics-09022020" alt="Raw data plus auxillary data" /> |
-|
-| <FlatShield label="Result history" message="view" href="https://usegalaxy.eu/u/subina/h/pxd019119searchmetaproteomics-09082020" alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/subina/w/pxd019119metaproteomics-workflow-09082020-with-qt" alt="Galaxy workflow" /> |
+| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-inputs-pxd021328-metaproteomics-12052020" alt="Raw data plus auxillary data" /> |
+| <FlatShield label="ComPIL2.0 analysis" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-compil-20-outputs---pxd021328" alt="ComPIL2.0 analysis /> |
+| <FlatShield label="Result history" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-outputs-pxd021328-metaproteomics-12052020" alt="Galaxy history" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/galaxyp/w/pr-2020-00822a-pxd021328metaproteomics-workflow-12052020" alt="Galaxy workflow" /> |
+| <FlatShield label="ComPIL2.0 processing workflow" message="run" href="https://usegalaxy.eu/u/galaxyp/w/pr-2020-00822a-compil-20-output-processing-to-distinct-peptides-pxd020394-and-pxd021328" alt="ComPIL2.0 processing workflow" /> |
 
 
 ## Description
 
-[Cardozo et al](https://www.researchsquare.com/article/rs-28883/v1) collected bottom-up mass spectrometry (MS) data on respiratory tract samples from ten COVID-19 
-positive patient samples. Data-dependent acquisition MS spectra were acquired using hybrid quadrupole-Orbitrap tandem mass spectrometry. The MS data was used to generate 
-a spectral library of targeted COVID-19 peptides for targeted MS assay for clinical samples. We were interested in exploring the possibility of presence of microorganisms 
-in the clinical samples. Peter Thuy-Boun from Wolan Lab at the Scripps Institute searched the five RAW files (pools 18, 34, 38, 47 and 51) using 
-[COMPIL 2.0](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00722) against a comprehensive 113 million protein sequence database. The detected peptides identified 
-were subjected to Unipept 4.3 analysis to detect taxonomic information about microorganisms present in the sample. A list of clinically significant genera/species was 
-used to generate a protein FASTA database within the [Galaxy workflow](https://usegalaxy.eu/u/subina/w/pxd019119metaproteomics-workflow-09082020-with-qt). The generated 
-protein database along with the RAW files and COVID-19 protein database was used as inputs for a Galaxy workflow to a) search 
-the [datasets](https://usegalaxy.eu/u/pratikjagtap/h/pxd019119inputmetaproteomics-09022020); b) detect microbial peptides and determine the taxonomy associated with the 
-peptides using Unipept; and c) validation of peptide spectral matches by using [PepQuery](https://genome.cshlp.org/content/early/2019/01/04/gr.235028.118) and determining 
-the number of valid peptides corresponding to microbial taxonomic units.The analysis of the respiratory tract samples using COMPIL 2.0 and 
-[Galaxy workflow](https://usegalaxy.eu/u/subina/w/pxd019119metaproteomics-workflow-09082020-with-qt) with SearchGUI/PeptideShaker, Unipept and PepQuery resulted in detection 
-of a few opportunistic pathogens (see table below).
+[**_Cardozo et al_**](https://www.researchsquare.com/article/rs-28883/v1) from Fleury Group (São Paulo, Brazil) collected bottom-up mass spectrometry (MS) data on Respiratory tract samples (combined materials from nasopharyngeal and oropharyngeal swabs) from ten COVID-19 positive patient samples. Data-dependent acquisition MS spectra were acquired using hybrid quadrupole-Orbitrap tandem mass spectrometry. The MS data was used to generate a spectral library of targeted COVID-19 peptides for targeted MS assay for clinical samples. The RAW data was submitted to the ProteomeXchange Repository [PXD021328](http://dx.doi.org/10.6019/PXD021328).
+Peter Thuy-Boun from Wolan Lab at the Scripps Institute searched the five RAW files (pools 18, 34, 38, 47 and 51) using COMPIL 2.0 against a comprehensive 113 million protein sequence database. The detected peptides identified were subjected to Unipept 4.3 analysis to detect taxonomic information regarding microorganisms present in the sample. A list of clinically significant species (detected with at least two peptides) was used to generate a protein FASTA database within the Galaxy workflow (see below). The generated protein database along with the RAW files and COVID-19 protein database was used as inputs for a Galaxy workflow to 
+- a) search the datasets; 
+- b) detect microbial peptides and determine the taxonomy associated with the peptides using Unipept; and 
+- c) validation of peptide spectral matches by using PepQuery and Lorikeet to determine the number of valid peptides corresponding to microbial taxonomic units. The analysis of the respiratory tract samples using COMPIL 2.0 and Galaxy workflow with SearchGUI/PeptideShaker, Unipept, PepQuery  and Lorikeet resulted in detection of SARS-CoV-2 peptides and Trichosporon asahii in some of the samples (see table below).
 
 ## Workflow
 
-![](./img/wf.png)
+![](./img/wf1.png)
 
-The Galaxy workflow includes software tools to convert the input RAW files to MGF format. The MGF files are layer searched against the combined database of Human Uniprot proteome, 
-UniProt database of clinically significant genera/species along with contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms (within SearchGUI) 
-and FDR and protein grouping using PeptideShaker. The detected peptides were searched with Unipept 4.3 to obtain the taxonomic and functional information. Taxonomically relevant peptides 
-were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
+RAW Files from clinical datasets were searched against a comprehensive UniRef database using COMPIL Peptides detected from COMPIL 2.0 search were extracted using a Galaxy workflow (A) to extract peptides that were subjected to Unipept analysis. Clinically important species (detected with at least two peptides) were used to generate the UniProt database. The RAW files were re-interrogated against a combined database of human proteins, UniProt database of detected species, SARS-CoV-2 proteins and contaminants using SearchGUI/PeptideShaker within a Metaproteomics Search and Validation Workflow (B in figure above and details in figure below). 
+
+![](./img/wf2.png)
+
+
+Briefly, this Galaxy workflow converts RAW files to MGF format. The MGF files are searched against the combined database of Human Uniprot proteome, UniProt database of detected species, contaminant proteins and SARS-Cov-2 proteins database using X! tandem, MSGF+, OMSSA search algorithms within SearchGUI and FDR and protein grouping using PeptideShaker. Peptides were subjected to Unipept analysis to detect microbial peptides and they were further confirmed by using PepQuery. The confirmed peptides were used to detect species (with at least 2 peptides) after validating the spectral quality of the microbial peptides using Lorikeet. Species were reported to be present in a sample only when they were detected by at least two peptides in a sample or replicate.
 
 
 
 ## Results
 
-Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. Interestingly, the PepQuery analysis supports the detection of these microbial peptides. 
-We have followed this up with Lorikeet analysis to ascertain the spectral evidence. 
+Clinical studies from COVID-19 patients have reported co-infecting bacteria in COVID-19 patients. Interestingly, the PepQuery analysis supports the detection of these microbial peptides. We have followed this up with Lorikeet analysis to ascertain the spectral evidence. All the files associated with this analysis is available via the [Zenodo link]() and https://covid19.galaxyproject.org/proteomics/.
 
-|    Taxonomic Unit     | Pool 18 | Pool 34 | Pool 38 |  Pool 47 | Pool 51 |
-|:---------------------:|:-------:|:-------:|:-------:|:--------:|:-------:|
-|    *Coronaviridae*    |    1    |    9    |    5    |    11    |    6    |
-|     *Anaerococcus*    |    0    |    2    |    1    |     2    |    3    |
-|       *Dietzia*       |    1    |    1    |    0    |     2    |    2    |
-| *Prevotella buccalis* |    1    |    1    |    0    |     2    |    1    |
-|   *Candida albicans*  |    1    |    0    |    2    |     0    |    0    |
-|  *Johnsonella ignava* |    1    |    0    |    1    |     2    |    0    |
-| *Trichosporon asahii* |    0    |    0    |    0    |     2    |    0    |
+|     Taxonomic Unit     | Pool 18 | Pool 34 | Pool 38 | Pool 47 | Pool 51 |
+|:----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|       **_SARS-CoV-2_**       |    1    |    3    |    4    |    3    |    3    |
+|   **_Trichosporon asahii_**  |    ND   |    1    |    1    |    ND   |    1    |
+| **_Paenibacillus swuensis_** |    ND   |    ND   |    1    |    ND   |    ND   |
+
+*Number indicates number of peptides detected after SearchGUI/PeptideShaker analysis, confirmed by PepQuery and validated using Lorikeet analysis; ND = Not detected.*
 
 
-Apart from **_Coronavirus_** peptides, we also detected peptides for **_Anaerococcus, Dietzia, Prevotella buccalis, Candida albicans, Johnsonella ignava and Trichosporon asahii_**.
-[**_Anaerococcus species_**](https://doi.org/10.1099/00207713-51-4-1521) are anaerobic cocci that have been isolated in skin, vagina, and nasal cavity . [Recent report](https://doi.org/10.1016/j.anaerobe.2019.102130) 
-has also demonstrated the isolation of **_Anaerococcus_** from bloodstream infection from an elderly immunocompetent person and shown that **_Anaerococcus_** are resistant to antimicrobial treatment. 
-![](./img/Anaerococcus.jpeg)
-**_Dietzia_** species are aerobic, [*Gram-positive actinomycetes*](https://doi.org/10.1111/j.1574-695X.2008.00513.x) and have been implicated as potential invasive human pathogen and have been isolated from specimens taken from patients with acute infections . **_Dietzia_** species was also isolated from an immunocompromised patient with chronic obstructive pulmonary disease (COPD), and the infection is presumably related to the [use of catheters](https://doi.org/10.1086/313490). 
-![](./img/Dietzia.jpeg)
-**_Prevotella buccalis_** is an anaerobic bacterium isolated from [dental plaque](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC170248/). It was detected as one of the species associated with asthma patients based on [nasal microbiome analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123291/).
-![](./img/PB.jpeg)
-**_Candida albicans_** is one of the most common fungal infections acquired during hospitalization and is prevalent in [critically ill or immunocompromised patients](https://cmr.asm.org/content/24/1/141). Patients develop [oropharyngeal candidiasis](https://doi.org/10.1099/jmm.0.045054-0),
-which can have an effect on the absorption of medication.
-![](./img/CA.jpeg)
-**_Johnsonella ignava_** is an anaerobic Gram-negative rod-shaped bacterium isolated from human gingival crevices. In a study [comparing oral microbiota](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3507910/) in tumor and non-tumor tissues of patients with oral squamous cell carcinoma (OSCC), **_Johnsonella ignava_** was shown to be associated with the tumor site.
-![](./img/JI.jpeg)
-**_Trichosporon asahii_** is an 
-opportunistic fungal pathogen whose infections have increased in recent years, resulting in [high mortality](https://doi.org/10.1093/mmy/myaa076) due to invasive infections in immunocompromised patients. It can cause [infections](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439294/) on the skin, hair and lungs (chronic pneumonia).
-![](./img/TA.jpeg)
+Apart from SARS-CoV-2 peptides, we also detected peptides for **_Trichosporon asahii_**  and **_Paenibacillus swuensis_**. While three datasets (Pools, 34, 38 and 47) detected at least two peptides for **_SARS-CoV-2_**, we could not detect more than one peptide for other two organisms. In the published letter to the editor, we only report bacteria which were identified with at least two peptides per dataset.
+As a final step, all the peptides, confidently identified by SearchGUI/PeptideShaker, confirmed by PepQuery were subjected to Lorikeet analysis. Below is Lorikeet visualization of two peptides from **_SARS-CoV-2_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
+![](./img/COV2.png)
 
-This along with the analysis of [gargling samples dataset](https://covid19.galaxyproject.org/proteomics/mpxd019423/#live-resources) analysis demonstrates the use of COMPIL 2.0 and metaproteomics workflow to detect any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
-![](./img/covid19.jpeg)
+We have contacted the authors of the original manuscript and reported our findings and have discussed the possibility of using new clinical samples to detect the presence of any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
+
 
