@@ -10,7 +10,7 @@ title: Metaproteomics of PXD021328
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="data library" message="view" href="https://usegalaxy.eu/library/list#folders/F9ae5f5ec2d597409" alt="Raw data from data library" /> |
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-inputs-pxd021328-metaproteomics-12052020" alt="Raw data plus auxillary data" /> |
-| <FlatShield label="ComPIL2.0 analysis" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-compil-20-outputs---pxd021328" alt="ComPIL2.0 analysis /> |
+| <FlatShield label="ComPIL2.0 analysis" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-compil-20-outputs---pxd021328" alt="ComPIL2.0 analysis" /> |
 | <FlatShield label="Result history" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-outputs-pxd021328-metaproteomics-12052020" alt="Galaxy history" /> |
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/galaxyp/w/pr-2020-00822a-pxd021328metaproteomics-workflow-12052020" alt="Galaxy workflow" /> |
 | <FlatShield label="ComPIL2.0 processing workflow" message="run" href="https://usegalaxy.eu/u/galaxyp/w/pr-2020-00822a-compil-20-output-processing-to-distinct-peptides-pxd020394-and-pxd021328" alt="ComPIL2.0 processing workflow" /> |
