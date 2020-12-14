@@ -43,7 +43,7 @@ Briefly, this Galaxy workflow converts RAW files to MGF format. The MGF files ar
 
 ## Results
 The analysis of the gargling solutions using COMPIL 2.0 and Unipept (both outside of Galaxy) and using SearchGUI/PeptideShaker, Unipept and PepQuery (all within Galaxy workflows) resulted in detection of **_Streptococcus pneumoniae_** (an opportunistic pathogen) and **_Lactobacillus rhamnosus_** (a component of probiotic treatment). In the published letter to the editor, we only report bacteria which were identified with at least two peptides per dataset.
-All the files associated with this analysis is available via the [Zenodo link]() and https://covid19.galaxyproject.org/proteomics/.
+All the files associated with this analysis is available via https://covid19.galaxyproject.org/proteomics/.
 
 
 | Taxonomic species        | RAW 01 | RAW 02 | RAW 03 |
