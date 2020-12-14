@@ -59,7 +59,7 @@ As a last step, all the peptides, confidently identified by SearchGUI/PeptideSha
 Below is Lorikeet visualization of two peptides from **_Pseudomonas sps. Bc-h_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
 ![](./img/PBch.png)
 
-The workflow also detected SARS-CoV-2 peptides from COVID-19 positive samples and none from COVID-19 negative patient samples. Below is Lorikeet visualization of two peptides from SARS-CoV-2 and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
+The workflow also detected **_SARS-CoV-2_** peptides from COVID-19 positive samples and none from COVID-19 negative patient samples. Below is Lorikeet visualization of two peptides from **_SARS-CoV-2_** and each PSM has metrics for spectrum, charge state, total ion current, OMSSA, MS-GF+ and X! Tandem identification statistics, PeptideShaker PSM score and confidence along with PepQuery-generated score, p-value, confidence and Lorikeet and Unipept metrics.
 ![](./img/COV2.png)
 
 We believe that the workflows will help in detecting the presence of any cohabitating emerging pathogens in COVID-19 patients using mass spectrometry based metaproteomics analysis.
