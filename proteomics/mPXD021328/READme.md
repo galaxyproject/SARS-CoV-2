@@ -2,7 +2,7 @@
 title: Metaproteomics of PXD021328
 ---
 
-# Metaproteomics analysis of respiratory tract samples from CoviD-19 infected patients
+# Metaproteomics analysis of respiratory tract samples from COVID-19 infected patients
 
 ## Live Resources
 
