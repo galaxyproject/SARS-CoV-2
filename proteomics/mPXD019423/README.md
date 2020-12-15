@@ -2,7 +2,7 @@
 title: Metaproteomics of PXD019423
 ---
 
-# Metaproteomics analysis of Gargling samples from COVID-19 infected patients
+# Metaproteomics analysis of gargling samples from COVID-19 infected patients
 
 ## Live Resources
 
