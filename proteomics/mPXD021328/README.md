@@ -8,7 +8,7 @@ title: Metaproteomics of PXD021328
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
-| <FlatShield label="data library" message="view" href="https://usegalaxy.eu/library/list#folders/F9ae5f5ec2d597409" alt="Raw data from data library" /> |
+| <FlatShield label="data library" message="view" href="https://usegalaxy.eu/library/folders/F9ae5f5ec2d597409" alt="Raw data from data library" /> |
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-inputs-pxd021328-metaproteomics-12052020" alt="Raw data plus auxillary data" /> |
 | <FlatShield label="ComPIL2.0 analysis" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-compil-20-outputs---pxd021328" alt="ComPIL2.0 analysis" /> |
 | <FlatShield label="Result history" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-outputs-pxd021328-metaproteomics-12052020" alt="Galaxy history" /> |
