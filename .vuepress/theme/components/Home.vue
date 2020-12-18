@@ -92,9 +92,9 @@
                     <li><RouterLink :to="'/proteomics/PXD018241/'">Reanalysis of PXD018241</RouterLink></li>
                     <li><RouterLink :to="'/proteomics/PXD018241/'">Reanalysis of PXD018594</RouterLink></li>
                     <li><RouterLink :to="'/proteomics/PXD020394/'">Reanalysis of PXD020394</RouterLink></li>
-                    <li><RouterLink :to="'/proteomics/PXD019119/'">Reanalysis of PXD019119</RouterLink></li>
+                    <li><RouterLink :to="'/proteomics/PXD021328/'">Reanalysis of PXD021328</RouterLink></li>
                     <li><RouterLink :to="'/proteomics/mPXD019423/'">Metaproteomics of mPXD019423</RouterLink></li>
-                    <li><RouterLink :to="'/proteomics/mPXD019119/'">Metaproteomics of mPXD019119</RouterLink></li>
+                    <li><RouterLink :to="'/proteomics/mPXD021328/'">Metaproteomics of mPXD021328</RouterLink></li>
                     <li><RouterLink :to="'/proteomics/mPXD020394/'">Metaproteomics of mPXD020394</RouterLink></li>
                 </ul>
             </div>
