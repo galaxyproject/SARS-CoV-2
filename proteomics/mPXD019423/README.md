@@ -11,8 +11,7 @@ title: Metaproteomics of PXD019423
 | <FlatShield label="data library" message="view" href="https://usegalaxy.eu/library/list#folders/F61b36ed9cec77ec5" alt="Raw data from data library" /> |
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-inputs-for-pxd019423-metaproteomics-search-12052020" alt="Raw data plus auxillary data" /> |
 | <FlatShield label="ComPIL2.0 Analysis" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-pxd019423-compil-20-analysis" alt="ComPIL2.0 Analysis" /> |
-| <FlatShield label="Result history" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-outputs-pxd019423-metaproteomics-search-12052020
-" alt="Galaxy history" /> |
+| <FlatShield label="Result history" message="view" href="https://usegalaxy.eu/u/galaxyp/h/pr-2020-00822a-outputs-pxd019423-metaproteomics-search-12052020" alt="Galaxy history" /> |
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/galaxyp/w/pr-2020-00822a-pxd019423metaproteomics-workflow-12052020" alt="Galaxy workflow" /> |
 | <FlatShield label="ComPIL2.0_output_processing_workflow" message="run" href="https://usegalaxy.eu/u/galaxyp/w/pr-2020-00822a-compil-20-output-processing-to-distinct-peptides-pxd019423---17-columns" alt="ComPIL2.0_output_processing_workflow" /> |
 
