@@ -9,7 +9,6 @@ title: Reanalysis of PXD018682
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F61b36ed9cec77ec5" alt="Raw data" /> |
-| <FlatShield label="PDX018682 history" message="view" href="https://usegalaxy.eu/u/subina/h/covid-19pxd018682" alt="Galaxy history" /> |
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/subina/w/covid-19pxd018682workflow" alt="Galaxy workflow" /> |
 
 
