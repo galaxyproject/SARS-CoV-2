@@ -12,12 +12,12 @@ title: Reanalysis of PXD020394
 | <FlatShield label="Input Positive data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd020394-inputs-for-positive-samples-sg-ps--pq  " alt="Raw data" /> |
 | <FlatShield label="PXD020394 Negative DB history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd020394-outputs-for-negative-samples-sg-ps-and-pq" alt="Galaxy history" /> |
 | <FlatShield label="PXD020394 Positive DB history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd020394-outputs-for-positive-samples-sg-ps--pq " alt="Galaxy history" /> |
-| <FlatShield label="Database search workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/copy-of-dataset-collection-pxd018241-workflow-for-pq-and-lk-09022020 " alt="Raw data" /> |
+| <FlatShield label="Database search workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/copy-of-dataset-collection-pxd018241-workflow-for-pq-and-lk-09022020 " alt="Galaxy workflow" /> |
 | <FlatShield label="Input Negative validation data" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/inputs-pxd020394-negative-samples-peptide-validation-11222020  " alt="Raw data" /> |
 | <FlatShield label="Input Positive validation data" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/inputs-pxd020394-positive-samples-peptide-validation-11222020 " alt="Raw data" /> |
 | <FlatShield label="PXD020394 Negative validation history" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/outputs-pxd020394-negative-samples-peptide-validation-11222020-1" alt="Galaxy history" /> |
 | <FlatShield label="PXD020394 Positive validationhistory" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/outputs-pxd020394-positive-samples-peptide-validation-11222020-1 " alt="Galaxy history" /> |
-| <FlatShield label="Peptide Validation workflow" message="run" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/w/workflow-for-pxd020394-covid-19-peptide-validation "alt="Raw data" /> |
+| <FlatShield label="Peptide Validation workflow" message="run" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/w/workflow-for-pxd020394-covid-19-peptide-validation " alt="Galaxy workflow" /> |
 
 ## Description
 
