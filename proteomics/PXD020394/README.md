@@ -17,7 +17,7 @@ title: Reanalysis of PXD020394
 | <FlatShield label="Input Positive validation data" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/inputs-pxd020394-positive-samples-peptide-validation-11222020 " alt="Raw data" /> |
 | <FlatShield label="PXD020394 Negative validation history" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/outputs-pxd020394-negative-samples-peptide-validation-11222020-1" alt="Galaxy history" /> |
 | <FlatShield label="PXD020394 Positive validationhistory" message="view" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/h/outputs-pxd020394-positive-samples-peptide-validation-11222020-1 " alt="Galaxy history" /> |
-| <FlatShield label="Peptide Validation workflow" message="run" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/w/workflow-for-pxd020394-covid-19-peptide-validation "alt="Raw data" /> 
+| <FlatShield label="Peptide Validation workflow" message="run" href="https://proteomics.usegalaxy.eu/u/pratikjagtap/w/workflow-for-pxd020394-covid-19-peptide-validation "alt="Raw data" /> |
 
 ## Description
 
