@@ -30,7 +30,7 @@ The Galaxy workflow presented here follows most of the original workflow, wherei
 converted to MGF and mzML format. The MGF files are searched against the contaminant database using X!tandem,
 MSGF+, OMSSA and C search algorithms. Later, spectra associated with adventitious proteins were eliminated
 using MSMS Extractor. In the second step, the dataset was searched against the protein database with
-Chlorocebus sequences and the Italy-INMI1 SARS-CoV-2 sequences. This resulted in detection of 141 peptides from six SARS-CoV-2 proteins. 
+Chlorocebus sequences and the Italy-INMI1 SARS-CoV-2 sequences. This resulted in detection of 139 peptides from six SARS-CoV-2 proteins. 
 The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
 
 ![](../img/PXD018804_cov1.png)
