@@ -38,7 +38,7 @@ Then these were later subjected to analysis by PepQuery and Lorikeet to ascertai
 
 ## Results
 
-We detected 70 COVID-19 peptides from all pooled samples using the first workflow and our validation study showed us that we could validate the presence of 70 peptides from SARS-CoV-2 proteins. 
+We detected 76 COVID-19 peptides from all pooled samples using the first workflow and our validation study showed us that we could validate the presence of 70 peptides from SARS-CoV-2 proteins. 
 
 |                   | Pool 18 | Pool 34 | Pool 38 |  Pool 47 | Pool 51 |
 |-------------------|:-------:|:-------:|:-------:|:--------:|:-------:|
