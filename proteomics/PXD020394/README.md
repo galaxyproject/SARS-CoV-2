@@ -49,6 +49,9 @@ The COVID-19 positive patient samples detected peptides from SARS-CoV-2 proteins
 ![](./img/POS1.png)
 ![](./img/POS1_2.png)
 
-COVID-19 negative samples also detected two peptides from COVID-19 proteins - however Lorikeet analysis showed that the spectral evidence for these peptides did not support the peptide-spectral-match.
+
+
+COVID-19 negative samples also detected two peptides from COVID-19 proteins - however Lorikeet analysis showed that the spectral evidence for these peptides did not support the peptide-spectral-match as shown below.
+
 ![](./img/NEG1.png)
 
