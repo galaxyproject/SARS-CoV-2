@@ -32,7 +32,7 @@ SearchGUI and FDR and protein grouping using PeptideShaker. This resulted in det
 ![](./img/wfDB.png)
 
 The detected peptides were searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. 
-Then these were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
+Then, these peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
 ![](./img/wfVal.png)
 
 
@@ -44,3 +44,9 @@ We detected 76 COVID-19 peptides from all pooled samples using the first workflo
 |-------------------|:-------:|:-------:|:-------:|:--------:|:-------:|
 | COVID-19 Peptides |    12   |    60   |    21   |    59    |    40   |
 
+
+Lorikeet analysis of few of the peptides are shown below.
+
+![](./img/PXD021328_NPA.png)
+![](./img/PXD021328_YLG.png)
+![](./img/PXD021328_IGM.png)
