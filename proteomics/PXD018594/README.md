@@ -28,6 +28,9 @@ The Galaxy workflow includes RAW data conversion to MGF format. The MGF files ar
 
 ## Results
 
-The COVID-19 positive patient samples detected 99 peptides from SARS-CoV-2 proteins.
+The COVID-19 positive patient samples detected 99 peptides from SARS-CoV-2 proteins. Here are a few lorikeet spectra of the detected peptides.
 
-
+![](./img/PXD018594_AYN.png)
+![](./img/PXD018594_DGI.png)
+![](./img/PXD018594_RGP.png)
+![](./img/PXD018594_KAD.png)
