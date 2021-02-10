@@ -42,6 +42,13 @@ The detected peptides were later subjected to analysis by PepQuery and Lorikeet 
 
 ## Results
 
-The COVID-19 positive patient samples detected peptides from SARS-CoV-2 proteins (see below). The Peptide search workflow yields 9 COV-2 peptides and the Peptide Validation workflow yields 10 COV-2 peptides.COVID-19 negative samples also detected two peptides from COVID-19 proteins - however Lorikeet analysis showed that the spectral evidence for these peptides did not support the peptide-spectral-match.
-
 ![](./img/result.png)
+The COVID-19 positive patient samples detected peptides from SARS-CoV-2 proteins (see below). The Peptide search workflow yields 9 COV-2 peptides and the Peptide Validation workflow yields 10 COV-2 peptides.
+
+
+![](./img/POS1.png)
+![](./img/POS1_2.png)
+
+COVID-19 negative samples also detected two peptides from COVID-19 proteins - however Lorikeet analysis showed that the spectral evidence for these peptides did not support the peptide-spectral-match.
+![](./img/NEG1.png)
+
