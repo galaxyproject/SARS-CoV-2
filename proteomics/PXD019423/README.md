@@ -35,5 +35,10 @@ The detected peptides were searched against NCBInr to ascertain that these pepti
 
 ## Results
 
-The database search workflow yielded us 8 COV-2 peptides from the second and third raw files. When we performed the validation search it gave us 21 COV-2 peptides.
-![](../img/lorikeet.png)
+The database search workflow yielded us 8 COV-2 peptides from the second and third raw files.
+
+When we performed the validation search using PepQuery it gave us 21 COV-2 peptides. We also checked the Lorikeet spectra of these peptides. Here are some examples of the Lorikeet spectra using the Multiomics visualization tool in the Galaxy platform.
+![](./img/PXD019423_AYN.png)
+![](./img/PXD019423_IGM.png)
+![](./img/PXD019423_RGP.png)
+![](./img/PXD019423_RPQ.png)
