@@ -33,6 +33,9 @@ using MSMS Extractor. In the second step, the dataset was searched against the p
 Chlorocebus sequences and the Italy-INMI1 SARS-CoV-2 sequences. This resulted in detection of 139 peptides from six SARS-CoV-2 proteins. 
 The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
 
-![](../img/PXD018804_cov1.png)
-![](../img/PXD018804_cov2.png)
+![](./img/PXD018804_AYN.png)
+![](./img/PXD018804_VAG.png)
+![](./img/PXD018804_GQG.png)
+![](./img/PXD018804_RGP.png)
+
 
