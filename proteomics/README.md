@@ -32,5 +32,5 @@ via [ProteomeXchange](https://massive.ucsd.edu/ProteoSAFe/static/corona-mass-kb.
   * [Reanalysis and metaproteomics analysis of naso-pharyngeal swabs samples from COVID-19 infected and non-infected individuals (PXD020394 from Rivera Lab)](mPXD020394)
   * [Reanalaysis and metaproteomics analysis of the respiratory tract samples from CoviD-19 infected patients (PXD021328 from Cardozo Lab)](mPXD021328)
   
-![](./img/MP_COVID19page.tiff)
+![](./img/MP_COVID19page.tif)
 
