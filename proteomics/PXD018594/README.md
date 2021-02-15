@@ -8,7 +8,7 @@ title: Reanalysis of PXD018594
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
-| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018594inputsforpqlk  " alt="Raw data" /> |
+| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018594inputsforpqlk" alt="Raw data" /> |
 | <FlatShield label="PXD018241 history1" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018594searchforpepquery-and-lorikeet-analysis " alt="Galaxy history" /> |
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/dataset-collection-pxd018594-workflow-for-pq-and-lk-08222020" /> |
 
@@ -22,12 +22,15 @@ After harvesting the infected cells, autoclaving was used to lyse the cells as w
 
 ## Workflow
 
-![](./img/wf.png)
+![](./img/wfDB.png)
 
 The Galaxy workflow includes RAW data conversion to MGF format. The MGF files are searched against the combined database of Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with SearchGUI and False Discovery Rate (FDR) and Protein grouping using PeptideShaker. This resulted in detection of 99 peptides from SARS-CoV-2 proteins. The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification. The peptides were later searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. 
 
 ## Results
 
-The COVID-19 positive patient samples detected 99 peptides from SARS-CoV-2 proteins.
+The COVID-19 positive patient samples detected 99 peptides from SARS-CoV-2 proteins. Here are a few lorikeet spectra of the detected peptides.
 
-
+![](./img/PXD018594_AYN.png)
+![](./img/PXD018594_DGI.png)
+![](./img/PXD018594_RGP.png)
+![](./img/PXD018594_KAD.png)

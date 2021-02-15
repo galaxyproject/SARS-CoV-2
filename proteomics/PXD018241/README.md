@@ -40,9 +40,14 @@ Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!
 and protein grouping using PeptideShaker. This resulted in detection of 579 peptides from SARS-CoV-2 proteins. The detected peptides were 
 searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. The detected peptides were later subjected 
 to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
+![](./img/wfDB.png)
+
 
 ## Results
 
-The COVID-19 positive patient samples detected 579 peptides from SARS-CoV-2 proteins.
-
+The COVID-19 positive patient samples detected 579 peptides from SARS-CoV-2 proteins. Few Lorikeet spectra of the detected peptides are shown below. 
+![](./img/PXD018241_VCE.png)
+![](./img/PXD018241_LPD.png)
+![](./img/PXD018241_CVN.png)
+![](./img/PXD018241_QIA.png)
 
