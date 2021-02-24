@@ -21,13 +21,11 @@ Data-dependent acquisition MS spectra were acquired using Q Exactive HF-X mass s
 
 ## Workflow
 
-![](./img/wf.png)
+![](./img/wfVal.png)
 
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of 
-Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with 
-SearchGUI and FDR and protein grouping using PeptideShaker. This resulted in detection of ----- peptides from SARS-CoV-2 proteins. 
-The detected peptides were searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. 
-The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
+Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using PepQuery Validation workflow. This resulted in detection of ----- peptides from SARS-CoV-2 proteins. The detected peptides were searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. 
+The detected peptides were later subjected to analysis by Lorikeet visualization to ascertain the quality of peptide identification.
 
 ## Results
 
