@@ -24,13 +24,13 @@ This study is an initiative in developing a  routine MS-based diagnostic method 
 
 ## Workflow
 
-![](./img/wfDB.png)
+![](./../img/wfDB.png)
 
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of Human
 Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with SearchGUI
 and FDR and protein grouping using PeptideShaker. This resulted in detection of nine peptides from SARS-CoV-2 proteins.
 
-![](./img/wfVal.png)
+![](./../img/wfVal.png)
 The detected peptides were searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. Also, the detected peptides were subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
 
 ## Results
