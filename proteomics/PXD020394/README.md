@@ -35,10 +35,10 @@ The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF
 Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with 
 SearchGUI and FDR and protein grouping using PeptideShaker. This resulted in detection of ten peptides from SARS-CoV-2 proteins.
 
-![](./img/wfDB.png)
+![](./../img/wfDB.png)
 The detected peptides were searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. 
 The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification.
-![](./img/wfVal.png)
+![](./../img/wfVal.png)
 
 ## Results
 
