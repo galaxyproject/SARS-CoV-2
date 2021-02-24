@@ -8,7 +8,7 @@ This directory contains processed varinat calls based on the following data:
 |cog_20200917_by_sample.tsv.gz <br>cog_20200917_by_var.tsv.gz| **"COG-Pre"** | Pre B.1.1.7 portion of PRJEB37886 |
 | cog_20201120_by_sample.tsv.gz <br>cog_20201120_by_var.tsv.gz| **"COG-Post"** | Post B.1.1.7 portion of PRJEB37886 |
 
-## Datasets `by_sample`
+## Datasets `by_variant`
 
 |    | Field                     | Example                                                     | Meaning |
 |-----|:--------------------------|:------------------------------------------------------------|---------|
