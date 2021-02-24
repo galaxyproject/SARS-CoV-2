@@ -23,7 +23,9 @@ via [ProteomeXchange](https://massive.ucsd.edu/ProteoSAFe/static/corona-mass-kb.
   * [Deep proteomic analysis of CoviD-19 virus infected Vero cells. (PXD018804 from Armengaud Lab)](PXD018804)
   * [Proteomics analysis of Gargling samples from CoviD-19 infected patients (PXD019423 from Sinz Lab)](PXD019423)
   * [Proteomics analysis of naso-pharyngeal swabs samples from COVID-19 infected and non-infected individuals (PXD020394 from Lima Lab)](PXD020394)
-  * [Proteomics analysis of respiratory tract samples from CoviD-19 infected patients(PXD019119 from Cardozo lab)](PXD021328)
+  * [Proteomics analysis of respiratory tract samples from CoviD-19 infected patients(PXD021328 from Cardozo lab)](PXD021328)
+  * [Proteomics analysis of COVID-19 lung tissues(PXD018094 from Zhong lab)](PXD018094)
+  * [Proteomic analysis of bronchoalveolar lavage fluid in COVID-19 patients(PXD022085 from Zeng lab)](PXD022085)
   
 ![](./img/CircosFinal.png)
   
