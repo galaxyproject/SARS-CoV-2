@@ -13,7 +13,7 @@
   "author": "",
   "license": "AFL-3.0",
   "dependencies": {
-    "@observablehq/runtime": "^4.7.0",
+    "@observablehq/runtime": "^4.8.2",
     "axios": "^0.21.1",
     "gh-badges": "^2.2.2",
     "igv": "^2.5.5",
