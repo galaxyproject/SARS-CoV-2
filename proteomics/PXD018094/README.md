@@ -20,8 +20,6 @@ title: Reanalysis of PXD018094
 
 ## Workflow
 
-![](./img/wf.png)
-
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of Human 
 Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using PepQUery Validation workflow. This resulted in detection of ---
  peptides from SARS-CoV-2 proteins. 
