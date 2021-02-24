@@ -22,7 +22,7 @@ After harvesting the infected cells, autoclaving was used to lyse the cells as w
 
 ## Workflow
 
-![](./img/wfDB.png)
+![](./../img/wfDB.png)
 
 The Galaxy workflow includes RAW data conversion to MGF format. The MGF files are searched against the combined database of Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using X!tandem, MSGF+, OMSSA search algorithms with SearchGUI and False Discovery Rate (FDR) and Protein grouping using PeptideShaker. This resulted in detection of 99 peptides from SARS-CoV-2 proteins. The detected peptides were later subjected to analysis by PepQuery and Lorikeet to ascertain the quality of peptide identification. The peptides were later searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. 
 
