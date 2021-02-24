@@ -3599,10 +3599,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-badges@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/gh-badges/-/gh-badges-2.2.1.tgz#d06e5baa09c0c51c890efd7f362cd0bf9a9e01c6"
-  integrity sha512-/z1QPpWKNvaqitVgd2kOqXUW75K8ZsSumGf5IZhdewER1TSL5P+m7aTOIUPZXUq6dH5f75lNqPvzcvy/837BSA==
+gh-badges@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/gh-badges/-/gh-badges-2.2.2.tgz#5e2e0dc1349c25a17cbab5a4524ea0b74d0a56a4"
+  integrity sha512-+KKu/Clh49ZudptGktISxm0eAk16qGJtRTD4LNC+sDvPZ3pb146uIL5oiwou7TmSeLEza8ChpY5Tp94LkuDztA==
   dependencies:
     anafanafo "^1.0.0"
     dot "^1.1.2"
