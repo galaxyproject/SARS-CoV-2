@@ -4050,10 +4050,23 @@ ignore@^4.0.3:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-igv@^2.5.5:
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/igv/-/igv-2.5.5.tgz#e94574ac19adc161dd522aff75e8f9aaa5f9c118"
-  integrity sha512-tU63G8y3HJnLbhypwZeDft0L7qzUruknPP2cpugra+A0j4yO+d1mhATwXOADGQ51eAUqyD2FMz65BUr0KF1j+Q==
+"igv-ui@github:igvteam/igv-ui#a409ba5c":
+  version "1.1.1"
+  resolved "https://codeload.github.com/igvteam/igv-ui/tar.gz/a409ba5c4ea6f20dc87b6c8d43bfd889cfa191c6"
+  dependencies:
+    igv-utils "github:igvteam/igv-utils#6c830b25"
+
+"igv-utils@github:igvteam/igv-utils#6c830b25":
+  version "1.2.2"
+  resolved "https://codeload.github.com/igvteam/igv-utils/tar.gz/6c830b25c81513ace1403f854df5a89491727a3d"
+
+igv@^2.7.5:
+  version "2.7.5"
+  resolved "https://registry.yarnpkg.com/igv/-/igv-2.7.5.tgz#87e0108c42b21cc3a70e58cc3a3d715d7c0da08c"
+  integrity sha512-zswjlhQ0lR2GKRVaMjEd/Tou5CXNzvJfUoPImE7vWKCwlJPIQSKx9Ol3p33wZ7LT3HoLwL3NdpsyeP0Q1oldoQ==
+  dependencies:
+    igv-ui "github:igvteam/igv-ui#a409ba5c"
+    igv-utils "github:igvteam/igv-utils#6c830b25"
 
 immediate@^3.2.3:
   version "3.2.3"
