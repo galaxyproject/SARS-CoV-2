@@ -21,14 +21,18 @@ title: Reanalysis of PXD018094
 ## Workflow
 
 The Galaxy workflow includes RAW data conversion to MGF and mzML format. The MGF files are searched against the combined database of Human 
-Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using PepQUery Validation workflow. This resulted in detection of ---
- peptides from SARS-CoV-2 proteins. 
+Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database using PepQUery Validation workflow. This resulted in detection of
+ peptides from SARS-CoV-2 proteins in both positive and negative patients. 
  ![](./../img/wfVal.png)
 The detected peptides were searched against NCBInr to ascertain that these peptides were specific to SARS-CoV-2 proteins. The detected peptides 
-were later subjected Lorikeet analysis to ascertain the quality of peptide identification.
+were later subjected Lorikeet analysis to ascertain the quality of peptide identification. However, when we ran the database searching workflow on the RAW files,
+we did not find any COVID-19 peptides.
+![](./../img/wfDB.png)
+
+
 
 ## Results
 
-The COVID-19 positive patient samples detected --- peptides from SARS-CoV-2 proteins.
+The COVID-19 positive patient samples detected 16 SARS-CoV-2 peptides and we also detected 26 peptides from negative samples.
 
 
