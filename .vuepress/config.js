@@ -39,6 +39,7 @@ module.exports = {
         ],
         sidebar: {
             "/genomics/": [
+                "/global_platform/",
                 "/genomics/",
                 "/genomics/1-PreProcessing/",
                 "/genomics/2-Assembly/",
