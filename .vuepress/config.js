@@ -39,16 +39,17 @@ module.exports = {
         ],
         sidebar: {
             "/genomics/": [
-                "/global_platform/",
                 "/genomics/",
-                "/genomics/1-PreProcessing/",
-                "/genomics/2-Assembly/",
-                "/genomics/3-MRCA/",
-                "/genomics/4-Variation/",
-                "/genomics/5-Annotation/",
-                "/genomics/6-RecombinationSelection/",
+                "/genomics/global_platform/",
+                "/genomics/No-more-business-as-usual/",
+                "/genomics/No-more-business-as-usual/1-PreProcessing/",
+                "/genomics/No-more-business-as-usual/2-Assembly/",
+                "/genomics/No-more-business-as-usual/3-MRCA/",
+                "/genomics/No-more-business-as-usual/4-Variation/",
+                "/genomics/No-more-business-as-usual/5-Annotation/",
+                "/genomics/No-more-business-as-usual/6-RecombinationSelection/",
                 "/genomics/updates/",
-                "/genomics/deploy/"
+                "/genomics/deploy/",
             ],
             "/cheminformatics/": [
                 "/cheminformatics/",
