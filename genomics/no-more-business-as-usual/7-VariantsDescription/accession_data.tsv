@@ -1,0 +1,71 @@
+key	link	short	desc
+AAP33698	https://www.ncbi.nlm.nih.gov/protein/31581506	SARS	SARS coronavirus Frankfurt 1
+AAP41038	https://www.ncbi.nlm.nih.gov/protein/AAP41038	SARS	Severe acute respiratory syndrome-related coronavirus
+AAZ67053	https://www.ncbi.nlm.nih.gov/protein/AAZ67053.1	BatSARS	Bat SARS CoV Rp3/2004
+AB918719	https://www.ncbi.nlm.nih.gov/nuccore/AB918719.1	BatCov	Bat coronavirus IFB2012-8F
+ABE73429	https://www.ncbi.nlm.nih.gov/protein/ABE73429	HCovNL63	Human coronavirus NL63
+ADK66842	https://www.ncbi.nlm.nih.gov/protein/ADK66842.1	BatCov	Bat coronavirus BM48-31/BGR/2008
+AFO70498	https://www.ncbi.nlm.nih.gov/protein/AFO70498	HCovNL63	Human coronavirus NL63
+AID16548	https://www.ncbi.nlm.nih.gov/protein/AID16548	BatCov	Bat coronavirus
+AID16626	https://www.ncbi.nlm.nih.gov/protein/AID16626	MCov	Longquan Aa mouse coronavirus
+AID16752	https://www.ncbi.nlm.nih.gov/protein/AID16752	BatSARS	Bat SARS-like coronavirus
+AIW52770	https://www.ncbi.nlm.nih.gov/protein/AIW52770	HCov229E	Human coronavirus 229E
+AJ271965	https://www.ncbi.nlm.nih.gov/nuccore/AJ271965.2	TGEV	Transmissible gastroenteritis virus
+ALR84909	https://www.ncbi.nlm.nih.gov/protein/ALR84909	PEDV	Porcine epidemic diarrhea virus
+AMM70617	https://www.ncbi.nlm.nih.gov/protein/AMM70617	BatCov	Bat betacoronavirus
+APD51484	https://www.ncbi.nlm.nih.gov/protein/APD51484.1	BatNL63	NL63-related bat coronavirus
+AWV67065	https://www.ncbi.nlm.nih.gov/protein/AWV67065.1	BatCov	Bat coronavirus
+AY463059	https://www.ncbi.nlm.nih.gov/nuccore/AY463059	SARS	SARS coronavirus ShanghaiQXC1
+AY597011	https://www.ncbi.nlm.nih.gov/nuccore/AY597011.2	HCovHKU1	Human coronavirus HKU1 genotype A
+AY714217	https://www.ncbi.nlm.nih.gov/nuccore/AY714217.1	SARS	SARS Coronavirus CDC#200301157
+AY994055	https://www.ncbi.nlm.nih.gov/nuccore/AY994055.1	FIPV	Feline infectious peritonitis virus
+CAA80855	https://www.ncbi.nlm.nih.gov/protein/CAA80855	PEDV	Porcine epidemic diarrhea virus
+DQ022305	https://www.ncbi.nlm.nih.gov/nuccore/DQ022305.2	BatSARS	Bat SARS coronavirus HKU3-1
+DQ112226	https://www.ncbi.nlm.nih.gov/nuccore/DQ112226	CanineCov	Canine coronavirus
+DQ364567	https://www.ncbi.nlm.nih.gov/nuccore/DQ364567.1	BatCov	Bat coronavirus HKU8 isolate HKU8-1
+FJ647218	https://www.ncbi.nlm.nih.gov/nuccore/FJ647218	MCov	Murine coronavirus RA59/R13
+FJ647223	https://www.ncbi.nlm.nih.gov/nuccore/FJ647223.1	MCov	Murine coronavirus MHV-1
+JX504050	https://www.ncbi.nlm.nih.gov/nuccore/JX504050.3	HCovNL63	Human coronavirus NL63 isolate NL63/RPTEC/2004
+KF367457	https://www.ncbi.nlm.nih.gov/nuccore/KF367457.1	BatSARS	Bat SARS-like coronavirus WIV1
+KU182965	https://www.ncbi.nlm.nih.gov/nuccore/KU182965	BatCov	Bat coronavirus isolate JPDB144
+KU740200	https://www.ncbi.nlm.nih.gov/nuccore/KU740200.1	MERS	Middle East respiratory syndrome coronavirus isolate MERS CoV/camel/Egypt/NRCE-NC163/2014
+MG772934	https://www.ncbi.nlm.nih.gov/nuccore/MG772934.1	BatSARS	Bat SARS-like coronavirus isolate bat-SL-CoVZXC21
+MN996527	https://www.ncbi.nlm.nih.gov/nuccore/MN996527.1	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate WIV02
+MN996528	https://www.ncbi.nlm.nih.gov/nuccore/MN996528.1	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate WIV04
+NC_002306	https://www.ncbi.nlm.nih.gov/nuccore/NC_002306.3	FIPV	Feline infectious peritonitis virus
+NC_003436	https://www.ncbi.nlm.nih.gov/nuccore/NC_003436	PEDV	Porcine epidemic diarrhea virus
+NC_004718	https://www.ncbi.nlm.nih.gov/nuccore/NC_004718.3	SARS	Severe acute respiratory syndrome-related coronavirus
+NC_019843	https://www.ncbi.nlm.nih.gov/nuccore/NC_019843.3	MERS	Middle East respiratory syndrome coronavirus
+NC_028806	https://www.ncbi.nlm.nih.gov/nuccore/NC_028806.1	PEDV	Swine enteric coronavirus strain Italy/213306/2009
+NC_038294	https://www.ncbi.nlm.nih.gov/nuccore/NC_038294.1	MERS	Betacoronavirus England 1
+NC_038861	https://www.ncbi.nlm.nih.gov/nuccore/NC_038861.1	TGEV	Transmissible gastroenteritis virus
+NC_045512	https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1 (SARS-2-Cov)
+NP_740629	https://www.ncbi.nlm.nih.gov/protein/NP_740629	IBV	Infectious bronchitis virus
+NP_828852	https://www.ncbi.nlm.nih.gov/protein/NP_828852	SARS	Severe acute respiratory syndrome-related coronavirus
+NP_828869	https://www.ncbi.nlm.nih.gov/protein/NP_828869	SARS	Severe acute respiratory syndrome-related coronavirus
+NP_828870	https://www.ncbi.nlm.nih.gov/protein/29837505	SARS	Severe acute respiratory syndrome-related coronavirus
+NP_839965	https://www.ncbi.nlm.nih.gov/protein/NP_839965	PEDV	Porcine epidemic diarrhea virus
+QDL88266	https://www.ncbi.nlm.nih.gov/protein/QDL88266	RatCov	Lucheng Rn rat coronavirus
+QEH62670	https://www.ncbi.nlm.nih.gov/protein/QEH62670.1	PEDV	Swine enteric alphacoronavirus
+QEY10680	https://www.ncbi.nlm.nih.gov/protein/QEY10680	CamelCovHKU	Dromedary camel coronavirus HKU23
+YP_0097243	https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1 (SARS-2-Cov)
+YP_009725308	https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2	SARS2-Cov	Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1 (SARS-2-Cov)
+YP_009755891	https://www.ncbi.nlm.nih.gov/protein/YP_009755891.1	BatCov	Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+YP_0097558	https://www.ncbi.nlm.nih.gov/protein/YP_009755891.1	BatCov	Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+GU053651	https://www.ncbi.nlm.nih.gov/nuccore/GU053651	FCov	Feline coronavirus isolate DSKUU68
+FJ718994	https://www.ncbi.nlm.nih.gov/nuccore/FJ718994	TGEV	Transmissible gastroenteritis virus isolate CH/JLY2/08
+AAT98578	https://www.ncbi.nlm.nih.gov/protein/AAT98578	HCovHKU1	Human coronavirus HKU1
+DQ160294	https://www.ncbi.nlm.nih.gov/nuccore/DQ160294	FCov	Feline coronavirus strain FCoV/NTU2/R/2003
+YP_0090472	https://www.ncbi.nlm.nih.gov/nuccore/KF514421	SARS	SARS coronavirus (Blast)
+NP_598309	https://www.ncbi.nlm.nih.gov/protein/NP_598309	PEDV	Porcine epidemic diarrhea virus
+NC_022103	https://www.ncbi.nlm.nih.gov/nuccore/NC_022103	BatCov	Bat coronavirus CDPHE15/USA/2006
+DQ4459121	https://www.ncbi.nlm.nih.gov/nuccore/DQ445912.1	HCovNL63	Human coronavirus NL63
+NC_006577	https://www.ncbi.nlm.nih.gov/nuccore/NC_006577.2	HCovHKU1	Human coronavirus HKU1
+GQ8702871	https://www.ncbi.nlm.nih.gov/nuccore/GQ870287	SARS	SARS coronavirus Rs_672/2006
+NC_017083	https://www.ncbi.nlm.nih.gov/nuccore/NC_017083	RabbitCov	Rabbit coronavirus HKU14
+KU7402001	https://www.ncbi.nlm.nih.gov/nuccore/KU740200	MERS	Middle East respiratory syndrome-related coronavirus isolate MERS CoV/camel/Egypt/NRCE-NC163/2014
+NC_009020	https://www.ncbi.nlm.nih.gov/nuccore/NC_009020	BatCovHKU5	Pipistrellus bat coronavirus HKU5
+NC_006213	https://www.ncbi.nlm.nih.gov/nuccore/NC_006213	HCovOC43	Human coronavirus OC43 strain ATCC VR-759
+NC_009019	https://www.ncbi.nlm.nih.gov/nuccore/NC_009019	BatCovHKU4	Tylonycteris bat coronavirus HKU4
+NC_009021	https://www.ncbi.nlm.nih.gov/nuccore/NC_009021	BatCovHKU9	Rousettus bat coronavirus HKU9
+NP_045298	https://www.ncbi.nlm.nih.gov/protein/NP_045298	MCov	Murine hepatitis virus

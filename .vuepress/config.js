@@ -16,38 +16,44 @@ module.exports = {
                 text: "Cheminformatics",
                 link: "/cheminformatics/"
             },
-            {
+            /*{
                 text: "Evolution",
                 link: "/evolution/"
             },
             {
                 text: "Direct RNAseq",
                 link: "/direct-rnaseq/"
-            },
+            },*/
             {
                 text: "Proteomics",
                 link: "/proteomics/"
             },
-            {
+            /*{
                 text: "Artic",
                 link: "/artic/"
-            },
+            },*/
             {
                 text: "Data",
                 link: "/data/"
+            },
+            {
+                text: "Webinars",
+                link: "/webinars/"
             }
         ],
         sidebar: {
             "/genomics/": [
-                "/genomics/",
-                "/genomics/1-PreProcessing/",
-                "/genomics/2-Assembly/",
-                "/genomics/3-MRCA/",
-                "/genomics/4-Variation/",
-                "/genomics/5-Annotation/",
-                "/genomics/6-RecombinationSelection/",
-                "/genomics/updates/",
-                "/genomics/deploy/"
+                //"/genomics/",
+                "/genomics/global_platform/",
+                "/genomics/no-more-business-as-usual/",
+                "/genomics/no-more-business-as-usual/1-PreProcessing/",
+                "/genomics/no-more-business-as-usual/2-Assembly/",
+                "/genomics/no-more-business-as-usual/3-MRCA/",
+                "/genomics/no-more-business-as-usual/4-Variation/",
+                "/genomics/no-more-business-as-usual/5-Annotation/",
+                "/genomics/no-more-business-as-usual/6-RecombinationSelection/",
+                //"/genomics/updates/",
+                "/genomics/deploy/",
             ],
             "/cheminformatics/": [
                 "/cheminformatics/",
@@ -87,6 +93,9 @@ module.exports = {
             "/data/": [
                 "/data/",
                 "/data/gisaid/",
+            ],
+            "/webinars/": [
+                "/webinars/",
             ],
         },
         sidebarDepth: 3,
