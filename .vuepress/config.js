@@ -16,30 +16,34 @@ module.exports = {
                 text: "Cheminformatics",
                 link: "/cheminformatics/"
             },
-            {
+            /*{
                 text: "Evolution",
                 link: "/evolution/"
             },
             {
                 text: "Direct RNAseq",
                 link: "/direct-rnaseq/"
-            },
+            },*/
             {
                 text: "Proteomics",
                 link: "/proteomics/"
             },
-            {
+            /*{
                 text: "Artic",
                 link: "/artic/"
-            },
+            },*/
             {
                 text: "Data",
                 link: "/data/"
+            },
+            {
+                text: "Webinars",
+                link: "/webinars/"
             }
         ],
         sidebar: {
             "/genomics/": [
-                "/genomics/",
+                //"/genomics/",
                 "/genomics/global_platform/",
                 "/genomics/no-more-business-as-usual/",
                 "/genomics/no-more-business-as-usual/1-PreProcessing/",
@@ -89,6 +93,9 @@ module.exports = {
             "/data/": [
                 "/data/",
                 "/data/gisaid/",
+            ],
+            "/webinars/": [
+                "/webinars/",
             ],
         },
         sidebarDepth: 3,
