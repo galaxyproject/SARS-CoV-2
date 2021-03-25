@@ -16,7 +16,7 @@
     "@observablehq/runtime": "^4.8.2",
     "axios": "^0.21.1",
     "gh-badges": "^2.2.2",
-    "notebookjs": "0.6.3",
+    "notebookjs": "0.6.4",
     "uuid": "^8.3.2",
     "vue-toasted": "^1.1.28"
   }
