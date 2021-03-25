@@ -3,20 +3,20 @@
     <div class="features">
       <div class="paper">
         <RouterLink :to="'/genomics/global_platform/'">
-          <h2>Global Platform</h2>
-          <h4>A global pandemic research environment in production.</h4>
+          <h2>Global Platform<sup><font color="red">new</font></sup></h2>
+          <h4>Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring</h4>
           <img :src="'./global_platform/figs/fig2.png'" />
         </RouterLink>
       </div>
 
       <div class="paper">
         <RouterLink :to="'/genomics/no-more-business-as-usual/'">
-          <h2>Plos Pathogens</h2>
+          <h2>PLoS Pathogens 2020</h2>
           <h4>
             No more business as usual: Agile and effective responses to emerging
             pathogen threats require open data and open analytics
           </h4>
-          <img :src="'../img/gn.png'" />
+          <img :src="'../img/plos_p.png'" />
         </RouterLink>
       </div>
     </div>

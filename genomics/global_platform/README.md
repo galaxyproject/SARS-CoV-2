@@ -14,6 +14,8 @@ This is an interactive companion to out upcoming manuscript describing a Global 
 
 One of the key aspects of this is that our analysis compares identified variants against [Variants of Concern](https://cov-lineages.org/global_report.html) and [Sites under Selection](https://observablehq.com/@spond/revised-sars-cov-2-analytics-page).
 
+<!-- ## How do I use it? -->
+
 All details are below...
 
 ## Workflows for discovery of sequence variants
