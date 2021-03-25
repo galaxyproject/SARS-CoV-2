@@ -2,8 +2,8 @@
   <main class="home" aria-labelledby="main-title">
     <header class="hero">
       <h1 id="main-title">
-        Best practices for the analysis of SARS-CoV-2 data: Genomics,
-        Proteomics, Evolution, and Cheminformatics
+        Global platform for the analysis of SARS-CoV-2 data: Genomics,
+        Cheminformatics, and Proteomics
       </h1>
       <p class="description">
         Using open source tools and public cyberinfrastructure for transparent,
@@ -11,6 +11,7 @@
       </p>
       <p class="shieldlist">
         <!-- not a list, but we want it aligned with the right side, which is, so apply the same style -->
+        <!--
         <a
           href="https://doi.org/10.5281/zenodo.3685264"
           target="_blank"
@@ -20,6 +21,7 @@
             src="https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg"
             alt="DOI"
           />
+          -->
         </a>
         Powered by:
         <FlatShield
@@ -48,8 +50,8 @@
           href="https://usegalaxy.fr"
         />
       </p>
+      <hr>
     </header>
-    <h1>Workflows</h1>
     <p>
       The goal of this resource is to provide publicly accessible infrastructure
       and workflows for SARS-CoV-2 data analyses. We currently feature three
@@ -59,22 +61,22 @@
       <div class="feature">
         <RouterLink :to="'/genomics/'">
           <h2>Genomics</h2>
-          <h4>Pandemic research environment</h4>
+          <h4>Global infrastructure for SARS-CoV-2 monitoring</h4>
           <img :src="$withBase('./img/gn.png')" />
         </RouterLink>
         <ul>
           <li>
             <RouterLink :to="'/genomics/no-more-business-as-usual/'"
-              >Plos Pathogens Paper</RouterLink
+              >PLoS Pathogens 2020</RouterLink
             >
           </li>
           <li>
             <RouterLink :to="'/genomics/direct-rnaseq/'"
-              >direct RNAseq</RouterLink
+              >Direct RNAseq</RouterLink
             >
           </li>
           <li>
-            <RouterLink :to="'/evolution/'">Sites under selection</RouterLink>
+            <RouterLink :to="'/evolution/'">Adaptive Evolution</RouterLink>
           </li>
         </ul>
       </div>
@@ -169,6 +171,8 @@
         </ul>
       </div>
     </div>
+
+    <!--
     <h1>Results</h1>
     <p>
       Each analysis section is continuously updated as new data becomes
@@ -267,6 +271,8 @@
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
+    -->
+    <hr>
     <Content class="theme-default-content custom" />
   </main>
 </template>
