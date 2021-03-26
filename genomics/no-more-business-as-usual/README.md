@@ -62,6 +62,28 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
 [TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and 
 [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) 
 cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+## Pre-processing
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/1-PreProcessing/').key"/>
+
+## Assembly
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/2-Assembly/').key"/>
+
+## MRCA
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/3-MRCA/').key"/>
+
+## Variation
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/4-Variation/').key"/>
+
+## Annotation
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/5-Annotation/').key"/>
+
+## RecombinationSelection
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/6-RecombinationSelection/').key"/>
+
+## Deploy
+<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/6-RecombinationSelection/').key"/>
+
+
 
  <p align="center">
   <a href="https://galaxyproject.org">   <img src="../img/galaxy_logo.png" width= "22%" alt="Galaxy Project" /></a> &nbsp;
