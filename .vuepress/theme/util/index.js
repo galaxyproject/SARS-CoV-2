@@ -1,7 +1,7 @@
 export const hashRE = /#.*$/
 export const extRE = /\.(md|html)$/
 export const endingSlashRE = /\/$/
-export const outboundRE = /^[a-z]+:/i
+export const outboundRE = /^(https?:|mailto:|tel:)/
 
 export function normalize (path) {
   return decodeURI(path)
@@ -43,7 +43,7 @@ export function ensureExt (path) {
 }
 
 export function isActive (route, path) {
-  const routeHash = decodeURIComponent(route.hash)
+  const routeHash = route.hash
   const linkHash = getHash(path)
   if (linkHash && routeHash !== linkHash) {
     return false
@@ -54,12 +54,6 @@ export function isActive (route, path) {
 }
 
 export function resolvePage (pages, rawPath, base) {
-  if (isExternal(rawPath)) {
-    return {
-      type: 'external',
-      path: rawPath
-    }
-  }
   if (base) {
     rawPath = resolvePath(rawPath, base)
   }
@@ -222,6 +216,11 @@ function resolveItem (item, pages, base, groupDepth = 1) {
       title: item[1]
     })
   } else {
+    if (groupDepth > 3) {
+      console.error(
+        '[vuepress] detected a too deep nested sidebar group.'
+      )
+    }
     const children = item.children || []
     if (children.length === 0 && item.path) {
       return Object.assign(resolvePage(pages, item.path, base), {
