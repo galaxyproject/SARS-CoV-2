@@ -1,13 +1,13 @@
 <template>
   <nav
-    v-if="userLinks.length || repoLink"
     class="nav-links"
+    v-if="userLinks.length || repoLink"
   >
     <!-- user links -->
     <div
+      class="nav-item"
       v-for="item in userLinks"
       :key="item.link"
-      class="nav-item"
     >
       <DropdownLink
         v-if="item.type === 'links'"
@@ -19,14 +19,16 @@
       />
     </div>
 
+    <!-- repo link -->
     <a
-      :href="editLink"
+      v-if="repoLink"
+      :href="repoLink"
       class="repo-link"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Edit on GitHub
-      <OutboundLink />
+      {{ repoLabel }}
+      <OutboundLink/>
     </a>
   </nav>
 </template>
@@ -35,16 +37,9 @@
 import DropdownLink from '@theme/components/DropdownLink.vue'
 import { resolveNavLinkItem } from '../util'
 import NavLink from '@theme/components/NavLink.vue'
-import isNil from 'lodash/isNil'
-import { endingSlashRE, outboundRE } from '../util'
 
 export default {
-  name: 'NavLinks',
-
-  components: {
-    NavLink,
-    DropdownLink
-  },
+  components: { NavLink, DropdownLink },
 
   computed: {
     userNav () {
@@ -59,7 +54,6 @@ export default {
         const themeLocales = this.$site.themeConfig.locales || {}
         const languageDropdown = {
           text: this.$themeLocaleConfig.selectText || 'Languages',
-          ariaLabel: this.$themeLocaleConfig.ariaLabel || 'Select language',
           items: Object.keys(locales).map(path => {
             const locale = locales[path]
             const text = themeLocales[path] && themeLocales[path].label || locale.lang
@@ -98,7 +92,6 @@ export default {
           ? repo
           : `https://github.com/${repo}`
       }
-      return null
     },
 
     repoLabel () {
@@ -117,62 +110,6 @@ export default {
       }
 
       return 'Source'
-    },
-
-    editLink () {
-      const {
-        repo,
-        docsDir = '',
-        docsBranch = 'master',
-        docsRepo = repo
-      } = this.$site.themeConfig
-
-      if (docsRepo && this.$page.relativePath) {
-        return this.createEditLink(
-          repo,
-          docsRepo,
-          docsDir,
-          docsBranch,
-          this.$page.relativePath
-        )
-      }
-      return null
-    },
-
-    editLinkText () {
-      return (
-        this.$themeLocaleConfig.editLinkText
-        || this.$site.themeConfig.editLinkText
-        || `Edit this page`
-      )
-    }
-  },
-
-  methods: {
-    createEditLink (repo, docsRepo, docsDir, docsBranch, path) {
-      const bitbucket = /bitbucket.org/
-      if (bitbucket.test(repo)) {
-        const base = outboundRE.test(docsRepo) ? docsRepo : repo
-        return (
-          base.replace(endingSlashRE, '')
-          + `/src`
-          + `/${docsBranch}/`
-          + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-          + path
-          + `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
-        )
-      }
-
-      const base = outboundRE.test(docsRepo)
-        ? docsRepo
-        : `https://github.com/${docsRepo}`
-      return (
-        base.replace(endingSlashRE, '')
-        + `/edit`
-        + `/${docsBranch}/`
-        + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-        + path
-      )
     }
   }
 }
