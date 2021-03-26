@@ -172,6 +172,7 @@
       </div>
     </div>
 
+    <!--
     <h1>Results</h1>
     <p>
       Each analysis section is continuously updated as new data becomes
@@ -270,6 +271,7 @@
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
+    -->
     <hr>
     <Content class="theme-default-content custom" />
   </main>
