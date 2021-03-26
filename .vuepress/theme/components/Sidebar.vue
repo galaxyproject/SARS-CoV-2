@@ -8,7 +8,6 @@
       :depth="0"
       :items="items"
     />
-    {{length}}
     <slot name="bottom" />
   </aside>
 </template>
@@ -24,12 +23,6 @@ export default {
 
   props: ['items'],
 
-  computed:{
-    length(){
-      console.log(this.items)
-      return this.items.length
-    }
-  }
 }
 </script>
 
