@@ -7,6 +7,7 @@ module.exports = {
     },
     themeConfig: {
         repo: "galaxyproject/SARS-CoV-2",
+        repoLabel: "Edit on GitHub",
         nav: [
             {
                 text: "Genomics",
