@@ -1,5 +1,7 @@
 ---
 home: true
+heroText: "Global platform for the analysis of SARS-CoV-2 data: Genomics, Cheminformatics, and Proteomics"
+description: "Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets."
 ---
 <p>
     The goal of this resource is to provide publicly accessible infrastructure
