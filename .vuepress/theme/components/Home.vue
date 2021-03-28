@@ -12,6 +12,7 @@
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
+      <!-- begin shield customization -->
       <p class="shieldlist">
         Powered by:
         <FlatShield
@@ -38,6 +39,16 @@
           label="usegalaxy"
           message="fr"
           href="https://usegalaxy.fr"
+        />
+      </p>
+      <!-- end shield customization -->
+      <p
+        class="action"
+        v-if="data.actionText && data.actionLink"
+      >
+        <NavLink
+          class="action-button"
+          :item="actionLink"
         />
       </p>
     </header>
