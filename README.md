@@ -6,7 +6,7 @@ description: "Using open source tools and public cyberinfrastructure for transpa
 
 The goal of this resource is to provide publicly accessible infrastructure
 and workflows for SARS-CoV-2 data analyses. We currently feature three
-different types of analyses.
+different types of analyses: [Genomics](#genomics), [Chemoinformatics](#chemoinformatics), and [Proteomics](#proteomics).
 
 <!-- See `.vuepress/componenents/HomeFeatures.vue` to edit the homepage feature blocks -->
 <HomeFeatures />

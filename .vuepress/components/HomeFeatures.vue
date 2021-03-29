@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="features">
-            <h2 class="title">Genomics</h2>
+            <h2 id="genomics" class="title">Genomics</h2>
 
             <RouterLink :to="'/genomics/global_platform/'">
                 <div class="h-feature">
@@ -68,7 +68,7 @@
             </RouterLink>
 
             <RouterLink :to="'/cheminformatics/'">
-                <h2>Cheminformatics</h2>
+                <h2 id="chemoinformatics">Chemoinformatics</h2>
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <p>Docking simulations on the SARS-CoV-2 main protease. A Galaxy workflow for performing and evaluating molecular docking on a massive scale, based on the set of fragment hits which are known experimentally to bind to the protein.</p>
@@ -80,7 +80,7 @@
             </RouterLink>
 
             <RouterLink :to="'/proteomics/'">
-                <h2>Proteomics</h2>
+                <h2 id="proteomics">Proteomics</h2>
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <p>Galaxy workflows for analysis of Mass Spectrometry datasets from cell culture samples, clinical samples and protein-protein interaction datasets as well as functionality for performing metaproteomics analyses.</p>
