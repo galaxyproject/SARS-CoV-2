@@ -13,32 +13,36 @@
     <div
       class="sidebar-mask"
       @click="toggleSidebar(false)"
-    />
+    ></div>
 
     <Sidebar
       :items="sidebarItems"
       @toggle-sidebar="toggleSidebar"
     >
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
+      <slot
+        name="sidebar-top"
+        slot="top"
+      />
+      <slot
+        name="sidebar-bottom"
+        slot="bottom"
+      />
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
+    <Home v-if="$page.frontmatter.home"/>
 
     <Page
       v-else
       :sidebar-items="sidebarItems"
     >
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
+      <slot
+        name="page-top"
+        slot="top"
+      />
+      <slot
+        name="page-bottom"
+        slot="bottom"
+      />
     </Page>
   </div>
 </template>
@@ -51,14 +55,7 @@ import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  name: 'Layout',
-
-  components: {
-    Home,
-    Page,
-    Sidebar,
-    Navbar
-  },
+  components: { Home, Page, Sidebar, Navbar },
 
   data () {
     return {
@@ -124,7 +121,6 @@ export default {
   methods: {
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
-      this.$emit('toggle-sidebar', this.isSidebarOpen)
     },
 
     // side swipe
@@ -149,3 +145,5 @@ export default {
   }
 }
 </script>
+
+<style src="prismjs/themes/prism-tomorrow.css"></style>
