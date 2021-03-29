@@ -14,11 +14,72 @@ This is an interactive companion to out upcoming manuscript describing a Global 
 
 One of the key aspects of this is that our analysis compares identified variants against [Variants of Concern](https://cov-lineages.org/global_report.html) and [Sites under Selection](https://observablehq.com/@spond/revised-sars-cov-2-analytics-page).
 
-<!-- ## How do I use it? -->
+## How do I use it?
 
-All details are below...
+There are three global Galaxy instances:
 
-## Workflows for discovery of sequence variants
+ - Galaxy North America ([https://usegalaxy.org](https://usegalaxy.org))
+ - Galaxy Europe ([https://usegalaxy.eu](https://usegalaxy.eu))
+ - Galaxy Australia ([https://usegalaxy.org.au](https://usegalaxy.org.au))
+
+Pick one closest to you and create an account. Now you are ready to start the analysis.
+
+### Import History with an auxiliary datasets
+
+Import Galaxy history with auxiliary datasets. This will be your workspace. Once you click on a link, you will see history outline. Click on the "+" button to import history into your account and start analysis. 
+
+| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
+|------------------------------------------------|----|----|----|
+| ARTIC v3    | <FlatShield label="History" message="Get" href="https://usegalaxy.org/u/aun1/h/rnaseq" alt="Input History" /> | <FlatShield label="History" message="Get" href="https://usegalaxy.eu/u/nekrut/h/rnaseq" alt="Input History" /> | <FlatShield label="History" message="Get" href="https://usegalaxy.org.au/u/nekrut/h/rnaseq" alt="Input History" /> |
+| RNAseq |<FlatShield label="History" message="Get" href="https://usegalaxy.org/u/aun1/h/artic-v3" alt="Input History" /> |<FlatShield label="History" message="Get" href="https://usegalaxy.eu/u/nekrut/h/artic-v3" alt="Input History" /> |<FlatShield label="History" message="Get" href="https://usegalaxy.org.au/u/nekrut/h/artic-v3" alt="Input History" /> |
+
+The auxiliary histories contain SARS-CoV-2 reference and gene name aliases (to give gene regions easily recognizable names). In addition, ARTIC history contains two datasets describing the primer scheme. 
+
+<div class="custom-block tip">How to import history:<br><br>
+	<img src="figs/history_import_gif.gif" style="align:middle" /></div>
+
+### Upload your data
+
+Before you can begin any Galaxy analysis, you need to upload the data. Here are your choices for doing this. Depending of how many datasets and what their origin is, you can do the following:
+
+| Few datasets<br><small>(1-10)</small>  | Many datasets<br><small>(10-&#8734;)</small> | Import from [SRA](https://www.ncbi.nlm.nih.gov/sra) |
+|-----|------|------|
+| <iframe width="140" height="79" src="https://www.youtube.com/embed/FFCDx1rMGAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | <iframe width="140" height="79" src="https://www.youtube.com/embed/hC8KSuT_OP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | <iframe width="140" height="79" src="https://www.youtube.com/embed/Q4t-beYZ-do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
+
+### Organize your data into a collection
+
+Collection is a way to represent arbitrarily large sets of datasets as a single entity. It makes it very convenient for downstream analysis.
+
+<div class="custom-block warning">If you uploaded data from SRA, it will already be organized as a collection! Go to the next step.</div>
+
+The following video, shows how to create single, or paired collection depending on the type of data you have:
+
+| Type of collection | A very short demo |
+|-------------------|------|
+| Paired (Illumina data) | <iframe width="140" height="79" src="https://www.youtube.com/embed/6toVj35q1r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
+| Single (Illumina or ONT data) | <iframe width="140" height="79" src="https://www.youtube.com/embed/6ZU9hFjnRDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
+
+### Import workflow
+
+Depending on what kind of data you have (RNAseq or ARTIC / single or paired / Illumina or ONT) pick a workflow from [Table 1](#table-1). Import workflow into your account as shown below.
+
+<div class="custom-block tip">How to import workflow:<br><br>
+	<img src="figs/workflow_import_gif.gif" style="align:middle" /></div>
+
+### Start analysis
+
+At this point you should have:
+
+1. A Galaxy history containing auxiliary datasets and the data you want to analyze as a collection;
+2. An imported workflow. If you click the "Workflow" link on top of the Galaxy interface, it should be listed there.
+
+Now simply select workflow, click the run button (▶ button to the right of workflow name), set input parameters and wait until it completes. You can close Galaxy and check it later. Depending on the size of your data this analysis may run anywhere between several minutes to a few hours.  
+
+Once it completes, import "Reporting workflow" from [Table 1](#table-1) and run it on the output of the previous workflow. In the end it will generate two variant lists: one grouped by sample and one by variant (these datasets are described [here](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/var).)
+
+These data can now be analyzed in either Jupyter or ObservableHQ notebooks as described below.
+
+s## Workflows for discovery of sequence variants
 
 We developed five analysis workflows to support the identification of allelic variants in SARS-CoV-2 from deep sequencing reads ([Table 1](#table-1)). A user begins the analysis by uploading reads in FASTQ format into Galaxy ([Fig. 1](#figure-1)) as a dataset collection (a dataset collection is a way to represent an arbitrarily large collection of samples as a singular entity within a user's workspace; see video pre-pended with "Dataset Collections" at the [following YouTube hannel](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)). These datasets can either be uploaded by the user, obtained from local data mirrors or retrieved directly from the Sequence Read Archive at NCBI. The four primary analysis workflows (#1-4 in [Table 1](#table-1)) convert FASTQ data to annotated AVs through a series of steps that include quality control, trimming, mapping, deduplication, AV calling, and filtering. All Illumina workflows use [lofreq](https://csb5.github.io/lofreq/) as the principal AV caller. We selected it based on extensive testing ([Methods](#methods)). All four workflows produce identically annotated VCF output that is further processed by the Reporting workflow (#5 in [Table 1](#table-1)) to generate data tables describing AVs. These data tables are further processed with Jupyter directly in Galaxy and with ObservableHQ to generate all figures and tables shown here.
 
