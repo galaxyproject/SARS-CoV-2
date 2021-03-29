@@ -4,15 +4,25 @@ title: Global platform
 
 # Global platform for SARS-CoV-2 analysis
 
+[![DOI](https://img.shields.io/static/v1?label=DOI&message=https://doi.org/10.1101/2021.03.25.437046&color=red)](https://doi.org/10.1101/2021.03.25.437046)
+
 ## What is this?
 
-This is an interactive companion to out upcoming manuscript describing a Global Galaxy-based data analysis platform for analysis SARS-CoV-2 allelic variation. The virus is evolving and our system allows *anyone* in the world to analyze arbitrarily big (or small) SARS-CoV-2 sequencing datasets (raw fastq files) for free. As [Fig. 1](#figure-1) shows it works like this:
+This is an interactive companion to out [upcoming manuscript](https://doi.org/10.1101/2021.03.25.437046) describing a Global Galaxy-based data analysis platform for analysis SARS-CoV-2 allelic variation. As [Fig. 1](#figure-1) shows it works like this:
 
-1. You run an appropriate analysis [workflow](#table-1). This generates variant list tables.
-2. You then use Jupyter or Observable notebooks to interpret these tables as shown below.
-3. You identify biologically significant sites and save the world!
+1. You run an appropriate analysis [workflow](#table-1). This generates variant list tables;
+2. You then use Jupyter or Observable notebooks to interpret these tables;
 
 One of the key aspects of this is that our analysis compares identified variants against [Variants of Concern](https://cov-lineages.org/global_report.html) and [Sites under Selection](https://observablehq.com/@spond/revised-sars-cov-2-analytics-page).
+
+<div class="custom-block warning">
+This documents is organized in two sections:
+<hr>
+	<ol>
+		<li><a href="#how-do-i-use-it">A "How to?" guide on using our system</a></li>
+		<li><a href="#workflows-for-discovery-of-sequence-variants">A description of analyses we have done on existing data</a></li>
+	</ol>
+</div>
 
 ## How do I use it?
 
@@ -26,17 +36,17 @@ Pick one closest to you and create an account. Now you are ready to start the an
 
 ### Import History with an auxiliary datasets
 
-Import Galaxy history with auxiliary datasets. This will be your workspace. Once you click on a link, you will see history outline. Click on the "+" button to import history into your account and start analysis. 
+Import Galaxy history with auxiliary datasets. This will be your workspace. Depending of what Galaxy instance you've chosen (US, EU, or AU) and what kind of analysis you need to do (RNAseq or Ampliconic) click on a corresponding link in the table below. You will see history outline. Click on the "+" button to import history into your account and start analysis. 
 
 | &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
 |------------------------------------------------|----|----|----|
-| ARTIC v3    | <FlatShield label="History" message="Get" href="https://usegalaxy.org/u/aun1/h/rnaseq" alt="Input History" /> | <FlatShield label="History" message="Get" href="https://usegalaxy.eu/u/nekrut/h/rnaseq" alt="Input History" /> | <FlatShield label="History" message="Get" href="https://usegalaxy.org.au/u/nekrut/h/rnaseq" alt="Input History" /> |
-| RNAseq |<FlatShield label="History" message="Get" href="https://usegalaxy.org/u/aun1/h/artic-v3" alt="Input History" /> |<FlatShield label="History" message="Get" href="https://usegalaxy.eu/u/nekrut/h/artic-v3" alt="Input History" /> |<FlatShield label="History" message="Get" href="https://usegalaxy.org.au/u/nekrut/h/artic-v3" alt="Input History" /> |
+| ARTIC v3    | <FlatShield label="ARTIC US" message="Get" href="https://usegalaxy.org/u/aun1/h/rnaseq" alt="Input History" /> | <FlatShield label="ARTIC EU" message="Get" href="https://usegalaxy.eu/u/nekrut/h/rnaseq" alt="Input History" /> | <FlatShield label="ARTIC AU" message="Get" href="https://usegalaxy.org.au/u/nekrut/h/rnaseq" alt="Input History" /> |
+| RNAseq |<FlatShield label="RNAseq US" message="Get" href="https://usegalaxy.org/u/aun1/h/artic-v3" alt="Input History" /> |<FlatShield label="RNAseq EU" message="Get" href="https://usegalaxy.eu/u/nekrut/h/artic-v3" alt="Input History" /> |<FlatShield label="RNAseq AU" message="Get" href="https://usegalaxy.org.au/u/nekrut/h/artic-v3" alt="Input History" /> |
 
-The auxiliary histories contain SARS-CoV-2 reference and gene name aliases (to give gene regions easily recognizable names). In addition, ARTIC history contains two datasets describing the primer scheme. 
+The auxiliary histories contain SARS-CoV-2 reference and gene name aliases (to give gene regions easily recognizable names). In addition, ARTIC histories contain two datasets describing the ARTIC primer scheme. 
 
 <div class="custom-block tip">How to import history:<br><br>
-	<img src="figs/history_import_gif.gif" style="align:middle" /></div>
+	<img src="figs/history_import_gif.gif"/></div>
 
 ### Upload your data
 
@@ -48,11 +58,11 @@ Before you can begin any Galaxy analysis, you need to upload the data. Here are 
 
 ### Organize your data into a collection
 
-Collection is a way to represent arbitrarily large sets of datasets as a single entity. It makes it very convenient for downstream analysis.
+Collection is a way to represent arbitrarily large sets of samples as a single entity. It makes it very convenient for downstream analysis.
 
 <div class="custom-block warning">If you uploaded data from SRA, it will already be organized as a collection! Go to the next step.</div>
 
-The following video, shows how to create single, or paired collection depending on the type of data you have:
+The following video shows how to create a single or paired collection depending on the type of data you have:
 
 | Type of collection | A very short demo |
 |-------------------|------|
@@ -77,11 +87,28 @@ Now simply select workflow, click the run button (▶ button to the right of wor
 
 Once it completes, import "Reporting workflow" from [Table 1](#table-1) and run it on the output of the previous workflow. In the end it will generate two variant lists: one grouped by sample and one by variant (these datasets are described [here](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/var).)
 
-These data can now be analyzed in either Jupyter or ObservableHQ notebooks as described below.
+These data can now be analyzed in either Jupyter or ObservableHQ [notebooks](#table-3).
 
-s## Workflows for discovery of sequence variants
+### Using existing Jupyter notebook
 
-We developed five analysis workflows to support the identification of allelic variants in SARS-CoV-2 from deep sequencing reads ([Table 1](#table-1)). A user begins the analysis by uploading reads in FASTQ format into Galaxy ([Fig. 1](#figure-1)) as a dataset collection (a dataset collection is a way to represent an arbitrarily large collection of samples as a singular entity within a user's workspace; see video pre-pended with "Dataset Collections" at the [following YouTube hannel](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)). These datasets can either be uploaded by the user, obtained from local data mirrors or retrieved directly from the Sequence Read Archive at NCBI. The four primary analysis workflows (#1-4 in [Table 1](#table-1)) convert FASTQ data to annotated AVs through a series of steps that include quality control, trimming, mapping, deduplication, AV calling, and filtering. All Illumina workflows use [lofreq](https://csb5.github.io/lofreq/) as the principal AV caller. We selected it based on extensive testing ([Methods](#methods)). All four workflows produce identically annotated VCF output that is further processed by the Reporting workflow (#5 in [Table 1](#table-1)) to generate data tables describing AVs. These data tables are further processed with Jupyter directly in Galaxy and with ObservableHQ to generate all figures and tables shown here.
+1. Open notebook in Google Colaboratory: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/galaxyproject/SARS-CoV-2/blob/master/data/ipynb/intrahost.ipynb)
+2. Replace `per_sample_url` and `per_varinat_url` with URLs of the dataset produced by the Reporting Workflow. For example:
+
+<div class="custom-block tip">How to copy URL of a galaxy dataset into Jupyter Notebook:<br><br>
+	<img src="figs/export_url_colab_gif.gif" style="align:middle" /></div>
+
+<!--
+
+### Creating a new Jupyter notebook
+
+### Using existing ObservableHQ notebook
+
+-->
+
+
+## Workflows for discovery of sequence variants
+
+We developed five analysis workflows to support the identification of allelic variants in SARS-CoV-2 from deep sequencing reads ([Table 1](#table-1)). A user begins the analysis by uploading reads in FASTQ format into Galaxy ([Fig. 1](#figure-1)) as a dataset collection (a dataset collection is a way to represent an arbitrarily large collection of samples as a singular entity within a user's workspace; see video pre-pended with "Dataset Collections" at the [following YouTube channel](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)). These datasets can either be uploaded by the user, obtained from local data mirrors or retrieved directly from the Sequence Read Archive at NCBI. The four primary analysis workflows (#1-4 in [Table 1](#table-1)) convert FASTQ data to annotated AVs through a series of steps that include quality control, trimming, mapping, deduplication, AV calling, and filtering. All Illumina workflows use [lofreq](https://csb5.github.io/lofreq/) as the principal AV caller. We selected it based on extensive testing ([Methods](#methods)). All four workflows produce identically annotated VCF output that is further processed by the Reporting workflow (#5 in [Table 1](#table-1)) to generate data tables describing AVs. These data tables are further processed with Jupyter directly in Galaxy and with ObservableHQ to generate all figures and tables shown here.
 
 ----
 
