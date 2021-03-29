@@ -1,28 +1,19 @@
 <template>
   <main class="home" aria-labelledby="main-title">
     <header class="hero">
-      <h1 id="main-title">
-        Global platform for the analysis of SARS-CoV-2 data: Genomics,
-        Cheminformatics, and Proteomics
-      </h1>
+      <img
+        v-if="data.heroImage"
+        :src="$withBase(data.heroImage)"
+        :alt="data.heroAlt || 'hero'"
+      >
+
+      <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
+
       <p class="description">
-        Using open source tools and public cyberinfrastructure for transparent,
-        reproducible analyses of viral datasets.
+        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
+      <!-- begin shield customization -->
       <p class="shieldlist">
-        <!-- not a list, but we want it aligned with the right side, which is, so apply the same style -->
-        <!--
-        <a
-          href="https://doi.org/10.5281/zenodo.3685264"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://zenodo.org/badge/DOI/10.5281/zenodo.3685264.svg"
-            alt="DOI"
-          />
-          -->
-        </a>
         Powered by:
         <FlatShield
           label="usegalaxy"
@@ -50,229 +41,18 @@
           href="https://usegalaxy.fr"
         />
       </p>
-      <hr>
+      <hr/>
+      <!-- end shield customization -->
+      <p
+        class="action"
+        v-if="data.actionText && data.actionLink"
+      >
+        <NavLink
+          class="action-button"
+          :item="actionLink"
+        />
+      </p>
     </header>
-    <p>
-      The goal of this resource is to provide publicly accessible infrastructure
-      and workflows for SARS-CoV-2 data analyses. We currently feature three
-      different types of analyses:
-    </p>
-    <div class="features">
-      <div class="feature">
-        <RouterLink :to="'/genomics/'">
-          <h2>Genomics</h2>
-          <h4>Global infrastructure for SARS-CoV-2 monitoring</h4>
-          <img :src="$withBase('./img/gn.png')" />
-        </RouterLink>
-        <ul>
-          <li>
-            <RouterLink :to="'/genomics/no-more-business-as-usual/'"
-              >PLoS Pathogens 2020</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/genomics/direct-rnaseq/'"
-              >Direct RNAseq</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/evolution/'">Adaptive Evolution</RouterLink>
-          </li>
-        </ul>
-      </div>
-
-      <div class="feature">
-        <RouterLink :to="'/cheminformatics/'">
-          <h2>Cheminformatics</h2>
-          <h4>Screening of the main protease</h4>
-          <img :src="$withBase('./img/mp.png')" />
-        </RouterLink>
-        <ul>
-          <li>
-            <RouterLink :to="'/cheminformatics/1-DockingPrep/'"
-              >Compound enumeration</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/cheminformatics/2-ActiveSitePrep/'"
-              >Generation of 3D conformations</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/cheminformatics/3-Docking/'">Docking</RouterLink>
-          </li>
-          <li>
-            <RouterLink :to="'/cheminformatics/4-Scoring/'">Scoring</RouterLink>
-          </li>
-          <li>
-            <RouterLink :to="'/cheminformatics/5-Selection/'"
-              >Selection of compounds for synthesis</RouterLink
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="feature">
-        <RouterLink :to="'/proteomics/'">
-          <h2>Proteomics</h2>
-          <h4>Mass Spectrometry</h4>
-          <img :src="$withBase('./img/pro.png')" />
-        </RouterLink>
-        <ul>
-          <li>
-            <RouterLink :to="'/proteomics/PXD018117/'"
-              >Reanalysis of PXD018117</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/PXD018241/'"
-              >Reanalysis of PXD018241</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/PXD018594/'"
-              >Reanalysis of PXD018594</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/PXD018804/'"
-              >Reanalysis of PXD018804</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/PXD019423/'"
-              >Reanalysis of PXD019423</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/PXD020394/'"
-              >Reanalysis of PXD020394</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/PXD021328/'"
-              >Reanalysis of PXD021328</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/mPXD019423/'"
-              >Metaproteomics of mPXD019423</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/mPXD020394/'"
-              >Metaproteomics of mPXD020394</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink :to="'/proteomics/mPXD021328/'"
-              >Metaproteomics of mPXD021328</RouterLink
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!--
-    <h1>Results</h1>
-    <p>
-      Each analysis section is continuously updated as new data becomes
-      available. The main highlights are:
-    </p>
-    <div class="features">
-      <div class="h-feature">
-        <div class="h-feature-focus">
-          <RouterLink :to="'/genomics/'">
-            <h2>Genomics</h2>
-          </RouterLink>
-        </div>
-        <p>
-          There are many complete genomes but only a handful of raw sequencing
-          read datasets. We provide lists of raw read accessions for
-          <a
-            href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_illumina.txt"
-            >Illumina</a
-          >
-          and
-          <a
-            href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/current_gridion.txt"
-            >ONT</a
-          >. These lists are updated daily.
-          <strong
-            >There are 4,899 distinct variable sites showing intra-host
-            variation across 1,093 samples (with frequencies between 5% and
-            100%) from 28 studies representing 24 geographic locations.</strong
-          >
-          <a
-            href="https://github.com/galaxyproject/SARS-CoV-2/blob/master/genomics/4-Variation/variant_list.05.tsv"
-            >Variant lists</a
-          >
-          and
-          <a
-            href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/genomics/4-Variation"
-            >VCF files</a
-          >
-          are updated as new data comes in. Intra-host polymorphisms may reveal
-          <RouterLink :to="'/genomics/5-Annotation/'">sites</RouterLink>
-          affecting the pathogenicity of the virus.
-        </p>
-      </div>
-
-      <div class="h-feature">
-        <div class="h-feature-focus">
-          <RouterLink :to="'/evolution/'">
-            <h2>Evolution</h2>
-          </RouterLink>
-        </div>
-        <p>
-          Which positions in the SARS-CoV-2 genome may be subject to positive
-          selection (involved in adaptation), or negative selection (conserved
-          during evolution)? We are using comparative evolutionary techniques to
-          run daily analyses identify potential candidates using genomes from
-          GISAID.
-          <strong
-            >At present, ~5 genomic positions may merit further investigation
-            because they may be subject to diversifying positive
-            selection</strong
-          >. See live results presented as continuously updated
-          <RouterLink :to="'/evolution/'">notebooks</RouterLink>.
-        </p>
-      </div>
-
-      <div class="h-feature">
-        <div class="h-feature-focus">
-          <RouterLink :to="'/cheminformatics/'">
-            <h2>Cheminformatics</h2>
-          </RouterLink>
-        </div>
-        <p>
-          Nonstructural proteins (nsps) vital for the life-cycle of SARS-CoV-2
-          are cleaved from a large precursor (encoded by <i>ORF1ab</i>) by
-          enzymes such as the main protease (Mpro). We performed computational
-          analyses (using protein-ligand docking) to identify potentially
-          inhibitory compounds that can bind to MPro and can be used to control
-          viral proliferation.
-          <strong
-            >This work analyzed over 40,000 compounds considered to be likely to
-            bind, which were chosen based on recently published X-ray crystal
-            structures, and identified 500 high scoring compounds</strong
-          >. Workflows used for this analysis as well as individual compound
-          list can be accessed
-          <RouterLink :to="'/cheminformatics/Histories/'">here.</RouterLink>
-        </p>
-      </div>
-    </div>
-
-    <h2>Project Video Introduction</h2>
-    <iframe
-      width="960"
-      height="540"
-      src="https://www.youtube.com/embed/UKg9kpyQbzI"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-    -->
-    <hr>
     <Content class="theme-default-content custom" />
   </main>
 </template>
@@ -353,7 +133,6 @@ export default {
   .features {
     padding: 1rem 0;
     margin-top: 2rem;
-    display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: stretch;
@@ -361,7 +140,9 @@ export default {
   }
 
   .h-feature {
-    display: flex;
+    width:100%;
+    display:flex;
+    margin-bottom: 3rem;
 
     .h-feature-focus {
       flex: 30%;
@@ -369,8 +150,8 @@ export default {
 
     img {
       max-width: 100%;
+      margin:auto;
       display: block;
-      margin: 3rem auto 1.5rem;
     }
 
     h2 {
@@ -380,10 +161,9 @@ export default {
       padding-bottom: 0;
       color: lighten($textColor, 10%);
     }
-
-    p {
+    .h-feature-content{
+      margin-right: 2rem;
       flex: 65%;
-      text-align: left;
     }
   }
 

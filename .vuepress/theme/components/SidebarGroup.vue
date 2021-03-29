@@ -9,7 +9,7 @@
       `depth-${depth}`
     ]"
   >
-    <RouterLink
+    <router-link
       v-if="item.path"
       class="sidebar-heading clickable"
       :class="{
@@ -21,11 +21,11 @@
     >
       <span>{{ item.title }}</span>
       <span
-        v-if="collapsable"
         class="arrow"
-        :class="open ? 'down' : 'right'"
-      />
-    </RouterLink>
+        v-if="collapsable"
+        :class="open ? 'down' : 'right'">
+      </span>
+    </router-link>
 
     <p
       v-else
@@ -35,18 +35,18 @@
     >
       <span>{{ item.title }}</span>
       <span
-        v-if="collapsable"
         class="arrow"
-        :class="open ? 'down' : 'right'"
-      />
+        v-if="collapsable"
+        :class="open ? 'down' : 'right'">
+      </span>
     </p>
 
     <DropdownTransition>
       <SidebarLinks
-        v-if="open || !collapsable"
         class="sidebar-group-items"
         :items="item.children"
-        :sidebar-depth="item.sidebarDepth"
+        v-if="open || !collapsable"
+        :sidebarDepth="item.sidebarDepth"
         :depth="depth + 1"
       />
     </DropdownTransition>
@@ -59,23 +59,12 @@ import DropdownTransition from '@theme/components/DropdownTransition.vue'
 
 export default {
   name: 'SidebarGroup',
-
-  components: {
-    DropdownTransition
-  },
-
-  props: [
-    'item',
-    'open',
-    'collapsable',
-    'depth'
-  ],
-
+  props: ['item', 'open', 'collapsable', 'depth'],
+  components: { DropdownTransition },
   // ref: https://vuejs.org/v2/guide/components-edge-cases.html#Circular-References-Between-Components
   beforeCreate () {
-    this.$options.components.SidebarLinks = require('@theme/components/SidebarLinks.vue').default
+    this.$options.components.SidebarLinks = require('./SidebarLinks.vue').default
   },
-
   methods: { isActive }
 }
 </script>

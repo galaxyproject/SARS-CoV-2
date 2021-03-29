@@ -3,57 +3,45 @@
     class="dropdown-wrapper"
     :class="{ open }"
   >
-    <button
+    <a
       class="dropdown-title"
-      type="button"
-      :aria-label="dropdownAriaLabel"
-      @click="setOpen(!open)"
+      @click="toggle"
     >
       <span class="title">{{ item.text }}</span>
       <span
         class="arrow"
         :class="open ? 'down' : 'right'"
-      />
-    </button>
+      ></span>
+    </a>
 
     <DropdownTransition>
       <ul
-        v-show="open"
         class="nav-dropdown"
+        v-show="open"
       >
         <li
-          v-for="(subItem, index) in item.items"
-          :key="subItem.link || index"
           class="dropdown-item"
+          :key="subItem.link || index"
+          v-for="(subItem, index) in item.items"
         >
-          <h4 v-if="subItem.type === 'links'">
-            {{ subItem.text }}
-          </h4>
+          <h4 v-if="subItem.type === 'links'">{{ subItem.text }}</h4>
 
           <ul
-            v-if="subItem.type === 'links'"
             class="dropdown-subitem-wrapper"
+            v-if="subItem.type === 'links'"
           >
             <li
-              v-for="childSubItem in subItem.items"
-              :key="childSubItem.link"
               class="dropdown-subitem"
+              :key="childSubItem.link"
+              v-for="childSubItem in subItem.items"
             >
-              <NavLink
-                :item="childSubItem"
-                @focusout="
-                  isLastItemOfArray(childSubItem, subItem.items) &&
-                    isLastItemOfArray(subItem, item.items) &&
-                    setOpen(false)
-                "
-              />
+              <NavLink :item="childSubItem"/>
             </li>
           </ul>
 
           <NavLink
             v-else
             :item="subItem"
-            @focusout="isLastItemOfArray(subItem, item.items) && setOpen(false)"
           />
         </li>
       </ul>
@@ -64,14 +52,14 @@
 <script>
 import NavLink from '@theme/components/NavLink.vue'
 import DropdownTransition from '@theme/components/DropdownTransition.vue'
-import last from 'lodash/last'
 
 export default {
-  name: 'DropdownLink',
+  components: { NavLink, DropdownTransition },
 
-  components: {
-    NavLink,
-    DropdownTransition
+  data () {
+    return {
+      open: false
+    }
   },
 
   props: {
@@ -80,31 +68,9 @@ export default {
     }
   },
 
-  data () {
-    return {
-      open: false
-    }
-  },
-
-  computed: {
-    dropdownAriaLabel () {
-      return this.item.ariaLabel || this.item.text
-    }
-  },
-
-  watch: {
-    $route () {
-      this.open = false
-    }
-  },
-
   methods: {
-    setOpen (value) {
-      this.open = value
-    },
-
-    isLastItemOfArray (item, array) {
-      return last(array) === item
+    toggle () {
+      this.open = !this.open
     }
   }
 }
@@ -115,15 +81,6 @@ export default {
   cursor pointer
   .dropdown-title
     display block
-    font-size 0.9rem
-    font-family inherit
-    cursor inherit
-    padding inherit
-    line-height 1.4rem
-    background transparent
-    border none
-    font-weight 500
-    color $textColor
     &:hover
       border-color transparent
     .arrow
@@ -174,11 +131,6 @@ export default {
   .dropdown-wrapper
     &.open .dropdown-title
       margin-bottom 0.5rem
-    .dropdown-title
-      font-weight 600
-      font-size inherit
-      &:hover
-        color $accentColor
     .nav-dropdown
       transition height .1s ease-out
       overflow hidden
@@ -197,12 +149,9 @@ export default {
 @media (min-width: $MQMobile)
   .dropdown-wrapper
     height 1.8rem
-    &:hover .nav-dropdown,
-    &.open .nav-dropdown
+    &:hover .nav-dropdown
       // override the inline style.
       display block !important
-    &.open:blur
-      display none
     .dropdown-title .arrow
       // make the arrow always down at desktop
       border-left 4px solid transparent
