@@ -3,11 +3,14 @@
         <div class="features">
             <h2 id="genomics" class="title">Genomics</h2>
 
-            <RouterLink :to="'/genomics/global_platform/'">
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>
-                            Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring<sup><font color="red">new</font></sup> [<a href="https://doi.org/10.1101/2021.03.25.437046">bioRxiv</a>]
+
+            <RouterLink :to="'/genomics/global_platform/'">
+                            Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring<sup><font color="red">new</font></sup>
+            </RouterLink>
+                            [<a href="https://doi.org/10.1101/2021.03.25.437046">bioRxiv</a>]
                         </h3>
                         <p>
                         Our system is specifically designed to encourage collaborative worldwide genomic surveillance to rapidly identify and respond to emerging variants, its use of raw read data rather than assembled genomes goes a step beyond current surveillance efforts. Specifically it enables the coordinated worldwide surveillance of intra-patient minor AV frequencies: a distinction that could yield decisive early-warnings of epidemiological conditions conducive to the emergence of variants with altered pathogenicity, vaccine sensitivity or resistance. <br>
@@ -19,7 +22,6 @@
                         <img :src="$withBase('../img/gn.png')" />
                     </div>
                 </div>
-            </RouterLink>
 
             <a href="https://observablehq.com/@spond/revised-sars-cov-2-analytics-page">
                 <div class="h-feature">
@@ -50,7 +52,7 @@
                     <div class="h-feature-content">
                         <h3>Analysis of SARS-CoV-2 transcription using Oxford Nanopore direct RNA sequencing [<a href="https://doi.org/10.1101/2020.07.18.204362">bioRxiv</a>]</h3>
                         <p>We use direct RNA sequencing to precisely annotate the open reading frames and the landscape of SARS-CoV-2 RNA modifications. Conservation of the RNA modification pattern during progression of the current pandemic suggests that this pattern is likely essential for the life cycle of SARS-CoV-2 and represents a possible target for drug interventions. We also provide Galaxy workflows for the analysis of DRS data.
-</p>
+                        </p>
                     </div>
                     <div class="h-feature-focus">
                         <img :src="$withBase('./img/drs.png')" />
