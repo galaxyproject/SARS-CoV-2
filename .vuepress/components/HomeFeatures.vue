@@ -68,7 +68,7 @@
             </RouterLink>
 
             <RouterLink :to="'/cheminformatics/'">
-                <h2 id="chemoinformatics">Chemoinformatics</h2>
+                <h2 id="cheminformatics">Cheminformatics</h2>
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <p>Docking simulations on the SARS-CoV-2 main protease. A Galaxy workflow for performing and evaluating molecular docking on a massive scale, based on the set of fragment hits which are known experimentally to bind to the protein.</p>
