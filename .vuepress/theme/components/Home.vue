@@ -41,6 +41,7 @@
           href="https://usegalaxy.fr"
         />
       </p>
+      <hr/>
       <!-- end shield customization -->
       <p
         class="action"
