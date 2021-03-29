@@ -159,10 +159,9 @@ export default {
       padding-bottom: 0;
       color: lighten($textColor, 10%);
     }
-
-    p {
+    .h-feature-content{
+      margin-left: 2rem;
       flex: 65%;
-      text-align: left;
     }
   }
 
