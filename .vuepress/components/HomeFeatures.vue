@@ -83,7 +83,6 @@
                 <h2>Proteomics</h2>
                 <div class="h-feature">
                     <div class="h-feature-content">
-                        <h4>Mass Spectrometry</h4>
                         <p>Galaxy workflows for analysis of Mass Spectrometry datasets from cell culture samples, clinical samples and protein-protein interaction datasets as well as functionality for performing metaproteomics analyses.</p>
                     </div>
                     <div class="h-feature-focus">
