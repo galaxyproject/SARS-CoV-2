@@ -43,7 +43,6 @@
                 </div>
             </a>
 
-
             <RouterLink :to="'/artic/'">
                 <div class="h-feature">
                     <div class="h-feature-content">

@@ -132,7 +132,6 @@ export default {
   .features {
     padding: 1rem 0;
     margin-top: 2rem;
-    display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: stretch;
@@ -140,16 +139,18 @@ export default {
   }
 
   .h-feature {
-    display: flex;
+    width:100%;
+    display:flex;
+    margin-bottom: 3rem;
 
     .h-feature-focus {
-      flex: 35%;
+      flex: 30%;
     }
 
     img {
       max-width: 100%;
+      margin:auto;
       display: block;
-      margin: 3rem auto 1.5rem;
     }
 
     h2 {
