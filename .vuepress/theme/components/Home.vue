@@ -143,7 +143,7 @@ export default {
     display: flex;
 
     .h-feature-focus {
-      flex: 30%;
+      flex: 35%;
     }
 
     img {
@@ -160,7 +160,7 @@ export default {
       color: lighten($textColor, 10%);
     }
     .h-feature-content{
-      margin-left: 2rem;
+      margin-right: 2rem;
       flex: 65%;
     }
   }
