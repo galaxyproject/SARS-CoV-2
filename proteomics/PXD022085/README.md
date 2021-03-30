@@ -33,5 +33,5 @@ Our Database search workflow did not detect any SARS-CoV2 peptides from both pos
 
 ## Results
 
-We detected 88 COVID-19 peptides from all pooled samples in the respiratory tract datasets, We detected 25 SARS-CoV2 peptides from positive patients , 11 SARS-CoV2 peptides from negative patient samples. The peptides were subjected to BLAST-P andLorikeet analysis to ascertain the validity of peptide spectral matches.
+We detected 36 COVID-19 peptides from all pooled samples in the respiratory tract datasets, We detected 25 SARS-CoV2 peptides from positive patients , 11 SARS-CoV2 peptides from negative patient samples. The peptides were subjected to BLAST-P andLorikeet analysis to ascertain the validity of peptide spectral matches.
 
