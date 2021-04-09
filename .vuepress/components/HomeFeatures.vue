@@ -64,8 +64,6 @@
                 </div>
             </RouterLink>
 
-
-
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
@@ -118,12 +116,15 @@
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>
-                            Fast and accurate genome-wide predictions and structural modeling of protein-protein interactions using Galaxy
+                            Fast and accurate genome-wide predictions and structural modeling of protein-protein
+                            interactions using Galaxy
                             <sup><font color="red">new</font></sup>
                         </h3>
                         <p>
-                            Identifying interacting proteins reveals insight into living organisms and yields novel drug targets for disease treatment. 
-                            This is a publicly available, automated pipeline to predict genome-wide protein-protein interactions and produce high-quality multimeric structural models.
+                            Identifying interacting proteins reveals insight into living organisms and yields novel drug
+                            targets for disease treatment. This is a publicly available, automated pipeline to predict
+                            genome-wide protein-protein interactions and produce high-quality multimeric structural
+                            models.
                         </p>
                     </div>
                     <div class="h-feature-focus">
@@ -136,12 +137,11 @@
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>
-                            Docking simulations on the SARS-CoV-2 main protease. 
+                            Docking simulations on the SARS-CoV-2 main protease.
                         </h3>
                         <p>
-                            A Galaxy workflow for performing and
-                            evaluating molecular docking on a massive scale, based on the set of fragment hits which are
-                            known experimentally to bind to the protein.
+                            A Galaxy workflow for performing and evaluating molecular docking on a massive scale, based
+                            on the set of fragment hits which are known experimentally to bind to the protein.
                         </p>
                     </div>
                     <div class="h-feature-focus">
@@ -149,8 +149,6 @@
                     </div>
                 </div>
             </RouterLink>
-
-
 
             <RouterLink :to="'/proteomics/'">
                 <h2 id="proteomics">Proteomics</h2>
