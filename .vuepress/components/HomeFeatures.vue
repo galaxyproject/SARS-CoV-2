@@ -110,14 +110,38 @@
                 </div>
             </div>
 
-            <RouterLink :to="'/cheminformatics/'">
-                <h2 id="cheminformatics">Cheminformatics</h2>
+            <h2 id="cheminformatics">Cheminformatics</h2>
+
+            <a href="https://www.biorxiv.org/content/10.1101/2021.03.17.435706v1">
                 <div class="h-feature">
                     <div class="h-feature-content">
+                        <h3>
+                            Fast and accurate genome-wide predictions and structural modeling of protein-protein
+                            interactions using Galaxy
+                            <sup><font color="red">new</font></sup>
+                        </h3>
                         <p>
-                            Docking simulations on the SARS-CoV-2 main protease. A Galaxy workflow for performing and
-                            evaluating molecular docking on a massive scale, based on the set of fragment hits which are
-                            known experimentally to bind to the protein.
+                            Identifying interacting proteins reveals insight into living organisms and yields novel drug
+                            targets for disease treatment. This is a publicly available, automated pipeline to predict
+                            genome-wide protein-protein interactions and produce high-quality multimeric structural
+                            models.
+                        </p>
+                    </div>
+                    <div class="h-feature-focus">
+                        <img :src="$withBase('../img/proteininteraction.png')" />
+                    </div>
+                </div>
+            </a>
+
+            <RouterLink :to="'/cheminformatics/'">
+                <div class="h-feature">
+                    <div class="h-feature-content">
+                        <h3>
+                            Docking simulations on the SARS-CoV-2 main protease.
+                        </h3>
+                        <p>
+                            A Galaxy workflow for performing and evaluating molecular docking on a massive scale, based
+                            on the set of fragment hits which are known experimentally to bind to the protein.
                         </p>
                     </div>
                     <div class="h-feature-focus">
