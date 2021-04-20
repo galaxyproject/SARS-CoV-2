@@ -2,12 +2,12 @@ import json
 
 from bioblend import galaxy
 
+# from https://github.com/simonbray/ena-cog-uk-wfs/tree/main/bioblend-scripts
 from find_datasets import show_matching_dataset_info
 from find_by_tags import filter_objects_by_tags
 
 class COGUKSummary():
     def __init__(self, summary=None):
-        self.gi = gi
         if summary:
             self.summary = summary
         else:
