@@ -16,3 +16,11 @@ records are part of which analysis batch in Galaxy, and provides direct links
 to the corresponding Galaxy histories, i.e., you can track the complete
 analysis of each processed COG-UK sample starting from this file.
 
+The automated processing relies on a collection
+[bot scripts for SARS-CoV-2 genome surveillance](https://github.com/simonbray/ena-cog-uk-wfs),
+which in turn build on [bioblend](https://github.com/galaxyproject/bioblend)
+and [planemo](https://github.com/galaxyproject/planemo).
+
+The daily updates of the JSON file are done with the help of the custom
+[summarize](./summarize.py) script.
+
