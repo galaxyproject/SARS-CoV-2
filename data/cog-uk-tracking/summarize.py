@@ -2,7 +2,7 @@ import json
 
 from bioblend import galaxy
 
-# from https://github.com/simonbray/ena-cog-uk-wfs/tree/main/bioblend-scripts
+# from https://github.com/simonbray/ena-cog-uk-wfs/tree/main/bioblend-scriptsusega
 from find_datasets import show_matching_dataset_info
 from find_by_tags import filter_objects_by_tags
 
@@ -74,9 +74,9 @@ class COGUKSummary():
                     partial_data[variation_from]['samples'] = sample_names
                     partial_data[variation_from]['time'] = by_sample_report['create_time']
                     partial_data[variation_from]['report'] = {
-                        'history_link': 'https://usegalaxy.eu' + history['url'],
+                        'history_link': gi.base_url + history['url'],
                         'datamonkey_link':
-                            'https://usegalaxy.eu' + by_sample_report['url'] + '/display'
+                            gi.base_url + by_sample_report['url'] + '/display'
                     }
                     reports_to_find -= 1
                     if not reports_to_find:
@@ -103,7 +103,7 @@ class COGUKSummary():
                 if variation_from in partial_data:
                     partial_data[variation_from][
                         'consensus'
-                    ] = 'https://usegalaxy.eu' + history['url']
+                    ] = gi.base_url + history['url']
                     consensi_to_find -= 1
                     if not consensi_to_find:
                         break
@@ -122,7 +122,7 @@ class COGUKSummary():
             if history['id'] not in self.summary:
                 new_data[history['id']] = {
                     'batch_id': history['name'].rsplit(maxsplit=1)[-1],
-                    'variation': 'https://usegalaxy.eu' + history['url']
+                    'variation': gi.base_url + history['url']
                 }
         if not new_data:
             return None
