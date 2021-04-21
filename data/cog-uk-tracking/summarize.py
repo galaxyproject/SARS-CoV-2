@@ -38,76 +38,81 @@ class COGUKSummary():
         return self.sample_count
 
     def _update_partial_data(self, gi, histories, partial_data):
-        reports_to_find = len(
-            [k for k, v in partial_data.items() if 'report' not in v]
-        )
-        consensi_to_find = len(
-            [k for k, v in partial_data.items() if 'consensus' not in v]
-        )
+        # Note: this method intentionally walks *all* report and consensus
+        # histories that aren't part of self.summary yet - even after it
+        # has completed all partial records.
+        # This is to detect duplicate histories for any analysis batch before
+        # adding the batch to self.summary.
 
-        if reports_to_find:
-            histories_to_search = [
-                h for h in filter_objects_by_tags(
-                    ['cog-uk_report'],
-                    histories
-                ) if h['id'] not in self.get_history_ids('report')
+        known_report_ids = self.get_history_ids('report')
+        histories_to_search = [
+            h for h in filter_objects_by_tags(
+                ['cog-uk_report'],
+                histories
+            ) if h['id'] not in known_report_ids
+        ]
+        # add the links to the corresponding report histories
+        for history in histories_to_search:
+            annotated_variants, by_sample_report = [
+                ret[0] for ret in show_matching_dataset_info(
+                    gi, history['id'],
+                    [
+                        'Final (SnpEff-) annotated variants',
+                        'Combined Variant Report by Sample'
+                    ],
+                    visible=True
+                )
             ]
-            # add the links to the corresponding report histories
-            for history in histories_to_search:
-                annotated_variants, by_sample_report = [
-                    ret[0] for ret in show_matching_dataset_info(
-                        gi, history['id'],
-                        [
-                            'Final (SnpEff-) annotated variants',
-                            'Combined Variant Report by Sample'
-                        ],
-                        visible=True
-                    )
-                ]
-                vcf_elements = gi.histories.show_dataset_collection(
-                    history['id'], annotated_variants['id']
-                )['elements']
-                variation_from = vcf_elements[0]['object']['history_id']
+            vcf_elements = gi.histories.show_dataset_collection(
+                history['id'], annotated_variants['id']
+            )['elements']
+            variation_from = vcf_elements[0]['object']['history_id']
 
-                if variation_from in partial_data:
-                    sample_names = [e['element_identifier'] for e in vcf_elements]
-                    partial_data[variation_from]['samples'] = sample_names
-                    partial_data[variation_from]['time'] = by_sample_report['create_time']
-                    partial_data[variation_from]['report'] = {
-                        'history_link': gi.base_url + history['url'],
-                        'datamonkey_link':
-                            gi.base_url + by_sample_report['url'] + '/display'
-                    }
-                    reports_to_find -= 1
-                    if not reports_to_find:
-                        break
+            if variation_from in partial_data:
+                assert 'report' not in partial_data[variation_from], \
+                    'Encountered second report history for batch {0}' \
+                    .format(partial_data[variation_from]['batch_id'])
+                sample_names = [e['element_identifier'] for e in vcf_elements]
+                partial_data[variation_from]['samples'] = sample_names
+                partial_data[variation_from]['time'] = by_sample_report['create_time']
+                partial_data[variation_from]['report'] = {
+                    'history_link': gi.base_url + history['url'],
+                    'datamonkey_link':
+                        gi.base_url + by_sample_report['url'] + '/display'
+                }
 
-        if consensi_to_find:
-            histories_to_search = [
-                h for h in filter_objects_by_tags(
-                    ['cog-uk_consensus'],
-                    histories
-                ) if h['id'] not in self.get_history_ids('consensus')
-            ]
-            # add the links to the corresponding consensus histories
-            for history in histories_to_search:
-                variation_from = gi.histories.show_dataset_collection(
-                    history['id'],
-                    show_matching_dataset_info(
-                        gi, history['id'],
-                        ['Final (SnpEff-) annotated variants'],
-                        types='dataset_collection'
-                    )[0][0]['id']
-                )['elements'][0]['object']['history_id']
+        known_consensus_ids = self.get_history_ids('consensus')
+        histories_to_search = [
+            h for h in filter_objects_by_tags(
+                ['cog-uk_consensus'],
+                histories
+            ) if h['id'] not in known_consensus_ids
+        ]
+        # add the links to the corresponding consensus histories
+        for history in histories_to_search:
+            variation_from = gi.histories.show_dataset_collection(
+                history['id'],
+                show_matching_dataset_info(
+                    gi, history['id'],
+                    ['Final (SnpEff-) annotated variants'],
+                    types='dataset_collection'
+                )[0][0]['id']
+            )['elements'][0]['object']['history_id']
 
-                if variation_from in partial_data:
-                    partial_data[variation_from][
-                        'consensus'
-                    ] = gi.base_url + history['url']
-                    consensi_to_find -= 1
-                    if not consensi_to_find:
-                        break
-        return len(partial_data), reports_to_find, consensi_to_find
+            if variation_from in partial_data:
+                assert 'consensus' not in partial_data[variation_from], \
+                    'Encountered second consensus history for batch {0}' \
+                    .format(partial_data[variation_from]['batch_id'])
+                partial_data[variation_from][
+                    'consensus'
+                ] = gi.base_url + history['url']
+        missing_reports = [
+            k for k, v in partial_data.items() if 'report' not in v
+        ]
+        missing_consensi = [
+            k for k, v in partial_data.items() if 'consensus' not in v
+        ]
+        return len(partial_data), len(missing_reports), len(missing_consensi)
 
     def update(self, gi, histories=None):
         if not histories:
@@ -143,11 +148,10 @@ class COGUKSummary():
 
     def get_problematic(self):
         problematic = {}
+        expected_keys = ['samples', 'report', 'consensus']
         for k, v in self.summary.items():
-            for expected_key in ['samples', 'report', 'consensus']:
-                if expected_key not in v:
-                    problematic[k] = v
-                    break
+            if any(expected_key not in v for expected_key in expected_keys):
+                problematic[k] = v
         return problematic
 
     def amend(self, gi, histories=None):
@@ -210,7 +214,22 @@ if __name__ == '__main__':
             s.amend(gi)
     else:
         s = COGUKSummary()
-    s.update(gi)
+    new_records, missing_reports, missing_consensi = s.update(gi)
+    print('Found a total of {0} new batches.'.format(new_records))
+    if missing_reports and missing_consensi:
+        print('All of them look complete!')
+    else:
+        if missing_reports:
+            print(
+                'Report histories are missing for {0} of them.'
+                .format(missing_reports)
+            )
+        if missing_consensi:
+            print(
+                'Consensus histories are missing for {0} of them.'
+                .format(missing_reports)
+            )
+
     if args.retain_incomplete:
         n = s.save(args.ofile, drop_partial=False)
     else:
