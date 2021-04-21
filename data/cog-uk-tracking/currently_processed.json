@@ -1,4 +1,1087 @@
 {
+  "0ce66d803a055fef": {
+    "batch_id": "NT1666262G",
+    "variation": "https://usegalaxy.eu/api/histories/0ce66d803a055fef",
+    "samples": [
+      "ERR5549561",
+      "ERR5549562",
+      "ERR5549563",
+      "ERR5549564",
+      "ERR5549565",
+      "ERR5549566",
+      "ERR5549567",
+      "ERR5549568",
+      "ERR5549569",
+      "ERR5643745"
+    ],
+    "time": "2021-04-20T13:22:46.441010",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/60c62b0154347389",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/60c62b0154347389/contents/11ac94870d0bb33aca8fa937e3eb6b8a/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/25c0f632ceb8ed53"
+  },
+  "87f9807bf2e0660b": {
+    "batch_id": "NT1666260E",
+    "variation": "https://usegalaxy.eu/api/histories/87f9807bf2e0660b",
+    "samples": [
+      "ERR5549545",
+      "ERR5549546",
+      "ERR5549547",
+      "ERR5549548",
+      "ERR5549549",
+      "ERR5549550",
+      "ERR5549551",
+      "ERR5549552",
+      "ERR5549553",
+      "ERR5549554",
+      "ERR5549555",
+      "ERR5549556",
+      "ERR5549557",
+      "ERR5549558",
+      "ERR5549559",
+      "ERR5549560"
+    ],
+    "time": "2021-04-20T12:32:40.755897",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/e12879abdef951e3",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/e12879abdef951e3/contents/11ac94870d0bb33ad4eaca69bbe21848/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/d61147f088b48bc9"
+  },
+  "0ba98b3c423a19ac": {
+    "batch_id": "NT1666256I",
+    "variation": "https://usegalaxy.eu/api/histories/0ba98b3c423a19ac",
+    "samples": [
+      "ERR5549303",
+      "ERR5549304",
+      "ERR5549305",
+      "ERR5549306",
+      "ERR5549307",
+      "ERR5549308",
+      "ERR5549309",
+      "ERR5549310",
+      "ERR5549311",
+      "ERR5549312",
+      "ERR5549313",
+      "ERR5549314",
+      "ERR5549315",
+      "ERR5549316",
+      "ERR5549317",
+      "ERR5549318",
+      "ERR5549319",
+      "ERR5549320",
+      "ERR5549321",
+      "ERR5549322",
+      "ERR5549323",
+      "ERR5549324",
+      "ERR5549325",
+      "ERR5549326",
+      "ERR5549327",
+      "ERR5549328",
+      "ERR5549329",
+      "ERR5549330",
+      "ERR5549331",
+      "ERR5549332",
+      "ERR5549333",
+      "ERR5549334",
+      "ERR5549335",
+      "ERR5549336",
+      "ERR5549337",
+      "ERR5549338",
+      "ERR5549339",
+      "ERR5549340",
+      "ERR5549341",
+      "ERR5549342",
+      "ERR5549343",
+      "ERR5549344",
+      "ERR5549345",
+      "ERR5549346",
+      "ERR5549347",
+      "ERR5549348",
+      "ERR5549349",
+      "ERR5549350",
+      "ERR5549351",
+      "ERR5549352",
+      "ERR5549353",
+      "ERR5549354",
+      "ERR5549355",
+      "ERR5549356",
+      "ERR5549357",
+      "ERR5549358",
+      "ERR5549359",
+      "ERR5549360",
+      "ERR5549361",
+      "ERR5549362",
+      "ERR5549363",
+      "ERR5549364",
+      "ERR5549365",
+      "ERR5549366",
+      "ERR5549367",
+      "ERR5549368",
+      "ERR5549369",
+      "ERR5549370",
+      "ERR5549371",
+      "ERR5549372",
+      "ERR5549373",
+      "ERR5549374",
+      "ERR5549375",
+      "ERR5549376",
+      "ERR5549377",
+      "ERR5549378",
+      "ERR5549379",
+      "ERR5549380",
+      "ERR5549381",
+      "ERR5549382",
+      "ERR5549383",
+      "ERR5549384",
+      "ERR5549385",
+      "ERR5549386",
+      "ERR5549387",
+      "ERR5549388",
+      "ERR5549389",
+      "ERR5549390",
+      "ERR5549391",
+      "ERR5549392",
+      "ERR5549393",
+      "ERR5549394",
+      "ERR5549395",
+      "ERR5549396",
+      "ERR5549397",
+      "ERR5549398",
+      "ERR5549399",
+      "ERR5549400",
+      "ERR5549401",
+      "ERR5549402",
+      "ERR5549403",
+      "ERR5549404",
+      "ERR5549405",
+      "ERR5549406",
+      "ERR5549407",
+      "ERR5549408",
+      "ERR5549409",
+      "ERR5549410",
+      "ERR5549411",
+      "ERR5549412",
+      "ERR5549413",
+      "ERR5549414",
+      "ERR5549415",
+      "ERR5549416",
+      "ERR5549417",
+      "ERR5549418",
+      "ERR5549419",
+      "ERR5549420",
+      "ERR5549421",
+      "ERR5549422",
+      "ERR5549423",
+      "ERR5549424",
+      "ERR5549425",
+      "ERR5549426",
+      "ERR5549427",
+      "ERR5549428",
+      "ERR5549429",
+      "ERR5549430",
+      "ERR5549431",
+      "ERR5549432",
+      "ERR5549433",
+      "ERR5549434",
+      "ERR5549435",
+      "ERR5549436",
+      "ERR5549437",
+      "ERR5549438",
+      "ERR5549439",
+      "ERR5549440",
+      "ERR5549441",
+      "ERR5549442",
+      "ERR5549443",
+      "ERR5549444",
+      "ERR5549445",
+      "ERR5549446",
+      "ERR5549447",
+      "ERR5549448",
+      "ERR5549449",
+      "ERR5549450",
+      "ERR5549451",
+      "ERR5549452",
+      "ERR5549453"
+    ],
+    "time": "2021-04-20T13:13:56.289271",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/74898c7669a5e433",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/74898c7669a5e433/contents/11ac94870d0bb33a3579761c62ff0216/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/3f450c503fec87fe"
+  },
+  "4e79a69ef0c285b3": {
+    "batch_id": "NT1666244E",
+    "variation": "https://usegalaxy.eu/api/histories/4e79a69ef0c285b3",
+    "samples": [
+      "ERR5549791",
+      "ERR5549792",
+      "ERR5549793",
+      "ERR5549794",
+      "ERR5549795",
+      "ERR5549796",
+      "ERR5549797",
+      "ERR5549798",
+      "ERR5549799",
+      "ERR5549800",
+      "ERR5549801",
+      "ERR5549802",
+      "ERR5549803",
+      "ERR5549804",
+      "ERR5549805",
+      "ERR5549806",
+      "ERR5549807",
+      "ERR5549808",
+      "ERR5549809",
+      "ERR5549810",
+      "ERR5549811",
+      "ERR5549812",
+      "ERR5549813",
+      "ERR5549814",
+      "ERR5549815",
+      "ERR5549816",
+      "ERR5549817",
+      "ERR5549818",
+      "ERR5549819",
+      "ERR5549820",
+      "ERR5549821",
+      "ERR5549822",
+      "ERR5549823",
+      "ERR5549824",
+      "ERR5549825",
+      "ERR5549826",
+      "ERR5549827",
+      "ERR5549828",
+      "ERR5549829",
+      "ERR5549830",
+      "ERR5549831",
+      "ERR5549832",
+      "ERR5549833",
+      "ERR5549834",
+      "ERR5549835",
+      "ERR5549836",
+      "ERR5549837",
+      "ERR5549838",
+      "ERR5549839",
+      "ERR5549840",
+      "ERR5549841",
+      "ERR5549842",
+      "ERR5549843",
+      "ERR5549844",
+      "ERR5549845",
+      "ERR5549846",
+      "ERR5549847",
+      "ERR5549848",
+      "ERR5549849",
+      "ERR5549850",
+      "ERR5549851",
+      "ERR5549852",
+      "ERR5549853",
+      "ERR5549854",
+      "ERR5549855",
+      "ERR5549856",
+      "ERR5549857",
+      "ERR5549858",
+      "ERR5549859",
+      "ERR5549860",
+      "ERR5549861",
+      "ERR5549862",
+      "ERR5549863",
+      "ERR5549864",
+      "ERR5549865",
+      "ERR5549866",
+      "ERR5549867",
+      "ERR5549868",
+      "ERR5549869",
+      "ERR5549870",
+      "ERR5549871",
+      "ERR5549872",
+      "ERR5549873",
+      "ERR5549874",
+      "ERR5549875",
+      "ERR5549876",
+      "ERR5549877",
+      "ERR5549878",
+      "ERR5549879",
+      "ERR5549880",
+      "ERR5549881",
+      "ERR5549882",
+      "ERR5549883",
+      "ERR5549884",
+      "ERR5549885",
+      "ERR5549886",
+      "ERR5549887",
+      "ERR5549888",
+      "ERR5549889",
+      "ERR5549890",
+      "ERR5549891",
+      "ERR5549892",
+      "ERR5549893",
+      "ERR5549894",
+      "ERR5549895",
+      "ERR5549896",
+      "ERR5549897",
+      "ERR5549898",
+      "ERR5549899",
+      "ERR5549900",
+      "ERR5549901",
+      "ERR5549902",
+      "ERR5549903",
+      "ERR5549904",
+      "ERR5549905",
+      "ERR5549906",
+      "ERR5549907",
+      "ERR5549908",
+      "ERR5549909",
+      "ERR5549910",
+      "ERR5549911",
+      "ERR5549912",
+      "ERR5549913",
+      "ERR5549914",
+      "ERR5549915",
+      "ERR5549916",
+      "ERR5549917",
+      "ERR5549918",
+      "ERR5549919"
+    ],
+    "time": "2021-04-20T10:54:37.600777",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/dce327c98d2ff142",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/dce327c98d2ff142/contents/11ac94870d0bb33aaf454e8acecabdc1/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/3c930c5595b46b69"
+  },
+  "4f9e24f6f6fcaa1a": {
+    "batch_id": "NT1666240A",
+    "variation": "https://usegalaxy.eu/api/histories/4f9e24f6f6fcaa1a",
+    "samples": [
+      "ERR5549750",
+      "ERR5549751",
+      "ERR5549752",
+      "ERR5549753",
+      "ERR5549754",
+      "ERR5549755",
+      "ERR5549756",
+      "ERR5549757",
+      "ERR5549758",
+      "ERR5549759",
+      "ERR5549760",
+      "ERR5549761",
+      "ERR5549762",
+      "ERR5549763",
+      "ERR5549764",
+      "ERR5549765",
+      "ERR5549766",
+      "ERR5549767",
+      "ERR5549768",
+      "ERR5549769",
+      "ERR5549770",
+      "ERR5549771",
+      "ERR5549772",
+      "ERR5549773",
+      "ERR5549774",
+      "ERR5549775",
+      "ERR5549776",
+      "ERR5549777",
+      "ERR5549778",
+      "ERR5549779",
+      "ERR5549780",
+      "ERR5549781",
+      "ERR5549782",
+      "ERR5549783",
+      "ERR5549784",
+      "ERR5549785",
+      "ERR5549786",
+      "ERR5549787",
+      "ERR5549788",
+      "ERR5549789",
+      "ERR5549790"
+    ],
+    "time": "2021-04-20T08:11:40.719874",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/e4bcc49ba113502b",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/e4bcc49ba113502b/contents/11ac94870d0bb33af882d04d9491d328/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/daedd14eddf24e95"
+  },
+  "7d1a02372e3e9dd3": {
+    "batch_id": "NT1666196N",
+    "variation": "https://usegalaxy.eu/api/histories/7d1a02372e3e9dd3",
+    "samples": [
+      "ERR5549238",
+      "ERR5549239",
+      "ERR5549240",
+      "ERR5549241",
+      "ERR5549242",
+      "ERR5549243",
+      "ERR5549244",
+      "ERR5549245",
+      "ERR5549246",
+      "ERR5549247",
+      "ERR5549248"
+    ],
+    "time": "2021-04-20T08:07:10.434515",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/f5c35c9ea00b543b",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/f5c35c9ea00b543b/contents/11ac94870d0bb33a03335b05d87b41c0/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/e1df442a9d811ac7"
+  },
+  "31e8b1b7fae91fbd": {
+    "batch_id": "NT1666195M",
+    "variation": "https://usegalaxy.eu/api/histories/31e8b1b7fae91fbd",
+    "samples": [
+      "ERR5549276",
+      "ERR5549277",
+      "ERR5549278",
+      "ERR5549279",
+      "ERR5549280",
+      "ERR5549281"
+    ],
+    "time": "2021-04-20T07:36:55.934597",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/3fb4c5d6b209127c",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/3fb4c5d6b209127c/contents/11ac94870d0bb33a4ce781f3a07b2cb6/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/7836d0e15a5053c1"
+  },
+  "1ec98e66a766027a": {
+    "batch_id": "NT1666107T",
+    "variation": "https://usegalaxy.eu/api/histories/1ec98e66a766027a",
+    "samples": [
+      "ERR5549227",
+      "ERR5549228",
+      "ERR5549229",
+      "ERR5549230",
+      "ERR5549231",
+      "ERR5549232",
+      "ERR5549233",
+      "ERR5549234",
+      "ERR5549235",
+      "ERR5549236",
+      "ERR5549237"
+    ],
+    "time": "2021-04-20T07:22:34.853600",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/9867fa2e37206444",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/9867fa2e37206444/contents/11ac94870d0bb33a5d2ee0f585dde684/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/a5fa44c8184f5a03"
+  },
+  "90a960ebeaa9f8b9": {
+    "batch_id": "NT1666103P",
+    "variation": "https://usegalaxy.eu/api/histories/90a960ebeaa9f8b9",
+    "samples": [
+      "ERR5549266",
+      "ERR5549267",
+      "ERR5549268",
+      "ERR5549269",
+      "ERR5549270",
+      "ERR5549271",
+      "ERR5549272",
+      "ERR5549273",
+      "ERR5549274",
+      "ERR5549275"
+    ],
+    "time": "2021-04-19T21:53:05.322299",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/f3ca55dd525e4bc1",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/f3ca55dd525e4bc1/contents/11ac94870d0bb33af0f15e1d6d63b742/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/bf225e9581635a46"
+  },
+  "11fd78ad2ca8f7b5": {
+    "batch_id": "NT1666083F",
+    "variation": "https://usegalaxy.eu/api/histories/11fd78ad2ca8f7b5",
+    "samples": [
+      "ERR5549296",
+      "ERR5549297",
+      "ERR5549298",
+      "ERR5549299",
+      "ERR5549300",
+      "ERR5549301",
+      "ERR5549302"
+    ],
+    "time": "2021-04-19T22:23:48.745206",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/beeff8243a09a044",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/beeff8243a09a044/contents/11ac94870d0bb33afc5632914e7cb561/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/a889628b056b4c86"
+  },
+  "fbd5839a0596b4b9": {
+    "batch_id": "NT1666078I",
+    "variation": "https://usegalaxy.eu/api/histories/fbd5839a0596b4b9",
+    "samples": [
+      "ERR5549282",
+      "ERR5549283",
+      "ERR5549284",
+      "ERR5549285",
+      "ERR5549286",
+      "ERR5549287",
+      "ERR5549288",
+      "ERR5549289",
+      "ERR5549290",
+      "ERR5549291",
+      "ERR5549292",
+      "ERR5549293",
+      "ERR5549294",
+      "ERR5549295",
+      "ERR5643744",
+      "ERR5654922"
+    ],
+    "time": "2021-04-19T21:49:11.409619",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/bd3b167df332f619",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/bd3b167df332f619/contents/11ac94870d0bb33a57f40d98c467123b/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/a338dd100a30fe78"
+  },
+  "d1e29a482a7665de": {
+    "batch_id": "NT1666059F",
+    "variation": "https://usegalaxy.eu/api/histories/d1e29a482a7665de",
+    "samples": [
+      "ERR5549257",
+      "ERR5549258",
+      "ERR5549259",
+      "ERR5549260",
+      "ERR5549261",
+      "ERR5549262",
+      "ERR5549263",
+      "ERR5549264",
+      "ERR5549265"
+    ],
+    "time": "2021-04-19T20:24:33.761932",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/d184ce0767e41d80",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/d184ce0767e41d80/contents/11ac94870d0bb33a9afa297c396985b0/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/3d7ff8190ff84ccb"
+  },
+  "2695b28869d9f261": {
+    "batch_id": "NT1666055B",
+    "variation": "https://usegalaxy.eu/api/histories/2695b28869d9f261",
+    "samples": [
+      "ERR5549214",
+      "ERR5549215",
+      "ERR5549216",
+      "ERR5549217",
+      "ERR5549218",
+      "ERR5549219",
+      "ERR5549220",
+      "ERR5549221",
+      "ERR5549222"
+    ],
+    "time": "2021-04-19T19:33:33.214961",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/111593ece718b181",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/111593ece718b181/contents/11ac94870d0bb33a5d8433bf4197dfa6/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/7fe77129366299a9"
+  },
+  "1fd70559f26e62a9": {
+    "batch_id": "NT1666053W",
+    "variation": "https://usegalaxy.eu/api/histories/1fd70559f26e62a9",
+    "samples": [
+      "ERR5549211",
+      "ERR5549212",
+      "ERR5549213"
+    ],
+    "time": "2021-04-19T21:37:33.507653",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/25ef99108418e5af",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/25ef99108418e5af/contents/11ac94870d0bb33a7e7c286321c0878a/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/f297319c8442979c"
+  },
+  "2a2a32d22efb9c23": {
+    "batch_id": "NT1666049D",
+    "variation": "https://usegalaxy.eu/api/histories/2a2a32d22efb9c23",
+    "samples": [
+      "ERR5549224",
+      "ERR5549225",
+      "ERR5549226"
+    ],
+    "time": "2021-04-19T18:24:14.565276",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/32e1b9646e2befea",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/32e1b9646e2befea/contents/11ac94870d0bb33aa79fad959841f892/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/f567de87ce66e1e1"
+  },
+  "c669bcc60c5ccbb0": {
+    "batch_id": "NT1666048C",
+    "variation": "https://usegalaxy.eu/api/histories/c669bcc60c5ccbb0",
+    "samples": [
+      "ERR5673874",
+      "ERR5673875",
+      "ERR5673876",
+      "ERR5673877",
+      "ERR5673878",
+      "ERR5673879",
+      "ERR5673880",
+      "ERR5673881",
+      "ERR5673882",
+      "ERR5673883",
+      "ERR5673884",
+      "ERR5673885",
+      "ERR5673886",
+      "ERR5673887",
+      "ERR5673888",
+      "ERR5673889",
+      "ERR5673890",
+      "ERR5673891",
+      "ERR5673892",
+      "ERR5673893",
+      "ERR5673894",
+      "ERR5673895",
+      "ERR5673896",
+      "ERR5673897",
+      "ERR5673898",
+      "ERR5673899",
+      "ERR5673900",
+      "ERR5673901",
+      "ERR5673902",
+      "ERR5673903",
+      "ERR5673904",
+      "ERR5673905",
+      "ERR5673906",
+      "ERR5673907",
+      "ERR5673908",
+      "ERR5673909",
+      "ERR5673910",
+      "ERR5673911",
+      "ERR5673912",
+      "ERR5673913",
+      "ERR5673914",
+      "ERR5673915",
+      "ERR5673916",
+      "ERR5673917",
+      "ERR5673918",
+      "ERR5673919",
+      "ERR5673920",
+      "ERR5673921",
+      "ERR5673922",
+      "ERR5673923",
+      "ERR5673924",
+      "ERR5673925",
+      "ERR5673926",
+      "ERR5673927",
+      "ERR5673928",
+      "ERR5673929",
+      "ERR5673930",
+      "ERR5673931",
+      "ERR5673932",
+      "ERR5673933",
+      "ERR5673934",
+      "ERR5673935",
+      "ERR5673936",
+      "ERR5673937",
+      "ERR5673938",
+      "ERR5673939",
+      "ERR5673940",
+      "ERR5673941",
+      "ERR5673942",
+      "ERR5673943",
+      "ERR5673944",
+      "ERR5673945",
+      "ERR5673946",
+      "ERR5673947",
+      "ERR5673948",
+      "ERR5673949",
+      "ERR5673950",
+      "ERR5673951",
+      "ERR5673952",
+      "ERR5673953",
+      "ERR5673954",
+      "ERR5673955",
+      "ERR5673956",
+      "ERR5673957",
+      "ERR5673958",
+      "ERR5673959",
+      "ERR5673960",
+      "ERR5673961",
+      "ERR5673962",
+      "ERR5673963",
+      "ERR5673964",
+      "ERR5673965",
+      "ERR5673966",
+      "ERR5673967",
+      "ERR5673968",
+      "ERR5673969",
+      "ERR5673970",
+      "ERR5673971",
+      "ERR5673972",
+      "ERR5673973",
+      "ERR5673974",
+      "ERR5673975",
+      "ERR5673976",
+      "ERR5673977",
+      "ERR5673978",
+      "ERR5673979",
+      "ERR5673980",
+      "ERR5673981",
+      "ERR5673982",
+      "ERR5673983",
+      "ERR5673984",
+      "ERR5673985",
+      "ERR5673986",
+      "ERR5673987",
+      "ERR5673988",
+      "ERR5673989",
+      "ERR5673990",
+      "ERR5673991",
+      "ERR5673992",
+      "ERR5673993",
+      "ERR5673994",
+      "ERR5673995",
+      "ERR5673996",
+      "ERR5673997",
+      "ERR5673998",
+      "ERR5673999",
+      "ERR5674000",
+      "ERR5674001",
+      "ERR5674002",
+      "ERR5674003",
+      "ERR5674004",
+      "ERR5674005",
+      "ERR5674006",
+      "ERR5674007",
+      "ERR5674008",
+      "ERR5674009",
+      "ERR5674010",
+      "ERR5674011",
+      "ERR5674012",
+      "ERR5674013",
+      "ERR5674014",
+      "ERR5674015",
+      "ERR5674016",
+      "ERR5674017",
+      "ERR5674018",
+      "ERR5674019",
+      "ERR5674020",
+      "ERR5674021",
+      "ERR5674022",
+      "ERR5674023",
+      "ERR5674024",
+      "ERR5674025",
+      "ERR5674026",
+      "ERR5674027",
+      "ERR5674028",
+      "ERR5674029",
+      "ERR5674030",
+      "ERR5674031",
+      "ERR5674032",
+      "ERR5674033",
+      "ERR5674034",
+      "ERR5674035",
+      "ERR5674036",
+      "ERR5674037",
+      "ERR5674038",
+      "ERR5674039",
+      "ERR5674040",
+      "ERR5674041",
+      "ERR5674042",
+      "ERR5674043",
+      "ERR5674044",
+      "ERR5674045",
+      "ERR5674046",
+      "ERR5674047",
+      "ERR5674048",
+      "ERR5674049",
+      "ERR5674050",
+      "ERR5674051",
+      "ERR5674052",
+      "ERR5674053",
+      "ERR5674054",
+      "ERR5674055",
+      "ERR5674056",
+      "ERR5674057",
+      "ERR5674058",
+      "ERR5674059",
+      "ERR5674060",
+      "ERR5674061",
+      "ERR5674062",
+      "ERR5674063",
+      "ERR5674064",
+      "ERR5674065",
+      "ERR5674066",
+      "ERR5674067",
+      "ERR5674068",
+      "ERR5674069",
+      "ERR5674070",
+      "ERR5674071",
+      "ERR5674072",
+      "ERR5674073",
+      "ERR5674074",
+      "ERR5674075",
+      "ERR5674076",
+      "ERR5674077",
+      "ERR5674078",
+      "ERR5674079",
+      "ERR5674080",
+      "ERR5674081",
+      "ERR5674082",
+      "ERR5674083",
+      "ERR5674084",
+      "ERR5674085",
+      "ERR5674086",
+      "ERR5674087",
+      "ERR5674088",
+      "ERR5674089",
+      "ERR5674090",
+      "ERR5674091",
+      "ERR5674092",
+      "ERR5674093",
+      "ERR5674094",
+      "ERR5674095",
+      "ERR5674096",
+      "ERR5674097",
+      "ERR5674098",
+      "ERR5674099",
+      "ERR5674100",
+      "ERR5674101",
+      "ERR5674102",
+      "ERR5674103",
+      "ERR5674104",
+      "ERR5674105",
+      "ERR5674106",
+      "ERR5674107",
+      "ERR5674108",
+      "ERR5674109",
+      "ERR5674110",
+      "ERR5674111",
+      "ERR5674112",
+      "ERR5674113",
+      "ERR5674114",
+      "ERR5674115",
+      "ERR5674116",
+      "ERR5674117",
+      "ERR5674118",
+      "ERR5674119",
+      "ERR5674120",
+      "ERR5674121",
+      "ERR5674122",
+      "ERR5674123",
+      "ERR5674124",
+      "ERR5674125",
+      "ERR5674126",
+      "ERR5674127",
+      "ERR5674128",
+      "ERR5674129",
+      "ERR5674130",
+      "ERR5686723"
+    ],
+    "time": "2021-04-19T21:12:28.838771",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/4fd7ec0eddd9eeea",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/4fd7ec0eddd9eeea/contents/11ac94870d0bb33af87174aaf6d5a652/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/bba2ec075d9ac30e"
+  },
+  "c14b095c57295477": {
+    "batch_id": "NT1666042T",
+    "variation": "https://usegalaxy.eu/api/histories/c14b095c57295477",
+    "samples": [
+      "ERR5549616",
+      "ERR5549617",
+      "ERR5549618",
+      "ERR5549619",
+      "ERR5549620",
+      "ERR5549621",
+      "ERR5549622",
+      "ERR5549623",
+      "ERR5549624",
+      "ERR5549625",
+      "ERR5549626",
+      "ERR5549627",
+      "ERR5549628",
+      "ERR5549629",
+      "ERR5549630",
+      "ERR5549631",
+      "ERR5549632",
+      "ERR5549633",
+      "ERR5549634",
+      "ERR5549635",
+      "ERR5549636",
+      "ERR5549637",
+      "ERR5549638",
+      "ERR5549639",
+      "ERR5549640",
+      "ERR5549641",
+      "ERR5549642",
+      "ERR5549643",
+      "ERR5549644",
+      "ERR5549645",
+      "ERR5549646",
+      "ERR5549647",
+      "ERR5549648",
+      "ERR5549649",
+      "ERR5549650",
+      "ERR5549651",
+      "ERR5549652",
+      "ERR5549653",
+      "ERR5549654",
+      "ERR5549655",
+      "ERR5549656",
+      "ERR5549657",
+      "ERR5549658",
+      "ERR5549659",
+      "ERR5549660",
+      "ERR5549661",
+      "ERR5549662",
+      "ERR5549663",
+      "ERR5549664",
+      "ERR5549665",
+      "ERR5549666",
+      "ERR5549667",
+      "ERR5549668",
+      "ERR5549669",
+      "ERR5549670",
+      "ERR5549671",
+      "ERR5549672",
+      "ERR5549673",
+      "ERR5549674",
+      "ERR5549675",
+      "ERR5549676",
+      "ERR5549677",
+      "ERR5549678",
+      "ERR5549679",
+      "ERR5549680",
+      "ERR5549681",
+      "ERR5549682",
+      "ERR5549683",
+      "ERR5549684",
+      "ERR5549685",
+      "ERR5549686",
+      "ERR5549687",
+      "ERR5549688",
+      "ERR5549689",
+      "ERR5549690",
+      "ERR5549691",
+      "ERR5549692",
+      "ERR5549693",
+      "ERR5549694",
+      "ERR5549695",
+      "ERR5549696",
+      "ERR5549697",
+      "ERR5549698",
+      "ERR5549699",
+      "ERR5549700",
+      "ERR5549701",
+      "ERR5549702",
+      "ERR5549703",
+      "ERR5549704",
+      "ERR5549705",
+      "ERR5549706",
+      "ERR5549707",
+      "ERR5549708",
+      "ERR5549709",
+      "ERR5549710",
+      "ERR5549711",
+      "ERR5549712",
+      "ERR5549713",
+      "ERR5549714",
+      "ERR5549715",
+      "ERR5549716",
+      "ERR5549717",
+      "ERR5549718",
+      "ERR5549719",
+      "ERR5549720",
+      "ERR5549721",
+      "ERR5549722",
+      "ERR5549723",
+      "ERR5549724",
+      "ERR5549725",
+      "ERR5549726",
+      "ERR5549727",
+      "ERR5549728",
+      "ERR5549729",
+      "ERR5549730",
+      "ERR5549731",
+      "ERR5549732",
+      "ERR5549733",
+      "ERR5549734",
+      "ERR5549735",
+      "ERR5549736",
+      "ERR5549737",
+      "ERR5549738",
+      "ERR5549739",
+      "ERR5549740",
+      "ERR5549741",
+      "ERR5549742",
+      "ERR5549743",
+      "ERR5549744",
+      "ERR5549745",
+      "ERR5549746",
+      "ERR5549747",
+      "ERR5549748",
+      "ERR5549749"
+    ],
+    "time": "2021-04-19T16:08:47.332328",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/f45e364cdb56d958",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/f45e364cdb56d958/contents/11ac94870d0bb33a06876777e061e221/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/7a4df4bef7ea15af"
+  },
+  "f907744017c6b917": {
+    "batch_id": "NT1666040R",
+    "variation": "https://usegalaxy.eu/api/histories/f907744017c6b917",
+    "samples": [
+      "ERR5549206",
+      "ERR5549207",
+      "ERR5549208",
+      "ERR5549209",
+      "ERR5549210"
+    ],
+    "time": "2021-04-19T15:15:56.324276",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/32fb77aaaa7876f9",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/32fb77aaaa7876f9/contents/11ac94870d0bb33a3a8dbaf34fa86b50/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/185bd47f8658a0a0"
+  },
+  "1dad1054ff82db69": {
+    "batch_id": "NT1666039B",
+    "variation": "https://usegalaxy.eu/api/histories/1dad1054ff82db69",
+    "samples": [
+      "ERR5549249",
+      "ERR5549250",
+      "ERR5549251",
+      "ERR5549252",
+      "ERR5549253",
+      "ERR5549254",
+      "ERR5549255",
+      "ERR5549256",
+      "ERR5556937",
+      "ERR5643743",
+      "ERR5654921"
+    ],
+    "time": "2021-04-19T15:24:05.709148",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/a46268cdcbd11f05",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/a46268cdcbd11f05/contents/11ac94870d0bb33a1cd1976f0509c084/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/39158a45ac228968"
+  },
+  "6872910cad3cf0c5": {
+    "batch_id": "NT1666034T",
+    "variation": "https://usegalaxy.eu/api/histories/6872910cad3cf0c5",
+    "samples": [
+      "ERR5549203",
+      "ERR5549204",
+      "ERR5549205"
+    ],
+    "time": "2021-04-19T15:06:01.791043",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/c0ec2733b2515656",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/c0ec2733b2515656/contents/11ac94870d0bb33a9cb2999d74ae4ec8/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/3346904d48afb4c2"
+  },
   "a675890f448e6b15": {
     "batch_id": "NT1666032R",
     "variation": "https://usegalaxy.eu/api/histories/a675890f448e6b15",
@@ -9,12 +1092,70 @@
       "ERR5549201",
       "ERR5549202"
     ],
+    "time": "2021-04-19T13:36:36.272912",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/7661cb7077651aad",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/7661cb7077651aad/contents/11ac94870d0bb33a29a55c5b53aa9920/display"
     },
-    "time": "2021-04-19T13:36:36.272912",
     "consensus": "https://usegalaxy.eu/api/histories/be200e66d5e901ff"
+  },
+  "f73c9096be63c537": {
+    "batch_id": "NT1666031Q",
+    "variation": "https://usegalaxy.eu/api/histories/f73c9096be63c537",
+    "samples": [
+      "ERR5549570",
+      "ERR5549571",
+      "ERR5549572",
+      "ERR5549573",
+      "ERR5549574",
+      "ERR5549575",
+      "ERR5549576",
+      "ERR5549577",
+      "ERR5549578",
+      "ERR5549579",
+      "ERR5549580",
+      "ERR5549581",
+      "ERR5549582",
+      "ERR5549583",
+      "ERR5549584",
+      "ERR5549585",
+      "ERR5549586",
+      "ERR5549587",
+      "ERR5549588",
+      "ERR5549589",
+      "ERR5549590",
+      "ERR5549591",
+      "ERR5549592",
+      "ERR5549593",
+      "ERR5549594",
+      "ERR5549595",
+      "ERR5549596",
+      "ERR5549597",
+      "ERR5549598",
+      "ERR5549599",
+      "ERR5549600",
+      "ERR5549601",
+      "ERR5549602",
+      "ERR5549603",
+      "ERR5549604",
+      "ERR5549605",
+      "ERR5549606",
+      "ERR5549607",
+      "ERR5549608",
+      "ERR5549609",
+      "ERR5549610",
+      "ERR5549611",
+      "ERR5549612",
+      "ERR5549613",
+      "ERR5549614",
+      "ERR5549615"
+    ],
+    "time": "2021-04-19T13:53:12.024299",
+    "report": {
+      "history_link": "https://usegalaxy.eu/api/histories/e995a3f0a9499582",
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/e995a3f0a9499582/contents/11ac94870d0bb33a62977e173237b85b/display"
+    },
+    "consensus": "https://usegalaxy.eu/api/histories/347ca8410df29d84"
   },
   "125f2b0f1abfb1ea": {
     "batch_id": "NT1666030P",
@@ -26,11 +1167,11 @@
       "ERR5549196",
       "ERR5549197"
     ],
+    "time": "2021-04-19T13:03:11.637700",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/dcc1d370061fc879",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/dcc1d370061fc879/contents/11ac94870d0bb33a5ccfd20a7e90f956/display"
     },
-    "time": "2021-04-19T13:03:11.637700",
     "consensus": "https://usegalaxy.eu/api/histories/0f4ba1d8f8ce3509"
   },
   "78912b181e8b64cc": {
@@ -46,11 +1187,11 @@
       "ERR5549191",
       "ERR5549192"
     ],
+    "time": "2021-04-19T12:50:31.038515",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/20d0c1557570bcb8",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/20d0c1557570bcb8/contents/11ac94870d0bb33a6a3b05a068178bd0/display"
     },
-    "time": "2021-04-19T12:50:31.038515",
     "consensus": "https://usegalaxy.eu/api/histories/eb0a03989b119c94"
   },
   "02fbad853609023f": {
@@ -76,11 +1217,11 @@
       "ERR5549183",
       "ERR5549184"
     ],
+    "time": "2021-04-19T12:17:16.993420",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/7b787e700470efa4",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/7b787e700470efa4/contents/11ac94870d0bb33af3412e88e53f2b5b/display"
     },
-    "time": "2021-04-19T12:17:16.993420",
     "consensus": "https://usegalaxy.eu/api/histories/68bc2d7cf375901d"
   },
   "d3bff519b52a4618": {
@@ -96,11 +1237,11 @@
       "ERR5549148",
       "ERR5549149"
     ],
+    "time": "2021-04-19T12:22:45.702392",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/f47fffb800e8c2e0",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/f47fffb800e8c2e0/contents/11ac94870d0bb33a01b7f50d3ce2647f/display"
     },
-    "time": "2021-04-19T12:22:45.702392",
     "consensus": "https://usegalaxy.eu/api/histories/f529b170226f190b"
   },
   "8fd14354006e5075": {
@@ -113,11 +1254,11 @@
       "ERR5549140",
       "ERR5549141"
     ],
+    "time": "2021-04-19T11:33:38.282259",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/4bab6001ca687bbf",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/4bab6001ca687bbf/contents/11ac94870d0bb33abc1473d93ce0c3b5/display"
     },
-    "time": "2021-04-19T11:33:38.282259",
     "consensus": "https://usegalaxy.eu/api/histories/158ab887c9a72372"
   },
   "e32a75e9781dcec7": {
@@ -134,11 +1275,11 @@
       "ERR5549165",
       "ERR5549166"
     ],
+    "time": "2021-04-19T10:24:23.963656",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/bfb9ce33ecea85e6",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/bfb9ce33ecea85e6/contents/11ac94870d0bb33adc499d8d325a9442/display"
     },
-    "time": "2021-04-19T10:24:23.963656",
     "consensus": "https://usegalaxy.eu/api/histories/de0c8b6b7d21829c"
   },
   "f54d4050de1891b2": {
@@ -148,11 +1289,11 @@
       "ERR5549156",
       "ERR5549157"
     ],
+    "time": "2021-04-19T12:27:00.823099",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/1544c5b3f789dc6b",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/1544c5b3f789dc6b/contents/11ac94870d0bb33ad06e27cb1692063e/display"
     },
-    "time": "2021-04-19T12:27:00.823099",
     "consensus": "https://usegalaxy.eu/api/histories/67631ed39c744425"
   },
   "9f6002a1647803ca": {
@@ -166,11 +1307,11 @@
       "ERR5549154",
       "ERR5549155"
     ],
+    "time": "2021-04-19T12:31:10.011226",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/6772a90915e19668",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/6772a90915e19668/contents/11ac94870d0bb33a5d20795d26b1dea0/display"
     },
-    "time": "2021-04-19T12:31:10.011226",
     "consensus": "https://usegalaxy.eu/api/histories/31ec19df6eb21668"
   },
   "20ac01c0c7cf60cc": {
@@ -179,11 +1320,11 @@
     "samples": [
       "ERR5549130"
     ],
+    "time": "2021-04-19T08:19:22.623211",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/6211928721731679",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/6211928721731679/contents/11ac94870d0bb33a65aa360a2c8b61b7/display"
     },
-    "time": "2021-04-19T08:19:22.623211",
     "consensus": "https://usegalaxy.eu/api/histories/85bd0ac9d4a4b4fb"
   },
   "e05e0ac274d5ffea": {
@@ -197,11 +1338,11 @@
       "ERR5556934",
       "ERR5556935"
     ],
+    "time": "2021-04-19T08:35:10.340986",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/6e6ebcc8169751e5",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/6e6ebcc8169751e5/contents/11ac94870d0bb33a07d7a9339500f4e6/display"
     },
-    "time": "2021-04-19T08:35:10.340986",
     "consensus": "https://usegalaxy.eu/api/histories/4933a4e8add257e0"
   },
   "a48c2f03ab39e321": {
@@ -210,11 +1351,11 @@
     "samples": [
       "ERR5549136"
     ],
+    "time": "2021-04-19T07:35:45.736924",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/cb99361016a5a589",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/cb99361016a5a589/contents/11ac94870d0bb33aa036c0c07dc5eecc/display"
     },
-    "time": "2021-04-19T07:35:45.736924",
     "consensus": "https://usegalaxy.eu/api/histories/31c774e0d3979357"
   },
   "68982c7d43c154bb": {
@@ -228,11 +1369,11 @@
       "ERR5549135",
       "ERR5556936"
     ],
+    "time": "2021-04-19T06:20:38.320077",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/6cc33896b0ef93c9",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/6cc33896b0ef93c9/contents/11ac94870d0bb33a42fb3d8c022323e2/display"
     },
-    "time": "2021-04-19T06:20:38.320077",
     "consensus": "https://usegalaxy.eu/api/histories/6a20f7936912512d"
   },
   "83ca9b1230640d31": {
@@ -241,11 +1382,11 @@
     "samples": [
       "ERR5549223"
     ],
+    "time": "2021-04-19T04:55:25.033505",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/13e7611da1fd16ed",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/13e7611da1fd16ed/contents/11ac94870d0bb33a243d0417b00a8c84/display"
     },
-    "time": "2021-04-19T04:55:25.033505",
     "consensus": "https://usegalaxy.eu/api/histories/ace9afe42bf6d1ef"
   },
   "ea5a121558af5eae": {
@@ -254,11 +1395,11 @@
     "samples": [
       "ERR5643742"
     ],
+    "time": "2021-04-19T04:07:50.087505",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/ceead489ba658346",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/ceead489ba658346/contents/11ac94870d0bb33aeb9a876ad8b7b020/display"
     },
-    "time": "2021-04-19T04:07:50.087505",
     "consensus": "https://usegalaxy.eu/api/histories/61e3e0a4d60c78b8"
   },
   "4211e40b61fdec67": {
@@ -267,11 +1408,11 @@
     "samples": [
       "ERR5643741"
     ],
+    "time": "2021-04-19T03:22:45.569997",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/afef352c07f86cdd",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/afef352c07f86cdd/contents/11ac94870d0bb33a1fef980f11a65a24/display"
     },
-    "time": "2021-04-19T03:22:45.569997",
     "consensus": "https://usegalaxy.eu/api/histories/45e197ffaa8f0b0e"
   },
   "ed27a40cabb59b21": {
@@ -281,11 +1422,11 @@
       "ERR5556200",
       "ERR5694900"
     ],
+    "time": "2021-04-19T01:36:03.024824",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/b42f06afa61d0729",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/b42f06afa61d0729/contents/11ac94870d0bb33a6e0e548e6ca3d36a/display"
     },
-    "time": "2021-04-19T01:36:03.024824",
     "consensus": "https://usegalaxy.eu/api/histories/cd9cdbd711ce43a1"
   },
   "10bea04831e11619": {
@@ -294,11 +1435,11 @@
     "samples": [
       "ERR5556199"
     ],
+    "time": "2021-04-18T22:40:55.952254",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/a5eeac9a24b16d65",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/a5eeac9a24b16d65/contents/11ac94870d0bb33ac8658e3527351b56/display"
     },
-    "time": "2021-04-18T22:40:55.952254",
     "consensus": "https://usegalaxy.eu/api/histories/e4f43bb8f8327bc5"
   },
   "a15f28e054277c98": {
@@ -307,11 +1448,11 @@
     "samples": [
       "ERR5549129"
     ],
+    "time": "2021-04-18T21:56:05.272019",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/77f4e187b8923ef4",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/77f4e187b8923ef4/contents/11ac94870d0bb33a458c6a6c49ecd23c/display"
     },
-    "time": "2021-04-18T21:56:05.272019",
     "consensus": "https://usegalaxy.eu/api/histories/48bd16b32849a23b"
   },
   "7477c017ddeb4252": {
@@ -669,11 +1810,11 @@
       "ERR5686630",
       "ERR5686631"
     ],
+    "time": "2021-04-18T20:50:29.927059",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/3bcfc441f0410a87",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/3bcfc441f0410a87/contents/11ac94870d0bb33a2e8af19595a13e75/display"
     },
-    "time": "2021-04-18T20:50:29.927059",
     "consensus": "https://usegalaxy.eu/api/histories/456fad0d737f3686"
   },
   "6ea52288f92e7ea0": {
@@ -682,11 +1823,11 @@
     "samples": [
       "ERR5643740"
     ],
+    "time": "2021-04-18T16:32:15.480558",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/029d243fdb47eb17",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/029d243fdb47eb17/contents/11ac94870d0bb33af5aaefc4716a9365/display"
     },
-    "time": "2021-04-18T16:32:15.480558",
     "consensus": "https://usegalaxy.eu/api/histories/6886b1e83669cac2"
   },
   "2389762d63f67f56": {
@@ -727,11 +1868,11 @@
       "ERR5643738",
       "ERR5643739"
     ],
+    "time": "2021-04-18T14:50:54.879160",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/3b9a513cecd0adaa",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/3b9a513cecd0adaa/contents/11ac94870d0bb33a6e99285b73f7a312/display"
     },
-    "time": "2021-04-18T14:50:54.879160",
     "consensus": "https://usegalaxy.eu/api/histories/950c8e88df5e851c"
   },
   "7d3dfed6714b7f6a": {
@@ -853,11 +1994,11 @@
       "ERR5556899",
       "ERR5643736"
     ],
+    "time": "2021-04-18T14:24:33.826813",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/e2cb8ac24ec6ee8c",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/e2cb8ac24ec6ee8c/contents/11ac94870d0bb33a76ceb6d3b6c9149e/display"
     },
-    "time": "2021-04-18T14:24:33.826813",
     "consensus": "https://usegalaxy.eu/api/histories/ab77d4c46941e7ac"
   },
   "13babb79f8f33c8f": {
@@ -866,11 +2007,11 @@
     "samples": [
       "ERR5654920"
     ],
+    "time": "2021-04-18T21:28:37.324558",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/aac95d33bafcb49c",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/aac95d33bafcb49c/contents/11ac94870d0bb33a3ff0d568e3a1b7de/display"
     },
-    "time": "2021-04-18T21:28:37.324558",
     "consensus": "https://usegalaxy.eu/api/histories/20afd454d2ede053"
   },
   "a783e4277f5f9761": {
@@ -879,11 +2020,11 @@
     "samples": [
       "ERR5694899"
     ],
+    "time": "2021-04-18T12:16:39.630693",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/2c47507784e2d280",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/2c47507784e2d280/contents/11ac94870d0bb33acf91972f9a4cd523/display"
     },
-    "time": "2021-04-18T12:16:39.630693",
     "consensus": "https://usegalaxy.eu/api/histories/5e3afa6ffbf0f9fb"
   },
   "f06c1da547eadd95": {
@@ -892,11 +2033,11 @@
     "samples": [
       "ERR5549128"
     ],
+    "time": "2021-04-18T12:31:46.112924",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/2350e63f76c85134",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/2350e63f76c85134/contents/11ac94870d0bb33ad3599944bc8c42f2/display"
     },
-    "time": "2021-04-18T12:31:46.112924",
     "consensus": "https://usegalaxy.eu/api/histories/2699f2cb19716e32"
   },
   "7cdd1e5a4ce461a5": {
@@ -905,11 +2046,11 @@
     "samples": [
       "ERR5549127"
     ],
+    "time": "2021-04-18T14:52:14.085589",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/8d644e20e3f8c1dc",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/8d644e20e3f8c1dc/contents/11ac94870d0bb33a70b99f40f238930d/display"
     },
-    "time": "2021-04-18T14:52:14.085589",
     "consensus": "https://usegalaxy.eu/api/histories/9fb1419c47722383"
   },
   "4a2650aa7006d1e9": {
@@ -1255,11 +2396,11 @@
       "ERR5460346",
       "ERR5461321"
     ],
+    "time": "2021-04-18T03:41:11.665958",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/43b1f3cecc0f2028",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/43b1f3cecc0f2028/contents/11ac94870d0bb33acc1f973f389db729/display"
     },
-    "time": "2021-04-18T03:41:11.665958",
     "consensus": "https://usegalaxy.eu/api/histories/d2fef234fa92b7d6"
   },
   "6a31e4f134bdb30c": {
@@ -1618,11 +2759,11 @@
       "ERR5462262",
       "ERR5462263"
     ],
+    "time": "2021-04-18T00:38:49.984653",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/3c3da65ddcd591fe",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/3c3da65ddcd591fe/contents/11ac94870d0bb33a37b6caa214f8736c/display"
     },
-    "time": "2021-04-18T00:38:49.984653",
     "consensus": "https://usegalaxy.eu/api/histories/402e71e1e5c57df2"
   },
   "06a7a5669a59e0f0": {
@@ -1837,11 +2978,11 @@
       "ERR5460008",
       "ERR5460009"
     ],
+    "time": "2021-04-18T09:37:56.338243",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/0e50251cc6bfb957",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/0e50251cc6bfb957/contents/11ac94870d0bb33a199d51c16386874a/display"
     },
-    "time": "2021-04-18T09:37:56.338243",
     "consensus": "https://usegalaxy.eu/api/histories/912c7afb18a0af81"
   },
   "9a6ec317712f813b": {
@@ -2188,11 +3329,11 @@
       "ERR5461319",
       "ERR5461320"
     ],
+    "time": "2021-04-17T18:44:25.623957",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/3d76a8997789871b",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/3d76a8997789871b/contents/11ac94870d0bb33a357e4d08137eb317/display"
     },
-    "time": "2021-04-17T18:44:25.623957",
     "consensus": "https://usegalaxy.eu/api/histories/210987ca0480508f"
   },
   "5cad1574d276ba98": {
@@ -2508,11 +3649,11 @@
       "ERR5461130",
       "ERR5461131"
     ],
+    "time": "2021-04-17T10:54:04.435727",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/8b9b9c52f67b4d2c",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/8b9b9c52f67b4d2c/contents/11ac94870d0bb33a0f13925cdce40fb2/display"
     },
-    "time": "2021-04-17T10:54:04.435727",
     "consensus": "https://usegalaxy.eu/api/histories/88b17dec65c4a5b4"
   },
   "317c85f633258dda": {
@@ -2873,11 +4014,11 @@
       "ERR5460734",
       "ERR5460735"
     ],
+    "time": "2021-04-17T07:37:52.044969",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/b159609625af9548",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/b159609625af9548/contents/11ac94870d0bb33a2f0ea99e4e46b48b/display"
     },
-    "time": "2021-04-17T07:37:52.044969",
     "consensus": "https://usegalaxy.eu/api/histories/0cf37e2ac729e22f"
   },
   "5202ccca8d1a3f23": {
@@ -2953,11 +4094,11 @@
       "ERR5458574",
       "ERR5458575"
     ],
+    "time": "2021-04-17T04:26:44.752662",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/6a0033e13f8582dc",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/6a0033e13f8582dc/contents/11ac94870d0bb33ad55c907a41cb1b73/display"
     },
-    "time": "2021-04-17T04:26:44.752662",
     "consensus": "https://usegalaxy.eu/api/histories/fe8f5d8f9b207bdf"
   },
   "1de49f50e400e007": {
@@ -3236,11 +4377,11 @@
       "ERR5451971",
       "ERR5451972"
     ],
+    "time": "2021-04-17T00:39:02.607396",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/3635e4375c2cdc3f",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/3635e4375c2cdc3f/contents/11ac94870d0bb33afd48b53b023b3991/display"
     },
-    "time": "2021-04-17T00:39:02.607396",
     "consensus": "https://usegalaxy.eu/api/histories/4545493e500bcd14"
   },
   "3d976ad47eae46be": {
@@ -3612,11 +4753,11 @@
       "ERR5451967",
       "ERR5451968"
     ],
+    "time": "2021-04-16T12:49:51.742286",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/92e137213d735637",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/92e137213d735637/contents/11ac94870d0bb33a95d502fe087f1611/display"
     },
-    "time": "2021-04-16T12:49:51.742286",
     "consensus": "https://usegalaxy.eu/api/histories/75f8d89633e3408f"
   },
   "928cda374e0b7478": {
@@ -3983,11 +5124,11 @@
       "ERR5452250",
       "ERR5452251"
     ],
+    "time": "2021-04-16T10:24:03.806489",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/d09f8b0db55aee2c",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/d09f8b0db55aee2c/contents/11ac94870d0bb33a1e039552ab28face/display"
     },
-    "time": "2021-04-16T10:24:03.806489",
     "consensus": "https://usegalaxy.eu/api/histories/25fce2abcdbfbb31"
   },
   "a31ef09b2d5b634f": {
@@ -4203,11 +5344,11 @@
       "ERR5452107",
       "ERR5452108"
     ],
+    "time": "2021-04-16T15:03:32.631667",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/a26be95bc38ac827",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/a26be95bc38ac827/contents/11ac94870d0bb33aef2a0f32b5da3d18/display"
     },
-    "time": "2021-04-16T15:03:32.631667",
     "consensus": "https://usegalaxy.eu/api/histories/52ec952fd504dc38"
   },
   "3cf8de8a1c02ecf1": {
@@ -4393,11 +5534,11 @@
       "ERR5436940",
       "ERR5436941"
     ],
+    "time": "2021-04-16T15:37:05.911676",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/8891a3fafbdbcaa4",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/8891a3fafbdbcaa4/contents/11ac94870d0bb33a939aeff953de0fb5/display"
     },
-    "time": "2021-04-16T15:37:05.911676",
     "consensus": "https://usegalaxy.eu/api/histories/353d662fc02593ef"
   },
   "6864813fc0a3d0d3": {
@@ -4758,11 +5899,11 @@
       "ERR5435788",
       "ERR5435789"
     ],
+    "time": "2021-04-16T16:54:43.419501",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/6be60ea5f15a938a",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/6be60ea5f15a938a/contents/11ac94870d0bb33a46eb6bac79645473/display"
     },
-    "time": "2021-04-16T16:54:43.419501",
     "consensus": "https://usegalaxy.eu/api/histories/fe5887f027412b5c"
   },
   "18f6d9a9cd835854": {
@@ -5113,11 +6254,11 @@
       "ERR5451876",
       "ERR5451877"
     ],
+    "time": "2021-04-16T17:37:28.072450",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/0e2dfc7470c03a70",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/0e2dfc7470c03a70/contents/11ac94870d0bb33a8e03ca341a95ed60/display"
     },
-    "time": "2021-04-16T17:37:28.072450",
     "consensus": "https://usegalaxy.eu/api/histories/ad7495c4a110c52f"
   },
   "82d189dc0104bc8e": {
@@ -5460,11 +6601,11 @@
       "ERR5435435",
       "ERR5435436"
     ],
+    "time": "2021-04-16T18:45:42.656381",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/73f90a8ede191d4f",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/73f90a8ede191d4f/contents/11ac94870d0bb33acf783aaeca9e6b5b/display"
     },
-    "time": "2021-04-16T18:45:42.656381",
     "consensus": "https://usegalaxy.eu/api/histories/4566ec475261710c"
   },
   "620baa06af2ad2a4": {
@@ -5800,11 +6941,11 @@
       "ERR5434703",
       "ERR5434704"
     ],
+    "time": "2021-04-16T19:58:59.353340",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/209f52aa4d63f7be",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/209f52aa4d63f7be/contents/11ac94870d0bb33a2c063f511a4e5626/display"
     },
-    "time": "2021-04-16T19:58:59.353340",
     "consensus": "https://usegalaxy.eu/api/histories/1419d149cc9d40a0"
   },
   "74d06be254907f2c": {
@@ -6175,11 +7316,11 @@
       "ERR5434654",
       "ERR5434655"
     ],
+    "time": "2021-04-14T03:53:04.764196",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/dd623f5508079a0e",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/dd623f5508079a0e/contents/11ac94870d0bb33a58f813c7603b9353/display"
     },
-    "time": "2021-04-14T03:53:04.764196",
     "consensus": "https://usegalaxy.eu/api/histories/451b5f2c714ac1e8"
   },
   "786ec3826119b535": {
@@ -6533,11 +7674,11 @@
       "ERR5394791",
       "ERR5394792"
     ],
+    "time": "2021-04-13T03:43:58.058856",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/516af964e6ab7e35",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/516af964e6ab7e35/contents/11ac94870d0bb33a596d4db591283a9f/display"
     },
-    "time": "2021-04-13T03:43:58.058856",
     "consensus": "https://usegalaxy.eu/api/histories/0dc6bfe7cb292444"
   },
   "f9fb456e419e1651": {
@@ -6894,11 +8035,11 @@
       "ERR5415052",
       "ERR5415053"
     ],
+    "time": "2021-04-12T22:15:59.026275",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/5705e8085b43455c",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/5705e8085b43455c/contents/11ac94870d0bb33a5ddeb3ab7df44f74/display"
     },
-    "time": "2021-04-12T22:15:59.026275",
     "consensus": "https://usegalaxy.eu/api/histories/4d79dcf664a59b12"
   },
   "2b537ce7be7a078b": {
@@ -7269,11 +8410,11 @@
       "ERR5394445",
       "ERR5394446"
     ],
+    "time": "2021-04-12T20:50:45.572281",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/decf0b59db2e2ade",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/decf0b59db2e2ade/contents/11ac94870d0bb33a706b66c771de1487/display"
     },
-    "time": "2021-04-12T20:50:45.572281",
     "consensus": "https://usegalaxy.eu/api/histories/a42bd285c02b4e60"
   },
   "9c030decfb6a2cd3": {
@@ -7490,11 +8631,11 @@
       "ERR5452884",
       "ERR5452885"
     ],
+    "time": "2021-04-13T06:39:04.817163",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/9c3645a5cd59ea19",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/9c3645a5cd59ea19/contents/11ac94870d0bb33a332137bb8b6b88fb/display"
     },
-    "time": "2021-04-13T06:39:04.817163",
     "consensus": "https://usegalaxy.eu/api/histories/c77d572a07a1d434"
   },
   "6d607c4b682f39ef": {
@@ -7779,11 +8920,11 @@
       "ERR5460681",
       "ERR5460682"
     ],
+    "time": "2021-04-13T00:37:50.391470",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/cbb2fc9fffd1afba",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/cbb2fc9fffd1afba/contents/11ac94870d0bb33a1a68ec65bc523157/display"
     },
-    "time": "2021-04-13T00:37:50.391470",
     "consensus": "https://usegalaxy.eu/api/histories/f9b8f6d22d3fbc30"
   },
   "1000274e07b927ea": {
@@ -8138,11 +9279,11 @@
       "ERR5393822",
       "ERR5393823"
     ],
+    "time": "2021-04-12T14:13:48.712916",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/71ff34df802a6c12",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/71ff34df802a6c12/contents/11ac94870d0bb33a36687a489eb2a4ba/display"
     },
-    "time": "2021-04-12T14:13:48.712916",
     "consensus": "https://usegalaxy.eu/api/histories/6b06e5f6174bee59"
   },
   "10196c83d2499918": {
@@ -8495,11 +9636,11 @@
       "ERR5397082",
       "ERR5397083"
     ],
+    "time": "2021-04-13T09:40:15.443095",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/c20b6b45e8fbc503",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/c20b6b45e8fbc503/contents/11ac94870d0bb33a65e65c740238be5e/display"
     },
-    "time": "2021-04-13T09:40:15.443095",
     "consensus": "https://usegalaxy.eu/api/histories/66802877fe1e3660"
   },
   "df1863858c4a7670": {
@@ -8860,11 +10001,11 @@
       "ERR5390924",
       "ERR5390925"
     ],
+    "time": "2021-04-11T21:54:30.728413",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/997e19e8dde3743f",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/997e19e8dde3743f/contents/11ac94870d0bb33a2c6252ba0d4c576e/display"
     },
-    "time": "2021-04-11T21:54:30.728413",
     "consensus": "https://usegalaxy.eu/api/histories/738d9889884a0023"
   },
   "2da0263e41859474": {
@@ -9241,11 +10382,11 @@
       "ERR5389525",
       "ERR5389526"
     ],
+    "time": "2021-04-11T18:51:56.712759",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/67d240288f538d34",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/67d240288f538d34/contents/11ac94870d0bb33a223fd617642a8118/display"
     },
-    "time": "2021-04-11T18:51:56.712759",
     "consensus": "https://usegalaxy.eu/api/histories/6c8192251fb893e2"
   },
   "e1c6f5f9f17e91ee": {
@@ -9591,11 +10732,11 @@
       "ERR5390571",
       "ERR5390572"
     ],
+    "time": "2021-04-13T14:16:38.982481",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/fae6a76d39f76992",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/fae6a76d39f76992/contents/11ac94870d0bb33a29347f87c4104b21/display"
     },
-    "time": "2021-04-13T14:16:38.982481",
     "consensus": "https://usegalaxy.eu/api/histories/d765c5bc6ac2eb8d"
   },
   "5c45e343efdbaf90": {
@@ -9951,11 +11092,11 @@
       "ERR5389873",
       "ERR5389874"
     ],
+    "time": "2021-04-11T09:31:17.923211",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/786a2c2a07ee59ee",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/786a2c2a07ee59ee/contents/11ac94870d0bb33a7fded72087331603/display"
     },
-    "time": "2021-04-11T09:31:17.923211",
     "consensus": "https://usegalaxy.eu/api/histories/050b406470898562"
   },
   "5d570eb5a5d960c8": {
@@ -10327,11 +11468,11 @@
       "ERR5389156",
       "ERR5389157"
     ],
+    "time": "2021-04-11T05:03:22.685082",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/39c4e0ace46f5089",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/39c4e0ace46f5089/contents/11ac94870d0bb33a85185056996f28c3/display"
     },
-    "time": "2021-04-11T05:03:22.685082",
     "consensus": "https://usegalaxy.eu/api/histories/3f1ec3cd21129f54"
   },
   "d973d5044c44f04c": {
@@ -10340,11 +11481,11 @@
     "samples": [
       "ERR5451838"
     ],
+    "time": "2021-04-10T23:11:28.816965",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/60bc495782f9088f",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/60bc495782f9088f/contents/11ac94870d0bb33aa8ba55e009b19fbe/display"
     },
-    "time": "2021-04-10T23:11:28.816965",
     "consensus": "https://usegalaxy.eu/api/histories/9502a969e295b9ff"
   },
   "86ec5cdb1f6645e2": {
@@ -10602,11 +11743,11 @@
       "ERR5459076",
       "ERR5459077"
     ],
+    "time": "2021-04-11T08:21:21.738594",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/16531d6fbe39700d",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/16531d6fbe39700d/contents/11ac94870d0bb33a124dec7b2aae8e46/display"
     },
-    "time": "2021-04-11T08:21:21.738594",
     "consensus": "https://usegalaxy.eu/api/histories/fb1e06426893eb2c"
   },
   "690a800cee7140ec": {
@@ -10983,11 +12124,11 @@
       "ERR5460887",
       "ERR5460888"
     ],
+    "time": "2021-04-11T12:34:41.621726",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/c6437953f481da1b",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/c6437953f481da1b/contents/11ac94870d0bb33adedfa3d7a308b3cb/display"
     },
-    "time": "2021-04-11T12:34:41.621726",
     "consensus": "https://usegalaxy.eu/api/histories/9dfa1c93fd696147"
   },
   "2a5b3a77d23ed8eb": {
@@ -11033,11 +12174,11 @@
       "ERR5452353",
       "ERR5458576"
     ],
+    "time": "2021-04-10T11:13:06.576558",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/18c287f4ef8c8223",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/18c287f4ef8c8223/contents/11ac94870d0bb33a24b868a844e57eac/display"
     },
-    "time": "2021-04-10T11:13:06.576558",
     "consensus": "https://usegalaxy.eu/api/histories/94391339e1de3b81"
   },
   "7901936ad2b9c10b": {
@@ -11376,12 +12517,12 @@
       "ERR5458610",
       "ERR5458611"
     ],
+    "time": "2021-04-10T12:36:00.928198",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/2a3d7d88de81f71f",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/2a3d7d88de81f71f/contents/11ac94870d0bb33a4725ab860d1e74d6/display"
     },
-    "time": "2021-04-10T12:36:00.928198",
-    "consensus": "https://usegalaxy.eu/api/histories/42532b8bc554d303"
+    "consensus": "https://usegalaxy.eu/api/histories/bea1272a9504db57"
   },
   "5b4d49e6a7a2a29e": {
     "batch_id": "NT1662946L",
@@ -11723,11 +12864,11 @@
       "ERR5435094",
       "ERR5435095"
     ],
+    "time": "2021-04-10T15:30:17.292298",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/b8375d822aac7a69",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/b8375d822aac7a69/contents/11ac94870d0bb33a7503e486cec12549/display"
     },
-    "time": "2021-04-10T15:30:17.292298",
     "consensus": "https://usegalaxy.eu/api/histories/9838254cf9bee13d"
   },
   "df2e1aa8327534fa": {
@@ -12082,11 +13223,11 @@
       "ERR5461037",
       "ERR5461038"
     ],
+    "time": "2021-04-16T20:44:00.418548",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/86a365afd81d60df",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/86a365afd81d60df/contents/11ac94870d0bb33a29114b8ab9d9214c/display"
     },
-    "time": "2021-04-16T20:44:00.418548",
     "consensus": "https://usegalaxy.eu/api/histories/9b78c22b592eed9b"
   },
   "450b68ac0635f147": {
@@ -12444,11 +13585,11 @@
       "ERR5460906",
       "ERR5460907"
     ],
+    "time": "2021-04-10T02:18:31.018192",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/73497a4322e64341",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/73497a4322e64341/contents/11ac94870d0bb33aa4a1af35409b6069/display"
     },
-    "time": "2021-04-10T02:18:31.018192",
     "consensus": "https://usegalaxy.eu/api/histories/92d0099101604e0e"
   },
   "b7a7d749835d249c": {
@@ -12640,11 +13781,11 @@
       "ERR5461504",
       "ERR5461505"
     ],
+    "time": "2021-04-09T00:18:36.410607",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/727eef13f7c7d7f3",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/727eef13f7c7d7f3/contents/11ac94870d0bb33a3965e0f840b45667/display"
     },
-    "time": "2021-04-09T00:18:36.410607",
     "consensus": "https://usegalaxy.eu/api/histories/873523fc5511ff3d"
   },
   "b735aa2d879f7620": {
@@ -13000,11 +14141,11 @@
       "ERR5436762",
       "ERR5436763"
     ],
+    "time": "2021-04-09T03:26:39.732277",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/c0eb60b55dd152c3",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/c0eb60b55dd152c3/contents/11ac94870d0bb33aaff855f30be48c7c/display"
     },
-    "time": "2021-04-09T03:26:39.732277",
     "consensus": "https://usegalaxy.eu/api/histories/164ab88d2bcb06c6"
   },
   "499aee77365a3af7": {
@@ -13098,11 +14239,11 @@
       "ERR5461590",
       "ERR5461591"
     ],
+    "time": "2021-04-08T12:12:02.035602",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/926beb9fc8f41b4e",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/926beb9fc8f41b4e/contents/11ac94870d0bb33a00d4d6dce1affeec/display"
     },
-    "time": "2021-04-08T12:12:02.035602",
     "consensus": "https://usegalaxy.eu/api/histories/42207bdd57bc064a"
   },
   "add05c7e4823ef8a": {
@@ -13431,11 +14572,11 @@
       "ERR5461911",
       "ERR5461912"
     ],
+    "time": "2021-04-16T21:11:58.806880",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/a9e817e1f03771bf",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/a9e817e1f03771bf/contents/11ac94870d0bb33af8d773cf9835d22d/display"
     },
-    "time": "2021-04-16T21:11:58.806880",
     "consensus": "https://usegalaxy.eu/api/histories/b069b93d74812a39"
   },
   "3d890cd1ea582de9": {
@@ -13795,11 +14936,11 @@
       "ERR5452423",
       "ERR5452424"
     ],
+    "time": "2021-04-06T18:19:27.223142",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/5949c0cea3af7d81",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/5949c0cea3af7d81/contents/11ac94870d0bb33afcc9bfafbc165b9d/display"
     },
-    "time": "2021-04-06T18:19:27.223142",
     "consensus": "https://usegalaxy.eu/api/histories/4e9ba4d947c5b8ce"
   },
   "3d2643cf1a6167f0": {
@@ -14167,11 +15308,11 @@
       "ERR5461273",
       "ERR5461274"
     ],
+    "time": "2021-04-06T15:40:10.137016",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/2c8ba61f7721cb12",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/2c8ba61f7721cb12/contents/11ac94870d0bb33a8d92cd7b730fa906/display"
     },
-    "time": "2021-04-06T15:40:10.137016",
     "consensus": "https://usegalaxy.eu/api/histories/6db216b9cc684347"
   },
   "ffefa23d64a12f74": {
@@ -14506,11 +15647,11 @@
       "ERR5452101",
       "ERR5452102"
     ],
+    "time": "2021-04-05T12:24:03.798344",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/539678fdcd83f2f0",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/539678fdcd83f2f0/contents/11ac94870d0bb33a36cbee00f1b5371f/display"
     },
-    "time": "2021-04-05T12:24:03.798344",
     "consensus": "https://usegalaxy.eu/api/histories/e31933e6f4c28ab4"
   },
   "5cf62e14cf555f32": {
@@ -14872,11 +16013,11 @@
       "ERR5458584",
       "ERR5458585"
     ],
+    "time": "2021-04-05T15:30:00.246655",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/16eae84526b4411b",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/16eae84526b4411b/contents/11ac94870d0bb33aa347e11e6e27c63f/display"
     },
-    "time": "2021-04-05T15:30:00.246655",
     "consensus": "https://usegalaxy.eu/api/histories/e7b124184b2ea67c"
   },
   "e6aeefff2ef07846": {
@@ -15240,11 +16381,11 @@
       "ERR5453541",
       "ERR5453542"
     ],
+    "time": "2021-04-05T18:27:52.252717",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/470787ae25c46488",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/470787ae25c46488/contents/11ac94870d0bb33a468625a2e6ee1219/display"
     },
-    "time": "2021-04-05T18:27:52.252717",
     "consensus": "https://usegalaxy.eu/api/histories/aa920e61a5ad3e03"
   },
   "8d09e7bdc275f430": {
@@ -15511,11 +16652,11 @@
       "ERR5434904",
       "ERR5434905"
     ],
+    "time": "2021-04-05T21:39:12.778525",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/35c0fb1caecaa920",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/35c0fb1caecaa920/contents/11ac94870d0bb33aa9af73428ac40f0a/display"
     },
-    "time": "2021-04-05T21:39:12.778525",
     "consensus": "https://usegalaxy.eu/api/histories/4dea65fd7a240bdf"
   },
   "8a622b965a0f7abb": {
@@ -15893,11 +17034,11 @@
       "ERR5434996",
       "ERR5434997"
     ],
+    "time": "2021-04-06T00:21:23.868687",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/879df18f7d9d5fa3",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/879df18f7d9d5fa3/contents/11ac94870d0bb33aa2afdde6db41e639/display"
     },
-    "time": "2021-04-06T00:21:23.868687",
     "consensus": "https://usegalaxy.eu/api/histories/4e64d24fab8e99d6"
   },
   "7f876bfe2ea52796": {
@@ -16210,11 +17351,11 @@
       "ERR5451865",
       "ERR5451866"
     ],
+    "time": "2021-04-06T03:22:47.055625",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/d5066dbcfcd4f63a",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/d5066dbcfcd4f63a/contents/11ac94870d0bb33a7267b1d526855de0/display"
     },
-    "time": "2021-04-06T03:22:47.055625",
     "consensus": "https://usegalaxy.eu/api/histories/1225cd60f73d5fa0"
   },
   "5cd6b330d27eb8f4": {
@@ -16585,11 +17726,11 @@
       "ERR5434811",
       "ERR5434812"
     ],
+    "time": "2021-04-06T06:26:06.359974",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/93e6c3d35a4c9d9d",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/93e6c3d35a4c9d9d/contents/11ac94870d0bb33a4d09648c8ff94065/display"
     },
-    "time": "2021-04-06T06:26:06.359974",
     "consensus": "https://usegalaxy.eu/api/histories/a65dbb1bf4493b1e"
   },
   "ab65278a654c51f5": {
@@ -16937,11 +18078,11 @@
       "ERR5434821",
       "ERR5434822"
     ],
+    "time": "2021-04-02T05:30:14.974559",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/b3756213a41819f5",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/b3756213a41819f5/contents/11ac94870d0bb33af28d2d4066d5d480/display"
     },
-    "time": "2021-04-02T05:30:14.974559",
     "consensus": "https://usegalaxy.eu/api/histories/68b42c5cc29085d6"
   },
   "fc6fd490a9449304": {
@@ -17296,11 +18437,11 @@
       "ERR5397336",
       "ERR5397337"
     ],
+    "time": "2021-04-06T10:21:22.006992",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/a9751d9c37eef154",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/a9751d9c37eef154/contents/11ac94870d0bb33ad05a03f02fa15b06/display"
     },
-    "time": "2021-04-06T10:21:22.006992",
     "consensus": "https://usegalaxy.eu/api/histories/36a931e6242d8d80"
   },
   "eeba2f1c65b1321c": {
@@ -17677,11 +18818,11 @@
       "ERR5397434",
       "ERR5397435"
     ],
+    "time": "2021-04-18T21:47:33.803231",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/ce8cc7fcb7e18048",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/ce8cc7fcb7e18048/contents/11ac94870d0bb33ab25efcc93dc52cc4/display"
     },
-    "time": "2021-04-18T21:47:33.803231",
     "consensus": "https://usegalaxy.eu/api/histories/50ddaf349dc88d0e"
   },
   "d79633ec0e563697": {
@@ -18054,11 +19195,11 @@
       "ERR5397317",
       "ERR5397318"
     ],
+    "time": "2021-04-18T22:55:58.089985",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/195524cdd5fc2adb",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/195524cdd5fc2adb/contents/11ac94870d0bb33a35bbb2936dac7360/display"
     },
-    "time": "2021-04-18T22:55:58.089985",
     "consensus": "https://usegalaxy.eu/api/histories/e818c1f81a3e7913"
   },
   "3ca7a578085e5466": {
@@ -18417,11 +19558,11 @@
       "ERR5397212",
       "ERR5397213"
     ],
+    "time": "2021-04-13T18:52:09.771012",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/d08e910429f975ad",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/d08e910429f975ad/contents/11ac94870d0bb33a8db6a0f8f19ae7e3/display"
     },
-    "time": "2021-04-13T18:52:09.771012",
     "consensus": "https://usegalaxy.eu/api/histories/c7ea5dabf40ffbdb"
   },
   "432e5b40837b4b7f": {
@@ -18778,11 +19919,11 @@
       "ERR5434489",
       "ERR5434490"
     ],
+    "time": "2021-04-13T23:50:26.263240",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/77eca11f69c11a8d",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/77eca11f69c11a8d/contents/11ac94870d0bb33a0eafe0fa15d7682b/display"
     },
-    "time": "2021-04-13T23:50:26.263240",
     "consensus": "https://usegalaxy.eu/api/histories/4f00810a3ca58558"
   },
   "c7994effc75e0b62": {
@@ -19153,11 +20294,11 @@
       "ERR5392890",
       "ERR5392891"
     ],
+    "time": "2021-04-10T18:39:50.991459",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/cf9b2b120b946f14",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/cf9b2b120b946f14/contents/11ac94870d0bb33a961e11beff4ea066/display"
     },
-    "time": "2021-04-10T18:39:50.991459",
     "consensus": "https://usegalaxy.eu/api/histories/a4e470e45f58982e"
   },
   "b00b774dd509d517": {
@@ -19501,11 +20642,11 @@
       "ERR5392527",
       "ERR5392528"
     ],
+    "time": "2021-04-11T15:50:30.029503",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/085fa082df8276bf",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/085fa082df8276bf/contents/11ac94870d0bb33a34deb4e96ed73c59/display"
     },
-    "time": "2021-04-11T15:50:30.029503",
     "consensus": "https://usegalaxy.eu/api/histories/c5f43e34a20d7773"
   },
   "93c959fd8427f942": {
@@ -19877,11 +21018,11 @@
       "ERR5397102",
       "ERR5397103"
     ],
+    "time": "2021-04-14T02:06:29.967810",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/25ef7aacf2c16ccf",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/25ef7aacf2c16ccf/contents/11ac94870d0bb33ae54f2c59e787675b/display"
     },
-    "time": "2021-04-14T02:06:29.967810",
     "consensus": "https://usegalaxy.eu/api/histories/e872f4f01af1f297"
   },
   "092e5c90f6818c31": {
@@ -20142,11 +21283,11 @@
       "ERR5421836",
       "ERR5421837"
     ],
+    "time": "2021-04-14T08:18:03.266765",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/56adb3d0b6d195c9",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/56adb3d0b6d195c9/contents/11ac94870d0bb33a6770ad3990fff5a8/display"
     },
-    "time": "2021-04-14T08:18:03.266765",
     "consensus": "https://usegalaxy.eu/api/histories/cd391d22fee23935"
   },
   "5842699f5e61ecd4": {
@@ -20525,11 +21666,11 @@
       "ERR5391629",
       "ERR5391630"
     ],
+    "time": "2021-04-14T10:03:29.192437",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/fa4e79715dd18f6b",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/fa4e79715dd18f6b/contents/11ac94870d0bb33ab1322c4a21bfcc72/display"
     },
-    "time": "2021-04-14T10:03:29.192437",
     "consensus": "https://usegalaxy.eu/api/histories/8f11e7a29231d6d6"
   },
   "8848f1342daec65c": {
@@ -20897,11 +22038,11 @@
       "ERR5390233",
       "ERR5390234"
     ],
+    "time": "2021-03-29T21:31:05.573854",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/c60ffd0d1ca87d2a",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/c60ffd0d1ca87d2a/contents/11ac94870d0bb33a574cd1fd49c0e6be/display"
     },
-    "time": "2021-03-29T21:31:05.573854",
     "consensus": "https://usegalaxy.eu/api/histories/a1b5a2966e80c70c"
   },
   "7ebdb675783e4570": {
@@ -20993,11 +22134,11 @@
       "ERR5388772",
       "ERR5388773"
     ],
+    "time": "2021-03-29T12:11:38.777005",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/a74daecf509f9846",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/a74daecf509f9846/contents/11ac94870d0bb33a02f437b7137e461c/display"
     },
-    "time": "2021-03-29T12:11:38.777005",
     "consensus": "https://usegalaxy.eu/api/histories/8b00855593eb2cb4"
   },
   "a66538dba799beec": {
@@ -21024,11 +22165,11 @@
       "ERR5388792",
       "ERR5388793"
     ],
+    "time": "2021-03-27T18:43:31.457732",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/5c43da9d56d35b75",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/5c43da9d56d35b75/contents/11ac94870d0bb33aa860f429b42c85d0/display"
     },
-    "time": "2021-03-27T18:43:31.457732",
     "consensus": "https://usegalaxy.eu/api/histories/08620a6050ed77b9"
   },
   "ffc5d29b85a9e89b": {
@@ -21037,11 +22178,11 @@
     "samples": [
       "ERR5388774"
     ],
+    "time": "2021-03-27T04:05:40.443455",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/1d9d1caa391b0ecf",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/1d9d1caa391b0ecf/contents/11ac94870d0bb33a620c084e0116b277/display"
     },
-    "time": "2021-03-27T04:05:40.443455",
     "consensus": "https://usegalaxy.eu/api/histories/5ef353d0f3830557"
   },
   "2167b03f6af1747b": {
@@ -21050,11 +22191,11 @@
     "samples": [
       "ERR5434482"
     ],
+    "time": "2021-03-27T02:33:20.464282",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/3f741397f0dc2ffb",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/3f741397f0dc2ffb/contents/11ac94870d0bb33ae8fe76bf8f47844b/display"
     },
-    "time": "2021-03-27T02:33:20.464282",
     "consensus": "https://usegalaxy.eu/api/histories/6d6630e2ff22e0fd"
   },
   "f343db7355338afd": {
@@ -21096,11 +22237,11 @@
       "ERR5388688",
       "ERR5388689"
     ],
+    "time": "2021-03-27T01:06:06.166522",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/b2044e8ae0aba02a",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/b2044e8ae0aba02a/contents/11ac94870d0bb33a9fbf01f8bdbee1a0/display"
     },
-    "time": "2021-03-27T01:06:06.166522",
     "consensus": "https://usegalaxy.eu/api/histories/90f19125b5d9e450"
   },
   "084d0887373686a3": {
@@ -21109,11 +22250,11 @@
     "samples": [
       "ERR5434481"
     ],
+    "time": "2021-04-16T21:33:18.409007",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/1c4312f4b7b7f399",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/1c4312f4b7b7f399/contents/11ac94870d0bb33aa64275ea6c57d96a/display"
     },
-    "time": "2021-04-16T21:33:18.409007",
     "consensus": "https://usegalaxy.eu/api/histories/96296b1ea4b19a2d"
   },
   "73b255d48e5ef474": {
@@ -21122,11 +22263,11 @@
     "samples": [
       "ERR5434480"
     ],
+    "time": "2021-04-16T22:07:25.554239",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/35ee489d32ac4ae4",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/35ee489d32ac4ae4/contents/11ac94870d0bb33ac3c1a812d35dbd7b/display"
     },
-    "time": "2021-04-16T22:07:25.554239",
     "consensus": "https://usegalaxy.eu/api/histories/417412ce7f139cbc"
   },
   "390d2c229a628173": {
@@ -21135,11 +22276,11 @@
     "samples": [
       "ERR5434479"
     ],
+    "time": "2021-04-16T23:22:37.852908",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/f07967714da72ca7",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/f07967714da72ca7/contents/11ac94870d0bb33ace0817e4ab5e9c3d/display"
     },
-    "time": "2021-04-16T23:22:37.852908",
     "consensus": "https://usegalaxy.eu/api/histories/7a3a8550ab202f6e"
   },
   "eca083d86bc3d6f3": {
@@ -21149,11 +22290,11 @@
       "ERR5451836",
       "ERR5451837"
     ],
+    "time": "2021-04-16T23:28:36.870601",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/8a5d5df04b46e769",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/8a5d5df04b46e769/contents/11ac94870d0bb33af901f5ee2626778c/display"
     },
-    "time": "2021-04-16T23:28:36.870601",
     "consensus": "https://usegalaxy.eu/api/histories/245037c9ba489acf"
   },
   "23191ca01f1766fd": {
@@ -21505,409 +22646,11 @@
       "ERR5382925",
       "ERR5382926"
     ],
+    "time": "2021-03-25T00:35:23.537081",
     "report": {
       "history_link": "https://usegalaxy.eu/api/histories/f0259338745b65f2",
       "datamonkey_link": "https://usegalaxy.eu/api/histories/f0259338745b65f2/contents/11ac94870d0bb33aeafc0abdec27a420/display"
     },
-    "time": "2021-03-25T00:35:23.537081",
     "consensus": "https://usegalaxy.eu/api/histories/b1e3229504219b4e"
-  },
-  "4f9e24f6f6fcaa1a": {
-    "batch_id": "NT1666240A",
-    "variation": "https://usegalaxy.eu/api/histories/4f9e24f6f6fcaa1a",
-    "samples": [
-      "ERR5549750",
-      "ERR5549751",
-      "ERR5549752",
-      "ERR5549753",
-      "ERR5549754",
-      "ERR5549755",
-      "ERR5549756",
-      "ERR5549757",
-      "ERR5549758",
-      "ERR5549759",
-      "ERR5549760",
-      "ERR5549761",
-      "ERR5549762",
-      "ERR5549763",
-      "ERR5549764",
-      "ERR5549765",
-      "ERR5549766",
-      "ERR5549767",
-      "ERR5549768",
-      "ERR5549769",
-      "ERR5549770",
-      "ERR5549771",
-      "ERR5549772",
-      "ERR5549773",
-      "ERR5549774",
-      "ERR5549775",
-      "ERR5549776",
-      "ERR5549777",
-      "ERR5549778",
-      "ERR5549779",
-      "ERR5549780",
-      "ERR5549781",
-      "ERR5549782",
-      "ERR5549783",
-      "ERR5549784",
-      "ERR5549785",
-      "ERR5549786",
-      "ERR5549787",
-      "ERR5549788",
-      "ERR5549789",
-      "ERR5549790"
-    ],
-    "time": "2021-04-20T08:11:40.719874",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/e4bcc49ba113502b",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/e4bcc49ba113502b/contents/11ac94870d0bb33af882d04d9491d328/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/daedd14eddf24e95"
-  },
-  "90a960ebeaa9f8b9": {
-    "batch_id": "NT1666103P",
-    "variation": "https://usegalaxy.eu/api/histories/90a960ebeaa9f8b9",
-    "samples": [
-      "ERR5549266",
-      "ERR5549267",
-      "ERR5549268",
-      "ERR5549269",
-      "ERR5549270",
-      "ERR5549271",
-      "ERR5549272",
-      "ERR5549273",
-      "ERR5549274",
-      "ERR5549275"
-    ],
-    "time": "2021-04-19T21:53:05.322299",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/f3ca55dd525e4bc1",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/f3ca55dd525e4bc1/contents/11ac94870d0bb33af0f15e1d6d63b742/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/bf225e9581635a46"
-  },
-  "11fd78ad2ca8f7b5": {
-    "batch_id": "NT1666083F",
-    "variation": "https://usegalaxy.eu/api/histories/11fd78ad2ca8f7b5",
-    "samples": [
-      "ERR5549296",
-      "ERR5549297",
-      "ERR5549298",
-      "ERR5549299",
-      "ERR5549300",
-      "ERR5549301",
-      "ERR5549302"
-    ],
-    "time": "2021-04-19T22:23:48.745206",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/beeff8243a09a044",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/beeff8243a09a044/contents/11ac94870d0bb33afc5632914e7cb561/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/a889628b056b4c86"
-  },
-  "fbd5839a0596b4b9": {
-    "batch_id": "NT1666078I",
-    "variation": "https://usegalaxy.eu/api/histories/fbd5839a0596b4b9",
-    "samples": [
-      "ERR5549282",
-      "ERR5549283",
-      "ERR5549284",
-      "ERR5549285",
-      "ERR5549286",
-      "ERR5549287",
-      "ERR5549288",
-      "ERR5549289",
-      "ERR5549290",
-      "ERR5549291",
-      "ERR5549292",
-      "ERR5549293",
-      "ERR5549294",
-      "ERR5549295",
-      "ERR5643744",
-      "ERR5654922"
-    ],
-    "time": "2021-04-19T21:49:11.409619",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/bd3b167df332f619",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/bd3b167df332f619/contents/11ac94870d0bb33a57f40d98c467123b/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/a338dd100a30fe78"
-  },
-  "d1e29a482a7665de": {
-    "batch_id": "NT1666059F",
-    "variation": "https://usegalaxy.eu/api/histories/d1e29a482a7665de",
-    "samples": [
-      "ERR5549257",
-      "ERR5549258",
-      "ERR5549259",
-      "ERR5549260",
-      "ERR5549261",
-      "ERR5549262",
-      "ERR5549263",
-      "ERR5549264",
-      "ERR5549265"
-    ],
-    "time": "2021-04-19T20:24:33.761932",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/d184ce0767e41d80",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/d184ce0767e41d80/contents/11ac94870d0bb33a9afa297c396985b0/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/3d7ff8190ff84ccb"
-  },
-  "2695b28869d9f261": {
-    "batch_id": "NT1666055B",
-    "variation": "https://usegalaxy.eu/api/histories/2695b28869d9f261",
-    "samples": [
-      "ERR5549214",
-      "ERR5549215",
-      "ERR5549216",
-      "ERR5549217",
-      "ERR5549218",
-      "ERR5549219",
-      "ERR5549220",
-      "ERR5549221",
-      "ERR5549222"
-    ],
-    "time": "2021-04-19T19:33:33.214961",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/111593ece718b181",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/111593ece718b181/contents/11ac94870d0bb33a5d8433bf4197dfa6/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/7fe77129366299a9"
-  },
-  "1fd70559f26e62a9": {
-    "batch_id": "NT1666053W",
-    "variation": "https://usegalaxy.eu/api/histories/1fd70559f26e62a9",
-    "samples": [
-      "ERR5549211",
-      "ERR5549212",
-      "ERR5549213"
-    ],
-    "time": "2021-04-19T21:37:33.507653",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/25ef99108418e5af",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/25ef99108418e5af/contents/11ac94870d0bb33a7e7c286321c0878a/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/f297319c8442979c"
-  },
-  "2a2a32d22efb9c23": {
-    "batch_id": "NT1666049D",
-    "variation": "https://usegalaxy.eu/api/histories/2a2a32d22efb9c23",
-    "samples": [
-      "ERR5549224",
-      "ERR5549225",
-      "ERR5549226"
-    ],
-    "time": "2021-04-19T18:24:14.565276",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/32e1b9646e2befea",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/32e1b9646e2befea/contents/11ac94870d0bb33aa79fad959841f892/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/f567de87ce66e1e1"
-  },
-  "c14b095c57295477": {
-    "batch_id": "NT1666042T",
-    "variation": "https://usegalaxy.eu/api/histories/c14b095c57295477",
-    "samples": [
-      "ERR5549616",
-      "ERR5549617",
-      "ERR5549618",
-      "ERR5549619",
-      "ERR5549620",
-      "ERR5549621",
-      "ERR5549622",
-      "ERR5549623",
-      "ERR5549624",
-      "ERR5549625",
-      "ERR5549626",
-      "ERR5549627",
-      "ERR5549628",
-      "ERR5549629",
-      "ERR5549630",
-      "ERR5549631",
-      "ERR5549632",
-      "ERR5549633",
-      "ERR5549634",
-      "ERR5549635",
-      "ERR5549636",
-      "ERR5549637",
-      "ERR5549638",
-      "ERR5549639",
-      "ERR5549640",
-      "ERR5549641",
-      "ERR5549642",
-      "ERR5549643",
-      "ERR5549644",
-      "ERR5549645",
-      "ERR5549646",
-      "ERR5549647",
-      "ERR5549648",
-      "ERR5549649",
-      "ERR5549650",
-      "ERR5549651",
-      "ERR5549652",
-      "ERR5549653",
-      "ERR5549654",
-      "ERR5549655",
-      "ERR5549656",
-      "ERR5549657",
-      "ERR5549658",
-      "ERR5549659",
-      "ERR5549660",
-      "ERR5549661",
-      "ERR5549662",
-      "ERR5549663",
-      "ERR5549664",
-      "ERR5549665",
-      "ERR5549666",
-      "ERR5549667",
-      "ERR5549668",
-      "ERR5549669",
-      "ERR5549670",
-      "ERR5549671",
-      "ERR5549672",
-      "ERR5549673",
-      "ERR5549674",
-      "ERR5549675",
-      "ERR5549676",
-      "ERR5549677",
-      "ERR5549678",
-      "ERR5549679",
-      "ERR5549680",
-      "ERR5549681",
-      "ERR5549682",
-      "ERR5549683",
-      "ERR5549684",
-      "ERR5549685",
-      "ERR5549686",
-      "ERR5549687",
-      "ERR5549688",
-      "ERR5549689",
-      "ERR5549690",
-      "ERR5549691",
-      "ERR5549692",
-      "ERR5549693",
-      "ERR5549694",
-      "ERR5549695",
-      "ERR5549696",
-      "ERR5549697",
-      "ERR5549698",
-      "ERR5549699",
-      "ERR5549700",
-      "ERR5549701",
-      "ERR5549702",
-      "ERR5549703",
-      "ERR5549704",
-      "ERR5549705",
-      "ERR5549706",
-      "ERR5549707",
-      "ERR5549708",
-      "ERR5549709",
-      "ERR5549710",
-      "ERR5549711",
-      "ERR5549712",
-      "ERR5549713",
-      "ERR5549714",
-      "ERR5549715",
-      "ERR5549716",
-      "ERR5549717",
-      "ERR5549718",
-      "ERR5549719",
-      "ERR5549720",
-      "ERR5549721",
-      "ERR5549722",
-      "ERR5549723",
-      "ERR5549724",
-      "ERR5549725",
-      "ERR5549726",
-      "ERR5549727",
-      "ERR5549728",
-      "ERR5549729",
-      "ERR5549730",
-      "ERR5549731",
-      "ERR5549732",
-      "ERR5549733",
-      "ERR5549734",
-      "ERR5549735",
-      "ERR5549736",
-      "ERR5549737",
-      "ERR5549738",
-      "ERR5549739",
-      "ERR5549740",
-      "ERR5549741",
-      "ERR5549742",
-      "ERR5549743",
-      "ERR5549744",
-      "ERR5549745",
-      "ERR5549746",
-      "ERR5549747",
-      "ERR5549748",
-      "ERR5549749"
-    ],
-    "time": "2021-04-19T16:08:47.332328",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/f45e364cdb56d958",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/f45e364cdb56d958/contents/11ac94870d0bb33a06876777e061e221/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/7a4df4bef7ea15af"
-  },
-  "f73c9096be63c537": {
-    "batch_id": "NT1666031Q",
-    "variation": "https://usegalaxy.eu/api/histories/f73c9096be63c537",
-    "samples": [
-      "ERR5549570",
-      "ERR5549571",
-      "ERR5549572",
-      "ERR5549573",
-      "ERR5549574",
-      "ERR5549575",
-      "ERR5549576",
-      "ERR5549577",
-      "ERR5549578",
-      "ERR5549579",
-      "ERR5549580",
-      "ERR5549581",
-      "ERR5549582",
-      "ERR5549583",
-      "ERR5549584",
-      "ERR5549585",
-      "ERR5549586",
-      "ERR5549587",
-      "ERR5549588",
-      "ERR5549589",
-      "ERR5549590",
-      "ERR5549591",
-      "ERR5549592",
-      "ERR5549593",
-      "ERR5549594",
-      "ERR5549595",
-      "ERR5549596",
-      "ERR5549597",
-      "ERR5549598",
-      "ERR5549599",
-      "ERR5549600",
-      "ERR5549601",
-      "ERR5549602",
-      "ERR5549603",
-      "ERR5549604",
-      "ERR5549605",
-      "ERR5549606",
-      "ERR5549607",
-      "ERR5549608",
-      "ERR5549609",
-      "ERR5549610",
-      "ERR5549611",
-      "ERR5549612",
-      "ERR5549613",
-      "ERR5549614",
-      "ERR5549615"
-    ],
-    "time": "2021-04-19T13:53:12.024299",
-    "report": {
-      "history_link": "https://usegalaxy.eu/api/histories/e995a3f0a9499582",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/e995a3f0a9499582/contents/11ac94870d0bb33a62977e173237b85b/display"
-    },
-    "consensus": "https://usegalaxy.eu/api/histories/347ca8410df29d84"
   }
 }
