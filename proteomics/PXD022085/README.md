@@ -10,7 +10,7 @@ title: Reanalysis of PXD022085
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/subina/h/pxd022085inputfiles" alt="Raw data" /> |
 | <FlatShield label="PXD022085 history" message="view" href="https://usegalaxy.eu/u/arajczewski/h/imported-pxd022085-balf-samples-2" alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/imported-imported-pxd019119-workflow-for-pq-and-lk-08202020" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/arajczewski/w/imported-workflow-for-covid-19-peptide-validation-pxd018094-and-pxd022085" /> |
 
 
 ## Description
