@@ -8,8 +8,8 @@ title: Reanalysis of PXD022085
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
-| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119inputcovid19pqlk " alt="Raw data" /> |
-| <FlatShield label="PXD022085 history" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd019119searchcovid19pqlk-09032020" alt="Galaxy history" /> |
+| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/subina/h/pxd022085inputfiles" alt="Raw data" /> |
+| <FlatShield label="PXD022085 history" message="view" href="https://usegalaxy.eu/u/arajczewski/h/imported-pxd022085-balf-samples-2" alt="Galaxy history" /> |
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/imported-imported-pxd019119-workflow-for-pq-and-lk-08202020" /> |
 
 
