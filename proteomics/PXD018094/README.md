@@ -8,9 +8,10 @@ title: Reanalysis of PXD018094
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
-| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/pxd018241-inputs-for-pepquery-and-lorikeet-analysis  " alt="Raw data" /> |
-| <FlatShield label="PXD018094 history1" message="view" href="https://usegalaxy.eu/u/pratikjagtap/h/1pxd018241-dataset-collection-search-for-raw01and02-pepquery-and-lorikeet-analysis-09092020 " alt="Galaxy history" /> |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/pratikjagtap/w/imported-single-dataset-pxd018241-workflow-for-pq-and-lk08222020" /> |
+| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/subina/h/pxd018094-lung-samples" alt="Raw data" /> |
+| <FlatShield label="PXD018094 normal history" message="view" href="https://usegalaxy.eu/u/arajczewski/h/imported-pxd018094-lung-samples-normal" alt="Galaxy history" /> |
+| <FlatShield label="PXD018094 infected history" message="view" href="https://usegalaxy.eu/u/arajczewski/h/imported-pxd018094-lung-samples-infected" alt="Galaxy history" /> |
+| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/arajczewski/w/imported-workflow-for-covid-19-peptide-validation-pxd018094-and-pxd022085" /> |
 
 
 ## Description
