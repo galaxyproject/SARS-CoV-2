@@ -28,5 +28,5 @@ Human Uniprot proteome, contaminant proteins and SARS-Cov-2 proteins database us
 
 ## Results
 
-We detected 35 COVID-19 peptides in the nasopharyngeal swab samples. The peptides were subjected to BLAST-P andLorikeet analysis to ascertain the validity of peptide spectral matches. Our results validated the presence of peptide "**DGIIWVATEGALNTPK**" with good spectral quality.
+We detected 35 COVID-19 peptides in the nasopharyngeal swab samples. The peptides were subjected to BLAST-P and Lorikeet analysis to ascertain the validity of peptide spectral matches. Our results validated the presence of peptide "**DGIIWVATEGALNTPK**" with good spectral quality.
 
