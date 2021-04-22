@@ -31,7 +31,7 @@ The detected peptides were later subjected to analysis by Lorikeet visualization
 
 ## Results
 
-We detected 39 COVID-19 peptides from all pooled samples in the upper respiratory tract datasets. We detected 39 SARS-CoV2 peptides from positive patients , 2 SARS-CoV2 peptides from negative patient samples. The peptides were subjected to BLAST-P andLorikeet analysis to ascertain the validity of peptide spectral matches. The validation of the spectral quality showed the presence of the peptides "**MAGNGGDAALALLLLDR**", "**DGIIWVATEGALNTPK**", "**RGPEQTQGNFGDQELIR**", and "**IGMEVTPSGTWLTYTGAIK**" in COVID-19 positive patients.
+We detected 39 COVID-19 peptides from all pooled samples in the upper respiratory tract datasets. We detected 39 SARS-CoV2 peptides from positive patients , 9 SARS-CoV2 peptides from negative patient samples. The peptides were subjected to BLAST-P andLorikeet analysis to ascertain the validity of peptide spectral matches. The validation of the spectral quality showed the presence of the peptides "**MAGNGGDAALALLLLDR**", "**DGIIWVATEGALNTPK**", "**RGPEQTQGNFGDQELIR**", and "**IGMEVTPSGTWLTYTGAIK**" in COVID-19 positive patients.
 
 
 
