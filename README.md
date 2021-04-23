@@ -8,6 +8,8 @@ The goal of this resource is to provide publicly accessible infrastructure
 and workflows for SARS-CoV-2 data analyses. We currently feature three
 different types of analyses: [Genomics](#genomics), [Cheminformatics](#cheminformatics), and [Proteomics](#proteomics).
 
+<!-- See `.vuepress/componenents/Monitoring.vue` to edit the monitoring block -->
+<Monitoring />
 <!-- See `.vuepress/componenents/HomeFeatures.vue` to edit the homepage feature blocks -->
 <HomeFeatures />
 
