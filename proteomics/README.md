@@ -15,15 +15,19 @@ Powered by:
 
 Mass spectrometry (MS) based datasets (both from peer-reviewed manuscripts and preprint version) are now available
 via [ProteomeXchange](https://massive.ucsd.edu/ProteoSAFe/static/corona-mass-kb.jsp) and
-[PRIDE](https://www.ebi.ac.uk/pride/archive?filter=project_tags_facet%3D%3DSars-cov-2). Here, we demonstrate the use of Galaxy workflows to reanalyze MS datasets from cell culture samples (PXD018804, PXD018241, PXD018594), clinical samples (PXD018682, PXD021328, PXD019423, PXD020394) and protein-protein interaction datasets (PXD018117). We also performed metaproteomics analysis on three clinical samples (PXD021328, PXD019423, PXD020394). 
+[PRIDE](https://www.ebi.ac.uk/pride/archive?filter=project_tags_facet%3D%3DSars-cov-2). Here, we demonstrate the use of Galaxy workflows to reanalyze MS datasets from cell culture samples (PXD018804, PXD018241, PXD018594), clinical samples (PXD018682, PXD021328, PXD019423, PXD020394, PXD023016,PXD025214, PXD018094, PXD022085) and protein-protein interaction datasets (PXD018117). We also performed metaproteomics analysis on three clinical samples (PXD021328, PXD019423, PXD020394). 
 
   * [SARS-Cov-2-human-protein-protein interaction (PXD018117 from Krogan Lab)](PXD018117)
   * [Proteomics analysis of SARS-CoV-2 infected cell culture samples (PXD018241 from Matthews lab)](PXD018241)
   * [Proteomics analysis of time-course data from SARS-CoV-2 infected cell culture samples(PXD018594 from Armengaud lab)](PXD018594)
-  * [Deep proteomic analysis of CoviD-19 virus infected Vero cells. (PXD018804 from Armengaud Lab)](PXD018804)
+  * [Deep proteomic analysis of COVID-19 virus infected Vero cells. (PXD018804 from Armengaud Lab)](PXD018804)
   * [Proteomics analysis of Gargling samples from CoviD-19 infected patients (PXD019423 from Sinz Lab)](PXD019423)
   * [Proteomics analysis of naso-pharyngeal swabs samples from COVID-19 infected and non-infected individuals (PXD020394 from Lima Lab)](PXD020394)
-  * [Proteomics analysis of respiratory tract samples from CoviD-19 infected patients(PXD019119 from Cardozo lab)](PXD021328)
+  * [Proteomics analysis of respiratory tract samples from CoviD-19 infected patients(PXD019119/PXD021328 from Cardozo lab)](PXD021328)
+  * [Proteomics analysis of COVID-19 lung tissues(PXD018094 from Zhong lab)](PXD018094)
+  * [Proteomic analysis of bronchoalveolar lavage fluid in COVID-19 patients(PXD022085 from Zeng lab)](PXD022085)
+  * [Proteomics analysis of naso-pharyngeal swabs samples from COVID-19 infected samples (PXD023016 from Srivastava lab)](PXD023016)
+  * [Proteomic analysis of upper respiratory sample COVID-19 patients (PXD025214from Carvalho lab)](PXD025214)
   
 ![](./img/CircosFinal.png)
   
