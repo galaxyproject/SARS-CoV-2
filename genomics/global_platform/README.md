@@ -115,14 +115,14 @@ When considering AVs with all AFs, the dominant patterns of co-occurrence were c
 
  **A**. Dot-plot of all allelic variants in the “Boston” dataset; rows – samples, columns – genomic coordinates; samples are arranged by hierarchical clustering. Limited to variants that occur in at least 4 samples.
 
-<iframe width="100%" height="796" frameborder="0"
-  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig1&auto=true"></iframe>
+<deferredIframe
+  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig1&auto=true" />
 
 
 **B**. Dot-plot of observed variants in the “Boston” dataset; restricted to variants that appear only at AF≤10% and occur in at least 4 samples each. Variants are partitioned into 10 clusters, using K-medoids using the Hamming distance on AF vectors; the cluster with 8 variants is highlighted in orange.
 
-<iframe width="100%" height="796" frameborder="0"
-  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig2&auto=true"></iframe>
+<deferredIframe
+  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig2&auto=true" />
 
 -----
 
@@ -209,8 +209,8 @@ Allelic-variants (AVs) with maximum allele frequency <80% overlapping with codon
 
 Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an [automated analysis system](https://github.com/simonbray/ena-cog-uk-wfs) that runs our ARTIC AV-calling workflow and the reporting workflow programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information is available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project (see below for FTP access).
 
-<iframe width="100%" height="1000" frameborder="0"
-  src="https://observablehq.com/embed/@spond/sars-cov-2-cog-uk?cell=*"></iframe>
+<deferredIframe
+  src="https://observablehq.com/embed/@spond/sars-cov-2-cog-uk?cell=*" />
 
 ### Processed COG-UK data
 
