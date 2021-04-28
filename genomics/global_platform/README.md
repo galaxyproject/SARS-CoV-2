@@ -6,126 +6,35 @@ title: Global platform
 
 [![DOI](https://img.shields.io/static/v1?label=DOI&message=doi:10.1101/2021.03.25.437046&color=red)](https://doi.org/10.1101/2021.03.25.437046)
 
+<div class="custom-block warning">
+This documents is divided into following sections:
+<hr>
+	<ol>
+		<li><a href="#what-is-this">What of our objective?</a></li>
+		<li><a href="#workflows-for-discovery-of-sequence-variants">Workflows for variant analysis</a></li>
+		<li><a href="#application-of-workflows-for-analysis-of-intrahost-variation">Initial application to Boston and early COG-UK data</a></li>
+		<li><a href="#continuous-analysis-of-pandemic-data-with-the-galaxy-api">Continuous monitoring of COG-UK data</a></li>
+		<li><a href="#how-do-i-use-it">How do I use it?</a></li>
+		<li><a href="http://localhost:8080/genomics/global_platform/#methods">Methods</a></li>
+	</ol>
+</div>
+
 ## What is this?
 
-This is an interactive companion to our [upcoming manuscript](https://doi.org/10.1101/2021.03.25.437046) describing a global Galaxy-based data analysis platform for analysis of SARS-CoV-2 allelic variation. As [Fig. 1](#figure-1) shows it works like this:
+This is a collection of Galaxy workflows for the detection and interpretation of sequence variants in SARS-CoV-2. It is free and can be immediately accessed from the [three](#run-workflows) global Galaxy instances. Each is capable of supporting thousands of users running hundreds of thousands of analyses per month. Anyone can create an account and obtain immediate access to as much computation as one might reasonably need (with a limit on the number of concurrent analyses) and 250 Gb of disk space, which can be increased based on the needs of an individual user. 
+
+As [Fig. 1](#figure-1) shows it works like this:
 
 1. You run an appropriate analysis [workflow](#table-1). This generates variant list tables;
 2. You then use Jupyter or Observable notebooks to interpret these tables;
 
-These workflows allow one to identify allelic variants in SARS-CoV-2 genome with frequencies ranging from 5% to 100%. 
+These workflows allow one to identify allelic variants in SARS-CoV-2 genomes with variant allele frequencies ranging from 5% to 100% (i.e., they detect variants with intermediate frequencies as well). 
 
-<div class="custom-block warning">
-This documents is organized in two sections:
-<hr>
-	<ol>
-		<li><a href="#how-do-i-use-it">A "How to?" guide on using our system</a></li>
-		<li><a href="#workflows-for-discovery-of-sequence-variants">A description of analyses we have done on existing data</a></li>
-	</ol>
-</div>
-
-## How do I use it?
-
-The workflows accept raw [fastq](https://en.wikipedia.org/wiki/FASTQ_format) reads as input. They can be run on either of the three global Galaxy instances:
-
- - Galaxy North America ([https://usegalaxy.org](https://usegalaxy.org))
- - Galaxy Europe ([https://usegalaxy.eu](https://usegalaxy.eu))
- - Galaxy Australia ([https://usegalaxy.org.au](https://usegalaxy.org.au))
-
-Pick one closest to you and create an account. Now you are ready to start the analysis.
-
-### Import History with an auxiliary datasets
-
-Import Galaxy history with auxiliary datasets. This will be your workspace. Depending on which Galaxy instance you have chosen (US, EU, or AU) and what kind of analysis you need to do (RNAseq or Ampliconic) click on a corresponding link in the table below:
-
-| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
-|------------------------------------------------|----|----|----|
-| ARTIC v3    | [![](https://img.shields.io/badge/ARTIC-Import-green)](https://usegalaxy.org/u/aun1/h/artic-v3) | [![](https://img.shields.io/badge/ARTIC-Import-green)](https://usegalaxy.eu/u/nekrut/h/artic-v3) | [![](https://img.shields.io/badge/ARTIC-Import-green)](https://usegalaxy.org.au/u/nekrut/h/artic-v3) |
-| RNAseq      | [![](https://img.shields.io/badge/WGS-Import-green)](https://usegalaxy.org/u/aun1/h/rnaseq)   | [![](https://img.shields.io/badge/WGS-Import-green)](https://usegalaxy.eu/u/nekrut/h/rnaseq)   | [![](https://img.shields.io/badge/WGS-Import-green)](https://usegalaxy.org.au/u/nekrut/h/rnaseq)   |
-
-You will see the history outline. Click on the <kbd>+</kbd> button to import the history into your account and start an analysis.
-
-<div class="custom-block tip">How to import history:<br><br>
-	<img src="figs/history_import_gif.gif"/></div>
-
-These auxiliary histories contain SARS-CoV-2 reference and gene name aliases (to give gene regions easily recognizable names). In addition, ARTIC histories contain two datasets describing the ARTIC primer scheme.
-
-### Upload your data
-
-Before you can begin any Galaxy analysis, you need to upload the data. Here are your choices for doing this. Depending of how many datasets and what their origin is, you can do the following:
-
-| Few datasets<br><small>(1-10)</small>  | Many datasets<br><small>(10-&#8734;)</small> | Import from [SRA](https://www.ncbi.nlm.nih.gov/sra) |
-|-----|------|------|
-| <iframe width="140" height="79" src="https://www.youtube.com/embed/FFCDx1rMGAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | <iframe width="140" height="79" src="https://www.youtube.com/embed/hC8KSuT_OP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | <iframe width="140" height="79" src="https://www.youtube.com/embed/Q4t-beYZ-do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
-
-### Organize your data into a collection
-
-Collections are a way to represent arbitrarily large sets of samples as a single entity, thus making downstream analysis very convenient.
-
-<div class="custom-block warning">If you uploaded data from SRA, it will already be organized as a collection! Go to the next step.</div>
-
-The following video shows how to create a single or paired collection depending on the type of data you have:
-
-| Type of collection | A very short demo |
-|-------------------|------|
-| Paired (Illumina data) | <iframe width="140" height="79" src="https://www.youtube.com/embed/6toVj35q1r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| Single (Illumina or ONT data) | <iframe width="140" height="79" src="https://www.youtube.com/embed/6ZU9hFjnRDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
-
-### Run workflows
-
-Depending on what kind of data you have (RNAseq or ARTIC / single or paired / Illumina or ONT) pick a workflow from the table below:
-
-| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
-|------------------------------------------------|----|----|----|
-| Illumina RNAseq PE | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=5a610d5a42d50cf3) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=e7ba6ca41d46baf2) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=bd1cf22d47389742) |
-| Illumina RNAseq SE | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=c092a3631d68ce38) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=6b41f7afbe14647d) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=31dbd313e5c8160b) |
-| Illumina ARTIC PE     | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=d4ea6cdd40522eb1) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=2f9fa06b1a927a07) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=7fd58f5fc93f414e) |
-| ONT ARTIC          | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=88d0b64011c3148c) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=17d7f9bddbc834f8) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=0c6f7bfc826433c4) |
-| Reporting          | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=2967ef82911f2cca) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=0d10c137a0f08bca) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=8e2b94c6fbf44368) |
-
-Click on the appropriate workflow and browser will open a new tab with Galaxy's workflow invocation interface. Fill in appropriate parameters and click <kbd>▶ Run workflow</kbd>.
-
-Once it completes, run the "Reporting workflow" on the output of the previous workflow. In the end it will generate two variant lists: one grouped by sample and one by variant (these datasets are described [here](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/var).)
-
-These data can now be analyzed in either Jupyter or ObservableHQ [notebooks](#table-3).
-
-### Using existing Jupyter notebook
-
-1. Open the notebook in Google Colaboratory: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/galaxyproject/SARS-CoV-2/blob/master/data/ipynb/intrahost.ipynb)
-2. Replace `per_sample_url` and `per_variant_url` with URLs of the dataset produced by the Reporting Workflow. For example:
-
-<div class="custom-block tip">How to copy URL of a galaxy dataset into Jupyter Notebook:<br><br>
-	<img src="figs/export_url_colab_gif.gif" style="align:middle" /></div>
-
-<!--
-
-### Creating a new Jupyter notebook
-
-### Using existing ObservableHQ notebook
-
--->
-
-### What if I want to modify workflows?
-
-Running workflows as described [above](#run-workflows) will run exactly as we designed them. But what if you want to modify them? In this case you can import then into your own Galaxy accounts and use workflow editor to perform any modification you like: change parameters, switch tools and so on.
-
-To do this first pick workflow from the table below:
-
-| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
-|------------------------------------------------|----|----|----|
-| Illumina RNAseq PE | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=5a610d5a42d50cf3) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=e7ba6ca41d46baf2) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=bd1cf22d47389742) |
-| Illumina RNAseq SE | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=c092a3631d68ce38) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=6b41f7afbe14647d) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=31dbd313e5c8160b) |
-| Illumina ARTIC PE     | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=d4ea6cdd40522eb1) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=2f9fa06b1a927a07) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=7fd58f5fc93f414e) |
-| ONT ARTIC          | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=88d0b64011c3148c) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=17d7f9bddbc834f8) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=0c6f7bfc826433c4) |
-| Reporting          | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=2967ef82911f2cca) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=0d10c137a0f08bca) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=8e2b94c6fbf44368) |
-
-Click on the <kbd>+</kbd> to import workflow into your account:
-
-<div class="custom-block tip">How to import workflow:<br><br>
-	<img src="figs/workflow_import_gif.gif" style="align:middle" /></div>
+#### Figure 1
+Analysis flow in our analysis system. VCF = variant call format, TSV = tab separated values, JSON = JavaScript Object Notation. 
 
 
-
+![](figs/fig2.png)
 
 
 ## Workflows for discovery of sequence variants
@@ -144,15 +53,6 @@ Workflow description. Clicking <kbd>EU</kbd>, <kbd>EU</kbd>, or <kbd>AU</kbd> bu
 |3.  Illumina ARTIC<br>[<kbd>EU</kbd>](https://usegalaxy.eu/u/wolfgang-maier/w/covid19-variation-analysis-on-artic-pe)[<kbd>US</kbd>](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis-on-artic-pe-data-1)[<kbd>AU</kbd>](https://usegalaxy.org.au/u/nekrut/w/covid-19-variation-analysis-on-artic-pe-data) |   Paired-end data generated with ARTIC protocols | `bwa-mem` | `lofreq` |
 |4.  ONT ARTIC<br>[<kbd>EU</kbd>](https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-variation-analysis-of-artic-ont-data)[<kbd>US</kbd>](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis-of-artic-ont-data)[<kbd>AU</kbd>](https://usegalaxy.org.au/u/nekrut/w/covid-19-variation-analysis-of-artic-ont-data ) |  ONT fastq files generated with ARTIC protocols | `minimap2` | `medaka` |
 |5.  Reporting<br>[<kbd>EU</kbd>](https://usegalaxy.eu/u/wolfgang-maier/w/covid19-variation-analysis-reporting)[<kbd>US</kbd>](https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis-reporting)[<kbd>AU</kbd>](https://usegalaxy.org.au/u/nekrut/w/covid-19-variation-analysis-reporting)| Output of any of the above workflows | - | - |
-
-----
-#### Figure 1
-Analysis flow in our analysis system. VCF = variant call format, TSV = tab separated values, JSON = JavaScript Object Notation. 
-
-
-![](figs/fig2.png)
-
-----
 
 ## Application of workflows for analysis of intrahost variation
 
@@ -215,14 +115,14 @@ When considering AVs with all AFs, the dominant patterns of co-occurrence were c
 
  **A**. Dot-plot of all allelic variants in the “Boston” dataset; rows – samples, columns – genomic coordinates; samples are arranged by hierarchical clustering. Limited to variants that occur in at least 4 samples.
 
-<iframe width="100%" height="796" frameborder="0"
-  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig1&auto=true"></iframe>
+<deferredIframe
+  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig1&auto=true" />
 
 
 **B**. Dot-plot of observed variants in the “Boston” dataset; restricted to variants that appear only at AF≤10% and occur in at least 4 samples each. Variants are partitioned into 10 clusters, using K-medoids using the Hamming distance on AF vectors; the cluster with 8 variants is highlighted in orange.
 
-<iframe width="100%" height="796" frameborder="0"
-  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig2&auto=true"></iframe>
+<deferredIframe
+  src="https://observablehq.com/embed/@spond/exploring-sars-cov-2-intrahost-variation-patterns?cells=fig2&auto=true" />
 
 -----
 
@@ -305,9 +205,175 @@ Allelic-variants (AVs) with maximum allele frequency <80% overlapping with codon
 | 28,394 | G     | A     | N      | R41Q   | 0.110011 | 0.3188   | 0.054947 | 0.582654 | CGG     |       2 |       3 |
 | 29,446 | G     | T     | N      | V392L  | 0.110011 | 0.770096 | 0.765545 | 0.774648 | GTG     |       2 |       2 |
 
-### Continuous analysis of pandemic data with the Galaxy API
+## Continuous analysis of pandemic data with the Galaxy API
 
-Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an automated analysis system that runs our ARTIC AV-calling workflow and the reporting workflow programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information will be made available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project soon.
+Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an [automated analysis system](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) that runs our ARTIC AV-calling workflow and the reporting workflow programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information is available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project (see below for FTP access).
+
+<deferredIframe
+  src="https://observablehq.com/embed/@spond/sars-cov-2-cog-uk?cell=*" />
+
+### Processed COG-UK data
+
+Results of our analyses are distributed as:
+
+- publicly accessible Galaxy histories documenting the complete analysis performed for each sample and providing tabular variant report summaries for analysis batches
+
+  URLs to these histories and the TSV datasets (see below for column designations) are listed in the JSON file [`currently_processed.json`](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/cog-uk-tracking) containing an up-to-date list of all analyzed datasets. Specifically, the tabular variant reports are part of the history listed under `report` in the JSON file and a direct link to a per-sample variant report for each batch can be found under `report` -> `datamonkey_link`.
+
+- key result files deposited on a publically readable FTP server. These files include:
+  - [BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) - deduplicated and realigned data. Only properly paired read paired with mapping quality of at least 20 are retained
+  - [VCF](https://samtools.github.io/hts-specs/VCFv4.2.pdf) - variant calls produced with `lofreq` and annotated with `SnpEff`
+  - consensus FASTA - consensus sequences for each sample constructed from the called variants, in which a consensus allele is defined by an intra-sample allele frequency of >= 0.75 and in which ambiguous sites with a variant allele reaching an allele frequency between 0.25 and 0.75 are soft-masked.
+  
+  Use FTP client software such as [FileZilla](https://filezilla-project.org/) to access this data at `ftp://xfer13.crg.eu/`.
+
+The TSV has the following structure:
+
+| # |  Column               | Example value     | Meaning |
+|--|:----------------------|:------------------|---------|
+|1| `Sample`                | ERR4859727        | SRA run ID |
+|2| `POS`                   | 22388             | Position in [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/1798174254) |
+|3| `FILTER`                | PASS              | `Filter` field from VCF |
+|4| `REF`                   | C                 |  Reference base |
+|5| `ALT`                   | T                 | Alternative base |
+|6| `DP`                    | 13756             | Sequencing depth |
+|7| `AF`                    | 0.924106          | Alternative allele frequency |
+|8| `SB`                    | 0                 | Alternative allele frequency |
+|9| `SB`                    | 2147483647        | Strand bias P-value from Fisher's exact test calculated by [`lofreq`](https://csb5.github.io/lofreq/) |
+|10|`DP4`                   | 1,0,13700,0       | Depth for Forward Ref Counts, Reverse Ref Counts, Forward Alt Counts, Reverse Alt Counts |
+|11|`IMPACT`                | LOW               | Functional impact (from SNPEff) |
+|12|`FUNCLASS`              | SILENT            | Funclass for change (from SNPEff) |
+|13|`EFFECT`                | SYNONYMOUS_CODING | Effect of change (from SNPEff) |
+|14|`GENE`                  | S                 | Gene name |
+|15|`CODON`                 | Cta/Tta           | Codon |
+|16|`AA`                    | L276              | Amino acid |
+|17|`TRID`                  | S                 | Short name for the gene |
+|18|`min(AF)`               | 0.0009            | Minimum Alternative Allele Freq across all samples containing this change |
+|19|`max(AF)`               | 0.94334           | Maximum Alternative Allele Freq across all samples containing this change |
+|20|`countunique(change)`   | 3                 | Number of distinct types of changes at this site across all samples |
+|21|`countunique(FUNCLASS)` | 3                 | Number of distinct FUNCLASS values at this site across all samples |
+|22|`change`                | C>T               | Change at this site in this sample |
+
+## How do I use it?
+
+
+There are three ways to use our workflows:
+
+1. Through any of the three main Galaxy instances &larr; this option uses Galaxy's Graphical User Interface (GUI) and suitable for any biomedical researcher.
+2. Using our ["Request an analysis"](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests) service &larr; to use this option you simply submit a list of datasets to us and we will trigger automated analyses.
+3. By configuring your own Galaxy instance to [automatically](https://github.com/simonbray/ena-cog-uk-wfs) trigger the analyses &larr; use this option if you run your own Galaxy installation.
+
+<div class="custom-block tip">
+	Instructions for the first option are detailed below. To learn about options 2 and 3, click the links above.
+</div>
+
+The workflows accept raw [fastq](https://en.wikipedia.org/wiki/FASTQ_format) reads as input. They can be run on either of the three global Galaxy instances:
+
+ - Galaxy North America ([https://usegalaxy.org](https://usegalaxy.org))
+ - Galaxy Europe ([https://usegalaxy.eu](https://usegalaxy.eu))
+ - Galaxy Australia ([https://usegalaxy.org.au](https://usegalaxy.org.au))
+
+Pick one closest to you and create an account. Now you are ready to start the analysis.
+
+<div class="custom-block warning">
+	If you don't have fastq datasets but have accession numbers or links to the data see <a href="#upload-your-data">these videos</a>.
+</div>
+
+
+### Import History with an auxiliary datasets
+
+Import Galaxy history with auxiliary datasets. This will be your workspace. Depending on which Galaxy instance you have chosen (US, EU, or AU) and what kind of analysis you need to do (RNAseq or Ampliconic) click on a corresponding link in the table below:
+
+| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
+|------------------------------------------------|----|----|----|
+| ARTIC v3    | [![](https://img.shields.io/badge/ARTIC-Import-green)](https://usegalaxy.org/u/aun1/h/artic-v3) | [![](https://img.shields.io/badge/ARTIC-Import-green)](https://usegalaxy.eu/u/nekrut/h/artic-v3) | [![](https://img.shields.io/badge/ARTIC-Import-green)](https://usegalaxy.org.au/u/nekrut/h/artic-v3) |
+| RNAseq      | [![](https://img.shields.io/badge/WGS-Import-green)](https://usegalaxy.org/u/aun1/h/rnaseq)   | [![](https://img.shields.io/badge/WGS-Import-green)](https://usegalaxy.eu/u/nekrut/h/rnaseq)   | [![](https://img.shields.io/badge/WGS-Import-green)](https://usegalaxy.org.au/u/nekrut/h/rnaseq)   |
+
+You will see the history outline. Click on the <kbd>+</kbd> button to import the history into your account and start an analysis.
+
+<div class="custom-block tip">How to import history:<br><br>
+	<img src="figs/history_import_gif.gif"/></div>
+
+These auxiliary histories contain SARS-CoV-2 reference and gene name aliases (to give gene regions easily recognizable names). In addition, ARTIC histories contain two datasets describing the ARTIC primer scheme.
+
+### Upload your data
+
+Before you can begin any Galaxy analysis, you need to upload the data. Here are your choices for doing this. Depending of how many datasets and what their origin is, you can do the following:
+
+| Few datasets<br><small>(1-10)</small>  | Many datasets<br><small>(10-&#8734;)</small> | Import from [SRA](https://www.ncbi.nlm.nih.gov/sra) |
+|-----|------|------|
+| <iframe width="140" height="79" src="https://www.youtube.com/embed/FFCDx1rMGAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | <iframe width="140" height="79" src="https://www.youtube.com/embed/hC8KSuT_OP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | <iframe width="140" height="79" src="https://www.youtube.com/embed/Q4t-beYZ-do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
+
+### Organize your data into a collection
+
+Collections are a way to represent arbitrarily large sets of samples as a single entity, thus making downstream analysis very convenient.
+
+<div class="custom-block tip">If you uploaded data from SRA, it will already be organized as a collection! Go to the next step.</div>
+
+The following video shows how to create a single or paired collection depending on the type of data you have:
+
+| Type of collection | A very short demo |
+|-------------------|------|
+| Paired (Illumina data) | <iframe width="140" height="79" src="https://www.youtube.com/embed/6toVj35q1r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
+| Single (Illumina or ONT data) | <iframe width="140" height="79" src="https://www.youtube.com/embed/6ZU9hFjnRDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
+
+### Run workflows
+
+Depending on what kind of data you have (RNAseq or ARTIC / single or paired / Illumina or ONT) pick a workflow from the table below:
+
+| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
+|------------------------------------------------|----|----|----|
+| Illumina RNAseq PE | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=5a610d5a42d50cf3) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=e7ba6ca41d46baf2) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=bd1cf22d47389742) |
+| Illumina RNAseq SE | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=c092a3631d68ce38) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=6b41f7afbe14647d) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=31dbd313e5c8160b) |
+| Illumina ARTIC PE     | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=d4ea6cdd40522eb1) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=2f9fa06b1a927a07) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=7fd58f5fc93f414e) |
+| ONT ARTIC          | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=88d0b64011c3148c) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=17d7f9bddbc834f8) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=0c6f7bfc826433c4) |
+| Reporting          | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org/workflows/run?id=2967ef82911f2cca) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.eu/workflows/run?id=0d10c137a0f08bca) | [![](https://img.shields.io/badge/Workflow-Run-yellow)](https://usegalaxy.org.au/workflows/run?id=8e2b94c6fbf44368) |
+
+Click on the appropriate workflow and browser will open a new tab with Galaxy's workflow invocation interface. Fill in appropriate parameters and click <kbd>▶ Run workflow</kbd>.
+
+Once it completes, run the "Reporting workflow" on the output of the previous workflow. In the end it will generate two variant lists: one grouped by sample and one by variant (these datasets are described [here](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/var).)
+
+These data can now be analyzed in either Jupyter or ObservableHQ [notebooks](#table-3).
+
+### Using existing Jupyter notebook
+
+1. Open the notebook in Google Colaboratory: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/galaxyproject/SARS-CoV-2/blob/master/data/ipynb/intrahost.ipynb)
+2. Replace `per_sample_url` and `per_variant_url` with URLs of the dataset produced by the Reporting Workflow. For example:
+
+<div class="custom-block tip">How to copy URL of a galaxy dataset into Jupyter Notebook:<br><br>
+	<img src="figs/export_url_colab_gif.gif" style="align:middle" /></div>
+
+<!--
+
+### Creating a new Jupyter notebook
+
+-->
+
+### Using existing ObservableHQ notebook
+
+The observable notebooks are available from the project landing page at [https://observablehq.com/@spond/intrahost-variant-exploration-landing](https://observablehq.com/@spond/intrahost-variant-exploration-landing):
+
+<iframe width="100%" height="500" frameborder="0"
+  src="https://observablehq.com/embed/@spond/intrahost-variant-exploration-landing?cell=*"></iframe>
+
+### What if I want to modify workflows?
+
+Running workflows as described [above](#run-workflows) will run exactly as we designed them. But what if you want to modify them? In this case you can import then into your own Galaxy accounts and use workflow editor to perform any modification you like: change parameters, switch tools and so on.
+
+To do this first pick workflow from the table below:
+
+| &#8595; Type of data / Galaxy instance &#8594; | North America | Europe | Australia |
+|------------------------------------------------|----|----|----|
+| Illumina RNAseq PE | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=5a610d5a42d50cf3) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=e7ba6ca41d46baf2) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=bd1cf22d47389742) |
+| Illumina RNAseq SE | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=c092a3631d68ce38) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=6b41f7afbe14647d) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=31dbd313e5c8160b) |
+| Illumina ARTIC PE     | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=d4ea6cdd40522eb1) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=2f9fa06b1a927a07) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=7fd58f5fc93f414e) |
+| ONT ARTIC          | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=88d0b64011c3148c) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=17d7f9bddbc834f8) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=0c6f7bfc826433c4) |
+| Reporting          | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org/workflows/imp?id=2967ef82911f2cca) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.eu/workflows/imp?id=0d10c137a0f08bca) | [![](https://img.shields.io/badge/Workflow-Import-red)](https://usegalaxy.org.au/workflows/imp?id=8e2b94c6fbf44368) |
+
+Click on the <kbd>+</kbd> to import workflow into your account:
+
+<div class="custom-block tip">How to import workflow:<br><br>
+	<img src="figs/workflow_import_gif.gif" style="align:middle" /></div>
 
 ## Methods
 
