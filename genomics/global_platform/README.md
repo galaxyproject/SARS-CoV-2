@@ -28,7 +28,7 @@ As [Fig. 1](#figure-1) shows it works like this:
 1. You run an appropriate analysis [workflow](#table-1). This generates variant list tables;
 2. You then use Jupyter or Observable notebooks to interpret these tables;
 
-These workflows allow one to identify allelic variants in SARS-CoV-2 genome with frequencies ranging from 5% to 100%. 
+These workflows allow one to identify allelic variants in SARS-CoV-2 genomes with variant allele frequencies ranging from 5% to 100% (i.e., they detect variants with intermediate frequencies as well). 
 
 #### Figure 1
 Analysis flow in our analysis system. VCF = variant call format, TSV = tab separated values, JSON = JavaScript Object Notation. 
@@ -207,25 +207,25 @@ Allelic-variants (AVs) with maximum allele frequency <80% overlapping with codon
 
 ## Continuous analysis of pandemic data with the Galaxy API
 
-Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an [automated analysis system](https://github.com/simonbray/ena-cog-uk-wfs) that runs our ARTIC AV-calling workflow and the reporting workflow programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information is available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project (see below for FTP access).
+Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an [automated analysis system](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) that runs our ARTIC AV-calling workflow and the reporting workflow programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information is available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project (see below for FTP access).
 
 <deferredIframe
   src="https://observablehq.com/embed/@spond/sars-cov-2-cog-uk?cell=*" />
 
 ### Processed COG-UK data
 
-Results of our analyses are distributed as following datasets:
+Results of our analyses are distributed as:
 
-- BAM - deduplicated and realigned data. Only properly paired read paired with mapping quality of at least 20 are retained.
-- VCF - variant calls produced with `lofreq` and annotated with `SNPeff`
-- TSV - tab delimited version of VCF files
+- publicly accessible Galaxy histories documenting the complete analysis performed for each sample and providing tabular variant report summaries for analysis batches
 
-BAM anv VCF files are available from Viral Beacon ftp server at `ftp://xfer13.crg.eu/` (use FTP client software such as [FileZilla](https://filezilla-project.org/) to access the site).
+  URLs to these histories and the TSV datasets (see below for column designations) are listed in the JSON file [`currently_processed.json`](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/cog-uk-tracking) containing an up-to-date list of all analyzed datasets. Specifically, the tabular variant reports are part of the history listed under `report` in the JSON file and a direct link to a per-sample variant report for each batch can be found under `report` -> `datamonkey_link`.
 
-URLs for TSV datasets are listed in the JSON file [`currently_processed.json`](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/cog-uk-tracking) containing up-to-date list of all analyzed datasets. The following tags contain URLs for variant TSV file and consensus sequence:
-
-- `datamonkey_link` - variants in TSV format
-- `consensus` - majority rule consensus sequence for this batch of samples
+- key result files deposited on a publically readable FTP server. These files include:
+  - [BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) - deduplicated and realigned data. Only properly paired read paired with mapping quality of at least 20 are retained
+  - [VCF](https://samtools.github.io/hts-specs/VCFv4.2.pdf) - variant calls produced with `lofreq` and annotated with `SnpEff`
+  - consensus FASTA - consensus sequences for each sample constructed from the called variants, in which a consensus allele is defined by an intra-sample allele frequency of >= 0.75 and in which ambiguous sites with a variant allele reaching an allele frequency between 0.25 and 0.75 are soft-masked.
+  
+  Use FTP client software such as [FileZilla](https://filezilla-project.org/) to access this data at `ftp://xfer13.crg.eu/`.
 
 The TSV has the following structure:
 
@@ -347,9 +347,14 @@ These data can now be analyzed in either Jupyter or ObservableHQ [notebooks](#ta
 
 ### Creating a new Jupyter notebook
 
+-->
+
 ### Using existing ObservableHQ notebook
 
--->
+The observable notebooks are available from the project landing page at [https://observablehq.com/@spond/intrahost-variant-exploration-landing](https://observablehq.com/@spond/intrahost-variant-exploration-landing):
+
+<iframe width="100%" height="500" frameborder="0"
+  src="https://observablehq.com/embed/@spond/intrahost-variant-exploration-landing?cell=*"></iframe>
 
 ### What if I want to modify workflows?
 
@@ -369,9 +374,6 @@ Click on the <kbd>+</kbd> to import workflow into your account:
 
 <div class="custom-block tip">How to import workflow:<br><br>
 	<img src="figs/workflow_import_gif.gif" style="align:middle" /></div>
-
-
-
 
 ## Methods
 

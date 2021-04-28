@@ -2,14 +2,10 @@
 title: COVID-19 data mirrored in Galaxy
 ---
 
-## Live Resources
 
-COVID-19 data is mirrored in the following Galaxy instances. No download needed.<br>
+## Continuos analysis of SARS-CoV-2 data
 
-| usegalaxy.eu | usegalaxy.org |
-|:--------:|:------------:|
-| <FlatShield label="usegalaxy" message="eu" href="https://bit.ly/usegalaxy-eu-covid19-data"/> | <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org/library/list#folders/Fe878daae442969ff"/> |
-| | |
+See this [<kbd>link</kbd>](/genomics/global_platform/#processed-cog-uk-data) for up-to-date information.
 
 
 ## COVID-19 resources available as data library
@@ -24,6 +20,10 @@ help us avoid data duplication on our server
 The Export to History functionality of the shared data library offers powerful options for importing large data collections in structured ways.
 
 Currently, we host imaging, proteomics and next-generation sequencing (NGS) data on SARS-CoV-2.
+
+| usegalaxy.eu | usegalaxy.org |
+|:--------:|:------------:|
+| <FlatShield label="usegalaxy" message="eu" href="https://bit.ly/usegalaxy-eu-covid19-data"/> | <FlatShield label="usegalaxy" message="org" href="https://usegalaxy.org/library/list#folders/Fe878daae442969ff"/> |
 
 ## NGS datasets in the data library
 
