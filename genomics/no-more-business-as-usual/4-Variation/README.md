@@ -62,7 +62,6 @@ The list of currently analyzed datasets (as of April 28, 2020) is shown in Table
 | May 9, 2020                            | [Paired and Single Ends](https://usegalaxy.org/u/sars-cov2-bot/h/2020-05-09-update)|
 | May 17, 2020                           | [Paired and Single Ends](https://usegalaxy.org/u/sars-cov2-bot/h/2020-05-17-update)|
 | May 18, 2020                           | [Paired and Single Ends](https://usegalaxy.org/u/sars-cov2-bot/h/2020-05-18-update)| 
-| May 20, 2020                           | in progress |
 | History for aggregation                | (https://usegalaxy.org/u/sars-cov2-bot/h/covid19-variant-aggregation-analysis)|
 
 
@@ -94,7 +93,7 @@ Because all differences identified this way are derived from DCS reads they are 
 
 ![](./caller_comparison_fig2.png)
 
-<small>**Figure 2.** Calls made by `mutect2`, `freebayes`, and `lofreq`. For explanation of x-axis labels see Table 1.</small>
+<small>**Figure 2.** Calls made by `mutect2`, `freebayes`, and `lofreq`. For explanation of x-axis labels see Table 2.</small>
 
 ------
 
