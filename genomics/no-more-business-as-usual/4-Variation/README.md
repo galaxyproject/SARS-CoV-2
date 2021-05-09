@@ -82,7 +82,7 @@ For the following analysis we selected two data points from [Mei et al. 2019](ht
 
 -------
 
-![](caller_comparison_fig1.png)
+![](./caller_comparison_fig1.png)
 
 <small>**Figure 1.** Counts of alternative bases at eight variable locations within pBR322.</small>
 
@@ -92,7 +92,7 @@ Because all differences identified this way are derived from DCS reads they are 
 
 ------
 
-![](caller_comparison_fig2.png)
+![](./caller_comparison_fig2.png)
 
 <small>**Figure 2.** Calls made by `mutect2`, `freebayes`, and `lofreq`. For explanation of x-axis labels see Table 1.</small>
 
