@@ -207,23 +207,21 @@ Allelic-variants (AVs) with maximum allele frequency <80% overlapping with codon
 
 ## Continuous analysis of pandemic data with the Galaxy API
 
-Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an [automated analysis system](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) that runs our ARTIC AV-calling workflow and the reporting workflow programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information is available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project (see below for FTP access).
+Genome surveillance projects at national levels like COG-UK produce sequencing data for unprecedented numbers of samples. To demonstrate that our system can satisfy the analysis needs of such projects, we are performing near real-time analysis of COG-UK sequencing data as it is being submitted to the European Sequence Archive (ENA). We set up an [automated analysis system](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) that runs our ARTIC AV-calling workflow and the reporting and consensus workflows programmatically on all new COG-UK ARTIC paired-end data via Galaxy's openly accessible API. The system also handles data organization into Galaxy histories and exports of resulting datasets. The resulting AV information is available through the [CRG Viral Beacon](https://covid19beacon.crg.eu/) project (see below for FTP access).
 
 <deferredIframe
-  src="https://observablehq.com/embed/@spond/sars-cov-2-cog-uk?cell=*" />
+  src="https://observablehq.com/embed/@spond/intrahost-dashboard?cell=*" />
 
 ### Processed COG-UK data
 
 Results of our analyses are distributed as:
 
 - publicly accessible Galaxy histories documenting the complete analysis performed for each sample and providing tabular variant report summaries for analysis batches
-
-  URLs to these histories and the TSV datasets (see below for column designations) are listed in the JSON file [`currently_processed.json`](https://github.com/galaxyproject/SARS-CoV-2/tree/master/data/cog-uk-tracking) containing an up-to-date list of all analyzed datasets. Specifically, the tabular variant reports are part of the history listed under `report` in the JSON file and a direct link to a per-sample variant report for each batch can be found under `report` -> `datamonkey_link`.
-
 - key result files deposited on a publically readable FTP server. These files include:
-  - [BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) - deduplicated and realigned data. Only properly paired read paired with mapping quality of at least 20 are retained
+  - a JSON file, `gx-surveillance.json`, with an up-to-date list of all datasets analyzed so far including URLs to the corresponding Galaxy histories and the TSV datasets (see below for column designations). Specifically, the tabular variant reports are part of the history listed under `report` in the JSON file and a direct link to a per-sample variant report for each batch can be found under `report` -> `datamonkey_link`.
+  - [BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) - deduplicated, realigned and primer-trimmed data. Only properly paired reads with mapping quality of at least 20 are retained
   - [VCF](https://samtools.github.io/hts-specs/VCFv4.2.pdf) - variant calls produced with `lofreq` and annotated with `SnpEff`
-  - consensus FASTA - consensus sequences for each sample constructed from the called variants, in which a consensus allele is defined by an intra-sample allele frequency of >= 0.75 and in which ambiguous sites with a variant allele reaching an allele frequency between 0.25 and 0.75 are soft-masked.
+  - consensus FASTA - consensus sequences for each sample constructed from the called variants, in which a consensus allele is defined by an intra-sample allele frequency of >= 0.7 and in which low-coverage and ambiguous sites with a variant allele reaching an allele frequency between 0.25 and 0.7 are hard-masked.
   
   Use FTP client software such as [FileZilla](https://filezilla-project.org/) to access this data at `ftp://xfer13.crg.eu/`.
 
@@ -261,7 +259,7 @@ There are three ways to use our workflows:
 
 1. Through any of the three main Galaxy instances &larr; this option uses Galaxy's Graphical User Interface (GUI) and suitable for any biomedical researcher.
 2. Using our ["Request an analysis"](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests) service &larr; to use this option you simply submit a list of datasets to us and we will trigger automated analyses.
-3. By configuring your own Galaxy instance to [automatically](https://github.com/simonbray/ena-cog-uk-wfs) trigger the analyses &larr; use this option if you run your own Galaxy installation.
+3. By configuring your own Galaxy instance to [automatically](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) trigger the analyses &larr; use this option if you run your own Galaxy installation.
 
 <div class="custom-block tip">
 	Instructions for the first option are detailed below. To learn about options 2 and 3, click the links above.
