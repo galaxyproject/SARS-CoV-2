@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/dashboard*"
+  to = "https://observablehq.com/@spond/intrahost-dashboard"
+  status = 301
+  force = true
+
