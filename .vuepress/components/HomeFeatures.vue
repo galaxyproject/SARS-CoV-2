@@ -31,7 +31,7 @@
 
             <div class="h-feature">
                 <div class="h-feature-content">
-                    <a href="https://observablehq.com/@spond/revised-sars-cov-2-analytics-page">
+                    <a href="https://covid19.galaxyproject.org/dashboard/">
                         <h3>Evolution</h3>
                     </a>
                     <p>
@@ -43,7 +43,7 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <a href="https://observablehq.com/@spond/revised-sars-cov-2-analytics-page">
+                    <a href="https://covid19.galaxyproject.org/dashboard/">
                         <img :src="$withBase('./img/evo.png')" />
                     </a>
                 </div>
