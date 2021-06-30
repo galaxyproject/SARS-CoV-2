@@ -37,4 +37,8 @@ Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana Uni
   <a href="https://datamonkey.org">          <img src="./genomics/img/datamonkey.svg" alt="Datamonkey" width = "150px" /></a> &nbsp;
   <a href="https://www.france-bioinformatique.fr/en">          <img src="./genomics/img/ifb.png" alt="IFB" width = "20%" /></a> &nbsp;
   <a href="http://galaxyp.org/">          <img src="./proteomics/img/galaxyp.png" alt="GalaxyP" width = "10%" /></a> &nbsp;
+   <a href="https://www.niaid.nih.gov/"> <img src="./genomics/img/niaid_logo.jpg" width="11%" alt="NIAID" /></a> &nbsp;
+   <a href="https://www.nhgri.nih.gov/"> <img src="./genomics/img/Nhgri_logo_vertical.jpg" width="9%" alt="NHGRI" /></a> &nbsp;
+
+
 </p>
