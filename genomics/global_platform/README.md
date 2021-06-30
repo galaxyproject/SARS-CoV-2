@@ -39,6 +39,10 @@ Analysis flow in our analysis system. VCF = variant call format, TSV = tab separ
 
 ## Workflows for discovery of sequence variants
 
+<div class="custom-block warning">
+Workflows are now available from <a href="https://workflowhub.eu/workflows?filter%5Btag%5D=covid-19&filter%5Bworkflow_type%5D=galaxy">WorkflowHub</a> and <a href="https://dockstore.org/search?descriptorType=gxformat2&organization=iwc-workflows&searchMode=files">DockStore</a>. The following <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#from-fastq-to-annotated-allelic-variants">tutorial</a> explains how to import workflows into your Galaxy instance.
+</div>
+
 We developed five analysis workflows to support the identification of allelic variants in SARS-CoV-2 from deep sequencing reads ([Table 1](#table-1)). A user begins the analysis by uploading reads in FASTQ format into Galaxy ([Fig. 1](#figure-1)) as a dataset collection (a dataset collection is a way to represent an arbitrarily large collection of samples as a singular entity within a user's workspace; see video pre-pended with "Dataset Collections" at the [following YouTube channel](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)). These datasets can either be uploaded by the user, obtained from local data mirrors or retrieved directly from the Sequence Read Archive at NCBI. The four primary analysis workflows (#1-4 in [Table 1](#table-1)) convert FASTQ data to annotated AVs through a series of steps that include quality control, trimming, mapping, deduplication, AV calling, and filtering. All Illumina workflows use [lofreq](https://csb5.github.io/lofreq/) as the principal AV caller. We selected it based on extensive testing ([Methods](#methods)). All four workflows produce identically annotated VCF output that is further processed by the Reporting workflow (#5 in [Table 1](#table-1)) to generate data tables describing AVs. These data tables are further processed with Jupyter directly in Galaxy and with ObservableHQ to generate all figures and tables shown here.
 
 ----

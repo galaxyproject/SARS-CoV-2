@@ -10,7 +10,8 @@
             <RouterLink class="action-button" :to="'/genomics/global_platform/'">Why?</RouterLink>
             <RouterLink class="action-button" :to="'/genomics/global_platform/#workflows-for-discovery-of-sequence-variants'">Workflows</RouterLink>
             <RouterLink class="action-button" :to="'/genomics/global_platform/#processed-cog-uk-data'">Data</RouterLink>
-            <RouterLink class="action-button" :to="'/genomics/global_platform/#how-do-i-use-it'">How To?</RouterLink>
+            <RouterLink class="action-button" :to="'/genomics/global_platform/#how-do-i-use-it'">How Do I?</RouterLink>
+            <a class="action-button" href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html">Training</a>
         </div>
     </div>
 </template>
@@ -32,7 +33,7 @@ export default {
     .action-button {
         flex: 1 1 0px
         text-align: center;
-        margin: 0 2rem;
+        margin: 0 1rem;
         font-size: 1.2rem;
         color: #fff;
         border: 1px solid lighten($buttonColor, 10%);
