@@ -4,11 +4,11 @@ title: Artic
 
 ## Live Resources
 
-| usegalaxy.eu | usegalaxy.org.au |
-|:--------:|:------------:|
-| <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F2a32545de855d335" alt="Raw data" /> | |
-| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/wolfgang-maier/w/covid19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.org.au/u/simongladman/w/covid-19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" />  |
-| <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/wolfgang-maier/h/artic-example-analysis" alt="Galaxy history" /> | |
+| usegalaxy.org | usegalaxy.eu | usegalaxy.org.au |
+|:-------------:|:-----------:|:----------------:|
+| | <FlatShield label="data" message="view" href="https://usegalaxy.eu/library/list#folders/F2a32545de855d335" alt="Raw data" /> | |
+| <FlatSheild label="workflow" message="run" href="https://usegalaxy.org/u/aun1/w/covid-19-variation-analysis-on-artic-pe-data-1" alt="Galaxy workflow" />| <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/wolfgang-maier/w/covid19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.org.au/u/simongladman/w/covid-19-variation-analysis-on-artic-pe-data" alt="Galaxy workflow" />  |
+| | <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/wolfgang-maier/h/artic-example-analysis" alt="Galaxy history" /> | |
 
 ## Background
 
