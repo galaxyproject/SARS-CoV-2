@@ -8,7 +8,7 @@ The goal of this resource is to provide publicly accessible infrastructure
 and workflows for SARS-CoV-2 data analyses. We currently feature three
 different types of analyses: [Genomics](#genomics), [Cheminformatics](#cheminformatics), and [Proteomics](#proteomics).
 
-<div align="center" width="100%"><a href="https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/"><button type="button" class="btn btn-primary btn-lg" style="display: inline-block;
+<!-- <div align="center" width="100%"><a href="https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/"><button type="button" class="btn btn-primary btn-lg" style="display: inline-block;
       font-size: 1.2rem;
       color: #000;
       background-color: #5aaae2;
@@ -17,7 +17,7 @@ different types of analyses: [Genomics](#genomics), [Cheminformatics](#cheminfor
       transition: background-color 0.1s ease;
       box-sizing: border-box;
       border-bottom: 1px solid darken(#5aaae2, 10%);">Workshop: SARS-CoV-2 Data Analysis and Monitoring</button></a></div>
-
+-->
 <!-- See `.vuepress/componenents/Monitoring.vue` to edit the monitoring block -->
 <Monitoring />
 <!-- See `.vuepress/componenents/HomeFeatures.vue` to edit the homepage feature blocks -->
