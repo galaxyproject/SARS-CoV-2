@@ -48,7 +48,7 @@ We developed five analysis workflows to support the identification of allelic va
 ----
 
 #### Table 1 
-Workflow description. Clicking <kbd>EU</kbd>, <kbd>EU</kbd>, or <kbd>AU</kbd> buttons will take you to workflow at [US](https://usegalaxy.org), [European](https://usegalaxy.eu), or [Australian](https://usegalaxy.org.au) instance.
+Workflow description. Clicking <kbd>US</kbd>, <kbd>EU</kbd>, or <kbd>AU</kbd> buttons will take you to workflow at [US](https://usegalaxy.org), [European](https://usegalaxy.eu), or [Australian](https://usegalaxy.org.au) instance.
 
 | Workflow | Input data | Read aligner | Variant caller |
 |----------|-------------|---|---|---|
