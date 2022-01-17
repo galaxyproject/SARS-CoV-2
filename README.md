@@ -4,6 +4,11 @@ heroText: "Global platform for the analysis of SARS-CoV-2 data: Genomics, Chemin
 description: "Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets."
 ---
 
+<div class="custom-block danger">
+  <h1>Visit our new SARS-CoV-2 <a href="https://galaxyproject.org/covid19">surveillance site</a>!</h1>
+As of January 2022 this site will no longer be updated. Please visit our new site at <a href="https://galaxyproject.org/covid19">https://galaxyproject.org/covid19</a> for the latest information on our surveillance efforts!
+</div>
+
 The goal of this resource is to provide publicly accessible infrastructure
 and workflows for SARS-CoV-2 data analyses. We currently feature three
 different types of analyses: [Genomics](#genomics), [Cheminformatics](#cheminformatics), and [Proteomics](#proteomics).
