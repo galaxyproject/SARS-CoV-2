@@ -15,12 +15,11 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 
 ## Description
 
-The COVID-19 pandemic continues with the emergence of new strains.As virulence seems to be increasing with each variant, there is a dire need to advance the MS-based diagnostics to identify optimal 
-strain-specific biomarker peptides from non-invasively collected clinical samples.The Galaxy-P Team has developed workflows to detect and validate the SARS-CoV-2 peptides useful for developing targeted MS-based biomarker assays.
+The COVID-19 pandemic continues with the emergence of new strains.As virulence seems to be increasing with each variant, there is a dire need to advance the MS-based diagnostics to identify optimal strain-specific biomarker peptides from non-invasively collected clinical samples.The Galaxy-P Team has developed workflows to detect and validate the SARS-CoV-2 peptides useful for developing targeted MS-based biomarker assays.
 ![Publicly available clinical MS/MS clinical datasets from ProteomeXchange used for the variant detection study.](./../img/FIgure1.png)
 
 
-## Workflow
+## Workflows
 
 Our workflows are divided into two parts
 A) Discovery workflow: Where MS/MS data from publicly available & nasopharyngeal patient samples were searched against protein FASTA files from SARS-CoV-2 Wildtype (WT) & variant strains along with Human UniProt & contaminants 
@@ -32,10 +31,6 @@ B) Verification workflow: In the second workflow, the 908 peptides were verified
 containing proteins from human and contaminants.Resulting data was filtered to generate a list of confident peptide matches with associated P-values (<0.05) to SARS-CoV-2 and its variants.
 The peptide list was further analyzed using bioinformatic tool such as BLAST-P. The spectral quality of these verified peptides was inspected manually using Lorikeet tool within the Multi-omics Viewing Platform (MVP). 
 Verified peptides were further investigated to extract additional information using the GSAID repository and then the peptides were manually aligned to the SARS-SoV2- Wild type sequence for variant identification.
-
-![](./../img/FIgure2.png)
-
-
 
 ## Results
 
