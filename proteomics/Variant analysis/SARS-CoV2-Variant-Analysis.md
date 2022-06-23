@@ -16,7 +16,7 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 ## Description
 
 The COVID-19 pandemic continues with the emergence of new strains.As virulence seems to be increasing with each variant, there is a dire need to advance the MS-based diagnostics to identify optimal strain-specific biomarker peptides from non-invasively collected clinical samples.The Galaxy-P Team has developed workflows to detect and validate the SARS-CoV-2 peptides useful for developing targeted MS-based biomarker assays.
-![Publicly available clinical MS/MS clinical datasets from ProteomeXchange used for the variant detection study.](./../img/FIgure1.png)
+!(./../img/dataset-demographics.png)
 
 
 ## Workflows
@@ -25,7 +25,7 @@ Our workflows are divided into two parts
 A) Discovery workflow: Where MS/MS data from publicly available & nasopharyngeal patient samples were searched against protein FASTA files from SARS-CoV-2 Wildtype (WT) & variant strains along with Human UniProt & contaminants 
 using SearchGUI/Peptide Shaker & MaxQuant search algorithms.Confident peptides were extracted from the peptide results & SARS-CoV-2 peptides were filtered by removing human proteins & contaminants.
 We detected 210 SARS-CoV-2 peptides from twelve clinical datasets. These peptides were then added to a panel of 803 peptides to get 908 unique peptides.
- ![](./../img/FIgure2.png)
+ ![](./../img/discovery-verification-workflow.png)
  
 B) Verification workflow: In the second workflow, the 908 peptides were verified for their presence in the 12 clinical datasets using PepQuery Tool.The PepQuery Tool ranks the matches of the peptide panel to COVID-19 MS data against a reference proteome 
 containing proteins from human and contaminants.Resulting data was filtered to generate a list of confident peptide matches with associated P-values (<0.05) to SARS-CoV-2 and its variants.
@@ -37,10 +37,10 @@ Verified peptides were further investigated to extract additional information us
 Most of the verified strain-specific peptides, align to the nucleocapsid, and spike proteins of the viral proteome and would serve as the optimal targets for direct detection of SARS-CoV-2 strains.
 The flexibility of the Galaxy workflows has the potential to detect the emerging strains on newly published MS datasets (DDA or parallel-reaction-monitoring (PRM)).  We are expanding our peptide panel to 
 include peptide targets to detect emerging strains.
-![](./../img/FIgure3.png)
+![](./../img/covid-variant-lorikeet.png)
 
 Here is a table of the different variants obtained from our workflows.
-![](./../img/table1.png)
+![](./../img/variant-peptides.png)
 
 
 
