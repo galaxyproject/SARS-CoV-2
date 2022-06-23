@@ -8,10 +8,10 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 
 | usegalaxy.eu |
 |:--------:|:------------:|:------------:|:------------:|:------------:|
-| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/subina/h/pxd018094-lung-samples" alt="Raw data" /> |
-| <FlatShield label="Variant analysis history" message="view" href="https://usegalaxy.eu/u/arajczewski/h/imported-pxd018094-lung-samples-normal" alt="Galaxy history" /> |
-| <FlatShield label="Discovery workflow" message="run" href="https://usegalaxy.eu/u/arajczewski/w/imported-workflow-for-covid-19-peptide-validation-pxd018094-and-pxd022085" /> |
-| <FlatShield label="Verification workflow" message="run" href="https://usegalaxy.eu/u/arajczewski/w/imported-workflow-for-covid-19-peptide-validation-pxd018094-and-pxd022085" /> |
+| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/subina/h/covid-paper-workflow-input" alt="Raw data" /> |
+| <FlatShield label="Variant analysis history" message="view" href="" alt="Galaxy history" /> |
+| <FlatShield label="Discovery workflow" message="run" href="https://usegalaxy.eu/u/subina/w/covid-discovery-workflow" /> |
+| <FlatShield label="Verification workflow" message="run" href="https://usegalaxy.eu/u/subina/w/covid-verification-workflow" /> |
 
 ## Description
 
